@@ -7,7 +7,7 @@
       "kind": "case-study",
       "title": "Airbnb Aircover Miniature Motion Campaign",
       "summary": "A strong reference for product reassurance that avoids dry UI explanation: handcrafted miniature spaces, CG characters, and scenario-based storytelling make an abstract service benefit feel tangible.",
-      "sourcePath": "design-templates/campaign-visual-projects/references/catalog.json",
+      "sourcePath": "design-templates/campaign-visual-projects/references/entries/airbnb-aircover-miniature-motion-campaign.json",
       "previewPath": "design-templates/campaign-visual-projects/example.html",
       "tags": [
         "campaign",
@@ -40,6 +40,7 @@
       "sourcePolicy": "inspiration-only",
       "files": {
         "catalog": "design-templates/campaign-visual-projects/references/catalog.json",
+        "entry": "design-templates/campaign-visual-projects/references/entries/airbnb-aircover-miniature-motion-campaign.json",
         "preview": "design-templates/campaign-visual-projects/example.html"
       }
     },
@@ -48,7 +49,7 @@
       "kind": "case-study",
       "title": "Multi-format Campaign Visual System",
       "summary": "A campaign reference for keeping one visual idea coherent across hero art, social crops, motion cutdowns, and landing-page modules.",
-      "sourcePath": "design-templates/campaign-visual-projects/references/catalog.json",
+      "sourcePath": "design-templates/campaign-visual-projects/references/entries/multi-format-campaign-visual-system.json",
       "previewPath": "design-templates/campaign-visual-projects/example.html",
       "tags": [
         "campaign",
@@ -81,6 +82,7 @@
       "sourcePolicy": "inspiration-only",
       "files": {
         "catalog": "design-templates/campaign-visual-projects/references/catalog.json",
+        "entry": "design-templates/campaign-visual-projects/references/entries/multi-format-campaign-visual-system.json",
         "preview": "design-templates/campaign-visual-projects/example.html"
       }
     },
@@ -89,7 +91,7 @@
       "kind": "case-study",
       "title": "Spotify Wrapped Shareable Identity System",
       "summary": "A campaign reference for turning user data into culturally recognizable, shareable visual assets while keeping the brand flexible across genres, markets, social formats, and out-of-home moments.",
-      "sourcePath": "design-templates/campaign-visual-projects/references/catalog.json",
+      "sourcePath": "design-templates/campaign-visual-projects/references/entries/spotify-wrapped-shareable-identity-system.json",
       "previewPath": "design-templates/campaign-visual-projects/example.html",
       "tags": [
         "campaign",
@@ -122,6 +124,7 @@
       "sourcePolicy": "inspiration-only",
       "files": {
         "catalog": "design-templates/campaign-visual-projects/references/catalog.json",
+        "entry": "design-templates/campaign-visual-projects/references/entries/spotify-wrapped-shareable-identity-system.json",
         "preview": "design-templates/campaign-visual-projects/example.html"
       }
     },
@@ -1092,7 +1095,7 @@
       "kind": "case-study",
       "title": "Editorial Spread Reading Rhythm",
       "summary": "A useful editorial reference for turning long-form content into a paced visual system with covers, feature openers, captions, pull quotes, and image sequencing.",
-      "sourcePath": "design-templates/editorial-magazine-projects/references/catalog.json",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/editorial-spread-reading-rhythm.json",
       "previewPath": "design-templates/editorial-magazine-projects/example.html",
       "tags": [
         "magazine",
@@ -1124,6 +1127,7 @@
       "sourcePolicy": "inspiration-only",
       "files": {
         "catalog": "design-templates/editorial-magazine-projects/references/catalog.json",
+        "entry": "design-templates/editorial-magazine-projects/references/entries/editorial-spread-reading-rhythm.json",
         "preview": "design-templates/editorial-magazine-projects/example.html"
       }
     },
@@ -1132,7 +1136,7 @@
       "kind": "case-study",
       "title": "Plastikcomb #5 Collage Spread System",
       "summary": "A useful counterpoint to clean editorial grids: the spreads use collage, photocopy texture, fake adverts, abrupt pacing, and calm interludes to keep a raw magazine rhythm readable.",
-      "sourcePath": "design-templates/editorial-magazine-projects/references/catalog.json",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/plastikcomb-print-collage-spreads.json",
       "previewPath": "design-templates/editorial-magazine-projects/example.html",
       "tags": [
         "magazine",
@@ -1164,6 +1168,7 @@
       "sourcePolicy": "inspiration-only",
       "files": {
         "catalog": "design-templates/editorial-magazine-projects/references/catalog.json",
+        "entry": "design-templates/editorial-magazine-projects/references/entries/plastikcomb-print-collage-spreads.json",
         "preview": "design-templates/editorial-magazine-projects/example.html"
       }
     },
@@ -1172,7 +1177,7 @@
       "kind": "case-study",
       "title": "The Pudding: Colorism in High Fashion",
       "summary": "A strong digital editorial reference for making methodology, evidence, and narrative feel like one reading experience through sequenced visuals, clear authorship, and paced explanation.",
-      "sourcePath": "design-templates/editorial-magazine-projects/references/catalog.json",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/pudding-colorism-visual-essay.json",
       "previewPath": "design-templates/editorial-magazine-projects/example.html",
       "tags": [
         "magazine",
@@ -1204,6 +1209,7 @@
       "sourcePolicy": "inspiration-only",
       "files": {
         "catalog": "design-templates/editorial-magazine-projects/references/catalog.json",
+        "entry": "design-templates/editorial-magazine-projects/references/entries/pudding-colorism-visual-essay.json",
         "preview": "design-templates/editorial-magazine-projects/example.html"
       }
     },
@@ -1212,7 +1218,7 @@
       "kind": "case-study",
       "title": "Codrops GSAP Creative Hub Interaction Patterns",
       "summary": "A compact reference set for modern frontend motion patterns: scroll-synced video/image cues, 3D text, draggable carousels, mask reveals, WebGL shaders, and page transitions are grouped with live demos and implementation context.",
-      "sourcePath": "design-templates/motion-interaction-projects/references/catalog.json",
+      "sourcePath": "design-templates/motion-interaction-projects/references/entries/codrops-gsap-creative-hub-patterns.json",
       "previewPath": "design-templates/motion-interaction-projects/example.html",
       "tags": [
         "motion design",
@@ -1244,6 +1250,7 @@
       "sourcePolicy": "inspiration-only; verify individual demo licenses before code reuse",
       "files": {
         "catalog": "design-templates/motion-interaction-projects/references/catalog.json",
+        "entry": "design-templates/motion-interaction-projects/references/entries/codrops-gsap-creative-hub-patterns.json",
         "preview": "design-templates/motion-interaction-projects/example.html"
       }
     },
@@ -1252,7 +1259,7 @@
       "kind": "case-study",
       "title": "Codrops Kinetic Typography Page Transition",
       "summary": "A precise reference for using type as the transition object: background letters rotate, scale, and move forward to preserve continuity between navigation states.",
-      "sourcePath": "design-templates/motion-interaction-projects/references/catalog.json",
+      "sourcePath": "design-templates/motion-interaction-projects/references/entries/codrops-kinetic-typography-page-transition.json",
       "previewPath": "design-templates/motion-interaction-projects/example.html",
       "tags": [
         "motion design",
@@ -1284,6 +1291,7 @@
       "sourcePolicy": "inspiration-only; source code link recorded for license review before reuse",
       "files": {
         "catalog": "design-templates/motion-interaction-projects/references/catalog.json",
+        "entry": "design-templates/motion-interaction-projects/references/entries/codrops-kinetic-typography-page-transition.json",
         "preview": "design-templates/motion-interaction-projects/example.html"
       }
     },
@@ -1292,7 +1300,7 @@
       "kind": "case-study",
       "title": "Scroll and Pointer Motion System",
       "summary": "A frontend motion reference for treating scroll, pointer response, layout morphs, and reduced-motion fallback as one interaction system instead of isolated effects.",
-      "sourcePath": "design-templates/motion-interaction-projects/references/catalog.json",
+      "sourcePath": "design-templates/motion-interaction-projects/references/entries/scroll-and-pointer-motion-system.json",
       "previewPath": "design-templates/motion-interaction-projects/example.html",
       "tags": [
         "motion design",
@@ -1324,6 +1332,7 @@
       "sourcePolicy": "inspiration-only",
       "files": {
         "catalog": "design-templates/motion-interaction-projects/references/catalog.json",
+        "entry": "design-templates/motion-interaction-projects/references/entries/scroll-and-pointer-motion-system.json",
         "preview": "design-templates/motion-interaction-projects/example.html"
       }
     },
@@ -3256,7 +3265,7 @@
       "kind": "case-study",
       "title": "Munich 1972 Sports Poster System",
       "summary": "A benchmark for turning a large event identity into a disciplined but lively poster family: consistent color, photographic treatment, pictogram logic, and event metadata work together without flattening each sport.",
-      "sourcePath": "design-templates/poster-projects/references/catalog.json",
+      "sourcePath": "design-templates/poster-projects/references/entries/munich-1972-sports-poster-system.json",
       "previewPath": "design-templates/poster-projects/example.html",
       "tags": [
         "poster",
@@ -3288,6 +3297,7 @@
       "sourcePolicy": "inspiration-only",
       "files": {
         "catalog": "design-templates/poster-projects/references/catalog.json",
+        "entry": "design-templates/poster-projects/references/entries/munich-1972-sports-poster-system.json",
         "preview": "design-templates/poster-projects/example.html"
       }
     },
@@ -3296,7 +3306,7 @@
       "kind": "case-study",
       "title": "The Public Theater Typographic Poster Language",
       "summary": "A strong reference for using typography as the image itself: bold condensed type, sharp figure-ground contrast, and city-like pacing create posters that feel immediate without depending on complex illustration.",
-      "sourcePath": "design-templates/poster-projects/references/catalog.json",
+      "sourcePath": "design-templates/poster-projects/references/entries/public-theater-typographic-posters.json",
       "previewPath": "design-templates/poster-projects/example.html",
       "tags": [
         "poster",
@@ -3328,6 +3338,7 @@
       "sourcePolicy": "inspiration-only",
       "files": {
         "catalog": "design-templates/poster-projects/references/catalog.json",
+        "entry": "design-templates/poster-projects/references/entries/public-theater-typographic-posters.json",
         "preview": "design-templates/poster-projects/example.html"
       }
     },
@@ -3336,7 +3347,7 @@
       "kind": "case-study",
       "title": "Swiss Cultural Poster System",
       "summary": "A durable poster reference for high-contrast hierarchy, disciplined whitespace, and type-led cultural communication without decorative overload.",
-      "sourcePath": "design-templates/poster-projects/references/catalog.json",
+      "sourcePath": "design-templates/poster-projects/references/entries/swiss-cultural-poster-system.json",
       "previewPath": "design-templates/poster-projects/example.html",
       "tags": [
         "poster",
@@ -3368,6 +3379,7 @@
       "sourcePolicy": "inspiration-only",
       "files": {
         "catalog": "design-templates/poster-projects/references/catalog.json",
+        "entry": "design-templates/poster-projects/references/entries/swiss-cultural-poster-system.json",
         "preview": "design-templates/poster-projects/example.html"
       }
     },
@@ -3486,38 +3498,6 @@
       "files": {
         "catalog": "design-templates/product-ui-projects/references/catalog.json",
         "preview": "design-templates/product-ui-projects/example.html"
-      }
-    },
-    {
-      "id": "design-system:adobe-spectrum",
-      "kind": "design-system",
-      "title": "Adobe Spectrum",
-      "summary": "Open Design package distilled from public Adobe Spectrum documentation into reusable product UI tokens, prose, and component fixtures.",
-      "sourcePath": "design-systems/adobe-spectrum",
-      "previewPath": "design-systems/adobe-spectrum/components.html",
-      "tags": [
-        "Design & Creative",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Design & Creative"
-      ],
-      "userWords": [
-        "Open Design package distilled from public Adobe Spectrum documentation into reusable product UI tokens, prose, and component fixtures."
-      ],
-      "visualTraits": [
-        "Design & Creative"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/adobe-spectrum/DESIGN.md",
-        "tokens": "design-systems/adobe-spectrum/tokens.css",
-        "preview": "design-systems/adobe-spectrum/components.html"
       }
     },
     {
@@ -3806,102 +3786,6 @@
         "design": "design-systems/atelier-zero/DESIGN.md",
         "tokens": "design-systems/atelier-zero/tokens.css",
         "preview": "design-systems/atelier-zero/components.html"
-      }
-    },
-    {
-      "id": "design-system:atlassian-design-system",
-      "kind": "design-system",
-      "title": "Atlassian Design System",
-      "summary": "A compact Open Design package distilled from Atlassian's public design-system foundations: clear enterprise surfaces, Atlassian Sans typography, token-led spacing, blue actions, and layered app UI.",
-      "sourcePath": "design-systems/atlassian-design-system",
-      "previewPath": "design-systems/atlassian-design-system/components.html",
-      "tags": [
-        "Productivity & SaaS",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Productivity & SaaS"
-      ],
-      "userWords": [
-        "A compact Open Design package distilled from Atlassian's public design-system foundations: clear enterprise surfaces, Atlassian Sans typography, token-led spacing, blue actions, and layered app UI."
-      ],
-      "visualTraits": [
-        "Productivity & SaaS"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/atlassian-design-system/DESIGN.md",
-        "tokens": "design-systems/atlassian-design-system/tokens.css",
-        "preview": "design-systems/atlassian-design-system/components.html"
-      }
-    },
-    {
-      "id": "design-system:aws-cloudscape",
-      "kind": "design-system",
-      "title": "AWS Cloudscape",
-      "summary": "Cloud operations interface language distilled from public Cloudscape Design System documentation.",
-      "sourcePath": "design-systems/aws-cloudscape",
-      "previewPath": "design-systems/aws-cloudscape/components.html",
-      "tags": [
-        "Backend & Data",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Backend & Data"
-      ],
-      "userWords": [
-        "Cloud operations interface language distilled from public Cloudscape Design System documentation."
-      ],
-      "visualTraits": [
-        "Backend & Data"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/aws-cloudscape/DESIGN.md",
-        "tokens": "design-systems/aws-cloudscape/tokens.css",
-        "preview": "design-systems/aws-cloudscape/components.html"
-      }
-    },
-    {
-      "id": "design-system:backstage-design-system",
-      "kind": "design-system",
-      "title": "Backstage Design System",
-      "summary": "Reusable developer-portal visual language distilled from Backstage public docs, Spotify for Backstage, and the open-source Backstage theme model.",
-      "sourcePath": "design-systems/backstage-design-system",
-      "previewPath": "design-systems/backstage-design-system/components.html",
-      "tags": [
-        "Developer Tools",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Developer Tools"
-      ],
-      "userWords": [
-        "Reusable developer-portal visual language distilled from Backstage public docs, Spotify for Backstage, and the open-source Backstage theme model."
-      ],
-      "visualTraits": [
-        "Developer Tools"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "github",
-      "files": {
-        "design": "design-systems/backstage-design-system/DESIGN.md",
-        "tokens": "design-systems/backstage-design-system/tokens.css",
-        "preview": "design-systems/backstage-design-system/components.html"
       }
     },
     {
@@ -4257,38 +4141,6 @@
       }
     },
     {
-      "id": "design-system:clarity-design-system",
-      "kind": "design-system",
-      "title": "Clarity Design System",
-      "summary": "Enterprise web-component visual language distilled from public Clarity documentation and the official Clarity Core package.",
-      "sourcePath": "design-systems/clarity-design-system",
-      "previewPath": "design-systems/clarity-design-system/components.html",
-      "tags": [
-        "Enterprise",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Enterprise"
-      ],
-      "userWords": [
-        "Enterprise web-component visual language distilled from public Clarity documentation and the official Clarity Core package."
-      ],
-      "visualTraits": [
-        "Enterprise"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/clarity-design-system/DESIGN.md",
-        "tokens": "design-systems/clarity-design-system/tokens.css",
-        "preview": "design-systems/clarity-design-system/components.html"
-      }
-    },
-    {
       "id": "design-system:claude",
       "kind": "design-system",
       "title": "Claude (Anthropic)",
@@ -4446,38 +4298,6 @@
         "design": "design-systems/clickhouse/DESIGN.md",
         "tokens": "design-systems/clickhouse/tokens.css",
         "preview": "design-systems/clickhouse/components.html"
-      }
-    },
-    {
-      "id": "design-system:codex-app",
-      "kind": "design-system",
-      "title": "Codex App",
-      "summary": "Agent-native desktop workspace inspired by the Codex app: pale sidebar rails, focused thread canvas, review pane, diff accents, and compact command chrome.",
-      "sourcePath": "design-systems/codex-app",
-      "previewPath": "design-systems/codex-app/components.html",
-      "tags": [
-        "Developer Tools",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Developer Tools"
-      ],
-      "userWords": [
-        "Agent-native desktop workspace inspired by the Codex app: pale sidebar rails, focused thread canvas, review pane, diff accents, and compact command chrome."
-      ],
-      "visualTraits": [
-        "Developer Tools"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/codex-app/DESIGN.md",
-        "tokens": "design-systems/codex-app/tokens.css",
-        "preview": "design-systems/codex-app/components.html"
       }
     },
     {
@@ -5025,38 +4845,6 @@
       }
     },
     {
-      "id": "design-system:elastic-ui",
-      "kind": "design-system",
-      "title": "Elastic UI",
-      "summary": "A compact Open Design package distilled from Elastic EUI's public docs and repository: analytic product surfaces, Inter typography, blue primary action, semantic data color, and precise panel-heavy UI.",
-      "sourcePath": "design-systems/elastic-ui",
-      "previewPath": "design-systems/elastic-ui/components.html",
-      "tags": [
-        "Backend & Data",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Backend & Data"
-      ],
-      "userWords": [
-        "A compact Open Design package distilled from Elastic EUI's public docs and repository: analytic product surfaces, Inter typography, blue primary action, semantic data color, and precise panel-heavy UI."
-      ],
-      "visualTraits": [
-        "Backend & Data"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/elastic-ui/DESIGN.md",
-        "tokens": "design-systems/elastic-ui/tokens.css",
-        "preview": "design-systems/elastic-ui/components.html"
-      }
-    },
-    {
       "id": "design-system:elegant",
       "kind": "design-system",
       "title": "Elegant",
@@ -5377,38 +5165,6 @@
       }
     },
     {
-      "id": "design-system:fluent-2",
-      "kind": "design-system",
-      "title": "Fluent 2",
-      "summary": "A compact Open Design package distilled from Microsoft's public Fluent 2 documentation: neutral productivity surfaces, Segoe UI typography, 4px spacing, rounded controls, material-aware layers, and natural motion.",
-      "sourcePath": "design-systems/fluent-2",
-      "previewPath": "design-systems/fluent-2/components.html",
-      "tags": [
-        "Design & Creative",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Design & Creative"
-      ],
-      "userWords": [
-        "A compact Open Design package distilled from Microsoft's public Fluent 2 documentation: neutral productivity surfaces, Segoe UI typography, 4px spacing, rounded controls, material-aware layers, and natural motion."
-      ],
-      "visualTraits": [
-        "Design & Creative"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/fluent-2/DESIGN.md",
-        "tokens": "design-systems/fluent-2/tokens.css",
-        "preview": "design-systems/fluent-2/components.html"
-      }
-    },
-    {
       "id": "design-system:framer",
       "kind": "design-system",
       "title": "Framer",
@@ -5537,38 +5293,6 @@
       }
     },
     {
-      "id": "design-system:gitlab-pajamas",
-      "kind": "design-system",
-      "title": "GitLab Pajamas",
-      "summary": "GitLab product UI language distilled from public Pajamas Design System documentation.",
-      "sourcePath": "design-systems/gitlab-pajamas",
-      "previewPath": "design-systems/gitlab-pajamas/components.html",
-      "tags": [
-        "Developer Tools",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Developer Tools"
-      ],
-      "userWords": [
-        "GitLab product UI language distilled from public Pajamas Design System documentation."
-      ],
-      "visualTraits": [
-        "Developer Tools"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/gitlab-pajamas/DESIGN.md",
-        "tokens": "design-systems/gitlab-pajamas/tokens.css",
-        "preview": "design-systems/gitlab-pajamas/components.html"
-      }
-    },
-    {
       "id": "design-system:glassmorphism",
       "kind": "design-system",
       "title": "Glassmorphism",
@@ -5598,38 +5322,6 @@
         "design": "design-systems/glassmorphism/DESIGN.md",
         "tokens": "design-systems/glassmorphism/tokens.css",
         "preview": "design-systems/glassmorphism/components.html"
-      }
-    },
-    {
-      "id": "design-system:govuk-design-system",
-      "kind": "design-system",
-      "title": "GOV.UK Design System",
-      "summary": "A distilled Open Design package for clear UK public-service interfaces: white canvas, black text, GOV.UK blue links, green primary actions, yellow focus, and strong form affordances.",
-      "sourcePath": "design-systems/govuk-design-system",
-      "previewPath": "design-systems/govuk-design-system/components.html",
-      "tags": [
-        "Government & Public Sector",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Government & Public Sector"
-      ],
-      "userWords": [
-        "A distilled Open Design package for clear UK public-service interfaces: white canvas, black text, GOV.UK blue links, green primary actions, yellow focus, and strong form affordances."
-      ],
-      "visualTraits": [
-        "Government & Public Sector"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/govuk-design-system/DESIGN.md",
-        "tokens": "design-systems/govuk-design-system/tokens.css",
-        "preview": "design-systems/govuk-design-system/components.html"
       }
     },
     {
@@ -6209,38 +5901,6 @@
       }
     },
     {
-      "id": "design-system:mimo-code",
-      "kind": "design-system",
-      "title": "MiMo Code",
-      "summary": "Bundled Open Design package for MiMo Code, the Xiaomi AI CLI coding agent. Dark terminal aesthetic with MiMo orange (#FF6900) as primary accent, 5 switchable themes, Xiaomi Cat ASCII mascot, and keyboard-driven UI components.",
-      "sourcePath": "design-systems/mimo-code",
-      "previewPath": "design-systems/mimo-code/components.html",
-      "tags": [
-        "Terminal UI · CLI Agent",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Terminal UI · CLI Agent"
-      ],
-      "userWords": [
-        "Bundled Open Design package for MiMo Code, the Xiaomi AI CLI coding agent. Dark terminal aesthetic with MiMo orange (#FF6900) as primary accent, 5 switchable themes, Xiaomi Cat ASCII mascot, and keyboard-driven UI components."
-      ],
-      "visualTraits": [
-        "Terminal UI · CLI Agent"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/mimo-code/DESIGN.md",
-        "tokens": "design-systems/mimo-code/tokens.css",
-        "preview": "design-systems/mimo-code/components.html"
-      }
-    },
-    {
       "id": "design-system:minimal",
       "kind": "design-system",
       "title": "Minimal",
@@ -6529,38 +6189,6 @@
       }
     },
     {
-      "id": "design-system:mozilla-protocol",
-      "kind": "design-system",
-      "title": "Mozilla Protocol",
-      "summary": "Open Design package distilled from public Mozilla Protocol documentation into reusable website design tokens, prose, and component fixtures.",
-      "sourcePath": "design-systems/mozilla-protocol",
-      "previewPath": "design-systems/mozilla-protocol/components.html",
-      "tags": [
-        "Brand & Marketing",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Brand & Marketing"
-      ],
-      "userWords": [
-        "Open Design package distilled from public Mozilla Protocol documentation into reusable website design tokens, prose, and component fixtures."
-      ],
-      "visualTraits": [
-        "Brand & Marketing"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/mozilla-protocol/DESIGN.md",
-        "tokens": "design-systems/mozilla-protocol/tokens.css",
-        "preview": "design-systems/mozilla-protocol/components.html"
-      }
-    },
-    {
       "id": "design-system:neobrutalism",
       "kind": "design-system",
       "title": "Neobrutalism",
@@ -6654,38 +6282,6 @@
         "design": "design-systems/neumorphism/DESIGN.md",
         "tokens": "design-systems/neumorphism/tokens.css",
         "preview": "design-systems/neumorphism/components.html"
-      }
-    },
-    {
-      "id": "design-system:nhs-design-system",
-      "kind": "design-system",
-      "title": "NHS Design System",
-      "summary": "A practical, accessibility-first health service visual language inspired by the official NHS digital service manual.",
-      "sourcePath": "design-systems/nhs-design-system",
-      "previewPath": "design-systems/nhs-design-system/components.html",
-      "tags": [
-        "Public Sector & Health",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Public Sector & Health"
-      ],
-      "userWords": [
-        "A practical, accessibility-first health service visual language inspired by the official NHS digital service manual."
-      ],
-      "visualTraits": [
-        "Public Sector & Health"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/nhs-design-system/DESIGN.md",
-        "tokens": "design-systems/nhs-design-system/tokens.css",
-        "preview": "design-systems/nhs-design-system/components.html"
       }
     },
     {
@@ -6913,38 +6509,6 @@
       }
     },
     {
-      "id": "design-system:palantir-blueprint",
-      "kind": "design-system",
-      "title": "Palantir Blueprint",
-      "summary": "A compact Open Design package distilled from Blueprint's public docs and repository: complex desktop web applications, data-dense controls, blue action states, compact typography, and enterprise table workflows.",
-      "sourcePath": "design-systems/palantir-blueprint",
-      "previewPath": "design-systems/palantir-blueprint/components.html",
-      "tags": [
-        "Backend & Data",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Backend & Data"
-      ],
-      "userWords": [
-        "A compact Open Design package distilled from Blueprint's public docs and repository: complex desktop web applications, data-dense controls, blue action states, compact typography, and enterprise table workflows."
-      ],
-      "visualTraits": [
-        "Backend & Data"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/palantir-blueprint/DESIGN.md",
-        "tokens": "design-systems/palantir-blueprint/tokens.css",
-        "preview": "design-systems/palantir-blueprint/components.html"
-      }
-    },
-    {
       "id": "design-system:paper",
       "kind": "design-system",
       "title": "Paper",
@@ -7070,38 +6634,6 @@
         "design": "design-systems/pinterest/DESIGN.md",
         "tokens": "design-systems/pinterest/tokens.css",
         "preview": "design-systems/pinterest/components.html"
-      }
-    },
-    {
-      "id": "design-system:pinterest-gestalt",
-      "kind": "design-system",
-      "title": "Pinterest Gestalt",
-      "summary": "Open Design package distilled from public Pinterest Gestalt documentation and token packages into reusable product UI tokens, prose, and component fixtures.",
-      "sourcePath": "design-systems/pinterest-gestalt",
-      "previewPath": "design-systems/pinterest-gestalt/components.html",
-      "tags": [
-        "Design & Creative",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Design & Creative"
-      ],
-      "userWords": [
-        "Open Design package distilled from public Pinterest Gestalt documentation and token packages into reusable product UI tokens, prose, and component fixtures."
-      ],
-      "visualTraits": [
-        "Design & Creative"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/pinterest-gestalt/DESIGN.md",
-        "tokens": "design-systems/pinterest-gestalt/tokens.css",
-        "preview": "design-systems/pinterest-gestalt/components.html"
       }
     },
     {
@@ -7521,38 +7053,6 @@
       }
     },
     {
-      "id": "design-system:salesforce-lightning",
-      "kind": "design-system",
-      "title": "Salesforce Lightning",
-      "summary": "Open Design package distilled from public Salesforce Lightning Design System documentation into reusable enterprise app tokens, prose, and component fixtures.",
-      "sourcePath": "design-systems/salesforce-lightning",
-      "previewPath": "design-systems/salesforce-lightning/components.html",
-      "tags": [
-        "Productivity & SaaS",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Productivity & SaaS"
-      ],
-      "userWords": [
-        "Open Design package distilled from public Salesforce Lightning Design System documentation into reusable enterprise app tokens, prose, and component fixtures."
-      ],
-      "visualTraits": [
-        "Productivity & SaaS"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/salesforce-lightning/DESIGN.md",
-        "tokens": "design-systems/salesforce-lightning/tokens.css",
-        "preview": "design-systems/salesforce-lightning/components.html"
-      }
-    },
-    {
       "id": "design-system:sanity",
       "kind": "design-system",
       "title": "Sanity",
@@ -7585,38 +7085,6 @@
       }
     },
     {
-      "id": "design-system:sap-fiori",
-      "kind": "design-system",
-      "title": "SAP Fiori",
-      "summary": "A clean enterprise application visual language inspired by official SAP Fiori web guidelines and the Morning Horizon theme.",
-      "sourcePath": "design-systems/sap-fiori",
-      "previewPath": "design-systems/sap-fiori/components.html",
-      "tags": [
-        "Enterprise Applications",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Enterprise Applications"
-      ],
-      "userWords": [
-        "A clean enterprise application visual language inspired by official SAP Fiori web guidelines and the Morning Horizon theme."
-      ],
-      "visualTraits": [
-        "Enterprise Applications"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/sap-fiori/DESIGN.md",
-        "tokens": "design-systems/sap-fiori/tokens.css",
-        "preview": "design-systems/sap-fiori/components.html"
-      }
-    },
-    {
       "id": "design-system:sentry",
       "kind": "design-system",
       "title": "Sentry",
@@ -7646,38 +7114,6 @@
         "design": "design-systems/sentry/DESIGN.md",
         "tokens": "design-systems/sentry/tokens.css",
         "preview": "design-systems/sentry/components.html"
-      }
-    },
-    {
-      "id": "design-system:servicenow-horizon",
-      "kind": "design-system",
-      "title": "ServiceNow Horizon",
-      "summary": "Reusable enterprise workflow visual language distilled from public Horizon Design System documentation.",
-      "sourcePath": "design-systems/servicenow-horizon",
-      "previewPath": "design-systems/servicenow-horizon/components.html",
-      "tags": [
-        "Productivity & SaaS",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Productivity & SaaS"
-      ],
-      "userWords": [
-        "Reusable enterprise workflow visual language distilled from public Horizon Design System documentation."
-      ],
-      "visualTraits": [
-        "Productivity & SaaS"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/servicenow-horizon/DESIGN.md",
-        "tokens": "design-systems/servicenow-horizon/tokens.css",
-        "preview": "design-systems/servicenow-horizon/components.html"
       }
     },
     {
@@ -8321,38 +7757,6 @@
       }
     },
     {
-      "id": "design-system:twilio-paste",
-      "kind": "design-system",
-      "title": "Twilio Paste",
-      "summary": "Customer-engagement product UI language distilled from public Twilio Paste documentation and official open-source tokens.",
-      "sourcePath": "design-systems/twilio-paste",
-      "previewPath": "design-systems/twilio-paste/components.html",
-      "tags": [
-        "Productivity & SaaS",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Productivity & SaaS"
-      ],
-      "userWords": [
-        "Customer-engagement product UI language distilled from public Twilio Paste documentation and official open-source tokens."
-      ],
-      "visualTraits": [
-        "Productivity & SaaS"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/twilio-paste/DESIGN.md",
-        "tokens": "design-systems/twilio-paste/tokens.css",
-        "preview": "design-systems/twilio-paste/components.html"
-      }
-    },
-    {
       "id": "design-system:uber",
       "kind": "design-system",
       "title": "Uber",
@@ -8414,38 +7818,6 @@
         "design": "design-systems/urdu/DESIGN.md",
         "tokens": "design-systems/urdu/tokens.css",
         "preview": "design-systems/urdu/components.html"
-      }
-    },
-    {
-      "id": "design-system:us-web-design-system",
-      "kind": "design-system",
-      "title": "U.S. Web Design System",
-      "summary": "A distilled Open Design package for U.S. federal digital services: tokenized color families, Public Sans-style typography, 8px spacing, accessible alerts, cards, banners, and action buttons.",
-      "sourcePath": "design-systems/us-web-design-system",
-      "previewPath": "design-systems/us-web-design-system/components.html",
-      "tags": [
-        "Government & Public Sector",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Government & Public Sector"
-      ],
-      "userWords": [
-        "A distilled Open Design package for U.S. federal digital services: tokenized color families, Public Sans-style typography, 8px spacing, accessible alerts, cards, banners, and action buttons."
-      ],
-      "visualTraits": [
-        "Government & Public Sector"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/us-web-design-system/DESIGN.md",
-        "tokens": "design-systems/us-web-design-system/tokens.css",
-        "preview": "design-systems/us-web-design-system/components.html"
       }
     },
     {
@@ -8833,38 +8205,6 @@
       }
     },
     {
-      "id": "design-system:workday-canvas",
-      "kind": "design-system",
-      "title": "Workday Canvas",
-      "summary": "Open Design package distilled from public Workday Canvas documentation, Canvas Kit, and Canvas Tokens into reusable enterprise UI tokens, prose, and component fixtures.",
-      "sourcePath": "design-systems/workday-canvas",
-      "previewPath": "design-systems/workday-canvas/components.html",
-      "tags": [
-        "Enterprise",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Enterprise"
-      ],
-      "userWords": [
-        "Open Design package distilled from public Workday Canvas documentation, Canvas Kit, and Canvas Tokens into reusable enterprise UI tokens, prose, and component fixtures."
-      ],
-      "visualTraits": [
-        "Enterprise"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/workday-canvas/DESIGN.md",
-        "tokens": "design-systems/workday-canvas/tokens.css",
-        "preview": "design-systems/workday-canvas/components.html"
-      }
-    },
-    {
       "id": "design-system:x-ai",
       "kind": "design-system",
       "title": "xAI",
@@ -8958,73 +8298,6 @@
         "design": "design-systems/zapier/DESIGN.md",
         "tokens": "design-systems/zapier/tokens.css",
         "preview": "design-systems/zapier/components.html"
-      }
-    },
-    {
-      "id": "design-system:zendesk-garden",
-      "kind": "design-system",
-      "title": "Zendesk Garden",
-      "summary": "Open Design package distilled from public Zendesk Garden documentation and Garden React into reusable product UI tokens, prose, and component fixtures.",
-      "sourcePath": "design-systems/zendesk-garden",
-      "previewPath": "design-systems/zendesk-garden/components.html",
-      "tags": [
-        "Productivity & SaaS",
-        "design-system"
-      ],
-      "useCases": [
-        "visual direction",
-        "Productivity & SaaS"
-      ],
-      "userWords": [
-        "Open Design package distilled from public Zendesk Garden documentation and Garden React into reusable product UI tokens, prose, and component fixtures."
-      ],
-      "visualTraits": [
-        "Productivity & SaaS"
-      ],
-      "roles": [
-        "visual-direction",
-        "tokens"
-      ],
-      "sourcePolicy": "bundled",
-      "files": {
-        "design": "design-systems/zendesk-garden/DESIGN.md",
-        "tokens": "design-systems/zendesk-garden/tokens.css",
-        "preview": "design-systems/zendesk-garden/components.html"
-      }
-    },
-    {
-      "id": "design-template:animated-svg-logo-draw",
-      "kind": "design-template",
-      "title": "animated-svg-logo-draw",
-      "summary": "A compact animated SVG logo reveal using stroke-dash motion, a shape mask, and a reduced-motion-safe replay loop.",
-      "sourcePath": "design-templates/animated-svg-logo-draw",
-      "previewPath": "design-templates/animated-svg-logo-draw/example.html",
-      "tags": [
-        "prototype",
-        "micro-widget",
-        "logo",
-        "svg",
-        "motion",
-        "brand",
-        "web-animation",
-        "design-template"
-      ],
-      "useCases": [
-        "micro-widget",
-        "prototype"
-      ],
-      "userWords": [
-        "A compact animated SVG logo reveal using stroke-dash motion, a shape mask, and a reduced-motion-safe replay loop."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/animated-svg-logo-draw/SKILL.md",
-        "preview": "design-templates/animated-svg-logo-draw/example.html"
       }
     },
     {
@@ -11869,1190 +11142,6 @@
       }
     },
     {
-      "id": "design-template:resume-academic-cv-lite",
-      "kind": "design-template",
-      "title": "resume-academic-cv-lite",
-      "summary": "Lightweight academic CV template for early-career researchers.",
-      "sourcePath": "design-templates/resume-academic-cv-lite",
-      "previewPath": "design-templates/resume-academic-cv-lite/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Lightweight academic CV template for early-career researchers."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-academic-cv-lite/SKILL.md",
-        "preview": "design-templates/resume-academic-cv-lite/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-architect-sheet",
-      "kind": "design-template",
-      "title": "resume-architect-sheet",
-      "summary": "Architectural drawing-sheet resume with title block, project grid, scale notes, and plan-like hierarchy.",
-      "sourcePath": "design-templates/resume-architect-sheet",
-      "previewPath": "design-templates/resume-architect-sheet/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "portfolio",
-        "design-forward",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Architectural drawing-sheet resume with title block, project grid, scale notes, and plan-like hierarchy."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-architect-sheet/SKILL.md",
-        "preview": "design-templates/resume-architect-sheet/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-ats-clean",
-      "kind": "design-template",
-      "title": "resume-ats-clean",
-      "summary": "Clean ATS-friendly one-column resume template for broad roles.",
-      "sourcePath": "design-templates/resume-ats-clean",
-      "previewPath": "design-templates/resume-ats-clean/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Clean ATS-friendly one-column resume template for broad roles."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-ats-clean/SKILL.md",
-        "preview": "design-templates/resume-ats-clean/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-awesome-cv",
-      "kind": "design-template",
-      "title": "resume-awesome-cv",
-      "summary": "Polished professional CV template with formal section rhythm and cover-letter-ready tone.",
-      "sourcePath": "design-templates/resume-awesome-cv",
-      "previewPath": "design-templates/resume-awesome-cv/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Polished professional CV template with formal section rhythm and cover-letter-ready tone."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-awesome-cv/SKILL.md",
-        "preview": "design-templates/resume-awesome-cv/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-awwwards-scroll-story",
-      "kind": "design-template",
-      "title": "resume-awwwards-scroll-story",
-      "summary": "Scroll-story resume page with hero statement, sticky index, project chapters, and cinematic section breaks.",
-      "sourcePath": "design-templates/resume-awwwards-scroll-story",
-      "previewPath": "design-templates/resume-awwwards-scroll-story/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "portfolio",
-        "design-forward",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Scroll-story resume page with hero statement, sticky index, project chapters, and cinematic section breaks."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-awwwards-scroll-story/SKILL.md",
-        "preview": "design-templates/resume-awwwards-scroll-story/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-brutalist-grid",
-      "kind": "design-template",
-      "title": "resume-brutalist-grid",
-      "summary": "Brutalist grid resume with heavy rules, raw labels, visible coordinates, and dense technical credibility.",
-      "sourcePath": "design-templates/resume-brutalist-grid",
-      "previewPath": "design-templates/resume-brutalist-grid/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "portfolio",
-        "design-forward",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Brutalist grid resume with heavy rules, raw labels, visible coordinates, and dense technical credibility."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-brutalist-grid/SKILL.md",
-        "preview": "design-templates/resume-brutalist-grid/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-canva-editorial",
-      "kind": "design-template",
-      "title": "resume-canva-editorial",
-      "summary": "Editorial resume layout with polished type contrast and creative but printable structure.",
-      "sourcePath": "design-templates/resume-canva-editorial",
-      "previewPath": "design-templates/resume-canva-editorial/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Editorial resume layout with polished type contrast and creative but printable structure."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-canva-editorial/SKILL.md",
-        "preview": "design-templates/resume-canva-editorial/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-cn-bilingual-ats",
-      "kind": "design-template",
-      "title": "resume-cn-bilingual-ats",
-      "summary": "Bilingual Chinese-English ATS-friendly resume layout.",
-      "sourcePath": "design-templates/resume-cn-bilingual-ats",
-      "previewPath": "design-templates/resume-cn-bilingual-ats/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Bilingual Chinese-English ATS-friendly resume layout."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-cn-bilingual-ats/SKILL.md",
-        "preview": "design-templates/resume-cn-bilingual-ats/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-cn-campus-intern",
-      "kind": "design-template",
-      "title": "resume-cn-campus-intern",
-      "summary": "Chinese campus recruitment resume for internship candidates.",
-      "sourcePath": "design-templates/resume-cn-campus-intern",
-      "previewPath": "design-templates/resume-cn-campus-intern/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Chinese campus recruitment resume for internship candidates."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-cn-campus-intern/SKILL.md",
-        "preview": "design-templates/resume-cn-campus-intern/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-cn-editorial-bilingual",
-      "kind": "design-template",
-      "title": "resume-cn-editorial-bilingual",
-      "summary": "Chinese-English editorial resume with bilingual section rhythm, publication-like spacing, and portfolio highlights.",
-      "sourcePath": "design-templates/resume-cn-editorial-bilingual",
-      "previewPath": "design-templates/resume-cn-editorial-bilingual/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "portfolio",
-        "design-forward",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Chinese-English editorial resume with bilingual section rhythm, publication-like spacing, and portfolio highlights."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-cn-editorial-bilingual/SKILL.md",
-        "preview": "design-templates/resume-cn-editorial-bilingual/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-cn-markdown-minimal",
-      "kind": "design-template",
-      "title": "resume-cn-markdown-minimal",
-      "summary": "Minimal Chinese resume layout inspired by Markdown structure.",
-      "sourcePath": "design-templates/resume-cn-markdown-minimal",
-      "previewPath": "design-templates/resume-cn-markdown-minimal/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Minimal Chinese resume layout inspired by Markdown structure."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-cn-markdown-minimal/SKILL.md",
-        "preview": "design-templates/resume-cn-markdown-minimal/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-cn-photo-sidebar",
-      "kind": "design-template",
-      "title": "resume-cn-photo-sidebar",
-      "summary": "Chinese resume with a photo-style sidebar and structured main column.",
-      "sourcePath": "design-templates/resume-cn-photo-sidebar",
-      "previewPath": "design-templates/resume-cn-photo-sidebar/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Chinese resume with a photo-style sidebar and structured main column."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-cn-photo-sidebar/SKILL.md",
-        "preview": "design-templates/resume-cn-photo-sidebar/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-cn-social-recruit",
-      "kind": "design-template",
-      "title": "resume-cn-social-recruit",
-      "summary": "Achievement-led Chinese resume for experienced social recruiting.",
-      "sourcePath": "design-templates/resume-cn-social-recruit",
-      "previewPath": "design-templates/resume-cn-social-recruit/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Achievement-led Chinese resume for experienced social recruiting."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-cn-social-recruit/SKILL.md",
-        "preview": "design-templates/resume-cn-social-recruit/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-creative-studio",
-      "kind": "design-template",
-      "title": "resume-creative-studio",
-      "summary": "Editorial creative resume template for studios and portfolios.",
-      "sourcePath": "design-templates/resume-creative-studio",
-      "previewPath": "design-templates/resume-creative-studio/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Editorial creative resume template for studios and portfolios."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-creative-studio/SKILL.md",
-        "preview": "design-templates/resume-creative-studio/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-developer-mono",
-      "kind": "design-template",
-      "title": "resume-developer-mono",
-      "summary": "Monospace developer resume template for technical portfolios.",
-      "sourcePath": "design-templates/resume-developer-mono",
-      "previewPath": "design-templates/resume-developer-mono/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Monospace developer resume template for technical portfolios."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-developer-mono/SKILL.md",
-        "preview": "design-templates/resume-developer-mono/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-editorial-magazine-spread",
-      "kind": "design-template",
-      "title": "resume-editorial-magazine-spread",
-      "summary": "Magazine-spread resume with oversized serif masthead, pull quotes, and art-directed editorial rhythm.",
-      "sourcePath": "design-templates/resume-editorial-magazine-spread",
-      "previewPath": "design-templates/resume-editorial-magazine-spread/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "portfolio",
-        "design-forward",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Magazine-spread resume with oversized serif masthead, pull quotes, and art-directed editorial rhythm."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-editorial-magazine-spread/SKILL.md",
-        "preview": "design-templates/resume-editorial-magazine-spread/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-enhancv-impact",
-      "kind": "design-template",
-      "title": "resume-enhancv-impact",
-      "summary": "Impact-led resume with achievement modules, career story, and measurable outcomes.",
-      "sourcePath": "design-templates/resume-enhancv-impact",
-      "previewPath": "design-templates/resume-enhancv-impact/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Impact-led resume with achievement modules, career story, and measurable outcomes."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-enhancv-impact/SKILL.md",
-        "preview": "design-templates/resume-enhancv-impact/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-executive-slate",
-      "kind": "design-template",
-      "title": "resume-executive-slate",
-      "summary": "Executive resume template with a restrained slate leadership tone.",
-      "sourcePath": "design-templates/resume-executive-slate",
-      "previewPath": "design-templates/resume-executive-slate/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Executive resume template with a restrained slate leadership tone."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-executive-slate/SKILL.md",
-        "preview": "design-templates/resume-executive-slate/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-fashion-lookbook",
-      "kind": "design-template",
-      "title": "resume-fashion-lookbook",
-      "summary": "Lookbook-style resume with image placeholders, credits, seasonal typography, and editorial production credits.",
-      "sourcePath": "design-templates/resume-fashion-lookbook",
-      "previewPath": "design-templates/resume-fashion-lookbook/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "portfolio",
-        "design-forward",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Lookbook-style resume with image placeholders, credits, seasonal typography, and editorial production credits."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-fashion-lookbook/SKILL.md",
-        "preview": "design-templates/resume-fashion-lookbook/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-flowcv-structured",
-      "kind": "design-template",
-      "title": "resume-flowcv-structured",
-      "summary": "Structured ATS-friendly resume with balanced two-column information hierarchy.",
-      "sourcePath": "design-templates/resume-flowcv-structured",
-      "previewPath": "design-templates/resume-flowcv-structured/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Structured ATS-friendly resume with balanced two-column information hierarchy."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-flowcv-structured/SKILL.md",
-        "preview": "design-templates/resume-flowcv-structured/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-founder-onepager",
-      "kind": "design-template",
-      "title": "resume-founder-onepager",
-      "summary": "Founder one-pager mixing resume, pitch memo, traction metrics, advisory proof, and operating principles.",
-      "sourcePath": "design-templates/resume-founder-onepager",
-      "previewPath": "design-templates/resume-founder-onepager/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "portfolio",
-        "design-forward",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Founder one-pager mixing resume, pitch memo, traction metrics, advisory proof, and operating principles."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-founder-onepager/SKILL.md",
-        "preview": "design-templates/resume-founder-onepager/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-infographic-map",
-      "kind": "design-template",
-      "title": "resume-infographic-map",
-      "summary": "Infographic resume mapping impact, tools, timeline, and strengths through charts instead of plain lists.",
-      "sourcePath": "design-templates/resume-infographic-map",
-      "previewPath": "design-templates/resume-infographic-map/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "portfolio",
-        "design-forward",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Infographic resume mapping impact, tools, timeline, and strengths through charts instead of plain lists."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-infographic-map/SKILL.md",
-        "preview": "design-templates/resume-infographic-map/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-json-flat",
-      "kind": "design-template",
-      "title": "resume-json-flat",
-      "summary": "Data-driven flat resume template inspired by portable JSON Resume themes.",
-      "sourcePath": "design-templates/resume-json-flat",
-      "previewPath": "design-templates/resume-json-flat/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Data-driven flat resume template inspired by portable JSON Resume themes."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-json-flat/SKILL.md",
-        "preview": "design-templates/resume-json-flat/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-kickresume-typographic",
-      "kind": "design-template",
-      "title": "resume-kickresume-typographic",
-      "summary": "Typographic resume with confident section rhythm and strong recruiter scan paths.",
-      "sourcePath": "design-templates/resume-kickresume-typographic",
-      "previewPath": "design-templates/resume-kickresume-typographic/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Typographic resume with confident section rhythm and strong recruiter scan paths."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-kickresume-typographic/SKILL.md",
-        "preview": "design-templates/resume-kickresume-typographic/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-markdown-compact",
-      "kind": "design-template",
-      "title": "resume-markdown-compact",
-      "summary": "Compact Markdown-first resume template for maintainable text-to-PDF workflows.",
-      "sourcePath": "design-templates/resume-markdown-compact",
-      "previewPath": "design-templates/resume-markdown-compact/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Compact Markdown-first resume template for maintainable text-to-PDF workflows."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-markdown-compact/SKILL.md",
-        "preview": "design-templates/resume-markdown-compact/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-motion-reel-cv",
-      "kind": "design-template",
-      "title": "resume-motion-reel-cv",
-      "summary": "Motion reel resume with storyboard strips, timeline beats, software stack, and reel-first portfolio framing.",
-      "sourcePath": "design-templates/resume-motion-reel-cv",
-      "previewPath": "design-templates/resume-motion-reel-cv/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "portfolio",
-        "design-forward",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Motion reel resume with storyboard strips, timeline beats, software stack, and reel-first portfolio framing."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-motion-reel-cv/SKILL.md",
-        "preview": "design-templates/resume-motion-reel-cv/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-neo-brutalist-lime",
-      "kind": "design-template",
-      "title": "resume-neo-brutalist-lime",
-      "summary": "Neo-brutalist resume with lime highlights, sticker labels, outlined photo block, and confident creative pacing.",
-      "sourcePath": "design-templates/resume-neo-brutalist-lime",
-      "previewPath": "design-templates/resume-neo-brutalist-lime/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "portfolio",
-        "design-forward",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Neo-brutalist resume with lime highlights, sticker labels, outlined photo block, and confident creative pacing."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-neo-brutalist-lime/SKILL.md",
-        "preview": "design-templates/resume-neo-brutalist-lime/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-novoresume-one-page",
-      "kind": "design-template",
-      "title": "resume-novoresume-one-page",
-      "summary": "Compact one-page resume optimized for recruiter scanning and ATS-friendly structure.",
-      "sourcePath": "design-templates/resume-novoresume-one-page",
-      "previewPath": "design-templates/resume-novoresume-one-page/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Compact one-page resume optimized for recruiter scanning and ATS-friendly structure."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-novoresume-one-page/SKILL.md",
-        "preview": "design-templates/resume-novoresume-one-page/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-portfolio-casebook",
-      "kind": "design-template",
-      "title": "resume-portfolio-casebook",
-      "summary": "Casebook-style resume combining bio, selected projects, role timeline, and concise outcomes.",
-      "sourcePath": "design-templates/resume-portfolio-casebook",
-      "previewPath": "design-templates/resume-portfolio-casebook/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "portfolio",
-        "design-forward",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Casebook-style resume combining bio, selected projects, role timeline, and concise outcomes."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-portfolio-casebook/SKILL.md",
-        "preview": "design-templates/resume-portfolio-casebook/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-product-designer-case-study",
-      "kind": "design-template",
-      "title": "resume-product-designer-case-study",
-      "summary": "Product designer resume with case-study evidence, impact metrics, methods, and compact career narrative.",
-      "sourcePath": "design-templates/resume-product-designer-case-study",
-      "previewPath": "design-templates/resume-product-designer-case-study/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "portfolio",
-        "design-forward",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Product designer resume with case-study evidence, impact metrics, methods, and compact career narrative."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-product-designer-case-study/SKILL.md",
-        "preview": "design-templates/resume-product-designer-case-study/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-reactive-classic",
-      "kind": "design-template",
-      "title": "resume-reactive-classic",
-      "summary": "Classic configurable resume template inspired by open-source resume builders.",
-      "sourcePath": "design-templates/resume-reactive-classic",
-      "previewPath": "design-templates/resume-reactive-classic/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Classic configurable resume template inspired by open-source resume builders."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-reactive-classic/SKILL.md",
-        "preview": "design-templates/resume-reactive-classic/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-readcv-web-minimal",
-      "kind": "design-template",
-      "title": "resume-readcv-web-minimal",
-      "summary": "Read.cv-inspired minimal web resume with conversational sections, compact links, and calm monochrome density.",
-      "sourcePath": "design-templates/resume-readcv-web-minimal",
-      "previewPath": "design-templates/resume-readcv-web-minimal/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "portfolio",
-        "design-forward",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Read.cv-inspired minimal web resume with conversational sections, compact links, and calm monochrome density."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-readcv-web-minimal/SKILL.md",
-        "preview": "design-templates/resume-readcv-web-minimal/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-trifold-brochure",
-      "kind": "design-template",
-      "title": "resume-trifold-brochure",
-      "summary": "Three-panel brochure resume for print handoff, with cover pitch, experience panels, and takeaway back page.",
-      "sourcePath": "design-templates/resume-trifold-brochure",
-      "previewPath": "design-templates/resume-trifold-brochure/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "portfolio",
-        "design-forward",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Three-panel brochure resume for print handoff, with cover pitch, experience panels, and takeaway back page."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-trifold-brochure/SKILL.md",
-        "preview": "design-templates/resume-trifold-brochure/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-two-column-deedy",
-      "kind": "design-template",
-      "title": "resume-two-column-deedy",
-      "summary": "Dense two-column technical resume inspired by classic computer-science CV structure.",
-      "sourcePath": "design-templates/resume-two-column-deedy",
-      "previewPath": "design-templates/resume-two-column-deedy/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Dense two-column technical resume inspired by classic computer-science CV structure."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-two-column-deedy/SKILL.md",
-        "preview": "design-templates/resume-two-column-deedy/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-typographic-poster",
-      "kind": "design-template",
-      "title": "resume-typographic-poster",
-      "summary": "Poster-like typographic CV with rotated metadata, strict black-and-white rhythm, and dramatic whitespace.",
-      "sourcePath": "design-templates/resume-typographic-poster",
-      "previewPath": "design-templates/resume-typographic-poster/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "portfolio",
-        "design-forward",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Poster-like typographic CV with rotated metadata, strict black-and-white rhythm, and dramatic whitespace."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-typographic-poster/SKILL.md",
-        "preview": "design-templates/resume-typographic-poster/example.html"
-      }
-    },
-    {
-      "id": "design-template:resume-zine-collage",
-      "kind": "design-template",
-      "title": "resume-zine-collage",
-      "summary": "Zine-style creative resume with cut-paper panels, taped annotations, rough edges, and portfolio mini-thumbnails.",
-      "sourcePath": "design-templates/resume-zine-collage",
-      "previewPath": "design-templates/resume-zine-collage/example.html",
-      "tags": [
-        "prototype",
-        "resume",
-        "cv",
-        "简历",
-        "portfolio",
-        "design-forward",
-        "design-template"
-      ],
-      "useCases": [
-        "resume",
-        "prototype"
-      ],
-      "userWords": [
-        "Zine-style creative resume with cut-paper panels, taped annotations, rough edges, and portfolio mini-thumbnails."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/resume-zine-collage/SKILL.md",
-        "preview": "design-templates/resume-zine-collage/example.html"
-      }
-    },
-    {
       "id": "design-template:saas-landing",
       "kind": "design-template",
       "title": "saas-landing",
@@ -13078,41 +11167,6 @@
       "files": {
         "skill": "design-templates/saas-landing/SKILL.md",
         "preview": "design-templates/saas-landing/example.html"
-      }
-    },
-    {
-      "id": "design-template:scroll-progress-nav",
-      "kind": "design-template",
-      "title": "scroll-progress-nav",
-      "summary": "Section-aware sticky navigation that fills the active rail span as the reader moves through a long page.",
-      "sourcePath": "design-templates/scroll-progress-nav",
-      "previewPath": "design-templates/scroll-progress-nav/example.html",
-      "tags": [
-        "prototype",
-        "micro-widget",
-        "scroll",
-        "navigation",
-        "docs",
-        "case-study",
-        "immersive",
-        "design-template"
-      ],
-      "useCases": [
-        "micro-widget",
-        "prototype"
-      ],
-      "userWords": [
-        "Section-aware sticky navigation that fills the active rail span as the reader moves through a long page."
-      ],
-      "visualTraits": [],
-      "roles": [
-        "artifact-shape",
-        "prototype"
-      ],
-      "sourcePolicy": "template",
-      "files": {
-        "skill": "design-templates/scroll-progress-nav/SKILL.md",
-        "preview": "design-templates/scroll-progress-nav/example.html"
       }
     },
     {

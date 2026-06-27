@@ -1,0 +1,239 @@
+{
+  "entries": [
+    {
+      "id": "editorial-spread-reading-rhythm",
+      "category": "editorial-spread",
+      "title": "Editorial Spread Reading Rhythm",
+      "maker": "Reference study",
+      "url": "https://www.itsnicethat.com/features",
+      "medium": "digital and print editorial",
+      "format": "cover plus feature spread",
+      "why": "A useful editorial reference for turning long-form content into a paced visual system with covers, feature openers, captions, pull quotes, and image sequencing.",
+      "compositionCount": 2,
+      "assetCount": 2,
+      "motionCount": 0,
+      "interactionCount": 0,
+      "implementationFormat": "static editorial",
+      "complexity": "medium",
+      "captureDepth": "layout-system-reference",
+      "captured": "2026-06-27",
+      "reusePolicy": "inspiration-only",
+      "status": "accepted",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/editorial-spread-reading-rhythm.json",
+      "preview": "design-templates/editorial-magazine-projects/example.html"
+    },
+    {
+      "id": "plastikcomb-print-collage-spreads",
+      "category": "editorial-spread",
+      "title": "Plastikcomb #5 Collage Spread System",
+      "maker": "Plastikcomb / magCulture coverage",
+      "url": "https://magculture.com/blogs/journal/plastikcomb-5",
+      "medium": "independent print magazine",
+      "format": "collage-led feature spreads",
+      "why": "A useful counterpoint to clean editorial grids: the spreads use collage, photocopy texture, fake adverts, abrupt pacing, and calm interludes to keep a raw magazine rhythm readable.",
+      "compositionCount": 2,
+      "assetCount": 2,
+      "motionCount": 0,
+      "interactionCount": 0,
+      "implementationFormat": "static print editorial",
+      "complexity": "medium",
+      "captureDepth": "spread-sequence-reference",
+      "captured": "2026-06-27",
+      "reusePolicy": "inspiration-only",
+      "status": "accepted",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/plastikcomb-print-collage-spreads.json",
+      "preview": "design-templates/editorial-magazine-projects/example.html"
+    },
+    {
+      "id": "pudding-colorism-visual-essay",
+      "category": "visual-essay",
+      "title": "The Pudding: Colorism in High Fashion",
+      "maker": "The Pudding",
+      "url": "https://pudding.cool/2019/04/vogue/",
+      "medium": "interactive visual essay",
+      "format": "data-led long-form editorial",
+      "why": "A strong digital editorial reference for making methodology, evidence, and narrative feel like one reading experience through sequenced visuals, clear authorship, and paced explanation.",
+      "compositionCount": 2,
+      "assetCount": 2,
+      "motionCount": 1,
+      "interactionCount": 1,
+      "implementationFormat": "interactive editorial",
+      "complexity": "high",
+      "captureDepth": "visual-essay-reference",
+      "captured": "2026-06-27",
+      "reusePolicy": "inspiration-only",
+      "status": "accepted",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/pudding-colorism-visual-essay.json",
+      "preview": "design-templates/editorial-magazine-projects/example.html"
+    }
+  ],
+  "compositions": [
+    {
+      "entryId": "editorial-spread-reading-rhythm",
+      "entryTitle": "Editorial Spread Reading Rhythm",
+      "category": "editorial-spread",
+      "medium": "digital and print editorial",
+      "type": "cover-hierarchy",
+      "title": "Headline-first cover stack",
+      "url": "https://www.itsnicethat.com/features",
+      "study": "The cover opener gives the story one dominant editorial promise before supporting metadata appears.",
+      "reuse": "Use for reports, magazines, launch essays, and narrative portfolios.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "editorial-spread-reading-rhythm",
+      "entryTitle": "Editorial Spread Reading Rhythm",
+      "category": "editorial-spread",
+      "medium": "digital and print editorial",
+      "type": "spread-grid",
+      "title": "Alternating dense and quiet spreads",
+      "url": "https://www.itsnicethat.com/features",
+      "study": "Reading pace comes from alternating text-heavy passages with image-led pauses.",
+      "reuse": "Use when long content needs more rhythm than a standard article template.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "plastikcomb-print-collage-spreads",
+      "entryTitle": "Plastikcomb #5 Collage Spread System",
+      "category": "editorial-spread",
+      "medium": "independent print magazine",
+      "type": "spread-grid",
+      "title": "Anti-grid with controlled pacing",
+      "url": "https://magculture.com/blogs/journal/plastikcomb-5",
+      "study": "The issue breaks conventional grids but still alternates loud openings, disruptive inserts, and quieter interview pages.",
+      "reuse": "Use when an editorial piece needs punk energy without losing reading order.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "plastikcomb-print-collage-spreads",
+      "entryTitle": "Plastikcomb #5 Collage Spread System",
+      "category": "editorial-spread",
+      "medium": "independent print magazine",
+      "type": "image-sequence",
+      "title": "Collage as context, not filler",
+      "url": "https://magculture.com/blogs/journal/plastikcomb-5",
+      "study": "Layered objects, sampled visual references, and tape-like texture make each spread feel found and authored at once.",
+      "reuse": "Use collaged fragments to create viewpoint and pace, not just to decorate empty space.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "pudding-colorism-visual-essay",
+      "entryTitle": "The Pudding: Colorism in High Fashion",
+      "category": "visual-essay",
+      "medium": "interactive visual essay",
+      "type": "cover-hierarchy",
+      "title": "Editorial claim before method",
+      "url": "https://pudding.cool/2019/04/vogue/",
+      "study": "The opener establishes the cultural question before the article introduces calculation and methodology.",
+      "reuse": "Use when a data story needs an emotional reading path before technical evidence appears.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "pudding-colorism-visual-essay",
+      "entryTitle": "The Pudding: Colorism in High Fashion",
+      "category": "visual-essay",
+      "medium": "interactive visual essay",
+      "type": "image-sequence",
+      "title": "Method as visual narrative",
+      "url": "https://pudding.cool/2019/04/vogue/",
+      "study": "Process steps are explained with visuals so readers understand how the evidence is constructed.",
+      "reuse": "Show the method in small visual increments instead of hiding it in a footnote.",
+      "captured": "2026-06-27"
+    }
+  ],
+  "assets": [
+    {
+      "entryId": "editorial-spread-reading-rhythm",
+      "entryTitle": "Editorial Spread Reading Rhythm",
+      "category": "editorial-spread",
+      "medium": "digital and print editorial",
+      "type": "pull-quote",
+      "role": "reader re-entry",
+      "notes": "Pull quotes break long passages and create scanning anchors.",
+      "reuse": "Use only when the quote advances the argument, not as decoration.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "editorial-spread-reading-rhythm",
+      "entryTitle": "Editorial Spread Reading Rhythm",
+      "category": "editorial-spread",
+      "medium": "digital and print editorial",
+      "type": "caption-system",
+      "role": "evidence and attribution",
+      "notes": "Captions should be legible but subordinate to body copy.",
+      "reuse": "Use consistent caption tone and placement across a feature.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "plastikcomb-print-collage-spreads",
+      "entryTitle": "Plastikcomb #5 Collage Spread System",
+      "category": "editorial-spread",
+      "medium": "independent print magazine",
+      "type": "photo-essay",
+      "role": "texture and evidence",
+      "notes": "Found-feeling imagery creates tactile atmosphere but must be licensed or recreated originally.",
+      "reuse": "Make original scans, textures, marks, and crops instead of copying magazine artwork.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "plastikcomb-print-collage-spreads",
+      "entryTitle": "Plastikcomb #5 Collage Spread System",
+      "category": "editorial-spread",
+      "medium": "independent print magazine",
+      "type": "pull-quote",
+      "role": "rupture and rhythm",
+      "notes": "Oversized type can function as a disruptive object between image-led sections.",
+      "reuse": "Use type scale breaks intentionally to reset attention across a long feature.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "pudding-colorism-visual-essay",
+      "entryTitle": "The Pudding: Colorism in High Fashion",
+      "category": "visual-essay",
+      "medium": "interactive visual essay",
+      "type": "caption-system",
+      "role": "method clarity",
+      "notes": "Captions and annotations carry trust by explaining what each visual means.",
+      "reuse": "Pair every quantitative visual with a concise explanation of source, measure, or limitation.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "pudding-colorism-visual-essay",
+      "entryTitle": "The Pudding: Colorism in High Fashion",
+      "category": "visual-essay",
+      "medium": "interactive visual essay",
+      "type": "photo-essay",
+      "role": "source material sequence",
+      "notes": "Images are part of the evidence, not generic editorial decoration.",
+      "reuse": "Use licensed or original visual datasets and keep source boundaries explicit.",
+      "captured": "2026-06-27"
+    }
+  ],
+  "motion": [
+    {
+      "entryId": "pudding-colorism-visual-essay",
+      "entryTitle": "The Pudding: Colorism in High Fashion",
+      "category": "visual-essay",
+      "medium": "interactive visual essay",
+      "type": "stepwise-reveal",
+      "title": "Scrollytelling evidence reveal",
+      "notes": "Long-form progression can reveal argument, process, and result in sequence.",
+      "fallback": "A static stacked layout should preserve the same evidence order.",
+      "captured": "2026-06-27"
+    }
+  ],
+  "interactions": [
+    {
+      "entryId": "pudding-colorism-visual-essay",
+      "entryTitle": "The Pudding: Colorism in High Fashion",
+      "category": "visual-essay",
+      "medium": "interactive visual essay",
+      "type": "method-navigation",
+      "title": "Reader-controlled proof path",
+      "url": "https://pudding.cool/2019/04/vogue/",
+      "study": "The article supports deeper reading through methods and linked evidence.",
+      "reuse": "Offer method/detail exits without interrupting the main narrative.",
+      "captured": "2026-06-27"
+    }
+  ]
+}

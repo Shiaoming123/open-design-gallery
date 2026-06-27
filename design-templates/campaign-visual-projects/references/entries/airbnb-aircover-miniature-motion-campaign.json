@@ -1,0 +1,66 @@
+{
+  "id": "airbnb-aircover-miniature-motion-campaign",
+  "category": "product-promo",
+  "project": {
+    "title": "Airbnb Aircover Miniature Motion Campaign",
+    "maker": "BUCK for Airbnb",
+    "url": "https://buck.co/work/airbnb-aircover",
+    "medium": "product protection campaign film and still system",
+    "format": "miniature world plus CG character campaign"
+  },
+  "why": "A strong reference for product reassurance that avoids dry UI explanation: handcrafted miniature spaces, CG characters, and scenario-based storytelling make an abstract service benefit feel tangible.",
+  "compositions": [
+    {
+      "type": "campaign-hero",
+      "title": "Service feature as small world",
+      "url": "https://buck.co/work/airbnb-aircover",
+      "study": "Aircover is visualized through memorable miniature stay scenarios rather than literal feature diagrams.",
+      "reuse": "Use when a service promise needs emotional clarity and scenario proof."
+    },
+    {
+      "type": "asset-system",
+      "title": "Scenario set as campaign asset library",
+      "url": "https://buck.co/work/airbnb-aircover",
+      "study": "Different houses, characters, and landscapes create many campaign moments inside one art direction.",
+      "reuse": "Build a modular world with repeatable props, framing rules, and character scale."
+    }
+  ],
+  "assets": [
+    {
+      "type": "key-visual",
+      "role": "tangible reassurance",
+      "notes": "The miniature treatment makes protection feel warm, specific, and memorable.",
+      "reuse": "Translate abstract benefits into original scenes with clear stakes and a visible moment of relief."
+    },
+    {
+      "type": "motion-cutdown",
+      "role": "scenario proof",
+      "notes": "Short scenes can become social cuts, landing modules, or campaign stills.",
+      "reuse": "Plan each scene to work as both a loop and a still frame."
+    }
+  ],
+  "motion": [
+    {
+      "type": "character-scenario-loop",
+      "title": "Lived-in miniature scene",
+      "notes": "Small character actions communicate story, scale, and service promise quickly.",
+      "fallback": "Use a still frame with one readable action and a protected focal point."
+    }
+  ],
+  "interactions": [],
+  "implementation": {
+    "format": "motion-first campaign with still derivatives",
+    "complexity": "high",
+    "notes": "Useful for product reassurance, insurance/protection concepts, travel, lifestyle, and service explainers."
+  },
+  "capture": {
+    "date": "2026-06-27",
+    "sourceLinks": [
+      "https://buck.co/work/airbnb-aircover"
+    ],
+    "attribution": "BUCK Airbnb Aircover case study",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "motion-campaign-reference"
+  },
+  "status": "accepted"
+}

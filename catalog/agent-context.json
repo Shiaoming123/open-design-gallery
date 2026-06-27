@@ -1,0 +1,2662 @@
+{
+  "schemaVersion": "od-agent-context/v1",
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "totals": {
+    "assets": 361,
+    "libraries": 7,
+    "caseStudyEntries": 93,
+    "sourceUrlHashes": 324,
+    "thinEntries": 2
+  },
+  "libraries": [
+    {
+      "id": "campaign-visual-projects",
+      "kind": "case-study",
+      "sourcePath": "design-templates/campaign-visual-projects/references/catalog.json",
+      "previewPath": "design-templates/campaign-visual-projects/example.html",
+      "totalEntries": 3,
+      "statusCounts": {
+        "accepted": 3
+      },
+      "captureDepthCounts": {
+        "campaign-system-reference": 2,
+        "motion-campaign-reference": 1
+      },
+      "thinEntries": []
+    },
+    {
+      "id": "commercial-product-launches",
+      "kind": "case-study",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "totalEntries": 26,
+      "statusCounts": {
+        "accepted": 26
+      },
+      "captureDepthCounts": {
+        "page-and-modules": 26
+      },
+      "thinEntries": []
+    },
+    {
+      "id": "editorial-magazine-projects",
+      "kind": "case-study",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/catalog.json",
+      "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "totalEntries": 3,
+      "statusCounts": {
+        "accepted": 3
+      },
+      "captureDepthCounts": {
+        "layout-system-reference": 1,
+        "spread-sequence-reference": 1,
+        "visual-essay-reference": 1
+      },
+      "thinEntries": []
+    },
+    {
+      "id": "motion-interaction-projects",
+      "kind": "case-study",
+      "sourcePath": "design-templates/motion-interaction-projects/references/catalog.json",
+      "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "totalEntries": 3,
+      "statusCounts": {
+        "accepted": 3
+      },
+      "captureDepthCounts": {
+        "interaction-system-reference": 1,
+        "pattern-collection-reference": 1,
+        "interaction-prototype-reference": 1
+      },
+      "thinEntries": []
+    },
+    {
+      "id": "personal-blog-projects",
+      "kind": "case-study",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "totalEntries": 52,
+      "statusCounts": {
+        "accepted": 50,
+        "backfill-needed": 2
+      },
+      "captureDepthCounts": {
+        "multi-page": 50,
+        "source-only": 1,
+        "feed-plus-home": 1
+      },
+      "thinEntries": [
+        "personal-blog-projects:cosy-jekyll-theme",
+        "personal-blog-projects:sukka"
+      ]
+    },
+    {
+      "id": "poster-projects",
+      "kind": "case-study",
+      "sourcePath": "design-templates/poster-projects/references/catalog.json",
+      "previewPath": "design-templates/poster-projects/example.html",
+      "totalEntries": 3,
+      "statusCounts": {
+        "accepted": 3
+      },
+      "captureDepthCounts": {
+        "composition-reference": 1,
+        "serial-system-reference": 1,
+        "typographic-poster-reference": 1
+      },
+      "thinEntries": []
+    },
+    {
+      "id": "product-ui-projects",
+      "kind": "case-study",
+      "sourcePath": "design-templates/product-ui-projects/references/catalog.json",
+      "previewPath": "design-templates/product-ui-projects/example.html",
+      "totalEntries": 3,
+      "statusCounts": {
+        "accepted": 3
+      },
+      "captureDepthCounts": {
+        "surface-suite": 3
+      },
+      "thinEntries": []
+    }
+  ],
+  "entries": [
+    {
+      "assetId": "campaign-visual-projects:airbnb-aircover-miniature-motion-campaign",
+      "libraryId": "campaign-visual-projects",
+      "title": "Airbnb Aircover Miniature Motion Campaign",
+      "status": "accepted",
+      "captureDepth": "motion-campaign-reference",
+      "sourcePath": "design-templates/campaign-visual-projects/references/entries/airbnb-aircover-miniature-motion-campaign.json",
+      "previewPath": "design-templates/campaign-visual-projects/example.html",
+      "roles": [
+        "campaign-art-direction",
+        "asset-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "campaign",
+        "product-promo",
+        "product protection campaign film and still system",
+        "miniature world plus CG character campaign",
+        "motion-campaign-reference"
+      ],
+      "sourceUrlHashes": [
+        "5d926e741f86572c"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "campaign-visual-projects:multi-format-campaign-visual-system",
+      "libraryId": "campaign-visual-projects",
+      "title": "Multi-format Campaign Visual System",
+      "status": "accepted",
+      "captureDepth": "campaign-system-reference",
+      "sourcePath": "design-templates/campaign-visual-projects/references/entries/multi-format-campaign-visual-system.json",
+      "previewPath": "design-templates/campaign-visual-projects/example.html",
+      "roles": [
+        "campaign-art-direction",
+        "asset-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "campaign",
+        "brand-campaign",
+        "static and motion campaign",
+        "key visual plus channel variants",
+        "campaign-system-reference"
+      ],
+      "sourceUrlHashes": [
+        "b302a9c555c0b492"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "campaign-visual-projects:spotify-wrapped-shareable-identity-system",
+      "libraryId": "campaign-visual-projects",
+      "title": "Spotify Wrapped Shareable Identity System",
+      "status": "accepted",
+      "captureDepth": "campaign-system-reference",
+      "sourcePath": "design-templates/campaign-visual-projects/references/entries/spotify-wrapped-shareable-identity-system.json",
+      "previewPath": "design-templates/campaign-visual-projects/example.html",
+      "roles": [
+        "campaign-art-direction",
+        "asset-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "campaign",
+        "brand-campaign",
+        "brand and campaign identity",
+        "personalized social campaign system",
+        "campaign-system-reference"
+      ],
+      "sourceUrlHashes": [
+        "16270e09abb12c5f",
+        "98302d5582b2913a"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "commercial-product-launches:apple-iphone-product-family",
+      "libraryId": "commercial-product-launches",
+      "title": "Apple",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "consumer hardware",
+        "product-family",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "60e82023e775681e",
+        "736d3707a542ff76"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "commercial-product-launches:apple-vision-pro-spatial-computing-product-page",
+      "libraryId": "commercial-product-launches",
+      "title": "Apple",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "spatial computing hardware",
+        "spatial-computing-product-page",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "530324bd628d5ee3",
+        "736d3707a542ff76",
+        "b3ded1fce7e141c5",
+        "e2bb09a30d3bc603"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "commercial-product-launches:bang-olufsen-beoplay-h100-luxury-headphones-product-page",
+      "libraryId": "commercial-product-launches",
+      "title": "Bang & Olufsen",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "luxury consumer audio",
+        "luxury-headphones-product-page",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "8de92f4b7f20d350",
+        "99eb834a0541e969"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "commercial-product-launches:brompton-g-line-folding-bike-product-page",
+      "libraryId": "commercial-product-launches",
+      "title": "Brompton",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "premium urban mobility",
+        "folding-bike-product-page",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "3b520f0e5cc8490b",
+        "cc00e6555c0dd2f7"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "commercial-product-launches:dji-mavic-4-pro-creator-drone-commerce-page",
+      "libraryId": "commercial-product-launches",
+      "title": "DJI",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "creator drone hardware",
+        "creator-drone-product-page",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "12e141e9fd499131",
+        "b0da394c6aba8011"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "commercial-product-launches:dyson-v15-detect-commerce-page",
+      "libraryId": "commercial-product-launches",
+      "title": "Dyson",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "home technology",
+        "product-commerce",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "3e3f40ee2f205b25",
+        "a6720306c28e0f34"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "commercial-product-launches:eight-sleep-pod-intelligent-bed-system-homepage",
+      "libraryId": "commercial-product-launches",
+      "title": "Eight Sleep",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "sleep technology",
+        "brand-homepage",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "0ef1a64f3c2e671a"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "commercial-product-launches:framework-laptop-13-pro-developer-laptop-page",
+      "libraryId": "commercial-product-launches",
+      "title": "Framework",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "modular personal computing",
+        "hardware-product",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "1a6ccd0a823ae29f",
+        "c2f580844e26de85"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "commercial-product-launches:fujifilm-gfx100rf-premium-camera-product-page",
+      "libraryId": "commercial-product-launches",
+      "title": "Fujifilm",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "premium camera hardware",
+        "premium-camera-product-page",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "7f193cc21da1070b",
+        "e66ae510464aaf48"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "commercial-product-launches:gopro-hero13-black-action-camera-product-page",
+      "libraryId": "commercial-product-launches",
+      "title": "GoPro",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "action camera hardware",
+        "action-camera-product-page",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "15e718d64b8cf5ef",
+        "4363b4cfd6f0a868"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "commercial-product-launches:herman-miller-aeron-chair-ergonomic-seating-page",
+      "libraryId": "commercial-product-launches",
+      "title": "Herman Miller",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "premium ergonomic office furniture",
+        "ergonomic-office-chair-product-page",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "81b9adce767787d4",
+        "a546677e928267ae"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "commercial-product-launches:linear-product-development-system-homepage",
+      "libraryId": "commercial-product-launches",
+      "title": "Linear",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "product development software",
+        "b2b-product-home",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "3bccbda41093fa18"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "commercial-product-launches:monos-carry-on-pro-travel-commerce-page",
+      "libraryId": "commercial-product-launches",
+      "title": "Monos",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "travel goods",
+        "product-commerce",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "c9e7fb6c99501c57",
+        "ff0eb562de1a2b5a"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "commercial-product-launches:nike-running-campaign-commerce",
+      "libraryId": "commercial-product-launches",
+      "title": "Nike",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "sports retail",
+        "campaign-category",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "4acb094c7d1319e8",
+        "ca6305e86cef696f"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "commercial-product-launches:nothing-phone-3a-smartphone-product-page",
+      "libraryId": "commercial-product-launches",
+      "title": "Nothing",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "consumer smartphone hardware",
+        "smartphone-product-page",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "1f14dae3a77326d1",
+        "d98a26c14288ba98"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "commercial-product-launches:notion-mail-ai-inbox-product-page",
+      "libraryId": "commercial-product-launches",
+      "title": "Notion",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "email productivity software",
+        "workflow-product-home",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "3307b1bc267f998e",
+        "43ef9416ce457aef",
+        "e5eefade953cd6d1"
+      ],
+      "sourceUrlCount": 3
+    },
+    {
+      "assetId": "commercial-product-launches:oura-ring-4-health-wearable-page",
+      "libraryId": "commercial-product-launches",
+      "title": "Oura",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "health wearable",
+        "wearable-product",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "a783b9ae3adeb288",
+        "d67dedc2ff02c931"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "commercial-product-launches:polestar-4-electric-coupe-suv-overview",
+      "libraryId": "commercial-product-launches",
+      "title": "Polestar",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "premium electric vehicle",
+        "electric-coupe-suv-overview",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "7f58219b9bd59b10",
+        "922a96a4becb3067"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "commercial-product-launches:raycast-productivity-launcher-homepage",
+      "libraryId": "commercial-product-launches",
+      "title": "Raycast",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "desktop productivity software",
+        "productivity-platform-home",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "969036f6225618bf",
+        "bf6ceb007592b1eb",
+        "ebef85005f742ac7"
+      ],
+      "sourceUrlCount": 3
+    },
+    {
+      "assetId": "commercial-product-launches:remarkable-paper-pro-digital-paper-product-page",
+      "libraryId": "commercial-product-launches",
+      "title": "reMarkable",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "digital paper hardware",
+        "product-commerce",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "062fb74df7ff40cf",
+        "be30346ea02e1a66",
+        "c68c93e78882a402"
+      ],
+      "sourceUrlCount": 3
+    },
+    {
+      "assetId": "commercial-product-launches:sonos-ace-personal-audio-product-page",
+      "libraryId": "commercial-product-launches",
+      "title": "Sonos",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "consumer audio",
+        "audio-product",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "6e0917cdbdc19587",
+        "725ef2ff3e102292"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "commercial-product-launches:stripe-homepage-revenue-platform",
+      "libraryId": "commercial-product-launches",
+      "title": "Stripe",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "financial infrastructure",
+        "b2b-platform-home",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "9ababc9aff17ac87"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "commercial-product-launches:superhuman-ai-productivity-suite-homepage",
+      "libraryId": "commercial-product-launches",
+      "title": "Superhuman",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "AI productivity software",
+        "ai-productivity-suite-home",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "e8b37b21fbaaddec"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "commercial-product-launches:teenage-engineering-op-xy-sequencer-product-page",
+      "libraryId": "commercial-product-launches",
+      "title": "Teenage Engineering",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "premium audio hardware",
+        "instrument-product-page",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "5be6371fef416d87",
+        "95fe16b38f966b8e",
+        "d9c449caa3944c0f"
+      ],
+      "sourceUrlCount": 3
+    },
+    {
+      "assetId": "commercial-product-launches:tesla-model-y-product-page",
+      "libraryId": "commercial-product-launches",
+      "title": "Tesla",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "automotive",
+        "vehicle-product",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "10edb3c4bd545c06",
+        "fbc48530bbf245da"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "commercial-product-launches:whoop-wearable-health-membership-explainer",
+      "libraryId": "commercial-product-launches",
+      "title": "WHOOP",
+      "status": "accepted",
+      "captureDepth": "page-and-modules",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "roles": [
+        "brand-reference",
+        "page-modules",
+        "media-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "health and fitness wearable",
+        "wearable-health-membership-explainer",
+        "commercial-launch"
+      ],
+      "sourceUrlHashes": [
+        "051ecbc45bf50dbb",
+        "0ff80fc160a6af50",
+        "4a7f1b33b9cf6329"
+      ],
+      "sourceUrlCount": 3
+    },
+    {
+      "assetId": "editorial-magazine-projects:editorial-spread-reading-rhythm",
+      "libraryId": "editorial-magazine-projects",
+      "title": "Editorial Spread Reading Rhythm",
+      "status": "accepted",
+      "captureDepth": "layout-system-reference",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/editorial-spread-reading-rhythm.json",
+      "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "roles": [
+        "editorial-layouts",
+        "composition-patterns",
+        "asset-direction"
+      ],
+      "tags": [
+        "magazine",
+        "editorial-spread",
+        "digital and print editorial",
+        "cover plus feature spread",
+        "layout-system-reference"
+      ],
+      "sourceUrlHashes": [
+        "6870898c0974a510"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "editorial-magazine-projects:plastikcomb-print-collage-spreads",
+      "libraryId": "editorial-magazine-projects",
+      "title": "Plastikcomb #5 Collage Spread System",
+      "status": "accepted",
+      "captureDepth": "spread-sequence-reference",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/plastikcomb-print-collage-spreads.json",
+      "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "roles": [
+        "editorial-layouts",
+        "composition-patterns",
+        "asset-direction"
+      ],
+      "tags": [
+        "magazine",
+        "editorial-spread",
+        "independent print magazine",
+        "collage-led feature spreads",
+        "spread-sequence-reference"
+      ],
+      "sourceUrlHashes": [
+        "636d627e82eb48ed"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "editorial-magazine-projects:pudding-colorism-visual-essay",
+      "libraryId": "editorial-magazine-projects",
+      "title": "The Pudding: Colorism in High Fashion",
+      "status": "accepted",
+      "captureDepth": "visual-essay-reference",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/pudding-colorism-visual-essay.json",
+      "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "roles": [
+        "editorial-layouts",
+        "composition-patterns",
+        "asset-direction"
+      ],
+      "tags": [
+        "magazine",
+        "visual-essay",
+        "interactive visual essay",
+        "data-led long-form editorial",
+        "visual-essay-reference"
+      ],
+      "sourceUrlHashes": [
+        "14d28274b6d0c3e6"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "motion-interaction-projects:codrops-gsap-creative-hub-patterns",
+      "libraryId": "motion-interaction-projects",
+      "title": "Codrops GSAP Creative Hub Interaction Patterns",
+      "status": "accepted",
+      "captureDepth": "pattern-collection-reference",
+      "sourcePath": "design-templates/motion-interaction-projects/references/entries/codrops-gsap-creative-hub-patterns.json",
+      "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "roles": [
+        "motion-patterns",
+        "interaction-patterns",
+        "frontend-motion-reference"
+      ],
+      "tags": [
+        "motion design",
+        "scroll-interaction",
+        "frontend motion demo collection",
+        "scroll, carousel, shader, mask, and transition pattern library",
+        "pattern-collection-reference"
+      ],
+      "sourceUrlHashes": [
+        "d4249d5da24adaaf"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "motion-interaction-projects:codrops-kinetic-typography-page-transition",
+      "libraryId": "motion-interaction-projects",
+      "title": "Codrops Kinetic Typography Page Transition",
+      "status": "accepted",
+      "captureDepth": "interaction-prototype-reference",
+      "sourcePath": "design-templates/motion-interaction-projects/references/entries/codrops-kinetic-typography-page-transition.json",
+      "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "roles": [
+        "motion-patterns",
+        "interaction-patterns",
+        "frontend-motion-reference"
+      ],
+      "tags": [
+        "motion design",
+        "kinetic-typography",
+        "frontend typography transition prototype",
+        "GSAP page transition demo",
+        "interaction-prototype-reference"
+      ],
+      "sourceUrlHashes": [
+        "0064ea345d49ea09",
+        "46bf5c476b91cdb0"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "motion-interaction-projects:scroll-and-pointer-motion-system",
+      "libraryId": "motion-interaction-projects",
+      "title": "Scroll and Pointer Motion System",
+      "status": "accepted",
+      "captureDepth": "interaction-system-reference",
+      "sourcePath": "design-templates/motion-interaction-projects/references/entries/scroll-and-pointer-motion-system.json",
+      "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "roles": [
+        "motion-patterns",
+        "interaction-patterns",
+        "frontend-motion-reference"
+      ],
+      "tags": [
+        "motion design",
+        "scroll-interaction",
+        "frontend interaction",
+        "browser motion prototype",
+        "interaction-system-reference"
+      ],
+      "sourceUrlHashes": [
+        "c3c9d81881d1ea05"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "personal-blog-projects:ahmad-shadeed",
+      "libraryId": "personal-blog-projects",
+      "title": "Ahmad Shadeed",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "design-engineer-site",
+        "en",
+        "global",
+        "design engineer site with visual CSS publishing, client work, and speaking archive",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "24605fb09636df03",
+        "4418b59ff424c129",
+        "9b8c9785b92c0002",
+        "eba96ef256636b9a"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:amelia-wattenberger",
+      "libraryId": "personal-blog-projects",
+      "title": "Amelia Wattenberger",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "design-engineer-site",
+        "en",
+        "global",
+        "research-engineer portfolio with thought essays, experimental tooling notes, and novel-interface studies",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "3c5f498378997da5",
+        "7d428bd4b28bc80b",
+        "a0e59c98e5565aef",
+        "cf4dc18e0b50b327"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:anotherdayu",
+      "libraryId": "personal-blog-projects",
+      "title": "Another Dayu",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "chinese-classic",
+        "zh-CN",
+        "china/global",
+        "life, photography, books, drama, and maker personal blog",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "1c56b4e836e64ba5",
+        "91a839b577bf9ac4",
+        "e45cff0837aedf30",
+        "ea693e2fe9e83275"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:antfu",
+      "libraryId": "personal-blog-projects",
+      "title": "Anthony Fu",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "design-engineer-portfolio",
+        "en/zh-CN",
+        "global/chinese",
+        "design-engineer portfolio, notes, and generative-art lab",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "229536cd5566c581",
+        "28f6f60f81db450e",
+        "377e2cb0cda4078b",
+        "6ca32c0df5805d48",
+        "8966f8c5ace7835d",
+        "a2a0aa8efed04e80"
+      ],
+      "sourceUrlCount": 6
+    },
+    {
+      "assetId": "personal-blog-projects:astro-cactus",
+      "libraryId": "personal-blog-projects",
+      "title": "Astro Cactus",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "build-project",
+        "en",
+        "global",
+        "Astro blog theme",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "0e0645e69539dc6a",
+        "a3ef630d90450d70",
+        "bbcb1594659fe7c0",
+        "f44b3fd291e44ee6"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:astropaper",
+      "libraryId": "personal-blog-projects",
+      "title": "AstroPaper",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "build-project",
+        "en",
+        "global",
+        "Astro blog theme",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "73ca7184dd6fc64b",
+        "a0f9b9ab92a041d3",
+        "a5ff83a10eeffb71",
+        "cae8fbd9bfc222c6",
+        "da47315689429c3a"
+      ],
+      "sourceUrlCount": 5
+    },
+    {
+      "assetId": "personal-blog-projects:bartosz-ciechanowski",
+      "libraryId": "personal-blog-projects",
+      "title": "Bartosz Ciechanowski",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "interactive-essay-site",
+        "en",
+        "global",
+        "interactive engineering essay site with archive-driven long-form simulations",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "6509e59319e48b52",
+        "6e875fdeac15d3b1",
+        "eacdd36e38d3f3fd",
+        "f2d80e3f7a8f04cb"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:blowfish",
+      "libraryId": "personal-blog-projects",
+      "title": "Blowfish",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "build-project",
+        "en",
+        "global",
+        "Hugo theme for blogs and personal sites",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "2a989fb3c4eb5f44",
+        "3624981f90bf021b",
+        "a9f1421f1ca441b8",
+        "c6f4ddc47fae1a05",
+        "dd3b33615f640025"
+      ],
+      "sourceUrlCount": 5
+    },
+    {
+      "assetId": "personal-blog-projects:brittany-chiang",
+      "libraryId": "personal-blog-projects",
+      "title": "Brittany Chiang",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "design-engineer-portfolio",
+        "en",
+        "global",
+        "single-page portfolio with anchored resume sections, featured projects, and writing shelf",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "2c331bb3f5213820",
+        "c6669b1604696122"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "personal-blog-projects:bruno-simon",
+      "libraryId": "personal-blog-projects",
+      "title": "Bruno Simon",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "immersive-portfolio",
+        "en",
+        "global",
+        "immersive 3D portfolio and behind-the-scenes lab",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "51ccda093aae6aff",
+        "a37e0f83834c9ccc",
+        "b035288afc7adab2"
+      ],
+      "sourceUrlCount": 3
+    },
+    {
+      "assetId": "personal-blog-projects:chester-how",
+      "libraryId": "personal-blog-projects",
+      "title": "Chester's Garden",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "digital-garden-portfolio",
+        "en",
+        "global",
+        "digital garden with project shelf, reading log, writing archive, and hobbies tracker",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "43351a3a9a9951d0",
+        "581d65785718820a",
+        "b60f79d0f6071e94",
+        "dda080e0b8f3bed6",
+        "ed71a9cc2d7de4f4"
+      ],
+      "sourceUrlCount": 5
+    },
+    {
+      "assetId": "personal-blog-projects:chirpy-starter",
+      "libraryId": "personal-blog-projects",
+      "title": "Chirpy Starter",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "build-project",
+        "en",
+        "global",
+        "Jekyll blog theme starter",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "572d21e17ff4260b",
+        "78d48fe21f31b578",
+        "e575465d2805c5e2",
+        "ea5ea18e7e272760",
+        "ff4c6d30cf5a0fc2"
+      ],
+      "sourceUrlCount": 5
+    },
+    {
+      "assetId": "personal-blog-projects:cosy-jekyll-theme",
+      "libraryId": "personal-blog-projects",
+      "title": "cosy-jekyll-theme",
+      "status": "backfill-needed",
+      "captureDepth": "source-only",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "build-project",
+        "zh-CN",
+        "china",
+        "Jekyll personal blog theme",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "2e8236d72c87a72c"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "personal-blog-projects:craig-mod",
+      "libraryId": "personal-blog-projects",
+      "title": "Craig Mod",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "independent-publishing-site",
+        "en",
+        "global",
+        "independent publishing site for essays, newsletters, books, membership, and photography",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "48db8257469e43c4",
+        "532364e8f6f9babc",
+        "5a29baf152e3c6a9",
+        "a625dc327d01435f",
+        "cd6de36d10c5139c"
+      ],
+      "sourceUrlCount": 5
+    },
+    {
+      "assetId": "personal-blog-projects:dan-abramov-overreacted",
+      "libraryId": "personal-blog-projects",
+      "title": "overreacted",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "longform-technical-blog",
+        "en",
+        "global",
+        "long-form technical blog with series posts and dense archive navigation",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "1835ea86a0a234ce",
+        "1f718a3177e6b67e",
+        "449cde1ff77e04f2",
+        "adae11b894361087",
+        "f550826eaf11466a",
+        "f666bcf3bfbf22b1"
+      ],
+      "sourceUrlCount": 6
+    },
+    {
+      "assetId": "personal-blog-projects:dave-rupert",
+      "libraryId": "personal-blog-projects",
+      "title": "Dave Rupert",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "design-engineer-site",
+        "en",
+        "global",
+        "developer blog with project hub, archive taxonomy, and uses pages",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "302135a75c9444a8",
+        "663fb4fb7e29d3d2",
+        "726f9a1810d119fd",
+        "944f80bcbadb3f1a"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:derek-sivers",
+      "libraryId": "personal-blog-projects",
+      "title": "Derek Sivers",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "text-first-author-site",
+        "en",
+        "global",
+        "text-first author site with /now, topic archive, and book notes library",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "2cc412fd4e08ce32",
+        "386675bc3c2f1375",
+        "3a3bc71432a2eb6a",
+        "3b2f937873c36178",
+        "3f77a015c3ae70b2",
+        "5ca23ccc656c12dd",
+        "bfa5adfba96c4dd8"
+      ],
+      "sourceUrlCount": 7
+    },
+    {
+      "assetId": "personal-blog-projects:diygod",
+      "libraryId": "personal-blog-projects",
+      "title": "DIYgod",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "chinese-classic",
+        "zh-CN/en",
+        "china/global",
+        "developer personal site and RSS advocate blog",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "0fcad9e1a4d9a85f",
+        "aaeae79aa98dad0b",
+        "b80a80adfe8bc987",
+        "ca3610ee701db5fb"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:douchi",
+      "libraryId": "personal-blog-projects",
+      "title": "椒盐豆豉",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "chinese-classic",
+        "zh-CN",
+        "global/chinese",
+        "long-running personal blog with life, games, podcasts, and media",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "10dd2f544481acc4",
+        "1110e4d6df2c57e0",
+        "3ae8ae75acd34325",
+        "ba7e9ad2cdf528f1",
+        "d10d8824d8eb7766"
+      ],
+      "sourceUrlCount": 5
+    },
+    {
+      "assetId": "personal-blog-projects:emil-kowalski",
+      "libraryId": "personal-blog-projects",
+      "title": "Emil Kowalski",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "design-engineer-site",
+        "en",
+        "global",
+        "design-engineer site with writing, projects, and interaction craft essays",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "58f059193c6c4435",
+        "abf3688ce43f379d",
+        "dac57492900c5e17",
+        "faccdc39f046031d"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:gwern",
+      "libraryId": "personal-blog-projects",
+      "title": "Gwern.net",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "classic-site",
+        "en",
+        "global",
+        "research-heavy personal website",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "1dcbe054fe8d1948",
+        "6f41fc5182b1d711",
+        "795f039b6d8351fb",
+        "b3eec02ad0c77dbc"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:hakim-el-hattab",
+      "libraryId": "personal-blog-projects",
+      "title": "Hakim El Hattab",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "interaction-lab",
+        "en",
+        "global",
+        "interface lab, product index, and experimental portfolio",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "3cb98b03aad395dd",
+        "476afaa61da1c558",
+        "7c8483cfef0b4470",
+        "8c66c866e7c7eafe",
+        "a0e45ab20710ec46",
+        "ee945e2b2218a508"
+      ],
+      "sourceUrlCount": 6
+    },
+    {
+      "assetId": "personal-blog-projects:huangyang",
+      "libraryId": "personal-blog-projects",
+      "title": "Huang Yang",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "chinese-classic",
+        "zh-CN",
+        "china",
+        "writer, app maker, and video creator personal site",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "0a7bc54f3896e555",
+        "398f531580e3a761",
+        "4547fafe360b5484",
+        "a096d32d79267c14"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:hugo-papermod",
+      "libraryId": "personal-blog-projects",
+      "title": "Hugo PaperMod",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "build-project",
+        "en",
+        "global",
+        "Hugo blog theme",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "22e152eebdf27870",
+        "4574c6aa6b1b0f29",
+        "8b5d1a3ac9d8a8f0",
+        "e3470147e99104b1"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:innei",
+      "libraryId": "personal-blog-projects",
+      "title": "静かな森",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "chinese-classic",
+        "zh-CN",
+        "china",
+        "minimal personal blog and open source theme showcase",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "1285e1ccd49dc9ae",
+        "583d4859a73bb8e4",
+        "75d07e08e7fedfad",
+        "fdcfa4555ef63277"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:jan-miksovsky",
+      "libraryId": "personal-blog-projects",
+      "title": "Jan Miksovsky",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "classic-site",
+        "en",
+        "global",
+        "long-running builder blog with year archive, about dossier, and direct contact pages",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "447927ea8cc6aeb1",
+        "4b50751a8851c62b",
+        "769fbefee97e17b8",
+        "a0fe85909b476949"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:jim-nielsen",
+      "libraryId": "personal-blog-projects",
+      "title": "Jim Nielsen",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "classic-site",
+        "en",
+        "global",
+        "personal site with blog, link blog, icon collections, and archive infrastructure",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "184fe005af6c852e",
+        "77ee68ab1118125e",
+        "99bf7ae9c27d3ce8",
+        "c0a383e82727f6a9",
+        "eb274c5b8b3886d6",
+        "fd0110cec92d769a"
+      ],
+      "sourceUrlCount": 6
+    },
+    {
+      "assetId": "personal-blog-projects:jimmylv",
+      "libraryId": "personal-blog-projects",
+      "title": "吕立青的博客",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "chinese-classic",
+        "zh-CN",
+        "china/global",
+        "full-stack engineer, creator, and Bilibili-linked personal blog",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "45d1a82d5b8c8aaa",
+        "563ef3487bd16e43",
+        "83aa529cf7ab5b8e",
+        "96aa96870b835e3d"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:josh-comeau",
+      "libraryId": "personal-blog-projects",
+      "title": "Josh W. Comeau",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "classic-site",
+        "en",
+        "global",
+        "developer blog with interactive essays",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "27d0fa28033e4ca5",
+        "5349002575e01af3",
+        "a2a038df2d49383f",
+        "f544f6ea65fb607f"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:julia-evans",
+      "libraryId": "personal-blog-projects",
+      "title": "Julia Evans",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "technical-teaching-site",
+        "en",
+        "global",
+        "technical teaching blog with categorized posts, TIL publishing, projects, and zine commerce",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "269318136500a804",
+        "276e40d2ff94c218",
+        "59c672132de88f39",
+        "648cf63e0ee6baf2"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:kottke",
+      "libraryId": "personal-blog-projects",
+      "title": "kottke.org",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "editorial-linkblog",
+        "en",
+        "global",
+        "editorial linkblog with member-supported comments and deep archive surfaces",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "03b26503103682f2",
+        "67021d36f4addc79",
+        "7f66f87c86ea2dad",
+        "ae740055eb3eb929",
+        "ca8d60d692d883e3"
+      ],
+      "sourceUrlCount": 5
+    },
+    {
+      "assetId": "personal-blog-projects:lee-robinson",
+      "libraryId": "personal-blog-projects",
+      "title": "Lee Robinson",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "builder-writer-site",
+        "en",
+        "global",
+        "developer-educator site with essays, beliefs, and newsletter surfaces",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "0809a1a127a6d9ce",
+        "11c370f6ac941cea",
+        "792a2f686777c0f3",
+        "8a2f09174f8607d5",
+        "abc3a91ec40841eb",
+        "ec32b7464c55d517"
+      ],
+      "sourceUrlCount": 6
+    },
+    {
+      "assetId": "personal-blog-projects:lynn-fisher",
+      "libraryId": "personal-blog-projects",
+      "title": "Lynn Fisher",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "experimental-portfolio",
+        "en",
+        "global",
+        "experimental portfolio with yearly refreshes, case studies, and CSS art side projects",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "018770b8ea48042f",
+        "27d51c95c71bd55f",
+        "5560d33c2b2c0671",
+        "69cc6076c23c75f4",
+        "7b370faaad2f795b",
+        "80f1922f1a3674c1",
+        "cde0da36bd148c56",
+        "e0e40f2b07d1d92b"
+      ],
+      "sourceUrlCount": 8
+    },
+    {
+      "assetId": "personal-blog-projects:maggie-appleton",
+      "libraryId": "personal-blog-projects",
+      "title": "Maggie Appleton",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "classic-site",
+        "en",
+        "global",
+        "digital garden and visual essays",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "1b9c09092674e01e",
+        "65bece7c6b155a5c",
+        "688573ad1c6a7cf5",
+        "a6a330b4fcf5e510"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:manuel-moreale",
+      "libraryId": "personal-blog-projects",
+      "title": "Manu",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "classic-site",
+        "en",
+        "global",
+        "indie blog with essays, interview series, guestbook, supporter page, and monthly archive stream",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "092a2eed3abb73f2",
+        "45e859636c837270",
+        "4b568d38c5d50694",
+        "d502246412b96860",
+        "dd37bfb1ee9ecc82",
+        "f91cb997c61c194d"
+      ],
+      "sourceUrlCount": 6
+    },
+    {
+      "assetId": "personal-blog-projects:max-bo",
+      "libraryId": "personal-blog-projects",
+      "title": "Max Bo",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "poetic-web-site",
+        "en",
+        "global",
+        "personal portfolio, article archive, and poetic-web experiment site",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "139e7a7c71e5e623",
+        "6dff74d8f6f828ba",
+        "736177b07b1117b7",
+        "ecd6203ca654ded6"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:nicky-case",
+      "libraryId": "personal-blog-projects",
+      "title": "Nicky Case",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "interaction-lab",
+        "en",
+        "global",
+        "interactive-essay lab, project archive, and public-domain learning playground",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "3a5a82d78249defe",
+        "7dfc5e44b5213520",
+        "803685d40fd1f3df",
+        "b7ac7e0c28c07ef4"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:owenyoung",
+      "libraryId": "personal-blog-projects",
+      "title": "Owen",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "chinese-classic",
+        "zh-CN/en",
+        "global/chinese",
+        "plain-text-first blog and public wiki",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "475a4014e93d82a8",
+        "53c430b5649ef710",
+        "85bdffddfad087e0",
+        "b5295dfc9dc4dd8a",
+        "eb7e6dc92099fa95"
+      ],
+      "sourceUrlCount": 5
+    },
+    {
+      "assetId": "personal-blog-projects:paco-coursey",
+      "libraryId": "personal-blog-projects",
+      "title": "Paco Coursey",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "interaction-portfolio",
+        "en",
+        "global",
+        "design-engineer site with craft notes, writing archive, and polished interaction experiments",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "9839afe7b1c932e7",
+        "9b5aa3ee71205ba4",
+        "c2f0cfb2e0b2e41f",
+        "d7f23d3843e832ab",
+        "dba33e4c5fe086f7"
+      ],
+      "sourceUrlCount": 5
+    },
+    {
+      "assetId": "personal-blog-projects:pinchlime",
+      "libraryId": "personal-blog-projects",
+      "title": "Pin 起來！",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "chinese-classic",
+        "zh-TW",
+        "taiwan",
+        "productivity blog and newsletter archive",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "51f3bf73df9a6ad5",
+        "52ee4abafbaa4a48",
+        "82c80c19105f1927",
+        "a4edcd5572657927",
+        "cad157b9706a74fe"
+      ],
+      "sourceUrlCount": 5
+    },
+    {
+      "assetId": "personal-blog-projects:pseudoyu",
+      "libraryId": "personal-blog-projects",
+      "title": "pseudoyu",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "chinese-classic",
+        "zh-CN/en",
+        "china/global",
+        "developer digital garden and life archive",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "0ea97ae887852d02",
+        "195e9534fb5f5c57",
+        "c2acd37e66721778",
+        "e37eae7e39594d43",
+        "f3c8d06a01591163"
+      ],
+      "sourceUrlCount": 5
+    },
+    {
+      "assetId": "personal-blog-projects:quartz",
+      "libraryId": "personal-blog-projects",
+      "title": "Quartz",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "build-project",
+        "en",
+        "global",
+        "digital garden generator",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "5230ff3260408b37",
+        "6067d79f9f304a29",
+        "6bc5824ae45b0d99",
+        "cbf4e30a2d166b40",
+        "f47c9d21e7ab6f3e"
+      ],
+      "sourceUrlCount": 5
+    },
+    {
+      "assetId": "personal-blog-projects:rauno",
+      "libraryId": "personal-blog-projects",
+      "title": "Rauno Freiberg",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "interaction-portfolio",
+        "en",
+        "global",
+        "interaction-design portfolio, essays, prototypes, and field notes",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "0f57646167edefaf",
+        "18d43daf9ddf8cd9",
+        "20e03a06037c9c9b",
+        "303ffee79bc59687",
+        "346a6318746bc7bd",
+        "84108c8b37a60b3b",
+        "dffe76e7f4f76729"
+      ],
+      "sourceUrlCount": 7
+    },
+    {
+      "assetId": "personal-blog-projects:robin-sloan",
+      "libraryId": "personal-blog-projects",
+      "title": "Robin Sloan",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "text-first-author-site",
+        "en",
+        "global",
+        "author site with directory-style homepage, notes archive, lab notebook, and newsletter archive",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "198a72c73b123448",
+        "40516d1a14a5cf43",
+        "80306cbcc29f8a22",
+        "b2bdfa9a17cafa20",
+        "dec961450f6a11bd"
+      ],
+      "sourceUrlCount": 5
+    },
+    {
+      "assetId": "personal-blog-projects:ruanyifeng",
+      "libraryId": "personal-blog-projects",
+      "title": "阮一峰的网络日志",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "chinese-classic",
+        "zh-CN",
+        "china",
+        "classic Chinese technical blog and weekly",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "45181d51e7297666",
+        "72c61503261bdd18",
+        "836ccfdca6419fad",
+        "cee625d003b94104"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:sarah-drasner",
+      "libraryId": "personal-blog-projects",
+      "title": "Sarah Drasner's Site",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "design-engineer-site",
+        "en",
+        "global",
+        "portfolio site with writing, speaking, and code-drawing project archive",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "0c01009cdc998dea",
+        "56ef3195264ae31b",
+        "7ce6c1013ff1947f",
+        "aec7209885ed3651"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:simon-willison",
+      "libraryId": "personal-blog-projects",
+      "title": "Simon Willison's Weblog",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "classic-site",
+        "en",
+        "global",
+        "developer weblog and research notebook",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "0702a97f99df3830",
+        "2d6cfc877e4fa47f",
+        "435fe3b6d47134c9",
+        "b461fbdd854471df",
+        "cc10c2d73d7140bb"
+      ],
+      "sourceUrlCount": 5
+    },
+    {
+      "assetId": "personal-blog-projects:steph-ango",
+      "libraryId": "personal-blog-projects",
+      "title": "Steph Ango",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "minimal-digital-garden",
+        "en",
+        "global",
+        "minimal digital-paper essay site with notes, publishing philosophy, and calm personal-status pages",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "32a89ac3741d85f3",
+        "47e9ab5ca52cba18",
+        "65e34d7039651380",
+        "674e9959f785cfb8",
+        "72d7cb00abd1ef3a",
+        "a83ed6db18ac24cc",
+        "d094de1da15e8980"
+      ],
+      "sourceUrlCount": 7
+    },
+    {
+      "assetId": "personal-blog-projects:sukka",
+      "libraryId": "personal-blog-projects",
+      "title": "Sukka's Blog",
+      "status": "backfill-needed",
+      "captureDepth": "feed-plus-home",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "chinese-classic",
+        "zh-CN/en",
+        "global/chinese",
+        "technical blog with RSS-first access",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "4fdb3104a5d681f7",
+        "5a840ced5a57e7ff",
+        "9ea6eb53ef93d724"
+      ],
+      "sourceUrlCount": 3
+    },
+    {
+      "assetId": "personal-blog-projects:tailwind-nextjs-starter-blog",
+      "libraryId": "personal-blog-projects",
+      "title": "Tailwind Nextjs Starter Blog",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "build-project",
+        "en",
+        "global",
+        "Next.js blog starter",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "33de9cb918b63d02",
+        "b4ef2af312b58e1a",
+        "da61454558851bfa",
+        "e1c4fa925ce02de9",
+        "f90e45b90205b61b"
+      ],
+      "sourceUrlCount": 5
+    },
+    {
+      "assetId": "personal-blog-projects:tw93",
+      "libraryId": "personal-blog-projects",
+      "title": "Tw93",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "chinese-classic",
+        "zh-CN",
+        "china",
+        "personal blog and indie maker site",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "3868c41374a62860",
+        "78a3119b7cdb99c6",
+        "9843080d5e0c03ca",
+        "9d998d8486eeea07"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "personal-blog-projects:zhangxinxu",
+      "libraryId": "personal-blog-projects",
+      "title": "张鑫旭-鑫空间-鑫生活",
+      "status": "accepted",
+      "captureDepth": "multi-page",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "roles": [
+        "site-reference",
+        "page-patterns",
+        "block-patterns"
+      ],
+      "tags": [
+        "chinese-classic",
+        "zh-CN",
+        "china",
+        "front-end specialist blog",
+        "personal-blog"
+      ],
+      "sourceUrlHashes": [
+        "3fce722832f11f1f",
+        "68b228fa94c444dd",
+        "740604e40165ab29",
+        "b958cc3b80ad430e"
+      ],
+      "sourceUrlCount": 4
+    },
+    {
+      "assetId": "poster-projects:munich-1972-sports-poster-system",
+      "libraryId": "poster-projects",
+      "title": "Munich 1972 Sports Poster System",
+      "status": "accepted",
+      "captureDepth": "serial-system-reference",
+      "sourcePath": "design-templates/poster-projects/references/entries/munich-1972-sports-poster-system.json",
+      "previewPath": "design-templates/poster-projects/example.html",
+      "roles": [
+        "poster-reference",
+        "composition-patterns",
+        "asset-direction"
+      ],
+      "tags": [
+        "poster",
+        "event-poster",
+        "Olympic sports poster series",
+        "serial event poster system",
+        "serial-system-reference"
+      ],
+      "sourceUrlHashes": [
+        "27afdc445fc02d12",
+        "5839eb3c9e1938d2"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "poster-projects:public-theater-typographic-posters",
+      "libraryId": "poster-projects",
+      "title": "The Public Theater Typographic Poster Language",
+      "status": "accepted",
+      "captureDepth": "typographic-poster-reference",
+      "sourcePath": "design-templates/poster-projects/references/entries/public-theater-typographic-posters.json",
+      "previewPath": "design-templates/poster-projects/example.html",
+      "roles": [
+        "poster-reference",
+        "composition-patterns",
+        "asset-direction"
+      ],
+      "tags": [
+        "poster",
+        "type-poster",
+        "theater posters and cultural identity",
+        "typographic campaign poster family",
+        "typographic-poster-reference"
+      ],
+      "sourceUrlHashes": [
+        "0fc5d1e4d13291a5",
+        "63baf01f59604fe9"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "poster-projects:swiss-cultural-poster-system",
+      "libraryId": "poster-projects",
+      "title": "Swiss Cultural Poster System",
+      "status": "accepted",
+      "captureDepth": "composition-reference",
+      "sourcePath": "design-templates/poster-projects/references/entries/swiss-cultural-poster-system.json",
+      "previewPath": "design-templates/poster-projects/example.html",
+      "roles": [
+        "poster-reference",
+        "composition-patterns",
+        "asset-direction"
+      ],
+      "tags": [
+        "poster",
+        "event-poster",
+        "print poster",
+        "single-sheet key visual",
+        "composition-reference"
+      ],
+      "sourceUrlHashes": [
+        "eb339b9207f1a5bb"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "product-ui-projects:linear-product-development-system",
+      "libraryId": "product-ui-projects",
+      "title": "Linear",
+      "status": "accepted",
+      "captureDepth": "surface-suite",
+      "sourcePath": "design-templates/product-ui-projects/references/catalog.json",
+      "previewPath": "design-templates/product-ui-projects/example.html",
+      "roles": [
+        "project-reference",
+        "surface-suite",
+        "flow-patterns",
+        "state-patterns",
+        "component-patterns"
+      ],
+      "tags": [
+        "product development software",
+        "product development workspace",
+        "surface-suite",
+        "product-ui"
+      ],
+      "sourceUrlHashes": [
+        "3bccbda41093fa18",
+        "4dadc4607f81ddf3",
+        "5d680fb3465cc71f",
+        "c245ffa097a6840c",
+        "d60c08646dae5eca",
+        "e36a244c92082a45"
+      ],
+      "sourceUrlCount": 6
+    },
+    {
+      "assetId": "product-ui-projects:raycast-productivity-launcher",
+      "libraryId": "product-ui-projects",
+      "title": "Raycast",
+      "status": "accepted",
+      "captureDepth": "surface-suite",
+      "sourcePath": "design-templates/product-ui-projects/references/catalog.json",
+      "previewPath": "design-templates/product-ui-projects/example.html",
+      "roles": [
+        "project-reference",
+        "surface-suite",
+        "flow-patterns",
+        "state-patterns",
+        "component-patterns"
+      ],
+      "tags": [
+        "desktop productivity software",
+        "launcher workspace",
+        "surface-suite",
+        "product-ui"
+      ],
+      "sourceUrlHashes": [
+        "41c5c47af53bf80f",
+        "7b5da1d5c83c7a74",
+        "969036f6225618bf",
+        "9e66bc4ee8f574d2",
+        "cd8a2f463e2c1285",
+        "d3b79f6bf7506f94"
+      ],
+      "sourceUrlCount": 6
+    },
+    {
+      "assetId": "product-ui-projects:workflow-os-console-suite",
+      "libraryId": "product-ui-projects",
+      "title": "Workflow OS Console Suite",
+      "status": "accepted",
+      "captureDepth": "surface-suite",
+      "sourcePath": "design-templates/product-ui-projects/references/catalog.json",
+      "previewPath": "design-templates/product-ui-projects/example.html",
+      "roles": [
+        "project-reference",
+        "surface-suite",
+        "flow-patterns",
+        "state-patterns",
+        "component-patterns"
+      ],
+      "tags": [
+        "productivity software",
+        "SaaS console",
+        "surface-suite",
+        "product-ui"
+      ],
+      "sourceUrlHashes": [
+        "48932beb3ddd9d62",
+        "65deddfc1eb387b6",
+        "f29bb5e5d5cad76a"
+      ],
+      "sourceUrlCount": 3
+    }
+  ]
+}

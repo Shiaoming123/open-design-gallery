@@ -1,0 +1,261 @@
+{
+  "entries": [
+    {
+      "id": "multi-format-campaign-visual-system",
+      "category": "brand-campaign",
+      "title": "Multi-format Campaign Visual System",
+      "maker": "Reference study",
+      "url": "https://www.behance.net/galleries/graphic-design/advertising",
+      "medium": "static and motion campaign",
+      "format": "key visual plus channel variants",
+      "why": "A campaign reference for keeping one visual idea coherent across hero art, social crops, motion cutdowns, and landing-page modules.",
+      "compositionCount": 2,
+      "assetCount": 2,
+      "motionCount": 1,
+      "interactionCount": 0,
+      "implementationFormat": "static plus dynamic campaign",
+      "complexity": "medium",
+      "captureDepth": "campaign-system-reference",
+      "captured": "2026-06-27",
+      "reusePolicy": "inspiration-only",
+      "status": "accepted",
+      "sourcePath": "design-templates/campaign-visual-projects/references/entries/multi-format-campaign-visual-system.json",
+      "preview": "design-templates/campaign-visual-projects/example.html"
+    },
+    {
+      "id": "spotify-wrapped-shareable-identity-system",
+      "category": "brand-campaign",
+      "title": "Spotify Wrapped Shareable Identity System",
+      "maker": "Spotify / COLLINS",
+      "url": "https://wearecollins.com/case-studies/spotify/",
+      "medium": "brand and campaign identity",
+      "format": "personalized social campaign system",
+      "why": "A campaign reference for turning user data into culturally recognizable, shareable visual assets while keeping the brand flexible across genres, markets, social formats, and out-of-home moments.",
+      "compositionCount": 2,
+      "assetCount": 2,
+      "motionCount": 1,
+      "interactionCount": 1,
+      "implementationFormat": "static plus motion campaign",
+      "complexity": "high",
+      "captureDepth": "campaign-system-reference",
+      "captured": "2026-06-27",
+      "reusePolicy": "inspiration-only",
+      "status": "accepted",
+      "sourcePath": "design-templates/campaign-visual-projects/references/entries/spotify-wrapped-shareable-identity-system.json",
+      "preview": "design-templates/campaign-visual-projects/example.html"
+    },
+    {
+      "id": "airbnb-aircover-miniature-motion-campaign",
+      "category": "product-promo",
+      "title": "Airbnb Aircover Miniature Motion Campaign",
+      "maker": "BUCK for Airbnb",
+      "url": "https://buck.co/work/airbnb-aircover",
+      "medium": "product protection campaign film and still system",
+      "format": "miniature world plus CG character campaign",
+      "why": "A strong reference for product reassurance that avoids dry UI explanation: handcrafted miniature spaces, CG characters, and scenario-based storytelling make an abstract service benefit feel tangible.",
+      "compositionCount": 2,
+      "assetCount": 2,
+      "motionCount": 1,
+      "interactionCount": 0,
+      "implementationFormat": "motion-first campaign with still derivatives",
+      "complexity": "high",
+      "captureDepth": "motion-campaign-reference",
+      "captured": "2026-06-27",
+      "reusePolicy": "inspiration-only",
+      "status": "accepted",
+      "sourcePath": "design-templates/campaign-visual-projects/references/entries/airbnb-aircover-miniature-motion-campaign.json",
+      "preview": "design-templates/campaign-visual-projects/example.html"
+    }
+  ],
+  "compositions": [
+    {
+      "entryId": "multi-format-campaign-visual-system",
+      "entryTitle": "Multi-format Campaign Visual System",
+      "category": "brand-campaign",
+      "medium": "static and motion campaign",
+      "type": "campaign-hero",
+      "title": "One dominant campaign idea",
+      "url": "https://www.behance.net/galleries/graphic-design/advertising",
+      "study": "The main image, type lockup, and message all support one memorable campaign claim.",
+      "reuse": "Use when a product or brand campaign needs recognizability across channels.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "multi-format-campaign-visual-system",
+      "entryTitle": "Multi-format Campaign Visual System",
+      "category": "brand-campaign",
+      "medium": "static and motion campaign",
+      "type": "multi-format-crop",
+      "title": "Responsive crop family",
+      "url": "https://www.behance.net/galleries/graphic-design/advertising",
+      "study": "The key visual survives square, vertical, wide, and motion formats because the focal point is protected.",
+      "reuse": "Plan crop-safe zones before designing the final hero.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "spotify-wrapped-shareable-identity-system",
+      "entryTitle": "Spotify Wrapped Shareable Identity System",
+      "category": "brand-campaign",
+      "medium": "brand and campaign identity",
+      "type": "asset-system",
+      "title": "Personal data as campaign creative",
+      "url": "https://wearecollins.com/case-studies/spotify/",
+      "study": "The campaign converts individual listening behavior into a branded story people want to publish themselves.",
+      "reuse": "Use when a product has personal usage data that can become a respectful, opt-in visual artifact.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "spotify-wrapped-shareable-identity-system",
+      "entryTitle": "Spotify Wrapped Shareable Identity System",
+      "category": "brand-campaign",
+      "medium": "brand and campaign identity",
+      "type": "multi-format-crop",
+      "title": "Social-first format family",
+      "url": "https://www.itsnicethat.com/features/spotify-wrapped-campaign-identity-2023-graphic-design-301123",
+      "study": "Bold color, type, and shape systems survive stories, feeds, outdoor placements, and editorial coverage.",
+      "reuse": "Design the smallest shareable unit first, then scale up to launch pages and public media.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "airbnb-aircover-miniature-motion-campaign",
+      "entryTitle": "Airbnb Aircover Miniature Motion Campaign",
+      "category": "product-promo",
+      "medium": "product protection campaign film and still system",
+      "type": "campaign-hero",
+      "title": "Service feature as small world",
+      "url": "https://buck.co/work/airbnb-aircover",
+      "study": "Aircover is visualized through memorable miniature stay scenarios rather than literal feature diagrams.",
+      "reuse": "Use when a service promise needs emotional clarity and scenario proof.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "airbnb-aircover-miniature-motion-campaign",
+      "entryTitle": "Airbnb Aircover Miniature Motion Campaign",
+      "category": "product-promo",
+      "medium": "product protection campaign film and still system",
+      "type": "asset-system",
+      "title": "Scenario set as campaign asset library",
+      "url": "https://buck.co/work/airbnb-aircover",
+      "study": "Different houses, characters, and landscapes create many campaign moments inside one art direction.",
+      "reuse": "Build a modular world with repeatable props, framing rules, and character scale.",
+      "captured": "2026-06-27"
+    }
+  ],
+  "assets": [
+    {
+      "entryId": "multi-format-campaign-visual-system",
+      "entryTitle": "Multi-format Campaign Visual System",
+      "category": "brand-campaign",
+      "medium": "static and motion campaign",
+      "type": "key-visual",
+      "role": "campaign identity",
+      "notes": "Create original imagery or licensed assets only.",
+      "reuse": "Use a consistent subject, color contrast, and message lockup.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "multi-format-campaign-visual-system",
+      "entryTitle": "Multi-format Campaign Visual System",
+      "category": "brand-campaign",
+      "medium": "static and motion campaign",
+      "type": "motion-cutdown",
+      "role": "dynamic promotion",
+      "notes": "Motion should preserve the same visual idea rather than introduce a separate language.",
+      "reuse": "Use short loops, caption-safe framing, and clear first-frame hierarchy.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "spotify-wrapped-shareable-identity-system",
+      "entryTitle": "Spotify Wrapped Shareable Identity System",
+      "category": "brand-campaign",
+      "medium": "brand and campaign identity",
+      "type": "social-crop",
+      "role": "user-distributed campaign unit",
+      "notes": "Each asset needs strong first-frame hierarchy and enough brand signal after platform compression.",
+      "reuse": "Create templates that can ingest data while preserving brand rhythm and legibility.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "spotify-wrapped-shareable-identity-system",
+      "entryTitle": "Spotify Wrapped Shareable Identity System",
+      "category": "brand-campaign",
+      "medium": "brand and campaign identity",
+      "type": "message-lockup",
+      "role": "personalized headline",
+      "notes": "Messaging works because it feels specific to the user while belonging to a global campaign.",
+      "reuse": "Let variables alter the story but keep the grammar recognizable.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "airbnb-aircover-miniature-motion-campaign",
+      "entryTitle": "Airbnb Aircover Miniature Motion Campaign",
+      "category": "product-promo",
+      "medium": "product protection campaign film and still system",
+      "type": "key-visual",
+      "role": "tangible reassurance",
+      "notes": "The miniature treatment makes protection feel warm, specific, and memorable.",
+      "reuse": "Translate abstract benefits into original scenes with clear stakes and a visible moment of relief.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "airbnb-aircover-miniature-motion-campaign",
+      "entryTitle": "Airbnb Aircover Miniature Motion Campaign",
+      "category": "product-promo",
+      "medium": "product protection campaign film and still system",
+      "type": "motion-cutdown",
+      "role": "scenario proof",
+      "notes": "Short scenes can become social cuts, landing modules, or campaign stills.",
+      "reuse": "Plan each scene to work as both a loop and a still frame.",
+      "captured": "2026-06-27"
+    }
+  ],
+  "motion": [
+    {
+      "entryId": "multi-format-campaign-visual-system",
+      "entryTitle": "Multi-format Campaign Visual System",
+      "category": "brand-campaign",
+      "medium": "static and motion campaign",
+      "type": "looping-promo",
+      "title": "Short motion variant",
+      "notes": "Animate the reveal, crop, or type sequence while keeping the product or campaign promise legible.",
+      "fallback": "The first frame must work as a static promotional image.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "spotify-wrapped-shareable-identity-system",
+      "entryTitle": "Spotify Wrapped Shareable Identity System",
+      "category": "brand-campaign",
+      "medium": "brand and campaign identity",
+      "type": "data-story-reveal",
+      "title": "Sequential personalized reveal",
+      "notes": "Motion can turn metrics into a paced celebration rather than a static report card.",
+      "fallback": "Every animated card should export as a legible static share image.",
+      "captured": "2026-06-27"
+    },
+    {
+      "entryId": "airbnb-aircover-miniature-motion-campaign",
+      "entryTitle": "Airbnb Aircover Miniature Motion Campaign",
+      "category": "product-promo",
+      "medium": "product protection campaign film and still system",
+      "type": "character-scenario-loop",
+      "title": "Lived-in miniature scene",
+      "notes": "Small character actions communicate story, scale, and service promise quickly.",
+      "fallback": "Use a still frame with one readable action and a protected focal point.",
+      "captured": "2026-06-27"
+    }
+  ],
+  "interactions": [
+    {
+      "entryId": "spotify-wrapped-shareable-identity-system",
+      "entryTitle": "Spotify Wrapped Shareable Identity System",
+      "category": "brand-campaign",
+      "medium": "brand and campaign identity",
+      "type": "share-flow",
+      "title": "Built-in distribution moment",
+      "url": "https://wearecollins.com/case-studies/spotify/",
+      "study": "The campaign succeeds because the visual asset and the sharing behavior are designed together.",
+      "reuse": "Design campaign visuals alongside their sharing, download, and embed paths.",
+      "captured": "2026-06-27"
+    }
+  ]
+}

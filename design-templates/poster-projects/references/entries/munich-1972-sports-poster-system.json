@@ -1,0 +1,60 @@
+{
+  "id": "munich-1972-sports-poster-system",
+  "category": "event-poster",
+  "project": {
+    "title": "Munich 1972 Sports Poster System",
+    "maker": "Otl Aicher and Munich 1972 design team",
+    "url": "https://posterhouse.org/exhibition/munich-1972-sports-posters-of-the-xxth-olympic-games/",
+    "medium": "Olympic sports poster series",
+    "format": "serial event poster system"
+  },
+  "why": "A benchmark for turning a large event identity into a disciplined but lively poster family: consistent color, photographic treatment, pictogram logic, and event metadata work together without flattening each sport.",
+  "compositions": [
+    {
+      "type": "serial-system",
+      "title": "Sport-by-sport color family",
+      "url": "https://posterhouse.org/exhibition/munich-1972-sports-posters-of-the-xxth-olympic-games/",
+      "study": "Each poster can stand alone while sharing a repeated image treatment, controlled palette, and consistent Olympic information zone.",
+      "reuse": "Use when an event needs many sub-posters that must feel collectible but unmistakably related."
+    },
+    {
+      "type": "image-type-lockup",
+      "title": "Posterized action with quiet metadata",
+      "url": "https://www.sfmoma.org/exhibition/otl-aicher/",
+      "study": "High-energy athletic imagery is reduced into graphic planes while title and mark remain calm and systemized.",
+      "reuse": "Use for sports, festival, conference-track, or product-feature series where motion needs to become a static signal."
+    }
+  ],
+  "assets": [
+    {
+      "type": "color-system",
+      "role": "series differentiation",
+      "notes": "Color identifies entries inside the system without needing a new layout each time.",
+      "reuse": "Define a small palette and reserve one family of colors for the series grammar."
+    },
+    {
+      "type": "image-crop",
+      "role": "kinetic subject",
+      "notes": "Action photography is treated as graphic material rather than documentary illustration.",
+      "reuse": "Convert motion into bold silhouettes, rhythm, or tonal blocks using original or licensed imagery."
+    }
+  ],
+  "motion": [],
+  "interactions": [],
+  "implementation": {
+    "format": "static serial poster system",
+    "complexity": "medium",
+    "notes": "Useful for poster suites, event tracks, sport/product families, and multi-format cultural programs."
+  },
+  "capture": {
+    "date": "2026-06-27",
+    "sourceLinks": [
+      "https://posterhouse.org/exhibition/munich-1972-sports-posters-of-the-xxth-olympic-games/",
+      "https://www.sfmoma.org/exhibition/otl-aicher/"
+    ],
+    "attribution": "Poster House exhibition page and SFMOMA Otl Aicher exhibition notes",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "serial-system-reference"
+  },
+  "status": "accepted"
+}

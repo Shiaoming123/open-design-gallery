@@ -1,0 +1,59 @@
+{
+  "id": "plastikcomb-print-collage-spreads",
+  "category": "editorial-spread",
+  "project": {
+    "title": "Plastikcomb #5 Collage Spread System",
+    "maker": "Plastikcomb / magCulture coverage",
+    "url": "https://magculture.com/blogs/journal/plastikcomb-5",
+    "medium": "independent print magazine",
+    "format": "collage-led feature spreads"
+  },
+  "why": "A useful counterpoint to clean editorial grids: the spreads use collage, photocopy texture, fake adverts, abrupt pacing, and calm interludes to keep a raw magazine rhythm readable.",
+  "compositions": [
+    {
+      "type": "spread-grid",
+      "title": "Anti-grid with controlled pacing",
+      "url": "https://magculture.com/blogs/journal/plastikcomb-5",
+      "study": "The issue breaks conventional grids but still alternates loud openings, disruptive inserts, and quieter interview pages.",
+      "reuse": "Use when an editorial piece needs punk energy without losing reading order."
+    },
+    {
+      "type": "image-sequence",
+      "title": "Collage as context, not filler",
+      "url": "https://magculture.com/blogs/journal/plastikcomb-5",
+      "study": "Layered objects, sampled visual references, and tape-like texture make each spread feel found and authored at once.",
+      "reuse": "Use collaged fragments to create viewpoint and pace, not just to decorate empty space."
+    }
+  ],
+  "assets": [
+    {
+      "type": "photo-essay",
+      "role": "texture and evidence",
+      "notes": "Found-feeling imagery creates tactile atmosphere but must be licensed or recreated originally.",
+      "reuse": "Make original scans, textures, marks, and crops instead of copying magazine artwork."
+    },
+    {
+      "type": "pull-quote",
+      "role": "rupture and rhythm",
+      "notes": "Oversized type can function as a disruptive object between image-led sections.",
+      "reuse": "Use type scale breaks intentionally to reset attention across a long feature."
+    }
+  ],
+  "motion": [],
+  "interactions": [],
+  "implementation": {
+    "format": "static print editorial",
+    "complexity": "medium",
+    "notes": "Useful for zines, culture reports, event books, and expressive editorial landing pages."
+  },
+  "capture": {
+    "date": "2026-06-27",
+    "sourceLinks": [
+      "https://magculture.com/blogs/journal/plastikcomb-5"
+    ],
+    "attribution": "magCulture review of Plastikcomb #5",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "spread-sequence-reference"
+  },
+  "status": "accepted"
+}

@@ -46,6 +46,15 @@ For all case libraries, keep external commercial assets as source references
 only. Store source URLs, structured observations, reusable principles,
 attribution, and reuse policy; do not vendor external images, video, fonts,
 source code, or brand assets unless they are explicitly licensed for reuse.
+Prefer sharded references for new case-library entries:
+`references/catalog.json` should hold schema/index metadata plus `entryFiles`,
+while each captured reference lives in `references/entries/<entry-id>.json`.
+Each entry should include a lifecycle `status` (`lead`, `accepted`,
+`backfill-needed`, or `archived`) so daily capture can backfill weak material
+before adding more one-off leads. After catalog edits, regenerate
+`catalog/agent-context.json` and use `scripts/catalog-query.ts` for URL
+duplicate checks, thin-entry lists, and stats before spending model context on
+large source files.
 
 ## Daemon plumbing
 
