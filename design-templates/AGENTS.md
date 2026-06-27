@@ -30,6 +30,22 @@ rendering template. Keep their source JSON as the durable data model and make
   pages, flows, states, or components. If fewer than three concrete surfaces
   were inspected, keep the entry as `captureDepth: single-page-lead` and add it
   to the backfill queue instead of presenting it as a complete suite.
+- `poster-projects/` captures posters, event key visuals, typographic posters,
+  cultural posters, and product key visuals as composition-level references.
+- `editorial-magazine-projects/` captures magazine covers, editorial spreads,
+  long-form visual essays, and publication systems as layout and reading-rhythm
+  references.
+- `campaign-visual-projects/` captures brand campaign visuals, promotional
+  images, social visual systems, and static plus dynamic campaign assets as
+  channel-aware art-direction references.
+- `motion-interaction-projects/` captures frontend visual motion and
+  interaction references such as scroll choreography, mouse/cursor response,
+  morphing layout, transitions, kinetic typography, and reduced-motion fallback.
+
+For all case libraries, keep external commercial assets as source references
+only. Store source URLs, structured observations, reusable principles,
+attribution, and reuse policy; do not vendor external images, video, fonts,
+source code, or brand assets unless they are explicitly licensed for reuse.
 
 ## Daemon plumbing
 

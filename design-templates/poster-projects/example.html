@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Poster Projects Preview</title>
+<style>
+:root{--paper:#f3ead7;--ink:#14120e;--red:#d83b2d;--blue:#153d6f;--line:rgba(20,18,14,.18)}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,Arial,sans-serif}
+main{min-height:100vh;display:grid;grid-template-columns:1.1fr .9fr;gap:28px;padding:36px}
+.poster{min-height:560px;border:1px solid var(--line);background:#fff8e8;display:grid;grid-template-rows:1fr auto;padding:28px;position:relative;overflow:hidden}
+.mark{position:absolute;right:-8vw;top:6vw;width:34vw;height:34vw;background:var(--red);border-radius:50%}
+.rule{position:absolute;left:28px;top:28px;width:46%;height:10px;background:var(--blue)}
+h1{position:relative;z-index:1;margin:0;font-size:clamp(54px,10vw,132px);line-height:.82;letter-spacing:-.06em;text-transform:uppercase;max-width:760px}
+.meta{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:18px;border-top:2px solid var(--ink);padding-top:14px;font-size:12px;text-transform:uppercase;letter-spacing:.12em}
+.side{display:grid;align-content:space-between;gap:18px}.card{border-top:8px solid var(--ink);padding:18px 0}.k{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#817869}.v{font-size:28px;font-weight:800;line-height:1;margin-top:8px}.swatches{display:flex;gap:8px;margin-top:12px}.swatches span{width:38px;height:38px;border:1px solid var(--line);background:var(--c)}
+@media(max-width:800px){main{grid-template-columns:1fr;padding:20px}.poster{min-height:470px}h1{font-size:70px}}
+</style>
+</head>
+<body>
+<main>
+  <section class="poster" aria-label="Poster composition preview">
+    <div class="rule"></div><div class="mark"></div>
+    <h1>Type<br>as<br>Signal</h1>
+    <div class="meta"><span>Event poster</span><span>Grid / contrast / distance read</span></div>
+  </section>
+  <aside class="side">
+    <div class="card"><div class="k">Compositions</div><div class="v">Hero type<br>Image lockup<br>Broadside grid</div></div>
+    <div class="card"><div class="k">Reusable assets</div><div class="v">Type treatment<br>Crop system<br>Color signal</div><div class="swatches"><span style="--c:#14120e"></span><span style="--c:#d83b2d"></span><span style="--c:#153d6f"></span><span style="--c:#f3ead7"></span></div></div>
+    <div class="card"><div class="k">Capture rule</div><div class="v">Observe hierarchy.<br>Do not copy artwork.</div></div>
+  </aside>
+</main>
+</body>
+</html>
+

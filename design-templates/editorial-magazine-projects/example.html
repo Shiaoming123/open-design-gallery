@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Editorial Magazine Projects Preview</title>
+<style>
+:root{--paper:#ece7da;--ink:#17140f;--muted:#786f61;--accent:#386f5f;--line:rgba(23,20,15,.18)}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,serif}
+main{min-height:100vh;padding:34px;display:grid;grid-template-columns:.75fr 1.25fr;gap:28px}
+.cover,.spread{background:#fbf7ec;border:1px solid var(--line);box-shadow:0 24px 60px -44px #000}
+.cover{padding:24px;display:grid;align-content:space-between;min-height:560px}.mast{font:700 13px/1 Inter,Arial,sans-serif;letter-spacing:.24em;text-transform:uppercase}.cover h1{font-size:clamp(48px,7vw,92px);line-height:.9;letter-spacing:-.045em;margin:0}.issue{font:12px/1.5 Inter,Arial,sans-serif;color:var(--muted);text-transform:uppercase;letter-spacing:.14em}
+.spread{display:grid;grid-template-columns:1fr 1fr;gap:22px;padding:28px}.image{background:linear-gradient(135deg,#d7c6a4,#748777);min-height:280px}.deck{font:700 12px/1 Inter,Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}h2{font-size:42px;line-height:.98;margin:14px 0 18px}.body{font-size:15px;line-height:1.65;color:#352f27}.pull{font-size:28px;line-height:1.08;border-top:5px solid var(--ink);padding-top:14px;margin-top:20px}.folio{font:11px/1 Inter,Arial,sans-serif;color:var(--muted);margin-top:auto}
+@media(max-width:860px){main{grid-template-columns:1fr;padding:20px}.spread{grid-template-columns:1fr}.cover{min-height:430px}}
+</style>
+</head>
+<body>
+<main>
+  <section class="cover"><div class="mast">Editorial Systems</div><h1>Reading<br>Has<br>Rhythm</h1><div class="issue">Cover hierarchy / issue metadata / feature promise</div></section>
+  <section class="spread">
+    <div><div class="image"></div><p class="folio">01 / image sequence and caption zone</p></div>
+    <article><div class="deck">Feature opener</div><h2>Dense passages need quiet visual pauses.</h2><p class="body">Editorial references are captured as reading systems: cover, opener, spread grid, pull quote, caption, and image pacing.</p><p class="pull">Alternate density with release.</p></article>
+  </section>
+</main>
+</body>
+</html>
+

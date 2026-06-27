@@ -3,6 +3,47 @@
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "assets": [
     {
+      "id": "campaign-visual-projects:multi-format-campaign-visual-system",
+      "kind": "case-study",
+      "title": "Multi-format Campaign Visual System",
+      "summary": "A campaign reference for keeping one visual idea coherent across hero art, social crops, motion cutdowns, and landing-page modules.",
+      "sourcePath": "design-templates/campaign-visual-projects/references/catalog.json",
+      "previewPath": "design-templates/campaign-visual-projects/example.html",
+      "tags": [
+        "campaign",
+        "brand-campaign",
+        "static and motion campaign",
+        "key visual plus channel variants",
+        "campaign-system-reference"
+      ],
+      "useCases": [
+        "campaign",
+        "promo visual",
+        "social visual",
+        "motion campaign",
+        "brand-campaign",
+        "key visual plus channel variants"
+      ],
+      "userWords": [
+        "A campaign reference for keeping one visual idea coherent across hero art, social crops, motion cutdowns, and landing-page modules."
+      ],
+      "visualTraits": [
+        "brand-campaign",
+        "static and motion campaign",
+        "key visual plus channel variants"
+      ],
+      "roles": [
+        "campaign-art-direction",
+        "asset-direction",
+        "motion-patterns"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "files": {
+        "catalog": "design-templates/campaign-visual-projects/references/catalog.json",
+        "preview": "design-templates/campaign-visual-projects/example.html"
+      }
+    },
+    {
       "id": "commercial-product-launches:apple-iphone-product-family",
       "kind": "case-study",
       "title": "Apple",
@@ -962,6 +1003,86 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
+      }
+    },
+    {
+      "id": "editorial-magazine-projects:editorial-spread-reading-rhythm",
+      "kind": "case-study",
+      "title": "Editorial Spread Reading Rhythm",
+      "summary": "A useful editorial reference for turning long-form content into a paced visual system with covers, feature openers, captions, pull quotes, and image sequencing.",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/catalog.json",
+      "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "tags": [
+        "magazine",
+        "editorial-spread",
+        "digital and print editorial",
+        "cover plus feature spread",
+        "layout-system-reference"
+      ],
+      "useCases": [
+        "magazine",
+        "editorial",
+        "publication layout",
+        "editorial-spread",
+        "cover plus feature spread"
+      ],
+      "userWords": [
+        "A useful editorial reference for turning long-form content into a paced visual system with covers, feature openers, captions, pull quotes, and image sequencing."
+      ],
+      "visualTraits": [
+        "editorial-spread",
+        "digital and print editorial",
+        "cover plus feature spread"
+      ],
+      "roles": [
+        "editorial-layouts",
+        "composition-patterns",
+        "asset-direction"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "files": {
+        "catalog": "design-templates/editorial-magazine-projects/references/catalog.json",
+        "preview": "design-templates/editorial-magazine-projects/example.html"
+      }
+    },
+    {
+      "id": "motion-interaction-projects:scroll-and-pointer-motion-system",
+      "kind": "case-study",
+      "title": "Scroll and Pointer Motion System",
+      "summary": "A frontend motion reference for treating scroll, pointer response, layout morphs, and reduced-motion fallback as one interaction system instead of isolated effects.",
+      "sourcePath": "design-templates/motion-interaction-projects/references/catalog.json",
+      "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "tags": [
+        "motion design",
+        "scroll-interaction",
+        "frontend interaction",
+        "browser motion prototype",
+        "interaction-system-reference"
+      ],
+      "useCases": [
+        "motion design",
+        "frontend interaction",
+        "scroll interaction",
+        "scroll-interaction",
+        "browser motion prototype"
+      ],
+      "userWords": [
+        "A frontend motion reference for treating scroll, pointer response, layout morphs, and reduced-motion fallback as one interaction system instead of isolated effects."
+      ],
+      "visualTraits": [
+        "scroll-interaction",
+        "frontend interaction",
+        "browser motion prototype"
+      ],
+      "roles": [
+        "motion-patterns",
+        "interaction-patterns",
+        "frontend-motion-reference"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "files": {
+        "catalog": "design-templates/motion-interaction-projects/references/catalog.json",
+        "preview": "design-templates/motion-interaction-projects/example.html"
       }
     },
     {
@@ -2886,6 +3007,46 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
+      }
+    },
+    {
+      "id": "poster-projects:swiss-cultural-poster-system",
+      "kind": "case-study",
+      "title": "Swiss Cultural Poster System",
+      "summary": "A durable poster reference for high-contrast hierarchy, disciplined whitespace, and type-led cultural communication without decorative overload.",
+      "sourcePath": "design-templates/poster-projects/references/catalog.json",
+      "previewPath": "design-templates/poster-projects/example.html",
+      "tags": [
+        "poster",
+        "event-poster",
+        "print poster",
+        "single-sheet key visual",
+        "composition-reference"
+      ],
+      "useCases": [
+        "poster",
+        "key visual",
+        "event visual",
+        "event-poster",
+        "single-sheet key visual"
+      ],
+      "userWords": [
+        "A durable poster reference for high-contrast hierarchy, disciplined whitespace, and type-led cultural communication without decorative overload."
+      ],
+      "visualTraits": [
+        "event-poster",
+        "print poster",
+        "single-sheet key visual"
+      ],
+      "roles": [
+        "poster-reference",
+        "composition-patterns",
+        "asset-direction"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "files": {
+        "catalog": "design-templates/poster-projects/references/catalog.json",
+        "preview": "design-templates/poster-projects/example.html"
       }
     },
     {
@@ -8601,6 +8762,41 @@
       }
     },
     {
+      "id": "design-template:campaign-visual-projects",
+      "kind": "design-template",
+      "title": "campaign-visual-projects",
+      "summary": "Project-level case library for brand campaign visuals, promotional images, social visual systems, and static plus dynamic campaign assets. Captures art direction, asset systems, channels, motion notes, and reuse rules.",
+      "sourcePath": "design-templates/campaign-visual-projects",
+      "previewPath": "design-templates/campaign-visual-projects/example.html",
+      "tags": [
+        "case-study",
+        "campaign-art-direction",
+        "campaign",
+        "promo visual",
+        "social",
+        "art direction",
+        "motion",
+        "design-template"
+      ],
+      "useCases": [
+        "campaign-art-direction",
+        "case-study"
+      ],
+      "userWords": [
+        "Project-level case library for brand campaign visuals, promotional images, social visual systems, and static plus dynamic campaign assets. Captures art direction, asset systems, channels, motion notes, and reuse rules."
+      ],
+      "visualTraits": [],
+      "roles": [
+        "artifact-shape",
+        "case-study"
+      ],
+      "sourcePolicy": "template",
+      "files": {
+        "skill": "design-templates/campaign-visual-projects/SKILL.md",
+        "preview": "design-templates/campaign-visual-projects/example.html"
+      }
+    },
+    {
       "id": "design-template:clinical-case-report",
       "kind": "design-template",
       "title": "clinical-case-report",
@@ -8852,6 +9048,40 @@
       "files": {
         "skill": "design-templates/docs-page/SKILL.md",
         "preview": "design-templates/docs-page/example.html"
+      }
+    },
+    {
+      "id": "design-template:editorial-magazine-projects",
+      "kind": "design-template",
+      "title": "editorial-magazine-projects",
+      "summary": "Project-level case library for magazine covers, editorial spreads, long-form visual essays, and publication systems. Captures layout rhythm, typography, image direction, and reusable editorial patterns.",
+      "sourcePath": "design-templates/editorial-magazine-projects",
+      "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "tags": [
+        "case-study",
+        "editorial-layouts",
+        "magazine",
+        "editorial",
+        "publication",
+        "layout",
+        "design-template"
+      ],
+      "useCases": [
+        "editorial-layouts",
+        "case-study"
+      ],
+      "userWords": [
+        "Project-level case library for magazine covers, editorial spreads, long-form visual essays, and publication systems. Captures layout rhythm, typography, image direction, and reusable editorial patterns."
+      ],
+      "visualTraits": [],
+      "roles": [
+        "artifact-shape",
+        "case-study"
+      ],
+      "sourcePolicy": "template",
+      "files": {
+        "skill": "design-templates/editorial-magazine-projects/SKILL.md",
+        "preview": "design-templates/editorial-magazine-projects/example.html"
       }
     },
     {
@@ -10903,6 +11133,42 @@
       }
     },
     {
+      "id": "design-template:motion-interaction-projects",
+      "kind": "design-template",
+      "title": "motion-interaction-projects",
+      "summary": "Project-level case library for excellent frontend visual motion and interaction references, including scroll, mouse, cursor, morphing layout, transition systems, and kinetic typography.",
+      "sourcePath": "design-templates/motion-interaction-projects",
+      "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "tags": [
+        "case-study",
+        "motion-interaction",
+        "motion design",
+        "frontend interaction",
+        "scroll",
+        "cursor",
+        "morph",
+        "kinetic typography",
+        "design-template"
+      ],
+      "useCases": [
+        "motion-interaction",
+        "case-study"
+      ],
+      "userWords": [
+        "Project-level case library for excellent frontend visual motion and interaction references, including scroll, mouse, cursor, morphing layout, transition systems, and kinetic typography."
+      ],
+      "visualTraits": [],
+      "roles": [
+        "artifact-shape",
+        "case-study"
+      ],
+      "sourcePolicy": "template",
+      "files": {
+        "skill": "design-templates/motion-interaction-projects/SKILL.md",
+        "preview": "design-templates/motion-interaction-projects/example.html"
+      }
+    },
+    {
       "id": "design-template:open-design-landing",
       "kind": "design-template",
       "title": "open-design-landing",
@@ -11158,6 +11424,40 @@
       "files": {
         "skill": "design-templates/pm-spec/SKILL.md",
         "preview": "design-templates/pm-spec/example.html"
+      }
+    },
+    {
+      "id": "design-template:poster-projects",
+      "kind": "design-template",
+      "title": "poster-projects",
+      "summary": "Project-level case library for excellent posters, event key visuals, typographic posters, and product key visuals. Captures composition, type hierarchy, image treatment, reusable production notes, and attribution without copying external artwork.",
+      "sourcePath": "design-templates/poster-projects",
+      "previewPath": "design-templates/poster-projects/example.html",
+      "tags": [
+        "case-study",
+        "poster-reference",
+        "poster",
+        "key visual",
+        "typography",
+        "campaign",
+        "design-template"
+      ],
+      "useCases": [
+        "poster-reference",
+        "case-study"
+      ],
+      "userWords": [
+        "Project-level case library for excellent posters, event key visuals, typographic posters, and product key visuals. Captures composition, type hierarchy, image treatment, reusable production notes, and attribution without copying external artwork."
+      ],
+      "visualTraits": [],
+      "roles": [
+        "artifact-shape",
+        "case-study"
+      ],
+      "sourcePolicy": "template",
+      "files": {
+        "skill": "design-templates/poster-projects/SKILL.md",
+        "preview": "design-templates/poster-projects/example.html"
       }
     },
     {

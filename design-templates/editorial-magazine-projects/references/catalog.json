@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "od-visual-case-library/v1",
+  "captured": "2026-06-27",
+  "description": "Project-level references for magazine covers, editorial spreads, long-form visual essays, and publication systems.",
+  "indexes": {
+    "entryTypes": ["magazine-cover", "editorial-spread", "visual-essay", "publication-system"],
+    "compositionTypes": ["cover-hierarchy", "spread-grid", "caption-system", "image-sequence"],
+    "assetTypes": ["masthead", "folio", "pull-quote", "photo-essay"]
+  },
+  "entries": [
+    {
+      "id": "editorial-spread-reading-rhythm",
+      "category": "editorial-spread",
+      "project": {
+        "title": "Editorial Spread Reading Rhythm",
+        "maker": "Reference study",
+        "url": "https://www.itsnicethat.com/features",
+        "medium": "digital and print editorial",
+        "format": "cover plus feature spread"
+      },
+      "why": "A useful editorial reference for turning long-form content into a paced visual system with covers, feature openers, captions, pull quotes, and image sequencing.",
+      "compositions": [
+        {
+          "type": "cover-hierarchy",
+          "title": "Headline-first cover stack",
+          "url": "https://www.itsnicethat.com/features",
+          "study": "The cover opener gives the story one dominant editorial promise before supporting metadata appears.",
+          "reuse": "Use for reports, magazines, launch essays, and narrative portfolios."
+        },
+        {
+          "type": "spread-grid",
+          "title": "Alternating dense and quiet spreads",
+          "url": "https://www.itsnicethat.com/features",
+          "study": "Reading pace comes from alternating text-heavy passages with image-led pauses.",
+          "reuse": "Use when long content needs more rhythm than a standard article template."
+        }
+      ],
+      "assets": [
+        {
+          "type": "pull-quote",
+          "role": "reader re-entry",
+          "notes": "Pull quotes break long passages and create scanning anchors.",
+          "reuse": "Use only when the quote advances the argument, not as decoration."
+        },
+        {
+          "type": "caption-system",
+          "role": "evidence and attribution",
+          "notes": "Captions should be legible but subordinate to body copy.",
+          "reuse": "Use consistent caption tone and placement across a feature."
+        }
+      ],
+      "motion": [],
+      "interactions": [],
+      "implementation": {
+        "format": "static editorial",
+        "complexity": "medium",
+        "notes": "Useful for publication pages, PDF-like reports, and editorial landing pages."
+      },
+      "capture": {
+        "date": "2026-06-27",
+        "sourceLinks": ["https://www.itsnicethat.com/features"],
+        "attribution": "It's Nice That feature index",
+        "reusePolicy": "inspiration-only",
+        "captureDepth": "layout-system-reference"
+      }
+    }
+  ]
+}
+

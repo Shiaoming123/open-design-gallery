@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "od-visual-case-library/v1",
+  "captured": "2026-06-27",
+  "description": "Project-level references for posters, event key visuals, typographic posters, and product key visuals. External artwork remains source material only.",
+  "indexes": {
+    "entryTypes": ["event-poster", "type-poster", "product-key-visual", "cultural-poster"],
+    "compositionTypes": ["hero-type", "image-type-lockup", "grid-broadside", "serial-system"],
+    "assetTypes": ["type-treatment", "image-crop", "texture", "color-system"]
+  },
+  "entries": [
+    {
+      "id": "swiss-cultural-poster-system",
+      "category": "event-poster",
+      "project": {
+        "title": "Swiss Cultural Poster System",
+        "maker": "Reference study",
+        "url": "https://www.moma.org/collection/works?classification=Poster",
+        "medium": "print poster",
+        "format": "single-sheet key visual"
+      },
+      "why": "A durable poster reference for high-contrast hierarchy, disciplined whitespace, and type-led cultural communication without decorative overload.",
+      "compositions": [
+        {
+          "type": "hero-type",
+          "title": "Oversized type as image",
+          "url": "https://www.moma.org/collection/works?classification=Poster",
+          "study": "Large type carries the visual mass while smaller metadata locks to a strict axis.",
+          "reuse": "Use when a poster needs authority and quick distance readability."
+        },
+        {
+          "type": "grid-broadside",
+          "title": "Asymmetric grid tension",
+          "url": "https://www.moma.org/collection/works?classification=Poster",
+          "study": "Composition feels dynamic because text blocks are offset inside a rigorous grid.",
+          "reuse": "Use for event posters, conference visuals, and cultural announcements."
+        }
+      ],
+      "assets": [
+        {
+          "type": "type-treatment",
+          "role": "visual subject",
+          "notes": "Use original typography choices; do not copy source lettering.",
+          "reuse": "Build a fresh type scale and lockup from the observed hierarchy."
+        },
+        {
+          "type": "color-system",
+          "role": "contrast and signal",
+          "notes": "Palette should be compact and high contrast.",
+          "reuse": "Reserve one accent for event identity or callout information."
+        }
+      ],
+      "motion": [],
+      "interactions": [],
+      "implementation": {
+        "format": "static",
+        "complexity": "low",
+        "notes": "Reusable as poster, social crop, or hero key visual."
+      },
+      "capture": {
+        "date": "2026-06-27",
+        "sourceLinks": ["https://www.moma.org/collection/works?classification=Poster"],
+        "attribution": "Museum of Modern Art poster collection index",
+        "reusePolicy": "inspiration-only",
+        "captureDepth": "composition-reference"
+      }
+    }
+  ]
+}
+

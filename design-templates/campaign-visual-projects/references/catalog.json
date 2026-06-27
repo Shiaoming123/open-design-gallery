@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "od-visual-case-library/v1",
+  "captured": "2026-06-27",
+  "description": "Project-level references for brand campaign visuals, promotional imagery, social visual systems, and static plus dynamic campaign assets.",
+  "indexes": {
+    "entryTypes": ["brand-campaign", "social-campaign", "product-promo", "launch-key-visual"],
+    "compositionTypes": ["campaign-hero", "asset-system", "multi-format-crop", "message-lockup"],
+    "assetTypes": ["key-visual", "social-crop", "motion-cutdown", "landing-hero"]
+  },
+  "entries": [
+    {
+      "id": "multi-format-campaign-visual-system",
+      "category": "brand-campaign",
+      "project": {
+        "title": "Multi-format Campaign Visual System",
+        "maker": "Reference study",
+        "url": "https://www.behance.net/galleries/graphic-design/advertising",
+        "medium": "static and motion campaign",
+        "format": "key visual plus channel variants"
+      },
+      "why": "A campaign reference for keeping one visual idea coherent across hero art, social crops, motion cutdowns, and landing-page modules.",
+      "compositions": [
+        {
+          "type": "campaign-hero",
+          "title": "One dominant campaign idea",
+          "url": "https://www.behance.net/galleries/graphic-design/advertising",
+          "study": "The main image, type lockup, and message all support one memorable campaign claim.",
+          "reuse": "Use when a product or brand campaign needs recognizability across channels."
+        },
+        {
+          "type": "multi-format-crop",
+          "title": "Responsive crop family",
+          "url": "https://www.behance.net/galleries/graphic-design/advertising",
+          "study": "The key visual survives square, vertical, wide, and motion formats because the focal point is protected.",
+          "reuse": "Plan crop-safe zones before designing the final hero."
+        }
+      ],
+      "assets": [
+        {
+          "type": "key-visual",
+          "role": "campaign identity",
+          "notes": "Create original imagery or licensed assets only.",
+          "reuse": "Use a consistent subject, color contrast, and message lockup."
+        },
+        {
+          "type": "motion-cutdown",
+          "role": "dynamic promotion",
+          "notes": "Motion should preserve the same visual idea rather than introduce a separate language.",
+          "reuse": "Use short loops, caption-safe framing, and clear first-frame hierarchy."
+        }
+      ],
+      "motion": [
+        {
+          "type": "looping-promo",
+          "title": "Short motion variant",
+          "notes": "Animate the reveal, crop, or type sequence while keeping the product or campaign promise legible.",
+          "fallback": "The first frame must work as a static promotional image."
+        }
+      ],
+      "interactions": [],
+      "implementation": {
+        "format": "static plus dynamic campaign",
+        "complexity": "medium",
+        "notes": "Useful for landing heroes, launch pages, social packages, and ad creative systems."
+      },
+      "capture": {
+        "date": "2026-06-27",
+        "sourceLinks": ["https://www.behance.net/galleries/graphic-design/advertising"],
+        "attribution": "Behance advertising gallery index",
+        "reusePolicy": "inspiration-only",
+        "captureDepth": "campaign-system-reference"
+      }
+    }
+  ]
+}
+
