@@ -3,6 +3,47 @@
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "assets": [
     {
+      "id": "campaign-visual-projects:airbnb-aircover-miniature-motion-campaign",
+      "kind": "case-study",
+      "title": "Airbnb Aircover Miniature Motion Campaign",
+      "summary": "A strong reference for product reassurance that avoids dry UI explanation: handcrafted miniature spaces, CG characters, and scenario-based storytelling make an abstract service benefit feel tangible.",
+      "sourcePath": "design-templates/campaign-visual-projects/references/catalog.json",
+      "previewPath": "design-templates/campaign-visual-projects/example.html",
+      "tags": [
+        "campaign",
+        "product-promo",
+        "product protection campaign film and still system",
+        "miniature world plus CG character campaign",
+        "motion-campaign-reference"
+      ],
+      "useCases": [
+        "campaign",
+        "promo visual",
+        "social visual",
+        "motion campaign",
+        "product-promo",
+        "miniature world plus CG character campaign"
+      ],
+      "userWords": [
+        "A strong reference for product reassurance that avoids dry UI explanation: handcrafted miniature spaces, CG characters, and scenario-based storytelling make an abstract service benefit feel tangible."
+      ],
+      "visualTraits": [
+        "product-promo",
+        "product protection campaign film and still system",
+        "miniature world plus CG character campaign"
+      ],
+      "roles": [
+        "campaign-art-direction",
+        "asset-direction",
+        "motion-patterns"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "files": {
+        "catalog": "design-templates/campaign-visual-projects/references/catalog.json",
+        "preview": "design-templates/campaign-visual-projects/example.html"
+      }
+    },
+    {
       "id": "campaign-visual-projects:multi-format-campaign-visual-system",
       "kind": "case-study",
       "title": "Multi-format Campaign Visual System",
@@ -31,6 +72,47 @@
         "brand-campaign",
         "static and motion campaign",
         "key visual plus channel variants"
+      ],
+      "roles": [
+        "campaign-art-direction",
+        "asset-direction",
+        "motion-patterns"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "files": {
+        "catalog": "design-templates/campaign-visual-projects/references/catalog.json",
+        "preview": "design-templates/campaign-visual-projects/example.html"
+      }
+    },
+    {
+      "id": "campaign-visual-projects:spotify-wrapped-shareable-identity-system",
+      "kind": "case-study",
+      "title": "Spotify Wrapped Shareable Identity System",
+      "summary": "A campaign reference for turning user data into culturally recognizable, shareable visual assets while keeping the brand flexible across genres, markets, social formats, and out-of-home moments.",
+      "sourcePath": "design-templates/campaign-visual-projects/references/catalog.json",
+      "previewPath": "design-templates/campaign-visual-projects/example.html",
+      "tags": [
+        "campaign",
+        "brand-campaign",
+        "brand and campaign identity",
+        "personalized social campaign system",
+        "campaign-system-reference"
+      ],
+      "useCases": [
+        "campaign",
+        "promo visual",
+        "social visual",
+        "motion campaign",
+        "brand-campaign",
+        "personalized social campaign system"
+      ],
+      "userWords": [
+        "A campaign reference for turning user data into culturally recognizable, shareable visual assets while keeping the brand flexible across genres, markets, social formats, and out-of-home moments."
+      ],
+      "visualTraits": [
+        "brand-campaign",
+        "brand and campaign identity",
+        "personalized social campaign system"
       ],
       "roles": [
         "campaign-art-direction",
@@ -1043,6 +1125,166 @@
       "files": {
         "catalog": "design-templates/editorial-magazine-projects/references/catalog.json",
         "preview": "design-templates/editorial-magazine-projects/example.html"
+      }
+    },
+    {
+      "id": "editorial-magazine-projects:plastikcomb-print-collage-spreads",
+      "kind": "case-study",
+      "title": "Plastikcomb #5 Collage Spread System",
+      "summary": "A useful counterpoint to clean editorial grids: the spreads use collage, photocopy texture, fake adverts, abrupt pacing, and calm interludes to keep a raw magazine rhythm readable.",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/catalog.json",
+      "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "tags": [
+        "magazine",
+        "editorial-spread",
+        "independent print magazine",
+        "collage-led feature spreads",
+        "spread-sequence-reference"
+      ],
+      "useCases": [
+        "magazine",
+        "editorial",
+        "publication layout",
+        "editorial-spread",
+        "collage-led feature spreads"
+      ],
+      "userWords": [
+        "A useful counterpoint to clean editorial grids: the spreads use collage, photocopy texture, fake adverts, abrupt pacing, and calm interludes to keep a raw magazine rhythm readable."
+      ],
+      "visualTraits": [
+        "editorial-spread",
+        "independent print magazine",
+        "collage-led feature spreads"
+      ],
+      "roles": [
+        "editorial-layouts",
+        "composition-patterns",
+        "asset-direction"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "files": {
+        "catalog": "design-templates/editorial-magazine-projects/references/catalog.json",
+        "preview": "design-templates/editorial-magazine-projects/example.html"
+      }
+    },
+    {
+      "id": "editorial-magazine-projects:pudding-colorism-visual-essay",
+      "kind": "case-study",
+      "title": "The Pudding: Colorism in High Fashion",
+      "summary": "A strong digital editorial reference for making methodology, evidence, and narrative feel like one reading experience through sequenced visuals, clear authorship, and paced explanation.",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/catalog.json",
+      "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "tags": [
+        "magazine",
+        "visual-essay",
+        "interactive visual essay",
+        "data-led long-form editorial",
+        "visual-essay-reference"
+      ],
+      "useCases": [
+        "magazine",
+        "editorial",
+        "publication layout",
+        "visual-essay",
+        "data-led long-form editorial"
+      ],
+      "userWords": [
+        "A strong digital editorial reference for making methodology, evidence, and narrative feel like one reading experience through sequenced visuals, clear authorship, and paced explanation."
+      ],
+      "visualTraits": [
+        "visual-essay",
+        "interactive visual essay",
+        "data-led long-form editorial"
+      ],
+      "roles": [
+        "editorial-layouts",
+        "composition-patterns",
+        "asset-direction"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "files": {
+        "catalog": "design-templates/editorial-magazine-projects/references/catalog.json",
+        "preview": "design-templates/editorial-magazine-projects/example.html"
+      }
+    },
+    {
+      "id": "motion-interaction-projects:codrops-gsap-creative-hub-patterns",
+      "kind": "case-study",
+      "title": "Codrops GSAP Creative Hub Interaction Patterns",
+      "summary": "A compact reference set for modern frontend motion patterns: scroll-synced video/image cues, 3D text, draggable carousels, mask reveals, WebGL shaders, and page transitions are grouped with live demos and implementation context.",
+      "sourcePath": "design-templates/motion-interaction-projects/references/catalog.json",
+      "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "tags": [
+        "motion design",
+        "scroll-interaction",
+        "frontend motion demo collection",
+        "scroll, carousel, shader, mask, and transition pattern library",
+        "pattern-collection-reference"
+      ],
+      "useCases": [
+        "motion design",
+        "frontend interaction",
+        "scroll interaction",
+        "scroll-interaction",
+        "scroll, carousel, shader, mask, and transition pattern library"
+      ],
+      "userWords": [
+        "A compact reference set for modern frontend motion patterns: scroll-synced video/image cues, 3D text, draggable carousels, mask reveals, WebGL shaders, and page transitions are grouped with live demos and implementation context."
+      ],
+      "visualTraits": [
+        "scroll-interaction",
+        "frontend motion demo collection",
+        "scroll, carousel, shader, mask, and transition pattern library"
+      ],
+      "roles": [
+        "motion-patterns",
+        "interaction-patterns",
+        "frontend-motion-reference"
+      ],
+      "sourcePolicy": "inspiration-only; verify individual demo licenses before code reuse",
+      "files": {
+        "catalog": "design-templates/motion-interaction-projects/references/catalog.json",
+        "preview": "design-templates/motion-interaction-projects/example.html"
+      }
+    },
+    {
+      "id": "motion-interaction-projects:codrops-kinetic-typography-page-transition",
+      "kind": "case-study",
+      "title": "Codrops Kinetic Typography Page Transition",
+      "summary": "A precise reference for using type as the transition object: background letters rotate, scale, and move forward to preserve continuity between navigation states.",
+      "sourcePath": "design-templates/motion-interaction-projects/references/catalog.json",
+      "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "tags": [
+        "motion design",
+        "kinetic-typography",
+        "frontend typography transition prototype",
+        "GSAP page transition demo",
+        "interaction-prototype-reference"
+      ],
+      "useCases": [
+        "motion design",
+        "frontend interaction",
+        "scroll interaction",
+        "kinetic-typography",
+        "GSAP page transition demo"
+      ],
+      "userWords": [
+        "A precise reference for using type as the transition object: background letters rotate, scale, and move forward to preserve continuity between navigation states."
+      ],
+      "visualTraits": [
+        "kinetic-typography",
+        "frontend typography transition prototype",
+        "GSAP page transition demo"
+      ],
+      "roles": [
+        "motion-patterns",
+        "interaction-patterns",
+        "frontend-motion-reference"
+      ],
+      "sourcePolicy": "inspiration-only; source code link recorded for license review before reuse",
+      "files": {
+        "catalog": "design-templates/motion-interaction-projects/references/catalog.json",
+        "preview": "design-templates/motion-interaction-projects/example.html"
       }
     },
     {
@@ -3007,6 +3249,86 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
+      }
+    },
+    {
+      "id": "poster-projects:munich-1972-sports-poster-system",
+      "kind": "case-study",
+      "title": "Munich 1972 Sports Poster System",
+      "summary": "A benchmark for turning a large event identity into a disciplined but lively poster family: consistent color, photographic treatment, pictogram logic, and event metadata work together without flattening each sport.",
+      "sourcePath": "design-templates/poster-projects/references/catalog.json",
+      "previewPath": "design-templates/poster-projects/example.html",
+      "tags": [
+        "poster",
+        "event-poster",
+        "Olympic sports poster series",
+        "serial event poster system",
+        "serial-system-reference"
+      ],
+      "useCases": [
+        "poster",
+        "key visual",
+        "event visual",
+        "event-poster",
+        "serial event poster system"
+      ],
+      "userWords": [
+        "A benchmark for turning a large event identity into a disciplined but lively poster family: consistent color, photographic treatment, pictogram logic, and event metadata work together without flattening each sport."
+      ],
+      "visualTraits": [
+        "event-poster",
+        "Olympic sports poster series",
+        "serial event poster system"
+      ],
+      "roles": [
+        "poster-reference",
+        "composition-patterns",
+        "asset-direction"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "files": {
+        "catalog": "design-templates/poster-projects/references/catalog.json",
+        "preview": "design-templates/poster-projects/example.html"
+      }
+    },
+    {
+      "id": "poster-projects:public-theater-typographic-posters",
+      "kind": "case-study",
+      "title": "The Public Theater Typographic Poster Language",
+      "summary": "A strong reference for using typography as the image itself: bold condensed type, sharp figure-ground contrast, and city-like pacing create posters that feel immediate without depending on complex illustration.",
+      "sourcePath": "design-templates/poster-projects/references/catalog.json",
+      "previewPath": "design-templates/poster-projects/example.html",
+      "tags": [
+        "poster",
+        "type-poster",
+        "theater posters and cultural identity",
+        "typographic campaign poster family",
+        "typographic-poster-reference"
+      ],
+      "useCases": [
+        "poster",
+        "key visual",
+        "event visual",
+        "type-poster",
+        "typographic campaign poster family"
+      ],
+      "userWords": [
+        "A strong reference for using typography as the image itself: bold condensed type, sharp figure-ground contrast, and city-like pacing create posters that feel immediate without depending on complex illustration."
+      ],
+      "visualTraits": [
+        "type-poster",
+        "theater posters and cultural identity",
+        "typographic campaign poster family"
+      ],
+      "roles": [
+        "poster-reference",
+        "composition-patterns",
+        "asset-direction"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "files": {
+        "catalog": "design-templates/poster-projects/references/catalog.json",
+        "preview": "design-templates/poster-projects/example.html"
       }
     },
     {

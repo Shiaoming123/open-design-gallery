@@ -3,9 +3,24 @@
   "captured": "2026-06-27",
   "description": "Project-level references for frontend visual motion, scroll choreography, pointer interaction, morphing layouts, transitions, and kinetic typography.",
   "indexes": {
-    "entryTypes": ["scroll-interaction", "cursor-interaction", "morphing-layout", "kinetic-typography"],
-    "compositionTypes": ["motion-sequence", "state-transition", "interaction-loop", "fallback-state"],
-    "assetTypes": ["timeline", "gesture-map", "motion-token", "fallback-frame"]
+    "entryTypes": [
+      "scroll-interaction",
+      "cursor-interaction",
+      "morphing-layout",
+      "kinetic-typography"
+    ],
+    "compositionTypes": [
+      "motion-sequence",
+      "state-transition",
+      "interaction-loop",
+      "fallback-state"
+    ],
+    "assetTypes": [
+      "timeline",
+      "gesture-map",
+      "motion-token",
+      "fallback-frame"
+    ]
   },
   "entries": [
     {
@@ -79,12 +94,166 @@
       },
       "capture": {
         "date": "2026-06-27",
-        "sourceLinks": ["https://tympanus.net/codrops/category/playground/"],
+        "sourceLinks": [
+          "https://tympanus.net/codrops/category/playground/"
+        ],
         "attribution": "Codrops playground index",
         "reusePolicy": "inspiration-only",
         "captureDepth": "interaction-system-reference"
       }
+    },
+    {
+      "id": "codrops-gsap-creative-hub-patterns",
+      "category": "scroll-interaction",
+      "project": {
+        "title": "Codrops GSAP Creative Hub Interaction Patterns",
+        "maker": "Codrops contributors",
+        "url": "https://tympanus.net/codrops/hub/gsap-highlights/",
+        "medium": "frontend motion demo collection",
+        "format": "scroll, carousel, shader, mask, and transition pattern library"
+      },
+      "why": "A compact reference set for modern frontend motion patterns: scroll-synced video/image cues, 3D text, draggable carousels, mask reveals, WebGL shaders, and page transitions are grouped with live demos and implementation context.",
+      "compositions": [
+        {
+          "type": "motion-sequence",
+          "title": "Scroll-synced visual chapters",
+          "url": "https://tympanus.net/codrops/hub/gsap-highlights/",
+          "study": "The collection surfaces patterns where scroll progress maps to image, video, depth, mask, and typography changes.",
+          "reuse": "Use when a page needs motion to reveal structure or meaning instead of only adding polish."
+        },
+        {
+          "type": "interaction-loop",
+          "title": "Draggable and infinite motion modules",
+          "url": "https://tympanus.net/codrops/hub/gsap-highlights/",
+          "study": "Carousel and grid demos show how repeated content can feel spatial and tactile without becoming hard to navigate.",
+          "reuse": "Use for galleries, product collections, and media browsers with clear keyboard and reduced-motion alternatives."
+        }
+      ],
+      "assets": [
+        {
+          "type": "motion-token",
+          "role": "timing grammar",
+          "notes": "The useful asset is not copied code but named timing, trigger, scrub, and reveal rules.",
+          "reuse": "Record duration, trigger point, easing intent, and fallback state for each pattern."
+        },
+        {
+          "type": "gesture-map",
+          "role": "input behavior",
+          "notes": "Scroll, drag, hover, and pointer behavior should be mapped before animation polish.",
+          "reuse": "Define which inputs are primary on desktop and what replaces them on touch devices."
+        }
+      ],
+      "motion": [
+        {
+          "type": "scroll-choreography",
+          "title": "Timed scroll cue sequence",
+          "notes": "Video, image, mask, and type motion can be synchronized to reading progress.",
+          "fallback": "Provide static section order and avoid hiding essential content behind animation."
+        },
+        {
+          "type": "spatial-carousel",
+          "title": "Depth-based repeated content",
+          "notes": "3D and parallax effects can imply depth while preserving active item clarity.",
+          "fallback": "Flatten to a standard carousel or stacked grid."
+        }
+      ],
+      "interactions": [
+        {
+          "type": "draggable-carousel",
+          "title": "Pointer-driven spatial browsing",
+          "url": "https://tympanus.net/codrops/hub/gsap-highlights/",
+          "study": "Drag interactions can turn browsing into tactile exploration when position and focus remain obvious.",
+          "reuse": "Keep drag affordances visible and support non-pointer navigation."
+        }
+      ],
+      "implementation": {
+        "format": "interactive frontend demo collection",
+        "complexity": "high",
+        "notes": "Useful as a pattern index before building GSAP, WebGL, scroll, or carousel-heavy experiences."
+      },
+      "capture": {
+        "date": "2026-06-27",
+        "sourceLinks": [
+          "https://tympanus.net/codrops/hub/gsap-highlights/"
+        ],
+        "attribution": "Codrops GSAP Highlights Creative Hub collection",
+        "reusePolicy": "inspiration-only; verify individual demo licenses before code reuse",
+        "captureDepth": "pattern-collection-reference"
+      }
+    },
+    {
+      "id": "codrops-kinetic-typography-page-transition",
+      "category": "kinetic-typography",
+      "project": {
+        "title": "Codrops Kinetic Typography Page Transition",
+        "maker": "Manoela Ilic / Codrops",
+        "url": "https://tympanus.net/codrops/2021/09/29/kinetic-typography-page-transition/",
+        "medium": "frontend typography transition prototype",
+        "format": "GSAP page transition demo"
+      },
+      "why": "A precise reference for using type as the transition object: background letters rotate, scale, and move forward to preserve continuity between navigation states.",
+      "compositions": [
+        {
+          "type": "state-transition",
+          "title": "Letters carry the page change",
+          "url": "https://tympanus.net/codrops/2021/09/29/kinetic-typography-page-transition/",
+          "study": "The transition gives typography identity across screens instead of crossfading unrelated layouts.",
+          "reuse": "Use when a portfolio, editorial, or campaign microsite needs navigation to feel authored."
+        },
+        {
+          "type": "fallback-state",
+          "title": "Final typographic still frame",
+          "url": "https://tympanus.net/codrops/2021/09/29/kinetic-typography-page-transition/",
+          "study": "The motion path resolves into a readable next screen, so the animated idea is not separate from content.",
+          "reuse": "Design the destination composition first, then choreograph the transition into it."
+        }
+      ],
+      "assets": [
+        {
+          "type": "timeline",
+          "role": "transition choreography",
+          "notes": "The reusable idea is a staged timeline: background type gains prominence, moves, then reveals new content.",
+          "reuse": "Document phases, delays, and interruption rules before implementation."
+        },
+        {
+          "type": "fallback-frame",
+          "role": "reduced motion state",
+          "notes": "Navigation must work without relying on rotating or zooming type.",
+          "reuse": "Use instant page change or subtle opacity/position changes for reduced-motion users."
+        }
+      ],
+      "motion": [
+        {
+          "type": "kinetic-typography",
+          "title": "Foregrounding background letters",
+          "notes": "Large letters become spatial objects that bridge old and new content.",
+          "fallback": "Keep a static title lockup and standard page transition."
+        }
+      ],
+      "interactions": [
+        {
+          "type": "navigation-transition",
+          "title": "Click-triggered page reveal",
+          "url": "https://tympanus.net/codrops/2021/09/29/kinetic-typography-page-transition/",
+          "study": "The interaction begins on item selection and makes the next screen feel connected to the chosen content.",
+          "reuse": "Use for small sets of high-value destinations, not routine dense navigation."
+        }
+      ],
+      "implementation": {
+        "format": "interactive frontend prototype",
+        "complexity": "medium",
+        "notes": "Useful for campaign microsites, portfolios, editorial chapters, and immersive menu transitions."
+      },
+      "capture": {
+        "date": "2026-06-27",
+      "sourceLinks": [
+        "https://tympanus.net/codrops/2021/09/29/kinetic-typography-page-transition/",
+        "https://github.com/codrops/KineticTypePageTransition"
+      ],
+        "attribution": "Codrops tutorial and demo by Manoela Ilic",
+        "reusePolicy": "inspiration-only; source code link recorded for license review before reuse",
+        "captureDepth": "interaction-prototype-reference"
+      }
     }
   ]
 }
-
