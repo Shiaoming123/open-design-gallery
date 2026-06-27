@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "od-design-system-project/v1",
+  "id": "salesforce-lightning",
+  "name": "Salesforce Lightning",
+  "category": "Productivity & SaaS",
+  "description": "Open Design package distilled from public Salesforce Lightning Design System documentation into reusable enterprise app tokens, prose, and component fixtures.",
+  "source": {
+    "type": "bundled",
+    "origin": "Public Salesforce Lightning Design System documentation, distilled as inspiration only"
+  },
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css",
+    "components": "components.html"
+  },
+  "componentsManifest": "components.manifest.json",
+  "usage": "USAGE.md",
+  "importMode": "hybrid",
+  "sourceFiles": {
+    "evidence": "source/evidence.md"
+  },
+  "preview": {
+    "dir": "preview",
+    "pages": [
+      {
+        "path": "preview/colors.html",
+        "role": "colors",
+        "title": "Colors"
+      },
+      {
+        "path": "preview/typography.html",
+        "role": "typography",
+        "title": "Typography"
+      },
+      {
+        "path": "preview/spacing.html",
+        "role": "spacing",
+        "title": "Spacing"
+      }
+    ]
+  }
+}

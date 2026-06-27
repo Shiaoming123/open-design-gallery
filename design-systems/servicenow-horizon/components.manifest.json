@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "brandId": "servicenow-horizon",
+  "source": {
+    "componentsHtml": "components.html",
+    "tokensCss": "tokens.css"
+  },
+  "fixture": {
+    "title": "ServiceNow Horizon Inspired Components",
+    "styleBlockCount": 1,
+    "selectorCount": 27,
+    "classCount": 18,
+    "elementCount": 21
+  },
+  "tokens": {
+    "declared": [
+      "--accent",
+      "--accent-active",
+      "--accent-hover",
+      "--accent-on",
+      "--bg",
+      "--border",
+      "--border-soft",
+      "--container-gutter-desktop",
+      "--container-gutter-phone",
+      "--container-gutter-tablet",
+      "--container-max",
+      "--danger",
+      "--ease-standard",
+      "--elev-flat",
+      "--elev-raised",
+      "--elev-ring",
+      "--fg",
+      "--fg-2",
+      "--focus-ring",
+      "--font-body",
+      "--font-display",
+      "--font-mono",
+      "--leading-body",
+      "--leading-tight",
+      "--meta",
+      "--motion-base",
+      "--motion-fast",
+      "--muted",
+      "--radius-lg",
+      "--radius-md",
+      "--radius-pill",
+      "--radius-sm",
+      "--section-y-desktop",
+      "--section-y-phone",
+      "--section-y-tablet",
+      "--space-1",
+      "--space-12",
+      "--space-2",
+      "--space-3",
+      "--space-4",
+      "--space-5",
+      "--space-6",
+      "--space-8",
+      "--success",
+      "--surface",
+      "--surface-warm",
+      "--text-2xl",
+      "--text-3xl",
+      "--text-4xl",
+      "--text-base",
+      "--text-lg",
+      "--text-sm",
+      "--text-xl",
+      "--text-xs",
+      "--tracking-display",
+      "--warn"
+    ],
+    "referenced": [
+      "--accent",
+      "--accent-on",
+      "--bg",
+      "--border",
+      "--border-soft",
+      "--container-gutter-desktop",
+      "--container-gutter-phone",
+      "--container-gutter-tablet",
+      "--container-max",
+      "--elev-ring",
+      "--fg",
+      "--fg-2",
+      "--focus-ring",
+      "--font-body",
+      "--font-display",
+      "--font-mono",
+      "--leading-body",
+      "--leading-tight",
+      "--meta",
+      "--muted",
+      "--radius-lg",
+      "--radius-pill",
+      "--radius-sm",
+      "--section-y-desktop",
+      "--section-y-tablet",
+      "--space-1",
+      "--space-2",
+      "--space-3",
+      "--space-4",
+      "--space-5",
+      "--space-6",
+      "--space-8",
+      "--surface",
+      "--surface-warm",
+      "--text-2xl",
+      "--text-3xl",
+      "--text-4xl",
+      "--text-base",
+      "--text-sm",
+      "--text-xl",
+      "--text-xs",
+      "--tracking-display"
+    ],
+    "unusedDeclared": [
+      "--accent-active",
+      "--accent-hover",
+      "--danger",
+      "--ease-standard",
+      "--elev-flat",
+      "--elev-raised",
+      "--motion-base",
+      "--motion-fast",
+      "--radius-md",
+      "--section-y-phone",
+      "--space-12",
+      "--success",
+      "--text-lg",
+      "--warn"
+    ],
+    "undeclaredReferenced": []
+  },
+  "selectors": [
+    ".actions",
+    ".ai-panel",
+    ".brand",
+    ".button",
+    ".button:focus-visible",
+    ".button.primary",
+    ".card",
+    ".eyebrow",
+    ".framework-grid",
+    ".hero",
+    ".metric-grid",
+    ".nav",
+    ".nav .active",
+    ".nav span",
+    ".panel",
+    ".pill",
+    ".row",
+    ".shell",
+    ".stack > * + *",
+    ".topbar",
+    "*",
+    "body",
+    "code",
+    "h1",
+    "h2",
+    "h3",
+    "p"
+  ],
+  "classes": [
+    "actions",
+    "active",
+    "ai-panel",
+    "brand",
+    "button",
+    "card",
+    "eyebrow",
+    "framework-grid",
+    "hero",
+    "metric-grid",
+    "nav",
+    "panel",
+    "pill",
+    "primary",
+    "row",
+    "shell",
+    "stack",
+    "topbar"
+  ],
+  "elements": [
+    "article",
+    "aside",
+    "body",
+    "button",
+    "code",
+    "div",
+    "h1",
+    "h2",
+    "h3",
+    "head",
+    "header",
+    "html",
+    "main",
+    "meta",
+    "nav",
+    "p",
+    "section",
+    "span",
+    "strong",
+    "style",
+    "title"
+  ],
+  "groups": [
+    {
+      "id": "buttons",
+      "label": "Buttons and calls to action",
+      "present": true,
+      "selectors": [
+        ".button",
+        ".button:focus-visible",
+        ".button.primary"
+      ],
+      "classes": [
+        "button"
+      ],
+      "elements": [
+        "button"
+      ],
+      "tokenReferences": [
+        "--accent",
+        "--accent-on"
+      ]
+    },
+    {
+      "id": "inputs",
+      "label": "Form fields and controls",
+      "present": false,
+      "selectors": [],
+      "classes": [],
+      "elements": [],
+      "tokenReferences": []
+    },
+    {
+      "id": "cards",
+      "label": "Cards and panels",
+      "present": true,
+      "selectors": [
+        ".card",
+        ".panel"
+      ],
+      "classes": [
+        "card",
+        "panel"
+      ],
+      "elements": [],
+      "tokenReferences": [
+        "--border",
+        "--elev-ring",
+        "--radius-lg",
+        "--space-5",
+        "--surface"
+      ]
+    },
+    {
+      "id": "badges",
+      "label": "Badges, chips, and status labels",
+      "present": true,
+      "selectors": [
+        ".pill"
+      ],
+      "classes": [
+        "pill"
+      ],
+      "elements": [],
+      "tokenReferences": [
+        "--accent",
+        "--radius-pill",
+        "--space-1",
+        "--space-3",
+        "--surface-warm",
+        "--text-xs"
+      ]
+    },
+    {
+      "id": "links",
+      "label": "Links and inline actions",
+      "present": false,
+      "selectors": [],
+      "classes": [],
+      "elements": [],
+      "tokenReferences": []
+    },
+    {
+      "id": "keyboard",
+      "label": "Keyboard hints",
+      "present": false,
+      "selectors": [],
+      "classes": [],
+      "elements": [],
+      "tokenReferences": []
+    },
+    {
+      "id": "icons",
+      "label": "Icon slots",
+      "present": false,
+      "selectors": [],
+      "classes": [],
+      "elements": [],
+      "tokenReferences": []
+    },
+    {
+      "id": "typography",
+      "label": "Typography scale and text utilities",
+      "present": true,
+      "selectors": [
+        ".eyebrow",
+        "h1",
+        "h2",
+        "h3"
+      ],
+      "classes": [
+        "eyebrow"
+      ],
+      "elements": [
+        "h1",
+        "h2",
+        "h3",
+        "p"
+      ],
+      "tokenReferences": [
+        "--font-display",
+        "--leading-tight",
+        "--text-2xl",
+        "--text-3xl",
+        "--tracking-display"
+      ]
+    },
+    {
+      "id": "layout",
+      "label": "Layout primitives",
+      "present": true,
+      "selectors": [
+        ".nav",
+        ".nav .active",
+        ".nav span"
+      ],
+      "classes": [
+        "framework-grid",
+        "metric-grid"
+      ],
+      "elements": [
+        "header",
+        "main",
+        "nav",
+        "section"
+      ],
+      "tokenReferences": [
+        "--accent",
+        "--muted",
+        "--space-2",
+        "--surface-warm",
+        "--text-sm"
+      ]
+    }
+  ],
+  "literals": {
+    "colorExpressions": 2,
+    "pixelValues": 11,
+    "hardcodedFontFamilies": 3
+  }
+}

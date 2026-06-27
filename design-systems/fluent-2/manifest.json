@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "od-design-system-project/v1",
+  "id": "fluent-2",
+  "name": "Fluent 2",
+  "category": "Design & Creative",
+  "description": "A compact Open Design package distilled from Microsoft's public Fluent 2 documentation: neutral productivity surfaces, Segoe UI typography, 4px spacing, rounded controls, material-aware layers, and natural motion.",
+  "source": {
+    "type": "bundled",
+    "origin": "Official public Microsoft Fluent 2 documentation, used as inspiration only"
+  },
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css",
+    "components": "components.html"
+  },
+  "componentsManifest": "components.manifest.json",
+  "usage": "USAGE.md",
+  "importMode": "hybrid",
+  "sourceFiles": {
+    "evidence": "source/evidence.md"
+  },
+  "preview": {
+    "dir": "preview",
+    "pages": [
+      {
+        "path": "preview/colors.html",
+        "role": "colors",
+        "title": "Colors"
+      },
+      {
+        "path": "preview/typography.html",
+        "role": "typography",
+        "title": "Typography"
+      },
+      {
+        "path": "preview/spacing.html",
+        "role": "spacing",
+        "title": "Spacing"
+      }
+    ]
+  }
+}

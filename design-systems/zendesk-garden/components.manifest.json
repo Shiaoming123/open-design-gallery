@@ -1,0 +1,463 @@
+{
+  "schemaVersion": 1,
+  "brandId": "zendesk-garden",
+  "source": {
+    "componentsHtml": "components.html",
+    "tokensCss": "tokens.css"
+  },
+  "fixture": {
+    "title": "Zendesk Garden - reference components",
+    "description": "Reference fixture for design-systems/zendesk-garden: compact Zendesk-like support workspace components distilled for Open Design.",
+    "styleBlockCount": 1,
+    "selectorCount": 56,
+    "classCount": 34,
+    "elementCount": 24
+  },
+  "tokens": {
+    "declared": [
+      "--accent",
+      "--accent-active",
+      "--accent-hover",
+      "--accent-on",
+      "--bg",
+      "--border",
+      "--border-soft",
+      "--container-gutter-desktop",
+      "--container-gutter-phone",
+      "--container-gutter-tablet",
+      "--container-max",
+      "--danger",
+      "--ease-standard",
+      "--elev-flat",
+      "--elev-raised",
+      "--elev-ring",
+      "--fg",
+      "--fg-2",
+      "--focus-ring",
+      "--font-body",
+      "--font-display",
+      "--font-mono",
+      "--leading-body",
+      "--leading-tight",
+      "--meta",
+      "--motion-base",
+      "--motion-fast",
+      "--muted",
+      "--radius-lg",
+      "--radius-md",
+      "--radius-pill",
+      "--radius-sm",
+      "--section-y-desktop",
+      "--section-y-phone",
+      "--section-y-tablet",
+      "--space-1",
+      "--space-12",
+      "--space-2",
+      "--space-3",
+      "--space-4",
+      "--space-5",
+      "--space-6",
+      "--space-8",
+      "--success",
+      "--surface",
+      "--surface-warm",
+      "--text-2xl",
+      "--text-3xl",
+      "--text-4xl",
+      "--text-base",
+      "--text-lg",
+      "--text-sm",
+      "--text-xl",
+      "--text-xs",
+      "--tracking-display",
+      "--warn"
+    ],
+    "referenced": [
+      "--accent",
+      "--accent-hover",
+      "--accent-on",
+      "--bg",
+      "--border",
+      "--border-soft",
+      "--container-gutter-desktop",
+      "--container-gutter-phone",
+      "--container-gutter-tablet",
+      "--container-max",
+      "--danger",
+      "--ease-standard",
+      "--elev-flat",
+      "--fg",
+      "--fg-2",
+      "--focus-ring",
+      "--font-body",
+      "--font-display",
+      "--leading-body",
+      "--leading-tight",
+      "--meta",
+      "--motion-fast",
+      "--muted",
+      "--radius-md",
+      "--radius-pill",
+      "--section-y-desktop",
+      "--section-y-phone",
+      "--section-y-tablet",
+      "--space-1",
+      "--space-2",
+      "--space-3",
+      "--space-4",
+      "--space-5",
+      "--success",
+      "--surface",
+      "--surface-warm",
+      "--text-2xl",
+      "--text-base",
+      "--text-lg",
+      "--text-sm",
+      "--text-xl",
+      "--text-xs",
+      "--tracking-display",
+      "--warn"
+    ],
+    "unusedDeclared": [
+      "--accent-active",
+      "--elev-raised",
+      "--elev-ring",
+      "--font-mono",
+      "--motion-base",
+      "--radius-lg",
+      "--radius-sm",
+      "--space-12",
+      "--space-6",
+      "--space-8",
+      "--text-3xl",
+      "--text-4xl"
+    ],
+    "undeclaredReferenced": []
+  },
+  "selectors": [
+    ".actions",
+    ".brand",
+    ".btn",
+    ".btn-danger",
+    ".btn-primary",
+    ".btn-primary:hover",
+    ".btn:focus-visible",
+    ".btn:hover",
+    ".card",
+    ".card-head",
+    ".chips",
+    ".dot",
+    ".event",
+    ".field",
+    ".form",
+    ".layout",
+    ".lead",
+    ".main",
+    ".meta",
+    ".meter",
+    ".meter span",
+    ".nav",
+    ".nav a",
+    ".nav a.active",
+    ".notice",
+    ".panel",
+    ".panel-head",
+    ".shell",
+    ".sidebar",
+    ".stack",
+    ".status",
+    ".status.danger",
+    ".status.success",
+    ".status.warn",
+    ".tag",
+    ".ticket",
+    ".ticket-list",
+    ".ticket:last-child",
+    ".ticket.selected",
+    ".timeline",
+    ".toolbar",
+    "*",
+    "*::after",
+    "*::before",
+    "a:focus-visible",
+    "body",
+    "h1",
+    "h2",
+    "h3",
+    "html",
+    "input",
+    "input:focus-visible",
+    "label",
+    "p",
+    "textarea",
+    "textarea:focus-visible"
+  ],
+  "classes": [
+    "actions",
+    "active",
+    "brand",
+    "btn",
+    "btn-primary",
+    "card",
+    "card-head",
+    "chips",
+    "danger",
+    "dot",
+    "event",
+    "field",
+    "form",
+    "layout",
+    "lead",
+    "main",
+    "meta",
+    "meter",
+    "nav",
+    "notice",
+    "panel",
+    "panel-head",
+    "selected",
+    "shell",
+    "sidebar",
+    "stack",
+    "status",
+    "success",
+    "tag",
+    "ticket",
+    "ticket-list",
+    "timeline",
+    "toolbar",
+    "warn"
+  ],
+  "elements": [
+    "a",
+    "article",
+    "aside",
+    "body",
+    "button",
+    "div",
+    "form",
+    "h1",
+    "h2",
+    "h3",
+    "head",
+    "header",
+    "html",
+    "input",
+    "label",
+    "main",
+    "meta",
+    "nav",
+    "p",
+    "section",
+    "span",
+    "style",
+    "textarea",
+    "title"
+  ],
+  "groups": [
+    {
+      "id": "buttons",
+      "label": "Buttons and calls to action",
+      "present": true,
+      "selectors": [
+        ".btn",
+        ".btn-danger",
+        ".btn-primary",
+        ".btn-primary:hover",
+        ".btn:focus-visible",
+        ".btn:hover"
+      ],
+      "classes": [
+        "btn",
+        "btn-primary"
+      ],
+      "elements": [
+        "button"
+      ],
+      "tokenReferences": [
+        "--accent",
+        "--accent-hover",
+        "--accent-on",
+        "--focus-ring"
+      ]
+    },
+    {
+      "id": "inputs",
+      "label": "Form fields and controls",
+      "present": true,
+      "selectors": [
+        ".field",
+        "input",
+        "input:focus-visible",
+        "label",
+        "textarea",
+        "textarea:focus-visible"
+      ],
+      "classes": [
+        "field",
+        "form"
+      ],
+      "elements": [
+        "form",
+        "input",
+        "label",
+        "textarea"
+      ],
+      "tokenReferences": [
+        "--fg-2",
+        "--focus-ring",
+        "--text-sm"
+      ]
+    },
+    {
+      "id": "cards",
+      "label": "Cards and panels",
+      "present": true,
+      "selectors": [
+        ".card",
+        ".card-head",
+        ".panel",
+        ".panel-head"
+      ],
+      "classes": [
+        "card",
+        "card-head",
+        "panel",
+        "panel-head"
+      ],
+      "elements": [],
+      "tokenReferences": [
+        "--border",
+        "--elev-flat",
+        "--radius-md",
+        "--space-3",
+        "--surface"
+      ]
+    },
+    {
+      "id": "badges",
+      "label": "Badges, chips, and status labels",
+      "present": true,
+      "selectors": [
+        ".tag"
+      ],
+      "classes": [
+        "status",
+        "tag"
+      ],
+      "elements": [],
+      "tokenReferences": [
+        "--font-body",
+        "--radius-pill",
+        "--space-1",
+        "--space-2",
+        "--text-xs"
+      ]
+    },
+    {
+      "id": "links",
+      "label": "Links and inline actions",
+      "present": true,
+      "selectors": [
+        ".nav a",
+        ".nav a.active",
+        "a:focus-visible"
+      ],
+      "classes": [],
+      "elements": [
+        "a"
+      ],
+      "tokenReferences": [
+        "--focus-ring",
+        "--muted",
+        "--radius-md",
+        "--space-2",
+        "--space-3"
+      ]
+    },
+    {
+      "id": "keyboard",
+      "label": "Keyboard hints",
+      "present": false,
+      "selectors": [],
+      "classes": [],
+      "elements": [],
+      "tokenReferences": []
+    },
+    {
+      "id": "icons",
+      "label": "Icon slots",
+      "present": false,
+      "selectors": [],
+      "classes": [],
+      "elements": [],
+      "tokenReferences": []
+    },
+    {
+      "id": "typography",
+      "label": "Typography scale and text utilities",
+      "present": true,
+      "selectors": [
+        ".lead",
+        "h1",
+        "h2",
+        "h3"
+      ],
+      "classes": [
+        "lead"
+      ],
+      "elements": [
+        "h1",
+        "h2",
+        "h3",
+        "p"
+      ],
+      "tokenReferences": [
+        "--font-display",
+        "--leading-tight",
+        "--muted",
+        "--space-2",
+        "--text-xl",
+        "--tracking-display"
+      ]
+    },
+    {
+      "id": "layout",
+      "label": "Layout primitives",
+      "present": true,
+      "selectors": [
+        ".main",
+        ".nav",
+        ".nav a",
+        ".nav a.active"
+      ],
+      "classes": [
+        "layout"
+      ],
+      "elements": [
+        "header",
+        "main",
+        "nav",
+        "section"
+      ],
+      "tokenReferences": [
+        "--container-gutter-desktop",
+        "--container-gutter-phone",
+        "--container-gutter-tablet",
+        "--container-max",
+        "--muted",
+        "--radius-md",
+        "--section-y-desktop",
+        "--section-y-phone",
+        "--section-y-tablet",
+        "--space-2",
+        "--space-3"
+      ]
+    }
+  ],
+  "literals": {
+    "colorExpressions": 4,
+    "pixelValues": 23,
+    "hardcodedFontFamilies": 1
+  }
+}

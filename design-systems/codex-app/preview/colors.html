@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Codex App Colors</title>
+    <style>
+      :root {
+        --bg: #fbfbf8;
+        --surface: #ffffff;
+        --surface-warm: #f4f5f3;
+        --fg: #1f2328;
+        --fg-2: #3f454c;
+        --muted: #6b727c;
+        --meta: #9aa1ab;
+        --border: #d8dee8;
+        --border-soft: #e8edf5;
+        --accent: #2f6feb;
+        --accent-on: #ffffff;
+        --accent-hover: #245dc8;
+        --accent-active: #1f4fb0;
+        --success: #1a7f37;
+        --warn: #bf8700;
+        --danger: #cf222e;
+        --font-display: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+        --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+        --font-mono: "SF Mono", ui-monospace, "JetBrains Mono", Menlo, Consolas, monospace;
+        --text-xs: 11px;
+        --text-sm: 12px;
+        --text-base: 13px;
+        --text-lg: 14px;
+        --text-xl: 16px;
+        --text-2xl: 20px;
+        --text-3xl: 28px;
+        --text-4xl: 36px;
+        --leading-body: 1.55;
+        --leading-tight: 1.18;
+        --tracking-display: 0;
+        --space-1: 4px;
+        --space-2: 8px;
+        --space-3: 12px;
+        --space-4: 16px;
+        --space-5: 20px;
+        --space-6: 24px;
+        --space-8: 32px;
+        --space-12: 48px;
+        --section-y-desktop: 48px;
+        --section-y-tablet: 40px;
+        --section-y-phone: 28px;
+        --radius-sm: 6px;
+        --radius-md: 8px;
+        --radius-lg: 12px;
+        --radius-pill: 9999px;
+        --elev-flat: none;
+        --elev-ring: 0 0 0 1px var(--border);
+        --elev-raised: 0 16px 40px rgba(31, 35, 40, 0.08);
+        --focus-ring: 0 0 0 3px rgba(47, 111, 235, 0.18);
+        --motion-fast: 140ms;
+        --motion-base: 200ms;
+        --ease-standard: cubic-bezier(0.23, 1, 0.32, 1);
+        --container-max: 1180px;
+        --container-gutter-desktop: 32px;
+        --container-gutter-tablet: 24px;
+        --container-gutter-phone: 16px;
+      }
+      body { margin: 0; background: var(--bg); color: var(--fg); font: var(--text-base)/var(--leading-body) var(--font-body); }
+      main { max-width: 920px; margin: 0 auto; padding: var(--space-12) var(--space-6); }
+      h1 { font-size: var(--text-3xl); line-height: var(--leading-tight); margin: 0 0 var(--space-6); }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: var(--space-3); }
+      .swatch { border: 1px solid var(--border-soft); border-radius: var(--radius-md); background: var(--surface); overflow: hidden; }
+      .chip { height: 86px; background: var(--color); }
+      .meta { padding: var(--space-3); color: var(--muted); font-family: var(--font-mono); font-size: var(--text-sm); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Codex App color roles</h1>
+      <section class="grid" aria-label="Color swatches">
+        <div class="swatch" style="--color: var(--bg)"><div class="chip"></div><div class="meta">--bg #fbfbf8</div></div>
+        <div class="swatch" style="--color: var(--surface)"><div class="chip"></div><div class="meta">--surface #ffffff</div></div>
+        <div class="swatch" style="--color: #eaf1fb"><div class="chip"></div><div class="meta">rail #eaf1fb</div></div>
+        <div class="swatch" style="--color: var(--accent)"><div class="chip"></div><div class="meta">--accent #2f6feb</div></div>
+        <div class="swatch" style="--color: var(--success)"><div class="chip"></div><div class="meta">--success #1a7f37</div></div>
+        <div class="swatch" style="--color: var(--danger)"><div class="chip"></div><div class="meta">--danger #cf222e</div></div>
+      </section>
+    </main>
+  </body>
+</html>

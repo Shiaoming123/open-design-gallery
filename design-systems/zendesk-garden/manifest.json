@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "od-design-system-project/v1",
+  "id": "zendesk-garden",
+  "name": "Zendesk Garden",
+  "category": "Productivity & SaaS",
+  "description": "Open Design package distilled from public Zendesk Garden documentation and Garden React into reusable product UI tokens, prose, and component fixtures.",
+  "source": {
+    "type": "bundled",
+    "origin": "Public Zendesk Garden documentation and zendeskgarden/react-components, distilled as inspiration only"
+  },
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css",
+    "components": "components.html"
+  },
+  "importMode": "normalized",
+  "componentsManifest": "components.manifest.json",
+  "usage": "USAGE.md",
+  "sourceFiles": {
+    "evidence": "source/evidence.md"
+  },
+  "preview": {
+    "dir": "preview",
+    "pages": [
+      {
+        "path": "preview/colors.html",
+        "role": "colors",
+        "title": "Colors"
+      },
+      {
+        "path": "preview/typography.html",
+        "role": "typography",
+        "title": "Typography"
+      },
+      {
+        "path": "preview/spacing.html",
+        "role": "spacing",
+        "title": "Spacing"
+      }
+    ]
+  }
+}

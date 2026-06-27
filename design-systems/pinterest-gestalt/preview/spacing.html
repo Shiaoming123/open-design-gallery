@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pinterest Gestalt Spacing</title>
+    <style>
+/* Open Design tokens for Pinterest Gestalt, distilled from public Gestalt docs and tokens. */
+
+:root {
+  --bg: #ffffff;
+  --surface: #f9f9f9;
+  --surface-warm: #f1f1f1;
+
+  --fg: #111111;
+  --fg-2: #2b2b2b;
+  --muted: #767676;
+  --meta: #5f5f5f;
+
+  --border: #a5a5a5;
+  --border-soft: #cdcdcd;
+
+  --accent: #e60023;
+  --accent-on: #ffffff;
+  --accent-hover: #cc0000;
+  --accent-active: #9b0000;
+
+  --success: #005f3e;
+  --warn: #bd5b00;
+  --danger: #cc0000;
+
+  --font-display: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Oxygen-Sans", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Oxygen-Sans", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: SFMono-Medium, "SF Mono", "Segoe UI Mono", "Roboto Mono", "Ubuntu Mono", Menlo, Consolas, Courier, monospace;
+
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 20px;
+  --text-xl: 28px;
+  --text-2xl: 36px;
+  --text-3xl: 44px;
+  --text-4xl: 56px;
+
+  --leading-body: 1.4;
+  --leading-tight: 1.1;
+  --tracking-display: 0;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+
+  --section-y-desktop: 64px;
+  --section-y-tablet: 48px;
+  --section-y-phone: 32px;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+
+  --elev-flat: none;
+  --elev-ring: 0 0 0 1px var(--border-soft);
+  --elev-raised: 0 2px 8px rgb(0 0 0 / 12%);
+
+  --focus-ring: 0 0 0 4px rgb(0 132 255 / 50%);
+
+  --motion-fast: 120ms;
+  --motion-base: 180ms;
+  --ease-standard: cubic-bezier(0.23, 1, 0.32, 1);
+
+  --container-max: 1180px;
+  --container-gutter-desktop: 32px;
+  --container-gutter-tablet: 24px;
+  --container-gutter-phone: 16px;
+}
+
+      body { margin: 0; background: var(--bg); color: var(--fg); font: var(--text-base, 14px)/var(--leading-body, 1.5) var(--font-body, system-ui, sans-serif); }
+      main { max-width: 860px; margin: 0 auto; padding: var(--space-12, 48px) var(--space-6, 24px); }
+      h1 { margin: 0 0 var(--space-6, 24px); font-size: var(--text-3xl, 28px); line-height: var(--leading-tight, 1.15); }
+      .row { display: grid; grid-template-columns: 120px 1fr; align-items: center; gap: var(--space-4, 16px); margin-bottom: var(--space-3, 12px); }
+      .bar { height: 18px; width: var(--size); background: var(--accent); border-radius: var(--radius-sm, 6px); }
+      .label { color: var(--muted); font-family: var(--font-mono, monospace); font-size: var(--text-sm, 12px); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Pinterest Gestalt spacing scale</h1>
+      <div class="row"><div class="label">--space-1</div><div class="bar" style="--size: var(--space-1, 4px)"></div></div>
+      <div class="row"><div class="label">--space-2</div><div class="bar" style="--size: var(--space-2, 8px)"></div></div>
+      <div class="row"><div class="label">--space-3</div><div class="bar" style="--size: var(--space-3, 12px)"></div></div>
+      <div class="row"><div class="label">--space-4</div><div class="bar" style="--size: var(--space-4, 16px)"></div></div>
+      <div class="row"><div class="label">--space-6</div><div class="bar" style="--size: var(--space-6, 24px)"></div></div>
+      <div class="row"><div class="label">--space-8</div><div class="bar" style="--size: var(--space-8, 32px)"></div></div>
+      <div class="row"><div class="label">--space-12</div><div class="bar" style="--size: var(--space-12, 48px)"></div></div>
+    </main>
+  </body>
+</html>

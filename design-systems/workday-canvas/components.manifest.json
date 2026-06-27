@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "brandId": "workday-canvas",
+  "source": {
+    "componentsHtml": "components.html",
+    "tokensCss": "tokens.css"
+  },
+  "fixture": {
+    "title": "Workday Canvas - reference components",
+    "description": "Reference fixture for design-systems/workday-canvas: enterprise task workflow components distilled for Open Design.",
+    "styleBlockCount": 1,
+    "selectorCount": 52,
+    "classCount": 29,
+    "elementCount": 25
+  },
+  "tokens": {
+    "declared": [
+      "--accent",
+      "--accent-active",
+      "--accent-hover",
+      "--accent-on",
+      "--bg",
+      "--border",
+      "--border-soft",
+      "--container-gutter-desktop",
+      "--container-gutter-phone",
+      "--container-gutter-tablet",
+      "--container-max",
+      "--danger",
+      "--ease-standard",
+      "--elev-flat",
+      "--elev-raised",
+      "--elev-ring",
+      "--fg",
+      "--fg-2",
+      "--focus-ring",
+      "--font-body",
+      "--font-display",
+      "--font-mono",
+      "--leading-body",
+      "--leading-tight",
+      "--meta",
+      "--motion-base",
+      "--motion-fast",
+      "--muted",
+      "--radius-lg",
+      "--radius-md",
+      "--radius-pill",
+      "--radius-sm",
+      "--section-y-desktop",
+      "--section-y-phone",
+      "--section-y-tablet",
+      "--space-1",
+      "--space-12",
+      "--space-2",
+      "--space-3",
+      "--space-4",
+      "--space-5",
+      "--space-6",
+      "--space-8",
+      "--success",
+      "--surface",
+      "--surface-warm",
+      "--text-2xl",
+      "--text-3xl",
+      "--text-4xl",
+      "--text-base",
+      "--text-lg",
+      "--text-sm",
+      "--text-xl",
+      "--text-xs",
+      "--tracking-display",
+      "--warn"
+    ],
+    "referenced": [
+      "--accent",
+      "--accent-hover",
+      "--accent-on",
+      "--bg",
+      "--border",
+      "--border-soft",
+      "--container-gutter-desktop",
+      "--container-gutter-phone",
+      "--container-gutter-tablet",
+      "--container-max",
+      "--danger",
+      "--ease-standard",
+      "--elev-flat",
+      "--fg",
+      "--fg-2",
+      "--focus-ring",
+      "--font-body",
+      "--font-display",
+      "--font-mono",
+      "--leading-body",
+      "--leading-tight",
+      "--meta",
+      "--motion-fast",
+      "--muted",
+      "--radius-lg",
+      "--radius-md",
+      "--radius-pill",
+      "--section-y-desktop",
+      "--section-y-phone",
+      "--section-y-tablet",
+      "--space-1",
+      "--space-2",
+      "--space-3",
+      "--space-4",
+      "--space-5",
+      "--space-6",
+      "--space-8",
+      "--success",
+      "--surface",
+      "--surface-warm",
+      "--text-2xl",
+      "--text-3xl",
+      "--text-base",
+      "--text-lg",
+      "--text-sm",
+      "--text-xl",
+      "--text-xs",
+      "--tracking-display",
+      "--warn"
+    ],
+    "unusedDeclared": [
+      "--accent-active",
+      "--elev-raised",
+      "--elev-ring",
+      "--motion-base",
+      "--radius-sm",
+      "--space-12",
+      "--text-4xl"
+    ],
+    "undeclaredReferenced": []
+  },
+  "selectors": [
+    ".actions",
+    ".banner",
+    ".btn",
+    ".btn-danger",
+    ".btn-primary",
+    ".btn-primary:hover",
+    ".btn:focus-visible",
+    ".btn:hover",
+    ".card",
+    ".card-head",
+    ".divider",
+    ".field",
+    ".form",
+    ".header",
+    ".icon",
+    ".layout",
+    ".lead",
+    ".meta",
+    ".metric",
+    ".metric strong",
+    ".muted",
+    ".page",
+    ".panel",
+    ".panel-head",
+    ".pill",
+    ".pill.danger",
+    ".pill.success",
+    ".pill.warn",
+    ".progress",
+    ".progress span",
+    ".stack",
+    ".summary",
+    ".task",
+    ".task-list",
+    ".task.active",
+    "*",
+    "*::after",
+    "*::before",
+    "a:focus-visible",
+    "body",
+    "h1",
+    "h2",
+    "h3",
+    "html",
+    "input",
+    "input:focus-visible",
+    "label",
+    "p",
+    "select",
+    "select:focus-visible",
+    "textarea",
+    "textarea:focus-visible"
+  ],
+  "classes": [
+    "actions",
+    "active",
+    "banner",
+    "btn",
+    "btn-primary",
+    "card",
+    "card-head",
+    "danger",
+    "divider",
+    "field",
+    "form",
+    "header",
+    "icon",
+    "layout",
+    "lead",
+    "meta",
+    "metric",
+    "muted",
+    "page",
+    "panel",
+    "panel-head",
+    "pill",
+    "progress",
+    "stack",
+    "success",
+    "summary",
+    "task",
+    "task-list",
+    "warn"
+  ],
+  "elements": [
+    "article",
+    "aside",
+    "body",
+    "button",
+    "div",
+    "form",
+    "h1",
+    "h2",
+    "h3",
+    "head",
+    "header",
+    "html",
+    "input",
+    "label",
+    "main",
+    "meta",
+    "option",
+    "p",
+    "section",
+    "select",
+    "span",
+    "strong",
+    "style",
+    "textarea",
+    "title"
+  ],
+  "groups": [
+    {
+      "id": "buttons",
+      "label": "Buttons and calls to action",
+      "present": true,
+      "selectors": [
+        ".btn",
+        ".btn-danger",
+        ".btn-primary",
+        ".btn-primary:hover",
+        ".btn:focus-visible",
+        ".btn:hover"
+      ],
+      "classes": [
+        "btn",
+        "btn-primary"
+      ],
+      "elements": [
+        "button"
+      ],
+      "tokenReferences": [
+        "--accent",
+        "--accent-hover",
+        "--accent-on",
+        "--focus-ring"
+      ]
+    },
+    {
+      "id": "inputs",
+      "label": "Form fields and controls",
+      "present": true,
+      "selectors": [
+        ".field",
+        "input",
+        "input:focus-visible",
+        "label",
+        "select",
+        "select:focus-visible",
+        "textarea",
+        "textarea:focus-visible"
+      ],
+      "classes": [
+        "field",
+        "form"
+      ],
+      "elements": [
+        "form",
+        "input",
+        "label",
+        "select",
+        "textarea"
+      ],
+      "tokenReferences": [
+        "--fg-2",
+        "--focus-ring",
+        "--space-2",
+        "--text-sm"
+      ]
+    },
+    {
+      "id": "cards",
+      "label": "Cards and panels",
+      "present": true,
+      "selectors": [
+        ".card",
+        ".card-head",
+        ".panel",
+        ".panel-head"
+      ],
+      "classes": [
+        "card",
+        "card-head",
+        "panel",
+        "panel-head"
+      ],
+      "elements": [],
+      "tokenReferences": [
+        "--border-soft",
+        "--elev-flat",
+        "--radius-lg",
+        "--space-3",
+        "--space-4",
+        "--surface"
+      ]
+    },
+    {
+      "id": "badges",
+      "label": "Badges, chips, and status labels",
+      "present": true,
+      "selectors": [
+        ".pill",
+        ".pill.danger",
+        ".pill.success",
+        ".pill.warn"
+      ],
+      "classes": [
+        "pill"
+      ],
+      "elements": [],
+      "tokenReferences": [
+        "--border-soft",
+        "--font-body",
+        "--radius-pill",
+        "--space-1",
+        "--space-3",
+        "--text-xs",
+        "--warn"
+      ]
+    },
+    {
+      "id": "links",
+      "label": "Links and inline actions",
+      "present": true,
+      "selectors": [
+        "a:focus-visible"
+      ],
+      "classes": [],
+      "elements": [],
+      "tokenReferences": [
+        "--focus-ring"
+      ]
+    },
+    {
+      "id": "keyboard",
+      "label": "Keyboard hints",
+      "present": false,
+      "selectors": [],
+      "classes": [],
+      "elements": [],
+      "tokenReferences": []
+    },
+    {
+      "id": "icons",
+      "label": "Icon slots",
+      "present": true,
+      "selectors": [
+        ".icon"
+      ],
+      "classes": [
+        "icon"
+      ],
+      "elements": [],
+      "tokenReferences": [
+        "--accent",
+        "--radius-pill",
+        "--surface-warm"
+      ]
+    },
+    {
+      "id": "typography",
+      "label": "Typography scale and text utilities",
+      "present": true,
+      "selectors": [
+        ".lead",
+        "h1",
+        "h2",
+        "h3"
+      ],
+      "classes": [
+        "lead"
+      ],
+      "elements": [
+        "h1",
+        "h2",
+        "h3",
+        "p"
+      ],
+      "tokenReferences": [
+        "--font-display",
+        "--leading-tight",
+        "--text-2xl",
+        "--text-xl",
+        "--tracking-display"
+      ]
+    },
+    {
+      "id": "layout",
+      "label": "Layout primitives",
+      "present": true,
+      "selectors": [],
+      "classes": [
+        "layout"
+      ],
+      "elements": [
+        "header",
+        "main",
+        "section"
+      ],
+      "tokenReferences": []
+    }
+  ],
+  "literals": {
+    "colorExpressions": 4,
+    "pixelValues": 18,
+    "hardcodedFontFamilies": 1
+  }
+}

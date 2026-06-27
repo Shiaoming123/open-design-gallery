@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "od-design-system-project/v1",
+  "id": "backstage-design-system",
+  "name": "Backstage Design System",
+  "category": "Developer Tools",
+  "description": "Reusable developer-portal visual language distilled from Backstage public docs, Spotify for Backstage, and the open-source Backstage theme model.",
+  "source": {
+    "type": "github",
+    "url": "https://github.com/backstage/backstage",
+    "branch": "master"
+  },
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css",
+    "components": "components.html"
+  },
+  "componentsManifest": "components.manifest.json",
+  "usage": "USAGE.md",
+  "importMode": "hybrid",
+  "sourceFiles": {
+    "evidence": "source/evidence.md",
+    "tokens": "source/tokens.source.json"
+  },
+  "preview": {
+    "dir": "preview",
+    "pages": [
+      {
+        "path": "preview/colors.html",
+        "role": "colors",
+        "title": "Colors"
+      },
+      {
+        "path": "preview/typography.html",
+        "role": "typography",
+        "title": "Typography"
+      },
+      {
+        "path": "preview/spacing.html",
+        "role": "spacing",
+        "title": "Spacing"
+      }
+    ]
+  }
+}

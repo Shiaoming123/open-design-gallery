@@ -1,0 +1,64 @@
+/* design-systems/gitlab-pajamas/tokens.css
+ *
+ * Open Design schema tokens for GitLab Pajamas-inspired product UI.
+ * Distilled from public Pajamas documentation; no official assets copied.
+ */
+
+:root {
+  --bg: #f7f7f8;
+  --surface: #ffffff;
+  --surface-warm: #f4f0ff;
+  --fg: #18171d;
+  --fg-2: #333238;
+  --muted: #626168;
+  --meta: #737278;
+  --border: #dcdcde;
+  --border-soft: #ececef;
+  --accent: #7759c2;
+  --accent-on: #ffffff;
+  --accent-hover: #6242b3;
+  --accent-active: #4f2f9f;
+  --success: #108548;
+  --warn: #ab6100;
+  --danger: #dd2b0e;
+  --font-display: "GitLab Sans", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-body: "GitLab Sans", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "GitLab Mono", "SFMono-Regular", Consolas, monospace;
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 24px;
+  --text-2xl: 32px;
+  --text-3xl: 40px;
+  --text-4xl: 56px;
+  --leading-body: 1.5;
+  --leading-tight: 1.16;
+  --tracking-display: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-8: 48px;
+  --space-12: 72px;
+  --section-y-desktop: 88px;
+  --section-y-tablet: 64px;
+  --section-y-phone: 44px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-pill: 9999px;
+  --elev-flat: none;
+  --elev-ring: 0 0 0 1px var(--border);
+  --elev-raised: 0 8px 24px rgba(24, 23, 29, 0.16);
+  --focus-ring: 0 0 0 3px rgba(119, 89, 194, 0.32);
+  --motion-fast: 120ms;
+  --motion-base: 200ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --container-max: 1200px;
+  --container-gutter-desktop: 32px;
+  --container-gutter-tablet: 24px;
+  --container-gutter-phone: 16px;
+}

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Adobe Spectrum Typography</title>
+    <style>
+/* Open Design tokens for Adobe Spectrum, distilled from public Spectrum docs. */
+
+:root {
+  --bg: #f8f8f8;
+  --surface: #ffffff;
+  --surface-warm: #f3f3f3;
+
+  --fg: #222222;
+  --fg-2: #4b4b4b;
+  --muted: #6e6e6e;
+  --meta: #8a8a8a;
+
+  --border: #d6d6d6;
+  --border-soft: #eaeaea;
+
+  --accent: #1473e6;
+  --accent-on: #ffffff;
+  --accent-hover: #0d66d0;
+  --accent-active: #095aba;
+
+  --success: #12805c;
+  --warn: #d97706;
+  --danger: #d31510;
+
+  --font-display: "Adobe Clean", "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-body: "Adobe Clean", "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "Source Code Pro", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 22px;
+  --text-2xl: 28px;
+  --text-3xl: 36px;
+  --text-4xl: 48px;
+
+  --leading-body: 1.5;
+  --leading-tight: 1.18;
+  --tracking-display: 0em;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+
+  --section-y-desktop: 72px;
+  --section-y-tablet: 48px;
+  --section-y-phone: 32px;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-pill: 9999px;
+
+  --elev-flat: none;
+  --elev-ring: 0 0 0 1px var(--border);
+  --elev-raised: 0 2px 6px color-mix(in oklab, var(--fg), transparent 88%);
+
+  --focus-ring: 0 0 0 2px color-mix(in oklab, var(--accent), transparent 64%);
+
+  --motion-fast: 130ms;
+  --motion-base: 180ms;
+  --ease-standard: cubic-bezier(0.23, 1, 0.32, 1);
+
+  --container-max: 1200px;
+  --container-gutter-desktop: 32px;
+  --container-gutter-tablet: 24px;
+  --container-gutter-phone: 16px;
+}
+
+      body { margin: 0; background: var(--bg); color: var(--fg); font: var(--text-base, 14px)/var(--leading-body, 1.5) var(--font-body, system-ui, sans-serif); }
+      main { max-width: 860px; margin: 0 auto; padding: var(--space-12, 48px) var(--space-6, 24px); }
+      .sample { padding: var(--space-4, 16px) 0; border-bottom: 1px solid var(--border-soft, #e5e5e5); }
+      .name { color: var(--muted); font-size: var(--text-sm, 12px); margin-bottom: var(--space-2, 8px); }
+      .display { font: 600 var(--text-3xl, 28px)/var(--leading-tight, 1.15) var(--font-display, inherit); letter-spacing: var(--tracking-display, 0); }
+      .body { color: var(--fg-2, var(--fg)); }
+      .small { font-size: var(--text-sm, 12px); color: var(--muted); }
+      .code { font-family: var(--font-mono, monospace); font-size: var(--text-sm, 12px); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="sample"><div class="name">Display</div><div class="display">Adobe Spectrum</div></section>
+      <section class="sample"><div class="name">Body</div><div class="body">Captured design systems should stay readable, reusable, and faithful to the source evidence.</div></section>
+      <section class="sample"><div class="name">Small UI</div><div class="small">Metadata, labels, counters, and quiet supporting text.</div></section>
+      <section class="sample"><div class="name">Code</div><div class="code">--accent: var(--accent);</div></section>
+    </main>
+  </body>
+</html>

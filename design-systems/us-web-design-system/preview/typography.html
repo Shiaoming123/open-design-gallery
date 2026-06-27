@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>U.S. Web Design System Typography</title>
+    <style>
+:root {
+  --bg: #ffffff;
+  --surface: #f0f0f0;
+  --surface-warm: #f2e4d4;
+  --fg: #1b1b1b;
+  --fg-2: #3d4551;
+  --muted: #565c65;
+  --meta: #71767a;
+  --border: #dfe1e2;
+  --border-soft: #f0f0f0;
+  --accent: #005ea2;
+  --accent-on: #ffffff;
+  --accent-hover: #1a4480;
+  --accent-active: #162e51;
+  --success: #00a91c;
+  --warn: #ffbe2e;
+  --danger: #d83933;
+  --font-display: "Public Sans", "Source Sans Pro", system-ui, sans-serif;
+  --font-body: "Public Sans", "Source Sans Pro", system-ui, sans-serif;
+  --font-mono: "Roboto Mono", ui-monospace, Menlo, Consolas, monospace;
+  --text-xs: 13px;
+  --text-sm: 15px;
+  --text-base: 16px;
+  --text-lg: 22px;
+  --text-xl: 32px;
+  --text-2xl: 40px;
+  --text-3xl: 56px;
+  --text-4xl: 64px;
+  --leading-body: 1.62;
+  --leading-tight: 1.15;
+  --tracking-display: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --section-y-desktop: 80px;
+  --section-y-tablet: 64px;
+  --section-y-phone: 48px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-pill: 9999px;
+  --elev-flat: none;
+  --elev-ring: 0 0 0 1px var(--border);
+  --elev-raised: 0 8px 24px rgba(27, 27, 27, 0.12);
+  --focus-ring: 0 0 0 4px #2491ff;
+  --motion-fast: 140ms;
+  --motion-base: 220ms;
+  --ease-standard: cubic-bezier(0.23, 1, 0.32, 1);
+  --container-max: 1200px;
+  --container-gutter-desktop: 32px;
+  --container-gutter-tablet: 24px;
+  --container-gutter-phone: 16px;
+}
+
+      body { margin: 0; background: var(--bg); color: var(--fg); font: var(--text-base, 14px)/var(--leading-body, 1.5) var(--font-body, system-ui, sans-serif); }
+      main { max-width: 860px; margin: 0 auto; padding: var(--space-12, 48px) var(--space-6, 24px); }
+      .sample { padding: var(--space-4, 16px) 0; border-bottom: 1px solid var(--border-soft, #e5e5e5); }
+      .name { color: var(--muted); font-size: var(--text-sm, 12px); margin-bottom: var(--space-2, 8px); }
+      .display { font: 600 var(--text-3xl, 28px)/var(--leading-tight, 1.15) var(--font-display, inherit); letter-spacing: var(--tracking-display, 0); }
+      .body { color: var(--fg-2, var(--fg)); }
+      .small { font-size: var(--text-sm, 12px); color: var(--muted); }
+      .code { font-family: var(--font-mono, monospace); font-size: var(--text-sm, 12px); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="sample"><div class="name">Display</div><div class="display">U.S. Web Design System</div></section>
+      <section class="sample"><div class="name">Body</div><div class="body">Captured design systems should stay readable, reusable, and faithful to the source evidence.</div></section>
+      <section class="sample"><div class="name">Small UI</div><div class="small">Metadata, labels, counters, and quiet supporting text.</div></section>
+      <section class="sample"><div class="name">Code</div><div class="code">--accent: var(--accent);</div></section>
+    </main>
+  </body>
+</html>

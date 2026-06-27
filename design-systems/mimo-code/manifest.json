@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "od-design-system-project/v1",
+  "id": "mimo-code",
+  "name": "MiMo Code",
+  "category": "Terminal UI · CLI Agent",
+  "description": "Bundled Open Design package for MiMo Code, the Xiaomi AI CLI coding agent. Dark terminal aesthetic with MiMo orange (#FF6900) as primary accent, 5 switchable themes, Xiaomi Cat ASCII mascot, and keyboard-driven UI components.",
+  "source": {
+    "type": "bundled",
+    "origin": "Open Design curated bundled fixture",
+    "upstream": "https://github.com/XiaomiMiMo/mimo-code"
+  },
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css",
+    "designTokens": "design-tokens.json",
+    "components": "components.html"
+  },
+  "importMode": "normalized",
+  "craft": {
+    "applies": [],
+    "suggested": [
+      "color",
+      "accessibility-baseline",
+      "typography-monospace"
+    ],
+    "exemptions": []
+  },
+  "themes": [
+    { "id": "mimo-dark", "name": "MiMo Dark", "type": "dark", "default": true },
+    { "id": "mimo-light", "name": "MiMo Light", "type": "light", "default": false },
+    { "id": "dracula", "name": "Dracula", "type": "dark", "default": false },
+    { "id": "nord", "name": "Nord", "type": "dark", "default": false },
+    { "id": "solarized-dark", "name": "Solarized Dark", "type": "dark", "default": false }
+  ],
+  "components": [
+    { "id": "mascot", "name": "Xiaomi Cat Mascot", "states": ["idle", "thinking", "coding", "success", "error", "reading"] },
+    { "id": "prompt-input", "name": "PromptInput" },
+    { "id": "status-line", "name": "StatusLine" },
+    { "id": "spinner", "name": "Spinner", "variants": ["dots", "line", "arc"] },
+    { "id": "button", "name": "Button", "variants": ["primary", "secondary", "danger"] },
+    { "id": "card", "name": "Card" },
+    { "id": "table", "name": "Table" }
+  ]
+}

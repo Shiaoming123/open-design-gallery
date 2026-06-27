@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "od-design-system-project/v1",
+  "id": "palantir-blueprint",
+  "name": "Palantir Blueprint",
+  "category": "Backend & Data",
+  "description": "A compact Open Design package distilled from Blueprint's public docs and repository: complex desktop web applications, data-dense controls, blue action states, compact typography, and enterprise table workflows.",
+  "source": {
+    "type": "bundled",
+    "origin": "Official public Blueprint documentation and open-source repository, used as inspiration only"
+  },
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css",
+    "components": "components.html"
+  },
+  "componentsManifest": "components.manifest.json",
+  "usage": "USAGE.md",
+  "importMode": "hybrid",
+  "sourceFiles": {
+    "evidence": "source/evidence.md"
+  },
+  "preview": {
+    "dir": "preview",
+    "pages": [
+      {
+        "path": "preview/colors.html",
+        "role": "colors",
+        "title": "Colors"
+      },
+      {
+        "path": "preview/typography.html",
+        "role": "typography",
+        "title": "Typography"
+      },
+      {
+        "path": "preview/spacing.html",
+        "role": "spacing",
+        "title": "Spacing"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "od-design-system-project/v1",
+  "id": "servicenow-horizon",
+  "name": "ServiceNow Horizon",
+  "category": "Productivity & SaaS",
+  "description": "Reusable enterprise workflow visual language distilled from public Horizon Design System documentation.",
+  "source": {
+    "type": "bundled",
+    "origin": "Public ServiceNow Horizon Design System documentation at https://horizon.servicenow.com/"
+  },
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css",
+    "components": "components.html"
+  },
+  "componentsManifest": "components.manifest.json",
+  "usage": "USAGE.md",
+  "importMode": "hybrid",
+  "sourceFiles": {
+    "evidence": "source/evidence.md"
+  },
+  "preview": {
+    "dir": "preview",
+    "pages": [
+      {
+        "path": "preview/colors.html",
+        "role": "colors",
+        "title": "Colors"
+      },
+      {
+        "path": "preview/typography.html",
+        "role": "typography",
+        "title": "Typography"
+      },
+      {
+        "path": "preview/spacing.html",
+        "role": "spacing",
+        "title": "Spacing"
+      }
+    ]
+  }
+}

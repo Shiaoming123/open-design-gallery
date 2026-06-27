@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "od-design-system-project/v1",
+  "id": "govuk-design-system",
+  "name": "GOV.UK Design System",
+  "category": "Government & Public Sector",
+  "description": "A distilled Open Design package for clear UK public-service interfaces: white canvas, black text, GOV.UK blue links, green primary actions, yellow focus, and strong form affordances.",
+  "source": {
+    "type": "bundled",
+    "origin": "Distilled from public GOV.UK Design System documentation; no official screenshots, assets, or source code copied."
+  },
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css",
+    "components": "components.html"
+  },
+  "importMode": "hybrid",
+  "craft": {
+    "applies": [],
+    "suggested": [
+      "accessibility-baseline",
+      "color"
+    ],
+    "exemptions": []
+  },
+  "componentsManifest": "components.manifest.json",
+  "usage": "USAGE.md",
+  "sourceFiles": {
+    "evidence": "source/evidence.md"
+  },
+  "preview": {
+    "dir": "preview",
+    "pages": [
+      {
+        "path": "preview/colors.html",
+        "role": "colors",
+        "title": "Colors"
+      },
+      {
+        "path": "preview/typography.html",
+        "role": "typography",
+        "title": "Typography"
+      },
+      {
+        "path": "preview/spacing.html",
+        "role": "spacing",
+        "title": "Spacing"
+      }
+    ]
+  }
+}

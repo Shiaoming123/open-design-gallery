@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "sourceScope": "public-theme-documentation",
+  "brandId": "backstage-design-system",
+  "generatedAt": "2026-06-11T00:00:00.000Z",
+  "files": [
+    "tokens.css",
+    "components.html"
+  ],
+  "references": [
+    "https://backstage.io/docs/conf/user-interface/",
+    "https://backstage.io/api/next/modules/_backstage_theme.html",
+    "https://backstage.io/docs/dls/component-design-guidelines/"
+  ],
+  "notes": [
+    "Backstage documents theme customization through createUnifiedTheme, palettes, typography, spacing, shape, page themes, and component overrides.",
+    "The Open Design token file is a normalized, hand-authored distillation of public theme roles and structure.",
+    "No official screenshots, marks, proprietary assets, or copied source code are included."
+  ]
+}

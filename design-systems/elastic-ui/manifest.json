@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "od-design-system-project/v1",
+  "id": "elastic-ui",
+  "name": "Elastic UI",
+  "category": "Backend & Data",
+  "description": "A compact Open Design package distilled from Elastic EUI's public docs and repository: analytic product surfaces, Inter typography, blue primary action, semantic data color, and precise panel-heavy UI.",
+  "source": {
+    "type": "bundled",
+    "origin": "Official public Elastic EUI documentation and open-source repository, used as inspiration only"
+  },
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css",
+    "components": "components.html"
+  },
+  "componentsManifest": "components.manifest.json",
+  "usage": "USAGE.md",
+  "importMode": "hybrid",
+  "sourceFiles": {
+    "evidence": "source/evidence.md"
+  },
+  "preview": {
+    "dir": "preview",
+    "pages": [
+      {
+        "path": "preview/colors.html",
+        "role": "colors",
+        "title": "Colors"
+      },
+      {
+        "path": "preview/typography.html",
+        "role": "typography",
+        "title": "Typography"
+      },
+      {
+        "path": "preview/spacing.html",
+        "role": "spacing",
+        "title": "Spacing"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+/* design-systems/nhs-design-system/tokens.css
+ *
+ * Open Design token bindings distilled from the public NHS digital service manual.
+ */
+
+:root {
+  --bg: #f0f4f5;
+  --surface: #ffffff;
+  --surface-warm: #e8edee;
+  --fg: #212b32;
+  --fg-2: #354b5a;
+  --muted: #4c6272;
+  --meta: #768692;
+  --border: #d8dde0;
+  --border-soft: #e8edee;
+  --accent: #005eb8;
+  --accent-on: #ffffff;
+  --accent-hover: #003f7e;
+  --accent-active: #002f5c;
+  --success: #007f3b;
+  --warn: #ffeb3b;
+  --danger: #d5281b;
+  --font-display: "NHS Frutiger", Frutiger, Arial, Helvetica, sans-serif;
+  --font-body: "NHS Frutiger", Frutiger, Arial, Helvetica, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Monaco, Consolas, monospace;
+  --text-xs: 14px;
+  --text-sm: 16px;
+  --text-base: 19px;
+  --text-lg: 22px;
+  --text-xl: 26px;
+  --text-2xl: 36px;
+  --text-3xl: 48px;
+  --text-4xl: 64px;
+  --leading-body: 1.55;
+  --leading-tight: 1.12;
+  --tracking-display: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --section-y-desktop: 64px;
+  --section-y-tablet: 48px;
+  --section-y-phone: 32px;
+  --radius-sm: 0;
+  --radius-md: 2px;
+  --radius-lg: 4px;
+  --radius-pill: 9999px;
+  --elev-flat: none;
+  --elev-ring: 0 0 0 1px var(--border);
+  --elev-raised: 0 4px 0 rgba(33, 43, 50, 0.12);
+  --focus-ring: 0 0 0 4px var(--warn), 0 0 0 6px var(--fg);
+  --motion-fast: 120ms;
+  --motion-base: 180ms;
+  --ease-standard: cubic-bezier(0.23, 1, 0.32, 1);
+  --container-max: 960px;
+  --container-gutter-desktop: 32px;
+  --container-gutter-tablet: 24px;
+  --container-gutter-phone: 16px;
+}

@@ -1,0 +1,64 @@
+/* design-systems/aws-cloudscape/tokens.css
+ *
+ * Open Design schema tokens for AWS Cloudscape-inspired cloud operations UI.
+ * Distilled from public Cloudscape foundation guidance; no official assets copied.
+ */
+
+:root {
+  --bg: #f2f3f3;
+  --surface: #ffffff;
+  --surface-warm: #f9fafa;
+  --fg: #16191f;
+  --fg-2: #414d5c;
+  --muted: #5f6b7a;
+  --meta: #6b7280;
+  --border: #d5dbdb;
+  --border-soft: #eaeded;
+  --accent: #0972d3;
+  --accent-on: #ffffff;
+  --accent-hover: #033160;
+  --accent-active: #001a37;
+  --success: #037f0c;
+  --warn: #b35c00;
+  --danger: #d91515;
+  --font-display: "Amazon Ember", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Amazon Ember", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Amazon Ember Mono", "SFMono-Regular", Consolas, monospace;
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 22px;
+  --text-2xl: 28px;
+  --text-3xl: 36px;
+  --text-4xl: 44px;
+  --leading-body: 1.5;
+  --leading-tight: 1.18;
+  --tracking-display: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --section-y-desktop: 72px;
+  --section-y-tablet: 56px;
+  --section-y-phone: 40px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-pill: 9999px;
+  --elev-flat: none;
+  --elev-ring: 0 0 0 1px var(--border);
+  --elev-raised: 0 12px 32px rgba(22, 25, 31, 0.16);
+  --focus-ring: 0 0 0 3px rgba(9, 114, 211, 0.32);
+  --motion-fast: 120ms;
+  --motion-base: 180ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --container-max: 1280px;
+  --container-gutter-desktop: 40px;
+  --container-gutter-tablet: 28px;
+  --container-gutter-phone: 20px;
+}

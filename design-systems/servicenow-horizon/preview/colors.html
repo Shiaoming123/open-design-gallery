@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ServiceNow Horizon Colors</title>
+    <style>
+/* Open Design tokens for a ServiceNow Horizon-inspired enterprise workflow system.
+ * Derived from public documentation language; no official assets or source copied. */
+
+:root {
+  --bg: #f6f8fb;
+  --surface: #ffffff;
+  --surface-warm: #eef7f3;
+  --fg: #0b1620;
+  --fg-2: #243241;
+  --muted: #5e6b78;
+  --meta: #7b8794;
+  --border: #dce3ea;
+  --border-soft: #edf1f5;
+  --accent: #2f7d5f;
+  --accent-on: #ffffff;
+  --accent-hover: #276a51;
+  --accent-active: #1f5742;
+  --success: #2f7d5f;
+  --warn: #b7791f;
+  --danger: #c93535;
+  --font-display: "ServiceNow Sans", "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+  --font-body: "ServiceNow Sans", "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+  --font-mono: "SF Mono", "JetBrains Mono", Menlo, Monaco, Consolas, monospace;
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 24px;
+  --text-2xl: 34px;
+  --text-3xl: 48px;
+  --text-4xl: 64px;
+  --leading-body: 1.56;
+  --leading-tight: 1.08;
+  --tracking-display: normal;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --section-y-desktop: 88px;
+  --section-y-tablet: 64px;
+  --section-y-phone: 40px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-pill: 9999px;
+  --elev-flat: none;
+  --elev-ring: 0 0 0 1px var(--border);
+  --elev-raised: 0 18px 48px rgba(23, 42, 58, 0.12);
+  --focus-ring: 0 0 0 3px rgba(47, 125, 95, 0.24);
+  --motion-fast: 150ms;
+  --motion-base: 220ms;
+  --ease-standard: cubic-bezier(0.23, 1, 0.32, 1);
+  --container-max: 1180px;
+  --container-gutter-desktop: 32px;
+  --container-gutter-tablet: 24px;
+  --container-gutter-phone: 16px;
+}
+
+      body { margin: 0; background: var(--bg); color: var(--fg); font: var(--text-base, 14px)/var(--leading-body, 1.5) var(--font-body, system-ui, sans-serif); }
+      main { max-width: 920px; margin: 0 auto; padding: var(--space-12, 48px) var(--space-6, 24px); }
+      h1 { margin: 0 0 var(--space-6, 24px); font-size: var(--text-3xl, 28px); line-height: var(--leading-tight, 1.15); }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: var(--space-3, 12px); }
+      .swatch { border: 1px solid var(--border-soft, #e5e5e5); border-radius: var(--radius-md, 8px); background: var(--surface, #fff); overflow: hidden; }
+      .chip { height: 84px; background: var(--color); }
+      .meta { padding: var(--space-3, 12px); color: var(--muted, #666); font-family: var(--font-mono, monospace); font-size: var(--text-sm, 12px); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>ServiceNow Horizon color roles</h1>
+      <section class="grid" aria-label="Color swatches">
+        <div class="swatch" style="--color: var(--bg)"><div class="chip"></div><div class="meta">--bg</div></div>
+        <div class="swatch" style="--color: var(--surface)"><div class="chip"></div><div class="meta">--surface</div></div>
+        <div class="swatch" style="--color: var(--fg)"><div class="chip"></div><div class="meta">--fg</div></div>
+        <div class="swatch" style="--color: var(--accent)"><div class="chip"></div><div class="meta">--accent</div></div>
+        <div class="swatch" style="--color: var(--success)"><div class="chip"></div><div class="meta">--success</div></div>
+        <div class="swatch" style="--color: var(--danger)"><div class="chip"></div><div class="meta">--danger</div></div>
+      </section>
+    </main>
+  </body>
+</html>

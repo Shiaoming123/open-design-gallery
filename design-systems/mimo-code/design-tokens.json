@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "format": "od-design-tokens/v1",
+  "contract": "TOKEN_SCHEMA",
+  "generatedAt": "2026-06-12T00:00:00.000Z",
+  "source": {
+    "tokensCss": "tokens.css",
+    "upstream": "/tmp/mimo-code/src/utils/themes.ts"
+  },
+  "summary": {
+    "totalTokens": 45,
+    "declaredTokens": 45,
+    "sourceBackedTokens": 45,
+    "sourceBackedA1": 45,
+    "fallbackTokens": 0,
+    "aliasTokens": 0,
+    "layerCounts": {
+      "A1-identity": 45
+    },
+    "themes": 5,
+    "tokensPerTheme": 9,
+    "score": 100,
+    "grade": "excellent",
+    "recommendRebuild": false
+  },
+  "themes": [
+    {
+      "id": "mimo-dark",
+      "name": "MiMo Dark",
+      "type": "dark",
+      "default": true
+    },
+    {
+      "id": "mimo-light",
+      "name": "MiMo Light",
+      "type": "light",
+      "default": false
+    },
+    {
+      "id": "dracula",
+      "name": "Dracula",
+      "type": "dark",
+      "default": false
+    },
+    {
+      "id": "nord",
+      "name": "Nord",
+      "type": "dark",
+      "default": false
+    },
+    {
+      "id": "solarized-dark",
+      "name": "Solarized Dark",
+      "type": "dark",
+      "default": false
+    }
+  ],
+  "tokens": [
+    {
+      "name": "--background",
+      "type": "color",
+      "layer": "A1-identity",
+      "confidence": "high",
+      "values": {
+        "mimo-dark": "#1a1b2e",
+        "mimo-light": "#ffffff",
+        "dracula": "#282a36",
+        "nord": "#2e3440",
+        "solarized-dark": "#002b36"
+      },
+      "role": "Terminal background"
+    },
+    {
+      "name": "--foreground",
+      "type": "color",
+      "layer": "A1-identity",
+      "confidence": "high",
+      "values": {
+        "mimo-dark": "#e0e0e0",
+        "mimo-light": "#1f2937",
+        "dracula": "#f8f8f2",
+        "nord": "#eceff4",
+        "solarized-dark": "#839496"
+      },
+      "role": "Default text color"
+    },
+    {
+      "name": "--primary",
+      "type": "color",
+      "layer": "A1-identity",
+      "confidence": "high",
+      "values": {
+        "mimo-dark": "#FF6900",
+        "mimo-light": "#2563eb",
+        "dracula": "#bd93f9",
+        "nord": "#88c0d0",
+        "solarized-dark": "#2aa198"
+      },
+      "role": "Prompt color, CTAs, mascot, main interactive accent"
+    },
+    {
+      "name": "--secondary",
+      "type": "color",
+      "layer": "A1-identity",
+      "confidence": "high",
+      "values": {
+        "mimo-dark": "#7c3aed",
+        "mimo-light": "#7c3aed",
+        "dracula": "#ff79c6",
+        "nord": "#b48ead",
+        "solarized-dark": "#6c71c4"
+      },
+      "role": "Secondary actions, links"
+    },
+    {
+      "name": "--success",
+      "type": "color",
+      "layer": "A1-identity",
+      "confidence": "high",
+      "values": {
+        "mimo-dark": "#10b981",
+        "mimo-light": "#059669",
+        "dracula": "#50fa7b",
+        "nord": "#a3be8c",
+        "solarized-dark": "#859900"
+      },
+      "role": "Completion, passing tests, success state"
+    },
+    {
+      "name": "--warning",
+      "type": "color",
+      "layer": "A1-identity",
+      "confidence": "high",
+      "values": {
+        "mimo-dark": "#f59e0b",
+        "mimo-light": "#d97706",
+        "dracula": "#f1fa8c",
+        "nord": "#ebcb8b",
+        "solarized-dark": "#b58900"
+      },
+      "role": "Caution, pending state"
+    },
+    {
+      "name": "--error",
+      "type": "color",
+      "layer": "A1-identity",
+      "confidence": "high",
+      "values": {
+        "mimo-dark": "#ef4444",
+        "mimo-light": "#dc2626",
+        "dracula": "#ff5555",
+        "nord": "#bf616a",
+        "solarized-dark": "#dc322f"
+      },
+      "role": "Errors, failures, destructive actions"
+    },
+    {
+      "name": "--muted",
+      "type": "color",
+      "layer": "A1-identity",
+      "confidence": "high",
+      "values": {
+        "mimo-dark": "#6b7280",
+        "mimo-light": "#9ca3af",
+        "dracula": "#6272a4",
+        "nord": "#4c566a",
+        "solarized-dark": "#586e75"
+      },
+      "role": "Dimmed text, placeholders, timestamps"
+    },
+    {
+      "name": "--accent",
+      "type": "color",
+      "layer": "A1-identity",
+      "confidence": "high",
+      "values": {
+        "mimo-dark": "#FF6900",
+        "mimo-light": "#2563eb",
+        "dracula": "#8be9fd",
+        "nord": "#81a1c1",
+        "solarized-dark": "#268bd2"
+      },
+      "role": "Highlights, secondary interactive accent"
+    }
+  ]
+}

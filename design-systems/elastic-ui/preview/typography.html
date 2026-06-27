@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Elastic UI Typography</title>
+    <style>
+/* design-systems/elastic-ui/tokens.css
+ *
+ * Open Design token bindings distilled from public Elastic EUI docs and repo
+ * pages. Values are original OD mappings to the shared schema; do not copy
+ * official screenshots, assets, or source into this package.
+ */
+
+:root {
+  --bg: #f6f8fb;
+  --surface: #ffffff;
+  --surface-warm: #edf2f7;
+  --fg: #1a1c21;
+  --fg-2: #343741;
+  --muted: #69707d;
+  --meta: #98a2b3;
+  --border: #d3dae6;
+  --border-soft: #e6ebf2;
+  --accent: #0b64dd;
+  --accent-on: #ffffff;
+  --accent-hover: #0054b8;
+  --accent-active: #003f8f;
+  --success: #008a5e;
+  --warn: #f5a700;
+  --danger: #c61e25;
+  --font-display: "Inter", ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-body: "Inter", ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "Roboto Mono", ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 24px;
+  --text-2xl: 32px;
+  --text-3xl: 44px;
+  --text-4xl: 56px;
+  --leading-body: 1.5;
+  --leading-tight: 1.14;
+  --tracking-display: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --section-y-desktop: 72px;
+  --section-y-tablet: 52px;
+  --section-y-phone: 36px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --radius-pill: 9999px;
+  --elev-flat: none;
+  --elev-ring: 0 0 0 1px var(--border);
+  --elev-raised: 0 8px 20px rgba(52, 55, 65, 0.14), 0 0 1px rgba(52, 55, 65, 0.18);
+  --focus-ring: 0 0 0 3px rgba(11, 100, 221, 0.28);
+  --motion-fast: 120ms;
+  --motion-base: 180ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --container-max: 1280px;
+  --container-gutter-desktop: 32px;
+  --container-gutter-tablet: 24px;
+  --container-gutter-phone: 16px;
+}
+
+      body { margin: 0; background: var(--bg); color: var(--fg); font: var(--text-base, 14px)/var(--leading-body, 1.5) var(--font-body, system-ui, sans-serif); }
+      main { max-width: 860px; margin: 0 auto; padding: var(--space-12, 48px) var(--space-6, 24px); }
+      .sample { padding: var(--space-4, 16px) 0; border-bottom: 1px solid var(--border-soft, #e5e5e5); }
+      .name { color: var(--muted); font-size: var(--text-sm, 12px); margin-bottom: var(--space-2, 8px); }
+      .display { font: 600 var(--text-3xl, 28px)/var(--leading-tight, 1.15) var(--font-display, inherit); letter-spacing: var(--tracking-display, 0); }
+      .body { color: var(--fg-2, var(--fg)); }
+      .small { font-size: var(--text-sm, 12px); color: var(--muted); }
+      .code { font-family: var(--font-mono, monospace); font-size: var(--text-sm, 12px); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="sample"><div class="name">Display</div><div class="display">Elastic UI</div></section>
+      <section class="sample"><div class="name">Body</div><div class="body">Captured design systems should stay readable, reusable, and faithful to the source evidence.</div></section>
+      <section class="sample"><div class="name">Small UI</div><div class="small">Metadata, labels, counters, and quiet supporting text.</div></section>
+      <section class="sample"><div class="name">Code</div><div class="code">--accent: var(--accent);</div></section>
+    </main>
+  </body>
+</html>

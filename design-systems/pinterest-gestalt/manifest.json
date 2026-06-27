@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "od-design-system-project/v1",
+  "id": "pinterest-gestalt",
+  "name": "Pinterest Gestalt",
+  "category": "Design & Creative",
+  "description": "Open Design package distilled from public Pinterest Gestalt documentation and token packages into reusable product UI tokens, prose, and component fixtures.",
+  "source": {
+    "type": "bundled",
+    "origin": "Public Pinterest Gestalt documentation, README, and design-token package, distilled as inspiration only"
+  },
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css",
+    "components": "components.html"
+  },
+  "importMode": "hybrid",
+  "sourceFiles": {
+    "evidence": "source/evidence.md"
+  },
+  "componentsManifest": "components.manifest.json",
+  "usage": "USAGE.md",
+  "preview": {
+    "dir": "preview",
+    "pages": [
+      {
+        "path": "preview/colors.html",
+        "role": "colors",
+        "title": "Colors"
+      },
+      {
+        "path": "preview/typography.html",
+        "role": "typography",
+        "title": "Typography"
+      },
+      {
+        "path": "preview/spacing.html",
+        "role": "spacing",
+        "title": "Spacing"
+      }
+    ]
+  }
+}

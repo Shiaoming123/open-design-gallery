@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "od-design-system-project/v1",
+  "id": "twilio-paste",
+  "name": "Twilio Paste",
+  "category": "Productivity & SaaS",
+  "description": "Customer-engagement product UI language distilled from public Twilio Paste documentation and official open-source tokens.",
+  "source": {
+    "type": "bundled",
+    "origin": "Open Design capture from public official Twilio Paste documentation and open-source Paste token evidence"
+  },
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css",
+    "components": "components.html"
+  },
+  "importMode": "normalized",
+  "craft": {
+    "applies": [],
+    "suggested": [
+      "accessibility-baseline",
+      "color"
+    ],
+    "exemptions": []
+  },
+  "sourceFiles": {
+    "evidence": "source/evidence.md"
+  },
+  "componentsManifest": "components.manifest.json",
+  "usage": "USAGE.md",
+  "preview": {
+    "dir": "preview",
+    "pages": [
+      {
+        "path": "preview/colors.html",
+        "role": "colors",
+        "title": "Colors"
+      },
+      {
+        "path": "preview/typography.html",
+        "role": "typography",
+        "title": "Typography"
+      },
+      {
+        "path": "preview/spacing.html",
+        "role": "spacing",
+        "title": "Spacing"
+      }
+    ]
+  }
+}

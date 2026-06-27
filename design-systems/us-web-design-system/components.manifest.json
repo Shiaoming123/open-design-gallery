@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 1,
+  "brandId": "us-web-design-system",
+  "source": {
+    "componentsHtml": "components.html",
+    "tokensCss": "tokens.css"
+  },
+  "fixture": {
+    "title": "U.S. Web Design System reference components",
+    "description": "Open Design fixture distilling USWDS visual language without copying official assets or source.",
+    "styleBlockCount": 2,
+    "selectorCount": 44,
+    "classCount": 20,
+    "elementCount": 22
+  },
+  "tokens": {
+    "declared": [
+      "--accent",
+      "--accent-active",
+      "--accent-hover",
+      "--accent-on",
+      "--bg",
+      "--border",
+      "--border-soft",
+      "--container-gutter-desktop",
+      "--container-gutter-phone",
+      "--container-gutter-tablet",
+      "--container-max",
+      "--danger",
+      "--ease-standard",
+      "--elev-flat",
+      "--elev-raised",
+      "--elev-ring",
+      "--fg",
+      "--fg-2",
+      "--focus-ring",
+      "--font-body",
+      "--font-display",
+      "--font-mono",
+      "--leading-body",
+      "--leading-tight",
+      "--meta",
+      "--motion-base",
+      "--motion-fast",
+      "--muted",
+      "--radius-lg",
+      "--radius-md",
+      "--radius-pill",
+      "--radius-sm",
+      "--section-y-desktop",
+      "--section-y-phone",
+      "--section-y-tablet",
+      "--space-1",
+      "--space-12",
+      "--space-2",
+      "--space-3",
+      "--space-4",
+      "--space-5",
+      "--space-6",
+      "--space-8",
+      "--success",
+      "--surface",
+      "--surface-warm",
+      "--text-2xl",
+      "--text-3xl",
+      "--text-4xl",
+      "--text-base",
+      "--text-lg",
+      "--text-sm",
+      "--text-xl",
+      "--text-xs",
+      "--tracking-display",
+      "--warn"
+    ],
+    "referenced": [
+      "--accent",
+      "--accent-active",
+      "--accent-hover",
+      "--accent-on",
+      "--bg",
+      "--border",
+      "--container-gutter-desktop",
+      "--container-gutter-phone",
+      "--container-gutter-tablet",
+      "--container-max",
+      "--danger",
+      "--ease-standard",
+      "--elev-ring",
+      "--fg",
+      "--fg-2",
+      "--focus-ring",
+      "--font-body",
+      "--font-display",
+      "--leading-body",
+      "--leading-tight",
+      "--motion-fast",
+      "--radius-md",
+      "--radius-pill",
+      "--radius-sm",
+      "--section-y-desktop",
+      "--section-y-phone",
+      "--section-y-tablet",
+      "--space-1",
+      "--space-2",
+      "--space-3",
+      "--space-4",
+      "--space-6",
+      "--space-8",
+      "--success",
+      "--surface",
+      "--surface-warm",
+      "--text-3xl",
+      "--text-base",
+      "--text-lg",
+      "--text-sm",
+      "--text-xl",
+      "--text-xs",
+      "--tracking-display",
+      "--warn"
+    ],
+    "unusedDeclared": [
+      "--border-soft",
+      "--elev-flat",
+      "--elev-raised",
+      "--font-mono",
+      "--meta",
+      "--motion-base",
+      "--muted",
+      "--radius-lg",
+      "--space-12",
+      "--space-5",
+      "--text-2xl",
+      "--text-4xl"
+    ],
+    "undeclaredReferenced": []
+  },
+  "selectors": [
+    ".actions",
+    ".alert",
+    ".alert p",
+    ".alert-stack",
+    ".alert.error",
+    ".alert.success",
+    ".alert.warning",
+    ".banner",
+    ".banner-inner",
+    ".brand",
+    ".button",
+    ".button:active",
+    ".button:hover",
+    ".button.secondary",
+    ".button.secondary:hover",
+    ".card",
+    ".card-band",
+    ".card-body",
+    ".card-body p",
+    ".card-grid",
+    ".dot",
+    ".form-strip",
+    ".header-inner",
+    ".lead",
+    ".site-header",
+    ".tag",
+    "*",
+    "*::after",
+    "*::before",
+    "a",
+    "a:focus-visible",
+    "a:hover",
+    "body",
+    "button:focus-visible",
+    "h1",
+    "h2",
+    "h3",
+    "html",
+    "input",
+    "input:focus-visible",
+    "label",
+    "main",
+    "nav",
+    "p"
+  ],
+  "classes": [
+    "actions",
+    "alert",
+    "alert-stack",
+    "banner",
+    "banner-inner",
+    "brand",
+    "button",
+    "card",
+    "card-band",
+    "card-body",
+    "card-grid",
+    "dot",
+    "form-strip",
+    "header-inner",
+    "lead",
+    "secondary",
+    "site-header",
+    "success",
+    "tag",
+    "warning"
+  ],
+  "elements": [
+    "a",
+    "article",
+    "body",
+    "button",
+    "div",
+    "form",
+    "h1",
+    "h2",
+    "h3",
+    "head",
+    "header",
+    "html",
+    "input",
+    "label",
+    "main",
+    "meta",
+    "nav",
+    "p",
+    "section",
+    "span",
+    "style",
+    "title"
+  ],
+  "groups": [
+    {
+      "id": "buttons",
+      "label": "Buttons and calls to action",
+      "present": true,
+      "selectors": [
+        ".button",
+        ".button:active",
+        ".button:hover",
+        ".button.secondary",
+        ".button.secondary:hover",
+        "button:focus-visible"
+      ],
+      "classes": [
+        "button"
+      ],
+      "elements": [
+        "button"
+      ],
+      "tokenReferences": [
+        "--accent",
+        "--accent-hover",
+        "--bg",
+        "--focus-ring"
+      ]
+    },
+    {
+      "id": "inputs",
+      "label": "Form fields and controls",
+      "present": true,
+      "selectors": [
+        "input",
+        "input:focus-visible",
+        "label"
+      ],
+      "classes": [
+        "form-strip"
+      ],
+      "elements": [
+        "form",
+        "input",
+        "label"
+      ],
+      "tokenReferences": [
+        "--border",
+        "--focus-ring",
+        "--radius-sm",
+        "--space-2"
+      ]
+    },
+    {
+      "id": "cards",
+      "label": "Cards and panels",
+      "present": true,
+      "selectors": [
+        ".card",
+        ".card-band",
+        ".card-body",
+        ".card-body p",
+        ".card-grid"
+      ],
+      "classes": [
+        "card",
+        "card-band",
+        "card-body",
+        "card-grid"
+      ],
+      "elements": [],
+      "tokenReferences": [
+        "--accent",
+        "--fg-2",
+        "--space-4",
+        "--space-8"
+      ]
+    },
+    {
+      "id": "badges",
+      "label": "Badges, chips, and status labels",
+      "present": true,
+      "selectors": [
+        ".tag"
+      ],
+      "classes": [
+        "tag"
+      ],
+      "elements": [],
+      "tokenReferences": []
+    },
+    {
+      "id": "links",
+      "label": "Links and inline actions",
+      "present": true,
+      "selectors": [
+        "a",
+        "a:focus-visible",
+        "a:hover"
+      ],
+      "classes": [],
+      "elements": [
+        "a"
+      ],
+      "tokenReferences": [
+        "--accent",
+        "--focus-ring"
+      ]
+    },
+    {
+      "id": "keyboard",
+      "label": "Keyboard hints",
+      "present": false,
+      "selectors": [],
+      "classes": [],
+      "elements": [],
+      "tokenReferences": []
+    },
+    {
+      "id": "icons",
+      "label": "Icon slots",
+      "present": false,
+      "selectors": [],
+      "classes": [],
+      "elements": [],
+      "tokenReferences": []
+    },
+    {
+      "id": "typography",
+      "label": "Typography scale and text utilities",
+      "present": true,
+      "selectors": [
+        ".lead",
+        "h1",
+        "h2",
+        "h3"
+      ],
+      "classes": [
+        "lead"
+      ],
+      "elements": [
+        "h1",
+        "h2",
+        "h3",
+        "p"
+      ],
+      "tokenReferences": [
+        "--space-2",
+        "--space-4",
+        "--text-3xl",
+        "--text-lg"
+      ]
+    },
+    {
+      "id": "layout",
+      "label": "Layout primitives",
+      "present": true,
+      "selectors": [
+        "main",
+        "nav"
+      ],
+      "classes": [
+        "card-grid"
+      ],
+      "elements": [
+        "header",
+        "main",
+        "nav",
+        "section"
+      ],
+      "tokenReferences": [
+        "--container-gutter-desktop",
+        "--container-gutter-phone",
+        "--container-gutter-tablet",
+        "--container-max",
+        "--space-4",
+        "--text-sm"
+      ]
+    }
+  ],
+  "literals": {
+    "colorExpressions": 5,
+    "pixelValues": 21,
+    "hardcodedFontFamilies": 2
+  }
+}

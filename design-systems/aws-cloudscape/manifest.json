@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "od-design-system-project/v1",
+  "id": "aws-cloudscape",
+  "name": "AWS Cloudscape",
+  "category": "Backend & Data",
+  "description": "Cloud operations interface language distilled from public Cloudscape Design System documentation.",
+  "source": {
+    "type": "bundled",
+    "origin": "Open Design capture from public official Cloudscape Design System documentation"
+  },
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css",
+    "components": "components.html"
+  },
+  "importMode": "normalized",
+  "craft": {
+    "applies": [],
+    "suggested": [
+      "accessibility-baseline",
+      "color"
+    ],
+    "exemptions": []
+  },
+  "sourceFiles": {
+    "evidence": "source/evidence.md"
+  },
+  "componentsManifest": "components.manifest.json",
+  "usage": "USAGE.md",
+  "preview": {
+    "dir": "preview",
+    "pages": [
+      {
+        "path": "preview/colors.html",
+        "role": "colors",
+        "title": "Colors"
+      },
+      {
+        "path": "preview/typography.html",
+        "role": "typography",
+        "title": "Typography"
+      },
+      {
+        "path": "preview/spacing.html",
+        "role": "spacing",
+        "title": "Spacing"
+      }
+    ]
+  }
+}
