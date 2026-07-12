@@ -46,6 +46,24 @@ for (const renderer of ["renderProductUiView", "renderCommercialView", "renderBl
   assert.match(body, /renderWindow\(grid, matches,/, `${renderer} must window the matching array, not the unfiltered source`);
 }
 assert.match(index, /function activateFirstPreview\([\s\S]*?if\(!card\)\{closePreview\(\);return;}/, "empty results must close and clear the live preview");
+assert.match(index, /function clearInactiveViewGrids\(/, "specialized sub-tabs must release every inactive grid");
+for (const setter of ["setProductUiView", "setCommercialView", "setBlogView"]) {
+  const body = index.match(new RegExp(`function ${setter}\\([\\s\\S]*?\\n}`))?.[0] || "";
+  assert.match(body, /clearInactiveViewGrids\(/, `${setter} must keep only its active grid mounted`);
+}
+const blogSetter = index.match(/function setBlogView\([\s\S]*?\n}/)?.[0] || "";
+assert.match(blogSetter, /#blog-projects \.blog-tab\[data-blog-view\]/, "blog tabs must be scoped to the Blogs page");
+assert.match(blogSetter, /#blog-projects \.blog-panel/, "blog panels must be scoped to the Blogs page");
+assert.doesNotMatch(index, /<article class="blog-card"[^>]*role="button"/, "articles containing links and buttons must not claim button semantics");
+assert.match(index, /function isInteractiveCardTarget\(/, "card delegation must recognize nested interactive controls");
+assert.match(index, /if\(isInteractiveCardTarget\(e\.target\)\)return;/, "card selection must ignore interactive descendants");
+assert.match(index, /data-card-id=/, "every selectable card must expose a unique identity");
+assert.match(index, /card\.dataset\.cardId===cardId/, "active state must compare card identity, not shared preview URL");
+assert.match(index, /function staticTypePoster\(/, "Skills without previews must use a real type poster");
+assert.doesNotMatch(index, /#skills[\s\S]*?<span class="placeholder">[\s\S]*?<\/span>/, "Skills must not render emoji placeholders");
+assert.match(index, /systems-workbench-head/, "Systems title, search, and primary categories must share one visual axis");
+assert.match(index, /function progressiveFilterButtons\(/, "Launches and Blogs must collapse low-frequency categories");
+assert.match(index, /<details class="filter-more"/, "overflow categories must remain expandable");
 assert.match(captureBuilder, /waitForPreviewReady\(/, "capture must wait for deterministic page readiness");
 assert.match(captureBuilder, /assertMeaningfulCapture\(/, "capture must reject obvious blank or loading frames");
 assert.match(captureBuilder, /process\.exitCode\s*=\s*1/, "capture failures must not report silent success");
