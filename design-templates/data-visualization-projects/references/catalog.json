@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "od-data-visualization-projects/v1",
+  "captured": "2026-07-12",
+  "description": "Source-linked visualization projects captured as structured observations, never copied chart artwork.",
+  "indexes": {
+    "dataShapes": ["time-series", "distribution", "ranking", "network", "geospatial", "part-to-whole"],
+    "views": ["entries", "hierarchy", "encodings", "interactions", "accessibility"]
+  },
+  "entryFiles": []
+}

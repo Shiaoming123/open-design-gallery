@@ -8767,6 +8767,36 @@
       }
     },
     {
+      "id": "design-template:component-state-patterns",
+      "kind": "design-template",
+      "title": "component-state-patterns",
+      "summary": "Source-linked patterns for loading, empty, error, table, command, AI, and accessible component states without copying product artwork.",
+      "sourcePath": "design-templates/component-state-patterns",
+      "previewPath": "design-templates/component-state-patterns/example.html",
+      "tags": [
+        "prototype",
+        "component-state-reference",
+        "design-template"
+      ],
+      "useCases": [
+        "component-state-reference",
+        "prototype"
+      ],
+      "userWords": [
+        "Source-linked patterns for loading, empty, error, table, command, AI, and accessible component states without copying product artwork."
+      ],
+      "visualTraits": [],
+      "roles": [
+        "artifact-shape",
+        "prototype"
+      ],
+      "sourcePolicy": "original-shell",
+      "files": {
+        "skill": "design-templates/component-state-patterns/SKILL.md",
+        "preview": "design-templates/component-state-patterns/example.html"
+      }
+    },
+    {
       "id": "design-template:contact-widget",
       "kind": "design-template",
       "title": "contact-widget",
@@ -8848,6 +8878,36 @@
       "files": {
         "skill": "design-templates/dashboard/SKILL.md",
         "preview": "design-templates/dashboard/example.html"
+      }
+    },
+    {
+      "id": "design-template:data-visualization-projects",
+      "kind": "design-template",
+      "title": "data-visualization-projects",
+      "summary": "Source-linked data visualization projects capturing hierarchy, encoding, interaction, data shape, and accessibility without copying published graphics.",
+      "sourcePath": "design-templates/data-visualization-projects",
+      "previewPath": "design-templates/data-visualization-projects/example.html",
+      "tags": [
+        "prototype",
+        "data-visualization-reference",
+        "design-template"
+      ],
+      "useCases": [
+        "data-visualization-reference",
+        "prototype"
+      ],
+      "userWords": [
+        "Source-linked data visualization projects capturing hierarchy, encoding, interaction, data shape, and accessibility without copying published graphics."
+      ],
+      "visualTraits": [],
+      "roles": [
+        "artifact-shape",
+        "prototype"
+      ],
+      "sourcePolicy": "original-shell",
+      "files": {
+        "skill": "design-templates/data-visualization-projects/SKILL.md",
+        "preview": "design-templates/data-visualization-projects/example.html"
       }
     },
     {
@@ -10982,6 +11042,36 @@
       "files": {
         "skill": "design-templates/mobile-app/SKILL.md",
         "preview": "design-templates/mobile-app/example.html"
+      }
+    },
+    {
+      "id": "design-template:mobile-app-flow-projects",
+      "kind": "design-template",
+      "title": "mobile-app-flow-projects",
+      "summary": "Source-linked mobile flow projects capturing task sequences, transitions, platform constraints, and exceptional states without copying app screens.",
+      "sourcePath": "design-templates/mobile-app-flow-projects",
+      "previewPath": "design-templates/mobile-app-flow-projects/example.html",
+      "tags": [
+        "prototype",
+        "mobile-flow-reference",
+        "design-template"
+      ],
+      "useCases": [
+        "mobile-flow-reference",
+        "prototype"
+      ],
+      "userWords": [
+        "Source-linked mobile flow projects capturing task sequences, transitions, platform constraints, and exceptional states without copying app screens."
+      ],
+      "visualTraits": [],
+      "roles": [
+        "artifact-shape",
+        "prototype"
+      ],
+      "sourcePolicy": "original-shell",
+      "files": {
+        "skill": "design-templates/mobile-app-flow-projects/SKILL.md",
+        "preview": "design-templates/mobile-app-flow-projects/example.html"
       }
     },
     {

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "od-component-state-patterns/v1",
+  "captured": "2026-07-12",
+  "description": "Source-linked component state patterns with accessibility and recovery evidence. External artwork is not stored.",
+  "indexes": {
+    "stateTypes": ["loading", "empty", "error", "table", "command-palette", "ai-interaction", "accessibility"],
+    "views": ["entries", "states", "transitions", "recovery", "accessibility"]
+  },
+  "entryFiles": []
+}

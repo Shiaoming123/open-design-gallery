@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "od-gallery-source/v1",
+  "sourceRepository": "open-design-library-private",
+  "sourceSha": "7368e989f6ae7250c419e7210bb8bc17ef80b78f",
+  "publishedPaths": [
+    "catalog/assets.json",
+    "catalog/agent-context.json",
+    "catalog/overview-data",
+    "catalog/preview.html",
+    "design-systems",
+    "design-templates"
+  ]
+}

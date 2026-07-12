@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "od-mobile-app-flow-projects/v1",
+  "captured": "2026-07-12",
+  "description": "Source-linked mobile task flows represented as structured sequences and original preview diagrams.",
+  "indexes": {
+    "flowTypes": ["onboarding", "search", "create", "checkout", "review", "recovery"],
+    "views": ["entries", "screens", "transitions", "platformConstraints", "exceptionStates"]
+  },
+  "entryFiles": []
+}
