@@ -21,6 +21,15 @@ try {
   assert.ok(productTabDom.filter(([id]) => id !== 'grid-product-ui-surfaces').every(([, count]) => count === 0), "Product UI must keep only the active sub-tab grid");
   await page.evaluate(() => setProductUiView('projects'));
 
+  assert.equal(await page.locator('#tab-product-ui-projects').getAttribute('aria-selected'), 'true', "active tab must expose aria-selected");
+  assert.equal(await page.locator('#tab-product-ui-surfaces').getAttribute('tabindex'), '-1', "inactive tabs must leave the sequential tab order");
+  assert.equal(await page.locator('#product-ui-panel-projects').getAttribute('aria-labelledby'), 'tab-product-ui-projects', "tabpanel must be labelled by its tab");
+  await page.locator('#tab-product-ui-projects').focus();
+  await page.keyboard.press('ArrowRight');
+  assert.equal(await page.locator('#tab-product-ui-surfaces').getAttribute('aria-selected'), 'true', "arrow keys must activate the next tab");
+  assert.equal(await page.evaluate(() => document.activeElement?.id), 'tab-product-ui-surfaces', "arrow keys must move focus with selection");
+  await page.evaluate(() => setProductUiView('projects'));
+
   const productMatches = await page.evaluate(() => {
     PRODUCT_UI_PROJECTS.projects.splice(0, PRODUCT_UI_PROJECTS.projects.length, ...Array.from({ length: 60 }, (_, index) => ({
       id: `synthetic-product-${index}`, projectName: `${index >= 55 ? 'Needle' : 'Other'} ${index}`,
@@ -100,6 +109,9 @@ try {
   assert.equal(await page.locator('#templates .is-active').count(), 1, "Templates filtering must activate exactly the first result");
   await page.evaluate(() => { setCatalogPage('design-systems',{scroll:false}); filter('design-systems',''); });
   assert.equal(await page.locator('#design-systems .is-active').count(), 1, "Systems filtering must activate exactly the first result");
+  await page.evaluate(() => { setCatalogPage('skills',{scroll:false}); filter('skills',''); });
+  assert.ok(await page.locator('#skills article.card.is-static').count() > 0, "poster-only Skills must use static article semantics");
+  assert.equal(await page.locator('#skills [data-preview=""][tabindex], #skills [data-preview=""][role="button"]').count(), 0, "cards without previews must not enter the card tab sequence");
   await page.evaluate(() => { setCatalogPage('skills',{scroll:false}); filter('skills','no-result-is-possible'); });
   assert.equal(await page.locator('#preview-iframe').getAttribute('src'), '', "zero-result Skills filtering must clear the live preview");
 

@@ -92,6 +92,9 @@ body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
 .card-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:26px 22px; margin-bottom:80px; align-items:start; }
 .card { display:flex; width:100%; flex-direction:column; cursor:pointer; transition:transform .18s ease; margin:0; min-width:0; }
 .card:hover { transform:translateY(-3px); }
+.card.is-static { cursor:default; }
+.card.is-static:hover { transform:none; }
+.card.is-static .card-arrow { display:none; }
 .card-img { aspect-ratio:4/5; background:var(--bone); border-radius:14px; overflow:hidden; margin-bottom:16px; box-shadow:var(--shadow); position:relative; display:flex; align-items:center; justify-content:center; }
 .card-img .placeholder { font-size:48px; opacity:.3; }
 .static-preview { position:absolute; inset:0; background:var(--bone); overflow:hidden; }
@@ -118,6 +121,7 @@ body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
 .ds-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:14px; margin-bottom:80px; }
 .ds-card { display:block; width:100%; background:var(--bone); border:1px solid var(--line-soft); border-radius:10px; padding:16px; transition:all .18s ease; margin:0; cursor:pointer; }
 .ds-card:hover { border-color:var(--line); box-shadow:var(--shadow); }
+.ds-card.is-static { cursor:default; }
 .ds-preview { position:relative; aspect-ratio:16/10; border:1px solid var(--line-soft); border-radius:8px; overflow:hidden; margin:-4px 0 12px; background:#fff; }
 .ds-name { font-size:14px; font-weight:700; margin-bottom:4px; }
 .ds-desc { font-size:11px; color:var(--ink-mute); line-height:1.4; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; margin-bottom:8px; }
@@ -314,13 +318,13 @@ body.has-preview-shell .catalog-page.active { padding-right:calc(min(38vw,520px)
     <div class="result-count">Local previews · source links · coverage depth</div>
   </div>
   <div class="blog-tabs" role="tablist" aria-label="Product UI project views">
-    <button class="blog-tab active" type="button" data-product-ui-view="projects">Projects</button>
-    <button class="blog-tab" type="button" data-product-ui-view="surfaces">Surfaces</button>
-    <button class="blog-tab" type="button" data-product-ui-view="flows">Flows</button>
-    <button class="blog-tab" type="button" data-product-ui-view="states">States</button>
-    <button class="blog-tab" type="button" data-product-ui-view="components">Components</button>
+    <button id="tab-product-ui-projects" class="blog-tab active" type="button" role="tab" aria-selected="true" aria-controls="product-ui-panel-projects" data-product-ui-view="projects">Projects</button>
+    <button id="tab-product-ui-surfaces" class="blog-tab" type="button" role="tab" aria-selected="false" aria-controls="product-ui-panel-surfaces" data-product-ui-view="surfaces">Surfaces</button>
+    <button id="tab-product-ui-flows" class="blog-tab" type="button" role="tab" aria-selected="false" aria-controls="product-ui-panel-flows" data-product-ui-view="flows">Flows</button>
+    <button id="tab-product-ui-states" class="blog-tab" type="button" role="tab" aria-selected="false" aria-controls="product-ui-panel-states" data-product-ui-view="states">States</button>
+    <button id="tab-product-ui-components" class="blog-tab" type="button" role="tab" aria-selected="false" aria-controls="product-ui-panel-components" data-product-ui-view="components">Components</button>
   </div>
-  <div class="blog-panel active" id="product-ui-panel-projects">
+  <div class="blog-panel active" id="product-ui-panel-projects" role="tabpanel" aria-labelledby="tab-product-ui-projects">
     <div class="section-tools">
       <div class="search-wrap">
         <input class="search-input" placeholder="搜索项目、行业、覆盖深度…" oninput="filterProductUi('projects',this.value)">
@@ -332,7 +336,7 @@ body.has-preview-shell .catalog-page.active { padding-right:calc(min(38vw,520px)
     <div class="blog-grid" id="grid-product-ui-projects"></div>
     <div class="empty-state" id="empty-product-ui-projects">没有匹配的项目级界面案例。清除搜索或切回 All 继续浏览。</div>
   </div>
-  <div class="blog-panel" id="product-ui-panel-surfaces">
+  <div class="blog-panel" id="product-ui-panel-surfaces" role="tabpanel" aria-labelledby="tab-product-ui-surfaces">
     <div class="section-tools">
       <div class="search-wrap">
         <input class="search-input" placeholder="搜索页面、屏幕、复用方式…" oninput="filterProductUi('surfaces',this.value)">
@@ -344,7 +348,7 @@ body.has-preview-shell .catalog-page.active { padding-right:calc(min(38vw,520px)
     <div class="blog-grid" id="grid-product-ui-surfaces"></div>
     <div class="empty-state" id="empty-product-ui-surfaces">没有匹配的产品界面页面。清除搜索或切回 All 继续浏览。</div>
   </div>
-  <div class="blog-panel" id="product-ui-panel-flows">
+  <div class="blog-panel" id="product-ui-panel-flows" role="tabpanel" aria-labelledby="tab-product-ui-flows">
     <div class="section-tools">
       <div class="search-wrap">
         <input class="search-input" placeholder="搜索流程、任务路径、操作闭环…" oninput="filterProductUi('flows',this.value)">
@@ -356,7 +360,7 @@ body.has-preview-shell .catalog-page.active { padding-right:calc(min(38vw,520px)
     <div class="blog-grid" id="grid-product-ui-flows"></div>
     <div class="empty-state" id="empty-product-ui-flows">没有匹配的产品流程。清除搜索或切回 All 继续浏览。</div>
   </div>
-  <div class="blog-panel" id="product-ui-panel-states">
+  <div class="blog-panel" id="product-ui-panel-states" role="tabpanel" aria-labelledby="tab-product-ui-states">
     <div class="section-tools">
       <div class="search-wrap">
         <input class="search-input" placeholder="搜索空状态、错误、权限、密集数据…" oninput="filterProductUi('states',this.value)">
@@ -368,7 +372,7 @@ body.has-preview-shell .catalog-page.active { padding-right:calc(min(38vw,520px)
     <div class="blog-grid" id="grid-product-ui-states"></div>
     <div class="empty-state" id="empty-product-ui-states">没有匹配的产品状态。清除搜索或切回 All 继续浏览。</div>
   </div>
-  <div class="blog-panel" id="product-ui-panel-components">
+  <div class="blog-panel" id="product-ui-panel-components" role="tabpanel" aria-labelledby="tab-product-ui-components">
     <div class="section-tools">
       <div class="search-wrap">
         <input class="search-input" placeholder="搜索导航、表格、筛选、活动流…" oninput="filterProductUi('components',this.value)">
@@ -396,13 +400,13 @@ body.has-preview-shell .catalog-page.active { padding-right:calc(min(38vw,520px)
     <div class="result-count">Source links · media needs · conversion patterns</div>
   </div>
   <div class="blog-tabs" role="tablist" aria-label="Commercial launch views">
-    <button class="blog-tab active" type="button" data-commercial-view="brands">Brands</button>
-    <button class="blog-tab" type="button" data-commercial-view="pages">Pages</button>
-    <button class="blog-tab" type="button" data-commercial-view="modules">Modules</button>
-    <button class="blog-tab" type="button" data-commercial-view="assets">Assets</button>
-    <button class="blog-tab" type="button" data-commercial-view="motion">Motion</button>
+    <button id="tab-commercial-brands" class="blog-tab active" type="button" role="tab" aria-selected="true" aria-controls="commercial-panel-brands" data-commercial-view="brands">Brands</button>
+    <button id="tab-commercial-pages" class="blog-tab" type="button" role="tab" aria-selected="false" aria-controls="commercial-panel-pages" data-commercial-view="pages">Pages</button>
+    <button id="tab-commercial-modules" class="blog-tab" type="button" role="tab" aria-selected="false" aria-controls="commercial-panel-modules" data-commercial-view="modules">Modules</button>
+    <button id="tab-commercial-assets" class="blog-tab" type="button" role="tab" aria-selected="false" aria-controls="commercial-panel-assets" data-commercial-view="assets">Assets</button>
+    <button id="tab-commercial-motion" class="blog-tab" type="button" role="tab" aria-selected="false" aria-controls="commercial-panel-motion" data-commercial-view="motion">Motion</button>
   </div>
-  <div class="blog-panel active" id="commercial-panel-brands">
+  <div class="blog-panel active" id="commercial-panel-brands" role="tabpanel" aria-labelledby="tab-commercial-brands">
     <div class="section-tools">
       <div class="search-wrap">
         <input class="search-input" placeholder="搜索品牌、行业、页面…" oninput="filterCommercial('brands',this.value)">
@@ -414,7 +418,7 @@ body.has-preview-shell .catalog-page.active { padding-right:calc(min(38vw,520px)
     <div class="blog-grid" id="grid-commercial-brands"></div>
     <div class="empty-state" id="empty-commercial-brands">没有匹配的商业发布页案例。清除搜索或切回 All 继续浏览。</div>
   </div>
-  <div class="blog-panel" id="commercial-panel-pages">
+  <div class="blog-panel" id="commercial-panel-pages" role="tabpanel" aria-labelledby="tab-commercial-pages">
     <div class="section-tools">
       <div class="search-wrap">
         <input class="search-input" placeholder="搜索页面类型、叙事、转化路径…" oninput="filterCommercial('pages',this.value)">
@@ -426,7 +430,7 @@ body.has-preview-shell .catalog-page.active { padding-right:calc(min(38vw,520px)
     <div class="blog-grid" id="grid-commercial-pages"></div>
     <div class="empty-state" id="empty-commercial-pages">没有匹配的商业页面素材。清除搜索或切回 All 继续浏览。</div>
   </div>
-  <div class="blog-panel" id="commercial-panel-modules">
+  <div class="blog-panel" id="commercial-panel-modules" role="tabpanel" aria-labelledby="tab-commercial-modules">
     <div class="section-tools">
       <div class="search-wrap">
         <input class="search-input" placeholder="搜索模块、证明点、复用方式…" oninput="filterCommercial('modules',this.value)">
@@ -438,7 +442,7 @@ body.has-preview-shell .catalog-page.active { padding-right:calc(min(38vw,520px)
     <div class="blog-grid" id="grid-commercial-modules"></div>
     <div class="empty-state" id="empty-commercial-modules">没有匹配的商业模块素材。清除搜索或切回 All 继续浏览。</div>
   </div>
-  <div class="blog-panel" id="commercial-panel-assets">
+  <div class="blog-panel" id="commercial-panel-assets" role="tabpanel" aria-labelledby="tab-commercial-assets">
     <div class="section-tools">
       <div class="search-wrap">
         <input class="search-input" placeholder="搜索产品影像、UI mock、裁剪需求…" oninput="filterCommercial('assets',this.value)">
@@ -450,7 +454,7 @@ body.has-preview-shell .catalog-page.active { padding-right:calc(min(38vw,520px)
     <div class="blog-grid" id="grid-commercial-assets"></div>
     <div class="empty-state" id="empty-commercial-assets">没有匹配的影像素材需求。清除搜索或切回 All 继续浏览。</div>
   </div>
-  <div class="blog-panel" id="commercial-panel-motion">
+  <div class="blog-panel" id="commercial-panel-motion" role="tabpanel" aria-labelledby="tab-commercial-motion">
     <div class="section-tools">
       <div class="search-wrap">
         <input class="search-input" placeholder="搜索滚动、动效、fallback…" oninput="filterCommercial('motion',this.value)">
@@ -478,11 +482,11 @@ body.has-preview-shell .catalog-page.active { padding-right:calc(min(38vw,520px)
     <div class="result-count">Source links · page URLs · block references</div>
   </div>
   <div class="blog-tabs" role="tablist" aria-label="Personal blog project views">
-    <button class="blog-tab active" type="button" data-blog-view="sites">Sites</button>
-    <button class="blog-tab" type="button" data-blog-view="pages">Pages</button>
-    <button class="blog-tab" type="button" data-blog-view="blocks">Blocks</button>
+    <button id="tab-blog-sites" class="blog-tab active" type="button" role="tab" aria-selected="true" aria-controls="blog-panel-sites" data-blog-view="sites">Sites</button>
+    <button id="tab-blog-pages" class="blog-tab" type="button" role="tab" aria-selected="false" aria-controls="blog-panel-pages" data-blog-view="pages">Pages</button>
+    <button id="tab-blog-blocks" class="blog-tab" type="button" role="tab" aria-selected="false" aria-controls="blog-panel-blocks" data-blog-view="blocks">Blocks</button>
   </div>
-  <div class="blog-panel active" id="blog-panel-sites">
+  <div class="blog-panel active" id="blog-panel-sites" role="tabpanel" aria-labelledby="tab-blog-sites">
     <div class="section-tools">
       <div class="search-wrap">
         <input class="search-input" placeholder="搜索站点、作者、技术栈…" oninput="filterBlog('sites',this.value)">
@@ -494,7 +498,7 @@ body.has-preview-shell .catalog-page.active { padding-right:calc(min(38vw,520px)
     <div class="blog-grid" id="grid-blog-sites"></div>
     <div class="empty-state" id="empty-blog-sites">没有匹配的个人博客项目。清除搜索或切回 All 继续浏览。</div>
   </div>
-  <div class="blog-panel" id="blog-panel-pages">
+  <div class="blog-panel" id="blog-panel-pages" role="tabpanel" aria-labelledby="tab-blog-pages">
     <div class="section-tools">
       <div class="search-wrap">
         <input class="search-input" placeholder="搜索页面类型、站点、设计点…" oninput="filterBlog('pages',this.value)">
@@ -506,7 +510,7 @@ body.has-preview-shell .catalog-page.active { padding-right:calc(min(38vw,520px)
     <div class="blog-grid" id="grid-blog-pages"></div>
     <div class="empty-state" id="empty-blog-pages">没有匹配的页面素材。清除搜索或切回 All 继续浏览。</div>
   </div>
-  <div class="blog-panel" id="blog-panel-blocks">
+  <div class="blog-panel" id="blog-panel-blocks" role="tabpanel" aria-labelledby="tab-blog-blocks">
     <div class="section-tools">
       <div class="search-wrap">
         <input class="search-input" placeholder="搜索板块、交互、可复用模式…" oninput="filterBlog('blocks',this.value)">
@@ -769,10 +773,11 @@ function render(section) {
       const cols = (c.colors||[]).filter(x=>x&&x.startsWith('#')).map(x=>'<div class="ds-color" style="background:'+x+'" title="'+x+'"></div>').join('');
       const fonts = (c.fonts||[]).slice(0,2).join(', ');
       const hasPrev = c.preview ? ' has-preview' : '';
-      return '<div class="ds-card'+hasPrev+'" tabindex="0" role="button" data-card-id="'+escAttr(cardIdentity(section,c,index))+'" data-filter="'+escAttr(c.cat||'Uncategorized')+'" data-search="'+escAttr(searchText(c))+'" data-preview="'+escAttr(c.preview||'')+'" data-name="'+escAttr(c.name)+'" data-desc="'+escAttr(c.desc)+'" data-mode="'+escAttr(c.mode)+'">'
+      const open=c.preview?'<div class="ds-card has-preview" tabindex="0" role="button" data-card-id="'+escAttr(cardIdentity(section,c,index))+'"':'<article class="ds-card is-static"';
+      return open+' data-filter="'+escAttr(c.cat||'Uncategorized')+'" data-search="'+escAttr(searchText(c))+'" data-preview="'+escAttr(c.preview||'')+'" data-name="'+escAttr(c.name)+'" data-desc="'+escAttr(c.desc)+'" data-mode="'+escAttr(c.mode)+'">'
         +(c.preview?'<div class="ds-preview">'+staticPreview(c.preview,c.name,c.mode)+'</div>':'')
         +'<div class="ds-name">'+escHtml(c.name)+'</div><div class="ds-desc">'+escHtml(c.desc)+'</div>'
-        +(cols?'<div class="ds-colors">'+cols+'</div>':'')+(fonts?'<div class="ds-fonts">'+escHtml(fonts)+'</div>':'')+'</div>';
+        +(cols?'<div class="ds-colors">'+cols+'</div>':'')+(fonts?'<div class="ds-fonts">'+escHtml(fonts)+'</div>':'')+(c.preview?'</div>':'</article>');
     }, () => updateSectionResult(section, items.length));
   } else {
     renderWindow(grid, items, (c, index) => {
@@ -780,14 +785,15 @@ function render(section) {
       const label = MODE_LABELS[c.mode]||c.mode;
       const hasPrev = c.preview ? ' has-preview' : '';
       const meta = cardMeta(c);
-      return '<div class="card'+hasPrev+'" tabindex="0" role="button" data-card-id="'+escAttr(cardIdentity(section,c,index))+'" data-filter="'+escAttr(filterKey(section, c))+'" data-search="'+escAttr(searchText(c))+'" data-preview="'+escAttr(c.preview||'')+'" data-name="'+escAttr(c.name)+'" data-desc="'+escAttr(c.desc)+'" data-mode="'+escAttr(c.mode)+'">'
+      const open=c.preview?'<div class="card has-preview" tabindex="0" role="button" data-card-id="'+escAttr(cardIdentity(section,c,index))+'"':'<article class="card is-static"';
+      return open+' data-filter="'+escAttr(filterKey(section, c))+'" data-search="'+escAttr(searchText(c))+'" data-preview="'+escAttr(c.preview||'')+'" data-name="'+escAttr(c.name)+'" data-desc="'+escAttr(c.desc)+'" data-mode="'+escAttr(c.mode)+'">'
         +'<div class="card-img">'+(c.preview?staticPreview(c.preview,c.name,c.mode):staticTypePoster(c.name,c.mode))+'<span class="card-badge">'+escHtml(label)+'</span></div>'
         +'<div class="card-num"><span>Nº '+num+'</span><span>'+escHtml(c.captured || '2026')+'</span></div>'
         +'<div class="card-title">'+escHtml(c.name)+'</div>'
         +(meta?'<div class="card-meta">'+meta+'</div>':'')
         +'<div class="card-desc">'+escHtml(c.desc)+'</div>'
         +'<div class="card-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 19L19 5M19 5H8M19 5v11"/></svg></div>'
-        +'</div>';
+        +(c.preview?'</div>':'</article>');
     }, () => updateSectionResult(section, items.length));
   }
 }
@@ -847,10 +853,36 @@ function cardMeta(c) {
   return tags.join('');
 }
 
+function syncTabState(selector, dataKey, view) {
+  document.querySelectorAll(selector).forEach(btn => {
+    const active = btn.dataset[dataKey] === view;
+    btn.classList.toggle('active', active);
+    btn.setAttribute('aria-selected', String(active));
+    btn.tabIndex = active ? 0 : -1;
+  });
+}
+
+function handleTablistKeydown(e) {
+  const tab = e.target.closest('[role="tab"]');
+  if (!tab || !['ArrowLeft','ArrowRight','Home','End'].includes(e.key)) return false;
+  const tabs = [...tab.closest('[role="tablist"]').querySelectorAll('[role="tab"]')];
+  const current = tabs.indexOf(tab);
+  let next = current;
+  if (e.key === 'Home') next = 0;
+  if (e.key === 'End') next = tabs.length - 1;
+  if (e.key === 'ArrowLeft') next = (current - 1 + tabs.length) % tabs.length;
+  if (e.key === 'ArrowRight') next = (current + 1) % tabs.length;
+  e.preventDefault();
+  tabs[next].focus();
+  tabs[next].click();
+  return true;
+}
+
 function renderProductUiProjects() {
   const data = PRODUCT_UI_PROJECTS || { projects: [], surfaces: [], flows: [], states: [], components: [] };
   document.getElementById('cnt-product-ui-projects').textContent = data.projects.length + ' projects · ' + data.surfaces.length + ' surfaces · ' + data.flows.length + ' flows · ' + data.states.length + ' states';
   document.getElementById('stat-product-ui-projects').textContent = data.projects.length;
+  syncTabState('#product-ui-projects [data-product-ui-view]', 'productUiView', PRODUCT_UI_STATE.active);
   renderProductUiView(PRODUCT_UI_STATE.active, data[PRODUCT_UI_STATE.active]);
 }
 
@@ -870,19 +902,21 @@ function renderProductUiCard(view, item, index) {
   const search = productUiSearchText(item);
   if (view === 'projects') {
     const coverage = item.surfaceCount + ' surfaces · ' + item.flowCount + ' flows · ' + item.stateCount + ' states';
-    return '<article class="blog-card" tabindex="0" data-card-id="'+escAttr(cardIdentity('product-ui-'+view,item,index))+'" data-preview="'+escAttr(item.preview||'')+'" data-name="'+escAttr(item.projectName)+'" data-desc="'+escAttr(item.why)+'" data-mode="prototype" data-filter="'+escAttr(filter)+'" data-search="'+escAttr(search)+'">'
+    const focusAttr=item.preview?' tabindex="0"':'';
+    return '<article class="blog-card'+(item.preview?'':' is-static')+'"'+focusAttr+' data-card-id="'+escAttr(cardIdentity('product-ui-'+view,item,index))+'" data-preview="'+escAttr(item.preview||'')+'" data-name="'+escAttr(item.projectName)+'" data-desc="'+escAttr(item.why)+'" data-mode="prototype" data-filter="'+escAttr(filter)+'" data-search="'+escAttr(search)+'">'
       +(item.preview?'<div class="blog-card-preview">'+staticPreview(item.preview,item.projectName,'prototype')+'</div>':'')
       +'<div class="blog-card-head"><div><div class="blog-card-kicker">'+escHtml(productUiFilterLabel(filter))+'</div><div class="blog-card-title">'+escHtml(item.projectName)+'<small>'+escHtml(item.projectType)+' · '+escHtml(item.sector)+'</small></div></div><span class="blog-chip">'+escHtml(item.captureDepth||'captured')+'</span></div>'
       +'<p class="blog-card-desc">'+escHtml(item.why)+'</p>'
       +'<div class="blog-card-meta">'+blogChips([coverage,item.reusePolicy,item.complexity])+'</div>'
       +(item.projectUrl?'<div class="blog-url">'+escHtml(item.projectUrl)+'</div>':'')
-      +'<div class="blog-actions">'+(item.projectUrl?'<a href="'+escAttr(item.projectUrl)+'" target="_blank" rel="noreferrer">Open Ref</a>':'')+'<button type="button" data-product-ui-preview="'+escAttr(item.preview||'')+'" data-product-ui-title="'+escAttr(item.projectName)+'">Preview</button></div>'
+      +'<div class="blog-actions">'+(item.projectUrl?'<a href="'+escAttr(item.projectUrl)+'" target="_blank" rel="noreferrer">Open Ref</a>':'')+(item.preview?'<button type="button" data-product-ui-preview="'+escAttr(item.preview)+'" data-product-ui-title="'+escAttr(item.projectName)+'">Preview</button>':'')+'</div>'
       +'</article>';
   }
   const title = item.title || item.type;
   const body = item.study || item.reuse || '';
   const preview = view === 'surfaces' ? item.preview : '';
-  return '<article class="blog-card" tabindex="0" data-card-id="'+escAttr(cardIdentity('product-ui-'+view,item,index))+'" data-preview="'+escAttr(preview)+'" data-name="'+escAttr(title)+'" data-desc="'+escAttr(body)+'" data-mode="prototype" data-filter="'+escAttr(filter)+'" data-search="'+escAttr(search)+'">'
+  const focusAttr=preview?' tabindex="0"':'';
+  return '<article class="blog-card"'+focusAttr+' data-card-id="'+escAttr(cardIdentity('product-ui-'+view,item,index))+'" data-preview="'+escAttr(preview)+'" data-name="'+escAttr(title)+'" data-desc="'+escAttr(body)+'" data-mode="prototype" data-filter="'+escAttr(filter)+'" data-search="'+escAttr(search)+'">'
     +(preview?'<div class="blog-card-preview">'+staticPreview(preview,title,'prototype')+'</div>':'')
     +'<div class="blog-card-head"><div><div class="blog-card-kicker">'+escHtml(productUiFilterLabel(filter))+'</div><div class="blog-card-title">'+escHtml(title)+'<small>'+escHtml(item.projectName)+' · '+escHtml(item.projectType)+'</small></div></div><span class="blog-chip">'+escHtml(item.sector||'ref')+'</span></div>'
     +'<p class="blog-card-desc">'+escHtml(body)+'</p>'
@@ -928,7 +962,7 @@ function productUiSearchText(item) {
 
 function setProductUiView(view) {
   PRODUCT_UI_STATE.active = view;
-  document.querySelectorAll('.blog-tab[data-product-ui-view]').forEach(btn => btn.classList.toggle('active', btn.dataset.productUiView === view));
+  syncTabState('#product-ui-projects [data-product-ui-view]', 'productUiView', view);
   document.querySelectorAll('[id^="product-ui-panel-"]').forEach(panel => panel.classList.toggle('active', panel.id === 'product-ui-panel-' + view));
   clearInactiveViewGrids('product-ui-projects','grid-product-ui-'+view);
   const grid = document.getElementById('grid-product-ui-' + view);
@@ -965,6 +999,7 @@ function renderCommercialLaunches() {
   const data = COMMERCIAL_LAUNCHES || { brands: [], pages: [], modules: [], assets: [], motion: [] };
   document.getElementById('cnt-commercial-launches').textContent = data.brands.length + ' brands · ' + data.modules.length + ' modules · ' + data.assets.length + ' assets · ' + data.motion.length + ' motion';
   document.getElementById('stat-commercial-launches').textContent = data.brands.length;
+  syncTabState('#commercial-launches [data-commercial-view]', 'commercialView', COMMERCIAL_STATE.active);
   renderCommercialView(COMMERCIAL_STATE.active, data[COMMERCIAL_STATE.active]);
 }
 
@@ -1046,7 +1081,7 @@ function commercialSearchText(item) {
 
 function setCommercialView(view) {
   COMMERCIAL_STATE.active = view;
-  document.querySelectorAll('.blog-tab[data-commercial-view]').forEach(btn => btn.classList.toggle('active', btn.dataset.commercialView === view));
+  syncTabState('#commercial-launches [data-commercial-view]', 'commercialView', view);
   document.querySelectorAll('[id^="commercial-panel-"]').forEach(panel => panel.classList.toggle('active', panel.id === 'commercial-panel-' + view));
   clearInactiveViewGrids('commercial-launches','grid-commercial-'+view);
   const grid = document.getElementById('grid-commercial-' + view);
@@ -1083,6 +1118,7 @@ function renderBlogProjects() {
   const data = BLOG_PROJECTS || { sites: [], pages: [], blocks: [] };
   document.getElementById('cnt-blog-projects').textContent = data.sites.length + ' sites · ' + data.pages.length + ' pages · ' + data.blocks.length + ' blocks';
   document.getElementById('stat-blog-projects').textContent = data.sites.length;
+  syncTabState('#blog-projects [data-blog-view]', 'blogView', BLOG_STATE.active);
   renderBlogView(BLOG_STATE.active, data[BLOG_STATE.active]);
 }
 
@@ -1162,7 +1198,7 @@ function blogSearchText(item) {
 
 function setBlogView(view) {
   BLOG_STATE.active = view;
-  document.querySelectorAll('#blog-projects .blog-tab[data-blog-view]').forEach(btn => btn.classList.toggle('active', btn.dataset.blogView === view));
+  syncTabState('#blog-projects [data-blog-view]', 'blogView', view);
   document.querySelectorAll('#blog-projects .blog-panel').forEach(panel => panel.classList.toggle('active', panel.id === 'blog-panel-' + view));
   clearInactiveViewGrids('blog-projects','grid-blog-'+view);
   const grid = document.getElementById('grid-blog-' + view);
@@ -1493,6 +1529,7 @@ document.addEventListener('click',function(e){
 });
 
 document.addEventListener('keydown',e=>{
+  if(handleTablistKeydown(e))return;
   if(e.key==='Escape')closePreview();
   if(e.key==='Enter'||e.key===' '){
     if(isInteractiveCardTarget(e.target))return;

@@ -52,7 +52,7 @@ for (const setter of ["setProductUiView", "setCommercialView", "setBlogView"]) {
   assert.match(body, /clearInactiveViewGrids\(/, `${setter} must keep only its active grid mounted`);
 }
 const blogSetter = index.match(/function setBlogView\([\s\S]*?\n}/)?.[0] || "";
-assert.match(blogSetter, /#blog-projects \.blog-tab\[data-blog-view\]/, "blog tabs must be scoped to the Blogs page");
+assert.match(blogSetter, /#blog-projects \[data-blog-view\]/, "blog tabs must be scoped to the Blogs page");
 assert.match(blogSetter, /#blog-projects \.blog-panel/, "blog panels must be scoped to the Blogs page");
 assert.doesNotMatch(index, /<article class="blog-card"[^>]*role="button"/, "articles containing links and buttons must not claim button semantics");
 assert.match(index, /function isInteractiveCardTarget\(/, "card delegation must recognize nested interactive controls");
@@ -64,6 +64,15 @@ assert.doesNotMatch(index, /#skills[\s\S]*?<span class="placeholder">[\s\S]*?<\/
 assert.match(index, /systems-workbench-head/, "Systems title, search, and primary categories must share one visual axis");
 assert.match(index, /function progressiveFilterButtons\(/, "Launches and Blogs must collapse low-frequency categories");
 assert.match(index, /<details class="filter-more"/, "overflow categories must remain expandable");
+assert.match(index, /class="card is-static"/, "poster-only cards must use static article semantics");
+assert.match(index, /\.card\.is-static \{ cursor:default;/, "static cards must not advertise click affordance");
+assert.match(index, /c\.preview\?'<div class="card has-preview" tabindex="0" role="button"[^:]+:'<article class="card is-static"'/, "only cards with previews may enter the card tab sequence");
+for (const prefix of ["product-ui", "commercial", "blog"]) {
+  assert.match(index, new RegExp(`id="tab-${prefix}-[^"]+"[^>]*role="tab"[^>]*aria-selected="(?:true|false)"[^>]*aria-controls="${prefix}-panel-[^"]+"`), `${prefix} buttons need complete tab ARIA`);
+  assert.match(index, new RegExp(`id="${prefix}-panel-[^"]+"[^>]*role="tabpanel"[^>]*aria-labelledby="tab-${prefix}-[^"]+"`), `${prefix} panels need complete tabpanel ARIA`);
+}
+assert.match(index, /function syncTabState\(/, "setView must synchronize aria-selected and tab stops");
+assert.match(index, /function handleTablistKeydown\(/, "tablists must support directional keyboard navigation");
 assert.match(captureBuilder, /waitForPreviewReady\(/, "capture must wait for deterministic page readiness");
 assert.match(captureBuilder, /assertMeaningfulCapture\(/, "capture must reject obvious blank or loading frames");
 assert.match(captureBuilder, /process\.exitCode\s*=\s*1/, "capture failures must not report silent success");
