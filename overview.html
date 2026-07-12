@@ -31,7 +31,7 @@ html { scroll-behavior:smooth; }
 body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
 .container { max-width:1360px; padding:0 64px; margin:0 auto; }
 .catalog-page { display:none; padding-top:42px; }
-.catalog-page.active { display:block; }
+.catalog-page.active { display:block; min-height:100vh; }
 
 /* === Hero === */
 .hero { padding:80px 0 60px; border-bottom:1px solid var(--line); }
@@ -281,7 +281,7 @@ body.has-preview-shell .catalog-page.active { padding-right:calc(min(38vw,520px)
 </div>
 
 <!-- Templates Section -->
-<div class="container catalog-page" id="templates" data-catalog-page="templates">
+<div class="container catalog-page active" id="templates" data-catalog-page="templates">
   <div class="sec-rule">
     <span><span class="roman">II.</span> Design Templates / 设计模板</span>
     <span id="cnt-templates"></span>

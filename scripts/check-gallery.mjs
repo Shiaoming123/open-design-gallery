@@ -21,6 +21,8 @@ assert.match(index, /<aside class="preview-shell" id="preview-shell"[^>]*role="d
 assert.match(index, /<iframe id="preview-iframe" title="Selected local preview"><\/iframe>/, "desktop and mobile must share one preview iframe");
 assert.doesNotMatch(index, /createElement\(['"]iframe['"]\)|data-preview-src|IntersectionObserver/, "cards must not create lazy preview iframes");
 assert.match(index, /const RENDER_LIMIT = 48;/, "each active result surface must cap its rendered cards at 48");
+assert.match(index, /\.catalog-page\.active \{ display:block; min-height:100vh; \}/, "active catalog page must reserve the first viewport before data loads");
+assert.match(index, /<div class="container catalog-page active" id="templates" data-catalog-page="templates">/, "Templates must be active in the static HTML before overview data loads");
 assert.match(index, /function renderWindow\(/, "all large surfaces must use the shared render window");
 assert.match(index, /items\.slice\(0, RENDER_LIMIT\)/, "rendering must only materialize the first active result window");
 assert.match(index, /grid\.dataset\.total=String\(items\.length\)/, "result counts must retain the full matching total when the DOM window is capped");
