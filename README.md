@@ -14,3 +14,12 @@ Open `index.html` directly, or serve this folder:
 python3 -m http.server 8765
 ```
 
+## Static Contract Check
+
+```bash
+node scripts/check-gallery.mjs
+```
+
+The check keeps large-list rendering batched, restricts the single heavy iframe
+to the selected-item modal, and verifies that catalog preview paths stay local
+while external references remain ordinary links.
