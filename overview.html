@@ -30,7 +30,7 @@
 html { scroll-behavior:smooth; }
 body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
 .container { max-width:1360px; padding:0 64px; margin:0 auto; }
-.catalog-page { display:none; padding-top:58px; }
+.catalog-page { display:none; padding-top:42px; }
 .catalog-page.active { display:block; }
 
 /* === Hero === */
@@ -61,11 +61,11 @@ body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
 .top-nav a.active .side-index-meta, .top-nav a:hover .side-index-meta, .top-nav button:hover .side-index-meta { color:rgba(239,231,210,.72); }
 
 /* === Section Rule === */
-.sec-rule { border-top:1px solid var(--line); padding-top:18px; margin-bottom:48px; display:flex; justify-content:space-between; align-items:center; font-size:10.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-faint); }
+.sec-rule { border-top:1px solid var(--line); padding-top:14px; margin-bottom:28px; display:flex; justify-content:space-between; align-items:center; font-size:10.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-faint); }
 .roman { font-family:var(--serif); font-size:14px; font-style:italic; letter-spacing:0; }
 
 /* === Section Header === */
-.sec-head { display:grid; grid-template-columns:1.4fr 1fr; gap:60px; align-items:end; margin-bottom:48px; }
+.sec-head { display:grid; grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr); gap:32px; align-items:end; margin-bottom:28px; }
 .sec-head .label { font-size:10.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:12px; }
 .sec-head h2 { font-family:var(--serif); font-size:36px; font-weight:700; line-height:1.15; }
 .sec-head h2 em { font-style:italic; color:var(--coral); }
@@ -73,8 +73,8 @@ body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
 .result-count { font-family:var(--mono); font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-faint); white-space:nowrap; }
 
 /* === Pills === */
-.pills { display:flex; flex-wrap:wrap; gap:10px; justify-content:flex-end; }
-.pill { padding:9px 18px; border-radius:999px; border:1px solid var(--line); font-family:var(--sans); font-size:13px; color:var(--ink-soft); background:transparent; cursor:pointer; transition:all .18s ease; display:inline-flex; align-items:center; gap:8px; }
+.pills { display:flex; flex-wrap:nowrap; gap:8px; justify-content:flex-end; overflow:auto; padding:2px; scrollbar-width:thin; }
+.pill { flex:0 0 auto; padding:8px 13px; border-radius:999px; border:1px solid var(--line); font-family:var(--sans); font-size:12px; color:var(--ink-soft); background:transparent; cursor:pointer; transition:all .18s ease; display:inline-flex; align-items:center; gap:6px; }
 .pill:hover { border-color:var(--ink-mute); }
 .pill.active { background:var(--ink); color:var(--paper); border-color:var(--ink); }
 .pill .count { font-family:var(--mono); font-size:11px; opacity:.6; }
@@ -94,9 +94,11 @@ body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
 .card:hover { transform:translateY(-3px); }
 .card-img { aspect-ratio:4/5; background:var(--bone); border-radius:14px; overflow:hidden; margin-bottom:16px; box-shadow:var(--shadow); position:relative; display:flex; align-items:center; justify-content:center; }
 .card-img .placeholder { font-size:48px; opacity:.3; }
-.embedded-preview { position:absolute; inset:0; background:var(--bone); overflow:hidden; }
-.embedded-preview iframe { width:200%; height:200%; border:0; background:#fff; transform:scale(.5); transform-origin:top left; pointer-events:none; }
-.embedded-preview-fallback { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:var(--ink-faint); font:700 10px/1.4 var(--mono); letter-spacing:.12em; text-transform:uppercase; text-align:center; padding:18px; }
+.static-preview { position:absolute; inset:0; background:var(--bone); overflow:hidden; }
+.static-preview-image { width:100%; height:100%; display:block; object-fit:cover; object-position:top center; }
+.static-preview-poster { position:absolute; inset:0; display:grid; align-content:space-between; padding:20px; color:var(--ink); background:linear-gradient(145deg,rgba(237,111,92,.16),transparent 52%),repeating-linear-gradient(0deg,transparent 0 31px,rgba(21,20,15,.06) 32px),var(--bone); }
+.static-preview-poster strong { max-width:18ch; font:700 clamp(17px,2.2vw,26px)/1.08 var(--serif); }
+.static-preview-poster span { font:700 9px/1.3 var(--mono); letter-spacing:.16em; text-transform:uppercase; color:var(--ink-faint); }
 .card-badge { position:absolute; top:12px; left:12px; background:rgba(247,241,222,.9); color:var(--ink); padding:4px 9px; border-radius:4px; font-size:9.5px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; }
 .card-num { font-size:10.5px; color:var(--ink-faint); letter-spacing:.14em; margin-bottom:8px; display:flex; justify-content:space-between; text-transform:uppercase; }
 .card-title { font-size:18px; font-weight:700; letter-spacing:-.014em; margin-bottom:8px; }
@@ -108,6 +110,9 @@ body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
 .card-arrow:hover { background:var(--ink); color:var(--paper); }
 .card.has-preview .card-img::after { content:'👁 预览'; position:absolute; bottom:12px; right:12px; background:rgba(237,111,92,.9); color:#fff; padding:4px 10px; border-radius:6px; font-size:10px; font-weight:600; letter-spacing:.08em; opacity:0; transition:opacity .2s; }
 .card.has-preview:hover .card-img::after { opacity:1; }
+#skills .card-grid { grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px; }
+#skills .card-img { aspect-ratio:16/9; }
+#skills .card-desc { -webkit-line-clamp:1; }
 
 /* === DS Grid (compact) === */
 .ds-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:14px; margin-bottom:80px; }
@@ -123,13 +128,13 @@ body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
 .empty-state.active { display:block; }
 
 /* === Personal Blog Projects === */
-.blog-tabs { display:flex; flex-wrap:wrap; gap:10px; margin:-14px 0 28px; }
+.blog-tabs { display:flex; flex-wrap:nowrap; overflow-x:auto; gap:8px; margin:-4px 0 18px; }
 .blog-tab { border:1px solid var(--line); background:transparent; color:var(--ink-soft); border-radius:8px; padding:10px 14px; font:700 10.5px/1.2 var(--mono); letter-spacing:.12em; text-transform:uppercase; cursor:pointer; }
 .blog-tab.active { background:var(--ink); color:var(--paper); border-color:var(--ink); }
 .blog-panel { display:none; }
 .blog-panel.active { display:block; }
 .blog-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(310px,1fr)); gap:18px; margin-bottom:80px; align-items:start; }
-.blog-card { display:flex; width:100%; flex-direction:column; gap:12px; margin:0; padding:18px; border:1px solid var(--line); border-radius:10px; background:var(--bone); box-shadow:0 20px 42px -34px rgba(21,20,15,.28); min-width:0; }
+.blog-card { display:flex; width:100%; flex-direction:column; gap:10px; margin:0; padding:15px; border:1px solid var(--line); border-radius:10px; background:var(--bone); box-shadow:0 20px 42px -34px rgba(21,20,15,.28); min-width:0; cursor:pointer; }
 .blog-card-preview { position:relative; aspect-ratio:16/10; border:1px solid var(--line-soft); border-radius:8px; overflow:hidden; background:#fff; margin-bottom:2px; }
 .blog-card-head { display:flex; justify-content:space-between; gap:16px; align-items:flex-start; }
 .blog-card-kicker { font:700 9.5px/1.3 var(--mono); letter-spacing:.13em; text-transform:uppercase; color:var(--coral); }
@@ -143,18 +148,20 @@ body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
 .blog-actions a:hover, .blog-actions button:hover { background:var(--ink); color:var(--paper); border-color:var(--ink); }
 .blog-url { color:var(--ink-faint); font:10.5px/1.4 var(--mono); overflow-wrap:anywhere; }
 
-/* === Modal === */
-.modal-overlay { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(21,20,15,.88); z-index:1000; justify-content:center; align-items:center; padding:24px; }
-.modal-overlay.active { display:flex; }
-.modal { background:var(--paper); border:1px solid var(--line); border-radius:16px; width:95vw; max-width:1200px; height:85vh; display:flex; flex-direction:column; overflow:hidden; box-shadow:0 60px 120px -40px rgba(0,0,0,.4); }
-.modal-header { display:flex; justify-content:space-between; align-items:center; padding:18px 24px; border-bottom:1px solid var(--line); }
-.modal-title { font-family:var(--serif); font-size:20px; font-weight:700; }
-.modal-close { background:none; border:none; color:var(--ink-mute); font-size:28px; cursor:pointer; padding:4px 8px; line-height:1; }
-.modal-close:hover { color:var(--ink); }
-.modal-body { flex:1; overflow:hidden; }
-.modal-body iframe { width:100%; height:100%; border:none; background:#fff; }
-.modal-info { padding:14px 24px; border-top:1px solid var(--line); font-size:12px; color:var(--ink-mute); display:flex; gap:16px; align-items:center; }
-.modal-info .tag { background:var(--bone); padding:3px 10px; border-radius:4px; font-size:10px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; }
+/* === Shared live preview: sticky desktop, modal mobile === */
+.preview-shell { position:fixed; z-index:70; right:24px; top:92px; width:min(38vw,520px); height:calc(100vh - 116px); display:none; flex-direction:column; overflow:hidden; border:1px solid var(--line); border-radius:14px; background:var(--paper); box-shadow:0 32px 70px -34px rgba(21,20,15,.42); }
+.preview-shell.active { display:flex; }
+body.has-preview-shell .catalog-page.active { padding-right:calc(min(38vw,520px) + 46px); }
+.preview-header { display:flex; justify-content:space-between; align-items:center; padding:13px 16px; border-bottom:1px solid var(--line); }
+.preview-kicker { display:block; margin-bottom:3px; font:700 9px/1 var(--mono); letter-spacing:.16em; text-transform:uppercase; color:var(--coral); }
+.preview-title { font-family:var(--serif); font-size:18px; font-weight:700; }
+.preview-close { background:none; border:0; color:var(--ink-mute); font-size:25px; cursor:pointer; padding:4px 8px; line-height:1; }
+.preview-close:hover { color:var(--ink); }
+.preview-body { flex:1; overflow:hidden; background:#fff; }
+.preview-body iframe { width:100%; height:100%; border:0; background:#fff; }
+.preview-info { padding:11px 16px; border-top:1px solid var(--line); font-size:11px; color:var(--ink-mute); line-height:1.4; }
+.card.is-active,.ds-card.is-active,.blog-card.is-active { outline:2px solid var(--coral); outline-offset:4px; }
+.card:focus-visible,.ds-card:focus-visible,.blog-card:focus-visible { outline:3px solid var(--ink); outline-offset:4px; }
 
 /* === Footer === */
 .footer { border-top:1px solid var(--line); padding:40px 0; text-align:center; font-size:11px; color:var(--ink-faint); letter-spacing:.1em; }
@@ -171,6 +178,17 @@ body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
   .pills { justify-content:flex-start; margin-top:24px; }
   .search-wrap { max-width:none; margin-bottom:14px; }
   .result-count { display:block; margin-top:12px; }
+  body.has-preview-shell .catalog-page.active { padding-right:22px; }
+  body.preview-open { overflow:hidden; }
+  .preview-shell { display:none; inset:0; width:100%; height:100%; padding:18px; border:0; border-radius:0; background:rgba(21,20,15,.88); z-index:1000; }
+  .preview-shell.active { display:flex; }
+  .preview-header,.preview-info { background:var(--paper); }
+  .preview-header { border-radius:14px 14px 0 0; }
+  .preview-info { border-radius:0 0 14px 14px; }
+  .preview-body { min-height:0; }
+  #skills .card-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+  #skills .card-img { aspect-ratio:16/9; }
+  #skills .card-desc,#skills .card-meta,#skills .card-arrow { display:none; }
 }
 @media (min-width:1540px) {
   .card-grid { grid-template-columns:repeat(4,minmax(0,1fr)); }
@@ -525,19 +543,18 @@ body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
   </div>
 </div>
 
-<!-- Modal -->
-<div class="modal-overlay" id="modal" onclick="if(event.target===this)closeModal()">
-  <div class="modal">
-    <div class="modal-header">
-      <div class="modal-title" id="modal-title"></div>
-      <button class="modal-close" onclick="closeModal()">×</button>
-    </div>
-    <div class="modal-body"><iframe id="modal-iframe"></iframe></div>
-    <div class="modal-info" id="modal-info"></div>
+<!-- One live preview shared by the desktop workbench and mobile dialog. -->
+<aside class="preview-shell" id="preview-shell" role="dialog" aria-modal="false" aria-labelledby="preview-title" aria-hidden="true">
+  <div class="preview-header">
+    <div><span class="preview-kicker">Live local preview</span><div class="preview-title" id="preview-title"></div></div>
+    <button class="preview-close" type="button" aria-label="Close preview" onclick="closePreview()">×</button>
   </div>
-</div>
+  <div class="preview-body"><iframe id="preview-iframe" title="Selected local preview"></iframe></div>
+  <div class="preview-info" id="preview-info"></div>
+</aside>
 
 <script src="catalog/overview-data/overview-data.js"></script>
+<script src="catalog/preview-thumbnails.js"></script>
 <script>
 const OD_OVERVIEW_DATA = window.OD_OVERVIEW_DATA || {};
 const CARDS = OD_OVERVIEW_DATA.cards || [];
@@ -688,64 +705,70 @@ const BLOG_STATE = {
   blocks: { filter: 'all', query: '' }
 };
 
-function embeddedPreview(preview, label) {
+const PREVIEW_THUMBNAILS = window.OD_PREVIEW_THUMBNAILS || {};
+
+function staticPreview(preview, label, mode) {
   if (!preview) return '';
-  return '<div class="embedded-preview"><div class="embedded-preview-fallback">'+escHtml(label||'Local preview')+' · select to preview</div></div>';
+  const thumbnail = PREVIEW_THUMBNAILS[preview];
+  if (thumbnail) return '<div class="static-preview"><img class="static-preview-image" src="'+escAttr(thumbnail)+'" alt="'+escAttr(label||'Local preview')+' preview" loading="lazy" decoding="async"></div>';
+  return '<div class="static-preview"><div class="static-preview-poster"><span>'+escHtml(MODE_LABELS[mode]||mode||'Local preview')+'</span><strong>'+escHtml(label||'Untitled reference')+'</strong><span>Preview capture pending · live view available</span></div></div>';
 }
 
-const RENDER_BATCH_SIZE = 48;
-function renderInBatches(grid, items, renderItem, afterBatch) {
+const RENDER_LIMIT = 48;
+function renderWindow(grid, items, renderItem, afterRender) {
   grid.textContent = '';
-  let offset = 0;
-  function appendBatch() {
-    const end = Math.min(offset + RENDER_BATCH_SIZE, items.length);
-    grid.insertAdjacentHTML('beforeend', items.slice(offset, end).map((item, index) => renderItem(item, offset + index)).join(''));
-    offset = end;
-    if (afterBatch) afterBatch();
-    if (offset < items.length) requestAnimationFrame(appendBatch);
-  }
-  appendBatch();
+  grid.dataset.total=String(items.length);
+  grid.insertAdjacentHTML('beforeend', items.slice(0, RENDER_LIMIT).map(renderItem).join(''));
+  if (afterRender) afterRender(items.length);
 }
 
 function render(section) {
-  const items = CARDS.filter(c => c.section === section);
+  const allItems = CARDS.filter(c => c.section === section);
+  const state = SECTION_STATE[section];
+  const items = allItems.filter(c => (state.filter === 'all' || filterKey(section,c) === state.filter) && (!state.query || searchText(c).includes(state.query)));
   const gridId = section === 'design-systems' ? 'grid-ds' : 'grid-' + section;
   const grid = document.getElementById(gridId);
   const cntId = section === 'design-systems' ? 'cnt-ds' : 'cnt-' + section;
-  document.getElementById(cntId).textContent = items.length + ' items';
+  document.getElementById(cntId).textContent = allItems.length + ' items';
   const statId = section === 'design-systems' ? 'stat-ds' : 'stat-' + section;
-  document.getElementById(statId).textContent = items.length;
+  document.getElementById(statId).textContent = allItems.length;
 
-  renderFilters(section, items);
+  renderFilters(section, allItems);
 
   if (section === 'design-systems') {
-    renderInBatches(grid, items, c => {
+    renderWindow(grid, items, c => {
       const cols = (c.colors||[]).filter(x=>x&&x.startsWith('#')).map(x=>'<div class="ds-color" style="background:'+x+'" title="'+x+'"></div>').join('');
       const fonts = (c.fonts||[]).slice(0,2).join(', ');
       const hasPrev = c.preview ? ' has-preview' : '';
-      return '<div class="ds-card'+hasPrev+'" data-filter="'+escAttr(c.cat||'Uncategorized')+'" data-search="'+escAttr(searchText(c))+'" data-preview="'+escAttr(c.preview||'')+'" data-name="'+escAttr(c.name)+'" data-desc="'+escAttr(c.desc)+'" data-mode="'+escAttr(c.mode)+'">'
-        +(c.preview?'<div class="ds-preview">'+embeddedPreview(c.preview,c.name)+'</div>':'')
+      return '<div class="ds-card'+hasPrev+'" tabindex="0" role="button" data-filter="'+escAttr(c.cat||'Uncategorized')+'" data-search="'+escAttr(searchText(c))+'" data-preview="'+escAttr(c.preview||'')+'" data-name="'+escAttr(c.name)+'" data-desc="'+escAttr(c.desc)+'" data-mode="'+escAttr(c.mode)+'">'
+        +(c.preview?'<div class="ds-preview">'+staticPreview(c.preview,c.name,c.mode)+'</div>':'')
         +'<div class="ds-name">'+escHtml(c.name)+'</div><div class="ds-desc">'+escHtml(c.desc)+'</div>'
         +(cols?'<div class="ds-colors">'+cols+'</div>':'')+(fonts?'<div class="ds-fonts">'+escHtml(fonts)+'</div>':'')+'</div>';
-    }, () => applyFilters(section));
+    }, () => updateSectionResult(section, items.length));
   } else {
-    renderInBatches(grid, items, (c, index) => {
+    renderWindow(grid, items, (c, index) => {
       const num = String(index + 1).padStart(2,'0');
       const ic = ICONS[c.mode]||'📦';
       const label = MODE_LABELS[c.mode]||c.mode;
       const hasPrev = c.preview ? ' has-preview' : '';
       const meta = cardMeta(c);
-      const inlinePreview = section === 'templates' ? c.preview : '';
-      return '<div class="card'+hasPrev+'" data-filter="'+escAttr(filterKey(section, c))+'" data-search="'+escAttr(searchText(c))+'" data-preview="'+escAttr(c.preview||'')+'" data-name="'+escAttr(c.name)+'" data-desc="'+escAttr(c.desc)+'" data-mode="'+escAttr(c.mode)+'">'
-        +'<div class="card-img">'+embeddedPreview(inlinePreview,c.name)+'<span class="card-badge">'+escHtml(label)+'</span><span class="placeholder">'+ic+'</span></div>'
+      return '<div class="card'+hasPrev+'" tabindex="0" role="button" data-filter="'+escAttr(filterKey(section, c))+'" data-search="'+escAttr(searchText(c))+'" data-preview="'+escAttr(c.preview||'')+'" data-name="'+escAttr(c.name)+'" data-desc="'+escAttr(c.desc)+'" data-mode="'+escAttr(c.mode)+'">'
+        +'<div class="card-img">'+staticPreview(c.preview,c.name,c.mode)+'<span class="card-badge">'+escHtml(label)+'</span>'+(c.preview?'':'<span class="placeholder">'+ic+'</span>')+'</div>'
         +'<div class="card-num"><span>Nº '+num+'</span><span>'+escHtml(c.captured || '2026')+'</span></div>'
         +'<div class="card-title">'+escHtml(c.name)+'</div>'
         +(meta?'<div class="card-meta">'+meta+'</div>':'')
         +'<div class="card-desc">'+escHtml(c.desc)+'</div>'
         +'<div class="card-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 19L19 5M19 5H8M19 5v11"/></svg></div>'
         +'</div>';
-    }, () => applyFilters(section));
+    }, () => updateSectionResult(section, items.length));
   }
+}
+
+function updateSectionResult(section,total){
+  const result=document.getElementById('visible-'+section);
+  if(result)result.textContent=Math.min(total,RENDER_LIMIT)+' / '+total+' showing';
+  const empty=document.getElementById('empty-'+section);
+  if(empty)empty.classList.toggle('active',total===0);
 }
 
 function renderFilters(section, items) {
@@ -759,12 +782,12 @@ function renderFilters(section, items) {
   });
 
   const buttons = [
-    '<button class="pill active" type="button" data-section="'+section+'" data-filter="all">All<span class="count">'+items.length+'</span></button>'
+    '<button class="pill'+(SECTION_STATE[section].filter==='all'?' active':'')+'" type="button" data-section="'+section+'" data-filter="all">All<span class="count">'+items.length+'</span></button>'
   ];
 
   Object.keys(counts).sort().forEach(key => {
     const label = filterLabel(section, key);
-    buttons.push('<button class="pill" type="button" data-section="'+section+'" data-filter="'+escAttr(key)+'">'+escHtml(label)+'<span class="count">'+counts[key]+'</span></button>');
+    buttons.push('<button class="pill'+(SECTION_STATE[section].filter===key?' active':'')+'" type="button" data-section="'+section+'" data-filter="'+escAttr(key)+'">'+escHtml(label)+'<span class="count">'+counts[key]+'</span></button>');
   });
 
   fb.innerHTML = buttons.join('');
@@ -800,18 +823,14 @@ function renderProductUiProjects() {
   const data = PRODUCT_UI_PROJECTS || { projects: [], surfaces: [], flows: [], states: [], components: [] };
   document.getElementById('cnt-product-ui-projects').textContent = data.projects.length + ' projects · ' + data.surfaces.length + ' surfaces · ' + data.flows.length + ' flows · ' + data.states.length + ' states';
   document.getElementById('stat-product-ui-projects').textContent = data.projects.length;
-  renderProductUiView('projects', data.projects);
-  renderProductUiView('surfaces', data.surfaces);
-  renderProductUiView('flows', data.flows);
-  renderProductUiView('states', data.states);
-  renderProductUiView('components', data.components);
+  renderProductUiView(PRODUCT_UI_STATE.active, data[PRODUCT_UI_STATE.active]);
 }
 
 function renderProductUiView(view, items) {
   renderProductUiFilters(view, items);
   const grid = document.getElementById('grid-product-ui-' + view);
   if (!grid) return;
-  renderInBatches(grid, items, item => renderProductUiCard(view, item), () => applyProductUiFilters(view));
+  renderWindow(grid, items, item => renderProductUiCard(view, item), () => applyProductUiFilters(view));
 }
 
 function renderProductUiCard(view, item) {
@@ -819,8 +838,8 @@ function renderProductUiCard(view, item) {
   const search = productUiSearchText(item);
   if (view === 'projects') {
     const coverage = item.surfaceCount + ' surfaces · ' + item.flowCount + ' flows · ' + item.stateCount + ' states';
-    return '<article class="blog-card" data-filter="'+escAttr(filter)+'" data-search="'+escAttr(search)+'">'
-      +(item.preview?'<div class="blog-card-preview">'+embeddedPreview(item.preview,item.projectName)+'</div>':'')
+    return '<article class="blog-card" tabindex="0" role="button" data-preview="'+escAttr(item.preview||'')+'" data-name="'+escAttr(item.projectName)+'" data-desc="'+escAttr(item.why)+'" data-mode="prototype" data-filter="'+escAttr(filter)+'" data-search="'+escAttr(search)+'">'
+      +(item.preview?'<div class="blog-card-preview">'+staticPreview(item.preview,item.projectName,'prototype')+'</div>':'')
       +'<div class="blog-card-head"><div><div class="blog-card-kicker">'+escHtml(productUiFilterLabel(filter))+'</div><div class="blog-card-title">'+escHtml(item.projectName)+'<small>'+escHtml(item.projectType)+' · '+escHtml(item.sector)+'</small></div></div><span class="blog-chip">'+escHtml(item.captureDepth||'captured')+'</span></div>'
       +'<p class="blog-card-desc">'+escHtml(item.why)+'</p>'
       +'<div class="blog-card-meta">'+blogChips([coverage,item.reusePolicy,item.complexity])+'</div>'
@@ -831,8 +850,8 @@ function renderProductUiCard(view, item) {
   const title = item.title || item.type;
   const body = item.study || item.reuse || '';
   const preview = view === 'surfaces' ? item.preview : '';
-  return '<article class="blog-card" data-filter="'+escAttr(filter)+'" data-search="'+escAttr(search)+'">'
-    +(preview?'<div class="blog-card-preview">'+embeddedPreview(preview,title)+'</div>':'')
+  return '<article class="blog-card" tabindex="0" role="button" data-preview="'+escAttr(preview)+'" data-name="'+escAttr(title)+'" data-desc="'+escAttr(body)+'" data-mode="prototype" data-filter="'+escAttr(filter)+'" data-search="'+escAttr(search)+'">'
+    +(preview?'<div class="blog-card-preview">'+staticPreview(preview,title,'prototype')+'</div>':'')
     +'<div class="blog-card-head"><div><div class="blog-card-kicker">'+escHtml(productUiFilterLabel(filter))+'</div><div class="blog-card-title">'+escHtml(title)+'<small>'+escHtml(item.projectName)+' · '+escHtml(item.projectType)+'</small></div></div><span class="blog-chip">'+escHtml(item.sector||'ref')+'</span></div>'
     +'<p class="blog-card-desc">'+escHtml(body)+'</p>'
     +(item.reuse?'<p class="blog-card-desc"><strong>Reuse:</strong> '+escHtml(item.reuse)+'</p>':'')
@@ -879,6 +898,9 @@ function setProductUiView(view) {
   PRODUCT_UI_STATE.active = view;
   document.querySelectorAll('.blog-tab[data-product-ui-view]').forEach(btn => btn.classList.toggle('active', btn.dataset.productUiView === view));
   document.querySelectorAll('[id^="product-ui-panel-"]').forEach(panel => panel.classList.toggle('active', panel.id === 'product-ui-panel-' + view));
+  const grid = document.getElementById('grid-product-ui-' + view);
+  if (grid && !grid.children.length) renderProductUiView(view, PRODUCT_UI_PROJECTS[view] || []);
+  activateFirstPreview();
 }
 
 function filterProductUi(view, q) {
@@ -920,7 +942,7 @@ function applyProductUiFilters(view) {
     if (show) visible++;
   }
   const result = document.getElementById('visible-product-ui-' + view);
-  if (result) result.textContent = visible + ' / ' + cards.length + ' showing';
+  if (result) result.textContent = visible + ' / ' + Number(grid.dataset.total || cards.length) + ' showing';
   const empty = document.getElementById('empty-product-ui-' + view);
   if (empty) empty.classList.toggle('active', visible === 0);
 }
@@ -929,18 +951,14 @@ function renderCommercialLaunches() {
   const data = COMMERCIAL_LAUNCHES || { brands: [], pages: [], modules: [], assets: [], motion: [] };
   document.getElementById('cnt-commercial-launches').textContent = data.brands.length + ' brands · ' + data.modules.length + ' modules · ' + data.assets.length + ' assets · ' + data.motion.length + ' motion';
   document.getElementById('stat-commercial-launches').textContent = data.brands.length;
-  renderCommercialView('brands', data.brands);
-  renderCommercialView('pages', data.pages);
-  renderCommercialView('modules', data.modules);
-  renderCommercialView('assets', data.assets);
-  renderCommercialView('motion', data.motion);
+  renderCommercialView(COMMERCIAL_STATE.active, data[COMMERCIAL_STATE.active]);
 }
 
 function renderCommercialView(view, items) {
   renderCommercialFilters(view, items);
   const grid = document.getElementById('grid-commercial-' + view);
   if (!grid) return;
-  renderInBatches(grid, items, item => renderCommercialCard(view, item), () => applyCommercialFilters(view));
+  renderWindow(grid, items, item => renderCommercialCard(view, item), () => applyCommercialFilters(view));
 }
 
 function renderCommercialCard(view, item) {
@@ -953,7 +971,8 @@ function renderCommercialCard(view, item) {
       ? [item.pageType, item.reusePolicy, item.complexity, item.captureDepth]
       : [item.brandName, item.sector, item.commerce, item.captureDepth];
     const body = view === 'brands' ? item.why : (item.chapters || item.why);
-    return '<article class="blog-card" data-filter="'+escAttr(filter)+'" data-search="'+escAttr(search)+'">'
+    return '<article class="blog-card" tabindex="0" role="button" data-preview="'+escAttr(item.preview||'')+'" data-name="'+escAttr(title)+'" data-desc="'+escAttr(body)+'" data-mode="prototype" data-filter="'+escAttr(filter)+'" data-search="'+escAttr(search)+'">'
+      +(item.preview?'<div class="blog-card-preview">'+staticPreview(item.preview,title,'prototype')+'</div>':'')
       +'<div class="blog-card-head"><div><div class="blog-card-kicker">'+escHtml(kicker)+'</div><div class="blog-card-title">'+escHtml(title)+'<small>'+escHtml(item.pageTitle)+' · '+escHtml(item.sector)+'</small></div></div><span class="blog-chip">'+escHtml(item.captured||'captured')+'</span></div>'
       +'<p class="blog-card-desc">'+escHtml(body)+'</p>'
       +'<div class="blog-card-meta">'+blogChips(meta)+'</div>'
@@ -965,7 +984,7 @@ function renderCommercialCard(view, item) {
   const body = item.study || item.notes || item.reuse || item.fallback || '';
   const extra = item.reuse ? '<p class="blog-card-desc"><strong>Reuse:</strong> '+escHtml(item.reuse)+'</p>' : '';
   const fallback = item.fallback ? '<p class="blog-card-desc"><strong>Fallback:</strong> '+escHtml(item.fallback)+'</p>' : '';
-  return '<article class="blog-card" data-filter="'+escAttr(filter)+'" data-search="'+escAttr(search)+'">'
+  return '<article class="blog-card" tabindex="0" role="button" data-preview="design-templates/commercial-product-launches/example.html" data-name="'+escAttr(title)+'" data-desc="'+escAttr(body)+'" data-mode="prototype" data-filter="'+escAttr(filter)+'" data-search="'+escAttr(search)+'">'
     +'<div class="blog-card-head"><div><div class="blog-card-kicker">'+escHtml(commercialFilterLabel(filter))+'</div><div class="blog-card-title">'+escHtml(title)+'<small>'+escHtml(item.brandName)+' · '+escHtml(item.pageTitle)+'</small></div></div><span class="blog-chip">'+escHtml(item.sector||'ref')+'</span></div>'
     +'<p class="blog-card-desc">'+escHtml(body)+'</p>'+extra+fallback
     +'<div class="blog-card-meta">'+blogChips([item.type,item.sector,item.captured])+'</div>'
@@ -1013,6 +1032,9 @@ function setCommercialView(view) {
   COMMERCIAL_STATE.active = view;
   document.querySelectorAll('.blog-tab[data-commercial-view]').forEach(btn => btn.classList.toggle('active', btn.dataset.commercialView === view));
   document.querySelectorAll('[id^="commercial-panel-"]').forEach(panel => panel.classList.toggle('active', panel.id === 'commercial-panel-' + view));
+  const grid = document.getElementById('grid-commercial-' + view);
+  if (grid && !grid.children.length) renderCommercialView(view, COMMERCIAL_LAUNCHES[view] || []);
+  activateFirstPreview();
 }
 
 function filterCommercial(view, q) {
@@ -1054,7 +1076,7 @@ function applyCommercialFilters(view) {
     if (show) visible++;
   }
   const result = document.getElementById('visible-commercial-' + view);
-  if (result) result.textContent = visible + ' / ' + cards.length + ' showing';
+  if (result) result.textContent = visible + ' / ' + Number(grid.dataset.total || cards.length) + ' showing';
   const empty = document.getElementById('empty-commercial-' + view);
   if (empty) empty.classList.toggle('active', visible === 0);
 }
@@ -1063,16 +1085,14 @@ function renderBlogProjects() {
   const data = BLOG_PROJECTS || { sites: [], pages: [], blocks: [] };
   document.getElementById('cnt-blog-projects').textContent = data.sites.length + ' sites · ' + data.pages.length + ' pages · ' + data.blocks.length + ' blocks';
   document.getElementById('stat-blog-projects').textContent = data.sites.length;
-  renderBlogView('sites', data.sites);
-  renderBlogView('pages', data.pages);
-  renderBlogView('blocks', data.blocks);
+  renderBlogView(BLOG_STATE.active, data[BLOG_STATE.active]);
 }
 
 function renderBlogView(view, items) {
   renderBlogFilters(view, items);
   const grid = document.getElementById('grid-blog-' + view);
   if (!grid) return;
-  renderInBatches(grid, items, item => renderBlogCard(view, item), () => applyBlogFilters(view));
+  renderWindow(grid, items, item => renderBlogCard(view, item), () => applyBlogFilters(view));
 }
 
 function renderBlogCard(view, item) {
@@ -1081,7 +1101,8 @@ function renderBlogCard(view, item) {
   if (view === 'sites') {
     const source = item.sourceUrl ? '<a href="'+escAttr(item.sourceUrl)+'" target="_blank" rel="noreferrer">Source</a>' : '';
     const feed = item.feedUrl ? '<a href="'+escAttr(item.feedUrl)+'" target="_blank" rel="noreferrer">Feed</a>' : '';
-    return '<article class="blog-card" data-filter="'+escAttr(filter)+'" data-search="'+escAttr(search)+'">'
+    return '<article class="blog-card" tabindex="0" role="button" data-preview="'+escAttr(item.preview||'')+'" data-name="'+escAttr(item.name)+'" data-desc="'+escAttr(item.why)+'" data-mode="prototype" data-filter="'+escAttr(filter)+'" data-search="'+escAttr(search)+'">'
+      +(item.preview?'<div class="blog-card-preview">'+staticPreview(item.preview,item.name,'prototype')+'</div>':'')
       +'<div class="blog-card-head"><div><div class="blog-card-kicker">'+escHtml(blogFilterLabel(filter))+'</div><div class="blog-card-title">'+escHtml(item.name)+'<small>'+escHtml(item.author)+' · '+escHtml(item.language)+' · '+escHtml(item.framework||item.type)+'</small></div></div><span class="blog-chip">'+escHtml(item.captureDepth||'captured')+'</span></div>'
       +'<p class="blog-card-desc">'+escHtml(item.why)+'</p>'
       +'<div class="blog-card-meta">'+blogChips([item.type,item.license,item.complexity,item.darkMode==='yes'?'dark mode':''])+'</div>'
@@ -1091,7 +1112,7 @@ function renderBlogCard(view, item) {
   }
   const title = item.title || item.type;
   const body = view === 'pages' ? item.study : item.study;
-  return '<article class="blog-card" data-filter="'+escAttr(filter)+'" data-search="'+escAttr(search)+'">'
+  return '<article class="blog-card" tabindex="0" role="button" data-preview="design-templates/personal-blog-projects/example.html" data-name="'+escAttr(title)+'" data-desc="'+escAttr(body)+'" data-mode="prototype" data-filter="'+escAttr(filter)+'" data-search="'+escAttr(search)+'">'
     +'<div class="blog-card-head"><div><div class="blog-card-kicker">'+escHtml(blogFilterLabel(filter))+'</div><div class="blog-card-title">'+escHtml(title)+'<small>'+escHtml(item.siteName)+' · '+escHtml(item.author)+'</small></div></div><span class="blog-chip">'+escHtml(item.language||'ref')+'</span></div>'
     +'<p class="blog-card-desc">'+escHtml(body)+'</p>'
     +(item.reuse?'<p class="blog-card-desc"><strong>Reuse:</strong> '+escHtml(item.reuse)+'</p>':'')
@@ -1143,6 +1164,9 @@ function setBlogView(view) {
   BLOG_STATE.active = view;
   document.querySelectorAll('.blog-tab').forEach(btn => btn.classList.toggle('active', btn.dataset.blogView === view));
   document.querySelectorAll('.blog-panel').forEach(panel => panel.classList.toggle('active', panel.id === 'blog-panel-' + view));
+  const grid = document.getElementById('grid-blog-' + view);
+  if (grid && !grid.children.length) renderBlogView(view, BLOG_PROJECTS[view] || []);
+  activateFirstPreview();
 }
 
 function filterBlog(view, q) {
@@ -1184,7 +1208,7 @@ function applyBlogFilters(view) {
     if (show) visible++;
   }
   const result = document.getElementById('visible-blog-' + view);
-  if (result) result.textContent = visible + ' / ' + cards.length + ' showing';
+  if (result) result.textContent = visible + ' / ' + Number(grid.dataset.total || cards.length) + ' showing';
   const empty = document.getElementById('empty-blog-' + view);
   if (empty) empty.classList.toggle('active', visible === 0);
 }
@@ -1198,6 +1222,16 @@ function escAttr(s){
 }
 
 const CATALOG_PAGE_IDS = ['templates','product-ui-projects','commercial-launches','blog-projects','design-systems','skills'];
+const RENDERED_PAGES = new Set();
+
+function ensurePageRendered(page) {
+  if (RENDERED_PAGES.has(page)) return;
+  if (page === 'product-ui-projects') renderProductUiProjects();
+  else if (page === 'commercial-launches') renderCommercialLaunches();
+  else if (page === 'blog-projects') renderBlogProjects();
+  else render(page);
+  RENDERED_PAGES.add(page);
+}
 
 function currentCatalogPage() {
   const hash = (window.location.hash || '').replace(/^#/, '');
@@ -1207,6 +1241,7 @@ function currentCatalogPage() {
 function setCatalogPage(page, options) {
   const nextPage = CATALOG_PAGE_IDS.includes(page) ? page : 'templates';
   const opts = options || {};
+  ensurePageRendered(nextPage);
   document.querySelectorAll('[data-catalog-page]').forEach(section => {
     section.classList.toggle('active', section.dataset.catalogPage === nextPage);
   });
@@ -1222,6 +1257,7 @@ function setCatalogPage(page, options) {
     const top = section ? section.getBoundingClientRect().top + window.scrollY - navHeight - 18 : 0;
     window.scrollTo({ top: Math.max(0, top), behavior: opts.smooth ? 'smooth' : 'auto' });
   }
+  activateFirstPreview();
 }
 
 function filter(section,q){
@@ -1230,7 +1266,7 @@ function filter(section,q){
   const clear = document.querySelector('#' + section + ' .clear-btn');
   if (input && input.value !== q) input.value = q;
   if (clear) clear.classList.toggle('active', Boolean(SECTION_STATE[section].query));
-  applyFilters(section);
+  render(section);
 }
 
 function clearSearch(section) {
@@ -1246,7 +1282,7 @@ function setFilter(section, value, btn){
     fb.querySelectorAll('.pill').forEach(b=>b.classList.remove('active'));
     btn.classList.add('active');
   }
-  applyFilters(section);
+  render(section);
 }
 
 function applyFilters(section){
@@ -1261,7 +1297,7 @@ function applyFilters(section){
     c.style.display = show ? '' : 'none';
     if (show) visible++;
   }
-  const total = cards.length;
+  const total = Number(document.getElementById(gridId).dataset.total || cards.length);
   const result = document.getElementById('visible-' + section);
   if (result) result.textContent = visible + ' / ' + total + ' showing';
   const empty = document.getElementById('empty-' + section);
@@ -1278,13 +1314,46 @@ function isLocalPreview(preview) {
     && !/^[a-z][a-z0-9+.-]*:/i.test(preview);
 }
 
-function openModal(preview,name,desc,mode){
+let previewReturnFocus = null;
+function isMobilePreview() { return window.matchMedia('(max-width:760px)').matches; }
+
+function openPreview(preview,name,desc,mode){
   if(!isLocalPreview(preview))return;
-  document.getElementById('modal-title').textContent=name;
-  document.getElementById('modal-iframe').src=preview;
+  previewReturnFocus = document.activeElement;
+  document.getElementById('preview-title').textContent=name;
+  document.getElementById('preview-iframe').src=preview;
   const label=MODE_LABELS[mode]||mode;
-  document.getElementById('modal-info').innerHTML='<span class="tag">'+escHtml(label)+'</span><span>'+escHtml(desc)+'</span>';
-  document.getElementById('modal').classList.add('active');
+  document.getElementById('preview-info').textContent=(label ? label+' · ' : '')+(desc||'');
+  const shell=document.getElementById('preview-shell');
+  shell.classList.add('active');
+  shell.setAttribute('aria-hidden','false');
+  document.body.classList.add('has-preview-shell');
+  document.querySelectorAll('[data-preview]').forEach(card=>card.classList.toggle('is-active',card.dataset.preview===preview));
+  if(isMobilePreview()){
+    shell.setAttribute('aria-modal','true');
+    document.body.classList.add('preview-open');
+    document.querySelectorAll('body > :not(#preview-shell)').forEach(node=>node.inert=true);
+    shell.querySelector('.preview-close').focus();
+  }
+}
+
+function openModal(preview,name,desc,mode){ openPreview(preview,name,desc,mode); }
+
+function activateFirstPreview(){
+  if(isMobilePreview()) return;
+  const page=document.querySelector('.catalog-page.active');
+  const card=page&&page.querySelector('.blog-panel.active [data-preview]:not([data-preview=""]),[data-preview]:not([data-preview=""])');
+  if(card) openPreview(card.dataset.preview,card.dataset.name||'Local preview',card.dataset.desc||'',card.dataset.mode||'prototype');
+}
+
+function trapPreviewFocus(e){
+  if(e.key!=='Tab'||!isMobilePreview())return;
+  const shell=document.getElementById('preview-shell');
+  const focusable=[...shell.querySelectorAll('button,[href],iframe,[tabindex]:not([tabindex="-1"])')];
+  if(!focusable.length)return;
+  const first=focusable[0],last=focusable[focusable.length-1];
+  if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}
+  else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}
 }
 
 function renderCaptureIndex() {
@@ -1312,10 +1381,18 @@ function jumpToBatch(batch) {
   filter('templates', batch);
 }
 
-function closeModal(){
-  document.getElementById('modal').classList.remove('active');
-  document.getElementById('modal-iframe').src='';
+function closePreview(){
+  const shell=document.getElementById('preview-shell');
+  shell.classList.remove('active');
+  shell.setAttribute('aria-hidden','true');
+  shell.setAttribute('aria-modal','false');
+  document.getElementById('preview-iframe').src='';
+  document.body.classList.remove('has-preview-shell','preview-open');
+  document.querySelectorAll('body > :not(#preview-shell)').forEach(node=>node.inert=false);
+  document.querySelectorAll('.is-active').forEach(card=>card.classList.remove('is-active'));
+  if(previewReturnFocus&&previewReturnFocus.focus)previewReturnFocus.focus();
 }
+function closeModal(){ closePreview(); }
 
 document.addEventListener('click',function(e){
   const catalogPageLink=e.target.closest('[data-catalog-page-link]');
@@ -1391,21 +1468,22 @@ document.addEventListener('click',function(e){
     return;
   }
 
-  const card=e.target.closest('.card.has-preview,.ds-card.has-preview');
+  const card=e.target.closest('.card.has-preview,.ds-card.has-preview,.blog-card[data-preview]:not([data-preview=""])');
   if(card&&card.dataset.preview){
-    openModal(card.dataset.preview,card.dataset.name,card.dataset.desc,card.dataset.mode);
+    openPreview(card.dataset.preview,card.dataset.name,card.dataset.desc,card.dataset.mode);
   }
 });
 
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape')closePreview();
+  if(e.key==='Enter'||e.key===' '){
+    const card=e.target.closest('.card.has-preview,.ds-card.has-preview,.blog-card[data-preview]:not([data-preview=""])');
+    if(card){e.preventDefault();openPreview(card.dataset.preview,card.dataset.name,card.dataset.desc,card.dataset.mode);}
+  }
+  trapPreviewFocus(e);
+});
 window.addEventListener('hashchange', () => setCatalogPage(currentCatalogPage(), { updateHash: false, scroll: false }));
 
-render('skills');
-render('templates');
-renderProductUiProjects();
-renderCommercialLaunches();
-renderBlogProjects();
-render('design-systems');
 renderCaptureIndex();
 setCatalogPage(currentCatalogPage(), { updateHash: false, scroll: false });
 </script>

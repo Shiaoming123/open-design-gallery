@@ -1,26 +1,54 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { access, readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const [index, overview, catalogPreview, assetCatalogText] = await Promise.all([
+const [index, overview, catalogPreview, assetCatalogText, thumbnailManifest, captureBuilder, overviewDataText] = await Promise.all([
   readFile(path.join(root, "index.html"), "utf8"),
   readFile(path.join(root, "overview.html"), "utf8"),
   readFile(path.join(root, "catalog", "preview.html"), "utf8"),
   readFile(path.join(root, "catalog", "assets.json"), "utf8"),
+  readFile(path.join(root, "catalog", "preview-thumbnails.js"), "utf8"),
+  readFile(path.join(root, "scripts", "capture-preview-thumbnails.mjs"), "utf8"),
+  readFile(path.join(root, "catalog", "overview-data", "overview-data.js"), "utf8"),
 ]);
 
 assert.equal(index, overview, "index.html and overview.html must stay identical");
-assert.equal((index.match(/<iframe\b/g) ?? []).length, 1, "Gallery must have exactly one selected-item iframe");
-assert.match(index, /<iframe id="modal-iframe"><\/iframe>/, "selected-item iframe must belong to the modal");
+assert.equal((index.match(/<iframe\b/g) ?? []).length, 1, "Gallery must have exactly one live preview iframe");
+assert.match(index, /<aside class="preview-shell" id="preview-shell"[^>]*role="dialog"[^>]*aria-modal="false"/, "the shared preview shell must expose dialog semantics without claiming desktop modality");
+assert.match(index, /<iframe id="preview-iframe" title="Selected local preview"><\/iframe>/, "desktop and mobile must share one preview iframe");
 assert.doesNotMatch(index, /createElement\(['"]iframe['"]\)|data-preview-src|IntersectionObserver/, "cards must not create lazy preview iframes");
-assert.match(index, /function renderInBatches\(/, "large lists must use the shared batch renderer");
-assert.match(index, /requestAnimationFrame\(appendBatch\)/, "later batches must yield to the browser");
+assert.match(index, /const RENDER_LIMIT = 48;/, "each active result surface must cap its rendered cards at 48");
+assert.match(index, /function renderWindow\(/, "all large surfaces must use the shared render window");
+assert.match(index, /items\.slice\(0, RENDER_LIMIT\)/, "rendering must only materialize the first active result window");
+assert.match(index, /grid\.dataset\.total=String\(items\.length\)/, "result counts must retain the full matching total when the DOM window is capped");
 assert.doesNotMatch(index, /grid\.innerHTML\s*=\s*items\.map/, "large lists must not render in one innerHTML assignment");
+assert.match(index, /function staticPreview\(/, "cards must render a static preview or an explicit type poster");
+assert.match(index, /class="static-preview-image"/, "captured previews must use an image instead of a card iframe");
+assert.match(index, /class="static-preview-poster"/, "uncaptured previews must declare a deterministic type poster fallback");
+assert.doesNotMatch(index, /select to preview/i, "cards must not hide their visual content behind selection copy");
+assert.match(index, /if\(e\.key==='Enter'\|\|e\.key===' '\)/, "preview cards must support Enter and Space");
+assert.match(index, /document\.body\.classList\.add\('preview-open'\)/, "mobile dialog must lock background scrolling");
+assert.match(index, /document\.querySelectorAll\('body > :not\(#preview-shell\)'\)/, "mobile dialog must isolate background content");
+assert.match(index, /function trapPreviewFocus\(/, "mobile dialog must trap keyboard focus");
+assert.match(index, /#skills \.card-img \{ aspect-ratio:16\/9; \}/, "skills must use compact directory cards instead of portrait placeholders");
+assert.match(index, /#skills \.card-grid \{ grid-template-columns:repeat\(auto-fit,minmax\(220px,1fr\)\); gap:18px; \}/, "skills must use a denser desktop directory grid");
 assert.match(index, /function isLocalPreview\(/, "modal previews must enforce repository-local paths");
-assert.match(index, /if\(!isLocalPreview\(preview\)\)return;/, "modal must reject external preview URLs");
+assert.match(index, /if\(!isLocalPreview\(preview\)\)return;/, "live preview must reject external preview URLs");
 assert.doesNotMatch(catalogPreview, /<iframe\b/i, "catalog cards must remain link-only");
+assert.match(thumbnailManifest, /"[^"\n]+\.html": "[^"\n]+\.(?:webp|png|jpg)"/, "existing source screenshots must be reused by the static preview manifest");
+assert.match(captureBuilder, /chromium\.launch\(/, "the capture builder must use a real headless browser");
+assert.match(captureBuilder, /process\.env\.OD_CHROMIUM_EXECUTABLE/, "capture must support an explicit compatible browser executable");
+assert.match(captureBuilder, /process\.env\.OD_SHARP_MODULE/, "WebP conversion must accept an explicit Sharp module");
+assert.match(captureBuilder, /sharp\(capture\)\.webp\(/, "Playwright PNG captures must be converted to WebP by Sharp");
+
+const thumbnailMap = JSON.parse(thumbnailManifest.match(/=\s*(\{[\s\S]*\});/)[1]);
+const publishedPreviews = [...new Set([...overviewDataText.matchAll(/"preview"\s*:\s*"([^"]+)"/g)].map(match => match[1]))];
+for (const preview of publishedPreviews) {
+  assert.ok(thumbnailMap[preview], `${preview}: local preview must have a static thumbnail`);
+  await access(path.join(root, thumbnailMap[preview]));
+}
 
 const externalTargets = index.match(/target="_blank"/g) ?? [];
 const safeExternalTargets = index.match(/target="_blank" rel="noreferrer"/g) ?? [];
@@ -37,4 +65,4 @@ for (const asset of catalog.assets ?? []) {
   }
 }
 
-console.log(`Gallery surface check passed: ${catalog.assets.length} assets, one selected-item iframe, batched lists.`);
+console.log(`Gallery surface check passed: ${catalog.assets.length} assets, one live iframe, 48-card active windows.`);
