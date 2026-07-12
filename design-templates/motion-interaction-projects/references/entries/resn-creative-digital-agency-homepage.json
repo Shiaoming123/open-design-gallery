@@ -1,0 +1,87 @@
+{
+  "id": "resn-creative-digital-agency-homepage",
+  "category": "motion-studio-homepage",
+  "project": {
+    "title": "Resn - Creative Digital Agency",
+    "maker": "Resn",
+    "url": "https://resn.co.nz/",
+    "medium": "website",
+    "format": "loader-led interactive agency homepage"
+  },
+  "why": "A compact reference for the older but still useful immersive-agency shell: black-screen loader, progress bar, JS bootstrapping, and a positioning stack that explicitly spans motion, audio, 3D, and interactive graphics.",
+  "compositions": [
+    {
+      "type": "loader-sequence",
+      "title": "Progress bar landing shell",
+      "url": "https://resn.co.nz/",
+      "study": "The first visible layer is a full-screen loader with a dedicated progress bar before the runtime is attached.",
+      "reuse": "Use when the experience benefits from a deliberate prelude instead of jumping straight into content."
+    },
+    {
+      "type": "stage-shell",
+      "title": "Black-canvas base layer",
+      "url": "https://resn.co.nz/",
+      "study": "The shell sets a black background and defers the interactive experience to a JS loader rather than laying out a normal DOM-first homepage.",
+      "reuse": "Use for immersive portfolios or studio sites where motion direction should own the first impression."
+    }
+  ],
+  "assets": [
+    {
+      "type": "video-loop",
+      "role": "immersive media layer",
+      "notes": "The page metadata and shell language point to a media system that mixes video with interactive graphics.",
+      "reuse": "Plan media as a native part of the experience instead of one disconnected hero clip."
+    },
+    {
+      "type": "ui-overlay",
+      "role": "loader and compatibility messaging",
+      "notes": "Progress bars and browser-support messaging are treated as first-class visual layers.",
+      "reuse": "Keep boot, wait, and failure states visually aligned with the main stage."
+    }
+  ],
+  "motion": [
+    {
+      "type": "loader-handoff",
+      "title": "Progress-led boot sequence",
+      "notes": "The shell exposes `loader__` elements plus a foreground progress bar to pace entry into the experience.",
+      "fallback": "Old-browser messaging exists, but reduced-motion behavior was not visible from static inspection."
+    },
+    {
+      "type": "scroll-chapter",
+      "title": "Runtime-owned motion narrative",
+      "notes": "Because RequireJS loads the actual experience, the motion system likely owns its own chaptering rather than relying on default document scroll.",
+      "fallback": "Needs live browser review before treating the exact chapter model as reusable guidance."
+    }
+  ],
+  "interactions": [
+    {
+      "type": "menu-overlay",
+      "title": "Boot-gated interaction model",
+      "url": "https://resn.co.nz/",
+      "study": "The interactive experience is explicitly gated behind the runtime loader instead of exposing plain content immediately.",
+      "reuse": "Use when navigation and interaction should feel like part of one audiovisual world."
+    },
+    {
+      "type": "pointer-stage",
+      "title": "Capability-checked stage entry",
+      "url": "https://resn.co.nz/",
+      "study": "The shell ships a compatibility branch for old browsers and then hands off to JS, which makes capability checks part of the interaction contract.",
+      "reuse": "Treat capability gates as a visible part of immersive design rather than a silent crash path."
+    }
+  ],
+  "implementation": {
+    "format": "black-background loader shell with RequireJS runtime boot",
+    "complexity": "high",
+    "notes": "Static inspection confirmed full-screen loader elements, progress bars, compatibility messaging, and a runtime-loaded interactive layer; deeper scene behavior still needs backfill."
+  },
+  "capture": {
+    "date": "2026-06-29",
+    "sourceLinks": [
+      "https://resn.co.nz/"
+    ],
+    "attribution": "Resn",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "single-page-lead"
+  },
+  "status": "backfill-needed"
+}

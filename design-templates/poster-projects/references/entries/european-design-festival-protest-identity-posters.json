@@ -1,0 +1,72 @@
+{
+  "id": "european-design-festival-protest-identity-posters",
+  "category": "festival-poster-system",
+  "project": {
+    "title": "European Design Festival",
+    "maker": "Studio Dumbar/DEPT®",
+    "url": "https://studiodumbar.com/work/european-design-festival",
+    "medium": "poster series",
+    "format": "Festival identity system spanning posters, banners, and flags"
+  },
+  "why": "A strong poster-system reference for translating civic urgency into event graphics: the work uses protest rhetoric, hand-drawn declarations, and European-flag fragments to make a design festival feel argumentative rather than merely celebratory.",
+  "compositions": [
+    {
+      "type": "slogan-field",
+      "title": "Declarative slogan posters",
+      "url": "https://studiodumbar.com/work/european-design-festival",
+      "study": "Statements such as 'Reset to default settings,' 'Make bold statements,' and 'Who draws the line?' are treated as the image itself, giving each poster a blunt verbal hook before any secondary explanation appears.",
+      "reuse": "Let a short declarative line occupy the hero position when a poster needs immediate ideological clarity and can rely on typography more than illustration."
+    },
+    {
+      "type": "flag-fragment-layering",
+      "title": "European-flag fragments as modular fields",
+      "url": "https://studiodumbar.com/work/european-design-festival",
+      "study": "The graphics borrow parts of European flags instead of quoting one nation wholesale, turning familiar stripes and color blocks into a shared but unstable political backdrop.",
+      "reuse": "Sample recognizable civic symbols in fragments when a poster should feel public and collective without collapsing into one literal emblem."
+    },
+    {
+      "type": "march-poster-grid",
+      "title": "Cross-format protest system",
+      "url": "https://studiodumbar.com/work/european-design-festival",
+      "study": "The same rough lettering and confrontational statements carry across posters, banners, and flags, so the identity reads like a coordinated demonstration rather than isolated layouts.",
+      "reuse": "Build one loud graphic grammar that can survive format changes when an event identity needs street-level cohesion across print surfaces."
+    }
+  ],
+  "assets": [
+    {
+      "type": "hand-drawn-lettering",
+      "role": "primary rhetorical image",
+      "notes": "Bold hand-drawn lettering makes the posters feel urgent and human instead of polished or institutional.",
+      "reuse": "Use imperfect lettering when a poster should signal debate, dissent, or participation rather than corporate neutrality."
+    },
+    {
+      "type": "flag-fragment-graphics",
+      "role": "shared political color and shape system",
+      "notes": "European-flag elements create a modular palette and geometry that ties the festival to a continental conversation without relying on one badge-like logo lockup.",
+      "reuse": "Base poster color systems on extracted civic fragments when an event spans multiple countries or publics."
+    },
+    {
+      "type": "manifesto-copy",
+      "role": "double-meaning content layer",
+      "notes": "The slogans borrow professional design terminology while also referring to the financial crisis, giving the posters both insider wit and public relevance.",
+      "reuse": "Write copy that carries two readable meanings when a poster must speak to a field audience and a broader social context at once."
+    }
+  ],
+  "motion": [],
+  "interactions": [],
+  "implementation": {
+    "format": "Poster-led event identity with supporting banner and flag applications",
+    "complexity": "medium",
+    "notes": "The official Studio Dumbar case study provides enough evidence to keep this as an accepted poster reference: event context, strategic framing, explicit visual ingredients, and multiple poster applications are all documented on the source page."
+  },
+  "capture": {
+    "date": "2026-07-04",
+    "sourceLinks": [
+      "https://studiodumbar.com/work/european-design-festival"
+    ],
+    "attribution": "Studio Dumbar/DEPT® for the European Design Festival",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "artifact-study"
+  },
+  "status": "accepted"
+}

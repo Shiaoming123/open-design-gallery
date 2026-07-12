@@ -1,0 +1,126 @@
+{
+  "id": "cuberto-hello-digital-solutions-homepage",
+  "category": "interactive-showreel-homepage",
+  "project": {
+    "title": "Cuberto | We create digital solutions",
+    "maker": "Cuberto",
+    "url": "https://hello.cuberto.com/",
+    "medium": "website",
+    "format": "HTML-first motion-heavy agency showreel"
+  },
+  "why": "A high-signal motion reference that keeps its craft in the DOM: custom cursor inversion, animated loader, menu overlay, reel sections, postcard flips, CTA ripples, and repeated autoplay media all work together as one branded interaction system.",
+  "compositions": [
+    {
+      "type": "reel-wall",
+      "title": "Brand and capability reels",
+      "url": "https://hello.cuberto.com/",
+      "study": "Repeated reel sections turn logos, services, and social links into kinetic strips rather than static logo farms.",
+      "reuse": "Use when repeated content should feel alive without becoming decorative noise."
+    },
+    {
+      "type": "card-stack",
+      "title": "Postcard service stack",
+      "url": "https://hello.cuberto.com/",
+      "study": "Service content is structured as front/back postcard cards so motion can reveal more depth without leaving the page.",
+      "reuse": "Use when hover or tap should expose a second information layer inside the same section."
+    },
+    {
+      "type": "loader-sequence",
+      "title": "Typographic loader overlay",
+      "url": "https://hello.cuberto.com/",
+      "study": "The loader is treated as a branded scene with oversized typography instead of a generic spinner.",
+      "reuse": "Make wait states part of the visual system when the site sells craft."
+    }
+  ],
+  "assets": [
+    {
+      "type": "video-loop",
+      "role": "section-level motion texture",
+      "notes": "The page uses many autoplay, muted video loops across achievements, icon moments, and footer background.",
+      "reuse": "Break video into small narrative loops instead of relying on one massive hero clip."
+    },
+    {
+      "type": "custom-font",
+      "role": "headline contrast system",
+      "notes": "Matter and Gallery Modern create contrast between operational copy and expressive headlines.",
+      "reuse": "Use two-role typography systems when motion design needs both clarity and theater."
+    },
+    {
+      "type": "showcase-media",
+      "role": "card fronts, reels, and footer stage",
+      "notes": "Images and video are attached to multiple modules rather than isolated in one showcase section.",
+      "reuse": "Distribute media across the scroll so every chapter has its own movement vocabulary."
+    }
+  ],
+  "motion": [
+    {
+      "type": "loader-handoff",
+      "title": "Word-by-word loader reveal",
+      "notes": "The loader overlay uses oversized words, percent progress, and fill transitions to pace entry into the site.",
+      "fallback": "Reduced-motion handling was not verified, so keep this as inspiration-only until a live follow-up confirms it."
+    },
+    {
+      "type": "menu-transition",
+      "title": "Full-screen menu transition",
+      "notes": "Navigation expands into a fixed overlay instead of acting like a simple dropdown or topbar.",
+      "fallback": "When motion is reduced, the overlay should still preserve direct access to every destination."
+    },
+    {
+      "type": "autoplay-media-loop",
+      "title": "Micro-looped media throughout the scroll",
+      "notes": "Video loops are embedded in multiple sections so motion energy stays distributed instead of front-loaded.",
+      "fallback": "Each loop should degrade to a clear poster frame or still image."
+    },
+    {
+      "type": "cursor-inversion",
+      "title": "Cursor polarity shifts",
+      "notes": "Multiple sections switch to an inverse cursor mode to turn the pointer into part of the visual language.",
+      "fallback": "Pointer styling should remain optional for touch devices and non-pointer environments."
+    }
+  ],
+  "interactions": [
+    {
+      "type": "cursor-follow",
+      "title": "Inverse cursor zones",
+      "url": "https://hello.cuberto.com/",
+      "study": "Sections explicitly declare inverse cursor behavior, so the pointer acts like a scene element rather than a neutral browser arrow.",
+      "reuse": "Use cursor styling sparingly to mark interaction mode shifts, not every hover target."
+    },
+    {
+      "type": "menu-overlay",
+      "title": "Cinematic navigation drawer",
+      "url": "https://hello.cuberto.com/",
+      "study": "The nav toggle opens a full-screen menu with its own layout and reveal rhythm.",
+      "reuse": "Use when the menu should feel like entering another chapter instead of covering the page with a utility tray."
+    },
+    {
+      "type": "card-flip",
+      "title": "Postcard front/back reveal",
+      "url": "https://hello.cuberto.com/",
+      "study": "Cards present a media front and a text-heavy back, which makes hover or tap reveal part of the content structure.",
+      "reuse": "Use for service grids where a single static card would either feel too shallow or too dense."
+    },
+    {
+      "type": "hover-reveal",
+      "title": "CTA ripple behavior",
+      "url": "https://hello.cuberto.com/",
+      "study": "Buttons use border, ripple, and text-offset layers so basic calls to action inherit the same motion language as the rest of the site.",
+      "reuse": "Make CTA motion consistent with the larger stage vocabulary instead of introducing one-off button effects."
+    }
+  ],
+  "implementation": {
+    "format": "HTML-first scroll experience with custom cursor, video loops, and overlay navigation",
+    "complexity": "high",
+    "notes": "Static inspection exposed a rich DOM structure with loader, navbar overlay, card stacks, repeated reels, cursor-mode markers, and many autoplay media loops, which is enough to treat this as an accepted seed reference."
+  },
+  "capture": {
+    "date": "2026-06-29",
+    "sourceLinks": [
+      "https://hello.cuberto.com/"
+    ],
+    "attribution": "Cuberto",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "single-page-lead"
+  },
+  "status": "accepted"
+}

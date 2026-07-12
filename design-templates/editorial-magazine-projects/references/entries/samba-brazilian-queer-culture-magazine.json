@@ -1,0 +1,85 @@
+{
+  "id": "samba-brazilian-queer-culture-magazine",
+  "category": "photo-led-cultural-magazine",
+  "project": {
+    "title": "Samba",
+    "maker": "PORTO ROCHA for editor Juliano Corbetta",
+    "url": "https://www.portorocha.com/samba",
+    "medium": "editorial-magazine",
+    "format": "Biannual publication celebrating Brazilian queer culture through fashion, portraiture, and long-form photographic stories"
+  },
+  "why": "A strong editorial-system reference because it balances raw community-driven photography with a tightly controlled cover and index logic. The project shows how one magazine can feel loud, intimate, and collectible at once by pairing a shelf-grabbing wraparound identity with a mostly text-free interior rhythm.",
+  "compositions": [
+    {
+      "type": "wraparound-spine-cover",
+      "title": "Vertical logo repeated across every edge",
+      "url": "https://www.portorocha.com/samba",
+      "study": "The logo is stacked vertically and allowed to wrap around the cover edges so the issue keeps announcing itself from the front, back, and spine rather than relying on one flat cover lockup.",
+      "reuse": "Repeat one compact identity gesture around the object when a magazine needs strong shelf presence from multiple viewing angles."
+    },
+    {
+      "type": "dual-cover-identity",
+      "title": "Opposing front-and-back portraits as one statement",
+      "url": "https://www.portorocha.com/samba",
+      "study": "The publication uses two contrasting cover portraits of the same subject to foreground duality before the reader opens the issue, turning the object itself into an argument about identity.",
+      "reuse": "Use paired covers when an editorial project benefits from presenting two emotional registers without choosing one definitive hero image."
+    },
+    {
+      "type": "directory-index-bridge",
+      "title": "Structured index interrupts the image flow",
+      "url": "https://www.portorocha.com/samba",
+      "study": "A strict index inspired by directory aesthetics cuts through the full-bleed photography, giving readers one moment of inventory and crediting before the issue returns to looser visual storytelling.",
+      "reuse": "Insert one sharply structured directory spread when a photo-heavy issue needs a deliberate reset point and contributor map."
+    },
+    {
+      "type": "full-bleed-photo-rhythm",
+      "title": "Mostly text-free photographic sequencing",
+      "url": "https://www.portorocha.com/samba",
+      "study": "Large uninterrupted image runs create a continuous emotional pace, with text held back so the magazine reads more like a sequence of encounters than a standard article package.",
+      "reuse": "Let photography carry the pacing when the editorial goal is immersion and community portraiture rather than constant explanatory framing."
+    }
+  ],
+  "assets": [
+    {
+      "type": "condensed-cover-wordmark",
+      "role": "Shelf-level identity anchor",
+      "notes": "A robust condensed wordmark gives the issue urgency and keeps the title visible even when the object is rotated or stacked.",
+      "reuse": "Choose a dense display mark when a magazine needs identity force without adding extra cover furniture."
+    },
+    {
+      "type": "hero-color-field",
+      "role": "Issue-level emotional signal",
+      "notes": "A saturated yellow cover field helps the issue read as loud and immediate while still leaving room for portraiture and typography.",
+      "reuse": "Use one uncompromising hero color when a publication needs instant shelf recognition."
+    },
+    {
+      "type": "paired-cover-photography",
+      "role": "Duality and narrative tension",
+      "notes": "Front and back cover portraits of the same subject create a two-sided identity device that echoes the issue's broader interest in contradiction and self-definition.",
+      "reuse": "Build a cover pair rather than a single hero when the subject matter benefits from tension between personas or moods."
+    },
+    {
+      "type": "directory-index-typography",
+      "role": "Contributor map and structural pause",
+      "notes": "The index uses a directory-like typographic voice to catalogue contributors and restore order after stretches of image-led sequencing.",
+      "reuse": "Borrow directory or registry cues when an editorial object needs a functional checkpoint without switching to a generic contents page."
+    }
+  ],
+  "motion": [],
+  "interactions": [],
+  "implementation": {
+    "format": "Biannual photo-led magazine with wraparound identity, dual covers, and a structured index interrupting full-bleed editorial sequences",
+    "complexity": "high",
+    "notes": "The official PORTO ROCHA case study provides enough evidence to keep this as an accepted editorial reference: cover construction, typographic treatment, index strategy, photographic pacing, contributor context, and project credits are all explicit."
+  },
+  "capture": {
+    "date": "2026-07-05",
+    "sourceLinks": [
+      "https://www.portorocha.com/samba"
+    ],
+    "attribution": "PORTO ROCHA for editor and creative director Juliano Corbetta; design by Leo Porto and Felipe Rocha; cover photography by Philippe Vogelenzang",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "artifact-study"
+  },
+  "status": "accepted"
+}

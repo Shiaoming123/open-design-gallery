@@ -1,0 +1,87 @@
+{
+  "id": "active-theory-creative-digital-experiences",
+  "category": "immersive-agency-site",
+  "project": {
+    "title": "Active Theory · Creative Digital Experiences",
+    "maker": "Active Theory",
+    "url": "https://activetheory.net/",
+    "medium": "website",
+    "format": "full-screen WebGL-first studio homepage"
+  },
+  "why": "A strong reference for turning a studio homepage into one immersive stage: the shell is built around a full-viewport scene, sparse copy, custom typography, and deliberate loader-to-experience boot behavior.",
+  "compositions": [
+    {
+      "type": "stage-shell",
+      "title": "Single viewport scene shell",
+      "url": "https://activetheory.net/",
+      "study": "The page is organized around one `#Stage` container that claims the full viewport instead of behaving like a normal document scroll.",
+      "reuse": "Use when a motion-led site should feel like entering one scene rather than browsing stacked sections."
+    },
+    {
+      "type": "loader-sequence",
+      "title": "Loader before scene boot",
+      "url": "https://activetheory.net/",
+      "study": "The HTML boot path preloads the main app script and treats the scene as a runtime that must be ready before the experience starts.",
+      "reuse": "Use when cinematic pacing matters more than instant content dump, but keep fallback messaging visible."
+    }
+  ],
+  "assets": [
+    {
+      "type": "custom-font",
+      "role": "stage typography",
+      "notes": "The shell loads multiple weights of NB Architekt before the main app boot sequence.",
+      "reuse": "Treat typography as part of the stage system, not a last-minute decorative layer."
+    },
+    {
+      "type": "3d-scene",
+      "role": "primary visual field",
+      "notes": "The viewport is reserved for a JS-driven stage rather than a static hero image.",
+      "reuse": "Plan scene ownership, boot timing, and mobile fallbacks before building visual motion."
+    }
+  ],
+  "motion": [
+    {
+      "type": "loader-handoff",
+      "title": "Boot into stage",
+      "notes": "The shell prioritizes an app preload and transitions into the runtime scene instead of rendering a static homepage first.",
+      "fallback": "When JS is unavailable, the page only exposes a direct enable-JS message, so this entry needs a later fallback review."
+    },
+    {
+      "type": "scroll-chapter",
+      "title": "Scene-led chaptering",
+      "notes": "The static shell hints at a stage that owns the viewport and likely swaps chapters inside one continuous scene.",
+      "fallback": "Not verified live; backfill with a browser pass before reusing the chapter model directly."
+    }
+  ],
+  "interactions": [
+    {
+      "type": "pointer-stage",
+      "title": "Pointer-safe scene container",
+      "url": "https://activetheory.net/",
+      "study": "The shell disables user selection, suppresses default touch behavior, and routes interaction through the stage container.",
+      "reuse": "Use when the pointer should manipulate or explore the scene instead of selecting the page."
+    },
+    {
+      "type": "hover-reveal",
+      "title": "Runtime-owned interaction model",
+      "url": "https://activetheory.net/",
+      "study": "The page is architected as a JS application with its own unsupported-browser branch and iOS/mobile handling.",
+      "reuse": "Treat device branches and capability checks as part of the interaction design, not only engineering cleanup."
+    }
+  ],
+  "implementation": {
+    "format": "runtime-loaded full-screen stage shell",
+    "complexity": "high",
+    "notes": "Static inspection showed a single stage container, touch suppression, custom font loading, and explicit unsupported-browser handling; the actual scene choreography still needs live browser backfill."
+  },
+  "capture": {
+    "date": "2026-06-29",
+    "sourceLinks": [
+      "https://activetheory.net/"
+    ],
+    "attribution": "Active Theory",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "single-page-lead"
+  },
+  "status": "backfill-needed"
+}

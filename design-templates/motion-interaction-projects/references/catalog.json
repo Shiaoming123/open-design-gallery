@@ -1,30 +1,20 @@
 {
-  "schemaVersion": "od-visual-case-library/v1",
-  "captured": "2026-06-27",
-  "description": "Project-level references for frontend visual motion, scroll choreography, pointer interaction, morphing layouts, transitions, and kinetic typography.",
+  "schemaVersion": "od-motion-interaction-projects/v1",
+  "captured": "2026-06-30",
+  "description": "A source-linked case library for immersive frontend motion and interaction references. Entries capture stage composition, motion systems, interaction rules, media strategy, and fallback notes without copying external assets.",
   "indexes": {
-    "entryTypes": [
-      "scroll-interaction",
-      "cursor-interaction",
-      "morphing-layout",
-      "kinetic-typography"
-    ],
-    "compositionTypes": [
-      "motion-sequence",
-      "state-transition",
-      "interaction-loop",
-      "fallback-state"
-    ],
-    "assetTypes": [
-      "timeline",
-      "gesture-map",
-      "motion-token",
-      "fallback-frame"
-    ]
+    "views": ["entries", "compositions", "assets", "motion", "interactions"],
+    "compositionTypes": ["stage-shell", "loader-sequence", "scroll-chapter", "reel-wall", "card-stack", "timeline-ribbon"],
+    "assetTypes": ["video-loop", "3d-scene", "custom-font", "showcase-media", "ui-overlay"],
+    "motionTypes": ["loader-handoff", "scroll-chapter", "autoplay-media-loop", "cursor-inversion", "menu-transition"],
+    "interactionTypes": ["pointer-stage", "cursor-follow", "menu-overlay", "card-flip", "hover-reveal", "horizontal-scroll", "scratch-reveal", "stepper-control", "sound-toggle", "map-explore"]
   },
   "entryFiles": [
-    "entries/scroll-and-pointer-motion-system.json",
-    "entries/codrops-gsap-creative-hub-patterns.json",
-    "entries/codrops-kinetic-typography-page-transition.json"
+    "entries/active-theory-creative-digital-experiences.json",
+    "entries/resn-creative-digital-agency-homepage.json",
+    "entries/cuberto-hello-digital-solutions-homepage.json",
+    "entries/kode-immersive-tech-enabled-creativity-homepage.json",
+    "entries/unseen-studio-year-in-review-2025.json",
+    "entries/david-whyte-companion-portal-experience.json"
   ]
 }

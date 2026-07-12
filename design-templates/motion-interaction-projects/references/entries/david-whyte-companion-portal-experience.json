@@ -1,0 +1,113 @@
+{
+  "id": "david-whyte-companion-portal-experience",
+  "category": "immersive-literary-portal",
+  "project": {
+    "title": "Experience & advantages - David Whyte",
+    "maker": "David Whyte",
+    "url": "https://davidwhyte.com/experience/",
+    "medium": "website",
+    "format": "immersive companion-portal introduction with canvas, audio loops, and map-driven wayfinding"
+  },
+  "why": "A distinctive reference for bringing editorial, audio, and membership-product storytelling into one immersive entry flow: the page uses watercolor-style stage media, sound controls, a scroll-to-explore prompt, and map-backed navigation to make a content archive feel like an explorable world.",
+  "compositions": [
+    {
+      "type": "loader-sequence",
+      "title": "Dedicated experience loader",
+      "url": "https://davidwhyte.com/experience/",
+      "study": "The page has a specific LoaderExperience component before the exploratory stage begins, which separates the portal from the surrounding marketing site.",
+      "reuse": "Use a dedicated loader when a special-mode experience should feel distinct from the rest of the site."
+    },
+    {
+      "type": "stage-shell",
+      "title": "Canvas-led portal shell",
+      "url": "https://davidwhyte.com/experience/",
+      "study": "A shared canvas, hidden video textures, audio loops, and stage controls frame the portal as one continuous environment rather than a collection of article cards.",
+      "reuse": "Treat media, sound, and navigation as one shell when the goal is to create a world instead of a page."
+    },
+    {
+      "type": "scroll-chapter",
+      "title": "Exploration steps into portal features",
+      "url": "https://davidwhyte.com/experience/",
+      "study": "The experience introduces archive, map, poetry, and membership benefits as staged reveals with their own copy and CTA layers.",
+      "reuse": "Use progressive feature reveals when a content-heavy platform would feel too abstract as a static benefits list."
+    }
+  ],
+  "assets": [
+    {
+      "type": "video-loop",
+      "role": "base and over texture channels",
+      "notes": "The page preloads base and over video textures for the experience stage rather than relying on one visible hero clip.",
+      "reuse": "Layer quiet texture channels behind a canvas stage when the atmosphere matters as much as the content."
+    },
+    {
+      "type": "ui-overlay",
+      "role": "loader, scroll cue, and sound controls",
+      "notes": "Loader, scroll prompt, and sound state are surfaced as explicit stage overlays, not hidden implementation details.",
+      "reuse": "Make media controls visible when sound and pacing are core to the story."
+    },
+    {
+      "type": "showcase-media",
+      "role": "portal feature reveals across archive, maps, and membership",
+      "notes": "The experience combines portal copy, CTAs, audio, and supporting visuals to present multiple content surfaces inside one guided journey.",
+      "reuse": "Bundle feature explanation with sensory cues when a platform's value is experiential rather than purely functional."
+    }
+  ],
+  "motion": [
+    {
+      "type": "loader-handoff",
+      "title": "Portal boot before exploration",
+      "notes": "The experience isolates its own loader and then hands off into a dedicated scroll-to-explore stage.",
+      "fallback": "Keep the portal discoverable through a plain content path if the animated stage cannot boot."
+    },
+    {
+      "type": "scroll-chapter",
+      "title": "Guided exploration through portal benefits",
+      "notes": "A Scroll to explore control introduces a staged journey through library, map, and membership features instead of a static landing page.",
+      "fallback": "Exploration prompts should degrade to visible section links or buttons when animation is reduced."
+    },
+    {
+      "type": "autoplay-media-loop",
+      "title": "Ambient media plus looped soundscape",
+      "notes": "The experience coordinates hidden video textures with several looped audio tracks to create atmosphere around the portal.",
+      "fallback": "Sound must remain opt-in and the story should still read without autoplay media."
+    }
+  ],
+  "interactions": [
+    {
+      "type": "sound-toggle",
+      "title": "Persistent sound state control",
+      "url": "https://davidwhyte.com/experience/",
+      "study": "The stage exposes an explicit sound switch instead of assuming visitors want audio by default.",
+      "reuse": "Use a persistent sound affordance whenever audio materially shapes the experience."
+    },
+    {
+      "type": "map-explore",
+      "title": "Map-backed literary navigation",
+      "url": "https://davidwhyte.com/experience/",
+      "study": "Mapbox dependencies and copy about exploring literary landscapes position map navigation as a content surface, not a side utility.",
+      "reuse": "Use when place is part of the story and the map should behave like narrative navigation rather than a locator widget."
+    },
+    {
+      "type": "pointer-stage",
+      "title": "Canvas-first exploration shell",
+      "url": "https://davidwhyte.com/experience/",
+      "study": "The experience relies on a dedicated canvas, hidden media textures, and stage-layer controls to organize the interaction model.",
+      "reuse": "Keep the interaction shell explicit when the page behaves more like an environment than a document."
+    }
+  ],
+  "implementation": {
+    "format": "WordPress experience page with custom loader, canvas stage, audio loops, and map-backed portal navigation",
+    "complexity": "high",
+    "notes": "Static inspection confirmed a dedicated loader, experience canvas, hidden video textures, multiple audio loops, Scroll to explore control, sound toggle, and mapbox-backed portal navigation."
+  },
+  "capture": {
+    "date": "2026-06-30",
+    "sourceLinks": [
+      "https://davidwhyte.com/experience/"
+    ],
+    "attribution": "David Whyte",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "single-page-lead"
+  },
+  "status": "accepted"
+}

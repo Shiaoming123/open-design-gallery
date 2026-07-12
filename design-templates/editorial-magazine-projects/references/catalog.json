@@ -1,30 +1,18 @@
 {
-  "schemaVersion": "od-visual-case-library/v1",
-  "captured": "2026-06-27",
-  "description": "Project-level references for magazine covers, editorial spreads, long-form visual essays, and publication systems.",
+  "schemaVersion": "od-editorial-magazine-projects/v1",
+  "captured": "2026-07-11",
+  "description": "A source-linked case library for magazine redesigns, editorial spreads, publication systems, and visual essays. Entries capture cover logic, reading rhythm, type and image systems, and reusable editorial principles without copying external publication assets.",
   "indexes": {
-    "entryTypes": [
-      "magazine-cover",
-      "editorial-spread",
-      "visual-essay",
-      "publication-system"
-    ],
-    "compositionTypes": [
-      "cover-hierarchy",
-      "spread-grid",
-      "caption-system",
-      "image-sequence"
-    ],
-    "assetTypes": [
-      "masthead",
-      "folio",
-      "pull-quote",
-      "photo-essay"
-    ]
+    "views": ["entries", "compositions", "assets", "motion", "interactions"],
+    "compositionTypes": ["corner-lockup-cover", "contents-taxonomy", "feature-opener-spread", "section-color-coding", "wraparound-spine-cover", "dual-cover-identity", "directory-index-bridge", "full-bleed-photo-rhythm", "portable-half-size-format", "overprinted-collage-spread", "mid-book-frontmatter-reversal", "speaker-monogram-divider", "manifesto-reference-cover", "newsprint-monochrome-rhythm", "concrete-poetry-headline-system", "rule-breaking-image-placement"],
+    "assetTypes": ["configurable-logo", "type-family-system", "section-paper-coding", "editorial-illustration-direction", "condensed-cover-wordmark", "hero-color-field", "paired-cover-photography", "directory-index-typography", "fluoro-overprint-layer", "abstract-speaker-monograms", "foil-production-finish", "newsprint-monochrome-system", "concrete-poetry-title-settings", "manifesto-reference-letterforms"],
+    "motionTypes": ["digital-issue-transition"],
+    "interactionTypes": ["reading-mode-navigation"]
   },
   "entryFiles": [
-    "entries/editorial-spread-reading-rhythm.json",
-    "entries/plastikcomb-print-collage-spreads.json",
-    "entries/pudding-colorism-visual-essay.json"
+    "entries/the-baffler-editorial-redesign.json",
+    "entries/samba-brazilian-queer-culture-magazine.json",
+    "entries/circular-22-typographic-circle-publication-redesign.json",
+    "entries/brooklyn-rail-anthropophagy-issue-editorial-design.json"
   ]
 }

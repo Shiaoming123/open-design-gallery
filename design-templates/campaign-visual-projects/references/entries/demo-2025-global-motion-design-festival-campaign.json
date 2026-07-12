@@ -1,0 +1,143 @@
+{
+  "id": "demo-2025-global-motion-design-festival-campaign",
+  "category": "motion-design-festival-campaign-visual-system",
+  "project": {
+    "title": "DEMO 2025",
+    "maker": "Studio Dumbar/DEPT® with Global, blowUP media, adtrackmedia, StandardVision, VLGE, and Macron",
+    "url": "https://studiodumbar.com/work/demo-2025",
+    "medium": "campaign-visual-system",
+    "format": "Global motion-design festival identity spanning public screens, an interactive digital universe, sound, and wearable merchandise"
+  },
+  "why": "A strong campaign-visual reference because DEMO 2025 treats a festival identity as a distributed promotional system rather than a single event poster or film. Studio Dumbar/DEPT® carries one visual grammar from a distorted globe and blue RGB-cycle color into bespoke public-screen dimensions, a ten-world digital extension, a sonic library, and a limited-edition jersey. The evidence is useful for studying how a motion-first campaign stays recognizable while scaling across cities, screens, web, and physical merchandise.",
+  "artDirection": [
+    {
+      "type": "distorted-globe-motif",
+      "title": "A playful distorted globe signals international expansion",
+      "url": "https://studiodumbar.com/work/demo-2025",
+      "study": "The 2025 identity introduces a distorted, playful globe as a key graphic motif, turning the festival's worldwide footprint into an expressive shape rather than a literal map or list of cities.",
+      "reuse": "Use one flexible geographic or spatial metaphor when an event grows across regions and needs scale to be visible without adding geographic clutter to every layout."
+    },
+    {
+      "type": "rgb-cycle-campaign-color",
+      "title": "A yearly color shift makes the identity feel alive",
+      "url": "https://studiodumbar.com/work/demo-2025",
+      "study": "The DEMO logo and typography remain stable while the campaign color moves through the RGB sequence: red in 2019, green in 2022, and blue in 2025.",
+      "reuse": "Keep the recognition-bearing structure fixed and reserve one high-impact variable, such as color, for edition changes that need to feel new without resetting the identity."
+    },
+    {
+      "type": "motion-first-identity",
+      "title": "Typography stays central while motion supplies the energy",
+      "url": "https://www.deptagency.com/case/motion-design-on-a-global-stage/",
+      "study": "The case positions the DEMO logo and typographic system at the center of a motion-first identity, allowing public-screen artworks, digital worlds, and sound to expand the brand without replacing its core marks.",
+      "reuse": "For motion-led campaigns, define a typographic anchor that remains legible in still frames, short loops, and interactive extensions."
+    },
+    {
+      "type": "screen-native-spectacle",
+      "title": "Bespoke screen proportions become part of the art direction",
+      "url": "https://www.deptagency.com/case/motion-design-on-a-global-stage/",
+      "study": "The selected artworks were made for bespoke public-screen dimensions across global hubs, so the campaign treats unusual display formats as a creative constraint instead of forcing one master crop everywhere.",
+      "reuse": "Design a format family around the actual media surfaces when a campaign will live in public space; let the crop and timing adapt while the visual rules stay shared."
+    }
+  ],
+  "channelFormats": [
+    {
+      "type": "public-screen-gallery",
+      "title": "Global digital out-of-home takeover",
+      "notes": "On January 30, 2025, public screens in more than a dozen cities across seven countries became immersive galleries, with 600 selected works shown across 250 screens.",
+      "cropSystem": "Treat each screen ratio as a composition surface and author artwork to the bespoke dimensions rather than shrinking a single horizontal master.",
+      "reuse": "For public media campaigns, build a shared identity kit plus screen-specific motion compositions so scale and context become part of the message."
+    },
+    {
+      "type": "interactive-digital-universe",
+      "title": "DEMOverse extends the campaign beyond the physical event",
+      "notes": "The digital extension contains ten thematic 3D worlds populated by wandering DEMO letters, giving remote audiences a navigable version of the motion collection.",
+      "cropSystem": "Use the same letterforms and motif in a spatial environment, but allow depth, movement, and discovery to replace the fixed read of an outdoor screen.",
+      "reuse": "When a campaign has a strong motion archive, a lightweight interactive world can turn passive viewing into a browsable afterlife without inventing a second identity."
+    },
+    {
+      "type": "festival-merchandise",
+      "title": "The motion identity becomes wearable",
+      "notes": "A limited-edition DEMO 2025 jersey created with Macron translates the festival's motion design language into a physical promotional object.",
+      "cropSystem": "Reduce the motion grammar to a compact arrangement that can survive textile scale, print limitations, and a single front/back read.",
+      "reuse": "Use merchandise as a proof point for whether a dynamic campaign has a memorable static residue, not only as an afterthought to the screen work."
+    }
+  ],
+  "assets": [
+    {
+      "type": "distorted-globe-graphic",
+      "role": "Global-scale motif",
+      "notes": "The playful globe gives the expanded festival footprint a single visual shorthand that can move between still compositions, motion, and spatial scenes.",
+      "reuse": "Build one recognizable geometric subject that can deform, rotate, crop, or flatten while retaining the campaign's identity."
+    },
+    {
+      "type": "festival-logo-wordmark",
+      "role": "Recognition anchor",
+      "notes": "The DEMO logo and typography remain central while the surrounding identity evolves across media and editions.",
+      "reuse": "Protect one high-salience wordmark or type lockup as the stable layer in a system that otherwise invites experimentation."
+    },
+    {
+      "type": "bespoke-screen-artwork",
+      "role": "Distributed campaign content",
+      "notes": "The selected motion works form a large content library, with many pieces specifically created for the physical screen dimensions of each location.",
+      "reuse": "Plan a content pipeline and curation rule when the campaign needs hundreds of variations, rather than treating every asset as an isolated hero piece."
+    },
+    {
+      "type": "sonic-identity-library",
+      "role": "Audio continuity",
+      "notes": "The team developed a sonic library alongside motion tests, balancing ethereal and spacious textures with heavier, more rhythmic influences.",
+      "reuse": "Develop sound with the visual motion system so audio can reinforce the same pacing and emotional contrast across cutdowns."
+    },
+    {
+      "type": "limited-edition-jersey",
+      "role": "Physical campaign extension",
+      "notes": "The Macron collaboration turns the festival identity into wearable art and gives the campaign a portable, non-screen touchpoint.",
+      "reuse": "Choose one physical extension that compresses the campaign grammar into an object people can carry beyond the media placement."
+    }
+  ],
+  "motion": [
+    {
+      "type": "public-screen-sequence",
+      "title": "Loops are composed for attention in public space",
+      "notes": "The event places motion artworks into advertising-screen infrastructure, turning normally transactional displays into an immersive 24-hour gallery across many cities.",
+      "fallback": "For reduced-motion or low-bandwidth contexts, keep the globe, type, and RGB-cycle palette in a still or gently crossfaded composition with a clear DEMO lockup."
+    },
+    {
+      "type": "demoverse-wandering-letters",
+      "title": "Letterforms become characters in a spatial digital extension",
+      "notes": "The ten DEMOverse worlds populate their scenes with walking DEMO letters, making the identity's typography an active participant in the environment.",
+      "fallback": "If a 3D world is unavailable, preserve the same sense of exploration through a sequence of curated scenes or a horizontal reel with simple keyboard and touch navigation."
+    },
+    {
+      "type": "sonic-motion-test",
+      "title": "Sound is developed in parallel with motion tests",
+      "notes": "The sonic identity evolves with the motion experiments, layering spacious atmospheres and textured rhythms to give different screen pieces a coherent emotional range.",
+      "fallback": "Make the campaign understandable without audio through timing, contrast, and typography; use sound as reinforcement rather than the only carrier of meaning."
+    }
+  ],
+  "interactions": [
+    {
+      "type": "3d-world-explore",
+      "title": "Browse the motion collection through thematic worlds",
+      "url": "https://demoverse.vlge.com",
+      "notes": "The DEMOverse gives the festival a web-native, explorable counterpart to the physical screen takeover, with ten themed 3D environments and moving letterforms.",
+      "reuse": "Use a navigable archive when a campaign's content volume and spatial logic benefit from discovery rather than a single linear landing-page scroll."
+    }
+  ],
+  "implementation": {
+    "format": "Global festival campaign system connecting public-screen motion, curated content, an interactive web extension, sound, and merchandise",
+    "complexity": "high",
+    "notes": "This is accepted as an artifact-study because the official Studio Dumbar and DEPT® case pages document the identity motif, edition color logic, screen distribution, 3D extension, sonic library, physical collaboration, and content scale. The sources support reusable campaign principles without copying external motion artwork, fonts, or brand assets."
+  },
+  "capture": {
+    "date": "2026-07-12",
+    "sourceLinks": [
+      "https://studiodumbar.com/work/demo-2025",
+      "https://www.deptagency.com/case/motion-design-on-a-global-stage/",
+      "https://demoverse.vlge.com"
+    ],
+    "attribution": "Studio Dumbar/DEPT® with Global, blowUP media, adtrackmedia, StandardVision, VLGE, and Macron",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "artifact-study"
+  },
+  "status": "accepted"
+}

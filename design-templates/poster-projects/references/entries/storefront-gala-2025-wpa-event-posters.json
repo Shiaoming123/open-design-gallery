@@ -1,0 +1,73 @@
+{
+  "id": "storefront-gala-2025-wpa-event-posters",
+  "category": "event-poster-identity-system",
+  "project": {
+    "title": "Storefront Gala 2025",
+    "maker": "Pentagram / Natasha Jen for Storefront for Art and Architecture",
+    "url": "https://www.pentagram.com/work/storefront-gala-2025",
+    "medium": "poster-led event identity",
+    "format": "Annual gala poster and event-key-visual system built from WPA poster density, a custom condensed typeface, and venue-derived pattern cues"
+  },
+  "why": "A strong poster-system reference because it turns one dinner venue and one historical poster lineage into a compact graphic grammar. Instead of decorating the gala with generic heritage cues, the case uses WPA-style compression, a purpose-built display face, and one loud checkerboard accent so the event identity reads like a civic poster set with enough specificity to feel earned.",
+  "compositions": [
+    {
+      "type": "compressed-wpa-grid",
+      "title": "WPA-style density used as the main poster rhythm",
+      "url": "https://www.pentagram.com/work/storefront-gala-2025",
+      "study": "Pentagram says the identity channels WPA posters through compressed layouts, blocky rhythms, and typographic density, making the headline field do the persuasive work instead of relying on illustration-heavy scenes.",
+      "reuse": "When an event needs civic authority fast, borrow the pressure and density of historical public-information posters rather than building a loose celebratory collage."
+    },
+    {
+      "type": "type-lockup",
+      "title": "Custom condensed typeface becomes the hero image",
+      "url": "https://www.pentagram.com/work/storefront-gala-2025",
+      "study": "The team designed a geometric condensed sans serif with angled corners, then used its narrow proportions as a deliberate counterpoint to Storefront's wider institutional lettering.",
+      "reuse": "Make the custom display face carry the poster's personality when one-off event graphics need distinction without inventing a separate illustration system."
+    },
+    {
+      "type": "checkerboard-accent-band",
+      "title": "Venue pattern turns into a festive secondary field",
+      "url": "https://www.pentagram.com/work/storefront-gala-2025",
+      "study": "Bright pink type is paired with a red-and-white checkerboard motif lifted from the Oyster Bar tablecloths, tying the gala posters to the room through a simple repeating surface rather than literal architectural drawings.",
+      "reuse": "Extract one repeatable pattern from the venue itself when an event poster should feel site-specific but still stay graphic and scalable."
+    }
+  ],
+  "assets": [
+    {
+      "type": "custom-condensed-typeface",
+      "role": "primary graphic voice",
+      "notes": "The bespoke geometric condensed sans serif supplies the posters' density, contrast, and WPA inflection while staying distinct from Storefront's standing identity.",
+      "reuse": "Commission or adapt one narrow display face when poster copy needs to stack tightly without collapsing into generic condensed defaults."
+    },
+    {
+      "type": "checkerboard-pattern",
+      "role": "venue-memory pattern layer",
+      "notes": "A red-and-white checkerboard borrowed from the restaurant's tablecloths gives the system a quick environmental recall that can scale from posters to small takeaways like matchbooks.",
+      "reuse": "Use one venue-derived repeat pattern as a memory device when a poster system needs a secondary texture that is specific but easy to reproduce."
+    },
+    {
+      "type": "manifesto-copy",
+      "role": "compressed informational content",
+      "notes": "The identity leans on typographic force and stacked gala information instead of a large image library, keeping the posters closer to public-notice graphics than to lifestyle event advertising.",
+      "reuse": "Let compact information blocks become part of the poster picture when the event message benefits from urgency and graphic economy."
+    }
+  ],
+  "motion": [],
+  "interactions": [],
+  "implementation": {
+    "format": "Poster-led event identity with custom type, venue-derived pattern, and supporting gala collateral",
+    "complexity": "medium",
+    "notes": "The official Pentagram case study provides enough evidence to keep this as an accepted poster reference: it explicitly names the WPA poster influence, the condensed custom typeface strategy, the venue-specific checkerboard cue, and the way the system extends beyond one artifact."
+  },
+  "capture": {
+    "date": "2026-07-10",
+    "sourceLinks": [
+      "https://www.pentagram.com/work/storefront-gala-2025",
+      "https://www.pentagram.com/news/category/work?page=2"
+    ],
+    "attribution": "Pentagram; Natasha Jen with Jin Chun, David Dai, and Harrison Adams for Storefront for Art and Architecture",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "artifact-study"
+  },
+  "status": "accepted"
+}

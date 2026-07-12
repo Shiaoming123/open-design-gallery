@@ -1,0 +1,86 @@
+{
+  "id": "brooklyn-rail-anthropophagy-issue-editorial-design",
+  "category": "bilingual-cultural-critics-issue",
+  "project": {
+    "title": "Brooklyn Rail: Only Anthropophagy Unites Us?",
+    "maker": "PORTO ROCHA for The Brooklyn Rail",
+    "url": "https://www.portorocha.com/brooklynrail",
+    "medium": "editorial-magazine",
+    "format": "Guest-designed February 2021 bilingual Critics Page issue that turns manifesto-driven typography and black-and-white newsprint into the issue's editorial voice"
+  },
+  "why": "A strong editorial-system reference because it translates political and literary context into a compact publication grammar: manifesto-inspired cover language, black-and-white newsprint pacing, concrete-poetry titling, and intentionally unstable image placement make the issue feel urgent without losing editorial coherence.",
+  "compositions": [
+    {
+      "type": "manifesto-reference-cover",
+      "title": "Cover language lifted from the source text's formal energy",
+      "url": "https://www.portorocha.com/brooklynrail",
+      "study": "PORTO ROCHA explicitly cites Oswald de Andrade's 1928 Manifesto Antropofago as the reference point for the issue's cover and interior spread language, so the publication's visual tone grows out of the essay tradition it is revisiting rather than from a detached decorative style.",
+      "reuse": "When a publication revisits one founding text or movement, let the reference document shape cover and spread behavior so the issue's graphics feel argued rather than merely themed."
+    },
+    {
+      "type": "newsprint-monochrome-rhythm",
+      "title": "Black-and-white newsprint sets the issue's baseline cadence",
+      "url": "https://www.portorocha.com/brooklynrail",
+      "study": "The interior holds to black-and-white layouts that embrace newsprint as a material condition, which keeps the issue grounded and lets typographic and spatial tension carry the drama instead of relying on added color spectacle.",
+      "reuse": "Use a monochrome production limit as a pacing tool when an editorial object needs urgency, economy, and a sharper relationship between text, crop, and whitespace."
+    },
+    {
+      "type": "concrete-poetry-headline-system",
+      "title": "Headline settings borrow the compression and instability of concrete poetry",
+      "url": "https://www.portorocha.com/brooklynrail",
+      "study": "The case study says the title treatments are inspired by concrete poetry, which lets headlines behave like visual interruptions rather than neutral labels and gives the issue a more argumentative reading rhythm.",
+      "reuse": "Treat display type as a formal essay device when feature titles need to alter reading speed and emotional tone before body copy begins."
+    },
+    {
+      "type": "rule-breaking-image-placement",
+      "title": "Images refuse full grid obedience to keep ideological friction visible",
+      "url": "https://www.portorocha.com/brooklynrail",
+      "study": "PORTO ROCHA describes rule-breaking image placements that add tension to the issue, suggesting a layout system that keeps small moments of instability in play instead of resolving every spread into a calm editorial template.",
+      "reuse": "Break image-placement rules in a controlled way when a cultural or political issue should feel charged and unfinished rather than perfectly institutional."
+    }
+  ],
+  "assets": [
+    {
+      "type": "type-family-system",
+      "role": "Typographic bridge between manifesto voice and editorial clarity",
+      "notes": "The issue pairs Girott's declarative letterforms with the more poetic tone of Art Company Mono, giving the publication a type system that can shift between statement, annotation, and literary pacing.",
+      "reuse": "Pair one forceful display family with one more idiosyncratic secondary voice when an editorial issue needs both ideological emphasis and textured reading rhythm."
+    },
+    {
+      "type": "manifesto-reference-letterforms",
+      "role": "Historical and ideological anchor",
+      "notes": "The declarative headline letterforms are used to echo the formal qualities and urgency of the Cannibal Manifesto without turning the issue into a facsimile.",
+      "reuse": "Reference a movement's typographic mood through abstraction instead of imitation when a publication wants intellectual lineage without derivative pastiche."
+    },
+    {
+      "type": "newsprint-monochrome-system",
+      "role": "Material constraint turned into issue identity",
+      "notes": "Black-and-white layouts are treated as a deliberate medium choice, making contrast, crop, and spacing do the expressive work usually assigned to richer palettes.",
+      "reuse": "Let production constraints become the visual signature when an editorial project needs a crisp, durable system that can survive many contributors."
+    },
+    {
+      "type": "concrete-poetry-title-settings",
+      "role": "Section-level interruption and tone shift",
+      "notes": "Title settings influenced by concrete poetry function as recurring pressure points inside the issue, pushing the publication away from a neutral magazine voice.",
+      "reuse": "Build one distinct title treatment family when an editorial project needs each piece to enter with formal tension rather than with standardized feature furniture."
+    }
+  ],
+  "motion": [],
+  "interactions": [],
+  "implementation": {
+    "format": "Guest-designed February 2021 Critics Page issue for The Brooklyn Rail, published in Portuguese and English with manifesto-derived cover logic and black-and-white newsprint interiors",
+    "complexity": "high",
+    "notes": "The official PORTO ROCHA case study gives enough evidence to keep this as an accepted editorial reference: it names the issue context, manifesto source, type families, black-and-white newsprint approach, concrete-poetry title logic, and image-placement strategy. The Brooklyn Rail issue archive confirms that the February 2021 issue was published on February 3, 2021 and scopes the contributor set that the editorial system had to hold together."
+  },
+  "capture": {
+    "date": "2026-07-11",
+    "sourceLinks": [
+      "https://www.portorocha.com/brooklynrail",
+      "https://brooklynrail.org/issues/2021-02/"
+    ],
+    "attribution": "PORTO ROCHA; creative direction Felipe Rocha and Leo Porto; project management Nicholas Schroder; case study photography Sarah Hopp; guest writers Tiago Gualberto and Sara Roffino; Brooklyn Rail design direction Tuan Quoc Pham; illustrator Phong H. Bui",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "artifact-study"
+  },
+  "status": "accepted"
+}

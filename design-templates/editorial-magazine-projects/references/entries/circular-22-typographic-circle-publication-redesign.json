@@ -1,0 +1,86 @@
+{
+  "id": "circular-22-typographic-circle-publication-redesign",
+  "category": "experimental-typography-journal",
+  "project": {
+    "title": "Circular 22",
+    "maker": "Pentagram / Domenic Lippa with Jim Sutherland and Louise Sloper for Typographic Circle",
+    "url": "https://www.pentagram.com/work/circular-22",
+    "medium": "editorial-magazine",
+    "format": "A compact 2024 redesign of Typographic Circle's member publication that turns a smaller half-size format into a tactile, print-first editorial object"
+  },
+  "why": "A strong editorial-system reference because it uses production decisions as editorial voice: the smaller format, overprinted imagery, fluorescent accents, displaced frontmatter, and speaker-specific monograms make the publication feel collectible and experimental without losing navigational structure.",
+  "compositions": [
+    {
+      "type": "portable-half-size-format",
+      "title": "Smaller format used as a desirability move, not a downgrade",
+      "url": "https://www.pentagram.com/work/circular-22",
+      "study": "The redesign shifts the publication into a more portable half-size format, then compensates by raising print drama and material richness so the object feels more precious rather than reduced.",
+      "reuse": "When editorial constraints force a smaller footprint, treat the format change as a chance to increase intimacy and collectibility instead of simply compressing the old layout."
+    },
+    {
+      "type": "overprinted-collage-spread",
+      "title": "Layered image spreads that feel textured and slightly unresolved",
+      "url": "https://www.pentagram.com/work/circular-22",
+      "study": "Project imagery is overlapped across spreads so some layers remain partially hidden, creating a dense printed texture that unifies very different contributors without flattening their work into identical frames.",
+      "reuse": "Use controlled overlap and partial occlusion when an editorial feature set needs cohesion but should still preserve friction, discovery, and the sense of a physical printed surface."
+    },
+    {
+      "type": "mid-book-frontmatter-reversal",
+      "title": "Introduction and colophon repositioned deep into the sequence",
+      "url": "https://www.pentagram.com/work/circular-22",
+      "study": "The issue breaks expected magazine sequencing by moving the introduction and colophon roughly two-thirds into the publication, making the reader encounter the object more like a curated artifact than a standard linear periodical.",
+      "reuse": "Relocate housekeeping content when a publication wants the opening stretch to feel immersive or intuitive before explanatory framing appears."
+    },
+    {
+      "type": "speaker-monogram-divider",
+      "title": "Fluorescent monograms establish contributor-level rhythm",
+      "url": "https://www.pentagram.com/work/circular-22",
+      "study": "Large abstract monograms give each speaker or contributor a distinct marker, acting as navigational pauses while keeping the issue's visual language loud and print-centric.",
+      "reuse": "Create one bold recurring divider device when a multi-contributor publication needs section changes that can be recognized instantly without relying on repeated template pages."
+    }
+  ],
+  "assets": [
+    {
+      "type": "type-family-system",
+      "role": "Tension between editorial structure and image play",
+      "notes": "The redesign pairs Akzidenz-Grotesk with Baskerville so the magazine can move between typographic restraint and expressive collision without losing legibility.",
+      "reuse": "Build editorial contrast from a deliberate serif and sans pairing when you need both institutional clarity and more eccentric visual behavior."
+    },
+    {
+      "type": "fluoro-overprint-layer",
+      "role": "Print energy and unifying highlight system",
+      "notes": "Fluorescent orange is used as a recurring overprint accent that sharpens overlaps, reinforces materiality, and helps the smaller format keep visual intensity.",
+      "reuse": "Reserve one high-energy spot color for overlays and emphasis when a printed editorial object needs a strong cross-issue signature."
+    },
+    {
+      "type": "abstract-speaker-monograms",
+      "role": "Contributor indexing and visual punctuation",
+      "notes": "Abstract oversized initials operate like section markers while still feeling experimental enough for a typographic society publication.",
+      "reuse": "Use simplified monogram sets when a publication needs a repeatable contributor marker that is bolder than a running header but lighter than a full title page."
+    },
+    {
+      "type": "foil-production-finish",
+      "role": "Collectible tactile finish",
+      "notes": "The production system leans on foil and other print effects to make the reduced format feel premium and intentionally object-like.",
+      "reuse": "Add one tactile finishing move when an editorial redesign needs to signal desirability through craft rather than through larger page size or heavier content."
+    }
+  ],
+  "motion": [],
+  "interactions": [],
+  "implementation": {
+    "format": "Print publication redesign for Typographic Circle with a portable format, layered image treatment, fluorescent spot color, and experimental sequencing",
+    "complexity": "high",
+    "notes": "The Pentagram work page documents the format reset, type pairing, overprinted image strategy, fluorescent monograms, and nonstandard sequencing in enough detail to keep this as an accepted editorial reference. Pentagram's news index lists the work post date as December 19, 2024, which helps anchor the project in the current publication cycle."
+  },
+  "capture": {
+    "date": "2026-07-08",
+    "sourceLinks": [
+      "https://www.pentagram.com/work/circular-22",
+      "https://www.pentagram.com/news?page=10"
+    ],
+    "attribution": "Pentagram; partner Domenic Lippa; collaborators Jim Sutherland and Louise Sloper; client Typographic Circle; photography by G.F. Smith and Tian Khee Siong",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "artifact-study"
+  },
+  "status": "accepted"
+}

@@ -1,27 +1,219 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Editorial Magazine Projects Preview</title>
 <style>
-:root{--paper:#ece7da;--ink:#17140f;--muted:#786f61;--accent:#386f5f;--line:rgba(23,20,15,.18)}
-*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,serif}
-main{min-height:100vh;padding:34px;display:grid;grid-template-columns:.75fr 1.25fr;gap:28px}
-.cover,.spread{background:#fbf7ec;border:1px solid var(--line);box-shadow:0 24px 60px -44px #000}
-.cover{padding:24px;display:grid;align-content:space-between;min-height:560px}.mast{font:700 13px/1 Inter,Arial,sans-serif;letter-spacing:.24em;text-transform:uppercase}.cover h1{font-size:clamp(48px,7vw,92px);line-height:.9;letter-spacing:-.045em;margin:0}.issue{font:12px/1.5 Inter,Arial,sans-serif;color:var(--muted);text-transform:uppercase;letter-spacing:.14em}
-.spread{display:grid;grid-template-columns:1fr 1fr;gap:22px;padding:28px}.image{background:linear-gradient(135deg,#d7c6a4,#748777);min-height:280px}.deck{font:700 12px/1 Inter,Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}h2{font-size:42px;line-height:.98;margin:14px 0 18px}.body{font-size:15px;line-height:1.65;color:#352f27}.pull{font-size:28px;line-height:1.08;border-top:5px solid var(--ink);padding-top:14px;margin-top:20px}.folio{font:11px/1 Inter,Arial,sans-serif;color:var(--muted);margin-top:auto}
-@media(max-width:860px){main{grid-template-columns:1fr;padding:20px}.spread{grid-template-columns:1fr}.cover{min-height:430px}}
+:root {
+  --paper: #f3efe7;
+  --panel: rgba(255, 251, 245, 0.94);
+  --ink: #171512;
+  --muted: rgba(23, 21, 18, 0.62);
+  --line: rgba(23, 21, 18, 0.15);
+  --blue: #cdd9ef;
+  --yellow: #eadf7d;
+  --red: #c54b42;
+  --shadow: 0 30px 90px rgba(35, 27, 19, 0.16);
+  font-family: "Canela", "Iowan Old Style", "Times New Roman", serif;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.72), transparent 34%),
+    linear-gradient(180deg, #f8f4ec 0%, var(--paper) 100%);
+}
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 28px;
+}
+.folio {
+  width: min(980px, 100%);
+  display: grid;
+  grid-template-columns: minmax(0, 1.24fr) minmax(280px, 0.76fr);
+  border: 1px solid var(--line);
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+.spread {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 640px;
+}
+.page {
+  position: relative;
+  padding: 28px;
+  border-right: 1px solid var(--line);
+}
+.page:last-child { border-right: 0; }
+.cover {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.48), transparent 38%),
+    linear-gradient(180deg, rgba(23, 21, 18, 0.03), rgba(23, 21, 18, 0.08));
+}
+.corner {
+  display: inline-block;
+  padding: 10px 12px 8px;
+  border: 2px solid var(--ink);
+  font-family: "Graphik", "Arial Narrow", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+h1 {
+  margin: 22px 0 12px;
+  max-width: 7ch;
+  font-size: clamp(44px, 8vw, 94px);
+  line-height: 0.92;
+  letter-spacing: -0.06em;
+  text-transform: uppercase;
+}
+.deck {
+  max-width: 22ch;
+  margin: 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.55;
+}
+.band {
+  position: absolute;
+  left: 28px;
+  right: 28px;
+  bottom: 28px;
+  display: grid;
+  gap: 10px;
+}
+.chip {
+  display: inline-block;
+  width: fit-content;
+  padding: 5px 10px 4px;
+  border-radius: 999px;
+  font-family: "Graphik", "Arial Narrow", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.chip.blue { background: var(--blue); }
+.chip.yellow { background: var(--yellow); }
+.opener::before,
+.opener::after {
+  content: "";
+  position: absolute;
+  inset: 72px 28px 140px;
+  border: 1px solid var(--line);
+}
+.opener::after {
+  inset: 112px 72px 208px 150px;
+  background:
+    linear-gradient(135deg, rgba(205, 217, 239, 0.58), transparent 56%),
+    linear-gradient(180deg, rgba(197, 75, 66, 0.18), transparent 64%);
+}
+.kicker {
+  position: absolute;
+  top: 28px;
+  right: 28px;
+  color: var(--muted);
+  font-family: "Graphik", "Arial Narrow", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.headline {
+  position: absolute;
+  left: 28px;
+  right: 32px;
+  bottom: 68px;
+  font-size: clamp(26px, 4vw, 40px);
+  line-height: 0.96;
+  letter-spacing: -0.04em;
+}
+.meta {
+  display: grid;
+  gap: 18px;
+  padding: 28px 24px;
+  border-left: 1px solid var(--line);
+}
+.panel {
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+.panel:last-child { border-bottom: 0; padding-bottom: 0; }
+.label {
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-family: "Graphik", "Arial Narrow", sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.panel p,
+.panel li {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.55;
+}
+ul {
+  margin: 0;
+  padding-left: 18px;
+}
+@media (max-width: 860px) {
+  .folio { grid-template-columns: 1fr; }
+  .spread { min-height: 0; }
+  .meta { border-left: 0; border-top: 1px solid var(--line); }
+}
+@media (max-width: 720px) {
+  .spread { grid-template-columns: 1fr; }
+  .page { min-height: 420px; border-right: 0; border-bottom: 1px solid var(--line); }
+  .page:last-child { border-bottom: 0; }
+}
 </style>
 </head>
 <body>
 <main>
-  <section class="cover"><div class="mast">Editorial Systems</div><h1>Reading<br>Has<br>Rhythm</h1><div class="issue">Cover hierarchy / issue metadata / feature promise</div></section>
-  <section class="spread">
-    <div><div class="image"></div><p class="folio">01 / image sequence and caption zone</p></div>
-    <article><div class="deck">Feature opener</div><h2>Dense passages need quiet visual pauses.</h2><p class="body">Editorial references are captured as reading systems: cover, opener, spread grid, pull quote, caption, and image pacing.</p><p class="pull">Alternate density with release.</p></article>
+  <section class="folio" aria-label="Editorial magazine projects case-library preview">
+    <div class="spread">
+      <article class="page cover">
+        <div class="corner">Open Design / Editorial</div>
+        <h1>Reading rhythm is a layout system.</h1>
+        <p class="deck">Strong editorial references teach how covers, departments, and feature openers can feel like one publication without repeating the same page.</p>
+        <div class="band">
+          <span class="chip blue">Section color</span>
+          <span class="chip yellow">Typographic taxonomy</span>
+        </div>
+      </article>
+      <article class="page opener">
+        <div class="kicker">Feature opener</div>
+        <div class="headline">Let the grid flex when an essay needs image, scale, or silence.</div>
+      </article>
+    </div>
+    <aside class="meta">
+      <section class="panel">
+        <div class="label">What This Lane Keeps</div>
+        <p>Magazine redesigns, publication systems, editorial spreads, and visual essays with reusable cover logic, pacing, and hierarchy rules.</p>
+      </section>
+      <section class="panel">
+        <div class="label">Capture Signals</div>
+        <ul>
+          <li>Cover lockup and issue identity</li>
+          <li>Spread pacing and reading rhythm</li>
+          <li>Type, image, and section-coding systems</li>
+        </ul>
+      </section>
+      <section class="panel">
+        <div class="label">Preview Principle</div>
+        <p>This preview stays original and non-derivative: it abstracts editorial grammar into a neutral folio instead of rehosting any magazine artwork.</p>
+      </section>
+    </aside>
   </section>
 </main>
 </body>
 </html>
-

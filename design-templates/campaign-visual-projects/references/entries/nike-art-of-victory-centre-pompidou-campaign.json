@@ -1,0 +1,128 @@
+{
+  "id": "nike-art-of-victory-centre-pompidou-campaign",
+  "category": "olympic-brand-campaign-visual-system",
+  "project": {
+    "title": "Nike au Centre Pompidou",
+    "maker": "PORTO ROCHA for Nike",
+    "url": "https://www.portorocha.com/nikepompidou",
+    "medium": "campaign-visual-system",
+    "format": "2024 Olympics-era exhibition and brand campaign spanning social assets, signage, posters, merch, and façade-scale motion"
+  },
+  "why": "A strong campaign-visual reference because the case study shows how one promotional system can stay unmistakably Nike while flexing from tiny event touchpoints to the largest screen in Europe. The system couples compressed display type, a tight orange-and-Volt palette, frontal athlete photography, and one pattern thread so the campaign stays legible even when formats, durations, and viewing distances change radically.",
+  "artDirection": [
+    {
+      "type": "condensed-type-pressure",
+      "title": "Futura pushed into poster-grade urgency",
+      "url": "https://www.portorocha.com/nikepompidou",
+      "study": "PORTO ROCHA modified Nike's familiar Futura into heavier, more compressed forms inspired by boxing posters and street flyers, which lets the campaign feel louder without needing new typography for every asset.",
+      "reuse": "Tighten and embolden an existing brand type system when a campaign needs temporary event-scale force but should still read as part of the parent brand."
+    },
+    {
+      "type": "signal-color-contrast",
+      "title": "Classic orange with one electric accent",
+      "url": "https://www.portorocha.com/nikepompidou",
+      "study": "The palette stays focused on Nike orange plus a Volt green accent, giving the campaign enough contrast to hold huge public surfaces without turning the identity into a rainbow of disconnected event graphics.",
+      "reuse": "Use one legacy brand color plus one campaign-specific accent when you need immediate recognition and short-term freshness at the same time."
+    },
+    {
+      "type": "hero-athlete-portrait",
+      "title": "Head-on athlete portraits as campaign anchors",
+      "url": "https://www.portorocha.com/nikepompidou",
+      "study": "Nike supplied direct, frontal athlete photography paired with AI-generated shoes customized for each athlete, creating a blunt portrait language that can survive aggressive typography and large public display distances.",
+      "reuse": "Choose one portrait stance and repeat it consistently when a campaign needs recognizability across posters, digital motion, and environmental graphics."
+    },
+    {
+      "type": "graphic-pattern-thread",
+      "title": "One pattern bridges product and campaign",
+      "url": "https://www.portorocha.com/nikepompidou",
+      "study": "The special-edition Electric Print pattern is reused as a campaign graphic through-line, which keeps product storytelling and event communication visually tied together instead of looking like parallel efforts.",
+      "reuse": "Promote one product-side texture or pattern into the campaign layer when you need the activation to feel rooted in the launch object rather than merely wrapped around it."
+    }
+  ],
+  "channelFormats": [
+    {
+      "type": "façade-motion",
+      "title": "Pompidou façade motion graphics",
+      "notes": "The system scales up to motion graphics shown on the Centre Pompidou façade, described by the studio as the largest screen in Europe.",
+      "cropSystem": "Typography, portraits, and pattern have to stay legible on extreme horizontal and architectural crops.",
+      "reuse": "Design the biggest public-format asset early so smaller derivatives inherit a proven hierarchy instead of the other way around."
+    },
+    {
+      "type": "social-assets",
+      "title": "Social campaign crops and digital announcements",
+      "notes": "The same identity supports social assets alongside the venue takeover, proving the campaign can compress down without abandoning its core pressure.",
+      "cropSystem": "Keep one locked type posture and one accent color so portrait and product crops still read on phone screens.",
+      "reuse": "When a campaign spans giant and tiny canvases, define the mobile crop rules as part of the main system rather than as afterthought adaptations."
+    },
+    {
+      "type": "wristband-signage",
+      "title": "Operational event graphics",
+      "notes": "PORTO ROCHA explicitly calls out wristbands and signage as part of the system, which shows the visual language survives utilitarian wayfinding and access touchpoints.",
+      "cropSystem": "Reduce the palette and rely on compressed type blocks where operational information must stay immediate.",
+      "reuse": "Test campaign graphics on functional micro-formats to make sure the system works beyond hero posters."
+    },
+    {
+      "type": "spatial-installation",
+      "title": "Installation and environmental branding",
+      "notes": "The identity extends to a multi-week exhibition takeover and to the broader 'Art of Victory' environment, not just to flat promotional artifacts.",
+      "cropSystem": "Pattern and type become environmental surfaces while portrait assets punctuate key focal moments.",
+      "reuse": "Treat spatial graphics as first-class campaign outputs when the activation itself is part of the brand story."
+    }
+  ],
+  "assets": [
+    {
+      "type": "modified-house-type",
+      "role": "Primary campaign voice",
+      "notes": "Nike's house typography is stretched and condensed into bolder poster-like expressions instead of being replaced outright.",
+      "reuse": "Escalate the existing type system before inventing a detached event face."
+    },
+    {
+      "type": "dual-accent-palette",
+      "role": "Recognition plus novelty",
+      "notes": "Orange remains the anchor while Volt green supplies short-term campaign energy.",
+      "reuse": "Keep palette decisions extremely narrow when the campaign already has strong type and imagery."
+    },
+    {
+      "type": "hero-photography",
+      "role": "Instant athlete recognition",
+      "notes": "Direct portraits and customized AI-generated shoes create blunt hero frames that survive from social to architecture.",
+      "reuse": "Favor frontal portraits when distance and speed of reading matter more than narrative scene-building."
+    },
+    {
+      "type": "campaign-pattern",
+      "role": "Graphic continuity",
+      "notes": "The Electric Print motif creates one shared textural thread between product, motion, and environmental materials.",
+      "reuse": "Carry one recognizable texture across the entire rollout to reduce the number of visual variables each format needs."
+    }
+  ],
+  "motion": [
+    {
+      "type": "large-scale-loop",
+      "title": "Architectural motion as the headline expression",
+      "notes": "Punchy motion graphics turn the Pompidou façade into a campaign billboard, making animation part of the main identity rather than a secondary adaptation.",
+      "fallback": "If architectural motion is unavailable, keep the same type compression, palette, and portrait framing in static OOH key art."
+    },
+    {
+      "type": "high-energy-cutdown",
+      "title": "Motion language stays sharp across shorter outputs",
+      "notes": "The studio describes a dynamic motion approach built for many touchpoints over the two-week run, implying short-form animated derivatives rather than one single hero film.",
+      "fallback": "Preserve the same abrupt type tension and palette contrast in static crops when motion time or budget drops away."
+    }
+  ],
+  "interactions": [],
+  "implementation": {
+    "format": "Event-scale campaign visual system with environmental graphics, social crops, and motion-led OOH",
+    "complexity": "high",
+    "notes": "The PORTO ROCHA case page provides enough evidence to keep this as an accepted campaign reference: it explicitly covers scope across signage, social, posters, installations, and façade motion while naming the core type, palette, photography, and pattern moves."
+  },
+  "capture": {
+    "date": "2026-07-03",
+    "sourceLinks": [
+      "https://www.portorocha.com/nikepompidou"
+    ],
+    "attribution": "PORTO ROCHA for Nike; creative direction by Leo Porto and Felipe Rocha; motion design by Thales Muniz",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "artifact-study"
+  },
+  "status": "accepted"
+}

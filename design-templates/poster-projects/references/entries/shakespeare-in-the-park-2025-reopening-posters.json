@@ -1,0 +1,79 @@
+{
+  "id": "shakespeare-in-the-park-2025-reopening-posters",
+  "category": "theater-poster-system",
+  "project": {
+    "title": "Shakespeare in the Park 2025",
+    "maker": "Pentagram / Paula Scher for The Public Theater",
+    "url": "https://www.pentagram.com/work/shakespeare-in-the-park-2025",
+    "medium": "poster campaign",
+    "format": "Season-reopening poster system with dynamic digital animations for the Delacorte Theater relaunch"
+  },
+  "why": "A strong poster-system reference because it derives one year's graphic shift from a concrete spatial cue instead of generic seasonal novelty. The campaign turns the Delacorte's circular seating plan into a poster grammar, then layers manipulated house typography and loud color fields so the reopening reads as civic celebration rather than routine theater promotion.",
+  "compositions": [
+    {
+      "type": "circular-seat-grid",
+      "title": "Circular poster field borrowed from the venue itself",
+      "url": "https://www.pentagram.com/work/shakespeare-in-the-park-2025",
+      "study": "Pentagram says the 2025 design is circular for the first time, using the concentric rows of seats at the renovated Delacorte as the base visual idea rather than defaulting to a rectangular stage-poster grid.",
+      "reuse": "Pull a poster's primary geometry from the venue or event architecture when a reopening or anniversary needs a form that feels earned, not decorative."
+    },
+    {
+      "type": "type-lockup",
+      "title": "House typography stretched into a seasonal one-off voice",
+      "url": "https://www.pentagram.com/work/shakespeare-in-the-park-2025",
+      "study": "The campaign keeps The Public Theater's Knockout-based identity but pushes it into another yearly variation, proving a poster series can stay recognizably branded while still feeling like a new episode.",
+      "reuse": "Treat the brand display face as a material to manipulate each season when continuity matters more than inventing a separate poster type system."
+    },
+    {
+      "type": "layered-color-tapestry",
+      "title": "Color shapes and type woven into one festive surface",
+      "url": "https://www.pentagram.com/work/shakespeare-in-the-park-2025",
+      "study": "Pentagram describes the posters and digital animations as layered type over shapes, creating a dense tapestry of color that feels celebratory enough for a reopening without relying on illustration or photography.",
+      "reuse": "Use overlapping shape fields to turn a text-led poster into a vivid event surface when the message needs energy but the system should stay mostly typographic."
+    }
+  ],
+  "assets": [
+    {
+      "type": "display-title",
+      "role": "Primary seasonal voice",
+      "notes": "The campaign continues the long-running Shakespeare in the Park tradition of reworking Knockout into a fresh poster expression each year.",
+      "reuse": "Recast an existing display type family before swapping brands entirely when a recurring poster series needs novelty with continuity."
+    },
+    {
+      "type": "concentric-color-shapes",
+      "role": "Spatial memory and festival atmosphere",
+      "notes": "Circular and layered color fields echo the venue's seating geometry while giving the campaign enough visual amplitude for large-format public posting.",
+      "reuse": "Use repeated radial or ring-like shapes when a poster needs both structural order and a sense of public spectacle."
+    },
+    {
+      "type": "manifesto-copy",
+      "role": "Citywide reopening signal",
+      "notes": "The campaign ties the poster language to 'Shakespeare for the City,' letting the reopening read as a public invitation rather than a closed institutional milestone.",
+      "reuse": "Anchor poster copy to the broader civic reason for the event when the campaign should feel open and communal, not purely promotional."
+    }
+  ],
+  "motion": [
+    {
+      "type": "digital-poster-loop",
+      "title": "Animated digital posters keep the same circular grammar",
+      "notes": "The official Pentagram page explicitly extends the poster system into dynamic digital animations, suggesting that motion is a derivative of the same shape-and-type logic rather than a separate art direction.",
+      "fallback": "If motion production is limited, keep the same concentric structure and color layering in static posters so the reopening identity still reads as one system."
+    }
+  ],
+  "interactions": [],
+  "implementation": {
+    "format": "Poster-led seasonal theater campaign with static print, large-format public posting, and animated digital derivatives",
+    "complexity": "medium",
+    "notes": "The official Pentagram case study provides enough evidence to keep this as an accepted poster reference: the source states the core circular concept, ties it to the venue reopening, explains the yearly typography variation, and confirms both posters and digital animations."
+  },
+  "capture": {
+    "date": "2026-07-07",
+    "sourceLinks": [
+      "https://www.pentagram.com/work/shakespeare-in-the-park-2025"
+    ],
+    "attribution": "Pentagram; Paula Scher with Kirstin Rocke-Huber for The Public Theater",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "artifact-study"
+  },
+  "status": "accepted"
+}

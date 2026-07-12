@@ -186,10 +186,6 @@ body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
     <div class="top-nav-group">
       <span class="top-nav-title">Pages</span>
       <a href="#templates" data-catalog-page-link="templates">Templates<span class="side-index-meta">Artifacts</span></a>
-      <a href="#poster-projects" data-catalog-page-link="poster-projects">Posters<span class="side-index-meta">Key visuals</span></a>
-      <a href="#editorial-magazine-projects" data-catalog-page-link="editorial-magazine-projects">Editorial<span class="side-index-meta">Magazine</span></a>
-      <a href="#campaign-visual-projects" data-catalog-page-link="campaign-visual-projects">Campaigns<span class="side-index-meta">Promo visuals</span></a>
-      <a href="#motion-interaction-projects" data-catalog-page-link="motion-interaction-projects">Motion<span class="side-index-meta">Interactions</span></a>
       <a href="#product-ui-projects" data-catalog-page-link="product-ui-projects">Product UI<span class="side-index-meta">Surface suites</span></a>
       <a href="#commercial-launches" data-catalog-page-link="commercial-launches">Launches<span class="side-index-meta">Commercial</span></a>
       <a href="#blog-projects" data-catalog-page-link="blog-projects">Blogs<span class="side-index-meta">Personal sites</span></a>
@@ -214,10 +210,6 @@ body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
     <div class="hero-stats">
       <div><div class="hero-stat-num" id="stat-skills">—</div><div class="hero-stat-label">Skills</div></div>
       <div><div class="hero-stat-num" id="stat-templates">—</div><div class="hero-stat-label">Templates</div></div>
-      <div><div class="hero-stat-num" id="stat-poster-projects">—</div><div class="hero-stat-label">Posters</div></div>
-      <div><div class="hero-stat-num" id="stat-editorial-magazine-projects">—</div><div class="hero-stat-label">Editorial</div></div>
-      <div><div class="hero-stat-num" id="stat-campaign-visual-projects">—</div><div class="hero-stat-label">Campaigns</div></div>
-      <div><div class="hero-stat-num" id="stat-motion-interaction-projects">—</div><div class="hero-stat-label">Motion</div></div>
       <div><div class="hero-stat-num" id="stat-product-ui-projects">—</div><div class="hero-stat-label">Product UI</div></div>
       <div><div class="hero-stat-num" id="stat-commercial-launches">—</div><div class="hero-stat-label">Launches</div></div>
       <div><div class="hero-stat-num" id="stat-blog-projects">—</div><div class="hero-stat-label">Blog Projects</div></div>
@@ -225,10 +217,6 @@ body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
     </div>
     <nav class="catalog-nav" aria-label="Resource sections">
       <a href="#templates" data-catalog-page-link="templates"><strong>Templates</strong><span>设计模板 / artifacts</span></a>
-      <a href="#poster-projects" data-catalog-page-link="poster-projects"><strong>Posters</strong><span>海报 / key visuals</span></a>
-      <a href="#editorial-magazine-projects" data-catalog-page-link="editorial-magazine-projects"><strong>Editorial</strong><span>杂志版式 / spreads</span></a>
-      <a href="#campaign-visual-projects" data-catalog-page-link="campaign-visual-projects"><strong>Campaigns</strong><span>宣传视觉 / promo</span></a>
-      <a href="#motion-interaction-projects" data-catalog-page-link="motion-interaction-projects"><strong>Motion</strong><span>动态交互 / frontend</span></a>
       <a href="#product-ui-projects" data-catalog-page-link="product-ui-projects"><strong>Product UI</strong><span>项目级界面 / suites</span></a>
       <a href="#commercial-launches" data-catalog-page-link="commercial-launches"><strong>Launches</strong><span>商业发布页 / cases</span></a>
       <a href="#blog-projects" data-catalog-page-link="blog-projects"><strong>Blogs</strong><span>个人博客项目 / cases</span></a>
@@ -286,107 +274,15 @@ body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
   <div class="empty-state" id="empty-templates">没有匹配的模板。清除搜索或切回 All 继续浏览。</div>
 </div>
 
-<!-- Poster Projects Section -->
-<div class="container catalog-page" id="poster-projects" data-catalog-page="poster-projects">
-  <div class="sec-rule">
-    <span><span class="roman">III.</span> Poster Projects / 海报与 Key Visual</span>
-    <span id="cnt-poster-projects"></span>
-  </div>
-  <div class="sec-head">
-    <div>
-      <span class="label">Posters · Nº 03</span>
-      <h2>Poster references as systems:<br>compositions, assets, and <em>visual hierarchy</em><span style="color:var(--coral)">.</span></h2>
-    </div>
-    <div class="result-count">Source links · composition notes · local preview</div>
-  </div>
-  <div class="blog-tabs" role="tablist" aria-label="Poster project views">
-    <button class="blog-tab active" type="button" data-visual-library="poster-projects" data-visual-view="entries">Entries</button>
-    <button class="blog-tab" type="button" data-visual-library="poster-projects" data-visual-view="compositions">Compositions</button>
-    <button class="blog-tab" type="button" data-visual-library="poster-projects" data-visual-view="assets">Assets</button>
-    <button class="blog-tab" type="button" data-visual-library="poster-projects" data-visual-view="motion">Motion</button>
-    <button class="blog-tab" type="button" data-visual-library="poster-projects" data-visual-view="interactions">Interactions</button>
-  </div>
-  <div id="visual-panels-poster-projects"></div>
-</div>
-
-<!-- Editorial Magazine Projects Section -->
-<div class="container catalog-page" id="editorial-magazine-projects" data-catalog-page="editorial-magazine-projects">
-  <div class="sec-rule">
-    <span><span class="roman">IV.</span> Editorial Magazine Projects / 杂志与 Editorial</span>
-    <span id="cnt-editorial-magazine-projects"></span>
-  </div>
-  <div class="sec-head">
-    <div>
-      <span class="label">Editorial · Nº 04</span>
-      <h2>Editorial references as systems:<br>covers, spreads, reading flow, and <em>image rhythm</em><span style="color:var(--coral)">.</span></h2>
-    </div>
-    <div class="result-count">Publication rhythm · layout notes · source links</div>
-  </div>
-  <div class="blog-tabs" role="tablist" aria-label="Editorial magazine project views">
-    <button class="blog-tab active" type="button" data-visual-library="editorial-magazine-projects" data-visual-view="entries">Entries</button>
-    <button class="blog-tab" type="button" data-visual-library="editorial-magazine-projects" data-visual-view="compositions">Compositions</button>
-    <button class="blog-tab" type="button" data-visual-library="editorial-magazine-projects" data-visual-view="assets">Assets</button>
-    <button class="blog-tab" type="button" data-visual-library="editorial-magazine-projects" data-visual-view="motion">Motion</button>
-    <button class="blog-tab" type="button" data-visual-library="editorial-magazine-projects" data-visual-view="interactions">Interactions</button>
-  </div>
-  <div id="visual-panels-editorial-magazine-projects"></div>
-</div>
-
-<!-- Campaign Visual Projects Section -->
-<div class="container catalog-page" id="campaign-visual-projects" data-catalog-page="campaign-visual-projects">
-  <div class="sec-rule">
-    <span><span class="roman">V.</span> Campaign Visual Projects / 宣传视觉</span>
-    <span id="cnt-campaign-visual-projects"></span>
-  </div>
-  <div class="sec-head">
-    <div>
-      <span class="label">Campaigns · Nº 05</span>
-      <h2>Campaign visuals as systems:<br>key art, channel crops, motion cutdowns, and <em>art direction</em><span style="color:var(--coral)">.</span></h2>
-    </div>
-    <div class="result-count">Static + dynamic · promo systems · reuse rules</div>
-  </div>
-  <div class="blog-tabs" role="tablist" aria-label="Campaign visual project views">
-    <button class="blog-tab active" type="button" data-visual-library="campaign-visual-projects" data-visual-view="entries">Entries</button>
-    <button class="blog-tab" type="button" data-visual-library="campaign-visual-projects" data-visual-view="compositions">Compositions</button>
-    <button class="blog-tab" type="button" data-visual-library="campaign-visual-projects" data-visual-view="assets">Assets</button>
-    <button class="blog-tab" type="button" data-visual-library="campaign-visual-projects" data-visual-view="motion">Motion</button>
-    <button class="blog-tab" type="button" data-visual-library="campaign-visual-projects" data-visual-view="interactions">Interactions</button>
-  </div>
-  <div id="visual-panels-campaign-visual-projects"></div>
-</div>
-
-<!-- Motion Interaction Projects Section -->
-<div class="container catalog-page" id="motion-interaction-projects" data-catalog-page="motion-interaction-projects">
-  <div class="sec-rule">
-    <span><span class="roman">VI.</span> Motion Interaction Projects / 视觉动态交互</span>
-    <span id="cnt-motion-interaction-projects"></span>
-  </div>
-  <div class="sec-head">
-    <div>
-      <span class="label">Motion · Nº 06</span>
-      <h2>Frontend motion references:<br>scroll, pointer, morphs, transitions, and <em>fallbacks</em><span style="color:var(--coral)">.</span></h2>
-    </div>
-    <div class="result-count">Motion behavior · interaction notes · reduced-motion fallback</div>
-  </div>
-  <div class="blog-tabs" role="tablist" aria-label="Motion interaction project views">
-    <button class="blog-tab active" type="button" data-visual-library="motion-interaction-projects" data-visual-view="entries">Entries</button>
-    <button class="blog-tab" type="button" data-visual-library="motion-interaction-projects" data-visual-view="compositions">Compositions</button>
-    <button class="blog-tab" type="button" data-visual-library="motion-interaction-projects" data-visual-view="assets">Assets</button>
-    <button class="blog-tab" type="button" data-visual-library="motion-interaction-projects" data-visual-view="motion">Motion</button>
-    <button class="blog-tab" type="button" data-visual-library="motion-interaction-projects" data-visual-view="interactions">Interactions</button>
-  </div>
-  <div id="visual-panels-motion-interaction-projects"></div>
-</div>
-
 <!-- Product UI Projects Section -->
 <div class="container catalog-page" id="product-ui-projects" data-catalog-page="product-ui-projects">
   <div class="sec-rule">
-    <span><span class="roman">VII.</span> Product UI Projects / 项目级产品界面</span>
+    <span><span class="roman">III.</span> Product UI Projects / 项目级产品界面</span>
     <span id="cnt-product-ui-projects"></span>
   </div>
   <div class="sec-head">
     <div>
-      <span class="label">Product UI · Nº 07</span>
+      <span class="label">Product UI · Nº 03</span>
       <h2>Product interfaces as suites:<br>surfaces, flows, states, and <em>components</em><span style="color:var(--coral)">.</span></h2>
     </div>
     <div class="result-count">Local previews · source links · coverage depth</div>
@@ -463,12 +359,12 @@ body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
 <!-- Commercial Product Launches Section -->
 <div class="container catalog-page" id="commercial-launches" data-catalog-page="commercial-launches">
   <div class="sec-rule">
-    <span><span class="roman">VIII.</span> Commercial Launches / 商业产品发布页</span>
+    <span><span class="roman">IV.</span> Commercial Launches / 商业产品发布页</span>
     <span id="cnt-commercial-launches"></span>
   </div>
   <div class="sec-head">
     <div>
-      <span class="label">Launches · Nº 08</span>
+      <span class="label">Launches · Nº 04</span>
       <h2>Commercial pages as systems:<br>brands, modules, assets, and <em>motion</em><span style="color:var(--coral)">.</span></h2>
     </div>
     <div class="result-count">Source links · media needs · conversion patterns</div>
@@ -545,12 +441,12 @@ body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
 <!-- Personal Blog Projects Section -->
 <div class="container catalog-page" id="blog-projects" data-catalog-page="blog-projects">
   <div class="sec-rule">
-    <span><span class="roman">IX.</span> Personal Blog Projects / 个人博客项目</span>
+    <span><span class="roman">V.</span> Personal Blog Projects / 个人博客项目</span>
     <span id="cnt-blog-projects"></span>
   </div>
   <div class="sec-head">
     <div>
-      <span class="label">Blogs · Nº 09</span>
+      <span class="label">Blogs · Nº 05</span>
       <h2>Personal blogs as systems:<br>sites, pages, and <em>blocks</em><span style="color:var(--coral)">.</span></h2>
     </div>
     <div class="result-count">Source links · page URLs · block references</div>
@@ -601,12 +497,12 @@ body { background:var(--paper); color:var(--ink); font-family:var(--sans); }
 <!-- Design Systems Section -->
 <div class="container catalog-page" id="design-systems" data-catalog-page="design-systems">
   <div class="sec-rule">
-    <span><span class="roman">X.</span> Design Systems / 设计系统</span>
+    <span><span class="roman">VI.</span> Design Systems / 设计系统</span>
     <span id="cnt-ds"></span>
   </div>
   <div class="sec-head">
     <div>
-      <span class="label">Systems · Nº 10</span>
+      <span class="label">Systems · Nº 06</span>
       <h2>Portable brand systems<br>as <em>Markdown</em><span style="color:var(--coral)">.</span></h2>
     </div>
     <div class="pills" id="filters-design-systems"></div>
@@ -791,43 +687,6 @@ const BLOG_STATE = {
   pages: { filter: 'all', query: '' },
   blocks: { filter: 'all', query: '' }
 };
-const VISUAL_LIBRARY_CONFIG = {
-  'poster-projects': {
-    label: 'Poster Projects',
-    data: () => POSTER_PROJECTS || { entries: [], compositions: [], assets: [], motion: [], interactions: [] },
-    preview: 'design-templates/poster-projects/example.html',
-    tabs: ['entries','compositions','assets','motion','interactions']
-  },
-  'editorial-magazine-projects': {
-    label: 'Editorial Magazine Projects',
-    data: () => EDITORIAL_MAGAZINE_PROJECTS || { entries: [], compositions: [], assets: [], motion: [], interactions: [] },
-    preview: 'design-templates/editorial-magazine-projects/example.html',
-    tabs: ['entries','compositions','assets','motion','interactions']
-  },
-  'campaign-visual-projects': {
-    label: 'Campaign Visual Projects',
-    data: () => CAMPAIGN_VISUAL_PROJECTS || { entries: [], compositions: [], assets: [], motion: [], interactions: [] },
-    preview: 'design-templates/campaign-visual-projects/example.html',
-    tabs: ['entries','compositions','assets','motion','interactions']
-  },
-  'motion-interaction-projects': {
-    label: 'Motion Interaction Projects',
-    data: () => MOTION_INTERACTION_PROJECTS || { entries: [], compositions: [], assets: [], motion: [], interactions: [] },
-    preview: 'design-templates/motion-interaction-projects/example.html',
-    tabs: ['entries','compositions','assets','motion','interactions']
-  }
-};
-const VISUAL_STATE = Object.fromEntries(Object.keys(VISUAL_LIBRARY_CONFIG).map(slug => [
-  slug,
-  {
-    active: 'entries',
-    entries: { filter: 'all', query: '' },
-    compositions: { filter: 'all', query: '' },
-    assets: { filter: 'all', query: '' },
-    motion: { filter: 'all', query: '' },
-    interactions: { filter: 'all', query: '' }
-  }
-]));
 
 function embeddedPreview(preview, label) {
   if (!preview) return '';
@@ -953,167 +812,6 @@ function cardMeta(c) {
     tags.push('<span class="capture-tag">'+escHtml(c.batch)+'</span>');
   }
   return tags.join('');
-}
-
-function renderVisualLibraries() {
-  Object.keys(VISUAL_LIBRARY_CONFIG).forEach(renderVisualLibrary);
-}
-
-function renderVisualLibrary(slug) {
-  const config = VISUAL_LIBRARY_CONFIG[slug];
-  if (!config) return;
-  const data = config.data();
-  const entries = data.entries || [];
-  const compositions = data.compositions || [];
-  const assets = data.assets || [];
-  const motion = data.motion || [];
-  const interactions = data.interactions || [];
-  const count = document.getElementById('cnt-' + slug);
-  if (count) count.textContent = entries.length + ' entries · ' + compositions.length + ' compositions · ' + assets.length + ' assets · ' + motion.length + ' motion · ' + interactions.length + ' interactions';
-  const stat = document.getElementById('stat-' + slug);
-  if (stat) stat.textContent = entries.length;
-  const panelHost = document.getElementById('visual-panels-' + slug);
-  if (panelHost && !panelHost.dataset.initialized) {
-    panelHost.innerHTML = config.tabs.map((view, index) => renderVisualPanel(slug, view, index === 0)).join('');
-    panelHost.dataset.initialized = 'true';
-  }
-  config.tabs.forEach(view => renderVisualView(slug, view, data[view] || []));
-}
-
-function renderVisualPanel(slug, view, active) {
-  const readable = view === 'entries' ? 'entries, category, source' : view;
-  return '<div class="blog-panel'+(active?' active':'')+'" id="visual-panel-'+slug+'-'+view+'">'
-    +'<div class="section-tools"><div class="search-wrap">'
-    +'<input class="search-input" placeholder="Search '+escAttr(readable)+'..." data-visual-search-library="'+escAttr(slug)+'" data-visual-search-view="'+escAttr(view)+'">'
-    +'<button class="clear-btn" type="button" data-visual-clear-library="'+escAttr(slug)+'" data-visual-clear-view="'+escAttr(view)+'">Clear</button>'
-    +'</div><div class="result-count" id="visible-visual-'+slug+'-'+view+'"></div></div>'
-    +'<div class="pills" id="filters-visual-'+slug+'-'+view+'"></div>'
-    +'<div class="blog-grid" id="grid-visual-'+slug+'-'+view+'"></div>'
-    +'<div class="empty-state" id="empty-visual-'+slug+'-'+view+'">No matching visual references. Clear search or switch back to All.</div>'
-    +'</div>';
-}
-
-function renderVisualView(slug, view, items) {
-  renderVisualFilters(slug, view, items);
-  const grid = document.getElementById('grid-visual-' + slug + '-' + view);
-  if (!grid) return;
-  grid.innerHTML = items.map(item => renderVisualCard(slug, view, item)).join('');
-  applyVisualFilters(slug, view);
-  initEmbeddedPreviews(grid);
-}
-
-function renderVisualCard(slug, view, item) {
-  const config = VISUAL_LIBRARY_CONFIG[slug];
-  const filter = visualFilterKey(view, item);
-  const search = visualSearchText(item);
-  if (view === 'entries') {
-    const coverage = item.compositionCount + ' compositions · ' + item.assetCount + ' assets · ' + item.motionCount + ' motion · ' + item.interactionCount + ' interactions';
-    return '<article class="blog-card" data-filter="'+escAttr(filter)+'" data-search="'+escAttr(search)+'">'
-      +'<div class="blog-card-preview">'+embeddedPreview(item.preview || config.preview, item.title)+'</div>'
-      +'<div class="blog-card-head"><div><div class="blog-card-kicker">'+escHtml(visualFilterLabel(filter))+'</div><div class="blog-card-title">'+escHtml(item.title)+'<small>'+escHtml(item.medium)+' · '+escHtml(item.format)+'</small></div></div><span class="blog-chip">'+escHtml(item.captureDepth||'captured')+'</span></div>'
-      +'<p class="blog-card-desc">'+escHtml(item.why)+'</p>'
-      +'<div class="blog-card-meta">'+blogChips([coverage,item.reusePolicy,item.complexity])+'</div>'
-      +(item.url?'<div class="blog-url">'+escHtml(item.url)+'</div>':'')
-      +'<div class="blog-actions">'+(item.url?'<a href="'+escAttr(item.url)+'" target="_blank" rel="noreferrer">Open Ref</a>':'')+'<button type="button" data-visual-preview="'+escAttr(item.preview || config.preview)+'" data-visual-title="'+escAttr(item.title)+'">Preview</button></div>'
-      +'</article>';
-  }
-  const title = item.title || item.role || item.type;
-  const body = item.study || item.notes || item.reuse || item.fallback || '';
-  return '<article class="blog-card" data-filter="'+escAttr(filter)+'" data-search="'+escAttr(search)+'">'
-    +'<div class="blog-card-head"><div><div class="blog-card-kicker">'+escHtml(visualFilterLabel(filter))+'</div><div class="blog-card-title">'+escHtml(title)+'<small>'+escHtml(item.entryTitle)+' · '+escHtml(item.medium)+'</small></div></div><span class="blog-chip">'+escHtml(item.category||'ref')+'</span></div>'
-    +'<p class="blog-card-desc">'+escHtml(body)+'</p>'
-    +(item.reuse?'<p class="blog-card-desc"><strong>Reuse:</strong> '+escHtml(item.reuse)+'</p>':'')
-    +(item.fallback?'<p class="blog-card-desc"><strong>Fallback:</strong> '+escHtml(item.fallback)+'</p>':'')
-    +'<div class="blog-card-meta">'+blogChips([item.type,item.role,item.captured])+'</div>'
-    +(item.url?'<div class="blog-url">'+escHtml(item.url)+'</div>':'')
-    +'<div class="blog-actions">'+(item.url?'<a href="'+escAttr(item.url)+'" target="_blank" rel="noreferrer">Open Ref</a>':'')+'</div>'
-    +'</article>';
-}
-
-function renderVisualFilters(slug, view, items) {
-  const fb = document.getElementById('filters-visual-' + slug + '-' + view);
-  if (!fb) return;
-  const counts = {};
-  items.forEach(item => {
-    const key = visualFilterKey(view, item);
-    counts[key] = (counts[key] || 0) + 1;
-  });
-  const buttons = ['<button class="pill active" type="button" data-visual-filter-library="'+slug+'" data-visual-filter-view="'+view+'" data-visual-filter="all">All<span class="count">'+items.length+'</span></button>'];
-  Object.keys(counts).sort().forEach(key => {
-    buttons.push('<button class="pill" type="button" data-visual-filter-library="'+slug+'" data-visual-filter-view="'+view+'" data-visual-filter="'+escAttr(key)+'">'+escHtml(visualFilterLabel(key))+'<span class="count">'+counts[key]+'</span></button>');
-  });
-  fb.innerHTML = buttons.join('');
-}
-
-function visualFilterKey(view, item) {
-  if (view === 'entries') return item.category || item.medium || 'uncategorized';
-  return item.type || item.role || 'uncategorized';
-}
-
-function visualFilterLabel(key) {
-  return key.replace(/-/g, ' ').replace(/\b\w/g, letter => letter.toUpperCase());
-}
-
-function visualSearchText(item) {
-  return [
-    item.id, item.entryId, item.title, item.entryTitle, item.category, item.maker,
-    item.url, item.medium, item.format, item.why, item.implementationFormat,
-    item.complexity, item.captureDepth, item.reusePolicy, item.type, item.role,
-    item.study, item.notes, item.reuse, item.fallback, item.captured
-  ].filter(Boolean).join(' ').toLowerCase();
-}
-
-function setVisualView(slug, view) {
-  if (!VISUAL_STATE[slug]) return;
-  VISUAL_STATE[slug].active = view;
-  document.querySelectorAll('.blog-tab[data-visual-library="'+slug+'"]').forEach(btn => btn.classList.toggle('active', btn.dataset.visualView === view));
-  document.querySelectorAll('[id^="visual-panel-'+slug+'-"]').forEach(panel => panel.classList.toggle('active', panel.id === 'visual-panel-' + slug + '-' + view));
-}
-
-function filterVisual(slug, view, q) {
-  if (!VISUAL_STATE[slug] || !VISUAL_STATE[slug][view]) return;
-  VISUAL_STATE[slug][view].query = (q || '').trim().toLowerCase();
-  const input = document.querySelector('#visual-panel-' + slug + '-' + view + ' .search-input');
-  const clear = document.querySelector('#visual-panel-' + slug + '-' + view + ' .clear-btn');
-  if (input && input.value !== q) input.value = q;
-  if (clear) clear.classList.toggle('active', Boolean(VISUAL_STATE[slug][view].query));
-  applyVisualFilters(slug, view);
-}
-
-function clearVisualSearch(slug, view) {
-  const input = document.querySelector('#visual-panel-' + slug + '-' + view + ' .search-input');
-  if (input) input.value = '';
-  filterVisual(slug, view, '');
-}
-
-function setVisualFilter(slug, view, value, btn) {
-  if (!VISUAL_STATE[slug] || !VISUAL_STATE[slug][view]) return;
-  VISUAL_STATE[slug][view].filter = value;
-  const fb = document.getElementById('filters-visual-' + slug + '-' + view);
-  if (fb) {
-    fb.querySelectorAll('.pill').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-  }
-  applyVisualFilters(slug, view);
-}
-
-function applyVisualFilters(slug, view) {
-  const grid = document.getElementById('grid-visual-' + slug + '-' + view);
-  if (!grid || !VISUAL_STATE[slug] || !VISUAL_STATE[slug][view]) return;
-  const cards = grid.children;
-  const state = VISUAL_STATE[slug][view];
-  let visible = 0;
-  for (let card of cards) {
-    const matchesFilter = state.filter === 'all' || card.dataset.filter === state.filter;
-    const matchesQuery = !state.query || (card.dataset.search || '').includes(state.query);
-    const show = matchesFilter && matchesQuery;
-    card.style.display = show ? '' : 'none';
-    if (show) visible++;
-  }
-  const result = document.getElementById('visible-visual-' + slug + '-' + view);
-  if (result) result.textContent = visible + ' / ' + cards.length + ' showing';
-  const empty = document.getElementById('empty-visual-' + slug + '-' + view);
-  if (empty) empty.classList.toggle('active', visible === 0);
 }
 
 function renderProductUiProjects() {
@@ -1521,7 +1219,7 @@ function escAttr(s){
   return escHtml(s).replace(/'/g,'&#39;');
 }
 
-const CATALOG_PAGE_IDS = ['templates','poster-projects','editorial-magazine-projects','campaign-visual-projects','motion-interaction-projects','product-ui-projects','commercial-launches','blog-projects','design-systems','skills'];
+const CATALOG_PAGE_IDS = ['templates','product-ui-projects','commercial-launches','blog-projects','design-systems','skills'];
 
 function currentCatalogPage() {
   const hash = (window.location.hash || '').replace(/^#/, '');
@@ -1669,30 +1367,6 @@ document.addEventListener('click',function(e){
     return;
   }
 
-  const visualTab=e.target.closest('.blog-tab[data-visual-library][data-visual-view]');
-  if (visualTab) {
-    setVisualView(visualTab.dataset.visualLibrary, visualTab.dataset.visualView);
-    return;
-  }
-
-  const visualFilter=e.target.closest('.pill[data-visual-filter-library]');
-  if (visualFilter) {
-    setVisualFilter(visualFilter.dataset.visualFilterLibrary, visualFilter.dataset.visualFilterView, visualFilter.dataset.visualFilter, visualFilter);
-    return;
-  }
-
-  const visualClear=e.target.closest('[data-visual-clear-library]');
-  if (visualClear) {
-    clearVisualSearch(visualClear.dataset.visualClearLibrary, visualClear.dataset.visualClearView);
-    return;
-  }
-
-  const visualPreview=e.target.closest('[data-visual-preview]');
-  if (visualPreview && visualPreview.dataset.visualPreview) {
-    openModal(visualPreview.dataset.visualPreview, visualPreview.dataset.visualTitle || 'Visual Case Library', 'Visual case-library preview', 'prototype');
-    return;
-  }
-
   const productUiFilter=e.target.closest('.pill[data-product-ui-filter-view]');
   if (productUiFilter) {
     setProductUiFilter(productUiFilter.dataset.productUiFilterView, productUiFilter.dataset.productUiFilter, productUiFilter);
@@ -1735,19 +1409,11 @@ document.addEventListener('click',function(e){
   }
 });
 
-document.addEventListener('input',function(e){
-  const visualSearch=e.target.closest('[data-visual-search-library]');
-  if (visualSearch) {
-    filterVisual(visualSearch.dataset.visualSearchLibrary, visualSearch.dataset.visualSearchView, visualSearch.value);
-  }
-});
-
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
 window.addEventListener('hashchange', () => setCatalogPage(currentCatalogPage(), { updateHash: false, scroll: false }));
 
 render('skills');
 render('templates');
-renderVisualLibraries();
 renderProductUiProjects();
 renderCommercialLaunches();
 renderBlogProjects();

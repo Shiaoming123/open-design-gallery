@@ -1,0 +1,101 @@
+{
+  "id": "pepsi-crave-liquid-asset-campaign",
+  "category": "beverage-brand-campaign-asset-system",
+  "project": {
+    "title": "Pepsi \"Crave\"",
+    "maker": "BUCK for Pepsi",
+    "url": "https://buck.co/work/pepsi-crave",
+    "medium": "campaign-visual-system",
+    "format": "Global beverage campaign centered on a 30-second hero film and a reusable liquid-footage asset library for regional content"
+  },
+  "why": "A strong campaign-visual reference because the BUCK case is not just a polished one-off film. It documents a campaign system built from practical liquid shots, motion-control capture, and swappable pack assets that Pepsi teams could reuse across markets. That makes it useful for studying how a sensory hero concept can become a modular global rollout kit rather than a single locked edit.",
+  "artDirection": [
+    {
+      "type": "liquid-physics-spectacle",
+      "title": "Practical cola physics become the campaign's main character",
+      "url": "https://buck.co/work/pepsi-crave",
+      "study": "BUCK frames propelled cola, splashes, bubbles, and impact moments as the visual star of the campaign, using custom rigs and motion-control capture so the product sensation reads before copy does.",
+      "reuse": "When the product promise is visceral, build the campaign around one physical behavior viewers can feel immediately instead of surrounding the pack with unrelated lifestyle scenes."
+    },
+    {
+      "type": "macro-product-closeup",
+      "title": "Condensation, ice, and tight pack crops sell thirst at speed",
+      "url": "https://buck.co/work/pepsi-crave",
+      "study": "The case repeatedly emphasizes close, high-detail shots of cans and bottles with condensation intact, paired with flashes of humanity only where they intensify the anticipation arc.",
+      "reuse": "Use macro product framing when the campaign needs to communicate appetite or texture instantly on large screens and in short edits."
+    },
+    {
+      "type": "asset-library-first-production",
+      "title": "The hero film is designed from a reusable shot kit",
+      "url": "https://buck.co/work/pepsi-crave",
+      "study": "Rather than producing a fixed hero film first and repurposing it later, BUCK describes building a library of multi-functional cola shots that could serve both the flagship spot and downstream regional content.",
+      "reuse": "Plan the asset library before the master edit when global teams will need many derivatives from one expensive production shoot."
+    }
+  ],
+  "channelFormats": [
+    {
+      "type": "hero-film",
+      "title": "Thirty-second flagship film",
+      "notes": "The campaign's anchor is a short hero film that moves through anticipation, impact, and satisfaction using high-speed liquid moments and quick flashes of humanity.",
+      "cropSystem": "Compose shots with enough negative space and isolated action that the same footage can be reframed for multiple aspect ratios without losing the product read.",
+      "reuse": "Build the hero film from shots that can survive extraction, not only from transitions that work in one locked timeline."
+    },
+    {
+      "type": "regional-content-kit",
+      "title": "Global teams receive swap-ready campaign assets",
+      "notes": "BUCK states that Pepsi needed the footage to work for teams across the globe, with cans and bottles flexible enough to swap logos while preserving ice and condensation.",
+      "cropSystem": "Keep brand marks, pack silhouettes, and liquid motion separated enough in comp that localized branding can change without reshooting the whole sequence.",
+      "reuse": "If a campaign must scale internationally, bake localization flexibility into the source footage and compositing plan from day one."
+    }
+  ],
+  "assets": [
+    {
+      "type": "high-speed-liquid-footage",
+      "role": "Sensory hero material",
+      "notes": "Custom-shot liquid footage provides the campaign's core emotional and visual payoff, functioning as both a cinematic centerpiece and modular raw material.",
+      "reuse": "Invest in a few unforgettable physical captures when the product's appeal depends on texture, force, or refreshment."
+    },
+    {
+      "type": "logo-swappable-packshots",
+      "role": "Regional adaptation layer",
+      "notes": "Pack shots are built to support logo replacement while maintaining consistent ice, condensation, and appetite cues.",
+      "reuse": "Separate product realism from market-specific branding so the same campaign base can travel globally."
+    },
+    {
+      "type": "ice-condensation-finish",
+      "role": "Credibility and appetite signal",
+      "notes": "The preserved wet surface treatment keeps every derivative asset feeling cold and tactile even after brand swapping and recropping.",
+      "reuse": "Treat surface detail as a system requirement, not just a finishing flourish, when the campaign is selling refreshment."
+    }
+  ],
+  "motion": [
+    {
+      "type": "slow-motion-impact",
+      "title": "High-speed motion control turns refreshment into spectacle",
+      "notes": "The moving image language depends on slow-motion collisions, splashes, and propelled liquid events captured through specialized rigs and cameras.",
+      "fallback": "If this level of production is unavailable, keep the same appetite logic through fewer but sharper practical shots instead of replacing everything with generic CG motion."
+    },
+    {
+      "type": "thirst-arc-editing",
+      "title": "Motion follows a clear crave-to-satisfaction progression",
+      "notes": "BUCK describes an emotional arc of crave, consumption, and satisfaction, which makes the edit feel like a campaign story rather than a disconnected reel of pretty liquid shots.",
+      "fallback": "Even in short cutdowns, preserve a simple tension-release sequence so the motion still communicates a product feeling."
+    }
+  ],
+  "interactions": [],
+  "implementation": {
+    "format": "Global beverage campaign system built from hero-film footage, localization-ready packshots, and downstream regional derivatives",
+    "complexity": "high",
+    "notes": "This is strong enough for accepted status because the first-party BUCK case explicitly covers the campaign's purpose, the reusable shot-library strategy, the motion-control production method, and the global adaptation requirement. It offers enough evidence to study campaign asset modularity without copying Pepsi-owned visuals."
+  },
+  "capture": {
+    "date": "2026-07-09",
+    "sourceLinks": [
+      "https://buck.co/work/pepsi-crave"
+    ],
+    "attribution": "BUCK for Pepsi with production partner The Garage",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "artifact-study"
+  },
+  "status": "accepted"
+}

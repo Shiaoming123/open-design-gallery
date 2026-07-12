@@ -1,30 +1,18 @@
 {
-  "schemaVersion": "od-visual-case-library/v1",
-  "captured": "2026-06-27",
-  "description": "Project-level references for posters, event key visuals, typographic posters, and product key visuals. External artwork remains source material only.",
+  "schemaVersion": "od-poster-projects/v1",
+  "captured": "2026-07-10",
+  "description": "A source-linked case library for notable posters, key visuals, and typographic print artifacts. Entries capture composition, asset logic, annotation systems, and reusable visual principles without copying external artwork.",
   "indexes": {
-    "entryTypes": [
-      "event-poster",
-      "type-poster",
-      "product-key-visual",
-      "cultural-poster"
-    ],
-    "compositionTypes": [
-      "hero-type",
-      "image-type-lockup",
-      "grid-broadside",
-      "serial-system"
-    ],
-    "assetTypes": [
-      "type-treatment",
-      "image-crop",
-      "texture",
-      "color-system"
-    ]
+    "views": ["entries", "compositions", "assets", "motion", "interactions"],
+    "compositionTypes": ["single-image-field", "white-ground-layout", "forensic-caption", "type-lockup", "slogan-field", "flag-fragment-layering", "march-poster-grid", "circular-seat-grid", "layered-color-tapestry", "compressed-wpa-grid", "checkerboard-accent-band"],
+    "assetTypes": ["experimental-photography", "annotation-type", "display-title", "process-film", "hand-drawn-lettering", "flag-fragment-graphics", "manifesto-copy", "concentric-color-shapes", "custom-condensed-typeface", "checkerboard-pattern"],
+    "motionTypes": ["process-film", "digital-poster-loop"],
+    "interactionTypes": ["digital-poster-loop"]
   },
   "entryFiles": [
-    "entries/swiss-cultural-poster-system.json",
-    "entries/munich-1972-sports-poster-system.json",
-    "entries/public-theater-typographic-posters.json"
+    "entries/its-all-our-blood-hiroshima-nagasaki-commemorative-poster.json",
+    "entries/european-design-festival-protest-identity-posters.json",
+    "entries/shakespeare-in-the-park-2025-reopening-posters.json",
+    "entries/storefront-gala-2025-wpa-event-posters.json"
   ]
 }

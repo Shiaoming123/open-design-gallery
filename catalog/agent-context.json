@@ -2,11 +2,11 @@
   "schemaVersion": "od-agent-context/v1",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "totals": {
-    "assets": 361,
+    "assets": 429,
     "libraries": 7,
-    "caseStudyEntries": 93,
-    "sourceUrlHashes": 324,
-    "thinEntries": 2
+    "caseStudyEntries": 101,
+    "sourceUrlHashes": 342,
+    "thinEntries": 8
   },
   "libraries": [
     {
@@ -14,13 +14,12 @@
       "kind": "case-study",
       "sourcePath": "design-templates/campaign-visual-projects/references/catalog.json",
       "previewPath": "design-templates/campaign-visual-projects/example.html",
-      "totalEntries": 3,
+      "totalEntries": 4,
       "statusCounts": {
-        "accepted": 3
+        "accepted": 4
       },
       "captureDepthCounts": {
-        "campaign-system-reference": 2,
-        "motion-campaign-reference": 1
+        "artifact-study": 4
       },
       "thinEntries": []
     },
@@ -43,14 +42,12 @@
       "kind": "case-study",
       "sourcePath": "design-templates/editorial-magazine-projects/references/catalog.json",
       "previewPath": "design-templates/editorial-magazine-projects/example.html",
-      "totalEntries": 3,
+      "totalEntries": 4,
       "statusCounts": {
-        "accepted": 3
+        "accepted": 4
       },
       "captureDepthCounts": {
-        "layout-system-reference": 1,
-        "spread-sequence-reference": 1,
-        "visual-essay-reference": 1
+        "artifact-study": 4
       },
       "thinEntries": []
     },
@@ -59,16 +56,22 @@
       "kind": "case-study",
       "sourcePath": "design-templates/motion-interaction-projects/references/catalog.json",
       "previewPath": "design-templates/motion-interaction-projects/example.html",
-      "totalEntries": 3,
+      "totalEntries": 6,
       "statusCounts": {
-        "accepted": 3
+        "backfill-needed": 2,
+        "accepted": 4
       },
       "captureDepthCounts": {
-        "interaction-system-reference": 1,
-        "pattern-collection-reference": 1,
-        "interaction-prototype-reference": 1
+        "single-page-lead": 6
       },
-      "thinEntries": []
+      "thinEntries": [
+        "motion-interaction-projects:active-theory-creative-digital-experiences",
+        "motion-interaction-projects:resn-creative-digital-agency-homepage",
+        "motion-interaction-projects:cuberto-hello-digital-solutions-homepage",
+        "motion-interaction-projects:kode-immersive-tech-enabled-creativity-homepage",
+        "motion-interaction-projects:unseen-studio-year-in-review-2025",
+        "motion-interaction-projects:david-whyte-companion-portal-experience"
+      ]
     },
     {
       "id": "personal-blog-projects",
@@ -95,14 +98,12 @@
       "kind": "case-study",
       "sourcePath": "design-templates/poster-projects/references/catalog.json",
       "previewPath": "design-templates/poster-projects/example.html",
-      "totalEntries": 3,
+      "totalEntries": 4,
       "statusCounts": {
-        "accepted": 3
+        "accepted": 4
       },
       "captureDepthCounts": {
-        "composition-reference": 1,
-        "serial-system-reference": 1,
-        "typographic-poster-reference": 1
+        "artifact-study": 4
       },
       "thinEntries": []
     },
@@ -111,24 +112,24 @@
       "kind": "case-study",
       "sourcePath": "design-templates/product-ui-projects/references/catalog.json",
       "previewPath": "design-templates/product-ui-projects/example.html",
-      "totalEntries": 3,
+      "totalEntries": 5,
       "statusCounts": {
-        "accepted": 3
+        "accepted": 5
       },
       "captureDepthCounts": {
-        "surface-suite": 3
+        "surface-suite": 5
       },
       "thinEntries": []
     }
   ],
   "entries": [
     {
-      "assetId": "campaign-visual-projects:airbnb-aircover-miniature-motion-campaign",
+      "assetId": "campaign-visual-projects:demo-2025-global-motion-design-festival-campaign",
       "libraryId": "campaign-visual-projects",
-      "title": "Airbnb Aircover Miniature Motion Campaign",
+      "title": "DEMO 2025",
       "status": "accepted",
-      "captureDepth": "motion-campaign-reference",
-      "sourcePath": "design-templates/campaign-visual-projects/references/entries/airbnb-aircover-miniature-motion-campaign.json",
+      "captureDepth": "artifact-study",
+      "sourcePath": "design-templates/campaign-visual-projects/references/entries/demo-2025-global-motion-design-festival-campaign.json",
       "previewPath": "design-templates/campaign-visual-projects/example.html",
       "roles": [
         "campaign-art-direction",
@@ -137,23 +138,50 @@
       ],
       "tags": [
         "campaign",
-        "product-promo",
-        "product protection campaign film and still system",
-        "miniature world plus CG character campaign",
-        "motion-campaign-reference"
+        "motion-design-festival-campaign-visual-system",
+        "campaign-visual-system",
+        "Global motion-design festival identity spanning public screens, an interactive digital universe, sound, and wearable merchandise",
+        "artifact-study"
       ],
       "sourceUrlHashes": [
-        "5d926e741f86572c"
+        "65f131fe1b6d2548",
+        "9820c7c391f2303f",
+        "f7513856b616a2ce"
+      ],
+      "sourceUrlCount": 3
+    },
+    {
+      "assetId": "campaign-visual-projects:nike-art-of-victory-centre-pompidou-campaign",
+      "libraryId": "campaign-visual-projects",
+      "title": "Nike au Centre Pompidou",
+      "status": "accepted",
+      "captureDepth": "artifact-study",
+      "sourcePath": "design-templates/campaign-visual-projects/references/entries/nike-art-of-victory-centre-pompidou-campaign.json",
+      "previewPath": "design-templates/campaign-visual-projects/example.html",
+      "roles": [
+        "campaign-art-direction",
+        "asset-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "campaign",
+        "olympic-brand-campaign-visual-system",
+        "campaign-visual-system",
+        "2024 Olympics-era exhibition and brand campaign spanning social assets, signage, posters, merch, and façade-scale motion",
+        "artifact-study"
+      ],
+      "sourceUrlHashes": [
+        "f807f0e1c3286657"
       ],
       "sourceUrlCount": 1
     },
     {
-      "assetId": "campaign-visual-projects:multi-format-campaign-visual-system",
+      "assetId": "campaign-visual-projects:notion-think-it-make-it-brand-campaign",
       "libraryId": "campaign-visual-projects",
-      "title": "Multi-format Campaign Visual System",
+      "title": "Think it. Make it.",
       "status": "accepted",
-      "captureDepth": "campaign-system-reference",
-      "sourcePath": "design-templates/campaign-visual-projects/references/entries/multi-format-campaign-visual-system.json",
+      "captureDepth": "artifact-study",
+      "sourcePath": "design-templates/campaign-visual-projects/references/entries/notion-think-it-make-it-brand-campaign.json",
       "previewPath": "design-templates/campaign-visual-projects/example.html",
       "roles": [
         "campaign-art-direction",
@@ -162,41 +190,41 @@
       ],
       "tags": [
         "campaign",
-        "brand-campaign",
-        "static and motion campaign",
-        "key visual plus channel variants",
-        "campaign-system-reference"
+        "saas-brand-awareness-campaign-visual-system",
+        "campaign-visual-system",
+        "2024 global brand-awareness campaign spanning OOH, transit placements, social crops, and an animated anthem",
+        "artifact-study"
       ],
       "sourceUrlHashes": [
-        "b302a9c555c0b492"
-      ],
-      "sourceUrlCount": 1
-    },
-    {
-      "assetId": "campaign-visual-projects:spotify-wrapped-shareable-identity-system",
-      "libraryId": "campaign-visual-projects",
-      "title": "Spotify Wrapped Shareable Identity System",
-      "status": "accepted",
-      "captureDepth": "campaign-system-reference",
-      "sourcePath": "design-templates/campaign-visual-projects/references/entries/spotify-wrapped-shareable-identity-system.json",
-      "previewPath": "design-templates/campaign-visual-projects/example.html",
-      "roles": [
-        "campaign-art-direction",
-        "asset-direction",
-        "motion-patterns"
-      ],
-      "tags": [
-        "campaign",
-        "brand-campaign",
-        "brand and campaign identity",
-        "personalized social campaign system",
-        "campaign-system-reference"
-      ],
-      "sourceUrlHashes": [
-        "16270e09abb12c5f",
-        "98302d5582b2913a"
+        "636f584d18584c56",
+        "b0fb21aa1dc61c85"
       ],
       "sourceUrlCount": 2
+    },
+    {
+      "assetId": "campaign-visual-projects:pepsi-crave-liquid-asset-campaign",
+      "libraryId": "campaign-visual-projects",
+      "title": "Pepsi \"Crave\"",
+      "status": "accepted",
+      "captureDepth": "artifact-study",
+      "sourcePath": "design-templates/campaign-visual-projects/references/entries/pepsi-crave-liquid-asset-campaign.json",
+      "previewPath": "design-templates/campaign-visual-projects/example.html",
+      "roles": [
+        "campaign-art-direction",
+        "asset-direction",
+        "motion-patterns"
+      ],
+      "tags": [
+        "campaign",
+        "beverage-brand-campaign-asset-system",
+        "campaign-visual-system",
+        "Global beverage campaign centered on a 30-second hero film and a reusable liquid-footage asset library for regional content",
+        "artifact-study"
+      ],
+      "sourceUrlHashes": [
+        "6f770e8f304aa3a8"
+      ],
+      "sourceUrlCount": 1
     },
     {
       "assetId": "commercial-product-launches:apple-iphone-product-family",
@@ -852,12 +880,12 @@
       "sourceUrlCount": 3
     },
     {
-      "assetId": "editorial-magazine-projects:editorial-spread-reading-rhythm",
+      "assetId": "editorial-magazine-projects:brooklyn-rail-anthropophagy-issue-editorial-design",
       "libraryId": "editorial-magazine-projects",
-      "title": "Editorial Spread Reading Rhythm",
+      "title": "Brooklyn Rail: Only Anthropophagy Unites Us?",
       "status": "accepted",
-      "captureDepth": "layout-system-reference",
-      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/editorial-spread-reading-rhythm.json",
+      "captureDepth": "artifact-study",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/brooklyn-rail-anthropophagy-issue-editorial-design.json",
       "previewPath": "design-templates/editorial-magazine-projects/example.html",
       "roles": [
         "editorial-layouts",
@@ -866,124 +894,100 @@
       ],
       "tags": [
         "magazine",
-        "editorial-spread",
-        "digital and print editorial",
-        "cover plus feature spread",
-        "layout-system-reference"
+        "bilingual-cultural-critics-issue",
+        "editorial-magazine",
+        "Guest-designed February 2021 bilingual Critics Page issue that turns manifesto-driven typography and black-and-white newsprint into the issue's editorial voice",
+        "artifact-study"
       ],
       "sourceUrlHashes": [
-        "6870898c0974a510"
-      ],
-      "sourceUrlCount": 1
-    },
-    {
-      "assetId": "editorial-magazine-projects:plastikcomb-print-collage-spreads",
-      "libraryId": "editorial-magazine-projects",
-      "title": "Plastikcomb #5 Collage Spread System",
-      "status": "accepted",
-      "captureDepth": "spread-sequence-reference",
-      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/plastikcomb-print-collage-spreads.json",
-      "previewPath": "design-templates/editorial-magazine-projects/example.html",
-      "roles": [
-        "editorial-layouts",
-        "composition-patterns",
-        "asset-direction"
-      ],
-      "tags": [
-        "magazine",
-        "editorial-spread",
-        "independent print magazine",
-        "collage-led feature spreads",
-        "spread-sequence-reference"
-      ],
-      "sourceUrlHashes": [
-        "636d627e82eb48ed"
-      ],
-      "sourceUrlCount": 1
-    },
-    {
-      "assetId": "editorial-magazine-projects:pudding-colorism-visual-essay",
-      "libraryId": "editorial-magazine-projects",
-      "title": "The Pudding: Colorism in High Fashion",
-      "status": "accepted",
-      "captureDepth": "visual-essay-reference",
-      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/pudding-colorism-visual-essay.json",
-      "previewPath": "design-templates/editorial-magazine-projects/example.html",
-      "roles": [
-        "editorial-layouts",
-        "composition-patterns",
-        "asset-direction"
-      ],
-      "tags": [
-        "magazine",
-        "visual-essay",
-        "interactive visual essay",
-        "data-led long-form editorial",
-        "visual-essay-reference"
-      ],
-      "sourceUrlHashes": [
-        "14d28274b6d0c3e6"
-      ],
-      "sourceUrlCount": 1
-    },
-    {
-      "assetId": "motion-interaction-projects:codrops-gsap-creative-hub-patterns",
-      "libraryId": "motion-interaction-projects",
-      "title": "Codrops GSAP Creative Hub Interaction Patterns",
-      "status": "accepted",
-      "captureDepth": "pattern-collection-reference",
-      "sourcePath": "design-templates/motion-interaction-projects/references/entries/codrops-gsap-creative-hub-patterns.json",
-      "previewPath": "design-templates/motion-interaction-projects/example.html",
-      "roles": [
-        "motion-patterns",
-        "interaction-patterns",
-        "frontend-motion-reference"
-      ],
-      "tags": [
-        "motion design",
-        "scroll-interaction",
-        "frontend motion demo collection",
-        "scroll, carousel, shader, mask, and transition pattern library",
-        "pattern-collection-reference"
-      ],
-      "sourceUrlHashes": [
-        "d4249d5da24adaaf"
-      ],
-      "sourceUrlCount": 1
-    },
-    {
-      "assetId": "motion-interaction-projects:codrops-kinetic-typography-page-transition",
-      "libraryId": "motion-interaction-projects",
-      "title": "Codrops Kinetic Typography Page Transition",
-      "status": "accepted",
-      "captureDepth": "interaction-prototype-reference",
-      "sourcePath": "design-templates/motion-interaction-projects/references/entries/codrops-kinetic-typography-page-transition.json",
-      "previewPath": "design-templates/motion-interaction-projects/example.html",
-      "roles": [
-        "motion-patterns",
-        "interaction-patterns",
-        "frontend-motion-reference"
-      ],
-      "tags": [
-        "motion design",
-        "kinetic-typography",
-        "frontend typography transition prototype",
-        "GSAP page transition demo",
-        "interaction-prototype-reference"
-      ],
-      "sourceUrlHashes": [
-        "0064ea345d49ea09",
-        "46bf5c476b91cdb0"
+        "1208e64ac28d6ec0",
+        "89f1dd631d2ef8f1"
       ],
       "sourceUrlCount": 2
     },
     {
-      "assetId": "motion-interaction-projects:scroll-and-pointer-motion-system",
-      "libraryId": "motion-interaction-projects",
-      "title": "Scroll and Pointer Motion System",
+      "assetId": "editorial-magazine-projects:circular-22-typographic-circle-publication-redesign",
+      "libraryId": "editorial-magazine-projects",
+      "title": "Circular 22",
       "status": "accepted",
-      "captureDepth": "interaction-system-reference",
-      "sourcePath": "design-templates/motion-interaction-projects/references/entries/scroll-and-pointer-motion-system.json",
+      "captureDepth": "artifact-study",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/circular-22-typographic-circle-publication-redesign.json",
+      "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "roles": [
+        "editorial-layouts",
+        "composition-patterns",
+        "asset-direction"
+      ],
+      "tags": [
+        "magazine",
+        "experimental-typography-journal",
+        "editorial-magazine",
+        "A compact 2024 redesign of Typographic Circle's member publication that turns a smaller half-size format into a tactile, print-first editorial object",
+        "artifact-study"
+      ],
+      "sourceUrlHashes": [
+        "0ecb55ba4df2b0c7",
+        "641e349458e302e6"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "editorial-magazine-projects:samba-brazilian-queer-culture-magazine",
+      "libraryId": "editorial-magazine-projects",
+      "title": "Samba",
+      "status": "accepted",
+      "captureDepth": "artifact-study",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/samba-brazilian-queer-culture-magazine.json",
+      "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "roles": [
+        "editorial-layouts",
+        "composition-patterns",
+        "asset-direction"
+      ],
+      "tags": [
+        "magazine",
+        "photo-led-cultural-magazine",
+        "editorial-magazine",
+        "Biannual publication celebrating Brazilian queer culture through fashion, portraiture, and long-form photographic stories",
+        "artifact-study"
+      ],
+      "sourceUrlHashes": [
+        "8d9732f2d611d73f"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "editorial-magazine-projects:the-baffler-editorial-redesign",
+      "libraryId": "editorial-magazine-projects",
+      "title": "The Baffler",
+      "status": "accepted",
+      "captureDepth": "artifact-study",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/the-baffler-editorial-redesign.json",
+      "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "roles": [
+        "editorial-layouts",
+        "composition-patterns",
+        "asset-direction"
+      ],
+      "tags": [
+        "magazine",
+        "literary-journal-redesign",
+        "editorial-magazine",
+        "Editorial redesign for an ad-free quarterly literary journal with a companion website",
+        "artifact-study"
+      ],
+      "sourceUrlHashes": [
+        "13e666e3c7c902ee"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "motion-interaction-projects:active-theory-creative-digital-experiences",
+      "libraryId": "motion-interaction-projects",
+      "title": "Active Theory · Creative Digital Experiences",
+      "status": "backfill-needed",
+      "captureDepth": "single-page-lead",
+      "sourcePath": "design-templates/motion-interaction-projects/references/entries/active-theory-creative-digital-experiences.json",
       "previewPath": "design-templates/motion-interaction-projects/example.html",
       "roles": [
         "motion-patterns",
@@ -992,13 +996,138 @@
       ],
       "tags": [
         "motion design",
-        "scroll-interaction",
-        "frontend interaction",
-        "browser motion prototype",
-        "interaction-system-reference"
+        "immersive-agency-site",
+        "website",
+        "full-screen WebGL-first studio homepage",
+        "single-page-lead"
       ],
       "sourceUrlHashes": [
-        "c3c9d81881d1ea05"
+        "4e7eb8a651fa3199"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "motion-interaction-projects:cuberto-hello-digital-solutions-homepage",
+      "libraryId": "motion-interaction-projects",
+      "title": "Cuberto | We create digital solutions",
+      "status": "accepted",
+      "captureDepth": "single-page-lead",
+      "sourcePath": "design-templates/motion-interaction-projects/references/entries/cuberto-hello-digital-solutions-homepage.json",
+      "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "roles": [
+        "motion-patterns",
+        "interaction-patterns",
+        "frontend-motion-reference"
+      ],
+      "tags": [
+        "motion design",
+        "interactive-showreel-homepage",
+        "website",
+        "HTML-first motion-heavy agency showreel",
+        "single-page-lead"
+      ],
+      "sourceUrlHashes": [
+        "204920f8f86c292b"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "motion-interaction-projects:david-whyte-companion-portal-experience",
+      "libraryId": "motion-interaction-projects",
+      "title": "Experience & advantages - David Whyte",
+      "status": "accepted",
+      "captureDepth": "single-page-lead",
+      "sourcePath": "design-templates/motion-interaction-projects/references/entries/david-whyte-companion-portal-experience.json",
+      "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "roles": [
+        "motion-patterns",
+        "interaction-patterns",
+        "frontend-motion-reference"
+      ],
+      "tags": [
+        "motion design",
+        "immersive-literary-portal",
+        "website",
+        "immersive companion-portal introduction with canvas, audio loops, and map-driven wayfinding",
+        "single-page-lead"
+      ],
+      "sourceUrlHashes": [
+        "f7f02b738a176ed2"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "motion-interaction-projects:kode-immersive-tech-enabled-creativity-homepage",
+      "libraryId": "motion-interaction-projects",
+      "title": "KODE Immersive - Tech-Enabled Creativity, Unforgettable Experiences.",
+      "status": "accepted",
+      "captureDepth": "single-page-lead",
+      "sourcePath": "design-templates/motion-interaction-projects/references/entries/kode-immersive-tech-enabled-creativity-homepage.json",
+      "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "roles": [
+        "motion-patterns",
+        "interaction-patterns",
+        "frontend-motion-reference"
+      ],
+      "tags": [
+        "motion design",
+        "immersive-storytelling-agency-site",
+        "website",
+        "Nuxt-based immersive agency homepage with canvas scenes and guided interaction",
+        "single-page-lead"
+      ],
+      "sourceUrlHashes": [
+        "aa587eb0bed50932"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "motion-interaction-projects:resn-creative-digital-agency-homepage",
+      "libraryId": "motion-interaction-projects",
+      "title": "Resn - Creative Digital Agency",
+      "status": "backfill-needed",
+      "captureDepth": "single-page-lead",
+      "sourcePath": "design-templates/motion-interaction-projects/references/entries/resn-creative-digital-agency-homepage.json",
+      "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "roles": [
+        "motion-patterns",
+        "interaction-patterns",
+        "frontend-motion-reference"
+      ],
+      "tags": [
+        "motion design",
+        "motion-studio-homepage",
+        "website",
+        "loader-led interactive agency homepage",
+        "single-page-lead"
+      ],
+      "sourceUrlHashes": [
+        "087591dcb63e4325"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "motion-interaction-projects:unseen-studio-year-in-review-2025",
+      "libraryId": "motion-interaction-projects",
+      "title": "Year in Review 2025 - Unseen Studio",
+      "status": "accepted",
+      "captureDepth": "single-page-lead",
+      "sourcePath": "design-templates/motion-interaction-projects/references/entries/unseen-studio-year-in-review-2025.json",
+      "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "roles": [
+        "motion-patterns",
+        "interaction-patterns",
+        "frontend-motion-reference"
+      ],
+      "tags": [
+        "motion design",
+        "horizontal-year-in-review",
+        "website",
+        "horizontal editorial timeline with video chapters and parallax text",
+        "single-page-lead"
+      ],
+      "sourceUrlHashes": [
+        "405e9bed838eb121"
       ],
       "sourceUrlCount": 1
     },
@@ -2492,12 +2621,12 @@
       "sourceUrlCount": 4
     },
     {
-      "assetId": "poster-projects:munich-1972-sports-poster-system",
+      "assetId": "poster-projects:european-design-festival-protest-identity-posters",
       "libraryId": "poster-projects",
-      "title": "Munich 1972 Sports Poster System",
+      "title": "European Design Festival",
       "status": "accepted",
-      "captureDepth": "serial-system-reference",
-      "sourcePath": "design-templates/poster-projects/references/entries/munich-1972-sports-poster-system.json",
+      "captureDepth": "artifact-study",
+      "sourcePath": "design-templates/poster-projects/references/entries/european-design-festival-protest-identity-posters.json",
       "previewPath": "design-templates/poster-projects/example.html",
       "roles": [
         "poster-reference",
@@ -2506,67 +2635,90 @@
       ],
       "tags": [
         "poster",
-        "event-poster",
-        "Olympic sports poster series",
-        "serial event poster system",
-        "serial-system-reference"
+        "festival-poster-system",
+        "poster series",
+        "Festival identity system spanning posters, banners, and flags",
+        "artifact-study"
       ],
       "sourceUrlHashes": [
-        "27afdc445fc02d12",
-        "5839eb3c9e1938d2"
-      ],
-      "sourceUrlCount": 2
-    },
-    {
-      "assetId": "poster-projects:public-theater-typographic-posters",
-      "libraryId": "poster-projects",
-      "title": "The Public Theater Typographic Poster Language",
-      "status": "accepted",
-      "captureDepth": "typographic-poster-reference",
-      "sourcePath": "design-templates/poster-projects/references/entries/public-theater-typographic-posters.json",
-      "previewPath": "design-templates/poster-projects/example.html",
-      "roles": [
-        "poster-reference",
-        "composition-patterns",
-        "asset-direction"
-      ],
-      "tags": [
-        "poster",
-        "type-poster",
-        "theater posters and cultural identity",
-        "typographic campaign poster family",
-        "typographic-poster-reference"
-      ],
-      "sourceUrlHashes": [
-        "0fc5d1e4d13291a5",
-        "63baf01f59604fe9"
-      ],
-      "sourceUrlCount": 2
-    },
-    {
-      "assetId": "poster-projects:swiss-cultural-poster-system",
-      "libraryId": "poster-projects",
-      "title": "Swiss Cultural Poster System",
-      "status": "accepted",
-      "captureDepth": "composition-reference",
-      "sourcePath": "design-templates/poster-projects/references/entries/swiss-cultural-poster-system.json",
-      "previewPath": "design-templates/poster-projects/example.html",
-      "roles": [
-        "poster-reference",
-        "composition-patterns",
-        "asset-direction"
-      ],
-      "tags": [
-        "poster",
-        "event-poster",
-        "print poster",
-        "single-sheet key visual",
-        "composition-reference"
-      ],
-      "sourceUrlHashes": [
-        "eb339b9207f1a5bb"
+        "d611320979296bb2"
       ],
       "sourceUrlCount": 1
+    },
+    {
+      "assetId": "poster-projects:its-all-our-blood-hiroshima-nagasaki-commemorative-poster",
+      "libraryId": "poster-projects",
+      "title": "It's All Our Blood",
+      "status": "accepted",
+      "captureDepth": "artifact-study",
+      "sourcePath": "design-templates/poster-projects/references/entries/its-all-our-blood-hiroshima-nagasaki-commemorative-poster.json",
+      "previewPath": "design-templates/poster-projects/example.html",
+      "roles": [
+        "poster-reference",
+        "composition-patterns",
+        "asset-direction"
+      ],
+      "tags": [
+        "poster",
+        "commemorative-cultural-poster",
+        "Commemorative exhibition poster paired with a process film",
+        "artifact-study"
+      ],
+      "sourceUrlHashes": [
+        "c76ebfb7c1ec8570"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "poster-projects:shakespeare-in-the-park-2025-reopening-posters",
+      "libraryId": "poster-projects",
+      "title": "Shakespeare in the Park 2025",
+      "status": "accepted",
+      "captureDepth": "artifact-study",
+      "sourcePath": "design-templates/poster-projects/references/entries/shakespeare-in-the-park-2025-reopening-posters.json",
+      "previewPath": "design-templates/poster-projects/example.html",
+      "roles": [
+        "poster-reference",
+        "composition-patterns",
+        "asset-direction"
+      ],
+      "tags": [
+        "poster",
+        "theater-poster-system",
+        "poster campaign",
+        "Season-reopening poster system with dynamic digital animations for the Delacorte Theater relaunch",
+        "artifact-study"
+      ],
+      "sourceUrlHashes": [
+        "03b35a263b395cb8"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "poster-projects:storefront-gala-2025-wpa-event-posters",
+      "libraryId": "poster-projects",
+      "title": "Storefront Gala 2025",
+      "status": "accepted",
+      "captureDepth": "artifact-study",
+      "sourcePath": "design-templates/poster-projects/references/entries/storefront-gala-2025-wpa-event-posters.json",
+      "previewPath": "design-templates/poster-projects/example.html",
+      "roles": [
+        "poster-reference",
+        "composition-patterns",
+        "asset-direction"
+      ],
+      "tags": [
+        "poster",
+        "event-poster-identity-system",
+        "poster-led event identity",
+        "Annual gala poster and event-key-visual system built from WPA poster density, a custom condensed typeface, and venue-derived pattern cues",
+        "artifact-study"
+      ],
+      "sourceUrlHashes": [
+        "33daea98065591b6",
+        "50a5d6b79de3c0b7"
+      ],
+      "sourceUrlCount": 2
     },
     {
       "assetId": "product-ui-projects:linear-product-development-system",
@@ -2600,6 +2752,38 @@
       "sourceUrlCount": 6
     },
     {
+      "assetId": "product-ui-projects:notion-mail",
+      "libraryId": "product-ui-projects",
+      "title": "Notion Mail",
+      "status": "accepted",
+      "captureDepth": "surface-suite",
+      "sourcePath": "design-templates/product-ui-projects/references/catalog.json",
+      "previewPath": "design-templates/product-ui-projects/example.html",
+      "roles": [
+        "project-reference",
+        "surface-suite",
+        "flow-patterns",
+        "state-patterns",
+        "component-patterns"
+      ],
+      "tags": [
+        "email productivity software",
+        "workflow inbox",
+        "surface-suite",
+        "product-ui"
+      ],
+      "sourceUrlHashes": [
+        "3307b1bc267f998e",
+        "43ef9416ce457aef",
+        "49f3121a562f8775",
+        "79aef6de38a04e85",
+        "c35a57356f6369f0",
+        "ca3ebe468eade21e",
+        "eb8245d6ed0eb0ca"
+      ],
+      "sourceUrlCount": 7
+    },
+    {
       "assetId": "product-ui-projects:raycast-productivity-launcher",
       "libraryId": "product-ui-projects",
       "title": "Raycast",
@@ -2627,6 +2811,37 @@
         "9e66bc4ee8f574d2",
         "cd8a2f463e2c1285",
         "d3b79f6bf7506f94"
+      ],
+      "sourceUrlCount": 6
+    },
+    {
+      "assetId": "product-ui-projects:superhuman-ai-productivity-suite",
+      "libraryId": "product-ui-projects",
+      "title": "Superhuman",
+      "status": "accepted",
+      "captureDepth": "surface-suite",
+      "sourcePath": "design-templates/product-ui-projects/references/catalog.json",
+      "previewPath": "design-templates/product-ui-projects/example.html",
+      "roles": [
+        "project-reference",
+        "surface-suite",
+        "flow-patterns",
+        "state-patterns",
+        "component-patterns"
+      ],
+      "tags": [
+        "AI productivity software",
+        "AI email workspace",
+        "surface-suite",
+        "product-ui"
+      ],
+      "sourceUrlHashes": [
+        "3e335aa5ad67ece8",
+        "5d73ec810a5ac93a",
+        "a66ad3726ba72c49",
+        "df73720158213837",
+        "e8b37b21fbaaddec",
+        "f258dced34c7cd94"
       ],
       "sourceUrlCount": 6
     },

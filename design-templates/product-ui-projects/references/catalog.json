@@ -1,6 +1,6 @@
 {
   "schemaVersion": "od-product-ui-projects/v1",
-  "captured": "2026-06-27",
+  "captured": "2026-06-28",
   "description": "A project-level product UI case library for SaaS consoles, dashboards, admin tools, CRM systems, AI workspaces, and other multi-surface software products. Entries preserve surfaces, flows, states, components, source links, and local preview paths without copying external product assets.",
   "indexes": {
     "views": ["projects", "surfaces", "flows", "states", "components"],
@@ -14,16 +14,6 @@
       "id": "stripe-revenue-platform",
       "sourceEntry": "commercial-product-launches:stripe-homepage-revenue-platform",
       "reason": "B2B platform currently captured as a homepage lead; needs dashboard, payments, billing, reporting, and developer surfaces."
-    },
-    {
-      "id": "notion-mail",
-      "sourceEntry": "commercial-product-launches:notion-mail-ai-inbox-product-page",
-      "reason": "Workflow product currently captured as a launch page; needs inbox, composer, settings, automation, and mobile surfaces."
-    },
-    {
-      "id": "superhuman-ai-productivity-suite",
-      "sourceEntry": "commercial-product-launches:superhuman-ai-productivity-suite-homepage",
-      "reason": "Suite product currently captured as a homepage lead; needs mail, docs, AI, command, team, and mobile surfaces."
     },
     {
       "id": "dashboard-template-suite",
@@ -331,6 +321,223 @@
           "https://www.raycast.com/core-features/focus"
         ],
         "attribution": "Raycast",
+        "reusePolicy": "inspiration-only",
+        "captureDepth": "surface-suite"
+      }
+    },
+    {
+      "id": "notion-mail",
+      "project": {
+        "name": "Notion Mail",
+        "sector": "email productivity software",
+        "url": "https://mail.notion.so/",
+        "type": "workflow inbox"
+      },
+      "preview": "design-templates/product-ui-projects/example.html",
+      "why": "A high-signal reference for AI-first email triage: view-building, auto-labeling, block-style drafting, and meeting scheduling turn a personal inbox into a configurable workflow console. Notion has announced the product will shut down on 2026-09-22, so this is a time-bounded but still useful UI reference.",
+      "surfaces": [
+        {
+          "type": "dashboard",
+          "title": "AI-labeled views inbox",
+          "url": "https://www.notion.com/help/get-started-with-notion-mail",
+          "study": "Priority, custom views, and AI labels make the default inbox read like an operator queue instead of one undifferentiated message feed.",
+          "reuse": "Use for message-heavy products that need users to move between personal priorities, saved views, and automation-generated organization."
+        },
+        {
+          "type": "detail",
+          "title": "Thread navigation and full-page message context",
+          "url": "https://www.notion.com/help/navigate-your-inbox",
+          "study": "Thread list, reading pane, and full-page message modes keep skim and deep work in the same product grammar.",
+          "reuse": "Use when a communication tool should support quick triage and extended message work without a separate detail app."
+        },
+        {
+          "type": "create-edit",
+          "title": "Composer with snippets, AI drafting, and scheduled send",
+          "url": "https://www.notion.com/help/compose-an-email",
+          "study": "Drafting combines reusable snippets, AI writing help, and send scheduling so composition feels like workflow setup, not just message entry.",
+          "reuse": "Use for compose surfaces that should blend authoring, reuse, and timing controls in one panel."
+        },
+        {
+          "type": "settings",
+          "title": "Inbox rules, notifications, and view configuration",
+          "url": "https://www.notion.com/help/notion-mail-settings",
+          "study": "Notification scope, inbox behavior, and account preferences are grouped around working habits rather than buried in generic mail settings.",
+          "reuse": "Use for products where settings should reinforce the core workflow model instead of feeling like a detached admin surface."
+        },
+        {
+          "type": "mobile",
+          "title": "Mobile inbox triage companion",
+          "url": "https://www.notion.com/help/notion-mail-for-mobile",
+          "study": "Mobile keeps fast triage, search, and reply loops available without trying to reproduce every dense desktop control at full depth.",
+          "reuse": "Use for companion mobile surfaces that need to preserve the product's organization model while cutting down interaction density."
+        }
+      ],
+      "flows": [
+        {
+          "type": "configure",
+          "title": "Prompt-driven setup into persistent custom views",
+          "study": "Users can describe how they want mail organized, then refine that setup into stable custom views and AI labeling rules.",
+          "reuse": "Use when onboarding should translate a fuzzy workflow request into a durable working layout."
+        },
+        {
+          "type": "create",
+          "title": "Compose to schedule to calendar coordination",
+          "study": "Writing, scheduling, and meeting booking live in one loop, so outbound mail feels connected to time management rather than a separate app handoff.",
+          "reuse": "Use when an email or messaging product needs to connect composition directly to scheduling intent."
+        }
+      ],
+      "states": [
+        {
+          "type": "dense-data",
+          "title": "Multi-view inbox density",
+          "study": "The product stays legible while showing parallel categories, labels, and threaded conversations in a compact split-pane layout.",
+          "reuse": "Use when communication products need more than one simultaneous organizing dimension."
+        }
+      ],
+      "components": [
+        {
+          "type": "nav",
+          "title": "View-first sidebar",
+          "study": "Saved views and account navigation sit at the product spine, making organization the primary control model.",
+          "reuse": "Use for products where navigation should be built around working lenses instead of fixed feature tabs."
+        },
+        {
+          "type": "filter",
+          "title": "Labels, grouping, and search controls",
+          "study": "Filters and AI-applied labels shape one inbox into several focused operating modes without duplicating data.",
+          "reuse": "Use when one communication stream needs multiple role-specific reading modes."
+        },
+        {
+          "type": "command-palette",
+          "title": "Keyboard-first inbox actions",
+          "study": "Fast actions for triage, reply, scheduling, and navigation keep the product feeling closer to a workspace than a traditional mailbox.",
+          "reuse": "Use when speed and repeatability matter enough to justify a keyboard interaction layer."
+        }
+      ],
+      "implementation": {
+        "framework": "Notion Mail product and help center capture",
+        "complexity": "medium-high"
+      },
+      "capture": {
+        "date": "2026-06-28",
+        "sourceLinks": [
+          "https://www.notion.com/product/mail",
+          "https://mail.notion.so/",
+          "https://www.notion.com/help/get-started-with-notion-mail",
+          "https://www.notion.com/help/navigate-your-inbox",
+          "https://www.notion.com/help/compose-an-email",
+          "https://www.notion.com/help/notion-mail-settings",
+          "https://www.notion.com/help/notion-mail-for-mobile"
+        ],
+        "attribution": "Notion",
+        "reusePolicy": "inspiration-only",
+        "captureDepth": "surface-suite"
+      }
+    },
+    {
+      "id": "superhuman-ai-productivity-suite",
+      "project": {
+        "name": "Superhuman",
+        "sector": "AI productivity software",
+        "url": "https://superhuman.com/",
+        "type": "AI email workspace"
+      },
+      "preview": "design-templates/product-ui-projects/example.html",
+      "why": "A strong reference for premium email-as-workspace design: split inboxes, AI drafting, reusable snippets, follow-up cues, and team collaboration all stay fast and keyboard-native instead of turning into a bloated suite shell.",
+      "surfaces": [
+        {
+          "type": "dashboard",
+          "title": "Custom split inbox",
+          "url": "https://help.superhuman.com/hc/en-us/articles/46005636204941-Custom-Split-Inbox",
+          "study": "Work is divided into role-specific lanes so dense message volume becomes a set of operating queues rather than one overwhelming chronological list.",
+          "reuse": "Use for communication products that need multiple first-class working modes inside the same feed."
+        },
+        {
+          "type": "detail",
+          "title": "Ask AI and thread-level assistance",
+          "url": "https://help.superhuman.com/hc/en-us/articles/46005676610829-Ask-AI",
+          "study": "AI help is embedded alongside the message thread, so summarizing, researching, and drafting feel like accelerators on top of normal email work.",
+          "reuse": "Use when AI support should feel like an in-context copilot rather than a detached assistant page."
+        },
+        {
+          "type": "create-edit",
+          "title": "Compose with snippets and AI writing",
+          "url": "https://help.superhuman.com/hc/en-us/articles/46005557122957-Write-with-AI",
+          "study": "Reusable snippets and AI drafting keep composition optimized for speed while still letting users personalize high-frequency outbound messages.",
+          "reuse": "Use for products where repetitive writing should become a configurable system instead of a manual task."
+        },
+        {
+          "type": "settings",
+          "title": "Shared conversations and team coordination",
+          "url": "https://help.superhuman.com/hc/en-us/articles/46005593675917-Shared-Conversations-and-Team-Comments",
+          "study": "Team visibility and collaboration features extend the inbox into a lightweight operations surface without requiring a separate admin console.",
+          "reuse": "Use for products that need collaboration to emerge from the primary workspace rather than from an external back office."
+        },
+        {
+          "type": "mobile",
+          "title": "Mobile follow-up and triage",
+          "url": "https://help.superhuman.com/hc/en-us/articles/46005719737357-Mobile-Navigation",
+          "study": "Mobile focuses on quick triage, reply, and follow-up loops while keeping the product's premium speed and keyboard-mindset intact where possible.",
+          "reuse": "Use for mobile companion surfaces that should preserve pace and hierarchy without copying every desktop affordance."
+        }
+      ],
+      "flows": [
+        {
+          "type": "review",
+          "title": "Split inbox to follow-up loop",
+          "study": "Messages move from category-specific inbox lanes into reminders and follow-up actions without losing the user's chosen working structure.",
+          "reuse": "Use for products where review is really a repeated triage-and-return rhythm."
+        },
+        {
+          "type": "team-admin",
+          "title": "Personal inbox into shared team handling",
+          "study": "Shared conversations let an individual inbox become a team surface without collapsing everything into a generic collaborative dashboard.",
+          "reuse": "Use when a single-player tool needs to expand into team work while preserving personal speed."
+        }
+      ],
+      "states": [
+        {
+          "type": "dense-data",
+          "title": "High-volume triage state",
+          "study": "Split inboxes, shortcuts, and AI assistance keep large message volume workable without forcing the user into a heavy tabbed console.",
+          "reuse": "Use when information density should be tamed by structure and acceleration, not by reducing throughput."
+        }
+      ],
+      "components": [
+        {
+          "type": "command-palette",
+          "title": "Keyboard-first action model",
+          "study": "The product's primary grammar is fast command execution, which keeps advanced actions feeling lightweight.",
+          "reuse": "Use when repeated communication work benefits from one consistent command layer."
+        },
+        {
+          "type": "filter",
+          "title": "Split inbox rules and lane controls",
+          "study": "Inbox rules act like persistent filters that shape attention before the user reads individual threads.",
+          "reuse": "Use for products where organization should happen upstream of item review."
+        },
+        {
+          "type": "nav",
+          "title": "Minimal rail around message work",
+          "study": "Navigation stays intentionally spare so the product feels premium and fast even as more AI and team features accumulate.",
+          "reuse": "Use when breadth should not force a product into enterprise-console chrome."
+        }
+      ],
+      "implementation": {
+        "framework": "Superhuman product site and help center capture",
+        "complexity": "high"
+      },
+      "capture": {
+        "date": "2026-06-28",
+        "sourceLinks": [
+          "https://superhuman.com/",
+          "https://help.superhuman.com/hc/en-us/articles/46005636204941-Custom-Split-Inbox",
+          "https://help.superhuman.com/hc/en-us/articles/46005676610829-Ask-AI",
+          "https://help.superhuman.com/hc/en-us/articles/46005557122957-Write-with-AI",
+          "https://help.superhuman.com/hc/en-us/articles/46005593675917-Shared-Conversations-and-Team-Comments",
+          "https://help.superhuman.com/hc/en-us/articles/46005719737357-Mobile-Navigation"
+        ],
+        "attribution": "Superhuman",
         "reusePolicy": "inspiration-only",
         "captureDepth": "surface-suite"
       }

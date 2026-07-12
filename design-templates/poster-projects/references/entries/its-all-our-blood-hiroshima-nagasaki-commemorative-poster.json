@@ -1,0 +1,79 @@
+{
+  "id": "its-all-our-blood-hiroshima-nagasaki-commemorative-poster",
+  "category": "commemorative-cultural-poster",
+  "project": {
+    "title": "It's All Our Blood",
+    "maker": "Pentagram / Harry Pearce for the University of Maryland Art Gallery",
+    "url": "https://www.pentagram.com/work/its-all-our-blood",
+    "medium": "poster",
+    "format": "Commemorative exhibition poster paired with a process film"
+  },
+  "why": "A strong poster reference for building the entire argument around one physical image-making experiment: the page shows how a single red cloud photograph, strict white space, and restrained timing annotations can carry memorial weight without decorative clutter.",
+  "compositions": [
+    {
+      "type": "single-image-field",
+      "title": "Isolated blood-cloud focal image",
+      "url": "https://www.pentagram.com/work/its-all-our-blood",
+      "study": "The core image is a photograph of a drop of blood hitting water, held alone so the resulting red cloud reads like an atomic blast rather than a collage of symbols.",
+      "reuse": "Use one dominant metaphor image when a poster needs immediate symbolic force and should not dilute the concept with secondary illustrations."
+    },
+    {
+      "type": "white-ground-layout",
+      "title": "High-contrast white memorial field",
+      "url": "https://www.pentagram.com/work/its-all-our-blood",
+      "study": "The project sets the image on a white background, letting the red cloud do nearly all of the emotional work while the surrounding negative space keeps the poster solemn and legible.",
+      "reuse": "Use a large unprinted field when the subject matter benefits from silence, pause, or gallery-like framing."
+    },
+    {
+      "type": "forensic-caption",
+      "title": "Time-and-place annotation strip",
+      "url": "https://www.pentagram.com/work/its-all-our-blood",
+      "study": "Grey and black type marks the locations and times of the bombings, turning factual metadata into part of the composition instead of a detached caption block.",
+      "reuse": "Fold documentary details into the poster grid when context should sharpen the concept without competing with the hero image."
+    }
+  ],
+  "assets": [
+    {
+      "type": "experimental-photography",
+      "role": "single symbolic hero image",
+      "notes": "The final poster image came from repeated physical tests with blood, water temperature, and drop height, then a last-frame photograph by Richard Foster.",
+      "reuse": "Prototype the central image materially when the poster concept depends on texture, unpredictability, or physical truth."
+    },
+    {
+      "type": "annotation-type",
+      "role": "historical context and measured tone",
+      "notes": "The supporting typography stays grey and black, functioning as factual annotation rather than expressive decoration.",
+      "reuse": "Keep contextual type subdued when the image carries the emotional peak."
+    },
+    {
+      "type": "process-film",
+      "role": "supporting evidence of the image-making method",
+      "notes": "A behind-the-scenes film extends the poster by documenting the path from blood draw to photography studio to printmaking.",
+      "reuse": "Add process documentation when the making method is part of the poster's meaning and can deepen trust in the concept."
+    }
+  ],
+  "motion": [
+    {
+      "type": "process-film",
+      "title": "Poster-making documentary extension",
+      "notes": "The accompanying film reframes the poster as a deliberate physical experiment instead of a digitally composited effect.",
+      "fallback": "If no motion companion exists, preserve the same making-story through still process frames or a concise caption."
+    }
+  ],
+  "interactions": [],
+  "implementation": {
+    "format": "Concept-led photographic poster with restrained annotation and a supporting process film",
+    "complexity": "medium",
+    "notes": "The Pentagram page provides enough source evidence to keep this as an accepted poster reference: concept statement, physical image-making method, typographic treatment, and the existence of a process-film companion are all explicit."
+  },
+  "capture": {
+    "date": "2026-07-01",
+    "sourceLinks": [
+      "https://www.pentagram.com/work/its-all-our-blood"
+    ],
+    "attribution": "Pentagram; Harry Pearce; photography by Richard Foster; client University of Maryland Art Gallery",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "artifact-study"
+  },
+  "status": "accepted"
+}

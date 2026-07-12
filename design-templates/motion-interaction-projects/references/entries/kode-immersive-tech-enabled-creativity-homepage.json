@@ -1,0 +1,113 @@
+{
+  "id": "kode-immersive-tech-enabled-creativity-homepage",
+  "category": "immersive-storytelling-agency-site",
+  "project": {
+    "title": "KODE Immersive - Tech-Enabled Creativity, Unforgettable Experiences.",
+    "maker": "KODE Immersive",
+    "url": "https://kodeimmersive.com/",
+    "medium": "website",
+    "format": "Nuxt-based immersive agency homepage with canvas scenes and guided interaction"
+  },
+  "why": "A strong reference for blending cinematic staging with explicit interaction prompts: the site treats the preloader, scratch reveal, step-based services section, and sound controls as one continuous narrative system instead of separate gimmicks.",
+  "compositions": [
+    {
+      "type": "loader-sequence",
+      "title": "Enter-gated preloader scene",
+      "url": "https://kodeimmersive.com/",
+      "study": "The first frame is a branded preloader with a hidden counter, lottie animation, and an explicit Enter action instead of an automatic handoff.",
+      "reuse": "Use when a story-led site should give visitors a moment to opt into the experience instead of dropping them straight into the main scroll."
+    },
+    {
+      "type": "scroll-chapter",
+      "title": "Alternating text and canvas chapters",
+      "url": "https://kodeimmersive.com/",
+      "study": "The page alternates oversized justified text panels, fixed bottom-bar cues, canvas-backed scenes, and narrative copy blocks to keep the scroll rhythm varied.",
+      "reuse": "Use when immersive storytelling needs strong pacing changes between copy-heavy beats and visual interaction beats."
+    },
+    {
+      "type": "stage-shell",
+      "title": "Full-viewport canvas shell",
+      "url": "https://kodeimmersive.com/",
+      "study": "Canvas layers for the background, mouse trails, chevrons, noise, and hero moments stay mounted around the content instead of appearing as one isolated hero widget.",
+      "reuse": "Keep the stage infrastructure persistent when motion cues should connect the whole page rather than one section."
+    }
+  ],
+  "assets": [
+    {
+      "type": "3d-scene",
+      "role": "hero and section-level canvases",
+      "notes": "The homepage reserves multiple canvases for the preloader, background, chevron, noise, and scratch interactions.",
+      "reuse": "Plan canvas ownership at the page shell level when multiple chapters depend on the same motion runtime."
+    },
+    {
+      "type": "custom-font",
+      "role": "voice contrast between operational copy and expressive display",
+      "notes": "Aeonik Pro and OT Brut separate practical labels from oversized theatrical headlines.",
+      "reuse": "Use a two-role type system when interaction prompts need to feel exact but the headline voice still needs drama."
+    },
+    {
+      "type": "ui-overlay",
+      "role": "preloader, bottom bars, and contact overlay controls",
+      "notes": "The site treats entry, scroll cues, sound toggles, and contact information as styled overlays rather than generic utility chrome.",
+      "reuse": "Make utility states part of the same visual world as the immersive content."
+    }
+  ],
+  "motion": [
+    {
+      "type": "loader-handoff",
+      "title": "Manual entry into the experience",
+      "notes": "A lottie-led preloader and Enter button pace the first transition into the scroll instead of starting automatically.",
+      "fallback": "Reduced-motion handling was not verified; keep the entry gate optional and preserve direct access to the main content when reusing the pattern."
+    },
+    {
+      "type": "scroll-chapter",
+      "title": "Persistent scroll cue choreography",
+      "notes": "Fixed bottom bars repeatedly restate Scroll for more so the story keeps a guided tempo even as the visual treatment flips between white and black modes.",
+      "fallback": "Scroll cues should not be the only instruction path on touch or keyboard-driven browsing."
+    },
+    {
+      "type": "autoplay-media-loop",
+      "title": "Canvas-backed micro-scenes",
+      "notes": "The site layers moving canvas scenes and animated text transitions across several sections rather than concentrating all movement in the hero.",
+      "fallback": "Provide still or low-motion equivalents for every chapter so the narrative can survive without animated canvas effects."
+    }
+  ],
+  "interactions": [
+    {
+      "type": "scratch-reveal",
+      "title": "Scratch around logo reveal",
+      "url": "https://kodeimmersive.com/",
+      "study": "A dedicated Scratch around prompt turns the logo canvas into an exploratory reveal instead of a passive brand mark.",
+      "reuse": "Use when a reveal should feel playful and discoverable, but keep the hidden state non-essential."
+    },
+    {
+      "type": "stepper-control",
+      "title": "Prev/Next service navigator",
+      "url": "https://kodeimmersive.com/",
+      "study": "The services section behaves like a numbered scene stepper with Prev and Next controls instead of a static accordion or grid.",
+      "reuse": "Use for sequential service storytelling when each step needs its own canvas or animated state."
+    },
+    {
+      "type": "sound-toggle",
+      "title": "Overlay-level sound control",
+      "url": "https://kodeimmersive.com/",
+      "study": "The contact overlay includes a bracketed Sound On/Off control so audio state is treated as a first-class part of the experience.",
+      "reuse": "Expose sound state explicitly whenever audio contributes to the brand experience."
+    }
+  ],
+  "implementation": {
+    "format": "Nuxt-rendered immersive scroll site with persistent canvases, overlay UI, and step-based chapter controls",
+    "complexity": "high",
+    "notes": "Static inspection confirmed an Enter preloader, fixed scroll bars, scratch canvas, service stepper, sound toggle, and multiple always-mounted canvas layers, which is enough to preserve it as an accepted motion reference."
+  },
+  "capture": {
+    "date": "2026-06-30",
+    "sourceLinks": [
+      "https://kodeimmersive.com/"
+    ],
+    "attribution": "KODE Immersive",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "single-page-lead"
+  },
+  "status": "accepted"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "unseen-studio-year-in-review-2025",
+  "category": "horizontal-year-in-review",
+  "project": {
+    "title": "Year in Review 2025 - Unseen Studio",
+    "maker": "Unseen Studio",
+    "url": "https://2025.unseen.co/",
+    "medium": "website",
+    "format": "horizontal editorial timeline with video chapters and parallax text"
+  },
+  "why": "A high-signal reference for turning a studio recap into an immersive editorial object: the experience uses a horizontal scroll container, a giant dashed timeline, looping media, month-based chaptering, and outbound case-study links without losing its narrative cohesion.",
+  "compositions": [
+    {
+      "type": "timeline-ribbon",
+      "title": "32,000px timeline spine",
+      "url": "https://2025.unseen.co/",
+      "study": "The story rides on one oversized SVG line that behaves like a visual rail through the entire year.",
+      "reuse": "Use when a long-form motion story needs one persistent orienting device instead of restarting the layout each chapter."
+    },
+    {
+      "type": "scroll-chapter",
+      "title": "Month-by-month horizontal chapters",
+      "url": "https://2025.unseen.co/",
+      "study": "Each month is framed as its own chapter with date typography, short editorial copy, and a dedicated media beat.",
+      "reuse": "Use for portfolios, annual reports, or product histories that benefit from clearly named sequential beats."
+    },
+    {
+      "type": "stage-shell",
+      "title": "Intro stage with canvas and looped eye video",
+      "url": "https://2025.unseen.co/",
+      "study": "The introduction combines fixed overlay typography, a canvas layer, and a hidden autoplay eye-loop video before the month timeline begins.",
+      "reuse": "Open long-form stories with one theatrical stage that teaches the interaction model before the dense content starts."
+    }
+  ],
+  "assets": [
+    {
+      "type": "video-loop",
+      "role": "chapter media and intro stage texture",
+      "notes": "The intro uses an autoplay loop and many chapters rely on looping MP4 moments instead of static thumbnails.",
+      "reuse": "Use short loops to keep long editorial stories visually alive without requiring full video playback controls in every panel."
+    },
+    {
+      "type": "custom-font",
+      "role": "date hierarchy and script accents",
+      "notes": "The experience mixes mono labels, heavy condensed numerals, and script accents to make dates feel collectible rather than administrative.",
+      "reuse": "Treat temporal labels as a design system of their own when the story structure depends on time."
+    },
+    {
+      "type": "showcase-media",
+      "role": "chapter images, loops, and linked case-study references",
+      "notes": "Individual chapters pair media with short text and, in some cases, direct Open links to deeper case pages.",
+      "reuse": "Let each chapter decide whether it needs a passive media note or a link-out to a deeper artifact."
+    }
+  ],
+  "motion": [
+    {
+      "type": "scroll-chapter",
+      "title": "Horizontal scroll narrative",
+      "notes": "The main container switches the default reading direction into a horizontal timeline that feels closer to a moving exhibition wall than a normal webpage.",
+      "fallback": "Reduced-motion and keyboard handling were not verified live, so reuse this pattern only when an alternate navigation path is designed up front."
+    },
+    {
+      "type": "autoplay-media-loop",
+      "title": "Distributed chapter loops",
+      "notes": "Looping video is distributed across the intro and chapter bodies so motion remains present throughout the full recap.",
+      "fallback": "Each loop should degrade to a readable still frame when autoplay is unavailable."
+    },
+    {
+      "type": "loader-handoff",
+      "title": "Intro-led onboarding into the timeline",
+      "notes": "The opening title card, scroll instruction, and hidden webgl stage teach the experience before the dense story begins.",
+      "fallback": "If the animated intro is skipped, preserve the year title and scroll instruction in plain text."
+    }
+  ],
+  "interactions": [
+    {
+      "type": "horizontal-scroll",
+      "title": "This way onboarding cue",
+      "url": "https://2025.unseen.co/",
+      "study": "The intro explicitly tells the user that the story moves sideways, which prevents the horizontal layout from feeling like a bug.",
+      "reuse": "Always teach a nonstandard scroll model with visible copy and directional affordances."
+    },
+    {
+      "type": "hover-reveal",
+      "title": "Chapter open links",
+      "url": "https://2025.unseen.co/",
+      "study": "Selected chapters provide Open buttons that branch into deeper work without breaking the year-in-review framing.",
+      "reuse": "Use link-outs sparingly when a narrative summary needs optional deeper dives."
+    },
+    {
+      "type": "pointer-stage",
+      "title": "Parallax date and media choreography",
+      "url": "https://2025.unseen.co/",
+      "study": "Data-parallax attributes on years, images, and text turn the timeline into a layered motion field instead of a flat strip of cards.",
+      "reuse": "Layer parallax sparingly to keep long-form storytelling tactile without overwhelming the reading flow."
+    }
+  ],
+  "implementation": {
+    "format": "WordPress-driven horizontal timeline with SVG rail, canvas intro stage, and looping chapter media",
+    "complexity": "high",
+    "notes": "Static inspection confirmed a horizontal scroll container, a 32,000px dashed SVG timeline, month chapters, parallax annotations, autoplay video loops, and outbound case-study links."
+  },
+  "capture": {
+    "date": "2026-06-30",
+    "sourceLinks": [
+      "https://2025.unseen.co/"
+    ],
+    "attribution": "Unseen Studio",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "single-page-lead"
+  },
+  "status": "accepted"
+}

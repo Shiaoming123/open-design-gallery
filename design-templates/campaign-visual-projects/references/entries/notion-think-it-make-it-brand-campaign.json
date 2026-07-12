@@ -1,0 +1,116 @@
+{
+  "id": "notion-think-it-make-it-brand-campaign",
+  "category": "saas-brand-awareness-campaign-visual-system",
+  "project": {
+    "title": "Think it. Make it.",
+    "maker": "BUCK with Notion",
+    "url": "https://buck.co/work/notion-think-it-make-it",
+    "medium": "campaign-visual-system",
+    "format": "2024 global brand-awareness campaign spanning OOH, transit placements, social crops, and an animated anthem"
+  },
+  "why": "A strong campaign-visual reference because it shows how a famously minimal software brand can temporarily widen its visual language for public media without losing recognition. The system keeps Notion's illustration DNA, then adds close-profile crops, primary-color blocks, bespoke headlines, and one simple call-to-action so the campaign reads clearly from billboards down to phone-sized social posts.",
+  "artDirection": [
+    {
+      "type": "thought-tagline-pairing",
+      "title": "One imperative line anchors the whole rollout",
+      "url": "https://buck.co/work/notion-think-it-make-it",
+      "study": "BUCK and Notion turned the campaign into a repeatable headline system around 'Think it. Make it.', then extended it into bespoke OOH copy about AI features without making the campaign read like a product-sheet explainer.",
+      "reuse": "When a product has many use cases, reduce the campaign to one short command and let supporting headlines flex around that core sentence."
+    },
+    {
+      "type": "close-crop-character-illustration",
+      "title": "Move from full scenes to close profile portraits",
+      "url": "https://www.notion.com/blog/the-thinking-behind-our-latest-brand-campaign",
+      "study": "Notion's own write-up explains that the team moved away from distant full-body scenes and closer into side-profile illustrations so viewers could 'see their brains at work' and connect more quickly on billboards and transit media.",
+      "reuse": "Tighten illustration crops when a campaign has to read fast in public space and needs the character, not the environment, to carry the message."
+    },
+    {
+      "type": "inside-mind-metaphor",
+      "title": "Abstract thinking visualized through the inside of the head",
+      "url": "https://www.notion.com/blog/the-thinking-behind-our-latest-brand-campaign",
+      "study": "The campaign uses cubist, Goldberg-like, and hand-drawn interior head imagery to represent thought, knowledge work, and AI assistance without resorting to literal interface mockups.",
+      "reuse": "Use one strong metaphorical picture system when the product story is abstract and would become flat if reduced to screens and feature labels."
+    },
+    {
+      "type": "primary-color-signal",
+      "title": "Selective primary colors break a monochrome brand out into the city",
+      "url": "https://www.notion.com/blog/the-thinking-behind-our-latest-brand-campaign",
+      "study": "Notion explains that its usual black-and-white language disappeared in busy urban contexts, so the campaign introduces bright yellow, blue, and red blocks while keeping the core drawing style intact.",
+      "reuse": "Let an otherwise restrained brand adopt a temporary signal palette for OOH if the rest of the brand assets are already highly recognizable."
+    }
+  ],
+  "channelFormats": [
+    {
+      "type": "promo-poster",
+      "title": "Headline-first billboards and posters",
+      "notes": "The campaign is designed for outdoor placements where the short tagline, tight illustration crop, and primary-color field do the first-read work before any secondary copy appears.",
+      "cropSystem": "Keep the face, the thought-space, and one bold line intact so the layout survives very short viewing windows and long-distance reading.",
+      "reuse": "Design the billboard/poster variant as the campaign's clarity test before expanding into richer digital formats."
+    },
+    {
+      "type": "transit-ooh",
+      "title": "Transit and street furniture adaptation",
+      "notes": "Notion's July 10, 2024 post explicitly places the work on billboards in San Francisco, Tube stations in London, and bus stops in Seoul, proving the system can survive multiple public-media aspect ratios.",
+      "cropSystem": "Treat profile direction, color blocks, and headline lockups as the invariant pieces while the surrounding negative space flexes per transit format.",
+      "reuse": "Build one invariant reading spine for campaign media that has to move across bus shelters, platform posters, and other constrained public frames."
+    },
+    {
+      "type": "social-assets",
+      "title": "Social crops keep the same concept rather than shrinking the app UI",
+      "notes": "BUCK describes the work as a suite of OOH illustrations and campaign outputs that scale into smaller digital placements without switching to literal software screenshots.",
+      "cropSystem": "Use the same illustration logic and headline posture on smaller canvases so mobile audiences recognize the campaign as the same system, not a second art direction.",
+      "reuse": "Resist replacing the core visual grammar with UI screenshots when adapting a broad campaign for social formats."
+    }
+  ],
+  "assets": [
+    {
+      "type": "bespoke-headline-copy",
+      "role": "Message compression",
+      "notes": "A short master tagline plus tailored sub-headlines turns a flexible product story into public-facing copy that reads quickly.",
+      "reuse": "Create one master imperative and derive concise variations instead of writing unrelated campaign headlines per channel."
+    },
+    {
+      "type": "close-crop-illustration",
+      "role": "Recognition and emotional focus",
+      "notes": "Roman Muradov's illustrations remain the campaign's recognizability engine, but the tighter head-and-shoulders crops make them carry more emotional and narrative weight.",
+      "reuse": "Keep the signature illustration author while changing framing before replacing the visual language entirely."
+    },
+    {
+      "type": "primary-color-palette",
+      "role": "Attention in crowded environments",
+      "notes": "The system adds saturated yellow, blue, and red blocks to a previously monochrome brand so the work can compete in cities and transit systems.",
+      "reuse": "Use a limited temporary palette as a campaign-only amplifier when the master brand is too quiet for OOH."
+    },
+    {
+      "type": "shape-block-framing",
+      "role": "Graphic containment",
+      "notes": "Simple geometric color fields and framing blocks give the hand-drawn imagery enough structure to scale cleanly across placements.",
+      "reuse": "Pair expressive illustration with blunt framing geometry so the campaign still reads as a system under heavy resizing and recropping."
+    }
+  ],
+  "motion": [
+    {
+      "type": "anthem-film",
+      "title": "Animated anthem translates the static grammar into motion",
+      "notes": "BUCK describes an animated anthem that pulls the close crops, color palette, and conceptual storytelling into one succinct moving brand story for the launch.",
+      "fallback": "If a launch cannot fund a hero film, keep the same profile crops, color blocks, and imperative headline structure in static OOH and social frames."
+    }
+  ],
+  "interactions": [],
+  "implementation": {
+    "format": "Global brand-awareness campaign system for a software brand across outdoor, transit, social, and motion media",
+    "complexity": "high",
+    "notes": "This is strong enough for accepted status because the first-party sources are complementary: BUCK's case study shows the rollout breadth and credits, while Notion's official post published on July 10, 2024 explains the conceptual and compositional decisions behind the public campaign."
+  },
+  "capture": {
+    "date": "2026-07-06",
+    "sourceLinks": [
+      "https://buck.co/work/notion-think-it-make-it",
+      "https://www.notion.com/blog/the-thinking-behind-our-latest-brand-campaign"
+    ],
+    "attribution": "BUCK with Notion; illustration direction by Roman Muradov; strategy support from Part and Sum",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "artifact-study"
+  },
+  "status": "accepted"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "the-baffler-editorial-redesign",
+  "category": "literary-journal-redesign",
+  "project": {
+    "title": "The Baffler",
+    "maker": "Pentagram / Eddie Opara for The Baffler",
+    "url": "https://www.pentagram.com/work/the-baffler",
+    "medium": "editorial-magazine",
+    "format": "Editorial redesign for an ad-free quarterly literary journal with a companion website"
+  },
+  "why": "A strong editorial-system reference because the case page shows how one publication can feel democratic and unruly at the same time: the redesign uses an angular identity, typography-led sectioning, flexible opening spreads, and restrained color cues to keep a politically wide-ranging journal coherent without flattening its voice.",
+  "compositions": [
+    {
+      "type": "corner-lockup-cover",
+      "title": "Angular logo used as a framing device",
+      "url": "https://www.pentagram.com/work/the-baffler",
+      "study": "The redesigned logo is treated as an all-angle lockup that can sit in a cover corner or repeat as a pattern, giving the magazine an immediate identity hook without consuming the whole cover field.",
+      "reuse": "Use a compact but forceful identity mark when each issue needs room for distinct artwork but still has to read instantly as part of the same publication family."
+    },
+    {
+      "type": "contents-taxonomy",
+      "title": "Typography as the main section organizer",
+      "url": "https://www.pentagram.com/work/the-baffler",
+      "study": "Instead of keeping essays, opinion, poems, art, and stories in rigid blocks, the redesign lets type choices differentiate content categories across the issue, turning hierarchy into a reading guide rather than a fixed map.",
+      "reuse": "Let typography carry content taxonomy when an editorial product wants more sequencing freedom than hard section dividers provide."
+    },
+    {
+      "type": "feature-opener-spread",
+      "title": "Flexible opening spreads with image-dialogue",
+      "url": "https://www.pentagram.com/work/the-baffler",
+      "study": "The new grid abandons uniform article starts and gives openers more room for illustration, photography, and enlarged text, so each feature can establish its own pace before settling into body copy.",
+      "reuse": "Relax opener templates when a publication needs each feature to earn attention through a distinct first spread instead of one repeated recipe."
+    },
+    {
+      "type": "section-color-coding",
+      "title": "Color-coded paper moods for literary sections",
+      "url": "https://www.pentagram.com/work/the-baffler",
+      "study": "Short stories appear on sky-blue pages and poetry on yellow pages, giving the reader a tactile signal that the pace and spacing have changed without resorting to heavy chapter dividers.",
+      "reuse": "Use restrained color fields or stock changes to cue a different reading mode when editorial sections should feel separate but still live inside one issue."
+    }
+  ],
+  "assets": [
+    {
+      "type": "configurable-logo",
+      "role": "Issue identity anchor",
+      "notes": "Pentagram customized the logotype from Graphik Bold so the flipped letterforms create a compact square core that can frame the cover or repeat as a pattern.",
+      "reuse": "Design a mark with multiple placement modes when a periodical needs both a stable masthead and adaptable cover behavior."
+    },
+    {
+      "type": "type-family-system",
+      "role": "Editorial voice and category differentiation",
+      "notes": "The page names distinct type roles for essays, opinion, poetry, stories, and identity furniture, using multiple families rather than one monolithic style.",
+      "reuse": "Build a publication typography map around editorial voice pairs, not just around headline/body defaults."
+    },
+    {
+      "type": "section-paper-coding",
+      "role": "Rhythm and section recognition",
+      "notes": "Color is applied as a light structural cue so literary content types shift mood while remaining part of the same overall journal system.",
+      "reuse": "Reserve color for section cadence when full-bleed graphics would overstate the transition."
+    },
+    {
+      "type": "editorial-illustration-direction",
+      "role": "Feature differentiation and art-direction consistency",
+      "notes": "The redesign ships with an explicit art-direction guide and uses commissioned illustration and photography more assertively across opening spreads.",
+      "reuse": "Pair a flexible grid with a clear art-direction brief so varied contributors still feel governed by one publication logic."
+    }
+  ],
+  "motion": [],
+  "interactions": [],
+  "implementation": {
+    "format": "Print editorial redesign with a linked digital extension and multi-type family system",
+    "complexity": "high",
+    "notes": "The Pentagram case page provides enough evidence to keep this as an accepted editorial reference: cover behavior, grid changes, section taxonomy, section-color logic, named type systems, and the planned website echo are all explicit."
+  },
+  "capture": {
+    "date": "2026-07-02",
+    "sourceLinks": [
+      "https://www.pentagram.com/work/the-baffler"
+    ],
+    "attribution": "Pentagram; partner Eddie Opara; project team Brankica Harvey, Megan Bowker, Shannon Jager, Jonathan Rinker; client The Baffler",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "artifact-study"
+  },
+  "status": "accepted"
+}

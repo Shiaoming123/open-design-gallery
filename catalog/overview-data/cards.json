@@ -1706,6 +1706,17 @@
   },
   {
     "section": "templates",
+    "id": "animated-svg-logo-draw",
+    "name": "animated-svg-logo-draw",
+    "mode": "prototype",
+    "desc": "A compact animated SVG logo reveal using stroke-dash motion, a shape mask, and a reduced-motion-safe replay loop.",
+    "cat": "micro-widget",
+    "preview": "design-templates/animated-svg-logo-draw/example.html",
+    "captured": "2026-06-13",
+    "batch": "daily-open-design-inspiration-capture"
+  },
+  {
+    "section": "templates",
     "id": "audio-jingle",
     "name": "audio-jingle",
     "mode": "audio",
@@ -1730,12 +1741,12 @@
     "section": "templates",
     "id": "campaign-visual-projects",
     "name": "campaign-visual-projects",
-    "mode": "case-study",
-    "desc": "Project-level case library for brand campaign visuals, promotional images, social visual systems, and static plus dynamic campaign assets. Captures art direction, asset systems, channels, motion notes, and reuse rules.",
-    "cat": "campaign-art-direction",
+    "mode": "prototype",
+    "desc": "Campaign Visual Projects is a source-linked case library for brand campaign visuals, launch-image systems, social and OOH promotional kits, and static plus motion-led campaign assets. It records art direction, channel b…",
+    "cat": "campaign-visual-project",
     "preview": "design-templates/campaign-visual-projects/example.html",
-    "captured": "",
-    "batch": ""
+    "captured": "2026-07-03",
+    "batch": "campaign-visual-projects"
   },
   {
     "section": "templates",
@@ -1840,12 +1851,12 @@
     "section": "templates",
     "id": "editorial-magazine-projects",
     "name": "editorial-magazine-projects",
-    "mode": "case-study",
-    "desc": "Project-level case library for magazine covers, editorial spreads, long-form visual essays, and publication systems. Captures layout rhythm, typography, image direction, and reusable editorial patterns.",
-    "cat": "editorial-layouts",
+    "mode": "prototype",
+    "desc": "Editorial Magazine Projects is a source-linked case library for magazine redesigns, editorial spreads, visual essays, and publication systems. It records cover logic, reading rhythm, type and image systems, and reusable…",
+    "cat": "editorial-magazine-project",
     "preview": "design-templates/editorial-magazine-projects/example.html",
-    "captured": "",
-    "batch": ""
+    "captured": "2026-07-02",
+    "batch": "editorial-magazine-projects"
   },
   {
     "section": "templates",
@@ -2654,12 +2665,12 @@
     "section": "templates",
     "id": "motion-interaction-projects",
     "name": "motion-interaction-projects",
-    "mode": "case-study",
-    "desc": "Project-level case library for excellent frontend visual motion and interaction references, including scroll, mouse, cursor, morphing layout, transition systems, and kinetic typography.",
-    "cat": "motion-interaction",
+    "mode": "prototype",
+    "desc": "Motion Interaction Projects is a source-linked case library for immersive frontend motion and interaction references. It records stage layout, motion systems, cursor and pointer behavior, scroll choreography, media stra…",
+    "cat": "motion-interaction-project",
     "preview": "design-templates/motion-interaction-projects/example.html",
-    "captured": "",
-    "batch": ""
+    "captured": "2026-06-29",
+    "batch": "motion-interaction-projects"
   },
   {
     "section": "templates",
@@ -2764,12 +2775,12 @@
     "section": "templates",
     "id": "poster-projects",
     "name": "poster-projects",
-    "mode": "case-study",
-    "desc": "Project-level case library for excellent posters, event key visuals, typographic posters, and product key visuals. Captures composition, type hierarchy, image treatment, reusable production notes, and attribution withou…",
-    "cat": "poster-reference",
+    "mode": "prototype",
+    "desc": "Poster Projects is a source-linked case library for outstanding posters, event key visuals, typographic one-sheets, and cultural print systems. It records composition, asset strategy, annotation logic, and reusable visu…",
+    "cat": "poster-project",
     "preview": "design-templates/poster-projects/example.html",
-    "captured": "",
-    "batch": ""
+    "captured": "2026-07-01",
+    "batch": "poster-projects"
   },
   {
     "section": "templates",
@@ -2806,6 +2817,402 @@
   },
   {
     "section": "templates",
+    "id": "resume-academic-cv-lite",
+    "name": "resume-academic-cv-lite",
+    "mode": "prototype",
+    "desc": "Lightweight academic CV template for early-career researchers.",
+    "cat": "resume",
+    "preview": "design-templates/resume-academic-cv-lite/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-architect-sheet",
+    "name": "resume-architect-sheet",
+    "mode": "prototype",
+    "desc": "Architectural drawing-sheet resume with title block, project grid, scale notes, and plan-like hierarchy.",
+    "cat": "resume",
+    "preview": "design-templates/resume-architect-sheet/example.html",
+    "captured": "2026-06-11",
+    "batch": "design-forward-resume"
+  },
+  {
+    "section": "templates",
+    "id": "resume-ats-clean",
+    "name": "resume-ats-clean",
+    "mode": "prototype",
+    "desc": "Clean ATS-friendly one-column resume template for broad roles.",
+    "cat": "resume",
+    "preview": "design-templates/resume-ats-clean/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-awesome-cv",
+    "name": "resume-awesome-cv",
+    "mode": "prototype",
+    "desc": "Polished professional CV template with formal section rhythm and cover-letter-ready tone.",
+    "cat": "resume",
+    "preview": "design-templates/resume-awesome-cv/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-awwwards-scroll-story",
+    "name": "resume-awwwards-scroll-story",
+    "mode": "prototype",
+    "desc": "Scroll-story resume page with hero statement, sticky index, project chapters, and cinematic section breaks.",
+    "cat": "resume",
+    "preview": "design-templates/resume-awwwards-scroll-story/example.html",
+    "captured": "2026-06-11",
+    "batch": "design-forward-resume"
+  },
+  {
+    "section": "templates",
+    "id": "resume-brutalist-grid",
+    "name": "resume-brutalist-grid",
+    "mode": "prototype",
+    "desc": "Brutalist grid resume with heavy rules, raw labels, visible coordinates, and dense technical credibility.",
+    "cat": "resume",
+    "preview": "design-templates/resume-brutalist-grid/example.html",
+    "captured": "2026-06-11",
+    "batch": "design-forward-resume"
+  },
+  {
+    "section": "templates",
+    "id": "resume-canva-editorial",
+    "name": "resume-canva-editorial",
+    "mode": "prototype",
+    "desc": "Editorial resume layout with polished type contrast and creative but printable structure.",
+    "cat": "resume",
+    "preview": "design-templates/resume-canva-editorial/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-cn-bilingual-ats",
+    "name": "resume-cn-bilingual-ats",
+    "mode": "prototype",
+    "desc": "Bilingual Chinese-English ATS-friendly resume layout.",
+    "cat": "resume",
+    "preview": "design-templates/resume-cn-bilingual-ats/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-cn-campus-intern",
+    "name": "resume-cn-campus-intern",
+    "mode": "prototype",
+    "desc": "Chinese campus recruitment resume for internship candidates.",
+    "cat": "resume",
+    "preview": "design-templates/resume-cn-campus-intern/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-cn-editorial-bilingual",
+    "name": "resume-cn-editorial-bilingual",
+    "mode": "prototype",
+    "desc": "Chinese-English editorial resume with bilingual section rhythm, publication-like spacing, and portfolio highlights.",
+    "cat": "resume",
+    "preview": "design-templates/resume-cn-editorial-bilingual/example.html",
+    "captured": "2026-06-11",
+    "batch": "design-forward-resume"
+  },
+  {
+    "section": "templates",
+    "id": "resume-cn-markdown-minimal",
+    "name": "resume-cn-markdown-minimal",
+    "mode": "prototype",
+    "desc": "Minimal Chinese resume layout inspired by Markdown structure.",
+    "cat": "resume",
+    "preview": "design-templates/resume-cn-markdown-minimal/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-cn-photo-sidebar",
+    "name": "resume-cn-photo-sidebar",
+    "mode": "prototype",
+    "desc": "Chinese resume with a photo-style sidebar and structured main column.",
+    "cat": "resume",
+    "preview": "design-templates/resume-cn-photo-sidebar/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-cn-social-recruit",
+    "name": "resume-cn-social-recruit",
+    "mode": "prototype",
+    "desc": "Achievement-led Chinese resume for experienced social recruiting.",
+    "cat": "resume",
+    "preview": "design-templates/resume-cn-social-recruit/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-creative-studio",
+    "name": "resume-creative-studio",
+    "mode": "prototype",
+    "desc": "Editorial creative resume template for studios and portfolios.",
+    "cat": "resume",
+    "preview": "design-templates/resume-creative-studio/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-developer-mono",
+    "name": "resume-developer-mono",
+    "mode": "prototype",
+    "desc": "Monospace developer resume template for technical portfolios.",
+    "cat": "resume",
+    "preview": "design-templates/resume-developer-mono/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-editorial-magazine-spread",
+    "name": "resume-editorial-magazine-spread",
+    "mode": "prototype",
+    "desc": "Magazine-spread resume with oversized serif masthead, pull quotes, and art-directed editorial rhythm.",
+    "cat": "resume",
+    "preview": "design-templates/resume-editorial-magazine-spread/example.html",
+    "captured": "2026-06-11",
+    "batch": "design-forward-resume"
+  },
+  {
+    "section": "templates",
+    "id": "resume-enhancv-impact",
+    "name": "resume-enhancv-impact",
+    "mode": "prototype",
+    "desc": "Impact-led resume with achievement modules, career story, and measurable outcomes.",
+    "cat": "resume",
+    "preview": "design-templates/resume-enhancv-impact/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-executive-slate",
+    "name": "resume-executive-slate",
+    "mode": "prototype",
+    "desc": "Executive resume template with a restrained slate leadership tone.",
+    "cat": "resume",
+    "preview": "design-templates/resume-executive-slate/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-fashion-lookbook",
+    "name": "resume-fashion-lookbook",
+    "mode": "prototype",
+    "desc": "Lookbook-style resume with image placeholders, credits, seasonal typography, and editorial production credits.",
+    "cat": "resume",
+    "preview": "design-templates/resume-fashion-lookbook/example.html",
+    "captured": "2026-06-11",
+    "batch": "design-forward-resume"
+  },
+  {
+    "section": "templates",
+    "id": "resume-flowcv-structured",
+    "name": "resume-flowcv-structured",
+    "mode": "prototype",
+    "desc": "Structured ATS-friendly resume with balanced two-column information hierarchy.",
+    "cat": "resume",
+    "preview": "design-templates/resume-flowcv-structured/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-founder-onepager",
+    "name": "resume-founder-onepager",
+    "mode": "prototype",
+    "desc": "Founder one-pager mixing resume, pitch memo, traction metrics, advisory proof, and operating principles.",
+    "cat": "resume",
+    "preview": "design-templates/resume-founder-onepager/example.html",
+    "captured": "2026-06-11",
+    "batch": "design-forward-resume"
+  },
+  {
+    "section": "templates",
+    "id": "resume-infographic-map",
+    "name": "resume-infographic-map",
+    "mode": "prototype",
+    "desc": "Infographic resume mapping impact, tools, timeline, and strengths through charts instead of plain lists.",
+    "cat": "resume",
+    "preview": "design-templates/resume-infographic-map/example.html",
+    "captured": "2026-06-11",
+    "batch": "design-forward-resume"
+  },
+  {
+    "section": "templates",
+    "id": "resume-json-flat",
+    "name": "resume-json-flat",
+    "mode": "prototype",
+    "desc": "Data-driven flat resume template inspired by portable JSON Resume themes.",
+    "cat": "resume",
+    "preview": "design-templates/resume-json-flat/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-kickresume-typographic",
+    "name": "resume-kickresume-typographic",
+    "mode": "prototype",
+    "desc": "Typographic resume with confident section rhythm and strong recruiter scan paths.",
+    "cat": "resume",
+    "preview": "design-templates/resume-kickresume-typographic/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-markdown-compact",
+    "name": "resume-markdown-compact",
+    "mode": "prototype",
+    "desc": "Compact Markdown-first resume template for maintainable text-to-PDF workflows.",
+    "cat": "resume",
+    "preview": "design-templates/resume-markdown-compact/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-motion-reel-cv",
+    "name": "resume-motion-reel-cv",
+    "mode": "prototype",
+    "desc": "Motion reel resume with storyboard strips, timeline beats, software stack, and reel-first portfolio framing.",
+    "cat": "resume",
+    "preview": "design-templates/resume-motion-reel-cv/example.html",
+    "captured": "2026-06-11",
+    "batch": "design-forward-resume"
+  },
+  {
+    "section": "templates",
+    "id": "resume-neo-brutalist-lime",
+    "name": "resume-neo-brutalist-lime",
+    "mode": "prototype",
+    "desc": "Neo-brutalist resume with lime highlights, sticker labels, outlined photo block, and confident creative pacing.",
+    "cat": "resume",
+    "preview": "design-templates/resume-neo-brutalist-lime/example.html",
+    "captured": "2026-06-11",
+    "batch": "design-forward-resume"
+  },
+  {
+    "section": "templates",
+    "id": "resume-novoresume-one-page",
+    "name": "resume-novoresume-one-page",
+    "mode": "prototype",
+    "desc": "Compact one-page resume optimized for recruiter scanning and ATS-friendly structure.",
+    "cat": "resume",
+    "preview": "design-templates/resume-novoresume-one-page/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-portfolio-casebook",
+    "name": "resume-portfolio-casebook",
+    "mode": "prototype",
+    "desc": "Casebook-style resume combining bio, selected projects, role timeline, and concise outcomes.",
+    "cat": "resume",
+    "preview": "design-templates/resume-portfolio-casebook/example.html",
+    "captured": "2026-06-11",
+    "batch": "design-forward-resume"
+  },
+  {
+    "section": "templates",
+    "id": "resume-product-designer-case-study",
+    "name": "resume-product-designer-case-study",
+    "mode": "prototype",
+    "desc": "Product designer resume with case-study evidence, impact metrics, methods, and compact career narrative.",
+    "cat": "resume",
+    "preview": "design-templates/resume-product-designer-case-study/example.html",
+    "captured": "2026-06-11",
+    "batch": "design-forward-resume"
+  },
+  {
+    "section": "templates",
+    "id": "resume-reactive-classic",
+    "name": "resume-reactive-classic",
+    "mode": "prototype",
+    "desc": "Classic configurable resume template inspired by open-source resume builders.",
+    "cat": "resume",
+    "preview": "design-templates/resume-reactive-classic/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-readcv-web-minimal",
+    "name": "resume-readcv-web-minimal",
+    "mode": "prototype",
+    "desc": "Read.cv-inspired minimal web resume with conversational sections, compact links, and calm monochrome density.",
+    "cat": "resume",
+    "preview": "design-templates/resume-readcv-web-minimal/example.html",
+    "captured": "2026-06-11",
+    "batch": "design-forward-resume"
+  },
+  {
+    "section": "templates",
+    "id": "resume-trifold-brochure",
+    "name": "resume-trifold-brochure",
+    "mode": "prototype",
+    "desc": "Three-panel brochure resume for print handoff, with cover pitch, experience panels, and takeaway back page.",
+    "cat": "resume",
+    "preview": "design-templates/resume-trifold-brochure/example.html",
+    "captured": "2026-06-11",
+    "batch": "design-forward-resume"
+  },
+  {
+    "section": "templates",
+    "id": "resume-two-column-deedy",
+    "name": "resume-two-column-deedy",
+    "mode": "prototype",
+    "desc": "Dense two-column technical resume inspired by classic computer-science CV structure.",
+    "cat": "resume",
+    "preview": "design-templates/resume-two-column-deedy/example.html",
+    "captured": "2026-06-11",
+    "batch": "resume-foundation"
+  },
+  {
+    "section": "templates",
+    "id": "resume-typographic-poster",
+    "name": "resume-typographic-poster",
+    "mode": "prototype",
+    "desc": "Poster-like typographic CV with rotated metadata, strict black-and-white rhythm, and dramatic whitespace.",
+    "cat": "resume",
+    "preview": "design-templates/resume-typographic-poster/example.html",
+    "captured": "2026-06-11",
+    "batch": "design-forward-resume"
+  },
+  {
+    "section": "templates",
+    "id": "resume-zine-collage",
+    "name": "resume-zine-collage",
+    "mode": "prototype",
+    "desc": "Zine-style creative resume with cut-paper panels, taped annotations, rough edges, and portfolio mini-thumbnails.",
+    "cat": "resume",
+    "preview": "design-templates/resume-zine-collage/example.html",
+    "captured": "2026-06-11",
+    "batch": "design-forward-resume"
+  },
+  {
+    "section": "templates",
     "id": "saas-landing",
     "name": "saas-landing",
     "mode": "prototype",
@@ -2814,6 +3221,17 @@
     "preview": "design-templates/saas-landing/example.html",
     "captured": "",
     "batch": ""
+  },
+  {
+    "section": "templates",
+    "id": "scroll-progress-nav",
+    "name": "scroll-progress-nav",
+    "mode": "prototype",
+    "desc": "Section-aware sticky navigation that fills the active rail span as the reader moves through a long page.",
+    "cat": "micro-widget",
+    "preview": "design-templates/scroll-progress-nav/example.html",
+    "captured": "2026-06-13",
+    "batch": "daily-open-design-inspiration-capture"
   },
   {
     "section": "templates",
@@ -3004,6 +3422,23 @@
   },
   {
     "section": "design-systems",
+    "id": "adobe-spectrum",
+    "name": "Adobe Spectrum",
+    "mode": "design-system",
+    "desc": "Category: Design & Creative Open Design package distilled from public Adobe Spectrum documentation into reusable product UI tokens, prose, and component fixtures.",
+    "cat": "Design & Creative",
+    "preview": "design-systems/adobe-spectrum/components.html",
+    "colors": [
+      "#f8f8f8",
+      "#ffffff",
+      "#f3f3f3",
+      "#222222",
+      "#4b4b4b"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
     "id": "agentic",
     "name": "Agentic",
     "mode": "design-system",
@@ -3152,6 +3587,57 @@
       "#eeeeee",
       "#111111",
       "#3a3a3a"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
+    "id": "atlassian-design-system",
+    "name": "Atlassian Design System",
+    "mode": "design-system",
+    "desc": "Category: Productivity & SaaS A compact Open Design package distilled from Atlassian's public design-system foundations: clear enterprise surfaces, Atlassian Sans typography, token-led spacing, blue actions, and layered…",
+    "cat": "Productivity & SaaS",
+    "preview": "design-systems/atlassian-design-system/components.html",
+    "colors": [
+      "#f7f8f9",
+      "#ffffff",
+      "#f1f2f4",
+      "#172b4d",
+      "#44546f"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
+    "id": "aws-cloudscape",
+    "name": "AWS Cloudscape",
+    "mode": "design-system",
+    "desc": "Category: Backend & Data Cloud operations interface language distilled from public Cloudscape Design System documentation.",
+    "cat": "Backend & Data",
+    "preview": "design-systems/aws-cloudscape/components.html",
+    "colors": [
+      "#f2f3f3",
+      "#ffffff",
+      "#f9fafa",
+      "#16191f",
+      "#414d5c"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
+    "id": "backstage-design-system",
+    "name": "Backstage Design System",
+    "mode": "design-system",
+    "desc": "Category: Developer Tools Reusable developer-portal visual language distilled from Backstage public docs, Spotify for Backstage, and the open-source Backstage theme model.",
+    "cat": "Developer Tools",
+    "preview": "design-systems/backstage-design-system/components.html",
+    "colors": [
+      "#0c0c0c",
+      "#121212",
+      "#1b1f24",
+      "#ffffff",
+      "#f2f7f6"
     ],
     "fonts": []
   },
@@ -3344,6 +3830,19 @@
   },
   {
     "section": "design-systems",
+    "id": "clarity-design-system",
+    "name": "Clarity Design System",
+    "mode": "design-system",
+    "desc": "Category: Enterprise Enterprise web-component visual language distilled from public Clarity documentation and the official Clarity Core package.",
+    "cat": "Enterprise",
+    "preview": "design-systems/clarity-design-system/components.html",
+    "colors": [
+      "#ffffff"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
     "id": "claude",
     "name": "Claude (Anthropic)",
     "mode": "design-system",
@@ -3424,6 +3923,23 @@
       "#166534",
       "#141414",
       "#ffffff"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
+    "id": "codex-app",
+    "name": "Codex App",
+    "mode": "design-system",
+    "desc": "Category: Developer Tools Agent-native desktop workspace inspired by the Codex app: pale sidebar rails, focused thread canvas, review pane, diff accents, and compact command chrome.",
+    "cat": "Developer Tools",
+    "preview": "design-systems/codex-app/components.html",
+    "colors": [
+      "#fbfbf8",
+      "#ffffff",
+      "#f4f5f3",
+      "#1f2328",
+      "#3f454c"
     ],
     "fonts": []
   },
@@ -3718,6 +4234,23 @@
   },
   {
     "section": "design-systems",
+    "id": "elastic-ui",
+    "name": "Elastic UI",
+    "mode": "design-system",
+    "desc": "Category: Backend & Data A compact Open Design package distilled from Elastic EUI's public docs and repository: analytic product surfaces, Inter typography, blue primary action, semantic data color, and precise panel-he…",
+    "cat": "Backend & Data",
+    "preview": "design-systems/elastic-ui/components.html",
+    "colors": [
+      "#f6f8fb",
+      "#ffffff",
+      "#edf2f7",
+      "#1a1c21",
+      "#343741"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
     "id": "elegant",
     "name": "Elegant",
     "mode": "design-system",
@@ -3888,6 +4421,23 @@
   },
   {
     "section": "design-systems",
+    "id": "fluent-2",
+    "name": "Fluent 2",
+    "mode": "design-system",
+    "desc": "Category: Design & Creative A compact Open Design package distilled from Microsoft's public Fluent 2 documentation: neutral productivity surfaces, Segoe UI typography, 4px spacing, rounded controls, material-aware layer…",
+    "cat": "Design & Creative",
+    "preview": "design-systems/fluent-2/components.html",
+    "colors": [
+      "#f5f5f5",
+      "#ffffff",
+      "#fafafa",
+      "#242424",
+      "#424242"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
     "id": "framer",
     "name": "Framer",
     "mode": "design-system",
@@ -3956,6 +4506,23 @@
   },
   {
     "section": "design-systems",
+    "id": "gitlab-pajamas",
+    "name": "GitLab Pajamas",
+    "mode": "design-system",
+    "desc": "Category: Developer Tools GitLab product UI language distilled from public Pajamas Design System documentation.",
+    "cat": "Developer Tools",
+    "preview": "design-systems/gitlab-pajamas/components.html",
+    "colors": [
+      "#f7f7f8",
+      "#ffffff",
+      "#f4f0ff",
+      "#18171d",
+      "#333238"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
     "id": "glassmorphism",
     "name": "Glassmorphism",
     "mode": "design-system",
@@ -3968,6 +4535,23 @@
       "#34465f",
       "#60708a",
       "#4f8cff"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
+    "id": "govuk-design-system",
+    "name": "GOV.UK Design System",
+    "mode": "design-system",
+    "desc": "Category: Government & Public Sector A distilled Open Design package for clear UK public-service interfaces: white canvas, black text, GOV.UK blue links, green primary actions, yellow focus, and strong form affordances.",
+    "cat": "Government & Public Sector",
+    "preview": "design-systems/govuk-design-system/components.html",
+    "colors": [
+      "#ffffff",
+      "#f4f8fb",
+      "#f3f3f3",
+      "#0b0c0c",
+      "#484949"
     ],
     "fonts": []
   },
@@ -4282,6 +4866,25 @@
   },
   {
     "section": "design-systems",
+    "id": "mimo-code",
+    "name": "MiMo Code",
+    "mode": "design-system",
+    "desc": "Category: Terminal UI · CLI Agent Bundled Open Design package for MiMo Code, the Xiaomi AI CLI coding agent. Dark terminal aesthetic with MiMo orange (#FF6900) as primary accent, 5 switchable themes, Xiaomi Cat ASCII ma…",
+    "cat": "Terminal UI · CLI Agent",
+    "preview": "design-systems/mimo-code/components.html",
+    "colors": [
+      "#1a1b2e",
+      "#e0e0e0",
+      "#ff6900",
+      "#7c3aed",
+      "#10b981"
+    ],
+    "fonts": [
+      "JetBrains Mono"
+    ]
+  },
+  {
+    "section": "design-systems",
     "id": "minimal",
     "name": "Minimal",
     "mode": "design-system",
@@ -4437,6 +5040,23 @@
   },
   {
     "section": "design-systems",
+    "id": "mozilla-protocol",
+    "name": "Mozilla Protocol",
+    "mode": "design-system",
+    "desc": "Category: Brand & Marketing Open Design package distilled from public Mozilla Protocol documentation into reusable website design tokens, prose, and component fixtures.",
+    "cat": "Brand & Marketing",
+    "preview": "design-systems/mozilla-protocol/components.html",
+    "colors": [
+      "#ffffff",
+      "#f9f9fb",
+      "#ededf0",
+      "#000000",
+      "#20123a"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
     "id": "neobrutalism",
     "name": "Neobrutalism",
     "mode": "design-system",
@@ -4483,6 +5103,23 @@
       "#ead6c7",
       "#2b211c",
       "#5a4b43"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
+    "id": "nhs-design-system",
+    "name": "NHS Design System",
+    "mode": "design-system",
+    "desc": "Category: Public Sector & Health A practical, accessibility-first health service visual language inspired by the official NHS digital service manual.",
+    "cat": "Public Sector & Health",
+    "preview": "design-systems/nhs-design-system/components.html",
+    "colors": [
+      "#f0f4f5",
+      "#ffffff",
+      "#e8edee",
+      "#212b32",
+      "#354b5a"
     ],
     "fonts": []
   },
@@ -4607,6 +5244,23 @@
   },
   {
     "section": "design-systems",
+    "id": "palantir-blueprint",
+    "name": "Palantir Blueprint",
+    "mode": "design-system",
+    "desc": "Category: Backend & Data A compact Open Design package distilled from Blueprint's public docs and repository: complex desktop web applications, data-dense controls, blue action states, compact typography, and enterprise…",
+    "cat": "Backend & Data",
+    "preview": "design-systems/palantir-blueprint/components.html",
+    "colors": [
+      "#f5f8fa",
+      "#ffffff",
+      "#ebf1f5",
+      "#1c2127",
+      "#383e47"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
     "id": "paper",
     "name": "Paper",
     "mode": "design-system",
@@ -4670,6 +5324,23 @@
       "#e5e5e0",
       "#e0e0d9",
       "#91918c"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
+    "id": "pinterest-gestalt",
+    "name": "Pinterest Gestalt",
+    "mode": "design-system",
+    "desc": "Category: Design & Creative Open Design package distilled from public Pinterest Gestalt documentation and token packages into reusable product UI tokens, prose, and component fixtures.",
+    "cat": "Design & Creative",
+    "preview": "design-systems/pinterest-gestalt/components.html",
+    "colors": [
+      "#ffffff",
+      "#f9f9f9",
+      "#f1f1f1",
+      "#111111",
+      "#2b2b2b"
     ],
     "fonts": []
   },
@@ -4899,6 +5570,23 @@
   },
   {
     "section": "design-systems",
+    "id": "salesforce-lightning",
+    "name": "Salesforce Lightning",
+    "mode": "design-system",
+    "desc": "Category: Productivity & SaaS Open Design package distilled from public Salesforce Lightning Design System documentation into reusable enterprise app tokens, prose, and component fixtures.",
+    "cat": "Productivity & SaaS",
+    "preview": "design-systems/salesforce-lightning/components.html",
+    "colors": [
+      "#f3f6fb",
+      "#ffffff",
+      "#f8fbff",
+      "#181818",
+      "#2e3a59"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
     "id": "sanity",
     "name": "Sanity",
     "mode": "design-system",
@@ -4916,6 +5604,23 @@
   },
   {
     "section": "design-systems",
+    "id": "sap-fiori",
+    "name": "SAP Fiori",
+    "mode": "design-system",
+    "desc": "Category: Enterprise Applications A clean enterprise application visual language inspired by official SAP Fiori web guidelines and the Morning Horizon theme.",
+    "cat": "Enterprise Applications",
+    "preview": "design-systems/sap-fiori/components.html",
+    "colors": [
+      "#f5f6f7",
+      "#ffffff",
+      "#eff1f2",
+      "#131e29",
+      "#223548"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
     "id": "sentry",
     "name": "Sentry",
     "mode": "design-system",
@@ -4928,6 +5633,23 @@
       "#6a5fc1",
       "#79628c",
       "#422082"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
+    "id": "servicenow-horizon",
+    "name": "ServiceNow Horizon",
+    "mode": "design-system",
+    "desc": "Category: Productivity & SaaS Reusable enterprise workflow visual language distilled from public Horizon Design System documentation.",
+    "cat": "Productivity & SaaS",
+    "preview": "design-systems/servicenow-horizon/components.html",
+    "colors": [
+      "#f6f8fb",
+      "#ffffff",
+      "#eef7f3",
+      "#0b1620",
+      "#243241"
     ],
     "fonts": []
   },
@@ -5275,6 +5997,23 @@
   },
   {
     "section": "design-systems",
+    "id": "twilio-paste",
+    "name": "Twilio Paste",
+    "mode": "design-system",
+    "desc": "Category: Productivity & SaaS Customer-engagement product UI language distilled from public Twilio Paste documentation and official open-source tokens.",
+    "cat": "Productivity & SaaS",
+    "preview": "design-systems/twilio-paste/components.html",
+    "colors": [
+      "#ffffff",
+      "#f9f9fa",
+      "#f4f9ff",
+      "#121c2d",
+      "#394762"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
     "id": "uber",
     "name": "Uber",
     "mode": "design-system",
@@ -5310,6 +6049,23 @@
       "Inter",
       "var(--font-urdu)"
     ]
+  },
+  {
+    "section": "design-systems",
+    "id": "us-web-design-system",
+    "name": "U.S. Web Design System",
+    "mode": "design-system",
+    "desc": "Category: Government & Public Sector A distilled Open Design package for U.S. federal digital services: tokenized color families, Public Sans-style typography, 8px spacing, accessible alerts, cards, banners, and action…",
+    "cat": "Government & Public Sector",
+    "preview": "design-systems/us-web-design-system/components.html",
+    "colors": [
+      "#ffffff",
+      "#f0f0f0",
+      "#f2e4d4",
+      "#1b1b1b",
+      "#3d4551"
+    ],
+    "fonts": []
   },
   {
     "section": "design-systems",
@@ -5519,6 +6275,23 @@
   },
   {
     "section": "design-systems",
+    "id": "workday-canvas",
+    "name": "Workday Canvas",
+    "mode": "design-system",
+    "desc": "Category: Enterprise Open Design package distilled from public Workday Canvas documentation, Canvas Kit, and Canvas Tokens into reusable enterprise UI tokens, prose, and component fixtures.",
+    "cat": "Enterprise",
+    "preview": "design-systems/workday-canvas/components.html",
+    "colors": [
+      "#f4f6f8",
+      "#ffffff",
+      "#edf4ff",
+      "#1f2933",
+      "#334155"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
     "id": "x-ai",
     "name": "xAI",
     "mode": "design-system",
@@ -5567,6 +6340,23 @@
       "#ffedd5",
       "#2d2a26",
       "#574f45"
+    ],
+    "fonts": []
+  },
+  {
+    "section": "design-systems",
+    "id": "zendesk-garden",
+    "name": "Zendesk Garden",
+    "mode": "design-system",
+    "desc": "Category: Productivity & SaaS Open Design package distilled from public Zendesk Garden documentation and Garden React into reusable product UI tokens, prose, and component fixtures.",
+    "cat": "Productivity & SaaS",
+    "preview": "design-systems/zendesk-garden/components.html",
+    "colors": [
+      "#f8f9f9",
+      "#ffffff",
+      "#edf7ff",
+      "#293239",
+      "#39434b"
     ],
     "fonts": []
   }
