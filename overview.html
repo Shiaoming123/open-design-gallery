@@ -722,6 +722,13 @@ function renderWindow(grid, items, renderItem, afterRender) {
   if (afterRender) afterRender(items.length);
 }
 
+function filterItemsForWindow(items, state, filterKeyFn, searchTextFn) {
+  return items.filter(item =>
+    (state.filter === 'all' || filterKeyFn(item) === state.filter)
+    && (!state.query || searchTextFn(item).includes(state.query))
+  );
+}
+
 function render(section) {
   const allItems = CARDS.filter(c => c.section === section);
   const state = SECTION_STATE[section];
@@ -830,7 +837,10 @@ function renderProductUiView(view, items) {
   renderProductUiFilters(view, items);
   const grid = document.getElementById('grid-product-ui-' + view);
   if (!grid) return;
-  renderWindow(grid, items, item => renderProductUiCard(view, item), () => applyProductUiFilters(view));
+  const state = PRODUCT_UI_STATE[view];
+  const matches = filterItemsForWindow(items, state, item => productUiFilterKey(view, item), productUiSearchText);
+  renderWindow(grid, matches, item => renderProductUiCard(view, item), () => updateSpecialResult('product-ui', view, matches.length));
+  activateFirstPreview();
 }
 
 function renderProductUiCard(view, item) {
@@ -869,9 +879,9 @@ function renderProductUiFilters(view, items) {
     const key = productUiFilterKey(view, item);
     counts[key] = (counts[key] || 0) + 1;
   });
-  const buttons = ['<button class="pill active" type="button" data-product-ui-filter-view="'+view+'" data-product-ui-filter="all">All<span class="count">'+items.length+'</span></button>'];
+  const buttons = ['<button class="pill'+(PRODUCT_UI_STATE[view].filter==='all'?' active':'')+'" type="button" data-product-ui-filter-view="'+view+'" data-product-ui-filter="all">All<span class="count">'+items.length+'</span></button>'];
   Object.keys(counts).sort().forEach(key => {
-    buttons.push('<button class="pill" type="button" data-product-ui-filter-view="'+view+'" data-product-ui-filter="'+escAttr(key)+'">'+escHtml(productUiFilterLabel(key))+'<span class="count">'+counts[key]+'</span></button>');
+    buttons.push('<button class="pill'+(PRODUCT_UI_STATE[view].filter===key?' active':'')+'" type="button" data-product-ui-filter-view="'+view+'" data-product-ui-filter="'+escAttr(key)+'">'+escHtml(productUiFilterLabel(key))+'<span class="count">'+counts[key]+'</span></button>');
   });
   fb.innerHTML = buttons.join('');
 }
@@ -909,7 +919,7 @@ function filterProductUi(view, q) {
   const clear = document.querySelector('#product-ui-panel-' + view + ' .clear-btn');
   if (input && input.value !== q) input.value = q;
   if (clear) clear.classList.toggle('active', Boolean(PRODUCT_UI_STATE[view].query));
-  applyProductUiFilters(view);
+  renderProductUiView(view, PRODUCT_UI_PROJECTS[view] || []);
 }
 
 function clearProductUiSearch(view) {
@@ -925,26 +935,7 @@ function setProductUiFilter(view, value, btn) {
     fb.querySelectorAll('.pill').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
   }
-  applyProductUiFilters(view);
-}
-
-function applyProductUiFilters(view) {
-  const grid = document.getElementById('grid-product-ui-' + view);
-  if (!grid) return;
-  const cards = grid.children;
-  const state = PRODUCT_UI_STATE[view];
-  let visible = 0;
-  for (let card of cards) {
-    const matchesFilter = state.filter === 'all' || card.dataset.filter === state.filter;
-    const matchesQuery = !state.query || (card.dataset.search || '').includes(state.query);
-    const show = matchesFilter && matchesQuery;
-    card.style.display = show ? '' : 'none';
-    if (show) visible++;
-  }
-  const result = document.getElementById('visible-product-ui-' + view);
-  if (result) result.textContent = visible + ' / ' + Number(grid.dataset.total || cards.length) + ' showing';
-  const empty = document.getElementById('empty-product-ui-' + view);
-  if (empty) empty.classList.toggle('active', visible === 0);
+  renderProductUiView(view, PRODUCT_UI_PROJECTS[view] || []);
 }
 
 function renderCommercialLaunches() {
@@ -958,7 +949,10 @@ function renderCommercialView(view, items) {
   renderCommercialFilters(view, items);
   const grid = document.getElementById('grid-commercial-' + view);
   if (!grid) return;
-  renderWindow(grid, items, item => renderCommercialCard(view, item), () => applyCommercialFilters(view));
+  const state = COMMERCIAL_STATE[view];
+  const matches = filterItemsForWindow(items, state, item => commercialFilterKey(view, item), commercialSearchText);
+  renderWindow(grid, matches, item => renderCommercialCard(view, item), () => updateSpecialResult('commercial', view, matches.length));
+  activateFirstPreview();
 }
 
 function renderCommercialCard(view, item) {
@@ -1001,9 +995,9 @@ function renderCommercialFilters(view, items) {
     const key = commercialFilterKey(view, item);
     counts[key] = (counts[key] || 0) + 1;
   });
-  const buttons = ['<button class="pill active" type="button" data-commercial-filter-view="'+view+'" data-commercial-filter="all">All<span class="count">'+items.length+'</span></button>'];
+  const buttons = ['<button class="pill'+(COMMERCIAL_STATE[view].filter==='all'?' active':'')+'" type="button" data-commercial-filter-view="'+view+'" data-commercial-filter="all">All<span class="count">'+items.length+'</span></button>'];
   Object.keys(counts).sort().forEach(key => {
-    buttons.push('<button class="pill" type="button" data-commercial-filter-view="'+view+'" data-commercial-filter="'+escAttr(key)+'">'+escHtml(commercialFilterLabel(key))+'<span class="count">'+counts[key]+'</span></button>');
+    buttons.push('<button class="pill'+(COMMERCIAL_STATE[view].filter===key?' active':'')+'" type="button" data-commercial-filter-view="'+view+'" data-commercial-filter="'+escAttr(key)+'">'+escHtml(commercialFilterLabel(key))+'<span class="count">'+counts[key]+'</span></button>');
   });
   fb.innerHTML = buttons.join('');
 }
@@ -1043,7 +1037,7 @@ function filterCommercial(view, q) {
   const clear = document.querySelector('#commercial-panel-' + view + ' .clear-btn');
   if (input && input.value !== q) input.value = q;
   if (clear) clear.classList.toggle('active', Boolean(COMMERCIAL_STATE[view].query));
-  applyCommercialFilters(view);
+  renderCommercialView(view, COMMERCIAL_LAUNCHES[view] || []);
 }
 
 function clearCommercialSearch(view) {
@@ -1059,26 +1053,7 @@ function setCommercialFilter(view, value, btn) {
     fb.querySelectorAll('.pill').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
   }
-  applyCommercialFilters(view);
-}
-
-function applyCommercialFilters(view) {
-  const grid = document.getElementById('grid-commercial-' + view);
-  if (!grid) return;
-  const cards = grid.children;
-  const state = COMMERCIAL_STATE[view];
-  let visible = 0;
-  for (let card of cards) {
-    const matchesFilter = state.filter === 'all' || card.dataset.filter === state.filter;
-    const matchesQuery = !state.query || (card.dataset.search || '').includes(state.query);
-    const show = matchesFilter && matchesQuery;
-    card.style.display = show ? '' : 'none';
-    if (show) visible++;
-  }
-  const result = document.getElementById('visible-commercial-' + view);
-  if (result) result.textContent = visible + ' / ' + Number(grid.dataset.total || cards.length) + ' showing';
-  const empty = document.getElementById('empty-commercial-' + view);
-  if (empty) empty.classList.toggle('active', visible === 0);
+  renderCommercialView(view, COMMERCIAL_LAUNCHES[view] || []);
 }
 
 function renderBlogProjects() {
@@ -1092,7 +1067,10 @@ function renderBlogView(view, items) {
   renderBlogFilters(view, items);
   const grid = document.getElementById('grid-blog-' + view);
   if (!grid) return;
-  renderWindow(grid, items, item => renderBlogCard(view, item), () => applyBlogFilters(view));
+  const state = BLOG_STATE[view];
+  const matches = filterItemsForWindow(items, state, item => blogFilterKey(view, item), blogSearchText);
+  renderWindow(grid, matches, item => renderBlogCard(view, item), () => updateSpecialResult('blog', view, matches.length));
+  activateFirstPreview();
 }
 
 function renderBlogCard(view, item) {
@@ -1134,9 +1112,9 @@ function renderBlogFilters(view, items) {
     const key = blogFilterKey(view, item);
     counts[key] = (counts[key] || 0) + 1;
   });
-  const buttons = ['<button class="pill active" type="button" data-blog-filter-view="'+view+'" data-blog-filter="all">All<span class="count">'+items.length+'</span></button>'];
+  const buttons = ['<button class="pill'+(BLOG_STATE[view].filter==='all'?' active':'')+'" type="button" data-blog-filter-view="'+view+'" data-blog-filter="all">All<span class="count">'+items.length+'</span></button>'];
   Object.keys(counts).sort().forEach(key => {
-    buttons.push('<button class="pill" type="button" data-blog-filter-view="'+view+'" data-blog-filter="'+escAttr(key)+'">'+escHtml(blogFilterLabel(key))+'<span class="count">'+counts[key]+'</span></button>');
+    buttons.push('<button class="pill'+(BLOG_STATE[view].filter===key?' active':'')+'" type="button" data-blog-filter-view="'+view+'" data-blog-filter="'+escAttr(key)+'">'+escHtml(blogFilterLabel(key))+'<span class="count">'+counts[key]+'</span></button>');
   });
   fb.innerHTML = buttons.join('');
 }
@@ -1175,7 +1153,7 @@ function filterBlog(view, q) {
   const clear = document.querySelector('#blog-panel-' + view + ' .clear-btn');
   if (input && input.value !== q) input.value = q;
   if (clear) clear.classList.toggle('active', Boolean(BLOG_STATE[view].query));
-  applyBlogFilters(view);
+  renderBlogView(view, BLOG_PROJECTS[view] || []);
 }
 
 function clearBlogSearch(view) {
@@ -1191,26 +1169,14 @@ function setBlogFilter(view, value, btn) {
     fb.querySelectorAll('.pill').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
   }
-  applyBlogFilters(view);
+  renderBlogView(view, BLOG_PROJECTS[view] || []);
 }
 
-function applyBlogFilters(view) {
-  const grid = document.getElementById('grid-blog-' + view);
-  if (!grid) return;
-  const cards = grid.children;
-  const state = BLOG_STATE[view];
-  let visible = 0;
-  for (let card of cards) {
-    const matchesFilter = state.filter === 'all' || card.dataset.filter === state.filter;
-    const matchesQuery = !state.query || (card.dataset.search || '').includes(state.query);
-    const show = matchesFilter && matchesQuery;
-    card.style.display = show ? '' : 'none';
-    if (show) visible++;
-  }
-  const result = document.getElementById('visible-blog-' + view);
-  if (result) result.textContent = visible + ' / ' + Number(grid.dataset.total || cards.length) + ' showing';
-  const empty = document.getElementById('empty-blog-' + view);
-  if (empty) empty.classList.toggle('active', visible === 0);
+function updateSpecialResult(kind, view, total) {
+  const result = document.getElementById('visible-' + kind + '-' + view);
+  if (result) result.textContent = Math.min(total, RENDER_LIMIT) + ' / ' + total + ' showing';
+  const empty = document.getElementById('empty-' + kind + '-' + view);
+  if (empty) empty.classList.toggle('active', total === 0);
 }
 
 function escHtml(s){
@@ -1223,6 +1189,17 @@ function escAttr(s){
 
 const CATALOG_PAGE_IDS = ['templates','product-ui-projects','commercial-launches','blog-projects','design-systems','skills'];
 const RENDERED_PAGES = new Set();
+
+function clearInactiveCatalogPages(activePage) {
+  document.querySelectorAll('[data-catalog-page]').forEach(section => {
+    if (section.dataset.catalogPage === activePage) return;
+    section.querySelectorAll('[id^="grid-"]').forEach(grid => {
+      grid.textContent = '';
+      grid.dataset.total = '0';
+    });
+    RENDERED_PAGES.delete(section.dataset.catalogPage);
+  });
+}
 
 function ensurePageRendered(page) {
   if (RENDERED_PAGES.has(page)) return;
@@ -1241,6 +1218,7 @@ function currentCatalogPage() {
 function setCatalogPage(page, options) {
   const nextPage = CATALOG_PAGE_IDS.includes(page) ? page : 'templates';
   const opts = options || {};
+  clearInactiveCatalogPages(nextPage);
   ensurePageRendered(nextPage);
   document.querySelectorAll('[data-catalog-page]').forEach(section => {
     section.classList.toggle('active', section.dataset.catalogPage === nextPage);
@@ -1340,10 +1318,12 @@ function openPreview(preview,name,desc,mode){
 function openModal(preview,name,desc,mode){ openPreview(preview,name,desc,mode); }
 
 function activateFirstPreview(){
-  if(isMobilePreview()) return;
   const page=document.querySelector('.catalog-page.active');
-  const card=page&&page.querySelector('.blog-panel.active [data-preview]:not([data-preview=""]),[data-preview]:not([data-preview=""])');
-  if(card) openPreview(card.dataset.preview,card.dataset.name||'Local preview',card.dataset.desc||'',card.dataset.mode||'prototype');
+  const scope=page&&(page.querySelector('.blog-panel.active')||page);
+  const card=scope&&scope.querySelector('[data-preview]:not([data-preview=""])');
+  if(!card){closePreview();return;}
+  if(isMobilePreview()) return;
+  openPreview(card.dataset.preview,card.dataset.name||'Local preview',card.dataset.desc||'',card.dataset.mode||'prototype');
 }
 
 function trapPreviewFocus(e){

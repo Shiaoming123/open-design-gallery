@@ -1,7 +1,8 @@
 import assert from "node:assert/strict";
-import { access, readFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { isStrictLocalPath, resolveRepoLocalPath } from "./thumbnail-utils.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const [index, overview, catalogPreview, assetCatalogText, thumbnailManifest, captureBuilder, overviewDataText] = await Promise.all([
@@ -36,6 +37,24 @@ assert.match(index, /#skills \.card-img \{ aspect-ratio:16\/9; \}/, "skills must
 assert.match(index, /#skills \.card-grid \{ grid-template-columns:repeat\(auto-fit,minmax\(220px,1fr\)\); gap:18px; \}/, "skills must use a denser desktop directory grid");
 assert.match(index, /function isLocalPreview\(/, "modal previews must enforce repository-local paths");
 assert.match(index, /if\(!isLocalPreview\(preview\)\)return;/, "live preview must reject external preview URLs");
+assert.match(index, /function clearInactiveCatalogPages\(/, "page switches must remove cards from hidden catalog pages");
+assert.match(index, /clearInactiveCatalogPages\(nextPage\)/, "every catalog page switch must clear inactive page DOM");
+assert.match(index, /function filterItemsForWindow\(/, "specialized libraries must filter complete arrays before windowing");
+for (const renderer of ["renderProductUiView", "renderCommercialView", "renderBlogView"]) {
+  const body = index.match(new RegExp(`function ${renderer}\\([\\s\\S]*?\\n}`))?.[0] || "";
+  assert.match(body, /filterItemsForWindow\(items, state,/, `${renderer} must filter the complete array before renderWindow`);
+  assert.match(body, /renderWindow\(grid, matches,/, `${renderer} must window the matching array, not the unfiltered source`);
+}
+assert.match(index, /function activateFirstPreview\([\s\S]*?if\(!card\)\{closePreview\(\);return;}/, "empty results must close and clear the live preview");
+assert.match(captureBuilder, /waitForPreviewReady\(/, "capture must wait for deterministic page readiness");
+assert.match(captureBuilder, /assertMeaningfulCapture\(/, "capture must reject obvious blank or loading frames");
+assert.match(captureBuilder, /process\.exitCode\s*=\s*1/, "capture failures must not report silent success");
+assert.match(captureBuilder, /mapExistingThumbnails/, "capture must merge prior, existing, and captured thumbnails");
+for (const invalid of ["/tmp/x.png", "C:\\tmp\\x.png", "https://example.com/x.png", "file:x.png", "../x.png", "a/../x.png", "//host/x.png"]) {
+  assert.equal(isStrictLocalPath(invalid), false, `${invalid}: strict local validator must reject unsafe path`);
+  assert.equal(await resolveRepoLocalPath(root, invalid), null, `${invalid}: unsafe path must not resolve inside Gallery`);
+}
+assert.ok(await resolveRepoLocalPath(root, "catalog/preview-thumbnails.js", true), "strict local validator must accept an existing repo file");
 assert.doesNotMatch(catalogPreview, /<iframe\b/i, "catalog cards must remain link-only");
 assert.match(thumbnailManifest, /"[^"\n]+\.html": "[^"\n]+\.(?:webp|png|jpg)"/, "existing source screenshots must be reused by the static preview manifest");
 assert.match(captureBuilder, /chromium\.launch\(/, "the capture builder must use a real headless browser");
@@ -47,7 +66,8 @@ const thumbnailMap = JSON.parse(thumbnailManifest.match(/=\s*(\{[\s\S]*\});/)[1]
 const publishedPreviews = [...new Set([...overviewDataText.matchAll(/"preview"\s*:\s*"([^"]+)"/g)].map(match => match[1]))];
 for (const preview of publishedPreviews) {
   assert.ok(thumbnailMap[preview], `${preview}: local preview must have a static thumbnail`);
-  await access(path.join(root, thumbnailMap[preview]));
+  assert.ok(await resolveRepoLocalPath(root, preview, true), `${preview}: preview must resolve to an existing file inside Gallery`);
+  assert.ok(await resolveRepoLocalPath(root, thumbnailMap[preview], true), `${preview}: thumbnail must resolve to an existing file inside Gallery`);
 }
 
 const externalTargets = index.match(/target="_blank"/g) ?? [];
@@ -59,6 +79,8 @@ for (const asset of catalog.assets ?? []) {
   for (const field of ["sourcePath", "previewPath"]) {
     const value = asset[field];
     if (value === undefined) continue;
+    assert.ok(isStrictLocalPath(value), `${asset.id}: ${field} must pass the strict local path validator`);
+    assert.ok(await resolveRepoLocalPath(root, value, true), `${asset.id}: ${field} must resolve inside Gallery`);
     assert.equal(path.isAbsolute(value), false, `${asset.id}: ${field} must be local`);
     assert.equal(value.split(/[\\/]/).includes(".."), false, `${asset.id}: ${field} must not escape Gallery`);
     assert.doesNotMatch(value, /^[a-z][a-z0-9+.-]*:/i, `${asset.id}: ${field} must not be an external URL`);
