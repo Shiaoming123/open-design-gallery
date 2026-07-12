@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 import { isStrictLocalPath, resolveRepoLocalPath } from "./thumbnail-utils.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const [index, overview, catalogPreview, assetCatalogText, thumbnailManifest, captureBuilder, overviewDataText] = await Promise.all([
+const [index, overview, catalogPreview, assetCatalogText, thumbnailManifest, captureBuilder, overviewDataText, perfGate] = await Promise.all([
   readFile(path.join(root, "index.html"), "utf8"),
   readFile(path.join(root, "overview.html"), "utf8"),
   readFile(path.join(root, "catalog", "preview.html"), "utf8"),
@@ -13,6 +13,7 @@ const [index, overview, catalogPreview, assetCatalogText, thumbnailManifest, cap
   readFile(path.join(root, "catalog", "preview-thumbnails.js"), "utf8"),
   readFile(path.join(root, "scripts", "capture-preview-thumbnails.mjs"), "utf8"),
   readFile(path.join(root, "catalog", "overview-data", "overview-data.js"), "utf8"),
+  readFile(path.join(root, "scripts", "perf-gallery.mjs"), "utf8"),
 ]);
 
 assert.equal(index, overview, "index.html and overview.html must stay identical");
@@ -79,6 +80,9 @@ assert.match(captureBuilder, /waitForPreviewReady\(/, "capture must wait for det
 assert.match(captureBuilder, /assertMeaningfulCapture\(/, "capture must reject obvious blank or loading frames");
 assert.match(captureBuilder, /process\.exitCode\s*=\s*1/, "capture failures must not report silent success");
 assert.match(captureBuilder, /mapExistingThumbnails/, "capture must merge prior, existing, and captured thumbnails");
+assert.match(perfGate, /assert\.ok\(metrics\.lcp > 0/, "performance gate must fail when LCP was not observed");
+assert.match(perfGate, /interactionId > 0/, "performance gate must retain only real Event Timing interactions");
+assert.match(perfGate, /assert\.ok\(metrics\.interactions\.length > 0/, "performance gate must fail when no interaction entry was observed");
 for (const invalid of ["/tmp/x.png", "C:\\tmp\\x.png", "https://example.com/x.png", "file:x.png", "../x.png", "a/../x.png", "//host/x.png"]) {
   assert.equal(isStrictLocalPath(invalid), false, `${invalid}: strict local validator must reject unsafe path`);
   assert.equal(await resolveRepoLocalPath(root, invalid), null, `${invalid}: unsafe path must not resolve inside Gallery`);

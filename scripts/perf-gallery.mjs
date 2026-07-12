@@ -17,18 +17,31 @@ await cdp.send('Network.emulateNetworkConditions', {
 });
 await cdp.send('Emulation.setCPUThrottlingRate', { rate: 4 });
 await page.addInitScript(() => {
-  window.__odPerf = { cls: 0, lcp: 0, events: [] };
+  window.__odPerf = { cls: 0, lcp: 0, lcpElement: null, interactions: [] };
   new PerformanceObserver(list => {
     for (const entry of list.getEntries()) if (!entry.hadRecentInput) window.__odPerf.cls += entry.value;
   }).observe({ type: 'layout-shift', buffered: true });
   new PerformanceObserver(list => {
     const entries = list.getEntries();
     const latest = entries[entries.length - 1];
-    if (latest) window.__odPerf.lcp = latest.renderTime || latest.loadTime || latest.startTime;
+    if (latest) {
+      window.__odPerf.lcp = latest.renderTime || latest.loadTime || latest.startTime;
+      window.__odPerf.lcpElement = {
+        tag: latest.element?.tagName || null,
+        className: latest.element?.className || null,
+        url: latest.url || null,
+      };
+    }
   }).observe({ type: 'largest-contentful-paint', buffered: true });
   try {
     new PerformanceObserver(list => {
-      for (const entry of list.getEntries()) window.__odPerf.events.push(entry.duration);
+      for (const entry of list.getEntries()) {
+        if (entry.interactionId > 0) window.__odPerf.interactions.push({
+          interactionId: entry.interactionId,
+          duration: entry.duration,
+          name: entry.name,
+        });
+      }
     }).observe({ type: 'event', buffered: true, durationThreshold: 16 });
   } catch {}
 });
@@ -44,11 +57,17 @@ try {
     iframeCount: document.querySelectorAll('iframe').length,
     cardCount: document.querySelectorAll('.catalog-page.active [data-preview]').length,
   }));
-  const maxEvent = Math.max(0, ...metrics.events);
-  console.log(JSON.stringify({ lcp: metrics.lcp, cls: metrics.cls, maxEvent, iframeCount: metrics.iframeCount, cardCount: metrics.cardCount }));
+  const interactionDurations = new Map();
+  for (const entry of metrics.interactions) {
+    interactionDurations.set(entry.interactionId, Math.max(interactionDurations.get(entry.interactionId) || 0, entry.duration));
+  }
+  const inp = interactionDurations.size ? Math.max(...interactionDurations.values()) : null;
+  console.log(JSON.stringify({ lcp: metrics.lcp, lcpElement: metrics.lcpElement, cls: metrics.cls, inp, interactionCount: interactionDurations.size, iframeCount: metrics.iframeCount, cardCount: metrics.cardCount }));
+  assert.ok(metrics.lcp > 0, 'LCP was not observed; performance gate is invalid');
   assert.ok(metrics.lcp <= 2_500, `LCP ${metrics.lcp.toFixed(1)}ms exceeds 2500ms`);
   assert.ok(metrics.cls <= .1, `CLS ${metrics.cls.toFixed(4)} exceeds 0.1`);
-  assert.ok(maxEvent <= 200, `event duration ${maxEvent.toFixed(1)}ms exceeds 200ms`);
+  assert.ok(metrics.interactions.length > 0, 'No Event Timing interactionId was observed; INP gate is invalid');
+  assert.ok(inp <= 200, `INP ${inp.toFixed(1)}ms exceeds 200ms`);
   assert.equal(metrics.iframeCount, 1, 'Gallery must keep exactly one iframe');
   assert.ok(metrics.cardCount <= 48, `active page rendered ${metrics.cardCount} cards`);
   console.log('Gallery slow-4G/4x-CPU performance budgets passed.');
