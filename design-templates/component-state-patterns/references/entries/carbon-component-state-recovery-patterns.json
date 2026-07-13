@@ -1,0 +1,102 @@
+{
+  "id": "carbon-component-state-recovery-patterns",
+  "status": "accepted",
+  "project": {
+    "name": "Carbon Design System",
+    "url": "https://carbondesignsystem.com/"
+  },
+  "why": "A first-party component-pattern suite that treats loading, empty, validation, and read-only states as recoverable workflow states. Its documentation connects visible UI changes to blocked repeated actions, explicit next steps, focus movement, and screen-reader announcements rather than treating state as an isolated visual treatment.",
+  "states": [
+    {
+      "type": "loading",
+      "title": "Inactive, active, skeleton, and progressive loading",
+      "evidence": "Carbon distinguishes inactive and active loading, uses overlays when interaction must be blocked, and documents skeleton, indicator, and progressive loading choices.",
+      "source": "https://carbondesignsystem.com/components/loading/usage/"
+    },
+    {
+      "type": "empty",
+      "title": "Empty tables and no-results states with a next step",
+      "evidence": "The empty-state pattern calls for a clear explanation and a relevant action, including when search results or tables contain no data.",
+      "source": "https://carbondesignsystem.com/patterns/empty-states-pattern/"
+    },
+    {
+      "type": "validation",
+      "title": "Text input error, warning, disabled, skeleton, and read-only variants",
+      "evidence": "Carbon documents distinct input states and requires invalid input to expose visible feedback that users can correct before submission.",
+      "source": "https://carbondesignsystem.com/components/text-input/usage/"
+    },
+    {
+      "type": "read-only",
+      "title": "Readable controls remain distinct from unavailable controls",
+      "evidence": "The read-only pattern separates information users should still be able to reach and copy from disabled controls that cannot be operated.",
+      "source": "https://carbondesignsystem.com/patterns/read-only-states-pattern/"
+    }
+  ],
+  "transitions": [
+    {
+      "from": "submit or fetch request",
+      "to": "active loading",
+      "contract": "Disable the repeated inline action or block interaction only where the pending operation makes the surface unavailable."
+    },
+    {
+      "from": "loading completion",
+      "to": "updated content",
+      "contract": "Announce completion through the live status or move focus to the newly available target when the workflow requires it."
+    },
+    {
+      "from": "invalid submission",
+      "to": "input error",
+      "contract": "Keep the correction target visible, explain the problem, and allow the user to return to an enabled submission path after fixing it."
+    },
+    {
+      "from": "no search or table results",
+      "to": "empty state",
+      "contract": "Name the absence and offer a query revision, filter reset, or creation route that preserves the user's context."
+    }
+  ],
+  "recovery": [
+    {
+      "scenario": "Validation failure",
+      "pattern": "Expose explanatory error feedback beside the correction path rather than silently rejecting the action."
+    },
+    {
+      "scenario": "No results or empty collection",
+      "pattern": "Replace a blank region with a plain-language reason and one relevant forward action."
+    },
+    {
+      "scenario": "Loading completes or fails",
+      "pattern": "Use a status announcement or purposeful focus movement so the user can resume without rediscovering the changed surface."
+    }
+  ],
+  "accessibility": [
+    {
+      "topic": "Loading status",
+      "evidence": "Carbon documents live status communication, SVG titles, completion announcements, and focus movement for loading outcomes.",
+      "source": "https://carbondesignsystem.com/components/loading/accessibility/"
+    },
+    {
+      "topic": "Empty-state imagery",
+      "evidence": "Decorative empty-state illustrations are hidden from screen readers so the actionable message remains the meaningful content.",
+      "source": "https://carbondesignsystem.com/patterns/empty-states-pattern/"
+    },
+    {
+      "topic": "Read-only controls",
+      "evidence": "Use read-only rather than disabled controls when users still need keyboard-reachable, selectable information.",
+      "source": "https://carbondesignsystem.com/patterns/read-only-states-pattern/"
+    }
+  ],
+  "capture": {
+    "date": "2026-07-13",
+    "sourceLinks": [
+      "https://carbondesignsystem.com/components/loading/usage/",
+      "https://carbondesignsystem.com/components/loading/accessibility/",
+      "https://carbondesignsystem.com/patterns/loading-pattern/",
+      "https://carbondesignsystem.com/patterns/empty-states-pattern/",
+      "https://carbondesignsystem.com/components/text-input/usage/",
+      "https://carbondesignsystem.com/patterns/read-only-states-pattern/"
+    ],
+    "attribution": "IBM Carbon Design System",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "component-pattern-suite"
+  }
+}

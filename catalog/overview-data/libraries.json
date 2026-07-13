@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "od-library-registry/v1",
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "totalAssets": 433,
+  "libraries": [
+    {
+      "id": "design-systems",
+      "kind": "design-system",
+      "sourcePath": "design-systems",
+      "totalAssets": 172,
+      "totalEntries": 0,
+      "statusCounts": {},
+      "captureDepthCounts": {},
+      "thinEntries": []
+    },
+    {
+      "id": "design-templates",
+      "kind": "design-template",
+      "sourcePath": "design-templates",
+      "totalAssets": 159,
+      "totalEntries": 0,
+      "statusCounts": {},
+      "captureDepthCounts": {},
+      "thinEntries": []
+    },
+    {
+      "id": "campaign-visual-projects",
+      "kind": "case-study",
+      "sourcePath": "design-templates/campaign-visual-projects/references/catalog.json",
+      "previewPath": "design-templates/campaign-visual-projects/example.html",
+      "totalAssets": 4,
+      "totalEntries": 4,
+      "statusCounts": {
+        "accepted": 4
+      },
+      "captureDepthCounts": {
+        "artifact-study": 4
+      },
+      "thinEntries": []
+    },
+    {
+      "id": "commercial-product-launches",
+      "kind": "case-study",
+      "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
+      "previewPath": "design-templates/commercial-product-launches/example.html",
+      "totalAssets": 26,
+      "totalEntries": 26,
+      "statusCounts": {
+        "accepted": 26
+      },
+      "captureDepthCounts": {
+        "page-and-modules": 26
+      },
+      "thinEntries": []
+    },
+    {
+      "id": "component-state-patterns",
+      "kind": "case-study",
+      "sourcePath": "design-templates/component-state-patterns/references/catalog.json",
+      "previewPath": "design-templates/component-state-patterns/example.html",
+      "totalAssets": 1,
+      "totalEntries": 1,
+      "statusCounts": {
+        "accepted": 1
+      },
+      "captureDepthCounts": {
+        "component-pattern-suite": 1
+      },
+      "thinEntries": []
+    },
+    {
+      "id": "data-visualization-projects",
+      "kind": "case-study",
+      "sourcePath": "design-templates/data-visualization-projects/references/catalog.json",
+      "previewPath": "design-templates/data-visualization-projects/example.html",
+      "totalAssets": 0,
+      "totalEntries": 0,
+      "statusCounts": {},
+      "captureDepthCounts": {},
+      "thinEntries": []
+    },
+    {
+      "id": "editorial-magazine-projects",
+      "kind": "case-study",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/catalog.json",
+      "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "totalAssets": 4,
+      "totalEntries": 4,
+      "statusCounts": {
+        "accepted": 4
+      },
+      "captureDepthCounts": {
+        "artifact-study": 4
+      },
+      "thinEntries": []
+    },
+    {
+      "id": "mobile-app-flow-projects",
+      "kind": "case-study",
+      "sourcePath": "design-templates/mobile-app-flow-projects/references/catalog.json",
+      "previewPath": "design-templates/mobile-app-flow-projects/example.html",
+      "totalAssets": 0,
+      "totalEntries": 0,
+      "statusCounts": {},
+      "captureDepthCounts": {},
+      "thinEntries": []
+    },
+    {
+      "id": "motion-interaction-projects",
+      "kind": "case-study",
+      "sourcePath": "design-templates/motion-interaction-projects/references/catalog.json",
+      "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "totalAssets": 6,
+      "totalEntries": 6,
+      "statusCounts": {
+        "accepted": 4,
+        "backfill-needed": 2
+      },
+      "captureDepthCounts": {
+        "single-page-lead": 6
+      },
+      "thinEntries": [
+        "motion-interaction-projects:active-theory-creative-digital-experiences",
+        "motion-interaction-projects:resn-creative-digital-agency-homepage"
+      ]
+    },
+    {
+      "id": "personal-blog-projects",
+      "kind": "case-study",
+      "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
+      "previewPath": "design-templates/personal-blog-projects/example.html",
+      "totalAssets": 52,
+      "totalEntries": 52,
+      "statusCounts": {
+        "accepted": 52
+      },
+      "captureDepthCounts": {
+        "feed-plus-home": 1,
+        "multi-page": 50,
+        "source-only": 1
+      },
+      "thinEntries": []
+    },
+    {
+      "id": "poster-projects",
+      "kind": "case-study",
+      "sourcePath": "design-templates/poster-projects/references/catalog.json",
+      "previewPath": "design-templates/poster-projects/example.html",
+      "totalAssets": 4,
+      "totalEntries": 4,
+      "statusCounts": {
+        "accepted": 4
+      },
+      "captureDepthCounts": {
+        "artifact-study": 4
+      },
+      "thinEntries": []
+    },
+    {
+      "id": "product-ui-projects",
+      "kind": "case-study",
+      "sourcePath": "design-templates/product-ui-projects/references/catalog.json",
+      "previewPath": "design-templates/product-ui-projects/example.html",
+      "totalAssets": 5,
+      "totalEntries": 5,
+      "statusCounts": {
+        "accepted": 5
+      },
+      "captureDepthCounts": {
+        "surface-suite": 5
+      },
+      "thinEntries": []
+    }
+  ]
+}

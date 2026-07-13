@@ -1,19 +1,40 @@
 {
-  "schemaVersion": "od-agent-context/v1",
+  "schemaVersion": "od-agent-context/v2",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "totals": {
-    "assets": 429,
-    "libraries": 7,
-    "caseStudyEntries": 101,
-    "sourceUrlHashes": 342,
-    "thinEntries": 8
+    "assets": 433,
+    "libraries": 12,
+    "caseStudyEntries": 102,
+    "sourceUrlHashes": 326,
+    "thinEntries": 2
   },
   "libraries": [
+    {
+      "id": "design-systems",
+      "kind": "design-system",
+      "sourcePath": "design-systems",
+      "totalAssets": 172,
+      "totalEntries": 0,
+      "statusCounts": {},
+      "captureDepthCounts": {},
+      "thinEntries": []
+    },
+    {
+      "id": "design-templates",
+      "kind": "design-template",
+      "sourcePath": "design-templates",
+      "totalAssets": 159,
+      "totalEntries": 0,
+      "statusCounts": {},
+      "captureDepthCounts": {},
+      "thinEntries": []
+    },
     {
       "id": "campaign-visual-projects",
       "kind": "case-study",
       "sourcePath": "design-templates/campaign-visual-projects/references/catalog.json",
       "previewPath": "design-templates/campaign-visual-projects/example.html",
+      "totalAssets": 4,
       "totalEntries": 4,
       "statusCounts": {
         "accepted": 4
@@ -28,6 +49,7 @@
       "kind": "case-study",
       "sourcePath": "design-templates/commercial-product-launches/references/catalog.json",
       "previewPath": "design-templates/commercial-product-launches/example.html",
+      "totalAssets": 26,
       "totalEntries": 26,
       "statusCounts": {
         "accepted": 26
@@ -38,10 +60,37 @@
       "thinEntries": []
     },
     {
+      "id": "component-state-patterns",
+      "kind": "case-study",
+      "sourcePath": "design-templates/component-state-patterns/references/catalog.json",
+      "previewPath": "design-templates/component-state-patterns/example.html",
+      "totalAssets": 1,
+      "totalEntries": 1,
+      "statusCounts": {
+        "accepted": 1
+      },
+      "captureDepthCounts": {
+        "component-pattern-suite": 1
+      },
+      "thinEntries": []
+    },
+    {
+      "id": "data-visualization-projects",
+      "kind": "case-study",
+      "sourcePath": "design-templates/data-visualization-projects/references/catalog.json",
+      "previewPath": "design-templates/data-visualization-projects/example.html",
+      "totalAssets": 0,
+      "totalEntries": 0,
+      "statusCounts": {},
+      "captureDepthCounts": {},
+      "thinEntries": []
+    },
+    {
       "id": "editorial-magazine-projects",
       "kind": "case-study",
       "sourcePath": "design-templates/editorial-magazine-projects/references/catalog.json",
       "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "totalAssets": 4,
       "totalEntries": 4,
       "statusCounts": {
         "accepted": 4
@@ -52,25 +101,33 @@
       "thinEntries": []
     },
     {
+      "id": "mobile-app-flow-projects",
+      "kind": "case-study",
+      "sourcePath": "design-templates/mobile-app-flow-projects/references/catalog.json",
+      "previewPath": "design-templates/mobile-app-flow-projects/example.html",
+      "totalAssets": 0,
+      "totalEntries": 0,
+      "statusCounts": {},
+      "captureDepthCounts": {},
+      "thinEntries": []
+    },
+    {
       "id": "motion-interaction-projects",
       "kind": "case-study",
       "sourcePath": "design-templates/motion-interaction-projects/references/catalog.json",
       "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "totalAssets": 6,
       "totalEntries": 6,
       "statusCounts": {
-        "backfill-needed": 2,
-        "accepted": 4
+        "accepted": 4,
+        "backfill-needed": 2
       },
       "captureDepthCounts": {
         "single-page-lead": 6
       },
       "thinEntries": [
         "motion-interaction-projects:active-theory-creative-digital-experiences",
-        "motion-interaction-projects:resn-creative-digital-agency-homepage",
-        "motion-interaction-projects:cuberto-hello-digital-solutions-homepage",
-        "motion-interaction-projects:kode-immersive-tech-enabled-creativity-homepage",
-        "motion-interaction-projects:unseen-studio-year-in-review-2025",
-        "motion-interaction-projects:david-whyte-companion-portal-experience"
+        "motion-interaction-projects:resn-creative-digital-agency-homepage"
       ]
     },
     {
@@ -78,26 +135,24 @@
       "kind": "case-study",
       "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
       "previewPath": "design-templates/personal-blog-projects/example.html",
+      "totalAssets": 52,
       "totalEntries": 52,
       "statusCounts": {
-        "accepted": 50,
-        "backfill-needed": 2
+        "accepted": 52
       },
       "captureDepthCounts": {
+        "feed-plus-home": 1,
         "multi-page": 50,
-        "source-only": 1,
-        "feed-plus-home": 1
+        "source-only": 1
       },
-      "thinEntries": [
-        "personal-blog-projects:cosy-jekyll-theme",
-        "personal-blog-projects:sukka"
-      ]
+      "thinEntries": []
     },
     {
       "id": "poster-projects",
       "kind": "case-study",
       "sourcePath": "design-templates/poster-projects/references/catalog.json",
       "previewPath": "design-templates/poster-projects/example.html",
+      "totalAssets": 4,
       "totalEntries": 4,
       "statusCounts": {
         "accepted": 4
@@ -112,6 +167,7 @@
       "kind": "case-study",
       "sourcePath": "design-templates/product-ui-projects/references/catalog.json",
       "previewPath": "design-templates/product-ui-projects/example.html",
+      "totalAssets": 5,
       "totalEntries": 5,
       "statusCounts": {
         "accepted": 5
@@ -132,12 +188,12 @@
       "sourcePath": "design-templates/campaign-visual-projects/references/entries/demo-2025-global-motion-design-festival-campaign.json",
       "previewPath": "design-templates/campaign-visual-projects/example.html",
       "roles": [
-        "campaign-art-direction",
-        "asset-direction",
+        "case-reference",
+        "campaign-visual-projects-reference",
         "motion-patterns"
       ],
       "tags": [
-        "campaign",
+        "campaign-visual-projects",
         "motion-design-festival-campaign-visual-system",
         "campaign-visual-system",
         "Global motion-design festival identity spanning public screens, an interactive digital universe, sound, and wearable merchandise",
@@ -146,7 +202,7 @@
       "sourceUrlHashes": [
         "65f131fe1b6d2548",
         "9820c7c391f2303f",
-        "f7513856b616a2ce"
+        "765d5c3b9c550e63"
       ],
       "sourceUrlCount": 3
     },
@@ -159,12 +215,12 @@
       "sourcePath": "design-templates/campaign-visual-projects/references/entries/nike-art-of-victory-centre-pompidou-campaign.json",
       "previewPath": "design-templates/campaign-visual-projects/example.html",
       "roles": [
-        "campaign-art-direction",
-        "asset-direction",
+        "case-reference",
+        "campaign-visual-projects-reference",
         "motion-patterns"
       ],
       "tags": [
-        "campaign",
+        "campaign-visual-projects",
         "olympic-brand-campaign-visual-system",
         "campaign-visual-system",
         "2024 Olympics-era exhibition and brand campaign spanning social assets, signage, posters, merch, and façade-scale motion",
@@ -184,12 +240,12 @@
       "sourcePath": "design-templates/campaign-visual-projects/references/entries/notion-think-it-make-it-brand-campaign.json",
       "previewPath": "design-templates/campaign-visual-projects/example.html",
       "roles": [
-        "campaign-art-direction",
-        "asset-direction",
+        "case-reference",
+        "campaign-visual-projects-reference",
         "motion-patterns"
       ],
       "tags": [
-        "campaign",
+        "campaign-visual-projects",
         "saas-brand-awareness-campaign-visual-system",
         "campaign-visual-system",
         "2024 global brand-awareness campaign spanning OOH, transit placements, social crops, and an animated anthem",
@@ -210,12 +266,12 @@
       "sourcePath": "design-templates/campaign-visual-projects/references/entries/pepsi-crave-liquid-asset-campaign.json",
       "previewPath": "design-templates/campaign-visual-projects/example.html",
       "roles": [
-        "campaign-art-direction",
-        "asset-direction",
+        "case-reference",
+        "campaign-visual-projects-reference",
         "motion-patterns"
       ],
       "tags": [
-        "campaign",
+        "campaign-visual-projects",
         "beverage-brand-campaign-asset-system",
         "campaign-visual-system",
         "Global beverage campaign centered on a 30-second hero film and a reusable liquid-footage asset library for regional content",
@@ -246,10 +302,9 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "60e82023e775681e",
-        "736d3707a542ff76"
+        "60e82023e775681e"
       ],
-      "sourceUrlCount": 2
+      "sourceUrlCount": 1
     },
     {
       "assetId": "commercial-product-launches:apple-vision-pro-spatial-computing-product-page",
@@ -271,12 +326,11 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "530324bd628d5ee3",
-        "736d3707a542ff76",
         "b3ded1fce7e141c5",
+        "530324bd628d5ee3",
         "e2bb09a30d3bc603"
       ],
-      "sourceUrlCount": 4
+      "sourceUrlCount": 3
     },
     {
       "assetId": "commercial-product-launches:bang-olufsen-beoplay-h100-luxury-headphones-product-page",
@@ -298,10 +352,9 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "8de92f4b7f20d350",
         "99eb834a0541e969"
       ],
-      "sourceUrlCount": 2
+      "sourceUrlCount": 1
     },
     {
       "assetId": "commercial-product-launches:brompton-g-line-folding-bike-product-page",
@@ -323,10 +376,9 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "3b520f0e5cc8490b",
         "cc00e6555c0dd2f7"
       ],
-      "sourceUrlCount": 2
+      "sourceUrlCount": 1
     },
     {
       "assetId": "commercial-product-launches:dji-mavic-4-pro-creator-drone-commerce-page",
@@ -348,10 +400,9 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "12e141e9fd499131",
         "b0da394c6aba8011"
       ],
-      "sourceUrlCount": 2
+      "sourceUrlCount": 1
     },
     {
       "assetId": "commercial-product-launches:dyson-v15-detect-commerce-page",
@@ -373,10 +424,9 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "3e3f40ee2f205b25",
         "a6720306c28e0f34"
       ],
-      "sourceUrlCount": 2
+      "sourceUrlCount": 1
     },
     {
       "assetId": "commercial-product-launches:eight-sleep-pod-intelligent-bed-system-homepage",
@@ -398,7 +448,7 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "0ef1a64f3c2e671a"
+        "803ed2bfb2e0cfcb"
       ],
       "sourceUrlCount": 1
     },
@@ -422,10 +472,9 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "1a6ccd0a823ae29f",
-        "c2f580844e26de85"
+        "1a6ccd0a823ae29f"
       ],
-      "sourceUrlCount": 2
+      "sourceUrlCount": 1
     },
     {
       "assetId": "commercial-product-launches:fujifilm-gfx100rf-premium-camera-product-page",
@@ -447,10 +496,9 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "7f193cc21da1070b",
         "e66ae510464aaf48"
       ],
-      "sourceUrlCount": 2
+      "sourceUrlCount": 1
     },
     {
       "assetId": "commercial-product-launches:gopro-hero13-black-action-camera-product-page",
@@ -472,10 +520,9 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "15e718d64b8cf5ef",
-        "4363b4cfd6f0a868"
+        "2b519317f20d2adf"
       ],
-      "sourceUrlCount": 2
+      "sourceUrlCount": 1
     },
     {
       "assetId": "commercial-product-launches:herman-miller-aeron-chair-ergonomic-seating-page",
@@ -497,10 +544,9 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "81b9adce767787d4",
-        "a546677e928267ae"
+        "81b9adce767787d4"
       ],
-      "sourceUrlCount": 2
+      "sourceUrlCount": 1
     },
     {
       "assetId": "commercial-product-launches:linear-product-development-system-homepage",
@@ -522,7 +568,7 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "3bccbda41093fa18"
+        "0d09434b854f7374"
       ],
       "sourceUrlCount": 1
     },
@@ -546,10 +592,9 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "c9e7fb6c99501c57",
-        "ff0eb562de1a2b5a"
+        "c9e7fb6c99501c57"
       ],
-      "sourceUrlCount": 2
+      "sourceUrlCount": 1
     },
     {
       "assetId": "commercial-product-launches:nike-running-campaign-commerce",
@@ -571,10 +616,9 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "4acb094c7d1319e8",
-        "ca6305e86cef696f"
+        "4acb094c7d1319e8"
       ],
-      "sourceUrlCount": 2
+      "sourceUrlCount": 1
     },
     {
       "assetId": "commercial-product-launches:nothing-phone-3a-smartphone-product-page",
@@ -596,10 +640,9 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "1f14dae3a77326d1",
         "d98a26c14288ba98"
       ],
-      "sourceUrlCount": 2
+      "sourceUrlCount": 1
     },
     {
       "assetId": "commercial-product-launches:notion-mail-ai-inbox-product-page",
@@ -622,10 +665,9 @@
       ],
       "sourceUrlHashes": [
         "3307b1bc267f998e",
-        "43ef9416ce457aef",
-        "e5eefade953cd6d1"
+        "05487d9f265dd6e8"
       ],
-      "sourceUrlCount": 3
+      "sourceUrlCount": 2
     },
     {
       "assetId": "commercial-product-launches:oura-ring-4-health-wearable-page",
@@ -647,10 +689,9 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "a783b9ae3adeb288",
         "d67dedc2ff02c931"
       ],
-      "sourceUrlCount": 2
+      "sourceUrlCount": 1
     },
     {
       "assetId": "commercial-product-launches:polestar-4-electric-coupe-suv-overview",
@@ -672,10 +713,9 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "7f58219b9bd59b10",
         "922a96a4becb3067"
       ],
-      "sourceUrlCount": 2
+      "sourceUrlCount": 1
     },
     {
       "assetId": "commercial-product-launches:raycast-productivity-launcher-homepage",
@@ -697,7 +737,7 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "969036f6225618bf",
+        "54cd3c13de79a789",
         "bf6ceb007592b1eb",
         "ebef85005f742ac7"
       ],
@@ -724,10 +764,9 @@
       ],
       "sourceUrlHashes": [
         "062fb74df7ff40cf",
-        "be30346ea02e1a66",
         "c68c93e78882a402"
       ],
-      "sourceUrlCount": 3
+      "sourceUrlCount": 2
     },
     {
       "assetId": "commercial-product-launches:sonos-ace-personal-audio-product-page",
@@ -749,10 +788,9 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "6e0917cdbdc19587",
-        "725ef2ff3e102292"
+        "6e0917cdbdc19587"
       ],
-      "sourceUrlCount": 2
+      "sourceUrlCount": 1
     },
     {
       "assetId": "commercial-product-launches:stripe-homepage-revenue-platform",
@@ -774,7 +812,7 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "9ababc9aff17ac87"
+        "e559114825bc6226"
       ],
       "sourceUrlCount": 1
     },
@@ -798,7 +836,7 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "e8b37b21fbaaddec"
+        "11261f2e190750f1"
       ],
       "sourceUrlCount": 1
     },
@@ -823,10 +861,9 @@
       ],
       "sourceUrlHashes": [
         "5be6371fef416d87",
-        "95fe16b38f966b8e",
         "d9c449caa3944c0f"
       ],
-      "sourceUrlCount": 3
+      "sourceUrlCount": 2
     },
     {
       "assetId": "commercial-product-launches:tesla-model-y-product-page",
@@ -848,10 +885,9 @@
         "commercial-launch"
       ],
       "sourceUrlHashes": [
-        "10edb3c4bd545c06",
-        "fbc48530bbf245da"
+        "10edb3c4bd545c06"
       ],
-      "sourceUrlCount": 2
+      "sourceUrlCount": 1
     },
     {
       "assetId": "commercial-product-launches:whoop-wearable-health-membership-explainer",
@@ -874,10 +910,35 @@
       ],
       "sourceUrlHashes": [
         "051ecbc45bf50dbb",
-        "0ff80fc160a6af50",
-        "4a7f1b33b9cf6329"
+        "0ff80fc160a6af50"
       ],
-      "sourceUrlCount": 3
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "component-state-patterns:carbon-component-state-recovery-patterns",
+      "libraryId": "component-state-patterns",
+      "title": "Carbon Design System",
+      "status": "accepted",
+      "captureDepth": "component-pattern-suite",
+      "sourcePath": "design-templates/component-state-patterns/references/entries/carbon-component-state-recovery-patterns.json",
+      "previewPath": "design-templates/component-state-patterns/example.html",
+      "roles": [
+        "case-reference",
+        "component-state-patterns-reference"
+      ],
+      "tags": [
+        "component-state-patterns",
+        "component-pattern-suite"
+      ],
+      "sourceUrlHashes": [
+        "11c8204f7c3e9f8b",
+        "0f49d08eef7dda3f",
+        "2f0f35edc10b62c2",
+        "3075cc89a9e11d0c",
+        "3104353806ee5ce9",
+        "94249eec55c3e7f1"
+      ],
+      "sourceUrlCount": 6
     },
     {
       "assetId": "editorial-magazine-projects:brooklyn-rail-anthropophagy-issue-editorial-design",
@@ -888,20 +949,19 @@
       "sourcePath": "design-templates/editorial-magazine-projects/references/entries/brooklyn-rail-anthropophagy-issue-editorial-design.json",
       "previewPath": "design-templates/editorial-magazine-projects/example.html",
       "roles": [
-        "editorial-layouts",
-        "composition-patterns",
-        "asset-direction"
+        "case-reference",
+        "editorial-magazine-projects-reference"
       ],
       "tags": [
-        "magazine",
+        "editorial-magazine-projects",
         "bilingual-cultural-critics-issue",
         "editorial-magazine",
         "Guest-designed February 2021 bilingual Critics Page issue that turns manifesto-driven typography and black-and-white newsprint into the issue's editorial voice",
         "artifact-study"
       ],
       "sourceUrlHashes": [
-        "1208e64ac28d6ec0",
-        "89f1dd631d2ef8f1"
+        "89f1dd631d2ef8f1",
+        "1208e64ac28d6ec0"
       ],
       "sourceUrlCount": 2
     },
@@ -914,20 +974,19 @@
       "sourcePath": "design-templates/editorial-magazine-projects/references/entries/circular-22-typographic-circle-publication-redesign.json",
       "previewPath": "design-templates/editorial-magazine-projects/example.html",
       "roles": [
-        "editorial-layouts",
-        "composition-patterns",
-        "asset-direction"
+        "case-reference",
+        "editorial-magazine-projects-reference"
       ],
       "tags": [
-        "magazine",
+        "editorial-magazine-projects",
         "experimental-typography-journal",
         "editorial-magazine",
         "A compact 2024 redesign of Typographic Circle's member publication that turns a smaller half-size format into a tactile, print-first editorial object",
         "artifact-study"
       ],
       "sourceUrlHashes": [
-        "0ecb55ba4df2b0c7",
-        "641e349458e302e6"
+        "641e349458e302e6",
+        "0ecb55ba4df2b0c7"
       ],
       "sourceUrlCount": 2
     },
@@ -940,12 +999,11 @@
       "sourcePath": "design-templates/editorial-magazine-projects/references/entries/samba-brazilian-queer-culture-magazine.json",
       "previewPath": "design-templates/editorial-magazine-projects/example.html",
       "roles": [
-        "editorial-layouts",
-        "composition-patterns",
-        "asset-direction"
+        "case-reference",
+        "editorial-magazine-projects-reference"
       ],
       "tags": [
-        "magazine",
+        "editorial-magazine-projects",
         "photo-led-cultural-magazine",
         "editorial-magazine",
         "Biannual publication celebrating Brazilian queer culture through fashion, portraiture, and long-form photographic stories",
@@ -965,12 +1023,11 @@
       "sourcePath": "design-templates/editorial-magazine-projects/references/entries/the-baffler-editorial-redesign.json",
       "previewPath": "design-templates/editorial-magazine-projects/example.html",
       "roles": [
-        "editorial-layouts",
-        "composition-patterns",
-        "asset-direction"
+        "case-reference",
+        "editorial-magazine-projects-reference"
       ],
       "tags": [
-        "magazine",
+        "editorial-magazine-projects",
         "literary-journal-redesign",
         "editorial-magazine",
         "Editorial redesign for an ad-free quarterly literary journal with a companion website",
@@ -990,19 +1047,19 @@
       "sourcePath": "design-templates/motion-interaction-projects/references/entries/active-theory-creative-digital-experiences.json",
       "previewPath": "design-templates/motion-interaction-projects/example.html",
       "roles": [
-        "motion-patterns",
-        "interaction-patterns",
-        "frontend-motion-reference"
+        "case-reference",
+        "motion-interaction-projects-reference",
+        "motion-patterns"
       ],
       "tags": [
-        "motion design",
+        "motion-interaction-projects",
         "immersive-agency-site",
         "website",
         "full-screen WebGL-first studio homepage",
         "single-page-lead"
       ],
       "sourceUrlHashes": [
-        "4e7eb8a651fa3199"
+        "433180293c3d969b"
       ],
       "sourceUrlCount": 1
     },
@@ -1015,19 +1072,19 @@
       "sourcePath": "design-templates/motion-interaction-projects/references/entries/cuberto-hello-digital-solutions-homepage.json",
       "previewPath": "design-templates/motion-interaction-projects/example.html",
       "roles": [
-        "motion-patterns",
-        "interaction-patterns",
-        "frontend-motion-reference"
+        "case-reference",
+        "motion-interaction-projects-reference",
+        "motion-patterns"
       ],
       "tags": [
-        "motion design",
+        "motion-interaction-projects",
         "interactive-showreel-homepage",
         "website",
         "HTML-first motion-heavy agency showreel",
         "single-page-lead"
       ],
       "sourceUrlHashes": [
-        "204920f8f86c292b"
+        "49d588f0eb9e5683"
       ],
       "sourceUrlCount": 1
     },
@@ -1040,12 +1097,12 @@
       "sourcePath": "design-templates/motion-interaction-projects/references/entries/david-whyte-companion-portal-experience.json",
       "previewPath": "design-templates/motion-interaction-projects/example.html",
       "roles": [
-        "motion-patterns",
-        "interaction-patterns",
-        "frontend-motion-reference"
+        "case-reference",
+        "motion-interaction-projects-reference",
+        "motion-patterns"
       ],
       "tags": [
-        "motion design",
+        "motion-interaction-projects",
         "immersive-literary-portal",
         "website",
         "immersive companion-portal introduction with canvas, audio loops, and map-driven wayfinding",
@@ -1065,19 +1122,19 @@
       "sourcePath": "design-templates/motion-interaction-projects/references/entries/kode-immersive-tech-enabled-creativity-homepage.json",
       "previewPath": "design-templates/motion-interaction-projects/example.html",
       "roles": [
-        "motion-patterns",
-        "interaction-patterns",
-        "frontend-motion-reference"
+        "case-reference",
+        "motion-interaction-projects-reference",
+        "motion-patterns"
       ],
       "tags": [
-        "motion design",
+        "motion-interaction-projects",
         "immersive-storytelling-agency-site",
         "website",
         "Nuxt-based immersive agency homepage with canvas scenes and guided interaction",
         "single-page-lead"
       ],
       "sourceUrlHashes": [
-        "aa587eb0bed50932"
+        "ab573de1fa91b38f"
       ],
       "sourceUrlCount": 1
     },
@@ -1090,19 +1147,19 @@
       "sourcePath": "design-templates/motion-interaction-projects/references/entries/resn-creative-digital-agency-homepage.json",
       "previewPath": "design-templates/motion-interaction-projects/example.html",
       "roles": [
-        "motion-patterns",
-        "interaction-patterns",
-        "frontend-motion-reference"
+        "case-reference",
+        "motion-interaction-projects-reference",
+        "motion-patterns"
       ],
       "tags": [
-        "motion design",
+        "motion-interaction-projects",
         "motion-studio-homepage",
         "website",
         "loader-led interactive agency homepage",
         "single-page-lead"
       ],
       "sourceUrlHashes": [
-        "087591dcb63e4325"
+        "df29929e5159b60c"
       ],
       "sourceUrlCount": 1
     },
@@ -1115,19 +1172,19 @@
       "sourcePath": "design-templates/motion-interaction-projects/references/entries/unseen-studio-year-in-review-2025.json",
       "previewPath": "design-templates/motion-interaction-projects/example.html",
       "roles": [
-        "motion-patterns",
-        "interaction-patterns",
-        "frontend-motion-reference"
+        "case-reference",
+        "motion-interaction-projects-reference",
+        "motion-patterns"
       ],
       "tags": [
-        "motion design",
+        "motion-interaction-projects",
         "horizontal-year-in-review",
         "website",
         "horizontal editorial timeline with video chapters and parallax text",
         "single-page-lead"
       ],
       "sourceUrlHashes": [
-        "405e9bed838eb121"
+        "7f51a4410234652c"
       ],
       "sourceUrlCount": 1
     },
@@ -1152,10 +1209,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "24605fb09636df03",
+        "9b78b77326b2868f",
         "4418b59ff424c129",
-        "9b8c9785b92c0002",
-        "eba96ef256636b9a"
+        "eba96ef256636b9a",
+        "24605fb09636df03"
       ],
       "sourceUrlCount": 4
     },
@@ -1180,10 +1237,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "3c5f498378997da5",
+        "4ffbbc3cba6df6a2",
         "7d428bd4b28bc80b",
         "a0e59c98e5565aef",
-        "cf4dc18e0b50b327"
+        "3c5f498378997da5"
       ],
       "sourceUrlCount": 4
     },
@@ -1208,10 +1265,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "1c56b4e836e64ba5",
+        "187a7f4a183ecbad",
         "91a839b577bf9ac4",
-        "e45cff0837aedf30",
-        "ea693e2fe9e83275"
+        "ea693e2fe9e83275",
+        "e45cff0837aedf30"
       ],
       "sourceUrlCount": 4
     },
@@ -1236,12 +1293,12 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "229536cd5566c581",
-        "28f6f60f81db450e",
-        "377e2cb0cda4078b",
+        "652c652bc0bf0184",
         "6ca32c0df5805d48",
         "8966f8c5ace7835d",
-        "a2a0aa8efed04e80"
+        "229536cd5566c581",
+        "e1432e3a1582e424",
+        "377e2cb0cda4078b"
       ],
       "sourceUrlCount": 6
     },
@@ -1266,10 +1323,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "0e0645e69539dc6a",
+        "ffabe76741226d25",
         "a3ef630d90450d70",
-        "bbcb1594659fe7c0",
-        "f44b3fd291e44ee6"
+        "0e0645e69539dc6a",
+        "bbcb1594659fe7c0"
       ],
       "sourceUrlCount": 4
     },
@@ -1294,11 +1351,11 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
+        "1f4b426b8b942aad",
         "73ca7184dd6fc64b",
-        "a0f9b9ab92a041d3",
+        "da47315689429c3a",
         "a5ff83a10eeffb71",
-        "cae8fbd9bfc222c6",
-        "da47315689429c3a"
+        "cae8fbd9bfc222c6"
       ],
       "sourceUrlCount": 5
     },
@@ -1323,10 +1380,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "6509e59319e48b52",
+        "0090a44321197d35",
         "6e875fdeac15d3b1",
         "eacdd36e38d3f3fd",
-        "f2d80e3f7a8f04cb"
+        "6509e59319e48b52"
       ],
       "sourceUrlCount": 4
     },
@@ -1351,11 +1408,11 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "2a989fb3c4eb5f44",
+        "4c9f4d06b6456371",
+        "c6f4ddc47fae1a05",
         "3624981f90bf021b",
         "a9f1421f1ca441b8",
-        "c6f4ddc47fae1a05",
-        "dd3b33615f640025"
+        "2a989fb3c4eb5f44"
       ],
       "sourceUrlCount": 5
     },
@@ -1380,8 +1437,8 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "2c331bb3f5213820",
-        "c6669b1604696122"
+        "783a57ec1797da03",
+        "d4c8d1485a7256b8"
       ],
       "sourceUrlCount": 2
     },
@@ -1406,9 +1463,9 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "51ccda093aae6aff",
-        "a37e0f83834c9ccc",
-        "b035288afc7adab2"
+        "7aba482edf3750b5",
+        "b035288afc7adab2",
+        "a37e0f83834c9ccc"
       ],
       "sourceUrlCount": 3
     },
@@ -1433,11 +1490,11 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "43351a3a9a9951d0",
-        "581d65785718820a",
-        "b60f79d0f6071e94",
+        "640c623d30dbf3b9",
+        "ed71a9cc2d7de4f4",
         "dda080e0b8f3bed6",
-        "ed71a9cc2d7de4f4"
+        "43351a3a9a9951d0",
+        "581d65785718820a"
       ],
       "sourceUrlCount": 5
     },
@@ -1462,11 +1519,11 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "572d21e17ff4260b",
-        "78d48fe21f31b578",
+        "421281a10f37a80c",
         "e575465d2805c5e2",
         "ea5ea18e7e272760",
-        "ff4c6d30cf5a0fc2"
+        "ff4c6d30cf5a0fc2",
+        "78d48fe21f31b578"
       ],
       "sourceUrlCount": 5
     },
@@ -1474,7 +1531,7 @@
       "assetId": "personal-blog-projects:cosy-jekyll-theme",
       "libraryId": "personal-blog-projects",
       "title": "cosy-jekyll-theme",
-      "status": "backfill-needed",
+      "status": "accepted",
       "captureDepth": "source-only",
       "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
       "previewPath": "design-templates/personal-blog-projects/example.html",
@@ -1516,11 +1573,11 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "48db8257469e43c4",
+        "66d06bf9b056c49b",
+        "cd6de36d10c5139c",
         "532364e8f6f9babc",
         "5a29baf152e3c6a9",
-        "a625dc327d01435f",
-        "cd6de36d10c5139c"
+        "48db8257469e43c4"
       ],
       "sourceUrlCount": 5
     },
@@ -1545,12 +1602,12 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
+        "49a7b090918093a6",
+        "449cde1ff77e04f2",
         "1835ea86a0a234ce",
         "1f718a3177e6b67e",
-        "449cde1ff77e04f2",
-        "adae11b894361087",
-        "f550826eaf11466a",
-        "f666bcf3bfbf22b1"
+        "f666bcf3bfbf22b1",
+        "adae11b894361087"
       ],
       "sourceUrlCount": 6
     },
@@ -1575,10 +1632,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "302135a75c9444a8",
+        "febeb4c5bd9b8f09",
+        "944f80bcbadb3f1a",
         "663fb4fb7e29d3d2",
-        "726f9a1810d119fd",
-        "944f80bcbadb3f1a"
+        "726f9a1810d119fd"
       ],
       "sourceUrlCount": 4
     },
@@ -1603,13 +1660,13 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
+        "4135fec858ee6880",
+        "3b2f937873c36178",
+        "3a3bc71432a2eb6a",
         "2cc412fd4e08ce32",
         "386675bc3c2f1375",
-        "3a3bc71432a2eb6a",
-        "3b2f937873c36178",
-        "3f77a015c3ae70b2",
-        "5ca23ccc656c12dd",
-        "bfa5adfba96c4dd8"
+        "bfa5adfba96c4dd8",
+        "3f77a015c3ae70b2"
       ],
       "sourceUrlCount": 7
     },
@@ -1634,9 +1691,9 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
+        "b80a80adfe8bc987",
         "0fcad9e1a4d9a85f",
         "aaeae79aa98dad0b",
-        "b80a80adfe8bc987",
         "ca3610ee701db5fb"
       ],
       "sourceUrlCount": 4
@@ -1662,10 +1719,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "10dd2f544481acc4",
-        "1110e4d6df2c57e0",
-        "3ae8ae75acd34325",
+        "058378042d15dac3",
         "ba7e9ad2cdf528f1",
+        "3ae8ae75acd34325",
+        "10dd2f544481acc4",
         "d10d8824d8eb7766"
       ],
       "sourceUrlCount": 5
@@ -1691,10 +1748,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "58f059193c6c4435",
-        "abf3688ce43f379d",
+        "6244d32bce46b9d1",
         "dac57492900c5e17",
-        "faccdc39f046031d"
+        "abf3688ce43f379d",
+        "137cf5b9713282dd"
       ],
       "sourceUrlCount": 4
     },
@@ -1719,10 +1776,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
+        "eb3792faca246a26",
         "1dcbe054fe8d1948",
         "6f41fc5182b1d711",
-        "795f039b6d8351fb",
-        "b3eec02ad0c77dbc"
+        "795f039b6d8351fb"
       ],
       "sourceUrlCount": 4
     },
@@ -1747,12 +1804,12 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
+        "2759428b0e2fe1f6",
         "3cb98b03aad395dd",
+        "ee945e2b2218a508",
         "476afaa61da1c558",
         "7c8483cfef0b4470",
-        "8c66c866e7c7eafe",
-        "a0e45ab20710ec46",
-        "ee945e2b2218a508"
+        "8c66c866e7c7eafe"
       ],
       "sourceUrlCount": 6
     },
@@ -1777,10 +1834,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "0a7bc54f3896e555",
+        "56f76a69844eb516",
         "398f531580e3a761",
-        "4547fafe360b5484",
-        "a096d32d79267c14"
+        "a096d32d79267c14",
+        "0a7bc54f3896e555"
       ],
       "sourceUrlCount": 4
     },
@@ -1805,10 +1862,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "22e152eebdf27870",
-        "4574c6aa6b1b0f29",
-        "8b5d1a3ac9d8a8f0",
-        "e3470147e99104b1"
+        "e741a7c091c43d32",
+        "743fdd04d3a702e4",
+        "87bcc675585e133d",
+        "fb2873caac1cf87a"
       ],
       "sourceUrlCount": 4
     },
@@ -1833,10 +1890,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
+        "9603bb74dbeac92e",
         "1285e1ccd49dc9ae",
         "583d4859a73bb8e4",
-        "75d07e08e7fedfad",
-        "fdcfa4555ef63277"
+        "a6e0a9d751e025f4"
       ],
       "sourceUrlCount": 4
     },
@@ -1861,10 +1918,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "447927ea8cc6aeb1",
+        "7b71d0ea51b83452",
         "4b50751a8851c62b",
-        "769fbefee97e17b8",
-        "a0fe85909b476949"
+        "a0fe85909b476949",
+        "769fbefee97e17b8"
       ],
       "sourceUrlCount": 4
     },
@@ -1889,11 +1946,11 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
+        "86cbb5c8cfb20d3e",
+        "c11300f736f56bdf",
         "184fe005af6c852e",
-        "77ee68ab1118125e",
-        "99bf7ae9c27d3ce8",
         "c0a383e82727f6a9",
-        "eb274c5b8b3886d6",
+        "a3d22e343ae319bd",
         "fd0110cec92d769a"
       ],
       "sourceUrlCount": 6
@@ -1919,9 +1976,9 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "45d1a82d5b8c8aaa",
-        "563ef3487bd16e43",
-        "83aa529cf7ab5b8e",
+        "fd05b158114fbf41",
+        "d34c352a62be98a2",
+        "c4012a04b84c5c3a",
         "96aa96870b835e3d"
       ],
       "sourceUrlCount": 4
@@ -1947,10 +2004,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
+        "44f265d43cbd3508",
         "27d0fa28033e4ca5",
-        "5349002575e01af3",
-        "a2a038df2d49383f",
-        "f544f6ea65fb607f"
+        "f544f6ea65fb607f",
+        "a2a038df2d49383f"
       ],
       "sourceUrlCount": 4
     },
@@ -1975,10 +2032,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "269318136500a804",
-        "276e40d2ff94c218",
+        "fb9ddc4c9f92e554",
         "59c672132de88f39",
-        "648cf63e0ee6baf2"
+        "269318136500a804",
+        "26c491f4de410bb9"
       ],
       "sourceUrlCount": 4
     },
@@ -2003,10 +2060,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
+        "3e1bbb423f5d7893",
+        "7f66f87c86ea2dad",
         "03b26503103682f2",
         "67021d36f4addc79",
-        "7f66f87c86ea2dad",
-        "ae740055eb3eb929",
         "ca8d60d692d883e3"
       ],
       "sourceUrlCount": 5
@@ -2032,12 +2089,12 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "0809a1a127a6d9ce",
-        "11c370f6ac941cea",
+        "3db07e09d17b0aad",
         "792a2f686777c0f3",
-        "8a2f09174f8607d5",
         "abc3a91ec40841eb",
-        "ec32b7464c55d517"
+        "0809a1a127a6d9ce",
+        "ec32b7464c55d517",
+        "11c370f6ac941cea"
       ],
       "sourceUrlCount": 6
     },
@@ -2062,14 +2119,14 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "018770b8ea48042f",
-        "27d51c95c71bd55f",
+        "566a4dcabccc123e",
         "5560d33c2b2c0671",
-        "69cc6076c23c75f4",
+        "e0e40f2b07d1d92b",
         "7b370faaad2f795b",
-        "80f1922f1a3674c1",
-        "cde0da36bd148c56",
-        "e0e40f2b07d1d92b"
+        "27d51c95c71bd55f",
+        "69cc6076c23c75f4",
+        "30dce4512d048f3e",
+        "018770b8ea48042f"
       ],
       "sourceUrlCount": 8
     },
@@ -2094,9 +2151,9 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "1b9c09092674e01e",
-        "65bece7c6b155a5c",
+        "efb24a1c5bd9c6ba",
         "688573ad1c6a7cf5",
+        "1b9c09092674e01e",
         "a6a330b4fcf5e510"
       ],
       "sourceUrlCount": 4
@@ -2122,12 +2179,12 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "092a2eed3abb73f2",
+        "b45f98b8bc0f7947",
         "45e859636c837270",
+        "f91cb997c61c194d",
         "4b568d38c5d50694",
-        "d502246412b96860",
         "dd37bfb1ee9ecc82",
-        "f91cb997c61c194d"
+        "092a2eed3abb73f2"
       ],
       "sourceUrlCount": 6
     },
@@ -2152,9 +2209,9 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "139e7a7c71e5e623",
-        "6dff74d8f6f828ba",
+        "4c9d4fd19206e1b9",
         "736177b07b1117b7",
+        "139e7a7c71e5e623",
         "ecd6203ca654ded6"
       ],
       "sourceUrlCount": 4
@@ -2180,10 +2237,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
+        "4e3bba3bc1cb1fb8",
         "3a5a82d78249defe",
-        "7dfc5e44b5213520",
-        "803685d40fd1f3df",
-        "b7ac7e0c28c07ef4"
+        "b7ac7e0c28c07ef4",
+        "803685d40fd1f3df"
       ],
       "sourceUrlCount": 4
     },
@@ -2208,11 +2265,11 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "475a4014e93d82a8",
-        "53c430b5649ef710",
+        "e3625a39f86c8d57",
+        "78d9d4055f709a65",
         "85bdffddfad087e0",
-        "b5295dfc9dc4dd8a",
-        "eb7e6dc92099fa95"
+        "eb7e6dc92099fa95",
+        "475a4014e93d82a8"
       ],
       "sourceUrlCount": 5
     },
@@ -2237,10 +2294,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "9839afe7b1c932e7",
+        "de1a2f903d695841",
         "9b5aa3ee71205ba4",
-        "c2f0cfb2e0b2e41f",
         "d7f23d3843e832ab",
+        "9839afe7b1c932e7",
         "dba33e4c5fe086f7"
       ],
       "sourceUrlCount": 5
@@ -2266,10 +2323,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "51f3bf73df9a6ad5",
-        "52ee4abafbaa4a48",
+        "794740ce1c86df71",
         "82c80c19105f1927",
         "a4edcd5572657927",
+        "52ee4abafbaa4a48",
         "cad157b9706a74fe"
       ],
       "sourceUrlCount": 5
@@ -2295,11 +2352,11 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
+        "ed6ac34956086c81",
+        "f3c8d06a01591163",
         "0ea97ae887852d02",
         "195e9534fb5f5c57",
-        "c2acd37e66721778",
-        "e37eae7e39594d43",
-        "f3c8d06a01591163"
+        "e37eae7e39594d43"
       ],
       "sourceUrlCount": 5
     },
@@ -2324,11 +2381,11 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "5230ff3260408b37",
-        "6067d79f9f304a29",
-        "6bc5824ae45b0d99",
+        "1d08f13fe15211c1",
         "cbf4e30a2d166b40",
-        "f47c9d21e7ab6f3e"
+        "f47c9d21e7ab6f3e",
+        "5230ff3260408b37",
+        "6067d79f9f304a29"
       ],
       "sourceUrlCount": 5
     },
@@ -2353,13 +2410,13 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
+        "a5377a572994d51e",
         "0f57646167edefaf",
-        "18d43daf9ddf8cd9",
-        "20e03a06037c9c9b",
         "303ffee79bc59687",
         "346a6318746bc7bd",
+        "20e03a06037c9c9b",
         "84108c8b37a60b3b",
-        "dffe76e7f4f76729"
+        "18d43daf9ddf8cd9"
       ],
       "sourceUrlCount": 7
     },
@@ -2384,7 +2441,7 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "198a72c73b123448",
+        "7a20086b5d8ff5c4",
         "40516d1a14a5cf43",
         "80306cbcc29f8a22",
         "b2bdfa9a17cafa20",
@@ -2415,8 +2472,8 @@
       "sourceUrlHashes": [
         "45181d51e7297666",
         "72c61503261bdd18",
-        "836ccfdca6419fad",
-        "cee625d003b94104"
+        "cee625d003b94104",
+        "836ccfdca6419fad"
       ],
       "sourceUrlCount": 4
     },
@@ -2441,10 +2498,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
+        "b702e7eea4087b25",
         "0c01009cdc998dea",
-        "56ef3195264ae31b",
-        "7ce6c1013ff1947f",
-        "aec7209885ed3651"
+        "aec7209885ed3651",
+        "56ef3195264ae31b"
       ],
       "sourceUrlCount": 4
     },
@@ -2469,11 +2526,11 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "0702a97f99df3830",
-        "2d6cfc877e4fa47f",
-        "435fe3b6d47134c9",
+        "8b0eaafedc559312",
         "b461fbdd854471df",
-        "cc10c2d73d7140bb"
+        "435fe3b6d47134c9",
+        "0702a97f99df3830",
+        "2d6cfc877e4fa47f"
       ],
       "sourceUrlCount": 5
     },
@@ -2498,13 +2555,13 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
+        "27ddb65e2b15e18e",
         "32a89ac3741d85f3",
+        "d094de1da15e8980",
+        "72d7cb00abd1ef3a",
         "47e9ab5ca52cba18",
         "65e34d7039651380",
-        "674e9959f785cfb8",
-        "72d7cb00abd1ef3a",
-        "a83ed6db18ac24cc",
-        "d094de1da15e8980"
+        "674e9959f785cfb8"
       ],
       "sourceUrlCount": 7
     },
@@ -2512,7 +2569,7 @@
       "assetId": "personal-blog-projects:sukka",
       "libraryId": "personal-blog-projects",
       "title": "Sukka's Blog",
-      "status": "backfill-needed",
+      "status": "accepted",
       "captureDepth": "feed-plus-home",
       "sourcePath": "design-templates/personal-blog-projects/references/catalog.json",
       "previewPath": "design-templates/personal-blog-projects/example.html",
@@ -2529,9 +2586,9 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "4fdb3104a5d681f7",
+        "e7f963dc4fb91d50",
         "5a840ced5a57e7ff",
-        "9ea6eb53ef93d724"
+        "330c85c9bf8d4fef"
       ],
       "sourceUrlCount": 3
     },
@@ -2556,11 +2613,11 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "33de9cb918b63d02",
+        "1d04ab6fc6c24ffb",
         "b4ef2af312b58e1a",
-        "da61454558851bfa",
+        "33de9cb918b63d02",
         "e1c4fa925ce02de9",
-        "f90e45b90205b61b"
+        "da61454558851bfa"
       ],
       "sourceUrlCount": 5
     },
@@ -2585,10 +2642,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "3868c41374a62860",
-        "78a3119b7cdb99c6",
-        "9843080d5e0c03ca",
-        "9d998d8486eeea07"
+        "4c50948cb705301c",
+        "ccf52d93dd2b6174",
+        "9d998d8486eeea07",
+        "9843080d5e0c03ca"
       ],
       "sourceUrlCount": 4
     },
@@ -2613,10 +2670,10 @@
         "personal-blog"
       ],
       "sourceUrlHashes": [
-        "3fce722832f11f1f",
+        "1507434ca4fca598",
         "68b228fa94c444dd",
-        "740604e40165ab29",
-        "b958cc3b80ad430e"
+        "b958cc3b80ad430e",
+        "3fce722832f11f1f"
       ],
       "sourceUrlCount": 4
     },
@@ -2629,12 +2686,11 @@
       "sourcePath": "design-templates/poster-projects/references/entries/european-design-festival-protest-identity-posters.json",
       "previewPath": "design-templates/poster-projects/example.html",
       "roles": [
-        "poster-reference",
-        "composition-patterns",
-        "asset-direction"
+        "case-reference",
+        "poster-projects-reference"
       ],
       "tags": [
-        "poster",
+        "poster-projects",
         "festival-poster-system",
         "poster series",
         "Festival identity system spanning posters, banners, and flags",
@@ -2654,13 +2710,14 @@
       "sourcePath": "design-templates/poster-projects/references/entries/its-all-our-blood-hiroshima-nagasaki-commemorative-poster.json",
       "previewPath": "design-templates/poster-projects/example.html",
       "roles": [
-        "poster-reference",
-        "composition-patterns",
-        "asset-direction"
+        "case-reference",
+        "poster-projects-reference",
+        "motion-patterns"
       ],
       "tags": [
-        "poster",
+        "poster-projects",
         "commemorative-cultural-poster",
+        "poster",
         "Commemorative exhibition poster paired with a process film",
         "artifact-study"
       ],
@@ -2678,12 +2735,12 @@
       "sourcePath": "design-templates/poster-projects/references/entries/shakespeare-in-the-park-2025-reopening-posters.json",
       "previewPath": "design-templates/poster-projects/example.html",
       "roles": [
-        "poster-reference",
-        "composition-patterns",
-        "asset-direction"
+        "case-reference",
+        "poster-projects-reference",
+        "motion-patterns"
       ],
       "tags": [
-        "poster",
+        "poster-projects",
         "theater-poster-system",
         "poster campaign",
         "Season-reopening poster system with dynamic digital animations for the Delacorte Theater relaunch",
@@ -2703,12 +2760,11 @@
       "sourcePath": "design-templates/poster-projects/references/entries/storefront-gala-2025-wpa-event-posters.json",
       "previewPath": "design-templates/poster-projects/example.html",
       "roles": [
-        "poster-reference",
-        "composition-patterns",
-        "asset-direction"
+        "case-reference",
+        "poster-projects-reference"
       ],
       "tags": [
-        "poster",
+        "poster-projects",
         "event-poster-identity-system",
         "poster-led event identity",
         "Annual gala poster and event-key-visual system built from WPA poster density, a custom condensed typeface, and venue-derived pattern cues",
@@ -2742,14 +2798,13 @@
         "product-ui"
       ],
       "sourceUrlHashes": [
-        "3bccbda41093fa18",
-        "4dadc4607f81ddf3",
-        "5d680fb3465cc71f",
         "c245ffa097a6840c",
+        "e36a244c92082a45",
+        "4dadc4607f81ddf3",
         "d60c08646dae5eca",
-        "e36a244c92082a45"
+        "5d680fb3465cc71f"
       ],
-      "sourceUrlCount": 6
+      "sourceUrlCount": 5
     },
     {
       "assetId": "product-ui-projects:notion-mail",
@@ -2774,12 +2829,12 @@
       ],
       "sourceUrlHashes": [
         "3307b1bc267f998e",
-        "43ef9416ce457aef",
-        "49f3121a562f8775",
-        "79aef6de38a04e85",
-        "c35a57356f6369f0",
+        "05487d9f265dd6e8",
         "ca3ebe468eade21e",
-        "eb8245d6ed0eb0ca"
+        "49f3121a562f8775",
+        "eb8245d6ed0eb0ca",
+        "c35a57356f6369f0",
+        "79aef6de38a04e85"
       ],
       "sourceUrlCount": 7
     },
@@ -2805,14 +2860,13 @@
         "product-ui"
       ],
       "sourceUrlHashes": [
-        "41c5c47af53bf80f",
-        "7b5da1d5c83c7a74",
-        "969036f6225618bf",
-        "9e66bc4ee8f574d2",
         "cd8a2f463e2c1285",
-        "d3b79f6bf7506f94"
+        "7b5da1d5c83c7a74",
+        "9e66bc4ee8f574d2",
+        "d3b79f6bf7506f94",
+        "41c5c47af53bf80f"
       ],
-      "sourceUrlCount": 6
+      "sourceUrlCount": 5
     },
     {
       "assetId": "product-ui-projects:superhuman-ai-productivity-suite",
@@ -2836,12 +2890,12 @@
         "product-ui"
       ],
       "sourceUrlHashes": [
-        "3e335aa5ad67ece8",
-        "5d73ec810a5ac93a",
-        "a66ad3726ba72c49",
-        "df73720158213837",
-        "e8b37b21fbaaddec",
-        "f258dced34c7cd94"
+        "11261f2e190750f1",
+        "d039eb23cfefadf8",
+        "5f438a2ccb1c2b71",
+        "fde0687614be2ccf",
+        "8be0cf493ed6e368",
+        "63054079247e2315"
       ],
       "sourceUrlCount": 6
     },
@@ -2866,12 +2920,8 @@
         "surface-suite",
         "product-ui"
       ],
-      "sourceUrlHashes": [
-        "48932beb3ddd9d62",
-        "65deddfc1eb387b6",
-        "f29bb5e5d5cad76a"
-      ],
-      "sourceUrlCount": 3
+      "sourceUrlHashes": [],
+      "sourceUrlCount": 0
     }
   ]
 }
