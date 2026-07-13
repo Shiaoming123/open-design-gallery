@@ -1,0 +1,1726 @@
+{
+  "schemaVersion": "od-preview-thumbnails/v2",
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "totalPreviewPaths": 331,
+  "capturedPreviewPaths": 331,
+  "failedPreviewPaths": [],
+  "fingerprints": {
+    "design-systems/adobe-spectrum/components.html": "a49398539cb8236c94ea50f1a844834c6132006065172fe3a913dff4409c9138",
+    "design-systems/agentic/components.html": "3b0c4cf693fd8117c106a840429b7d9aa05090060f85d978223c367fe0d9d08e",
+    "design-systems/airbnb/components.html": "bc84dc2cb569609dc4b4fa47b544fe35fffeef70185d086e4eb8abb69d870683",
+    "design-systems/airtable/components.html": "b7aa028782efed5007b2917209baacb5abc3a184680d38663122f46f7c9f4372",
+    "design-systems/ant/components.html": "77c160b691f996bda3594690366024b45f6b18bee8c2bd46efde47435d20b335",
+    "design-systems/apple/components.html": "9cd6f8541d8923b2839caebaf26be1ac50b1fe5af5725a3da53114991a17a827",
+    "design-systems/application/components.html": "1ca3d6a1cdf001c6802f7d2cb654461b911248796b7edce465249b909820ace2",
+    "design-systems/arc/components.html": "087ee74f4c514711bf1a28c04508f75b5ecdd3d922a15c2e0e656d7d163034b9",
+    "design-systems/artistic/components.html": "b1bb68904d3d17a1c265e0f31f5fd38d0f51ee8afdc0ffd82354d867321d8a73",
+    "design-systems/atelier-zero/components.html": "e9776511f16331ce8405aaa992bd39f994fd8d22752ec5aefed3c02f1459f9ca",
+    "design-systems/atlassian-design-system/components.html": "3a51b4698f0ff55f2025c9a2bd3d286131e06ce3e58cd9671c9f69008dd2b6ff",
+    "design-systems/aws-cloudscape/components.html": "2c1b3dc8b8cf659a7cf5837cc6fed9b3a1ca0bf723fdbc53a90c64d281717e3e",
+    "design-systems/backstage-design-system/components.html": "aa4871ce1c689d6a0e8f1142bd874c83485c870a539011c1627d8f95d077e6a9",
+    "design-systems/bento/components.html": "bc4ee69b0d1a0456e01cebcd21a0e6a3e95cd9a67b3bcc4c35151779b7f3b6e5",
+    "design-systems/binance/components.html": "081e1279c88f70bdcb4e54e988c00ea05238969023b12e69b516860c16ba33b3",
+    "design-systems/bmw-m/components.html": "abf846a42c76866b8827152bdc45149d46bb95e1bc016e8d0b7c0358553e1747",
+    "design-systems/bmw/components.html": "d1d74e536d04c16dad8dbd7d11ddce13121a02c94c09c6fad3bf86d8bd2d6832",
+    "design-systems/bold/components.html": "4e6aa523d55edd11be4bb24f99ae61fd4a4b4ff76b1ca521f5869abd483e4ff0",
+    "design-systems/brutalism/components.html": "68750106764aa5484cb76440e45db6592150ffeb0f0fae4ddac0ff0af121f59d",
+    "design-systems/bugatti/components.html": "41880238bfa9649767eb77de5af2379eb8063100afe6da72ae833e794d3520b9",
+    "design-systems/cafe/components.html": "9c9dae1669a6e7e2f85a243ec74a20ebce9f1c76d97886dc7398169475d4f646",
+    "design-systems/cal/components.html": "2340f7dfd7fae456ba73180b345197c327285bed75924545c2a7a5a6fa137416",
+    "design-systems/canva/components.html": "8d4e3176b4debbd4b5e60b059b51b7ae5b2cf2fb520d035005554c30b7ef6d87",
+    "design-systems/cisco/components.html": "bcfe4400cc1923d45818546af9d3b228e46fb7df7eb7aef3654839a7a3d1175a",
+    "design-systems/clarity-design-system/components.html": "e64be5166245737f2a859f604e5a4d29331633c12fc5fbd5d1ba2928e23aac1a",
+    "design-systems/claude/components.html": "b72cc77743e96a7285ae66460e0e9150b28e8336cf78224dd77cb80c9f01a6f2",
+    "design-systems/clay/components.html": "b9f36ecaf71c50c7e793c4a4e4d61e5804858e225bcda67ed6172f14c14c68f8",
+    "design-systems/claymorphism/components.html": "87e50e6bd6bf426a0f391fb81b0451bd4116edcd4a4152fe8fdb7efea34bb4c4",
+    "design-systems/clean/components.html": "585d7fef18a80335525203d8d49a4b2d296f93234feae74eb8c863ab03f6ddbe",
+    "design-systems/clickhouse/components.html": "467aa892375247c7950a5ed8d02fe79a40f3b40ed75ded14c59183b3ff6d11e4",
+    "design-systems/codex-app/components.html": "0abd1bf49823a2f72c5c6346b26ee427ac469a34309a0d92d82ace6dd34927cc",
+    "design-systems/cohere/components.html": "3e931dcf4a4f989e970f336089ba360547ed48070198e0ef76beffc0e9c41f54",
+    "design-systems/coinbase/components.html": "99d237ac71399e8e33c693d30793a6af48b9df0d283eb18ecaea12c914eac730",
+    "design-systems/colorful/components.html": "a0ea755abc70151575ff8dc836f3997c15fbb98a089466045914722d5a90d399",
+    "design-systems/composio/components.html": "658c37bac627c3acf726cf3e9d6b8969a062621294b932e816d3cc96d89c519e",
+    "design-systems/contemporary/components.html": "b2e911aa66d1561dbf8c1fbb4da8debd06e4d82879f4db96caee626b521632df",
+    "design-systems/corporate/components.html": "dc0ecb5f5e1c6c3f4e0b01740753978ac8f0f027dd21d155a329d7b2f0a8b4b0",
+    "design-systems/cosmic/components.html": "edf4b7bd334c89068b6608e73be3055d9e427dae1d7911c2abc089ea8d5bac3a",
+    "design-systems/creative/components.html": "336ca4058c106d33d628a28d4870b2bbb70384bc5d0ee3f50b7eaba426b544fc",
+    "design-systems/cursor/components.html": "194b63db5b217433f7bd8212fab78049c5cbb3d461bbd2967e724ef6a6123e2c",
+    "design-systems/dashboard/components.html": "5a05484004a262b99eeb7ae92b5260dd89354b36b50db912af1d2d5deeafbf25",
+    "design-systems/default/components.html": "aa5a69d2e49dd8d018774c7da0d0db1e8a444adc6f7a586224b9b3237ecafaf9",
+    "design-systems/discord/components.html": "4d4db5b376d8d57a7baac7c6771f678725112717af58001b1156010ec879dc54",
+    "design-systems/dithered/components.html": "758ac112e881df8a2746472d0aaa24b7e8793a7d28fb6b60c8b3c31a05971891",
+    "design-systems/doodle/components.html": "4b84cf7dd3c4cecb1acfc1127302a375f9511a6cca9849451c94182aa577cd29",
+    "design-systems/dramatic/components.html": "7df40dc3ccfe00c2df505c8e2173a6dc2626bc3e4a0ca2657392c3472a8ac54b",
+    "design-systems/duolingo/components.html": "a27be97da5b3684a13c1ee4f0226d9b291831cf06be3edfb035d9e9dff0092f1",
+    "design-systems/editorial/components.html": "0d498cb27b85538086bc7b401e9e496af296f347e1a4ed9ba2b2b5f3ed3b91bf",
+    "design-systems/elastic-ui/components.html": "2548630a0a10958f956cc22340d25336db8452680e6ff7650ba206a77913c5d7",
+    "design-systems/elegant/components.html": "077f2130d55094b4409903af36f9d07eed23c1f6ae86d06a7ec834beb90d471f",
+    "design-systems/elevenlabs/components.html": "56eb243a9b057da43585cb9acb631514a082df4e02a64a7160150a332549cf02",
+    "design-systems/energetic/components.html": "fbfb6b78cc748be1c39973d502cb09d48e5d9377f416a587f3eadd7eec774a53",
+    "design-systems/enterprise/components.html": "534fa6dfaa3236e2c0c472bf7e9108b0521f44d33a19767e731c525260227277",
+    "design-systems/expo/components.html": "037c8c3bf4300d61d9727f28f6f53cdaf1d83bbe476dd11782389481efe17acd",
+    "design-systems/expressive/components.html": "be7001bf83cf3675c183b31c47104ac07bd4aa3ff7c668a32144aa78a6671810",
+    "design-systems/fantasy/components.html": "651dd78b248fc9d847fa7aaccc251191909422e338375ddcb9950cbb199b694c",
+    "design-systems/ferrari/components.html": "0d0069e0348b4a14339859e48c467fa6e651e91f1124cee36cb91bda718c5c3e",
+    "design-systems/figma/components.html": "caac82cc9de21512ee5bff11288af80a44feae650b60ecf402cff6937f9eaf1e",
+    "design-systems/flat/components.html": "ce8449144260eee0eaae1b687329a41796a22818aa6b5fd25a19b35a873ac093",
+    "design-systems/fluent-2/components.html": "5f843a5a0ea1e91807672e3fc7df5d8f688cb7d2121a89ad0b515eadf88af2d8",
+    "design-systems/framer/components.html": "e3d5ae5ad49e99051afc201b001fc6d6d64e9dd84c0d96a51978aa1439b67ff4",
+    "design-systems/friendly/components.html": "ebf0de8667812e90133c20b3d97eaf0710aeee2c1dd34ed435ff415573e537ea",
+    "design-systems/futuristic/components.html": "0b50957298ac07beedaeee5751dbc8dccef38e470148012e2aea0301b5ec0e78",
+    "design-systems/github/components.html": "bc0bff7443108d9ab2755ccdc1834fb8e3c736219946f6b156b070a368fc0684",
+    "design-systems/gitlab-pajamas/components.html": "e1316a9934f3901d0c15d7f7ce836e66041c08ff8199aa614781edf6b8dae661",
+    "design-systems/glassmorphism/components.html": "15374a35cbe91d2d2d7e8414a8dfe3abde3308f51dde5a17990ce77766594a02",
+    "design-systems/govuk-design-system/components.html": "a0aa21d78840fc5047ed82aabad49dddb9ef0e62390f56d91bba6b71c68128ac",
+    "design-systems/gradient/components.html": "4e1af5d1a3525517764612d78325e81285781714ff8cd34f3630c92c253f3eed",
+    "design-systems/hashicorp/components.html": "c56e9c243b3a602401d2aa68ab789016fc6470d9eefd4d91ffd7d1282d8ccb50",
+    "design-systems/hud/components.html": "58b3b8bc3fad01d0c9d7e2d5c9837f7c25df0a03a9fb2cbc4969a8f917c26269",
+    "design-systems/huggingface/components.html": "db1827e1b7982c79b24b67b1b74e38f5939c2d053645ffedb67966e91364e4bc",
+    "design-systems/ibm/components.html": "08914e92fe5e9bd8a19505ad17e0e5507991f8f4dd8ef5bd8a42a66f929032ee",
+    "design-systems/intercom/components.html": "9414f4f94dc1fa44e305243bad2e97008235c68ecbc7eccf9b2c4fabc6269c3b",
+    "design-systems/kami/components.html": "f242a4e2104c2fec4f0381ef06fbe0c839193eace66e9ecb472fc5e75df1dc43",
+    "design-systems/kraken/components.html": "ca6fca4d34d04c5a07d27bbfcd9d261e3ed0fcd73f9db2adb18ce8ba20aae9dd",
+    "design-systems/lamborghini/components.html": "4866c8b5c0bd2b612d915ad9939ddd0ba205f66836b367145be8eaae2c4e3804",
+    "design-systems/levels/components.html": "68f510df4e98278ae5b9ffd607f388e77fa1c3842bfa8b76bb92947400a18007",
+    "design-systems/linear-app/components.html": "7bfbb29152f4bc6cd069cc8442d74781c92123160e981794208f48982cc8ce49",
+    "design-systems/lingo/components.html": "91186909970e3b5e984a6ff4154d7688b118c8d0edcc92194211a075a6c8028c",
+    "design-systems/loom/components.html": "074d7472626b7beaf13f3eb4cefbc9085a321c4e4cbe0d7b00d3312c36af2cd2",
+    "design-systems/lovable/components.html": "af3f1e34fdb4defa43e3ee1ff8f3a4b3d38f1c6153ad3a8818d2e1f18498ec1f",
+    "design-systems/luxury/components.html": "07cc20e987b2b8ab384abc1a5732e9c5f3dc342e270b7b3f067b8719d3b581f5",
+    "design-systems/mastercard/components.html": "73d3d2cb2a6c264e264c87d505e8bb8e69018d52217ef7d5b3ac729abb60d9a0",
+    "design-systems/material/components.html": "c7423f19c5f411bd25dad0a11837114c038b274adcc7f4a8748026a7d3ccbcf3",
+    "design-systems/meta/components.html": "f26645ce254d1ab5bb750607912c388563105437998731c237a39b96c04a6a02",
+    "design-systems/mimo-code/components.html": "25e4600d219f642de57c5a698184993d7dd5f5ccf3de326edbd2af5b7bd4f3ca",
+    "design-systems/minimal/components.html": "31e3a46f89359e8df0ee8b5df493044e40283691efd4aa81205c3e9997ca46c0",
+    "design-systems/minimax/components.html": "3124f31ff294c860943ba5590fac3cc7d61017a945a3bea2efce964c3c946745",
+    "design-systems/mintlify/components.html": "b3fb665ab5b78369e38b1541a4cfe83dabca655726a0dc820c2f16d4b2382bae",
+    "design-systems/miro/components.html": "c632e0bb5900eeb08c694c0a849c62747cf50c650c92d43901d207a9e5b1debb",
+    "design-systems/mission-control/components.html": "bb19b900da8d0c4a3cd2564607b2e7a86d4f583d9b20f1fc9797d3f1057a447c",
+    "design-systems/mistral-ai/components.html": "d7742c5c504c3c0d7b52a13f16f36b0110df9a9b727c30c29953521a434a74ce",
+    "design-systems/modern/components.html": "cd12d772aeb3dbba462b2da4763471096ab27a07ac6929fd29cb629955689904",
+    "design-systems/mongodb/components.html": "a9e0c39e370bfeff4b07a78f9728925b39e91f80e00958e2881b6adbf34f584e",
+    "design-systems/mono/components.html": "26485aab18414587c55fa7db01ca8f395de4f3840c7041c9045535d423d07894",
+    "design-systems/mozilla-protocol/components.html": "c016b580a024bfab0efa7f1669e7d11dd5634e05b0449703574ad73792026100",
+    "design-systems/neobrutalism/components.html": "43d46069880097c22249973128fd0448f9d099564b1ca01d7051ea7ae7eb94ff",
+    "design-systems/neon/components.html": "fb07c8fcee362473c3f6b52bf61ea6259725df08a24628e81c18f9b8fa7ebeb4",
+    "design-systems/neumorphism/components.html": "722fc29200a09f90e907eeacd2a2355aae0109c1beea809f87e5dad29820eeb2",
+    "design-systems/nhs-design-system/components.html": "44c6856f6fcd70999711a31c9ffd29b5050855d1a2fa71f5c2d5ce9545735d66",
+    "design-systems/nike/components.html": "b04f20a6b2c8670713eb93abec09834804993f192d1781cb00ee7b8416ce50ad",
+    "design-systems/notion/components.html": "70ddd6d13771a2fe1d98e3de1a4067a172d24778843682aa4d85f140dbf839ae",
+    "design-systems/nvidia/components.html": "1601b9d80ceae4b67f76fd04c6879621928e9d054b8a35d65aca3d25c7866b79",
+    "design-systems/ollama/components.html": "5b78c6034470ba09df44c6d548b9bf55dd8b36390b2ed373470c53ccd289adda",
+    "design-systems/openai/components.html": "3da4fea0212580a707c1ee339ad566c8f2d6b78a44b247d09271830198e5936a",
+    "design-systems/opencode-ai/components.html": "9067f02318e04e534e486cb01beede0216f3e1413f525f7bf235584ed3df97df",
+    "design-systems/pacman/components.html": "4c8f880ce16466a33f1580b2240a9c29ac4a18be7739c4cc15f242e39faa3a8d",
+    "design-systems/palantir-blueprint/components.html": "71bb29397af6a31c08843d35fc0e82c7ac6210ab8b5b7bef260fc497e3c350df",
+    "design-systems/paper/components.html": "5c8a9b581387a61360be6795a950d8ed5ae596e3690256536fc811cb3dddf0dc",
+    "design-systems/perplexity/components.html": "92705f47bb3d1d12428b36362368a5cb0fa54bdbcc5eff95744d884b9b4cdecf",
+    "design-systems/perspective/components.html": "9672692c6606b3bfc00498543b83411720b1d1f31a3a9412609b57a481396846",
+    "design-systems/pinterest-gestalt/components.html": "05f253b2791c883fb860ae2b2654c9f4eb60b0b95754b347ff7285b9c853c96b",
+    "design-systems/pinterest/components.html": "fca68c85a50ef8f16d98b2168fcb5ef7923e7acf2f0c04f6306729e310db57ac",
+    "design-systems/playstation/components.html": "5c6f86d253dc673befad0dc44265e7a29f967bd25723df2026797ac34814962f",
+    "design-systems/posthog/components.html": "23930dfa3a2a70b2be4b6223bb2d2c2efd06c0e10ecba04a0297a96371073fa8",
+    "design-systems/premium/components.html": "97d7ff57b0d514e99c761ca0349d35ee528e962b2e27a0d06ea6eb2d114f0bae",
+    "design-systems/professional/components.html": "51da5ae5f728490b3f708d80482deffc34fd7ce0d6f7be56b13a2d8885b2f45a",
+    "design-systems/publication/components.html": "a3391a148576e854e81ff206200b5ab7eb3ff8134b9f3787fa7b88b2fa2e3d3d",
+    "design-systems/raycast/components.html": "805f89239048742687bce0510bac220332bb2f9c9a6bc6485478712d8fd802d3",
+    "design-systems/refined/components.html": "63634a61a2f4da87cef36bbb982d45f8ee495ecf8b65ef6e2a47556493e53047",
+    "design-systems/renault/components.html": "d0bdd87295e80deb574e5e73d26743ce89c70930fdf845da9d0bb57541e7020d",
+    "design-systems/replicate/components.html": "f042fbb9fe7c5d9dcc1b12cf6ad0bf1d100de96294a744456b337a435f96ffe5",
+    "design-systems/resend/components.html": "519aacd03bb9b6c20b2dd5469d7337c7cc7b5b97d2e446d05914bb56c3044149",
+    "design-systems/retro/components.html": "2e88f44323c2b8b3588238c2c5c4ea9df61268fc3f5ed20c4b1ca5f4961e3c48",
+    "design-systems/revolut/components.html": "4d244ee95f74b59d40591682461877ee03af772b0b1e767c89637b5e64cf8d68",
+    "design-systems/runwayml/components.html": "0523303ef033ee3d819f1e63625e6644bb08cd49b2c19080d6b995b8ea376ba6",
+    "design-systems/salesforce-lightning/components.html": "7f8ea862a5ebd819f4e4cad22c5e553945f74b91e78ebbdafc54846e97792d41",
+    "design-systems/sanity/components.html": "15ef2eeebeae3f0bc9c95aa0e003d50d75620dbd57b60f626b911c60483602ef",
+    "design-systems/sap-fiori/components.html": "951e2ff86a15244d72204768eb468cccedbd539d99c384c1f522ed3da5accb03",
+    "design-systems/sentry/components.html": "a518c73fab581aec95af763bbfbd3aa3335d5498565e2824d79a543f72ffc10c",
+    "design-systems/servicenow-horizon/components.html": "173b968d3ad4ccb418b4cbaf77a13c738b432a946f0a7946f6f6354b2bf38c9c",
+    "design-systems/shadcn/components.html": "f08602a5d0522cd4ec538fc6e00fa6d46f1845e47fa0bb239128203965c010cf",
+    "design-systems/shopify/components.html": "4c66c103316433326b45f97a81b8ae3fc51f5647d3e3c14b38756db2fc77edee",
+    "design-systems/simple/components.html": "427b8b3969c05cb7a5f3f85fb8c37bb8f58246e2d6726122f701cf06590dd581",
+    "design-systems/skeumorphism/components.html": "72bf0f827a744034af23e2d6c14e17361db659b49864c5d936f6e166f54708dc",
+    "design-systems/slack/components.html": "8ad57742af243e181faea2f5314e84f051e5a70421c26c9ba5056fa193ccce99",
+    "design-systems/sleek/components.html": "ec4ec0fd9a4ac0a74f21d43010a241d76a5c07fd602be305ead15730b2dd1085",
+    "design-systems/spacex/components.html": "4b9316372737629b292b503cf8278d829a5fa40c3dd37ecc97004a2e75466f24",
+    "design-systems/spacious/components.html": "24a41cacb586b96cf97b3008a70b60d5c70be0513b3fd41b41abaad0474d7c04",
+    "design-systems/spotify/components.html": "c88e8574ed4149e55bbd4b952756f1dbdce21bcf9feda4473c4b58424b285943",
+    "design-systems/starbucks/components.html": "b502913b3eebfc3f0a48dfc90ed44156c030cf7259df30d308725dede39dd24c",
+    "design-systems/storytelling/components.html": "a88fb610340828fd5d5c14be3220f48e5151de113f1f88f7287343f7fdf9a9a6",
+    "design-systems/stripe/components.html": "2f74bf9ddfa6d17d3ec3251bc4aa033ab8379e4f62e328c9e191754bba15dc67",
+    "design-systems/supabase/components.html": "ea7abeccda735e7e1388fa37e181b796c0b2b518c3bc1ae7169bf3961bd8abee",
+    "design-systems/superhuman/components.html": "7c0d4e10d527b64f5c982785d874b9f1e1cc4f38f7499a19312a73462192c24f",
+    "design-systems/tesla/components.html": "51b3ad2289614456f7185141b390a95e5cadf715b7a16629aa6bb1a3f208ce2b",
+    "design-systems/tetris/components.html": "7f5b013b9230d5cfcdaf13d171fcd4582b673fb0d65a3f6e7ece9b9d4ce641a7",
+    "design-systems/theverge/components.html": "4a45af9c63d37b979b1f801ecc7b41fea03e94dcfdcad77f5789fd2c029aa5d5",
+    "design-systems/together-ai/components.html": "076a9ab205b2a04c99b33805feef0d83aad47b3abcd3dc13e592f79c0606e944",
+    "design-systems/totality-festival/components.html": "531457123c0962b350a3aa72b5bbcf034a5fa48fc3ecb1ef132aea6a0c1b1252",
+    "design-systems/trading-terminal/components.html": "edaca87811800e6947f5f10033d54d2eff5e0391df9d1d58f9d75106c90b7faf",
+    "design-systems/twilio-paste/components.html": "5d86fe3d7fb2daf80927db2b7d0c6446f67b7621ee702b5ab5c28d26fb6a119a",
+    "design-systems/uber/components.html": "9704212e9d3cde31d9accbf05c86980ba3c40042b21146fd7a4c258692825931",
+    "design-systems/urdu/components.html": "bce411bb60bdc08e01c0f566e211e2dc57a8c1dcd532adc9f6e593eb170f3eb6",
+    "design-systems/us-web-design-system/components.html": "c1d78e27f7bfb1800f3c80aaf5ccb8ce0e2bea8ab933cf789153e31af3a75265",
+    "design-systems/vercel/components.html": "d46dfea04972c34501640043de2d22620d16089085df92aa41b74c664b1c877b",
+    "design-systems/vibrant/components.html": "89bf2e9d5f58e1fc3b35a1832512b4c082c4feb55cef52559009d13dc854cc1e",
+    "design-systems/vintage/components.html": "45e16396d4b3421cfbfe41f5a53995da179b2d24c7d4001007b524a345bf9099",
+    "design-systems/vodafone/components.html": "d6827fb54855851f1c379ce8671a57c38b6490c151d193b82e62a9da74f5ed53",
+    "design-systems/voltagent/components.html": "1a442ddf3ab28ffdd32f706332a8a064311b4015f50716dec833bcb80541b51f",
+    "design-systems/warm-editorial/components.html": "345306435f20c3ee375a000d09471d473845f8e831d3a6b585a1cccb1b72a444",
+    "design-systems/warp/components.html": "db034f68a1fda87b4797809b35286d0d55ddd72449cc3b406c9669ab8a572090",
+    "design-systems/webex/components.html": "da178a3c57c6d5b5d9cbd28419d528958c477924703118e2e06fcc470cb4f864",
+    "design-systems/webflow/components.html": "87c3b28740663f3702d78fcd6d44b0e5c910aa0e4b5f8de6f72ffd6fcbab9baa",
+    "design-systems/wechat/components.html": "9eadffcfc6ec9945a226a37b0add8db05eb89fa425e38d6e4194d529bd55e47f",
+    "design-systems/wired/components.html": "d9e4907d1cb607f4a716f192bba0d417384a277de61b3bb2e2cdadcc2d770a33",
+    "design-systems/wise/components.html": "393914d3b6084d89cbb32f8d4e2f4452fa5927a660de88d295418041ac494879",
+    "design-systems/workday-canvas/components.html": "4fbfeda93d9e49a19e425b920744b615ffa5e442b8799c79c8331f54a771eb93",
+    "design-systems/x-ai/components.html": "7b288823a4744eaf80320ea4be15a244ee5bc4f75562dca500e042d22d723d9a",
+    "design-systems/xiaohongshu/components.html": "c832457cc5b7f66b15a72e0a07a9f2e3b6a8b9e5e5dd84296feb7ca9f644dc8e",
+    "design-systems/zapier/components.html": "0fd33f8165b6ce5702282f30cbc741e9bca0aa870fce2d8a3e35476c1d9e45e6",
+    "design-systems/zendesk-garden/components.html": "313804aa3b397dcb77aaa67c4314a8f669dd36709d3e577ecb761975c363ea2a",
+    "design-templates/animated-svg-logo-draw/example.html": "84ab110427b751f734b2cc0b64ab50f3694068fc2a89e454c04aca732f71eb17",
+    "design-templates/audio-jingle/example.html": "016cb2502021f41f339cd85a36f33c7a402ea9daaf8c712796d1420f90ea0a68",
+    "design-templates/blog-post/example.html": "4ac12f7424d61de3382812fecdcc6927805b27175d6d8705873a8bb2864d4d18",
+    "design-templates/campaign-visual-projects/example.html": "501ecad2a523b4a0f48029992000390fa97f59fde3ecfc0868105032c85b6be3",
+    "design-templates/clinical-case-report/example.html": "b5ff90b2439e7076b16d79a42a438701cc020bef2af87936c71c4513d88092e6",
+    "design-templates/commercial-product-launches/example.html": "c567c616748a36a87e1c3f00bcf93830518e5c635ecdee51bfad42f21d92c162",
+    "design-templates/component-state-patterns/example.html": "31c79fc6c9ea9a8a5bfd5d7fb35c180f7fdf9d54bbd94471b1cabe162068bb3c",
+    "design-templates/contact-widget/example.html": "eceb92ce55397abfd104ebed9116f5646ba91779d83b298f0ea1952f0cfe466d",
+    "design-templates/critique/example.html": "597b35bcb8880d71625508d99804127feadfa605f10237ede197287270e2f130",
+    "design-templates/dashboard/example.html": "46cfd8e6f1d0d3072b875487f32d210b9177ab1c9fea6e003d4fcc6cfa1ca1dd",
+    "design-templates/data-visualization-projects/example.html": "2b24d0ac1b9cf62a88aa43b6231ac43c5b945b77df165437c1dbfc0eac18b529",
+    "design-templates/dating-web/example.html": "bb1c0be406254fa023631826e1f4f007e168744e98369c2f10192fec74792b48",
+    "design-templates/dcf-valuation/example.html": "e6c120b4459ae28ce6b02d2df6e9ecc79d0ba736fab8abe2b88cab83795d7a49",
+    "design-templates/digital-eguide/example.html": "b1bd94f1f0e791bbd4c356fcf27964c75ff7e796cd1cc36f921c61ca3eb7cc01",
+    "design-templates/docs-page/example.html": "46853b838382bee4b0a31b0a408beaac0b709a494542617ce8cbf91e53e2facd",
+    "design-templates/editorial-magazine-projects/example.html": "8bbd2dd4c9fbec12f9c5f6d0b8fa1ac272be7b7da0a7b6a8aaff74a767f6a769",
+    "design-templates/email-marketing/example.html": "056a578b2521d648cbaea0ea8edcded3040705da2615430d4bd2ccd5530eeb44",
+    "design-templates/eng-runbook/example.html": "0ec2fc7811505afa6e8cdce8e6feac9e8854c966d0efc8881fdf286ecf8e1c52",
+    "design-templates/finance-report/example.html": "0fe7364cf141b5537c6da94cc917f732382c1ba7aeab80edc67bf376badb8468",
+    "design-templates/flowai-live-dashboard-template/example.html": "66ad901262007601b31e89ed203312e8ebbf9be785a0f8bc8b23f8e555ae0ab9",
+    "design-templates/gamified-app/example.html": "c884d61c977f0c31e97815e6fb7ff705ae270f8efea8b9072b259026947f1c2d",
+    "design-templates/github-dashboard/example.html": "416e5032ec4868ced54d97ed3abf87582da0ad371644923b34c6f115d6429971",
+    "design-templates/guizang-ppt/example.html": "91a5801a3c5983dad48300c3fa1c9ed5fd8bb13962bc60d6b3a410c8e21fd8f0",
+    "design-templates/hr-onboarding/example.html": "d672aeddb0c3ad1ccfa108eecf5b3f6746e0faedea967234a8adc8fddf1cfd56",
+    "design-templates/html-ppt-course-module/example.html": "f97ff7e71b0dc67c725c481eecf6cdae14c65bbf8ebf251ded23aa05500e59de",
+    "design-templates/html-ppt-dir-key-nav-minimal/example.html": "4e91aac852209f1f8211f128ea3331452abc1ab12549333563b2236fafadabdf",
+    "design-templates/html-ppt-graphify-dark-graph/example.html": "a554927dc0884bd3a0b74a85d65f6e4eb6715b85b003e47806a3fcb1b7d07fed",
+    "design-templates/html-ppt-hermes-cyber-terminal/example.html": "cdf81e2d47596db4387e4f8e7d224ed039d30224bbab42a825dce06b71488624",
+    "design-templates/html-ppt-knowledge-arch-blueprint/example.html": "027f1916563b0e4b9d20ca15d61f840681faa1ae8653a4b96e6bf084cd94d884",
+    "design-templates/html-ppt-obsidian-claude-gradient/example.html": "739539c708e9809013fbc42e16e468b1637068beca312781957f002c48b0e499",
+    "design-templates/html-ppt-pitch-deck/example.html": "5b20ca4c2362eec89aa9be69a989695bdded951b1d533440ee57ab92294678a0",
+    "design-templates/html-ppt-presenter-mode-reveal/example.html": "a6356685d396351d9efbe284127fe266f7c3db79adda9428855ae3d0c7abf1fb",
+    "design-templates/html-ppt-product-launch/example.html": "cce5b8042cc7f794c246cbfd51c04794b00d6da4b5791c22081c5e96de244f2c",
+    "design-templates/html-ppt-taste-brutalist/example.html": "0721a4a420f4cda8b46d21cc9abba93f8bd1a111c92c97e9dd4d652914181e95",
+    "design-templates/html-ppt-taste-editorial/example.html": "812ef0a0a25913a5aa945615e13cd191f57006785c846ab45902666af3af15c7",
+    "design-templates/html-ppt-tech-sharing/example.html": "f94a505a52062bc43459c3fc884658650d12c7657378d4b08946b204d978d2ee",
+    "design-templates/html-ppt-testing-safety-alert/example.html": "18d8c9630a316be4ca4ec210b9f510d847194ae211b6d5917fc53cd616a1b9c1",
+    "design-templates/html-ppt-weekly-report/example.html": "b935a8a4ec88c137b04398a0fe8ae1aad35fe3fac4f5d4d99f60d6a9ec9fe166",
+    "design-templates/html-ppt-xhs-pastel-card/example.html": "fbf38e146673e5c0a7ea39d175a3275f2ae7ff2a2e4a374388dab9cff4128abb",
+    "design-templates/html-ppt-xhs-post/example.html": "083eebf21cdef7d03e892ec5198a4490301fd89a5031831b83c7cae9721a2968",
+    "design-templates/html-ppt-xhs-white-editorial/example.html": "cd2feae5d3be7ca92d161ec70789c5f5071a59253cd54e14d86890a7afebfc3f",
+    "design-templates/html-ppt-zhangzara-8-bit-orbit/example.html": "197410687a3c9b9d4da31fe80c6d1eda225d39780878fe41c9aecf7536b19daa",
+    "design-templates/html-ppt-zhangzara-biennale-yellow/example.html": "b3af89ab4b23f221a7feca6487239c5d09dcdfdcf53236860b983d1e4cfaf3bf",
+    "design-templates/html-ppt-zhangzara-block-frame/example.html": "6d40e474bea980b8710969de28926d48611b7d350972880153a6db07129bd89b",
+    "design-templates/html-ppt-zhangzara-blue-professional/example.html": "39bca52a07472122706259d8df697b32be463fa6183136b84592454fcffa36f8",
+    "design-templates/html-ppt-zhangzara-bold-poster/example.html": "5787ef2df7399dbc3d3e7a8e3ef9a9c0472f3b7eb79cfc2312ffdf2b6207f1e8",
+    "design-templates/html-ppt-zhangzara-broadside/example.html": "a1180c8c64cd302d0bd114a9d5c49a2d6aab35c9b9bb496f26c57ec2d8d4830a",
+    "design-templates/html-ppt-zhangzara-capsule/example.html": "3719246e1c868c253d6eefdf025efd7ce40f6181874265c448f490ea5da22228",
+    "design-templates/html-ppt-zhangzara-cartesian/example.html": "2a5f0cf4f9d884f021c15511df31ea7203532f2e6ec3798f5817b333ca74d211",
+    "design-templates/html-ppt-zhangzara-cobalt-grid/example.html": "2972286ed9a1cd9416878256c3d0b6f5cda0c99e17f6eec4d070ab97ad33135b",
+    "design-templates/html-ppt-zhangzara-coral/example.html": "7f42316d70c3cfb8a282f0e9886e0564cbb84ebea6c0bfc0273abd7902bc2073",
+    "design-templates/html-ppt-zhangzara-creative-mode/example.html": "e24404b9294ca6b398b99dc85246840e3ebce7222ab0bfac92d116fbe3806fb9",
+    "design-templates/html-ppt-zhangzara-daisy-days/example.html": "c3d048152b6e14a3f8803bdb5712158a9d73490ebba3bcadfa10d8523951979c",
+    "design-templates/html-ppt-zhangzara-editorial-tri-tone/example.html": "61ac7ee4966988d2f6c00a14b82ffd5e9bd126a676e53ce3decdb36587f28e80",
+    "design-templates/html-ppt-zhangzara-grove/example.html": "5fcd64ad6d3a100d286f3ef81daf11f19e1ae817f036d171b06f9782cb99af08",
+    "design-templates/html-ppt-zhangzara-long-table/example.html": "cdad8d35642d6ab7ecb9885a65c0b110f102622d729657ce98bf031af12393bb",
+    "design-templates/html-ppt-zhangzara-mat/example.html": "5dd476f2242c2ffe6a34d6fcc52f9d4d7a1be0977d216f2b3a1896d41f986ae2",
+    "design-templates/html-ppt-zhangzara-monochrome/example.html": "2bdb9e22832505de76a472d5b779b198b9324d3f9ea692f057cc01321db818f3",
+    "design-templates/html-ppt-zhangzara-neo-grid-bold/example.html": "ce5d3266088d29517b1494799406213975548977e40779687a190b966a23c559",
+    "design-templates/html-ppt-zhangzara-peoples-platform/example.html": "b2303c151c20ecbc11eb8b35cd3a4a1f3cb72bd6d524370ae4de67a72036f510",
+    "design-templates/html-ppt-zhangzara-pin-and-paper/example.html": "124beb5fa2e364ed37cf6bd7626087ae3c4f7d9af3f5344df9faa7131c8a39fc",
+    "design-templates/html-ppt-zhangzara-pink-script/example.html": "8553620755a2d041d7f499f086609f102815fd36544cf6334192832dc1be58e0",
+    "design-templates/html-ppt-zhangzara-playful/example.html": "fa7fe9fdd0f980fcd3361bc6230dd9ae43d30ab7c09a64270b01e417a7d2e10c",
+    "design-templates/html-ppt-zhangzara-raw-grid/example.html": "fcb68736ee5c810e26523a42362839d597cc40b998894356b0ee70d5679c5427",
+    "design-templates/html-ppt-zhangzara-retro-windows/example.html": "1058d85ee29560cc5d1eac4161ed5a176a031c1041baa92d218c789f76cc4124",
+    "design-templates/html-ppt-zhangzara-retro-zine/example.html": "6d4047a5d3ab7f83addaa9f1705c609bc1ae0e3acf9e5de4c09825bd23a1f1f9",
+    "design-templates/html-ppt-zhangzara-sakura-chroma/example.html": "b09bf224f113e06f4b1bf3b7eeb19ace5c24b01bf01e5662f565bdefdbd96d20",
+    "design-templates/html-ppt-zhangzara-scatterbrain/example.html": "bfdb5b79cc7f9f0c3cca6ab888b00e32cf463c08b7602d81332d8b38269640fa",
+    "design-templates/html-ppt-zhangzara-signal/example.html": "91f2a26e72792ddaae59ec5a731540c97f058b413c0806c2870c30e997b69c54",
+    "design-templates/html-ppt-zhangzara-soft-editorial/example.html": "d6212f630c258a2b9441fd931231bee8a39e10548cc0fe83e2711d64857a82cf",
+    "design-templates/html-ppt-zhangzara-stencil-tablet/example.html": "6b92f21a31118c68caa4001206d37a9511a08421b6b61b5e56238322517ef390",
+    "design-templates/html-ppt-zhangzara-studio/example.html": "bbcf65c18597c95508d6560c12592a0f0bd68d0ed542881ec575aaf15afb4a3a",
+    "design-templates/html-ppt-zhangzara-vellum/example.html": "e7edcd51ce54e7d95fa6effaa7a33eb04311dcf49822b013fffb7308f6c294c0",
+    "design-templates/html-ppt/example.html": "2a4fe6750bb7d0a0a67fc8c6e7817ee9cdf466007831425ca218fba7bbe44566",
+    "design-templates/hyperframes/example.html": "7ec5c5eec11ca86dae9b08cc0d81c0ecc57171919485e40e1cd6862f0f5a5b94",
+    "design-templates/ib-pitch-book/example.html": "2b2283b1561d18ba65cc7c1b8dadf4eaada9f2bbe6862102947a978677276b5e",
+    "design-templates/image-poster/example.html": "590d3345ee97fca97f7ba4bde9b23920f3b62bedd39bf8fb4a51dcb350bd17ea",
+    "design-templates/invoice/example.html": "19195de8d0f2758c7f9a3d9e768941ccb2e3fc3360549aae21786e4d6b2b6c7b",
+    "design-templates/kami-deck/example.html": "bb642f282b642d88e645719741e02099654c5634e67b3d93b6ed7fec5196f186",
+    "design-templates/kami-landing/example.html": "108e0f19fb04f8a577a37b0677f1bb06351eb059b3968d6ccbb4b73832c10bd4",
+    "design-templates/kanban-board/example.html": "4ef461e4242fc06b104d222ced5ca4f52801ed6e469fc9dab80bd1d03e92042c",
+    "design-templates/last30days/example.html": "a153ab6b1152d5e99fd44a51ca681ef18ddbcf4902ca8e12a43ccd0f2a2892a3",
+    "design-templates/live-artifact/examples/baby-health-live.html": "3c3b2c27854adbff55edbb9f6beafd9b4b795d49f67d4216ff6f8ed329325c1e",
+    "design-templates/live-dashboard/example.html": "60b683de75a52406612f5267e66070519ef497b7255b33e0836d235e10e1d89f",
+    "design-templates/magazine-poster/example.html": "bea69dcb94e3a115ce6c035c605d38280a7c7f7abd171dcd523e7d12973d493a",
+    "design-templates/meeting-notes/example.html": "2142c7c4dd1e4116f64f32d671c9dacf1e9a65d8acdcea5dc843429da066282b",
+    "design-templates/mobile-app-flow-projects/example.html": "4c2b5f65174cbab8834c57c4002cfad7c5607d49625de1c3d1d9a58b4b5d2ede",
+    "design-templates/mobile-app/example.html": "3c8d7217af303c8ab2f7043ab46eba572f9cbf78a82837ef5d50fb87dc3fb2c3",
+    "design-templates/mobile-onboarding/example.html": "752cb4cee11d332e16062bf771baffd94be03e9147ceb26f8e25eb29dec7d2a0",
+    "design-templates/motion-frames/example.html": "f704568616e9bdb13fb35177c50d1da8c32b777650fd5b068a3619aebeb94450",
+    "design-templates/motion-interaction-projects/example.html": "8e22a4309cd13d06c4cf19135979c9748805a032e4730c308f4e62fbb70f5c94",
+    "design-templates/open-design-landing-deck/example.html": "8e1149b6b231a1d73140937ef1a0ef92863476e9d45d3267b977cac6c3a57a36",
+    "design-templates/open-design-landing/example.html": "3bebf9061d170213d86cca7c180df0f5bea6264812790f962316a51c1030887d",
+    "design-templates/orbit-general/example.html": "004ea4edda522d7891078f596d4cc60aca5f15e3787cf6e7050c72f2f22b4c01",
+    "design-templates/orbit-github/example.html": "4bf3c1e1e913c4b1e61caadf39b50d0069df955f9e24a71cbdc66b026a5b9c16",
+    "design-templates/orbit-gmail/example.html": "708d3ea553cf39e0eefca0adc2cae2122eaa82bf4e1dcf35e81096f36d1e7644",
+    "design-templates/orbit-linear/example.html": "cd1cf7efa17ceaaff65ee5b85ae88d821730a18c0d400911de908c5f15df1905",
+    "design-templates/orbit-notion/example.html": "89c81026627c8035ba2d670247d5c66ba0598b0aaa94e53a93bb899ceb057b43",
+    "design-templates/personal-blog-projects/example.html": "be0e2d79e8498179e1e13807b89ab1615a6007d0c3ed19696b9a701066f70494",
+    "design-templates/pm-spec/example.html": "9ecf536d2acc3fdee09ea35e17952008f028819335cf95f7b9c9c5e0445237d5",
+    "design-templates/poster-projects/example.html": "2fa615c9913b20a9f5c2ba325bbf0761bf28346642012ce49512178fede7bbef",
+    "design-templates/pricing-page/example.html": "d9baf64fb5299d7d3240d37b6d426c4ee0034111e9e1c90eefc6518b519bc343",
+    "design-templates/product-ui-projects/example.html": "53c2cf5a1b524a9e599a9f233039d3fe25bc1cc4594a43444c79fdbdebde0f08",
+    "design-templates/replit-deck/examples/example-atlas.html": "c87e1cc4fdbc3d4306810ed5a5104942bae778ec6a2e099930d1b7d3cf99c155",
+    "design-templates/resume-academic-cv-lite/example.html": "5d4998b832b0c57cbab5d5c5eb7fe88625f75037fbb44ccea0381333fe3ada60",
+    "design-templates/resume-architect-sheet/example.html": "877b9ad25d248262224571fb5037b08ecb6eb0b7ee0467521c14890b8126e06b",
+    "design-templates/resume-ats-clean/example.html": "78838bd1ce96e25343d37e5d501250a52677bc1f4ec0504a8339b4467760525c",
+    "design-templates/resume-awesome-cv/example.html": "4ee52b496ed30153f01e97a6714d0051b2d8b49f2548966c4e4795419046f1d4",
+    "design-templates/resume-awwwards-scroll-story/example.html": "1f4eac8c993c87aae37527d89c6c368499960dc520c3a799cafb921c8b1efe79",
+    "design-templates/resume-brutalist-grid/example.html": "485ea09257c273e95000610eefb7bee636f39aa4561acd6478edca8c37a9f8ca",
+    "design-templates/resume-canva-editorial/example.html": "2dcb80ab58fc3e005c0f0e35d6d8e6ffca81ed35720bae3681db3aa5d1213f12",
+    "design-templates/resume-cn-bilingual-ats/example.html": "7fb5730b83d8395005120db02e40c75f1ece602334106026b6320408837f5d5b",
+    "design-templates/resume-cn-campus-intern/example.html": "2cd11bc886cbe7c0888277e857ad8d07a52838f5006b555c8583d7160a1198d4",
+    "design-templates/resume-cn-editorial-bilingual/example.html": "66ce02435d0ccfe766b73354fd9421d5d27d63ccdafab05f71628b17be795302",
+    "design-templates/resume-cn-markdown-minimal/example.html": "ef2f0609b66e0b11f79ca3d65392c9eb723500cc05536ee075a93bf2b35093cb",
+    "design-templates/resume-cn-photo-sidebar/example.html": "627f94e84d7a20e909f84feb8b1c2de60425de5e2ac5aeddd233726ea9558b82",
+    "design-templates/resume-cn-social-recruit/example.html": "b31db07dfe3377efc96750719c29d0bb043275e6abcf96b5dc14b8de58230694",
+    "design-templates/resume-creative-studio/example.html": "c14fda7646606419d1866f834bd86e51a384c3210802dc05995035f141fbdf6b",
+    "design-templates/resume-developer-mono/example.html": "8e80149c4591444898d3aeb6b772dcd53631fdc8ea09e06d756765902fd2360c",
+    "design-templates/resume-editorial-magazine-spread/example.html": "3f6ddc189858aea23cd8af9ebb938bb3ba7ec77dd46ebf625e848928ed2a5fee",
+    "design-templates/resume-enhancv-impact/example.html": "48853b99ada3cc8962dd3a34f5494e6c5e9d503d387cd83d647727f1375e3559",
+    "design-templates/resume-executive-slate/example.html": "8e954fd60853630d1cabbd800e01aa0b693a1efd886df103c88a3e80b79ec185",
+    "design-templates/resume-fashion-lookbook/example.html": "d84fb53bb324d1f78a478a38b14f3472e15a21b1a4977f9b992933978bb9f4f5",
+    "design-templates/resume-flowcv-structured/example.html": "3db5ecb618055849723c0094acbff42d3fa2a0a66506a98e00e61e2cfc563bea",
+    "design-templates/resume-founder-onepager/example.html": "6f7d7e226ba7917b084008046c6d134efab51a55ce300fb940cc3c66e9d9c496",
+    "design-templates/resume-infographic-map/example.html": "c0ac1edc19fc907c10630fb32902675c5c9f525ccbfc221cf922be5a62974e40",
+    "design-templates/resume-json-flat/example.html": "aa75dec56651d1bb8299e6ef348a74e19d961541b078dfe0312419f4d709ea3d",
+    "design-templates/resume-kickresume-typographic/example.html": "0a7658b3a1b107fa0153991e1f87c9a11197460d4382b29c59b5c19a0a9e36fd",
+    "design-templates/resume-markdown-compact/example.html": "11547b2c9e56c73c2ba14b049f6f0b6c2b365d053ed9a74bde7e3e93e8eb13e6",
+    "design-templates/resume-motion-reel-cv/example.html": "b3053580cf5ef6c28b4ef8c1320c35b28fd3432b74f75e0ed2b6abbb663476be",
+    "design-templates/resume-neo-brutalist-lime/example.html": "8a0a3d8a1da4ff1e2c17ad53cb89e3563d45fabe46714d36ffd25dbfe50286ab",
+    "design-templates/resume-novoresume-one-page/example.html": "4f20f70f8970ed7134c609f2522bbbaaf42ac279e7e9577ff0702da028005267",
+    "design-templates/resume-portfolio-casebook/example.html": "116e65119aaaae7a9399d3bddd5bcce895e1260373643bc94fa4c340c5d50c0e",
+    "design-templates/resume-product-designer-case-study/example.html": "11fd11a88dfad1cd0b0a361b93f71044b72f57378d658b983bbf0e4d1dcce81d",
+    "design-templates/resume-reactive-classic/example.html": "279be69b7a15130fcd4ad70405ab12d8f608b5fbaa9257ac75d0d3de8c5f07f8",
+    "design-templates/resume-readcv-web-minimal/example.html": "2b9792e038c0bf73a492a48ec7ab5f024ade346d7fd21509c016522bf072930e",
+    "design-templates/resume-trifold-brochure/example.html": "95c1e3bd4006840bc9677773caefacef3bdf91acc46e3e4feca6dc9130b34c6c",
+    "design-templates/resume-two-column-deedy/example.html": "74178e6b24e8485a9b7da56cc08d2c4318edfd06f5f61d5f0bfc4b869f0e02db",
+    "design-templates/resume-typographic-poster/example.html": "826c2f5ace85f4735937122c42ede950f32292ea8c8e0ac3f9fb16eb87d197ad",
+    "design-templates/resume-zine-collage/example.html": "e087b4e3f4e75c78c14e5c74fde09439c046c40be50c69acac7f8b3c936fd4cd",
+    "design-templates/saas-landing/example.html": "f3c5299c3ee01dced60a7389333b30820d3ae16a00749a1db865e2a531518377",
+    "design-templates/scroll-progress-nav/example.html": "d5d77203502c0cf3db043010600933ba6e7b5a7f03c937fb2388ae8711434636",
+    "design-templates/simple-deck/example.html": "2d9d11ac8c26d3047e05ae7e8a1a5cb837ac3d735d9c2f29009582be618094ca",
+    "design-templates/social-carousel/example.html": "94c125f06ac2c802c70ce932fa8bb1dbde8d3f5f9f0e35a5ccd9378d838e7399",
+    "design-templates/social-media-dashboard/example.html": "314cab4181fd7978843dc71a172b76e10698e5a61618572f6a4406880c8b917c",
+    "design-templates/social-media-matrix-tracker-template/example.html": "d28cfe92814595aabc326d0cbb26b013239c14e79442375276b6e4829c2a044c",
+    "design-templates/sprite-animation/example.html": "fbf80c0b3818d79cac726848caf74b65c8a8850b5333e08a759667ae2ad0ef4e",
+    "design-templates/team-okrs/example.html": "aab1a31f4ce2e127d4e9d955dd46cb8f8b3645a0f251144b9f598d0e55a47f82",
+    "design-templates/trading-analysis-dashboard-template/example.html": "169c0451527d91da172da4bdfcad3bb83f3fd44d19444485c1e29619bb2c5e02",
+    "design-templates/tweaks/example.html": "431f4d883a2778fcf40a33253c786a389ffc554d998edcd9e1d723123597edeb",
+    "design-templates/video-shortform/example.html": "14e26b30a8da0f30fef5c0e15f404fc4948c2ea0d9ed13f0b871d7760fa4cd64",
+    "design-templates/waitlist-page/example.html": "bedbd8c2477c7a323038b482118c01b3231114f115fdedfea170e48c16005f81",
+    "design-templates/web-prototype-taste-brutalist/example.html": "a49706cde55c998a37f2ad7c94e1c390ffbc1901e45fc325a947099c6b107556",
+    "design-templates/web-prototype-taste-editorial/example.html": "1658c3d855f908ea571dd111969b27c8e19f234d0ae43298ce08faa123229f9b",
+    "design-templates/web-prototype-taste-soft/example.html": "b41c20ce569c6fb9f2c35d7be16d8a386d5b167b653db8acd8a98d004bccedc1",
+    "design-templates/web-prototype/example.html": "f5ddb33c2551d7e02d688d0a734a44cf86fe112ee88959035913cd97dbaf9f07",
+    "design-templates/weekly-update/example.html": "2b4795d54c06285e355d711b21050a1a505fb3b3c7ff6753d98a69c8f29f0ce5",
+    "design-templates/wireframe-sketch/example.html": "058024022549c0970745ba87585306d384fd3ffac636b6bd58009469c9e21a60",
+    "design-templates/x-research/example.html": "e5ccd516a7b80f200f65ec118398e75fbff9b3e8a26f2e383bee9439313abe5f"
+  },
+  "dependencyFiles": {
+    "design-systems/adobe-spectrum/components.html": [
+      "design-systems/adobe-spectrum/components.html"
+    ],
+    "design-systems/agentic/components.html": [
+      "design-systems/agentic/components.html"
+    ],
+    "design-systems/airbnb/components.html": [
+      "design-systems/airbnb/components.html"
+    ],
+    "design-systems/airtable/components.html": [
+      "design-systems/airtable/components.html"
+    ],
+    "design-systems/ant/components.html": [
+      "design-systems/ant/components.html"
+    ],
+    "design-systems/apple/components.html": [
+      "design-systems/apple/components.html"
+    ],
+    "design-systems/application/components.html": [
+      "design-systems/application/components.html"
+    ],
+    "design-systems/arc/components.html": [
+      "design-systems/arc/components.html"
+    ],
+    "design-systems/artistic/components.html": [
+      "design-systems/artistic/components.html"
+    ],
+    "design-systems/atelier-zero/components.html": [
+      "design-systems/atelier-zero/components.html"
+    ],
+    "design-systems/atlassian-design-system/components.html": [
+      "design-systems/atlassian-design-system/components.html"
+    ],
+    "design-systems/aws-cloudscape/components.html": [
+      "design-systems/aws-cloudscape/components.html"
+    ],
+    "design-systems/backstage-design-system/components.html": [
+      "design-systems/backstage-design-system/components.html"
+    ],
+    "design-systems/bento/components.html": [
+      "design-systems/bento/components.html"
+    ],
+    "design-systems/binance/components.html": [
+      "design-systems/binance/components.html"
+    ],
+    "design-systems/bmw-m/components.html": [
+      "design-systems/bmw-m/components.html"
+    ],
+    "design-systems/bmw/components.html": [
+      "design-systems/bmw/components.html"
+    ],
+    "design-systems/bold/components.html": [
+      "design-systems/bold/components.html"
+    ],
+    "design-systems/brutalism/components.html": [
+      "design-systems/brutalism/components.html"
+    ],
+    "design-systems/bugatti/components.html": [
+      "design-systems/bugatti/components.html"
+    ],
+    "design-systems/cafe/components.html": [
+      "design-systems/cafe/components.html"
+    ],
+    "design-systems/cal/components.html": [
+      "design-systems/cal/components.html"
+    ],
+    "design-systems/canva/components.html": [
+      "design-systems/canva/components.html"
+    ],
+    "design-systems/cisco/components.html": [
+      "design-systems/cisco/components.html"
+    ],
+    "design-systems/clarity-design-system/components.html": [
+      "design-systems/clarity-design-system/components.html"
+    ],
+    "design-systems/claude/components.html": [
+      "design-systems/claude/components.html"
+    ],
+    "design-systems/clay/components.html": [
+      "design-systems/clay/components.html"
+    ],
+    "design-systems/claymorphism/components.html": [
+      "design-systems/claymorphism/components.html"
+    ],
+    "design-systems/clean/components.html": [
+      "design-systems/clean/components.html"
+    ],
+    "design-systems/clickhouse/components.html": [
+      "design-systems/clickhouse/components.html"
+    ],
+    "design-systems/codex-app/components.html": [
+      "design-systems/codex-app/components.html"
+    ],
+    "design-systems/cohere/components.html": [
+      "design-systems/cohere/components.html"
+    ],
+    "design-systems/coinbase/components.html": [
+      "design-systems/coinbase/components.html"
+    ],
+    "design-systems/colorful/components.html": [
+      "design-systems/colorful/components.html"
+    ],
+    "design-systems/composio/components.html": [
+      "design-systems/composio/components.html"
+    ],
+    "design-systems/contemporary/components.html": [
+      "design-systems/contemporary/components.html"
+    ],
+    "design-systems/corporate/components.html": [
+      "design-systems/corporate/components.html"
+    ],
+    "design-systems/cosmic/components.html": [
+      "design-systems/cosmic/components.html"
+    ],
+    "design-systems/creative/components.html": [
+      "design-systems/creative/components.html"
+    ],
+    "design-systems/cursor/components.html": [
+      "design-systems/cursor/components.html"
+    ],
+    "design-systems/dashboard/components.html": [
+      "design-systems/dashboard/components.html"
+    ],
+    "design-systems/default/components.html": [
+      "design-systems/default/components.html"
+    ],
+    "design-systems/discord/components.html": [
+      "design-systems/discord/components.html"
+    ],
+    "design-systems/dithered/components.html": [
+      "design-systems/dithered/components.html"
+    ],
+    "design-systems/doodle/components.html": [
+      "design-systems/doodle/components.html"
+    ],
+    "design-systems/dramatic/components.html": [
+      "design-systems/dramatic/components.html"
+    ],
+    "design-systems/duolingo/components.html": [
+      "design-systems/duolingo/components.html"
+    ],
+    "design-systems/editorial/components.html": [
+      "design-systems/editorial/components.html"
+    ],
+    "design-systems/elastic-ui/components.html": [
+      "design-systems/elastic-ui/components.html"
+    ],
+    "design-systems/elegant/components.html": [
+      "design-systems/elegant/components.html"
+    ],
+    "design-systems/elevenlabs/components.html": [
+      "design-systems/elevenlabs/components.html"
+    ],
+    "design-systems/energetic/components.html": [
+      "design-systems/energetic/components.html"
+    ],
+    "design-systems/enterprise/components.html": [
+      "design-systems/enterprise/components.html"
+    ],
+    "design-systems/expo/components.html": [
+      "design-systems/expo/components.html"
+    ],
+    "design-systems/expressive/components.html": [
+      "design-systems/expressive/components.html"
+    ],
+    "design-systems/fantasy/components.html": [
+      "design-systems/fantasy/components.html"
+    ],
+    "design-systems/ferrari/components.html": [
+      "design-systems/ferrari/components.html"
+    ],
+    "design-systems/figma/components.html": [
+      "design-systems/figma/components.html"
+    ],
+    "design-systems/flat/components.html": [
+      "design-systems/flat/components.html"
+    ],
+    "design-systems/fluent-2/components.html": [
+      "design-systems/fluent-2/components.html"
+    ],
+    "design-systems/framer/components.html": [
+      "design-systems/framer/components.html"
+    ],
+    "design-systems/friendly/components.html": [
+      "design-systems/friendly/components.html"
+    ],
+    "design-systems/futuristic/components.html": [
+      "design-systems/futuristic/components.html"
+    ],
+    "design-systems/github/components.html": [
+      "design-systems/github/components.html"
+    ],
+    "design-systems/gitlab-pajamas/components.html": [
+      "design-systems/gitlab-pajamas/components.html"
+    ],
+    "design-systems/glassmorphism/components.html": [
+      "design-systems/glassmorphism/components.html"
+    ],
+    "design-systems/govuk-design-system/components.html": [
+      "design-systems/govuk-design-system/components.html"
+    ],
+    "design-systems/gradient/components.html": [
+      "design-systems/gradient/components.html"
+    ],
+    "design-systems/hashicorp/components.html": [
+      "design-systems/hashicorp/components.html"
+    ],
+    "design-systems/hud/components.html": [
+      "design-systems/hud/components.html"
+    ],
+    "design-systems/huggingface/components.html": [
+      "design-systems/huggingface/components.html"
+    ],
+    "design-systems/ibm/components.html": [
+      "design-systems/ibm/components.html"
+    ],
+    "design-systems/intercom/components.html": [
+      "design-systems/intercom/components.html"
+    ],
+    "design-systems/kami/components.html": [
+      "design-systems/kami/components.html"
+    ],
+    "design-systems/kraken/components.html": [
+      "design-systems/kraken/components.html"
+    ],
+    "design-systems/lamborghini/components.html": [
+      "design-systems/lamborghini/components.html"
+    ],
+    "design-systems/levels/components.html": [
+      "design-systems/levels/components.html"
+    ],
+    "design-systems/linear-app/components.html": [
+      "design-systems/linear-app/components.html"
+    ],
+    "design-systems/lingo/components.html": [
+      "design-systems/lingo/components.html"
+    ],
+    "design-systems/loom/components.html": [
+      "design-systems/loom/components.html"
+    ],
+    "design-systems/lovable/components.html": [
+      "design-systems/lovable/components.html"
+    ],
+    "design-systems/luxury/components.html": [
+      "design-systems/luxury/components.html"
+    ],
+    "design-systems/mastercard/components.html": [
+      "design-systems/mastercard/components.html"
+    ],
+    "design-systems/material/components.html": [
+      "design-systems/material/components.html"
+    ],
+    "design-systems/meta/components.html": [
+      "design-systems/meta/components.html"
+    ],
+    "design-systems/mimo-code/components.html": [
+      "design-systems/mimo-code/components.html"
+    ],
+    "design-systems/minimal/components.html": [
+      "design-systems/minimal/components.html"
+    ],
+    "design-systems/minimax/components.html": [
+      "design-systems/minimax/components.html"
+    ],
+    "design-systems/mintlify/components.html": [
+      "design-systems/mintlify/components.html"
+    ],
+    "design-systems/miro/components.html": [
+      "design-systems/miro/components.html"
+    ],
+    "design-systems/mission-control/components.html": [
+      "design-systems/mission-control/components.html"
+    ],
+    "design-systems/mistral-ai/components.html": [
+      "design-systems/mistral-ai/components.html"
+    ],
+    "design-systems/modern/components.html": [
+      "design-systems/modern/components.html"
+    ],
+    "design-systems/mongodb/components.html": [
+      "design-systems/mongodb/components.html"
+    ],
+    "design-systems/mono/components.html": [
+      "design-systems/mono/components.html"
+    ],
+    "design-systems/mozilla-protocol/components.html": [
+      "design-systems/mozilla-protocol/components.html"
+    ],
+    "design-systems/neobrutalism/components.html": [
+      "design-systems/neobrutalism/components.html"
+    ],
+    "design-systems/neon/components.html": [
+      "design-systems/neon/components.html"
+    ],
+    "design-systems/neumorphism/components.html": [
+      "design-systems/neumorphism/components.html"
+    ],
+    "design-systems/nhs-design-system/components.html": [
+      "design-systems/nhs-design-system/components.html"
+    ],
+    "design-systems/nike/components.html": [
+      "design-systems/nike/components.html"
+    ],
+    "design-systems/notion/components.html": [
+      "design-systems/notion/components.html"
+    ],
+    "design-systems/nvidia/components.html": [
+      "design-systems/nvidia/components.html"
+    ],
+    "design-systems/ollama/components.html": [
+      "design-systems/ollama/components.html"
+    ],
+    "design-systems/openai/components.html": [
+      "design-systems/openai/components.html"
+    ],
+    "design-systems/opencode-ai/components.html": [
+      "design-systems/opencode-ai/components.html"
+    ],
+    "design-systems/pacman/components.html": [
+      "design-systems/pacman/components.html"
+    ],
+    "design-systems/palantir-blueprint/components.html": [
+      "design-systems/palantir-blueprint/components.html"
+    ],
+    "design-systems/paper/components.html": [
+      "design-systems/paper/components.html"
+    ],
+    "design-systems/perplexity/components.html": [
+      "design-systems/perplexity/components.html"
+    ],
+    "design-systems/perspective/components.html": [
+      "design-systems/perspective/components.html"
+    ],
+    "design-systems/pinterest-gestalt/components.html": [
+      "design-systems/pinterest-gestalt/components.html"
+    ],
+    "design-systems/pinterest/components.html": [
+      "design-systems/pinterest/components.html"
+    ],
+    "design-systems/playstation/components.html": [
+      "design-systems/playstation/components.html"
+    ],
+    "design-systems/posthog/components.html": [
+      "design-systems/posthog/components.html"
+    ],
+    "design-systems/premium/components.html": [
+      "design-systems/premium/components.html"
+    ],
+    "design-systems/professional/components.html": [
+      "design-systems/professional/components.html"
+    ],
+    "design-systems/publication/components.html": [
+      "design-systems/publication/components.html"
+    ],
+    "design-systems/raycast/components.html": [
+      "design-systems/raycast/components.html"
+    ],
+    "design-systems/refined/components.html": [
+      "design-systems/refined/components.html"
+    ],
+    "design-systems/renault/components.html": [
+      "design-systems/renault/components.html"
+    ],
+    "design-systems/replicate/components.html": [
+      "design-systems/replicate/components.html"
+    ],
+    "design-systems/resend/components.html": [
+      "design-systems/resend/components.html"
+    ],
+    "design-systems/retro/components.html": [
+      "design-systems/retro/components.html"
+    ],
+    "design-systems/revolut/components.html": [
+      "design-systems/revolut/components.html"
+    ],
+    "design-systems/runwayml/components.html": [
+      "design-systems/runwayml/components.html"
+    ],
+    "design-systems/salesforce-lightning/components.html": [
+      "design-systems/salesforce-lightning/components.html"
+    ],
+    "design-systems/sanity/components.html": [
+      "design-systems/sanity/components.html"
+    ],
+    "design-systems/sap-fiori/components.html": [
+      "design-systems/sap-fiori/components.html"
+    ],
+    "design-systems/sentry/components.html": [
+      "design-systems/sentry/components.html"
+    ],
+    "design-systems/servicenow-horizon/components.html": [
+      "design-systems/servicenow-horizon/components.html"
+    ],
+    "design-systems/shadcn/components.html": [
+      "design-systems/shadcn/components.html"
+    ],
+    "design-systems/shopify/components.html": [
+      "design-systems/shopify/components.html"
+    ],
+    "design-systems/simple/components.html": [
+      "design-systems/simple/components.html"
+    ],
+    "design-systems/skeumorphism/components.html": [
+      "design-systems/skeumorphism/components.html"
+    ],
+    "design-systems/slack/components.html": [
+      "design-systems/slack/components.html"
+    ],
+    "design-systems/sleek/components.html": [
+      "design-systems/sleek/components.html"
+    ],
+    "design-systems/spacex/components.html": [
+      "design-systems/spacex/components.html"
+    ],
+    "design-systems/spacious/components.html": [
+      "design-systems/spacious/components.html"
+    ],
+    "design-systems/spotify/components.html": [
+      "design-systems/spotify/components.html"
+    ],
+    "design-systems/starbucks/components.html": [
+      "design-systems/starbucks/components.html"
+    ],
+    "design-systems/storytelling/components.html": [
+      "design-systems/storytelling/components.html"
+    ],
+    "design-systems/stripe/components.html": [
+      "design-systems/stripe/components.html"
+    ],
+    "design-systems/supabase/components.html": [
+      "design-systems/supabase/components.html"
+    ],
+    "design-systems/superhuman/components.html": [
+      "design-systems/superhuman/components.html"
+    ],
+    "design-systems/tesla/components.html": [
+      "design-systems/tesla/components.html"
+    ],
+    "design-systems/tetris/components.html": [
+      "design-systems/tetris/components.html"
+    ],
+    "design-systems/theverge/components.html": [
+      "design-systems/theverge/components.html"
+    ],
+    "design-systems/together-ai/components.html": [
+      "design-systems/together-ai/components.html"
+    ],
+    "design-systems/totality-festival/components.html": [
+      "design-systems/totality-festival/components.html"
+    ],
+    "design-systems/trading-terminal/components.html": [
+      "design-systems/trading-terminal/components.html"
+    ],
+    "design-systems/twilio-paste/components.html": [
+      "design-systems/twilio-paste/components.html"
+    ],
+    "design-systems/uber/components.html": [
+      "design-systems/uber/components.html"
+    ],
+    "design-systems/urdu/components.html": [
+      "design-systems/urdu/components.html"
+    ],
+    "design-systems/us-web-design-system/components.html": [
+      "design-systems/us-web-design-system/components.html"
+    ],
+    "design-systems/vercel/components.html": [
+      "design-systems/vercel/components.html"
+    ],
+    "design-systems/vibrant/components.html": [
+      "design-systems/vibrant/components.html"
+    ],
+    "design-systems/vintage/components.html": [
+      "design-systems/vintage/components.html"
+    ],
+    "design-systems/vodafone/components.html": [
+      "design-systems/vodafone/components.html"
+    ],
+    "design-systems/voltagent/components.html": [
+      "design-systems/voltagent/components.html"
+    ],
+    "design-systems/warm-editorial/components.html": [
+      "design-systems/warm-editorial/components.html"
+    ],
+    "design-systems/warp/components.html": [
+      "design-systems/warp/components.html"
+    ],
+    "design-systems/webex/components.html": [
+      "design-systems/webex/components.html"
+    ],
+    "design-systems/webflow/components.html": [
+      "design-systems/webflow/components.html"
+    ],
+    "design-systems/wechat/components.html": [
+      "design-systems/wechat/components.html"
+    ],
+    "design-systems/wired/components.html": [
+      "design-systems/wired/components.html"
+    ],
+    "design-systems/wise/components.html": [
+      "design-systems/wise/components.html"
+    ],
+    "design-systems/workday-canvas/components.html": [
+      "design-systems/workday-canvas/components.html"
+    ],
+    "design-systems/x-ai/components.html": [
+      "design-systems/x-ai/components.html"
+    ],
+    "design-systems/xiaohongshu/components.html": [
+      "design-systems/xiaohongshu/components.html"
+    ],
+    "design-systems/zapier/components.html": [
+      "design-systems/zapier/components.html"
+    ],
+    "design-systems/zendesk-garden/components.html": [
+      "design-systems/zendesk-garden/components.html"
+    ],
+    "design-templates/animated-svg-logo-draw/example.html": [
+      "design-templates/animated-svg-logo-draw/example.html"
+    ],
+    "design-templates/audio-jingle/example.html": [
+      "design-templates/audio-jingle/example.html"
+    ],
+    "design-templates/blog-post/example.html": [
+      "design-templates/blog-post/example.html"
+    ],
+    "design-templates/campaign-visual-projects/example.html": [
+      "design-templates/campaign-visual-projects/example.html"
+    ],
+    "design-templates/clinical-case-report/example.html": [
+      "design-templates/clinical-case-report/example.html"
+    ],
+    "design-templates/commercial-product-launches/example.html": [
+      "design-templates/commercial-product-launches/example.html"
+    ],
+    "design-templates/component-state-patterns/example.html": [
+      "design-templates/component-state-patterns/example.html"
+    ],
+    "design-templates/contact-widget/example.html": [
+      "design-templates/contact-widget/example.html"
+    ],
+    "design-templates/critique/example.html": [
+      "design-templates/critique/example.html"
+    ],
+    "design-templates/dashboard/example.html": [
+      "design-templates/dashboard/example.html"
+    ],
+    "design-templates/data-visualization-projects/example.html": [
+      "design-templates/data-visualization-projects/example.html"
+    ],
+    "design-templates/dating-web/example.html": [
+      "design-templates/dating-web/example.html"
+    ],
+    "design-templates/dcf-valuation/example.html": [
+      "design-templates/dcf-valuation/example.html"
+    ],
+    "design-templates/digital-eguide/example.html": [
+      "design-templates/digital-eguide/example.html"
+    ],
+    "design-templates/docs-page/example.html": [
+      "design-templates/docs-page/example.html"
+    ],
+    "design-templates/editorial-magazine-projects/example.html": [
+      "design-templates/editorial-magazine-projects/example.html"
+    ],
+    "design-templates/email-marketing/example.html": [
+      "design-templates/email-marketing/example.html"
+    ],
+    "design-templates/eng-runbook/example.html": [
+      "design-templates/eng-runbook/example.html"
+    ],
+    "design-templates/finance-report/example.html": [
+      "design-templates/finance-report/example.html"
+    ],
+    "design-templates/flowai-live-dashboard-template/example.html": [
+      "design-templates/flowai-live-dashboard-template/assets/a.href",
+      "design-templates/flowai-live-dashboard-template/assets/blob",
+      "design-templates/flowai-live-dashboard-template/assets/template.html",
+      "design-templates/flowai-live-dashboard-template/example.html"
+    ],
+    "design-templates/gamified-app/example.html": [
+      "design-templates/gamified-app/example.html"
+    ],
+    "design-templates/github-dashboard/example.html": [
+      "design-templates/github-dashboard/example.html"
+    ],
+    "design-templates/guizang-ppt/example.html": [
+      "design-templates/guizang-ppt/example.html"
+    ],
+    "design-templates/hr-onboarding/example.html": [
+      "design-templates/hr-onboarding/example.html"
+    ],
+    "design-templates/html-ppt-course-module/example.html": [
+      "design-templates/html-ppt-course-module/example.html"
+    ],
+    "design-templates/html-ppt-dir-key-nav-minimal/example.html": [
+      "design-templates/html-ppt-dir-key-nav-minimal/example.html"
+    ],
+    "design-templates/html-ppt-graphify-dark-graph/example.html": [
+      "design-templates/html-ppt-graphify-dark-graph/example.html"
+    ],
+    "design-templates/html-ppt-hermes-cyber-terminal/example.html": [
+      "design-templates/html-ppt-hermes-cyber-terminal/example.html"
+    ],
+    "design-templates/html-ppt-knowledge-arch-blueprint/example.html": [
+      "design-templates/html-ppt-knowledge-arch-blueprint/example.html"
+    ],
+    "design-templates/html-ppt-obsidian-claude-gradient/example.html": [
+      "design-templates/html-ppt-obsidian-claude-gradient/example.html"
+    ],
+    "design-templates/html-ppt-pitch-deck/example.html": [
+      "design-templates/html-ppt-pitch-deck/example.html"
+    ],
+    "design-templates/html-ppt-presenter-mode-reveal/example.html": [
+      "design-templates/html-ppt-presenter-mode-reveal/example.html"
+    ],
+    "design-templates/html-ppt-product-launch/example.html": [
+      "design-templates/html-ppt-product-launch/example.html"
+    ],
+    "design-templates/html-ppt-taste-brutalist/example.html": [
+      "design-templates/html-ppt-taste-brutalist/example.html"
+    ],
+    "design-templates/html-ppt-taste-editorial/example.html": [
+      "design-templates/html-ppt-taste-editorial/example.html"
+    ],
+    "design-templates/html-ppt-tech-sharing/example.html": [
+      "design-templates/html-ppt-tech-sharing/example.html"
+    ],
+    "design-templates/html-ppt-testing-safety-alert/example.html": [
+      "design-templates/html-ppt-testing-safety-alert/example.html"
+    ],
+    "design-templates/html-ppt-weekly-report/example.html": [
+      "design-templates/html-ppt-weekly-report/example.html"
+    ],
+    "design-templates/html-ppt-xhs-pastel-card/example.html": [
+      "design-templates/html-ppt-xhs-pastel-card/example.html"
+    ],
+    "design-templates/html-ppt-xhs-post/example.html": [
+      "design-templates/html-ppt-xhs-post/example.html"
+    ],
+    "design-templates/html-ppt-xhs-white-editorial/example.html": [
+      "design-templates/html-ppt-xhs-white-editorial/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-8-bit-orbit/example.html": [
+      "design-templates/html-ppt-zhangzara-8-bit-orbit/#n",
+      "design-templates/html-ppt-zhangzara-8-bit-orbit/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-biennale-yellow/example.html": [
+      "design-templates/html-ppt-zhangzara-biennale-yellow/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-block-frame/example.html": [
+      "design-templates/html-ppt-zhangzara-block-frame/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-blue-professional/example.html": [
+      "design-templates/html-ppt-zhangzara-blue-professional/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-bold-poster/example.html": [
+      "design-templates/html-ppt-zhangzara-bold-poster/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-broadside/example.html": [
+      "design-templates/html-ppt-zhangzara-broadside/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-capsule/example.html": [
+      "design-templates/html-ppt-zhangzara-capsule/#n",
+      "design-templates/html-ppt-zhangzara-capsule/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-cartesian/example.html": [
+      "design-templates/html-ppt-zhangzara-cartesian/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-cobalt-grid/example.html": [
+      "design-templates/html-ppt-zhangzara-cobalt-grid/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-coral/example.html": [
+      "design-templates/html-ppt-zhangzara-coral/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-creative-mode/example.html": [
+      "design-templates/html-ppt-zhangzara-creative-mode/assets/deck-stage.js",
+      "design-templates/html-ppt-zhangzara-creative-mode/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-daisy-days/example.html": [
+      "design-templates/html-ppt-zhangzara-daisy-days/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-editorial-tri-tone/example.html": [
+      "design-templates/html-ppt-zhangzara-editorial-tri-tone/assets/deck-stage.js",
+      "design-templates/html-ppt-zhangzara-editorial-tri-tone/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-grove/example.html": [
+      "design-templates/html-ppt-zhangzara-grove/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-long-table/example.html": [
+      "design-templates/html-ppt-zhangzara-long-table/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-mat/example.html": [
+      "design-templates/html-ppt-zhangzara-mat/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-monochrome/example.html": [
+      "design-templates/html-ppt-zhangzara-monochrome/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-neo-grid-bold/example.html": [
+      "design-templates/html-ppt-zhangzara-neo-grid-bold/assets/deck-stage.js",
+      "design-templates/html-ppt-zhangzara-neo-grid-bold/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-peoples-platform/example.html": [
+      "design-templates/html-ppt-zhangzara-peoples-platform/assets/deck-stage.js",
+      "design-templates/html-ppt-zhangzara-peoples-platform/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-pin-and-paper/example.html": [
+      "design-templates/html-ppt-zhangzara-pin-and-paper/assets/#n",
+      "design-templates/html-ppt-zhangzara-pin-and-paper/assets/deck-stage.js",
+      "design-templates/html-ppt-zhangzara-pin-and-paper/assets/styles.css",
+      "design-templates/html-ppt-zhangzara-pin-and-paper/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-pink-script/example.html": [
+      "design-templates/html-ppt-zhangzara-pink-script/#n",
+      "design-templates/html-ppt-zhangzara-pink-script/assets/deck-stage.js",
+      "design-templates/html-ppt-zhangzara-pink-script/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-playful/example.html": [
+      "design-templates/html-ppt-zhangzara-playful/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-raw-grid/example.html": [
+      "design-templates/html-ppt-zhangzara-raw-grid/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-retro-windows/example.html": [
+      "design-templates/html-ppt-zhangzara-retro-windows/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-retro-zine/example.html": [
+      "design-templates/html-ppt-zhangzara-retro-zine/#n",
+      "design-templates/html-ppt-zhangzara-retro-zine/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-sakura-chroma/example.html": [
+      "design-templates/html-ppt-zhangzara-sakura-chroma/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-scatterbrain/example.html": [
+      "design-templates/html-ppt-zhangzara-scatterbrain/#noise",
+      "design-templates/html-ppt-zhangzara-scatterbrain/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-signal/example.html": [
+      "design-templates/html-ppt-zhangzara-signal/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-soft-editorial/example.html": [
+      "design-templates/html-ppt-zhangzara-soft-editorial/assets/deck-stage.js",
+      "design-templates/html-ppt-zhangzara-soft-editorial/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-stencil-tablet/example.html": [
+      "design-templates/html-ppt-zhangzara-stencil-tablet/assets/deck-stage.js",
+      "design-templates/html-ppt-zhangzara-stencil-tablet/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-studio/example.html": [
+      "design-templates/html-ppt-zhangzara-studio/example.html"
+    ],
+    "design-templates/html-ppt-zhangzara-vellum/example.html": [
+      "design-templates/html-ppt-zhangzara-vellum/example.html"
+    ],
+    "design-templates/html-ppt/example.html": [
+      "design-templates/html-ppt/example.html"
+    ],
+    "design-templates/hyperframes/example.html": [
+      "design-templates/hyperframes/example.html"
+    ],
+    "design-templates/ib-pitch-book/example.html": [
+      "design-templates/ib-pitch-book/example.html"
+    ],
+    "design-templates/image-poster/example.html": [
+      "design-templates/image-poster/example.html"
+    ],
+    "design-templates/invoice/example.html": [
+      "design-templates/invoice/example.html"
+    ],
+    "design-templates/kami-deck/example.html": [
+      "design-templates/kami-deck/example.html"
+    ],
+    "design-templates/kami-landing/example.html": [
+      "design-templates/kami-landing/example.html"
+    ],
+    "design-templates/kanban-board/example.html": [
+      "design-templates/kanban-board/example.html"
+    ],
+    "design-templates/last30days/example.html": [
+      "design-templates/last30days/example.html"
+    ],
+    "design-templates/live-artifact/examples/baby-health-live.html": [
+      "design-templates/live-artifact/examples/baby-health-live.html"
+    ],
+    "design-templates/live-dashboard/example.html": [
+      "design-templates/live-dashboard/example.html"
+    ],
+    "design-templates/magazine-poster/example.html": [
+      "design-templates/magazine-poster/example.html"
+    ],
+    "design-templates/meeting-notes/example.html": [
+      "design-templates/meeting-notes/example.html"
+    ],
+    "design-templates/mobile-app-flow-projects/example.html": [
+      "design-templates/mobile-app-flow-projects/example.html"
+    ],
+    "design-templates/mobile-app/example.html": [
+      "design-templates/mobile-app/example.html"
+    ],
+    "design-templates/mobile-onboarding/example.html": [
+      "design-templates/mobile-onboarding/example.html"
+    ],
+    "design-templates/motion-frames/example.html": [
+      "design-templates/motion-frames/example.html"
+    ],
+    "design-templates/motion-interaction-projects/example.html": [
+      "design-templates/motion-interaction-projects/example.html"
+    ],
+    "design-templates/open-design-landing-deck/example.html": [
+      "design-templates/open-design-landing-deck/#n",
+      "design-templates/open-design-landing-deck/#n2",
+      "design-templates/open-design-landing-deck/example.html",
+      "design-templates/open-design-landing/assets/about.png",
+      "design-templates/open-design-landing/assets/capabilities.png",
+      "design-templates/open-design-landing/assets/hero.png",
+      "design-templates/open-design-landing/assets/method-1.png",
+      "design-templates/open-design-landing/assets/testimonial.png",
+      "design-templates/open-design-landing/assets/work-1.png"
+    ],
+    "design-templates/open-design-landing/example.html": [
+      "design-templates/open-design-landing/#n",
+      "design-templates/open-design-landing/#n2",
+      "design-templates/open-design-landing/assets/about.png",
+      "design-templates/open-design-landing/assets/agents/anthropic.svg",
+      "design-templates/open-design-landing/assets/agents/deepseek.svg",
+      "design-templates/open-design-landing/assets/agents/gemini.svg",
+      "design-templates/open-design-landing/assets/agents/minimax.svg",
+      "design-templates/open-design-landing/assets/agents/moonshot.svg",
+      "design-templates/open-design-landing/assets/agents/openai.svg",
+      "design-templates/open-design-landing/assets/agents/qwen.svg",
+      "design-templates/open-design-landing/assets/agents/xai.svg",
+      "design-templates/open-design-landing/assets/agents/xiaomi.svg",
+      "design-templates/open-design-landing/assets/agents/zhipu.svg",
+      "design-templates/open-design-landing/assets/capabilities.png",
+      "design-templates/open-design-landing/assets/cta.png",
+      "design-templates/open-design-landing/assets/hero.png",
+      "design-templates/open-design-landing/assets/lab-1.png",
+      "design-templates/open-design-landing/assets/lab-2.png",
+      "design-templates/open-design-landing/assets/lab-3.png",
+      "design-templates/open-design-landing/assets/lab-4.png",
+      "design-templates/open-design-landing/assets/lab-5.png",
+      "design-templates/open-design-landing/assets/method-1.png",
+      "design-templates/open-design-landing/assets/method-2.png",
+      "design-templates/open-design-landing/assets/method-3.png",
+      "design-templates/open-design-landing/assets/method-4.png",
+      "design-templates/open-design-landing/assets/testimonial.png",
+      "design-templates/open-design-landing/assets/work-1.png",
+      "design-templates/open-design-landing/assets/work-2.png",
+      "design-templates/open-design-landing/example.html"
+    ],
+    "design-templates/orbit-general/example.html": [
+      "design-templates/orbit-general/example.html"
+    ],
+    "design-templates/orbit-github/example.html": [
+      "design-templates/orbit-github/example.html"
+    ],
+    "design-templates/orbit-gmail/example.html": [
+      "design-templates/orbit-gmail/example.html"
+    ],
+    "design-templates/orbit-linear/example.html": [
+      "design-templates/orbit-linear/example.html"
+    ],
+    "design-templates/orbit-notion/example.html": [
+      "design-templates/orbit-notion/example.html",
+      "design-templates/orbit-notion/span.textContent",
+      "design-templates/orbit-notion/title"
+    ],
+    "design-templates/personal-blog-projects/example.html": [
+      "design-templates/personal-blog-projects/example.html"
+    ],
+    "design-templates/pm-spec/example.html": [
+      "design-templates/pm-spec/example.html"
+    ],
+    "design-templates/poster-projects/example.html": [
+      "design-templates/poster-projects/example.html"
+    ],
+    "design-templates/pricing-page/example.html": [
+      "design-templates/pricing-page/example.html"
+    ],
+    "design-templates/product-ui-projects/example.html": [
+      "design-templates/product-ui-projects/example.html"
+    ],
+    "design-templates/replit-deck/examples/example-atlas.html": [
+      "design-templates/replit-deck/examples/example-atlas.html"
+    ],
+    "design-templates/resume-academic-cv-lite/example.html": [
+      "design-templates/resume-academic-cv-lite/example.html"
+    ],
+    "design-templates/resume-architect-sheet/example.html": [
+      "design-templates/resume-architect-sheet/example.html"
+    ],
+    "design-templates/resume-ats-clean/example.html": [
+      "design-templates/resume-ats-clean/example.html"
+    ],
+    "design-templates/resume-awesome-cv/example.html": [
+      "design-templates/resume-awesome-cv/example.html"
+    ],
+    "design-templates/resume-awwwards-scroll-story/example.html": [
+      "design-templates/resume-awwwards-scroll-story/example.html"
+    ],
+    "design-templates/resume-brutalist-grid/example.html": [
+      "design-templates/resume-brutalist-grid/example.html"
+    ],
+    "design-templates/resume-canva-editorial/example.html": [
+      "design-templates/resume-canva-editorial/example.html"
+    ],
+    "design-templates/resume-cn-bilingual-ats/example.html": [
+      "design-templates/resume-cn-bilingual-ats/example.html"
+    ],
+    "design-templates/resume-cn-campus-intern/example.html": [
+      "design-templates/resume-cn-campus-intern/example.html"
+    ],
+    "design-templates/resume-cn-editorial-bilingual/example.html": [
+      "design-templates/resume-cn-editorial-bilingual/example.html"
+    ],
+    "design-templates/resume-cn-markdown-minimal/example.html": [
+      "design-templates/resume-cn-markdown-minimal/example.html"
+    ],
+    "design-templates/resume-cn-photo-sidebar/example.html": [
+      "design-templates/resume-cn-photo-sidebar/example.html"
+    ],
+    "design-templates/resume-cn-social-recruit/example.html": [
+      "design-templates/resume-cn-social-recruit/example.html"
+    ],
+    "design-templates/resume-creative-studio/example.html": [
+      "design-templates/resume-creative-studio/example.html"
+    ],
+    "design-templates/resume-developer-mono/example.html": [
+      "design-templates/resume-developer-mono/example.html"
+    ],
+    "design-templates/resume-editorial-magazine-spread/example.html": [
+      "design-templates/resume-editorial-magazine-spread/example.html"
+    ],
+    "design-templates/resume-enhancv-impact/example.html": [
+      "design-templates/resume-enhancv-impact/example.html"
+    ],
+    "design-templates/resume-executive-slate/example.html": [
+      "design-templates/resume-executive-slate/example.html"
+    ],
+    "design-templates/resume-fashion-lookbook/example.html": [
+      "design-templates/resume-fashion-lookbook/example.html"
+    ],
+    "design-templates/resume-flowcv-structured/example.html": [
+      "design-templates/resume-flowcv-structured/example.html"
+    ],
+    "design-templates/resume-founder-onepager/example.html": [
+      "design-templates/resume-founder-onepager/example.html"
+    ],
+    "design-templates/resume-infographic-map/example.html": [
+      "design-templates/resume-infographic-map/example.html"
+    ],
+    "design-templates/resume-json-flat/example.html": [
+      "design-templates/resume-json-flat/example.html"
+    ],
+    "design-templates/resume-kickresume-typographic/example.html": [
+      "design-templates/resume-kickresume-typographic/example.html"
+    ],
+    "design-templates/resume-markdown-compact/example.html": [
+      "design-templates/resume-markdown-compact/example.html"
+    ],
+    "design-templates/resume-motion-reel-cv/example.html": [
+      "design-templates/resume-motion-reel-cv/example.html"
+    ],
+    "design-templates/resume-neo-brutalist-lime/example.html": [
+      "design-templates/resume-neo-brutalist-lime/example.html"
+    ],
+    "design-templates/resume-novoresume-one-page/example.html": [
+      "design-templates/resume-novoresume-one-page/example.html"
+    ],
+    "design-templates/resume-portfolio-casebook/example.html": [
+      "design-templates/resume-portfolio-casebook/example.html"
+    ],
+    "design-templates/resume-product-designer-case-study/example.html": [
+      "design-templates/resume-product-designer-case-study/example.html"
+    ],
+    "design-templates/resume-reactive-classic/example.html": [
+      "design-templates/resume-reactive-classic/example.html"
+    ],
+    "design-templates/resume-readcv-web-minimal/example.html": [
+      "design-templates/resume-readcv-web-minimal/example.html"
+    ],
+    "design-templates/resume-trifold-brochure/example.html": [
+      "design-templates/resume-trifold-brochure/example.html"
+    ],
+    "design-templates/resume-two-column-deedy/example.html": [
+      "design-templates/resume-two-column-deedy/example.html"
+    ],
+    "design-templates/resume-typographic-poster/example.html": [
+      "design-templates/resume-typographic-poster/example.html"
+    ],
+    "design-templates/resume-zine-collage/example.html": [
+      "design-templates/resume-zine-collage/example.html"
+    ],
+    "design-templates/saas-landing/example.html": [
+      "design-templates/saas-landing/example.html"
+    ],
+    "design-templates/scroll-progress-nav/example.html": [
+      "design-templates/scroll-progress-nav/example.html"
+    ],
+    "design-templates/simple-deck/example.html": [
+      "design-templates/simple-deck/example.html"
+    ],
+    "design-templates/social-carousel/example.html": [
+      "design-templates/social-carousel/example.html"
+    ],
+    "design-templates/social-media-dashboard/example.html": [
+      "design-templates/social-media-dashboard/${contributor.avatar}",
+      "design-templates/social-media-dashboard/example.html"
+    ],
+    "design-templates/social-media-matrix-tracker-template/example.html": [
+      "design-templates/social-media-matrix-tracker-template/example.html"
+    ],
+    "design-templates/sprite-animation/example.html": [
+      "design-templates/sprite-animation/example.html"
+    ],
+    "design-templates/team-okrs/example.html": [
+      "design-templates/team-okrs/example.html"
+    ],
+    "design-templates/trading-analysis-dashboard-template/example.html": [
+      "design-templates/trading-analysis-dashboard-template/assets/template.html",
+      "design-templates/trading-analysis-dashboard-template/example.html"
+    ],
+    "design-templates/tweaks/example.html": [
+      "design-templates/tweaks/example.html"
+    ],
+    "design-templates/video-shortform/example.html": [
+      "design-templates/video-shortform/example.html"
+    ],
+    "design-templates/waitlist-page/example.html": [
+      "design-templates/waitlist-page/example.html"
+    ],
+    "design-templates/web-prototype-taste-brutalist/example.html": [
+      "design-templates/web-prototype-taste-brutalist/example.html"
+    ],
+    "design-templates/web-prototype-taste-editorial/example.html": [
+      "design-templates/web-prototype-taste-editorial/example.html"
+    ],
+    "design-templates/web-prototype-taste-soft/example.html": [
+      "design-templates/web-prototype-taste-soft/example.html"
+    ],
+    "design-templates/web-prototype/example.html": [
+      "design-templates/web-prototype/example.html"
+    ],
+    "design-templates/weekly-update/example.html": [
+      "design-templates/weekly-update/example.html"
+    ],
+    "design-templates/wireframe-sketch/example.html": [
+      "design-templates/wireframe-sketch/example.html"
+    ],
+    "design-templates/x-research/example.html": [
+      "design-templates/x-research/example.html"
+    ]
+  },
+  "thumbnails": {
+    "design-systems/adobe-spectrum/components.html": "catalog/thumbnails/b1a34a26b2dab3c4-a49398539cb8.webp",
+    "design-systems/agentic/components.html": "catalog/thumbnails/0588f06be2468ce4-3b0c4cf693fd.webp",
+    "design-systems/airbnb/components.html": "catalog/thumbnails/addd4f5149034461-bc84dc2cb569.webp",
+    "design-systems/airtable/components.html": "catalog/thumbnails/bbefdd573fb7a926-b7aa028782ef.webp",
+    "design-systems/ant/components.html": "catalog/thumbnails/0a7f94ac9c843a04-77c160b691f9.webp",
+    "design-systems/apple/components.html": "catalog/thumbnails/8ed42214b1be0e97-9cd6f8541d89.webp",
+    "design-systems/application/components.html": "catalog/thumbnails/2978652f21f215db-1ca3d6a1cdf0.webp",
+    "design-systems/arc/components.html": "catalog/thumbnails/c303eb5b881d37be-087ee74f4c51.webp",
+    "design-systems/artistic/components.html": "catalog/thumbnails/285ef53d6805e21a-b1bb68904d3d.webp",
+    "design-systems/atelier-zero/components.html": "catalog/thumbnails/adf776f2f1111375-e9776511f163.webp",
+    "design-systems/atlassian-design-system/components.html": "catalog/thumbnails/9c976ddc3efa3184-3a51b4698f0f.webp",
+    "design-systems/aws-cloudscape/components.html": "catalog/thumbnails/f87c6b49b884594b-2c1b3dc8b8cf.webp",
+    "design-systems/backstage-design-system/components.html": "catalog/thumbnails/2579d75d3110c1b1-aa4871ce1c68.webp",
+    "design-systems/bento/components.html": "catalog/thumbnails/343df999466637a2-bc4ee69b0d1a.webp",
+    "design-systems/binance/components.html": "catalog/thumbnails/b0b79a2952892d5c-081e1279c88f.webp",
+    "design-systems/bmw-m/components.html": "catalog/thumbnails/360f1c4f38078313-abf846a42c76.webp",
+    "design-systems/bmw/components.html": "catalog/thumbnails/6568077cc588b7b1-d1d74e536d04.webp",
+    "design-systems/bold/components.html": "catalog/thumbnails/051b11dc25b516dc-4e6aa523d55e.webp",
+    "design-systems/brutalism/components.html": "catalog/thumbnails/1d46c30f09d2a1d2-68750106764a.webp",
+    "design-systems/bugatti/components.html": "catalog/thumbnails/c290b6ea3a03e9cf-41880238bfa9.webp",
+    "design-systems/cafe/components.html": "catalog/thumbnails/efc9fd7dbb8228da-9c9dae1669a6.webp",
+    "design-systems/cal/components.html": "catalog/thumbnails/48f4875dfc908364-2340f7dfd7fa.webp",
+    "design-systems/canva/components.html": "catalog/thumbnails/a53035673673e9e0-8d4e3176b4de.webp",
+    "design-systems/cisco/components.html": "catalog/thumbnails/4518571bb5a08b61-bcfe4400cc19.webp",
+    "design-systems/clarity-design-system/components.html": "catalog/thumbnails/4c6ccaff43f9731a-e64be5166245.webp",
+    "design-systems/claude/components.html": "catalog/thumbnails/77e988f45d42b9bb-b72cc77743e9.webp",
+    "design-systems/clay/components.html": "catalog/thumbnails/8afaf3b5ed1100aa-b9f36ecaf71c.webp",
+    "design-systems/claymorphism/components.html": "catalog/thumbnails/0dfa259d12ed4315-87e50e6bd6bf.webp",
+    "design-systems/clean/components.html": "catalog/thumbnails/e6a7a45d5a820653-585d7fef18a8.webp",
+    "design-systems/clickhouse/components.html": "catalog/thumbnails/125b5d1087e79236-467aa8923752.webp",
+    "design-systems/codex-app/components.html": "catalog/thumbnails/a91c79ea985a01f4-0abd1bf49823.webp",
+    "design-systems/cohere/components.html": "catalog/thumbnails/8b7e33104e9282f4-3e931dcf4a4f.webp",
+    "design-systems/coinbase/components.html": "catalog/thumbnails/d215d5b77b44b0e3-99d237ac7139.webp",
+    "design-systems/colorful/components.html": "catalog/thumbnails/4d80f2cfa58b2b90-a0ea755abc70.webp",
+    "design-systems/composio/components.html": "catalog/thumbnails/6b05583301b98718-658c37bac627.webp",
+    "design-systems/contemporary/components.html": "catalog/thumbnails/24eac2398bcbc76f-b2e911aa66d1.webp",
+    "design-systems/corporate/components.html": "catalog/thumbnails/f0b1bb1b886bb7d4-dc0ecb5f5e1c.webp",
+    "design-systems/cosmic/components.html": "catalog/thumbnails/1a81ed155fe21ccb-edf4b7bd334c.webp",
+    "design-systems/creative/components.html": "catalog/thumbnails/da5004bc842f0e96-336ca4058c10.webp",
+    "design-systems/cursor/components.html": "catalog/thumbnails/137d3c8ac9cddccf-194b63db5b21.webp",
+    "design-systems/dashboard/components.html": "catalog/thumbnails/dead930d29782921-5a05484004a2.webp",
+    "design-systems/default/components.html": "catalog/thumbnails/f94a83db322f21df-aa5a69d2e49d.webp",
+    "design-systems/discord/components.html": "catalog/thumbnails/7096d13b4e222a9e-4d4db5b376d8.webp",
+    "design-systems/dithered/components.html": "catalog/thumbnails/0a0d4eb36bf85fe5-758ac112e881.webp",
+    "design-systems/doodle/components.html": "catalog/thumbnails/cec5bcea22605c4c-4b84cf7dd3c4.webp",
+    "design-systems/dramatic/components.html": "catalog/thumbnails/cf8f079b9cb71571-7df40dc3ccfe.webp",
+    "design-systems/duolingo/components.html": "catalog/thumbnails/ce0555c23557001d-a27be97da5b3.webp",
+    "design-systems/editorial/components.html": "catalog/thumbnails/def3daf8c9599182-0d498cb27b85.webp",
+    "design-systems/elastic-ui/components.html": "catalog/thumbnails/9e62490cc1e41406-2548630a0a10.webp",
+    "design-systems/elegant/components.html": "catalog/thumbnails/209beb83166aec47-077f2130d550.webp",
+    "design-systems/elevenlabs/components.html": "catalog/thumbnails/dd7a22c88fedb54b-56eb243a9b05.webp",
+    "design-systems/energetic/components.html": "catalog/thumbnails/80367ea6ad51b946-fbfb6b78cc74.webp",
+    "design-systems/enterprise/components.html": "catalog/thumbnails/9f21938c0e4052df-534fa6dfaa32.webp",
+    "design-systems/expo/components.html": "catalog/thumbnails/36d1652ed47e07e5-037c8c3bf430.webp",
+    "design-systems/expressive/components.html": "catalog/thumbnails/487deb27c31f25e1-be7001bf83cf.webp",
+    "design-systems/fantasy/components.html": "catalog/thumbnails/b35e77ece42f6c2d-651dd78b248f.webp",
+    "design-systems/ferrari/components.html": "catalog/thumbnails/0ed69fb2cb500365-0d0069e0348b.webp",
+    "design-systems/figma/components.html": "catalog/thumbnails/7904f4b480245bf8-caac82cc9de2.webp",
+    "design-systems/flat/components.html": "catalog/thumbnails/0190abbf69e5ffb7-ce8449144260.webp",
+    "design-systems/fluent-2/components.html": "catalog/thumbnails/2816496765130d55-5f843a5a0ea1.webp",
+    "design-systems/framer/components.html": "catalog/thumbnails/0d335c77cb6cd7c4-e3d5ae5ad49e.webp",
+    "design-systems/friendly/components.html": "catalog/thumbnails/64da31bc07097cf0-ebf0de866781.webp",
+    "design-systems/futuristic/components.html": "catalog/thumbnails/2f9c539ef065f114-0b50957298ac.webp",
+    "design-systems/github/components.html": "catalog/thumbnails/c87f4468f7c0f7cb-bc0bff744310.webp",
+    "design-systems/gitlab-pajamas/components.html": "catalog/thumbnails/aca7ba6e56962e19-e1316a9934f3.webp",
+    "design-systems/glassmorphism/components.html": "catalog/thumbnails/5127d96f20d807d6-15374a35cbe9.webp",
+    "design-systems/govuk-design-system/components.html": "catalog/thumbnails/4d0a8423c535a9ed-a0aa21d78840.webp",
+    "design-systems/gradient/components.html": "catalog/thumbnails/ce9b7fa565bc69a6-4e1af5d1a352.webp",
+    "design-systems/hashicorp/components.html": "catalog/thumbnails/aaa271f02d67e7d4-c56e9c243b3a.webp",
+    "design-systems/hud/components.html": "catalog/thumbnails/66a696a8a898213c-58b3b8bc3fad.webp",
+    "design-systems/huggingface/components.html": "catalog/thumbnails/599067ecc5a92dfc-db1827e1b798.webp",
+    "design-systems/ibm/components.html": "catalog/thumbnails/aadb78d71dc0116b-08914e92fe5e.webp",
+    "design-systems/intercom/components.html": "catalog/thumbnails/4e876300827e9cfc-9414f4f94dc1.webp",
+    "design-systems/kami/components.html": "catalog/thumbnails/0572a7b03da42a73-f242a4e2104c.webp",
+    "design-systems/kraken/components.html": "catalog/thumbnails/99248b34505becd5-ca6fca4d34d0.webp",
+    "design-systems/lamborghini/components.html": "catalog/thumbnails/b46f978c7ce44aa1-4866c8b5c0bd.webp",
+    "design-systems/levels/components.html": "catalog/thumbnails/4c44ff1bc5649eaf-68f510df4e98.webp",
+    "design-systems/linear-app/components.html": "catalog/thumbnails/cdc0f589758b7c8a-7bfbb29152f4.webp",
+    "design-systems/lingo/components.html": "catalog/thumbnails/2111d1bd0e25a18c-91186909970e.webp",
+    "design-systems/loom/components.html": "catalog/thumbnails/1bc675cfac2a2587-074d7472626b.webp",
+    "design-systems/lovable/components.html": "catalog/thumbnails/77a7493390549b62-af3f1e34fdb4.webp",
+    "design-systems/luxury/components.html": "catalog/thumbnails/98f3f7ee8997ef7e-07cc20e987b2.webp",
+    "design-systems/mastercard/components.html": "catalog/thumbnails/1691082df968baf3-73d3d2cb2a6c.webp",
+    "design-systems/material/components.html": "catalog/thumbnails/f6128a154200c61a-c7423f19c5f4.webp",
+    "design-systems/meta/components.html": "catalog/thumbnails/8381a7cd1217be5f-f26645ce254d.webp",
+    "design-systems/mimo-code/components.html": "catalog/thumbnails/b3704fb12f7aef2d-25e4600d219f.webp",
+    "design-systems/minimal/components.html": "catalog/thumbnails/bc2bd21360b4b537-31e3a46f8935.webp",
+    "design-systems/minimax/components.html": "catalog/thumbnails/ef237f7ebe9be88e-3124f31ff294.webp",
+    "design-systems/mintlify/components.html": "catalog/thumbnails/439e3297cf7a3e85-b3fb665ab5b7.webp",
+    "design-systems/miro/components.html": "catalog/thumbnails/388ca8d24f320f7b-c632e0bb5900.webp",
+    "design-systems/mission-control/components.html": "catalog/thumbnails/aa6e0d0630b574eb-bb19b900da8d.webp",
+    "design-systems/mistral-ai/components.html": "catalog/thumbnails/1a47cbe60781a18f-d7742c5c504c.webp",
+    "design-systems/modern/components.html": "catalog/thumbnails/1c66e01a78c8a49a-cd12d772aeb3.webp",
+    "design-systems/mongodb/components.html": "catalog/thumbnails/41034828314ed95e-a9e0c39e370b.webp",
+    "design-systems/mono/components.html": "catalog/thumbnails/f937697975d95088-26485aab1841.webp",
+    "design-systems/mozilla-protocol/components.html": "catalog/thumbnails/babf38d774cdde0b-c016b580a024.webp",
+    "design-systems/neobrutalism/components.html": "catalog/thumbnails/83fa320d562db714-43d460698800.webp",
+    "design-systems/neon/components.html": "catalog/thumbnails/79bfdbe431166c37-fb07c8fcee36.webp",
+    "design-systems/neumorphism/components.html": "catalog/thumbnails/dfb1ddace3397705-722fc29200a0.webp",
+    "design-systems/nhs-design-system/components.html": "catalog/thumbnails/6434cc4c1e318fc4-44c6856f6fcd.webp",
+    "design-systems/nike/components.html": "catalog/thumbnails/9351a5ea3344949d-b04f20a6b2c8.webp",
+    "design-systems/notion/components.html": "catalog/thumbnails/398a271d3659d6d8-70ddd6d13771.webp",
+    "design-systems/nvidia/components.html": "catalog/thumbnails/15b065064752ffa0-1601b9d80cea.webp",
+    "design-systems/ollama/components.html": "catalog/thumbnails/851f5c87b6a15492-5b78c6034470.webp",
+    "design-systems/openai/components.html": "catalog/thumbnails/507c768b227a7660-3da4fea02125.webp",
+    "design-systems/opencode-ai/components.html": "catalog/thumbnails/b1916c575d1c1faa-9067f02318e0.webp",
+    "design-systems/pacman/components.html": "catalog/thumbnails/a48d12cb61afb1c9-4c8f880ce164.webp",
+    "design-systems/palantir-blueprint/components.html": "catalog/thumbnails/03210a02c0987103-71bb29397af6.webp",
+    "design-systems/paper/components.html": "catalog/thumbnails/a4f328d649e248ef-5c8a9b581387.webp",
+    "design-systems/perplexity/components.html": "catalog/thumbnails/46569d302ac9f1ca-92705f47bb3d.webp",
+    "design-systems/perspective/components.html": "catalog/thumbnails/47f305e837cc228d-9672692c6606.webp",
+    "design-systems/pinterest-gestalt/components.html": "catalog/thumbnails/99edcdf2bb500246-05f253b2791c.webp",
+    "design-systems/pinterest/components.html": "catalog/thumbnails/20fe3aecfea332c6-fca68c85a50e.webp",
+    "design-systems/playstation/components.html": "catalog/thumbnails/24e50b2018700e3f-5c6f86d253dc.webp",
+    "design-systems/posthog/components.html": "catalog/thumbnails/0c6972e8259dc9c5-23930dfa3a2a.webp",
+    "design-systems/premium/components.html": "catalog/thumbnails/65747cdb6fc029a7-97d7ff57b0d5.webp",
+    "design-systems/professional/components.html": "catalog/thumbnails/beffc3e370d2686a-51da5ae5f728.webp",
+    "design-systems/publication/components.html": "catalog/thumbnails/7ab48ad5ed6801c4-a3391a148576.webp",
+    "design-systems/raycast/components.html": "catalog/thumbnails/fec6cbf5a7dc7172-805f89239048.webp",
+    "design-systems/refined/components.html": "catalog/thumbnails/0b6f7fdc1a1f475f-63634a61a2f4.webp",
+    "design-systems/renault/components.html": "catalog/thumbnails/1f86e3808c52ffca-d0bdd87295e8.webp",
+    "design-systems/replicate/components.html": "catalog/thumbnails/bed8662da8ccf516-f042fbb9fe7c.webp",
+    "design-systems/resend/components.html": "catalog/thumbnails/6b0345d20f1d659b-519aacd03bb9.webp",
+    "design-systems/retro/components.html": "catalog/thumbnails/c89d451df7faf3b7-2e88f44323c2.webp",
+    "design-systems/revolut/components.html": "catalog/thumbnails/28c19a0a899e43c5-4d244ee95f74.webp",
+    "design-systems/runwayml/components.html": "catalog/thumbnails/7ea71dcad361fd50-0523303ef033.webp",
+    "design-systems/salesforce-lightning/components.html": "catalog/thumbnails/4942abe0350eea3b-7f8ea862a5eb.webp",
+    "design-systems/sanity/components.html": "catalog/thumbnails/f22bb7308352de55-15ef2eeebeae.webp",
+    "design-systems/sap-fiori/components.html": "catalog/thumbnails/e868a93f79c9f298-951e2ff86a15.webp",
+    "design-systems/sentry/components.html": "catalog/thumbnails/28064ea6989b7d22-a518c73fab58.webp",
+    "design-systems/servicenow-horizon/components.html": "catalog/thumbnails/573ccbed8c22ea05-173b968d3ad4.webp",
+    "design-systems/shadcn/components.html": "catalog/thumbnails/892527e76e7001e2-f08602a5d052.webp",
+    "design-systems/shopify/components.html": "catalog/thumbnails/68283ccee93df54e-4c66c1033164.webp",
+    "design-systems/simple/components.html": "catalog/thumbnails/5d1d77fbd37cb028-427b8b3969c0.webp",
+    "design-systems/skeumorphism/components.html": "catalog/thumbnails/7f88c866b95c4b65-72bf0f827a74.webp",
+    "design-systems/slack/components.html": "catalog/thumbnails/b727582d4a8f9a73-8ad57742af24.webp",
+    "design-systems/sleek/components.html": "catalog/thumbnails/4af1c33f7652aa4a-ec4ec0fd9a4a.webp",
+    "design-systems/spacex/components.html": "catalog/thumbnails/d984c999e3a139ca-4b9316372737.webp",
+    "design-systems/spacious/components.html": "catalog/thumbnails/53eed900676ee403-24a41cacb586.webp",
+    "design-systems/spotify/components.html": "catalog/thumbnails/8ca1f76684d725cf-c88e8574ed41.webp",
+    "design-systems/starbucks/components.html": "catalog/thumbnails/2ab2c4eeb790cf8a-b502913b3eeb.webp",
+    "design-systems/storytelling/components.html": "catalog/thumbnails/de0d3f6a97ca79f2-a88fb6103408.webp",
+    "design-systems/stripe/components.html": "catalog/thumbnails/f7fdacdac825ff88-2f74bf9ddfa6.webp",
+    "design-systems/supabase/components.html": "catalog/thumbnails/29d77f89e5efe3c4-ea7abeccda73.webp",
+    "design-systems/superhuman/components.html": "catalog/thumbnails/835ef0374acc7b34-7c0d4e10d527.webp",
+    "design-systems/tesla/components.html": "catalog/thumbnails/46b0846f2c68d50d-51b3ad228961.webp",
+    "design-systems/tetris/components.html": "catalog/thumbnails/75c81d925179ab56-7f5b013b9230.webp",
+    "design-systems/theverge/components.html": "catalog/thumbnails/fd7456026ee983f4-4a45af9c63d3.webp",
+    "design-systems/together-ai/components.html": "catalog/thumbnails/dc48c302f7cc70ae-076a9ab205b2.webp",
+    "design-systems/totality-festival/components.html": "catalog/thumbnails/11bc4d8e93a644fe-531457123c09.webp",
+    "design-systems/trading-terminal/components.html": "catalog/thumbnails/1d8795f1937a53ae-edaca8781180.webp",
+    "design-systems/twilio-paste/components.html": "catalog/thumbnails/9ac759c4a5466ece-5d86fe3d7fb2.webp",
+    "design-systems/uber/components.html": "catalog/thumbnails/01c8a4986d057a25-9704212e9d3c.webp",
+    "design-systems/urdu/components.html": "catalog/thumbnails/0586c2619e6c1b95-bce411bb60bd.webp",
+    "design-systems/us-web-design-system/components.html": "catalog/thumbnails/ad8985e4fe7707bd-c1d78e27f7bf.webp",
+    "design-systems/vercel/components.html": "catalog/thumbnails/a120ac510fa0443d-d46dfea04972.webp",
+    "design-systems/vibrant/components.html": "catalog/thumbnails/d5c50cbde589c727-89bf2e9d5f58.webp",
+    "design-systems/vintage/components.html": "catalog/thumbnails/71459d8bad29d516-45e16396d4b3.webp",
+    "design-systems/vodafone/components.html": "catalog/thumbnails/da16f065c9a1e108-d6827fb54855.webp",
+    "design-systems/voltagent/components.html": "catalog/thumbnails/463bc607e1051e7d-1a442ddf3ab2.webp",
+    "design-systems/warm-editorial/components.html": "catalog/thumbnails/80a4d51c4ce9bdc7-345306435f20.webp",
+    "design-systems/warp/components.html": "catalog/thumbnails/4c47e41f1fd5144b-db034f68a1fd.webp",
+    "design-systems/webex/components.html": "catalog/thumbnails/1f2cd8af3de3d343-da178a3c57c6.webp",
+    "design-systems/webflow/components.html": "catalog/thumbnails/043fccad55f6013a-87c3b2874066.webp",
+    "design-systems/wechat/components.html": "catalog/thumbnails/91022f29299e8e95-9eadffcfc6ec.webp",
+    "design-systems/wired/components.html": "catalog/thumbnails/dc736cf16e61a38b-d9e4907d1cb6.webp",
+    "design-systems/wise/components.html": "catalog/thumbnails/b760c45a9d965ee4-393914d3b608.webp",
+    "design-systems/workday-canvas/components.html": "catalog/thumbnails/ae8fa45877fce3b9-4fbfeda93d9e.webp",
+    "design-systems/x-ai/components.html": "catalog/thumbnails/ea4481f29f3de343-7b288823a474.webp",
+    "design-systems/xiaohongshu/components.html": "catalog/thumbnails/5b661d762419dfb5-c832457cc5b7.webp",
+    "design-systems/zapier/components.html": "catalog/thumbnails/c569616bede726fa-0fd33f8165b6.webp",
+    "design-systems/zendesk-garden/components.html": "catalog/thumbnails/434e184bd6d05683-313804aa3b39.webp",
+    "design-templates/animated-svg-logo-draw/example.html": "catalog/thumbnails/9c4bd45d2982f111-84ab110427b7.webp",
+    "design-templates/audio-jingle/example.html": "catalog/thumbnails/8dfd849eb3e48044-016cb2502021.webp",
+    "design-templates/blog-post/example.html": "catalog/thumbnails/4790aa22e6a9dd47-4ac12f7424d6.webp",
+    "design-templates/campaign-visual-projects/example.html": "catalog/thumbnails/2fa4af0c6c7a7630-501ecad2a523.webp",
+    "design-templates/clinical-case-report/example.html": "catalog/thumbnails/a47b14ba2b0eac78-b5ff90b2439e.webp",
+    "design-templates/commercial-product-launches/example.html": "catalog/thumbnails/26ed41ca5cc09296-c567c616748a.webp",
+    "design-templates/component-state-patterns/example.html": "catalog/thumbnails/fcb5bc10edc31d9f-31c79fc6c9ea.webp",
+    "design-templates/contact-widget/example.html": "catalog/thumbnails/af417b80748c4d7e-eceb92ce5539.webp",
+    "design-templates/critique/example.html": "catalog/thumbnails/40e54741994bd20f-597b35bcb888.webp",
+    "design-templates/dashboard/example.html": "catalog/thumbnails/48932beb3ddd9d62-46cfd8e6f1d0.webp",
+    "design-templates/data-visualization-projects/example.html": "catalog/thumbnails/da446a3f9cf9d9ec-2b24d0ac1b9c.webp",
+    "design-templates/dating-web/example.html": "catalog/thumbnails/05221e5a81483206-bb1c0be40625.webp",
+    "design-templates/dcf-valuation/example.html": "catalog/thumbnails/ee5cedd448ba2042-e6c120b4459a.webp",
+    "design-templates/digital-eguide/example.html": "catalog/thumbnails/a6491316907c1fda-b1bd94f1f0e7.webp",
+    "design-templates/docs-page/example.html": "catalog/thumbnails/0ed2f8bbf4ead2fb-46853b838382.webp",
+    "design-templates/editorial-magazine-projects/example.html": "catalog/thumbnails/66040ba9d2a9e2d3-8bbd2dd4c9fb.webp",
+    "design-templates/email-marketing/example.html": "catalog/thumbnails/12a528296b09698a-056a578b2521.webp",
+    "design-templates/eng-runbook/example.html": "catalog/thumbnails/71451fb351adc49d-0ec2fc781150.webp",
+    "design-templates/finance-report/example.html": "catalog/thumbnails/275d00f6eeae74f5-0fe7364cf141.webp",
+    "design-templates/flowai-live-dashboard-template/example.html": "catalog/thumbnails/a6c9046df3bae3da-66ad90126200.webp",
+    "design-templates/gamified-app/example.html": "catalog/thumbnails/6152f943683ce73f-c884d61c977f.webp",
+    "design-templates/github-dashboard/example.html": "catalog/thumbnails/f8b179f201199730-416e5032ec48.webp",
+    "design-templates/guizang-ppt/example.html": "catalog/thumbnails/7074535bfef1bd03-91a5801a3c59.webp",
+    "design-templates/hr-onboarding/example.html": "catalog/thumbnails/16c4460d8211faae-d672aeddb0c3.webp",
+    "design-templates/html-ppt-course-module/example.html": "catalog/thumbnails/5b6745f55710d04d-f97ff7e71b0d.webp",
+    "design-templates/html-ppt-dir-key-nav-minimal/example.html": "catalog/thumbnails/77dba8bac8a6ad28-4e91aac85220.webp",
+    "design-templates/html-ppt-graphify-dark-graph/example.html": "catalog/thumbnails/232ecd63a5e52774-a554927dc088.webp",
+    "design-templates/html-ppt-hermes-cyber-terminal/example.html": "catalog/thumbnails/4c3facac1031e92d-cdf81e2d4759.webp",
+    "design-templates/html-ppt-knowledge-arch-blueprint/example.html": "catalog/thumbnails/1becbe453a32ab1d-027f1916563b.webp",
+    "design-templates/html-ppt-obsidian-claude-gradient/example.html": "catalog/thumbnails/6230731e2df48fb7-739539c708e9.webp",
+    "design-templates/html-ppt-pitch-deck/example.html": "catalog/thumbnails/8b8410af79dfdfc8-5b20ca4c2362.webp",
+    "design-templates/html-ppt-presenter-mode-reveal/example.html": "catalog/thumbnails/827e4c5da9c058fd-a6356685d396.webp",
+    "design-templates/html-ppt-product-launch/example.html": "catalog/thumbnails/3a34885a2f59e021-cce5b8042cc7.webp",
+    "design-templates/html-ppt-taste-brutalist/example.html": "catalog/thumbnails/a6746abaaea029fe-0721a4a420f4.webp",
+    "design-templates/html-ppt-taste-editorial/example.html": "catalog/thumbnails/c3cda7e52ce06212-812ef0a0a259.webp",
+    "design-templates/html-ppt-tech-sharing/example.html": "catalog/thumbnails/ea21b57d3eb39670-f94a505a5206.webp",
+    "design-templates/html-ppt-testing-safety-alert/example.html": "catalog/thumbnails/75f42106e341de23-18d8c9630a31.webp",
+    "design-templates/html-ppt-weekly-report/example.html": "catalog/thumbnails/b87504283bc66968-b935a8a4ec88.webp",
+    "design-templates/html-ppt-xhs-pastel-card/example.html": "catalog/thumbnails/1e510de0f66edd8c-fbf38e146673.webp",
+    "design-templates/html-ppt-xhs-post/example.html": "catalog/thumbnails/a75c7afc01efade5-083eebf21cde.webp",
+    "design-templates/html-ppt-xhs-white-editorial/example.html": "catalog/thumbnails/786ab044d2511732-cd2feae5d3be.webp",
+    "design-templates/html-ppt-zhangzara-8-bit-orbit/example.html": "catalog/thumbnails/afd0b5c63751e426-197410687a3c.webp",
+    "design-templates/html-ppt-zhangzara-biennale-yellow/example.html": "catalog/thumbnails/37f6a087dc63c146-b3af89ab4b23.webp",
+    "design-templates/html-ppt-zhangzara-block-frame/example.html": "catalog/thumbnails/8d39c27bb5b92b69-6d40e474bea9.webp",
+    "design-templates/html-ppt-zhangzara-blue-professional/example.html": "catalog/thumbnails/0cf60e26903d05e2-39bca52a0747.webp",
+    "design-templates/html-ppt-zhangzara-bold-poster/example.html": "catalog/thumbnails/da26d4b1bc4942f9-5787ef2df739.webp",
+    "design-templates/html-ppt-zhangzara-broadside/example.html": "catalog/thumbnails/73541ccf6223eb87-a1180c8c64cd.webp",
+    "design-templates/html-ppt-zhangzara-capsule/example.html": "catalog/thumbnails/f46c22f5376c6720-3719246e1c86.webp",
+    "design-templates/html-ppt-zhangzara-cartesian/example.html": "catalog/thumbnails/b3567885132cbb7a-2a5f0cf4f9d8.webp",
+    "design-templates/html-ppt-zhangzara-cobalt-grid/example.html": "catalog/thumbnails/f7258d96b0b0ccd9-2972286ed9a1.webp",
+    "design-templates/html-ppt-zhangzara-coral/example.html": "catalog/thumbnails/e705e966bc105b99-7f42316d70c3.webp",
+    "design-templates/html-ppt-zhangzara-creative-mode/example.html": "catalog/thumbnails/813b9d1c6a84dfa4-e24404b9294c.webp",
+    "design-templates/html-ppt-zhangzara-daisy-days/example.html": "catalog/thumbnails/98653582e24eb562-c3d048152b6e.webp",
+    "design-templates/html-ppt-zhangzara-editorial-tri-tone/example.html": "catalog/thumbnails/61cc7df54f19aeb2-61ac7ee49669.webp",
+    "design-templates/html-ppt-zhangzara-grove/example.html": "catalog/thumbnails/0f7461dfdbb92a7b-5fcd64ad6d3a.webp",
+    "design-templates/html-ppt-zhangzara-long-table/example.html": "catalog/thumbnails/bdcb118b09b59eea-cdad8d35642d.webp",
+    "design-templates/html-ppt-zhangzara-mat/example.html": "catalog/thumbnails/1d8e0394a0c511f3-5dd476f2242c.webp",
+    "design-templates/html-ppt-zhangzara-monochrome/example.html": "catalog/thumbnails/985cb7b23250960a-2bdb9e228325.webp",
+    "design-templates/html-ppt-zhangzara-neo-grid-bold/example.html": "catalog/thumbnails/502f0af910be1779-ce5d3266088d.webp",
+    "design-templates/html-ppt-zhangzara-peoples-platform/example.html": "catalog/thumbnails/fcc543cabcd53730-b2303c151c20.webp",
+    "design-templates/html-ppt-zhangzara-pin-and-paper/example.html": "catalog/thumbnails/6e9e439d33997015-124beb5fa2e3.webp",
+    "design-templates/html-ppt-zhangzara-pink-script/example.html": "catalog/thumbnails/a0fc267fe7943c27-8553620755a2.webp",
+    "design-templates/html-ppt-zhangzara-playful/example.html": "catalog/thumbnails/db5f107a4b1dab3e-fa7fe9fdd0f9.webp",
+    "design-templates/html-ppt-zhangzara-raw-grid/example.html": "catalog/thumbnails/abd30ce1d98c1def-fcb68736ee5c.webp",
+    "design-templates/html-ppt-zhangzara-retro-windows/example.html": "catalog/thumbnails/6603f0f1f53be10d-1058d85ee295.webp",
+    "design-templates/html-ppt-zhangzara-retro-zine/example.html": "catalog/thumbnails/408965ef57b83c69-6d4047a5d3ab.webp",
+    "design-templates/html-ppt-zhangzara-sakura-chroma/example.html": "catalog/thumbnails/999fffbff3f61f0a-b09bf224f113.webp",
+    "design-templates/html-ppt-zhangzara-scatterbrain/example.html": "catalog/thumbnails/d6465e60516d4c7d-bfdb5b79cc7f.webp",
+    "design-templates/html-ppt-zhangzara-signal/example.html": "catalog/thumbnails/16baceb9ac5c91d7-91f2a26e7279.webp",
+    "design-templates/html-ppt-zhangzara-soft-editorial/example.html": "catalog/thumbnails/c64c3d1b3bb43edf-d6212f630c25.webp",
+    "design-templates/html-ppt-zhangzara-stencil-tablet/example.html": "catalog/thumbnails/02ab82ae17022b8a-6b92f21a3111.webp",
+    "design-templates/html-ppt-zhangzara-studio/example.html": "catalog/thumbnails/2fd97d4bf13c0e94-bbcf65c18597.webp",
+    "design-templates/html-ppt-zhangzara-vellum/example.html": "catalog/thumbnails/7f9496510a00e422-e7edcd51ce54.webp",
+    "design-templates/html-ppt/example.html": "catalog/thumbnails/ecb55f19ca0ff80a-2a4fe6750bb7.webp",
+    "design-templates/hyperframes/example.html": "catalog/thumbnails/50d8077d839a3d66-7ec5c5eec11c.webp",
+    "design-templates/ib-pitch-book/example.html": "catalog/thumbnails/be57d248dc40df1e-2b2283b1561d.webp",
+    "design-templates/image-poster/example.html": "catalog/thumbnails/a9282d4b18220396-590d3345ee97.webp",
+    "design-templates/invoice/example.html": "catalog/thumbnails/175ed9fcfe15de22-19195de8d0f2.webp",
+    "design-templates/kami-deck/example.html": "catalog/thumbnails/04ef30bf5dd59ffe-bb642f282b64.webp",
+    "design-templates/kami-landing/example.html": "catalog/thumbnails/cb4a458166deb1ee-108e0f19fb04.webp",
+    "design-templates/kanban-board/example.html": "catalog/thumbnails/330731715a22e378-4ef461e4242f.webp",
+    "design-templates/last30days/example.html": "catalog/thumbnails/db3eb5ceb0edc2af-a153ab6b1152.webp",
+    "design-templates/live-artifact/examples/baby-health-live.html": "catalog/thumbnails/920ad52723fc9ae9-3c3b2c27854a.webp",
+    "design-templates/live-dashboard/example.html": "catalog/thumbnails/a86e26764bcac340-60b683de75a5.webp",
+    "design-templates/magazine-poster/example.html": "catalog/thumbnails/39f9febe56f3cb35-bea69dcb94e3.webp",
+    "design-templates/meeting-notes/example.html": "catalog/thumbnails/5b4a3d9ee5d90391-2142c7c4dd1e.webp",
+    "design-templates/mobile-app-flow-projects/example.html": "catalog/thumbnails/c6eb74ada3992185-4c2b5f65174c.webp",
+    "design-templates/mobile-app/example.html": "catalog/thumbnails/bdee31cafab62b47-3c8d7217af30.webp",
+    "design-templates/mobile-onboarding/example.html": "catalog/thumbnails/93406e3f03c0b0f0-752cb4cee11d.webp",
+    "design-templates/motion-frames/example.html": "catalog/thumbnails/98f8c0f40cce2162-f704568616e9.webp",
+    "design-templates/motion-interaction-projects/example.html": "catalog/thumbnails/bef6edbdc77a7588-8e22a4309cd1.webp",
+    "design-templates/open-design-landing-deck/example.html": "catalog/thumbnails/3abb6e3c0b25b113-8e1149b6b231.webp",
+    "design-templates/open-design-landing/example.html": "catalog/thumbnails/1f0b35e1c3092a50-3bebf9061d17.webp",
+    "design-templates/orbit-general/example.html": "catalog/thumbnails/a022a34340f1fbf6-004ea4edda52.webp",
+    "design-templates/orbit-github/example.html": "catalog/thumbnails/1207db354f6d28b5-4bf3c1e1e913.webp",
+    "design-templates/orbit-gmail/example.html": "catalog/thumbnails/5e1e080360b6f484-708d3ea553cf.webp",
+    "design-templates/orbit-linear/example.html": "catalog/thumbnails/87f8a8a93e00efd8-cd1cf7efa17c.webp",
+    "design-templates/orbit-notion/example.html": "catalog/thumbnails/0675447a66aac595-89c81026627c.webp",
+    "design-templates/personal-blog-projects/example.html": "catalog/thumbnails/a3384b47819c638f-be0e2d79e849.webp",
+    "design-templates/pm-spec/example.html": "catalog/thumbnails/78a0aa230c4d5da0-9ecf536d2acc.webp",
+    "design-templates/poster-projects/example.html": "catalog/thumbnails/b7f29955bcd6b6f5-2fa615c9913b.webp",
+    "design-templates/pricing-page/example.html": "catalog/thumbnails/8af0100fa380729a-d9baf64fb529.webp",
+    "design-templates/product-ui-projects/example.html": "catalog/thumbnails/f29bb5e5d5cad76a-53c2cf5a1b52.webp",
+    "design-templates/replit-deck/examples/example-atlas.html": "catalog/thumbnails/59708f86118c81fb-c87e1cc4fdbc.webp",
+    "design-templates/resume-academic-cv-lite/example.html": "catalog/thumbnails/50557d6b913cc6f7-5d4998b832b0.webp",
+    "design-templates/resume-architect-sheet/example.html": "catalog/thumbnails/8a99c1d37149897d-877b9ad25d24.webp",
+    "design-templates/resume-ats-clean/example.html": "catalog/thumbnails/39cb82d605d7f1c5-78838bd1ce96.webp",
+    "design-templates/resume-awesome-cv/example.html": "catalog/thumbnails/b03f00785c4e00e2-4ee52b496ed3.webp",
+    "design-templates/resume-awwwards-scroll-story/example.html": "catalog/thumbnails/91847d34ca16a8b8-1f4eac8c993c.webp",
+    "design-templates/resume-brutalist-grid/example.html": "catalog/thumbnails/d991d321528c0c8f-485ea09257c2.webp",
+    "design-templates/resume-canva-editorial/example.html": "catalog/thumbnails/f0f20ebd62355038-2dcb80ab58fc.webp",
+    "design-templates/resume-cn-bilingual-ats/example.html": "catalog/thumbnails/1246b445be455eca-7fb5730b83d8.webp",
+    "design-templates/resume-cn-campus-intern/example.html": "catalog/thumbnails/a6597a3f27ed502a-2cd11bc886cb.webp",
+    "design-templates/resume-cn-editorial-bilingual/example.html": "catalog/thumbnails/78b39192155b1100-66ce02435d0c.webp",
+    "design-templates/resume-cn-markdown-minimal/example.html": "catalog/thumbnails/021bd2b3c65062e9-ef2f0609b66e.webp",
+    "design-templates/resume-cn-photo-sidebar/example.html": "catalog/thumbnails/dea8d1625f694b76-627f94e84d7a.webp",
+    "design-templates/resume-cn-social-recruit/example.html": "catalog/thumbnails/80c188642b686305-b31db07dfe33.webp",
+    "design-templates/resume-creative-studio/example.html": "catalog/thumbnails/b8d4adbd3ff997aa-c14fda764660.webp",
+    "design-templates/resume-developer-mono/example.html": "catalog/thumbnails/28fe6c3aab4b48dc-8e80149c4591.webp",
+    "design-templates/resume-editorial-magazine-spread/example.html": "catalog/thumbnails/9b4d7c923276bb04-3f6ddc189858.webp",
+    "design-templates/resume-enhancv-impact/example.html": "catalog/thumbnails/200f4862288ff69e-48853b99ada3.webp",
+    "design-templates/resume-executive-slate/example.html": "catalog/thumbnails/beb5fd6903c3644f-8e954fd60853.webp",
+    "design-templates/resume-fashion-lookbook/example.html": "catalog/thumbnails/171cc2086ec13c43-d84fb53bb324.webp",
+    "design-templates/resume-flowcv-structured/example.html": "catalog/thumbnails/7006f6fbfefc05e6-3db5ecb61805.webp",
+    "design-templates/resume-founder-onepager/example.html": "catalog/thumbnails/91c94d3dfadfdd5c-6f7d7e226ba7.webp",
+    "design-templates/resume-infographic-map/example.html": "catalog/thumbnails/d50cd65993ed1a2f-c0ac1edc19fc.webp",
+    "design-templates/resume-json-flat/example.html": "catalog/thumbnails/3c280aaa458ba4da-aa75dec56651.webp",
+    "design-templates/resume-kickresume-typographic/example.html": "catalog/thumbnails/a5afdc2168d9177d-0a7658b3a1b1.webp",
+    "design-templates/resume-markdown-compact/example.html": "catalog/thumbnails/0f7b55c5db322b15-11547b2c9e56.webp",
+    "design-templates/resume-motion-reel-cv/example.html": "catalog/thumbnails/3a20b5e430d4c64a-b3053580cf5e.webp",
+    "design-templates/resume-neo-brutalist-lime/example.html": "catalog/thumbnails/0dff1c4588589e4d-8a0a3d8a1da4.webp",
+    "design-templates/resume-novoresume-one-page/example.html": "catalog/thumbnails/52f2c3fec80fe49b-4f20f70f8970.webp",
+    "design-templates/resume-portfolio-casebook/example.html": "catalog/thumbnails/548c9c05c410b2a8-116e65119aaa.webp",
+    "design-templates/resume-product-designer-case-study/example.html": "catalog/thumbnails/c273675f2da5cc03-11fd11a88dfa.webp",
+    "design-templates/resume-reactive-classic/example.html": "catalog/thumbnails/23b75c3611b3a2a2-279be69b7a15.webp",
+    "design-templates/resume-readcv-web-minimal/example.html": "catalog/thumbnails/0486d594c9d21977-2b9792e038c0.webp",
+    "design-templates/resume-trifold-brochure/example.html": "catalog/thumbnails/b16a2e08606fa034-95c1e3bd4006.webp",
+    "design-templates/resume-two-column-deedy/example.html": "catalog/thumbnails/a93bdd53d9ca146b-74178e6b24e8.webp",
+    "design-templates/resume-typographic-poster/example.html": "catalog/thumbnails/bc8ff5fa34146c96-826c2f5ace85.webp",
+    "design-templates/resume-zine-collage/example.html": "catalog/thumbnails/202f6b1f0edc7017-e087b4e3f4e7.webp",
+    "design-templates/saas-landing/example.html": "catalog/thumbnails/c6d136cd4e77feb7-f3c5299c3ee0.webp",
+    "design-templates/scroll-progress-nav/example.html": "catalog/thumbnails/5237c4fe9ce8cacd-d5d77203502c.webp",
+    "design-templates/simple-deck/example.html": "catalog/thumbnails/dc22b72e0774b26c-2d9d11ac8c26.webp",
+    "design-templates/social-carousel/example.html": "catalog/thumbnails/742589705a58f6a7-94c125f06ac2.webp",
+    "design-templates/social-media-dashboard/example.html": "catalog/thumbnails/65deddfc1eb387b6-314cab4181fd.webp",
+    "design-templates/social-media-matrix-tracker-template/example.html": "catalog/thumbnails/380f34a81f26bd63-d28cfe928145.webp",
+    "design-templates/sprite-animation/example.html": "catalog/thumbnails/7f476f184c44ac4b-fbf80c0b3818.webp",
+    "design-templates/team-okrs/example.html": "catalog/thumbnails/8e454c9a5a2779e1-aab1a31f4ce2.webp",
+    "design-templates/trading-analysis-dashboard-template/example.html": "catalog/thumbnails/69cfae1c5cfff430-169c0451527d.webp",
+    "design-templates/tweaks/example.html": "catalog/thumbnails/191f8a399aa88ad2-431f4d883a27.webp",
+    "design-templates/video-shortform/example.html": "catalog/thumbnails/e6413953ebe6e612-14e26b30a8da.webp",
+    "design-templates/waitlist-page/example.html": "catalog/thumbnails/81ba7cc934d3759a-bedbd8c2477c.webp",
+    "design-templates/web-prototype-taste-brutalist/example.html": "catalog/thumbnails/f47b26e377cd7dc5-a49706cde55c.webp",
+    "design-templates/web-prototype-taste-editorial/example.html": "catalog/thumbnails/3dba474d7e40c08a-1658c3d855f9.webp",
+    "design-templates/web-prototype-taste-soft/example.html": "catalog/thumbnails/b5dcd22b03c078ea-b41c20ce569c.webp",
+    "design-templates/web-prototype/example.html": "catalog/thumbnails/ff5fe1b453bcd64f-f5ddb33c2551.webp",
+    "design-templates/weekly-update/example.html": "catalog/thumbnails/680803c8b2ccd5e3-2b4795d54c06.webp",
+    "design-templates/wireframe-sketch/example.html": "catalog/thumbnails/48d42b619ddd2c84-058024022549.webp",
+    "design-templates/x-research/example.html": "catalog/thumbnails/a95421886d1bddb9-e5ccd516a7b8.webp"
+  }
+}
