@@ -73,7 +73,8 @@
         "catalog": "design-templates/campaign-visual-projects/references/catalog.json",
         "source": "design-templates/campaign-visual-projects/references/entries/demo-2025-global-motion-design-festival-campaign.json",
         "preview": "design-templates/campaign-visual-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "campaign-visual-projects:nike-art-of-victory-centre-pompidou-campaign",
@@ -142,7 +143,8 @@
         "catalog": "design-templates/campaign-visual-projects/references/catalog.json",
         "source": "design-templates/campaign-visual-projects/references/entries/nike-art-of-victory-centre-pompidou-campaign.json",
         "preview": "design-templates/campaign-visual-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "campaign-visual-projects:notion-think-it-make-it-brand-campaign",
@@ -213,7 +215,8 @@
         "catalog": "design-templates/campaign-visual-projects/references/catalog.json",
         "source": "design-templates/campaign-visual-projects/references/entries/notion-think-it-make-it-brand-campaign.json",
         "preview": "design-templates/campaign-visual-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "campaign-visual-projects:pepsi-crave-liquid-asset-campaign",
@@ -282,7 +285,8 @@
         "catalog": "design-templates/campaign-visual-projects/references/catalog.json",
         "source": "design-templates/campaign-visual-projects/references/entries/pepsi-crave-liquid-asset-campaign.json",
         "preview": "design-templates/campaign-visual-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:apple-iphone-product-family",
@@ -328,7 +332,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:apple-vision-pro-spatial-computing-product-page",
@@ -378,7 +383,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:bang-olufsen-beoplay-h100-luxury-headphones-product-page",
@@ -424,7 +430,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:brompton-g-line-folding-bike-product-page",
@@ -470,7 +477,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:dji-mavic-4-pro-creator-drone-commerce-page",
@@ -516,7 +524,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:dyson-v15-detect-commerce-page",
@@ -562,7 +571,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:eight-sleep-pod-intelligent-bed-system-homepage",
@@ -608,7 +618,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:framework-laptop-13-pro-developer-laptop-page",
@@ -654,7 +665,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:fujifilm-gfx100rf-premium-camera-product-page",
@@ -700,7 +712,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:gopro-hero13-black-action-camera-product-page",
@@ -746,7 +759,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:herman-miller-aeron-chair-ergonomic-seating-page",
@@ -792,7 +806,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:linear-product-development-system-homepage",
@@ -838,7 +853,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:monos-carry-on-pro-travel-commerce-page",
@@ -884,7 +900,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:nike-running-campaign-commerce",
@@ -930,7 +947,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:nothing-phone-3a-smartphone-product-page",
@@ -976,7 +994,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:notion-mail-ai-inbox-product-page",
@@ -1024,7 +1043,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:oura-ring-4-health-wearable-page",
@@ -1070,7 +1090,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:polestar-4-electric-coupe-suv-overview",
@@ -1116,7 +1137,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:raycast-productivity-launcher-homepage",
@@ -1166,7 +1188,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:remarkable-paper-pro-digital-paper-product-page",
@@ -1214,7 +1237,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:sonos-ace-personal-audio-product-page",
@@ -1260,7 +1284,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:stripe-homepage-revenue-platform",
@@ -1306,7 +1331,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:superhuman-ai-productivity-suite-homepage",
@@ -1352,7 +1378,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:teenage-engineering-op-xy-sequencer-product-page",
@@ -1400,7 +1427,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:tesla-model-y-product-page",
@@ -1446,7 +1474,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "commercial-product-launches:whoop-wearable-health-membership-explainer",
@@ -1494,7 +1523,8 @@
       "files": {
         "catalog": "design-templates/commercial-product-launches/references/catalog.json",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "component-state-patterns:carbon-component-state-recovery-patterns",
@@ -1545,7 +1575,8 @@
         "catalog": "design-templates/component-state-patterns/references/catalog.json",
         "source": "design-templates/component-state-patterns/references/entries/carbon-component-state-recovery-patterns.json",
         "preview": "design-templates/component-state-patterns/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "editorial-magazine-projects:brooklyn-rail-anthropophagy-issue-editorial-design",
@@ -1615,7 +1646,8 @@
         "catalog": "design-templates/editorial-magazine-projects/references/catalog.json",
         "source": "design-templates/editorial-magazine-projects/references/entries/brooklyn-rail-anthropophagy-issue-editorial-design.json",
         "preview": "design-templates/editorial-magazine-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "editorial-magazine-projects:circular-22-typographic-circle-publication-redesign",
@@ -1685,7 +1717,8 @@
         "catalog": "design-templates/editorial-magazine-projects/references/catalog.json",
         "source": "design-templates/editorial-magazine-projects/references/entries/circular-22-typographic-circle-publication-redesign.json",
         "preview": "design-templates/editorial-magazine-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "editorial-magazine-projects:samba-brazilian-queer-culture-magazine",
@@ -1753,7 +1786,8 @@
         "catalog": "design-templates/editorial-magazine-projects/references/catalog.json",
         "source": "design-templates/editorial-magazine-projects/references/entries/samba-brazilian-queer-culture-magazine.json",
         "preview": "design-templates/editorial-magazine-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "editorial-magazine-projects:the-baffler-editorial-redesign",
@@ -1821,7 +1855,8 @@
         "catalog": "design-templates/editorial-magazine-projects/references/catalog.json",
         "source": "design-templates/editorial-magazine-projects/references/entries/the-baffler-editorial-redesign.json",
         "preview": "design-templates/editorial-magazine-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "motion-interaction-projects:active-theory-creative-digital-experiences",
@@ -1890,7 +1925,8 @@
         "catalog": "design-templates/motion-interaction-projects/references/catalog.json",
         "source": "design-templates/motion-interaction-projects/references/entries/active-theory-creative-digital-experiences.json",
         "preview": "design-templates/motion-interaction-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "motion-interaction-projects:cuberto-hello-digital-solutions-homepage",
@@ -1959,7 +1995,8 @@
         "catalog": "design-templates/motion-interaction-projects/references/catalog.json",
         "source": "design-templates/motion-interaction-projects/references/entries/cuberto-hello-digital-solutions-homepage.json",
         "preview": "design-templates/motion-interaction-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "motion-interaction-projects:david-whyte-companion-portal-experience",
@@ -2028,7 +2065,8 @@
         "catalog": "design-templates/motion-interaction-projects/references/catalog.json",
         "source": "design-templates/motion-interaction-projects/references/entries/david-whyte-companion-portal-experience.json",
         "preview": "design-templates/motion-interaction-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "motion-interaction-projects:kode-immersive-tech-enabled-creativity-homepage",
@@ -2097,7 +2135,8 @@
         "catalog": "design-templates/motion-interaction-projects/references/catalog.json",
         "source": "design-templates/motion-interaction-projects/references/entries/kode-immersive-tech-enabled-creativity-homepage.json",
         "preview": "design-templates/motion-interaction-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "motion-interaction-projects:resn-creative-digital-agency-homepage",
@@ -2166,7 +2205,8 @@
         "catalog": "design-templates/motion-interaction-projects/references/catalog.json",
         "source": "design-templates/motion-interaction-projects/references/entries/resn-creative-digital-agency-homepage.json",
         "preview": "design-templates/motion-interaction-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "motion-interaction-projects:unseen-studio-year-in-review-2025",
@@ -2235,7 +2275,8 @@
         "catalog": "design-templates/motion-interaction-projects/references/catalog.json",
         "source": "design-templates/motion-interaction-projects/references/entries/unseen-studio-year-in-review-2025.json",
         "preview": "design-templates/motion-interaction-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:ahmad-shadeed",
@@ -2287,7 +2328,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:amelia-wattenberger",
@@ -2339,7 +2381,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:anotherdayu",
@@ -2391,7 +2434,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:antfu",
@@ -2447,7 +2491,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:astro-cactus",
@@ -2499,7 +2544,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:astropaper",
@@ -2553,7 +2599,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:bartosz-ciechanowski",
@@ -2605,7 +2652,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:blowfish",
@@ -2659,7 +2707,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:brittany-chiang",
@@ -2707,7 +2756,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:bruno-simon",
@@ -2757,7 +2807,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:chester-how",
@@ -2811,7 +2862,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:chirpy-starter",
@@ -2865,7 +2917,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:cosy-jekyll-theme",
@@ -2911,7 +2964,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:craig-mod",
@@ -2965,7 +3019,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:dan-abramov-overreacted",
@@ -3021,7 +3076,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:dave-rupert",
@@ -3073,7 +3129,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:derek-sivers",
@@ -3131,7 +3188,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:diygod",
@@ -3183,7 +3241,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:douchi",
@@ -3237,7 +3296,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:emil-kowalski",
@@ -3289,7 +3349,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:gwern",
@@ -3341,7 +3402,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:hakim-el-hattab",
@@ -3397,7 +3459,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:huangyang",
@@ -3449,7 +3512,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:hugo-papermod",
@@ -3501,7 +3565,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:innei",
@@ -3553,7 +3618,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:jan-miksovsky",
@@ -3605,7 +3671,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:jim-nielsen",
@@ -3661,7 +3728,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:jimmylv",
@@ -3713,7 +3781,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:josh-comeau",
@@ -3765,7 +3834,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:julia-evans",
@@ -3817,7 +3887,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:kottke",
@@ -3871,7 +3942,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:lee-robinson",
@@ -3927,7 +3999,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:lynn-fisher",
@@ -3987,7 +4060,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:maggie-appleton",
@@ -4039,7 +4113,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:manuel-moreale",
@@ -4095,7 +4170,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:max-bo",
@@ -4147,7 +4223,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:nicky-case",
@@ -4199,7 +4276,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:owenyoung",
@@ -4253,7 +4331,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:paco-coursey",
@@ -4307,7 +4386,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:pinchlime",
@@ -4361,7 +4441,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:pseudoyu",
@@ -4415,7 +4496,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:quartz",
@@ -4469,7 +4551,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:rauno",
@@ -4527,7 +4610,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:robin-sloan",
@@ -4581,7 +4665,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:ruanyifeng",
@@ -4633,7 +4718,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:sarah-drasner",
@@ -4685,7 +4771,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:simon-willison",
@@ -4739,7 +4826,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:steph-ango",
@@ -4797,7 +4885,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:sukka",
@@ -4847,7 +4936,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:tailwind-nextjs-starter-blog",
@@ -4901,7 +4991,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:tw93",
@@ -4953,7 +5044,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "personal-blog-projects:zhangxinxu",
@@ -5005,7 +5097,8 @@
       "files": {
         "catalog": "design-templates/personal-blog-projects/references/catalog.json",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "poster-projects:european-design-festival-protest-identity-posters",
@@ -5073,7 +5166,8 @@
         "catalog": "design-templates/poster-projects/references/catalog.json",
         "source": "design-templates/poster-projects/references/entries/european-design-festival-protest-identity-posters.json",
         "preview": "design-templates/poster-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "poster-projects:its-all-our-blood-hiroshima-nagasaki-commemorative-poster",
@@ -5142,7 +5236,8 @@
         "catalog": "design-templates/poster-projects/references/catalog.json",
         "source": "design-templates/poster-projects/references/entries/its-all-our-blood-hiroshima-nagasaki-commemorative-poster.json",
         "preview": "design-templates/poster-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "poster-projects:shakespeare-in-the-park-2025-reopening-posters",
@@ -5211,7 +5306,8 @@
         "catalog": "design-templates/poster-projects/references/catalog.json",
         "source": "design-templates/poster-projects/references/entries/shakespeare-in-the-park-2025-reopening-posters.json",
         "preview": "design-templates/poster-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "poster-projects:storefront-gala-2025-wpa-event-posters",
@@ -5281,7 +5377,8 @@
         "catalog": "design-templates/poster-projects/references/catalog.json",
         "source": "design-templates/poster-projects/references/entries/storefront-gala-2025-wpa-event-posters.json",
         "preview": "design-templates/poster-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "product-ui-projects:linear-product-development-system",
@@ -5337,7 +5434,8 @@
       "files": {
         "catalog": "design-templates/product-ui-projects/references/catalog.json",
         "preview": "design-templates/product-ui-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "product-ui-projects:notion-mail",
@@ -5397,7 +5495,8 @@
       "files": {
         "catalog": "design-templates/product-ui-projects/references/catalog.json",
         "preview": "design-templates/product-ui-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "product-ui-projects:raycast-productivity-launcher",
@@ -5453,7 +5552,8 @@
       "files": {
         "catalog": "design-templates/product-ui-projects/references/catalog.json",
         "preview": "design-templates/product-ui-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "product-ui-projects:superhuman-ai-productivity-suite",
@@ -5511,7 +5611,8 @@
       "files": {
         "catalog": "design-templates/product-ui-projects/references/catalog.json",
         "preview": "design-templates/product-ui-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "product-ui-projects:workflow-os-console-suite",
@@ -5555,7 +5656,8 @@
       "files": {
         "catalog": "design-templates/product-ui-projects/references/catalog.json",
         "preview": "design-templates/product-ui-projects/example.html"
-      }
+      },
+      "previewScope": "shared-collection"
     },
     {
       "id": "design-system:adobe-spectrum",
@@ -5592,7 +5694,8 @@
         "design": "design-systems/adobe-spectrum/DESIGN.md",
         "tokens": "design-systems/adobe-spectrum/tokens.css",
         "preview": "design-systems/adobe-spectrum/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:agentic",
@@ -5629,7 +5732,8 @@
         "design": "design-systems/agentic/DESIGN.md",
         "tokens": "design-systems/agentic/tokens.css",
         "preview": "design-systems/agentic/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:airbnb",
@@ -5666,7 +5770,8 @@
         "design": "design-systems/airbnb/DESIGN.md",
         "tokens": "design-systems/airbnb/tokens.css",
         "preview": "design-systems/airbnb/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:airtable",
@@ -5703,7 +5808,8 @@
         "design": "design-systems/airtable/DESIGN.md",
         "tokens": "design-systems/airtable/tokens.css",
         "preview": "design-systems/airtable/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:ant",
@@ -5740,7 +5846,8 @@
         "design": "design-systems/ant/DESIGN.md",
         "tokens": "design-systems/ant/tokens.css",
         "preview": "design-systems/ant/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:apple",
@@ -5777,7 +5884,8 @@
         "design": "design-systems/apple/DESIGN.md",
         "tokens": "design-systems/apple/tokens.css",
         "preview": "design-systems/apple/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:application",
@@ -5814,7 +5922,8 @@
         "design": "design-systems/application/DESIGN.md",
         "tokens": "design-systems/application/tokens.css",
         "preview": "design-systems/application/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:arc",
@@ -5851,7 +5960,8 @@
         "design": "design-systems/arc/DESIGN.md",
         "tokens": "design-systems/arc/tokens.css",
         "preview": "design-systems/arc/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:artistic",
@@ -5888,7 +5998,8 @@
         "design": "design-systems/artistic/DESIGN.md",
         "tokens": "design-systems/artistic/tokens.css",
         "preview": "design-systems/artistic/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:atelier-zero",
@@ -5925,7 +6036,8 @@
         "design": "design-systems/atelier-zero/DESIGN.md",
         "tokens": "design-systems/atelier-zero/tokens.css",
         "preview": "design-systems/atelier-zero/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:atlassian-design-system",
@@ -5962,7 +6074,8 @@
         "design": "design-systems/atlassian-design-system/DESIGN.md",
         "tokens": "design-systems/atlassian-design-system/tokens.css",
         "preview": "design-systems/atlassian-design-system/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:aws-cloudscape",
@@ -5999,7 +6112,8 @@
         "design": "design-systems/aws-cloudscape/DESIGN.md",
         "tokens": "design-systems/aws-cloudscape/tokens.css",
         "preview": "design-systems/aws-cloudscape/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:backstage-design-system",
@@ -6040,7 +6154,8 @@
         "design": "design-systems/backstage-design-system/DESIGN.md",
         "tokens": "design-systems/backstage-design-system/tokens.css",
         "preview": "design-systems/backstage-design-system/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:bento",
@@ -6077,7 +6192,8 @@
         "design": "design-systems/bento/DESIGN.md",
         "tokens": "design-systems/bento/tokens.css",
         "preview": "design-systems/bento/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:binance",
@@ -6114,7 +6230,8 @@
         "design": "design-systems/binance/DESIGN.md",
         "tokens": "design-systems/binance/tokens.css",
         "preview": "design-systems/binance/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:bmw",
@@ -6151,7 +6268,8 @@
         "design": "design-systems/bmw/DESIGN.md",
         "tokens": "design-systems/bmw/tokens.css",
         "preview": "design-systems/bmw/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:bmw-m",
@@ -6188,7 +6306,8 @@
         "design": "design-systems/bmw-m/DESIGN.md",
         "tokens": "design-systems/bmw-m/tokens.css",
         "preview": "design-systems/bmw-m/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:bold",
@@ -6225,7 +6344,8 @@
         "design": "design-systems/bold/DESIGN.md",
         "tokens": "design-systems/bold/tokens.css",
         "preview": "design-systems/bold/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:brutalism",
@@ -6262,7 +6382,8 @@
         "design": "design-systems/brutalism/DESIGN.md",
         "tokens": "design-systems/brutalism/tokens.css",
         "preview": "design-systems/brutalism/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:bugatti",
@@ -6299,7 +6420,8 @@
         "design": "design-systems/bugatti/DESIGN.md",
         "tokens": "design-systems/bugatti/tokens.css",
         "preview": "design-systems/bugatti/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:cafe",
@@ -6336,7 +6458,8 @@
         "design": "design-systems/cafe/DESIGN.md",
         "tokens": "design-systems/cafe/tokens.css",
         "preview": "design-systems/cafe/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:cal",
@@ -6373,7 +6496,8 @@
         "design": "design-systems/cal/DESIGN.md",
         "tokens": "design-systems/cal/tokens.css",
         "preview": "design-systems/cal/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:canva",
@@ -6410,7 +6534,8 @@
         "design": "design-systems/canva/DESIGN.md",
         "tokens": "design-systems/canva/tokens.css",
         "preview": "design-systems/canva/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:cisco",
@@ -6447,7 +6572,8 @@
         "design": "design-systems/cisco/DESIGN.md",
         "tokens": "design-systems/cisco/tokens.css",
         "preview": "design-systems/cisco/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:clarity-design-system",
@@ -6484,7 +6610,8 @@
         "design": "design-systems/clarity-design-system/DESIGN.md",
         "tokens": "design-systems/clarity-design-system/tokens.css",
         "preview": "design-systems/clarity-design-system/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:claude",
@@ -6521,7 +6648,8 @@
         "design": "design-systems/claude/DESIGN.md",
         "tokens": "design-systems/claude/tokens.css",
         "preview": "design-systems/claude/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:clay",
@@ -6558,7 +6686,8 @@
         "design": "design-systems/clay/DESIGN.md",
         "tokens": "design-systems/clay/tokens.css",
         "preview": "design-systems/clay/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:claymorphism",
@@ -6595,7 +6724,8 @@
         "design": "design-systems/claymorphism/DESIGN.md",
         "tokens": "design-systems/claymorphism/tokens.css",
         "preview": "design-systems/claymorphism/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:clean",
@@ -6632,7 +6762,8 @@
         "design": "design-systems/clean/DESIGN.md",
         "tokens": "design-systems/clean/tokens.css",
         "preview": "design-systems/clean/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:clickhouse",
@@ -6669,7 +6800,8 @@
         "design": "design-systems/clickhouse/DESIGN.md",
         "tokens": "design-systems/clickhouse/tokens.css",
         "preview": "design-systems/clickhouse/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:codex-app",
@@ -6706,7 +6838,8 @@
         "design": "design-systems/codex-app/DESIGN.md",
         "tokens": "design-systems/codex-app/tokens.css",
         "preview": "design-systems/codex-app/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:cohere",
@@ -6743,7 +6876,8 @@
         "design": "design-systems/cohere/DESIGN.md",
         "tokens": "design-systems/cohere/tokens.css",
         "preview": "design-systems/cohere/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:coinbase",
@@ -6780,7 +6914,8 @@
         "design": "design-systems/coinbase/DESIGN.md",
         "tokens": "design-systems/coinbase/tokens.css",
         "preview": "design-systems/coinbase/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:colorful",
@@ -6817,7 +6952,8 @@
         "design": "design-systems/colorful/DESIGN.md",
         "tokens": "design-systems/colorful/tokens.css",
         "preview": "design-systems/colorful/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:composio",
@@ -6854,7 +6990,8 @@
         "design": "design-systems/composio/DESIGN.md",
         "tokens": "design-systems/composio/tokens.css",
         "preview": "design-systems/composio/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:contemporary",
@@ -6891,7 +7028,8 @@
         "design": "design-systems/contemporary/DESIGN.md",
         "tokens": "design-systems/contemporary/tokens.css",
         "preview": "design-systems/contemporary/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:corporate",
@@ -6928,7 +7066,8 @@
         "design": "design-systems/corporate/DESIGN.md",
         "tokens": "design-systems/corporate/tokens.css",
         "preview": "design-systems/corporate/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:cosmic",
@@ -6965,7 +7104,8 @@
         "design": "design-systems/cosmic/DESIGN.md",
         "tokens": "design-systems/cosmic/tokens.css",
         "preview": "design-systems/cosmic/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:creative",
@@ -7002,7 +7142,8 @@
         "design": "design-systems/creative/DESIGN.md",
         "tokens": "design-systems/creative/tokens.css",
         "preview": "design-systems/creative/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:cursor",
@@ -7039,7 +7180,8 @@
         "design": "design-systems/cursor/DESIGN.md",
         "tokens": "design-systems/cursor/tokens.css",
         "preview": "design-systems/cursor/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:dashboard",
@@ -7076,7 +7218,8 @@
         "design": "design-systems/dashboard/DESIGN.md",
         "tokens": "design-systems/dashboard/tokens.css",
         "preview": "design-systems/dashboard/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:default",
@@ -7113,7 +7256,8 @@
         "design": "design-systems/default/DESIGN.md",
         "tokens": "design-systems/default/tokens.css",
         "preview": "design-systems/default/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:discord",
@@ -7150,7 +7294,8 @@
         "design": "design-systems/discord/DESIGN.md",
         "tokens": "design-systems/discord/tokens.css",
         "preview": "design-systems/discord/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:dithered",
@@ -7187,7 +7332,8 @@
         "design": "design-systems/dithered/DESIGN.md",
         "tokens": "design-systems/dithered/tokens.css",
         "preview": "design-systems/dithered/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:doodle",
@@ -7224,7 +7370,8 @@
         "design": "design-systems/doodle/DESIGN.md",
         "tokens": "design-systems/doodle/tokens.css",
         "preview": "design-systems/doodle/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:dramatic",
@@ -7261,7 +7408,8 @@
         "design": "design-systems/dramatic/DESIGN.md",
         "tokens": "design-systems/dramatic/tokens.css",
         "preview": "design-systems/dramatic/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:duolingo",
@@ -7298,7 +7446,8 @@
         "design": "design-systems/duolingo/DESIGN.md",
         "tokens": "design-systems/duolingo/tokens.css",
         "preview": "design-systems/duolingo/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:editorial",
@@ -7335,7 +7484,8 @@
         "design": "design-systems/editorial/DESIGN.md",
         "tokens": "design-systems/editorial/tokens.css",
         "preview": "design-systems/editorial/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:elastic-ui",
@@ -7372,7 +7522,8 @@
         "design": "design-systems/elastic-ui/DESIGN.md",
         "tokens": "design-systems/elastic-ui/tokens.css",
         "preview": "design-systems/elastic-ui/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:elegant",
@@ -7409,7 +7560,8 @@
         "design": "design-systems/elegant/DESIGN.md",
         "tokens": "design-systems/elegant/tokens.css",
         "preview": "design-systems/elegant/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:elevenlabs",
@@ -7446,7 +7598,8 @@
         "design": "design-systems/elevenlabs/DESIGN.md",
         "tokens": "design-systems/elevenlabs/tokens.css",
         "preview": "design-systems/elevenlabs/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:energetic",
@@ -7483,7 +7636,8 @@
         "design": "design-systems/energetic/DESIGN.md",
         "tokens": "design-systems/energetic/tokens.css",
         "preview": "design-systems/energetic/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:enterprise",
@@ -7520,7 +7674,8 @@
         "design": "design-systems/enterprise/DESIGN.md",
         "tokens": "design-systems/enterprise/tokens.css",
         "preview": "design-systems/enterprise/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:expo",
@@ -7557,7 +7712,8 @@
         "design": "design-systems/expo/DESIGN.md",
         "tokens": "design-systems/expo/tokens.css",
         "preview": "design-systems/expo/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:expressive",
@@ -7594,7 +7750,8 @@
         "design": "design-systems/expressive/DESIGN.md",
         "tokens": "design-systems/expressive/tokens.css",
         "preview": "design-systems/expressive/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:fantasy",
@@ -7631,7 +7788,8 @@
         "design": "design-systems/fantasy/DESIGN.md",
         "tokens": "design-systems/fantasy/tokens.css",
         "preview": "design-systems/fantasy/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:ferrari",
@@ -7668,7 +7826,8 @@
         "design": "design-systems/ferrari/DESIGN.md",
         "tokens": "design-systems/ferrari/tokens.css",
         "preview": "design-systems/ferrari/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:figma",
@@ -7705,7 +7864,8 @@
         "design": "design-systems/figma/DESIGN.md",
         "tokens": "design-systems/figma/tokens.css",
         "preview": "design-systems/figma/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:flat",
@@ -7742,7 +7902,8 @@
         "design": "design-systems/flat/DESIGN.md",
         "tokens": "design-systems/flat/tokens.css",
         "preview": "design-systems/flat/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:fluent-2",
@@ -7779,7 +7940,8 @@
         "design": "design-systems/fluent-2/DESIGN.md",
         "tokens": "design-systems/fluent-2/tokens.css",
         "preview": "design-systems/fluent-2/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:framer",
@@ -7816,7 +7978,8 @@
         "design": "design-systems/framer/DESIGN.md",
         "tokens": "design-systems/framer/tokens.css",
         "preview": "design-systems/framer/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:friendly",
@@ -7853,7 +8016,8 @@
         "design": "design-systems/friendly/DESIGN.md",
         "tokens": "design-systems/friendly/tokens.css",
         "preview": "design-systems/friendly/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:futuristic",
@@ -7890,7 +8054,8 @@
         "design": "design-systems/futuristic/DESIGN.md",
         "tokens": "design-systems/futuristic/tokens.css",
         "preview": "design-systems/futuristic/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:github",
@@ -7927,7 +8092,8 @@
         "design": "design-systems/github/DESIGN.md",
         "tokens": "design-systems/github/tokens.css",
         "preview": "design-systems/github/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:gitlab-pajamas",
@@ -7964,7 +8130,8 @@
         "design": "design-systems/gitlab-pajamas/DESIGN.md",
         "tokens": "design-systems/gitlab-pajamas/tokens.css",
         "preview": "design-systems/gitlab-pajamas/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:glassmorphism",
@@ -8001,7 +8168,8 @@
         "design": "design-systems/glassmorphism/DESIGN.md",
         "tokens": "design-systems/glassmorphism/tokens.css",
         "preview": "design-systems/glassmorphism/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:govuk-design-system",
@@ -8038,7 +8206,8 @@
         "design": "design-systems/govuk-design-system/DESIGN.md",
         "tokens": "design-systems/govuk-design-system/tokens.css",
         "preview": "design-systems/govuk-design-system/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:gradient",
@@ -8075,7 +8244,8 @@
         "design": "design-systems/gradient/DESIGN.md",
         "tokens": "design-systems/gradient/tokens.css",
         "preview": "design-systems/gradient/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:hashicorp",
@@ -8112,7 +8282,8 @@
         "design": "design-systems/hashicorp/DESIGN.md",
         "tokens": "design-systems/hashicorp/tokens.css",
         "preview": "design-systems/hashicorp/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:hud",
@@ -8149,7 +8320,8 @@
         "design": "design-systems/hud/DESIGN.md",
         "tokens": "design-systems/hud/tokens.css",
         "preview": "design-systems/hud/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:huggingface",
@@ -8186,7 +8358,8 @@
         "design": "design-systems/huggingface/DESIGN.md",
         "tokens": "design-systems/huggingface/tokens.css",
         "preview": "design-systems/huggingface/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:ibm",
@@ -8223,7 +8396,8 @@
         "design": "design-systems/ibm/DESIGN.md",
         "tokens": "design-systems/ibm/tokens.css",
         "preview": "design-systems/ibm/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:intercom",
@@ -8260,7 +8434,8 @@
         "design": "design-systems/intercom/DESIGN.md",
         "tokens": "design-systems/intercom/tokens.css",
         "preview": "design-systems/intercom/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:kami",
@@ -8297,7 +8472,8 @@
         "design": "design-systems/kami/DESIGN.md",
         "tokens": "design-systems/kami/tokens.css",
         "preview": "design-systems/kami/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:kraken",
@@ -8334,7 +8510,8 @@
         "design": "design-systems/kraken/DESIGN.md",
         "tokens": "design-systems/kraken/tokens.css",
         "preview": "design-systems/kraken/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:lamborghini",
@@ -8371,7 +8548,8 @@
         "design": "design-systems/lamborghini/DESIGN.md",
         "tokens": "design-systems/lamborghini/tokens.css",
         "preview": "design-systems/lamborghini/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:levels",
@@ -8408,7 +8586,8 @@
         "design": "design-systems/levels/DESIGN.md",
         "tokens": "design-systems/levels/tokens.css",
         "preview": "design-systems/levels/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:linear-app",
@@ -8445,7 +8624,8 @@
         "design": "design-systems/linear-app/DESIGN.md",
         "tokens": "design-systems/linear-app/tokens.css",
         "preview": "design-systems/linear-app/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:lingo",
@@ -8482,7 +8662,8 @@
         "design": "design-systems/lingo/DESIGN.md",
         "tokens": "design-systems/lingo/tokens.css",
         "preview": "design-systems/lingo/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:loom",
@@ -8519,7 +8700,8 @@
         "design": "design-systems/loom/DESIGN.md",
         "tokens": "design-systems/loom/tokens.css",
         "preview": "design-systems/loom/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:lovable",
@@ -8556,7 +8738,8 @@
         "design": "design-systems/lovable/DESIGN.md",
         "tokens": "design-systems/lovable/tokens.css",
         "preview": "design-systems/lovable/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:luxury",
@@ -8593,7 +8776,8 @@
         "design": "design-systems/luxury/DESIGN.md",
         "tokens": "design-systems/luxury/tokens.css",
         "preview": "design-systems/luxury/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:mastercard",
@@ -8630,7 +8814,8 @@
         "design": "design-systems/mastercard/DESIGN.md",
         "tokens": "design-systems/mastercard/tokens.css",
         "preview": "design-systems/mastercard/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:material",
@@ -8667,7 +8852,8 @@
         "design": "design-systems/material/DESIGN.md",
         "tokens": "design-systems/material/tokens.css",
         "preview": "design-systems/material/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:meta",
@@ -8704,7 +8890,8 @@
         "design": "design-systems/meta/DESIGN.md",
         "tokens": "design-systems/meta/tokens.css",
         "preview": "design-systems/meta/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:mimo-code",
@@ -8741,7 +8928,8 @@
         "design": "design-systems/mimo-code/DESIGN.md",
         "tokens": "design-systems/mimo-code/tokens.css",
         "preview": "design-systems/mimo-code/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:minimal",
@@ -8778,7 +8966,8 @@
         "design": "design-systems/minimal/DESIGN.md",
         "tokens": "design-systems/minimal/tokens.css",
         "preview": "design-systems/minimal/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:minimax",
@@ -8815,7 +9004,8 @@
         "design": "design-systems/minimax/DESIGN.md",
         "tokens": "design-systems/minimax/tokens.css",
         "preview": "design-systems/minimax/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:mintlify",
@@ -8852,7 +9042,8 @@
         "design": "design-systems/mintlify/DESIGN.md",
         "tokens": "design-systems/mintlify/tokens.css",
         "preview": "design-systems/mintlify/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:miro",
@@ -8889,7 +9080,8 @@
         "design": "design-systems/miro/DESIGN.md",
         "tokens": "design-systems/miro/tokens.css",
         "preview": "design-systems/miro/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:mission-control",
@@ -8926,7 +9118,8 @@
         "design": "design-systems/mission-control/DESIGN.md",
         "tokens": "design-systems/mission-control/tokens.css",
         "preview": "design-systems/mission-control/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:mistral-ai",
@@ -8963,7 +9156,8 @@
         "design": "design-systems/mistral-ai/DESIGN.md",
         "tokens": "design-systems/mistral-ai/tokens.css",
         "preview": "design-systems/mistral-ai/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:modern",
@@ -9000,7 +9194,8 @@
         "design": "design-systems/modern/DESIGN.md",
         "tokens": "design-systems/modern/tokens.css",
         "preview": "design-systems/modern/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:mongodb",
@@ -9037,7 +9232,8 @@
         "design": "design-systems/mongodb/DESIGN.md",
         "tokens": "design-systems/mongodb/tokens.css",
         "preview": "design-systems/mongodb/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:mono",
@@ -9074,7 +9270,8 @@
         "design": "design-systems/mono/DESIGN.md",
         "tokens": "design-systems/mono/tokens.css",
         "preview": "design-systems/mono/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:mozilla-protocol",
@@ -9111,7 +9308,8 @@
         "design": "design-systems/mozilla-protocol/DESIGN.md",
         "tokens": "design-systems/mozilla-protocol/tokens.css",
         "preview": "design-systems/mozilla-protocol/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:neobrutalism",
@@ -9148,7 +9346,8 @@
         "design": "design-systems/neobrutalism/DESIGN.md",
         "tokens": "design-systems/neobrutalism/tokens.css",
         "preview": "design-systems/neobrutalism/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:neon",
@@ -9185,7 +9384,8 @@
         "design": "design-systems/neon/DESIGN.md",
         "tokens": "design-systems/neon/tokens.css",
         "preview": "design-systems/neon/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:neumorphism",
@@ -9222,7 +9422,8 @@
         "design": "design-systems/neumorphism/DESIGN.md",
         "tokens": "design-systems/neumorphism/tokens.css",
         "preview": "design-systems/neumorphism/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:nhs-design-system",
@@ -9259,7 +9460,8 @@
         "design": "design-systems/nhs-design-system/DESIGN.md",
         "tokens": "design-systems/nhs-design-system/tokens.css",
         "preview": "design-systems/nhs-design-system/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:nike",
@@ -9296,7 +9498,8 @@
         "design": "design-systems/nike/DESIGN.md",
         "tokens": "design-systems/nike/tokens.css",
         "preview": "design-systems/nike/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:notion",
@@ -9333,7 +9536,8 @@
         "design": "design-systems/notion/DESIGN.md",
         "tokens": "design-systems/notion/tokens.css",
         "preview": "design-systems/notion/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:nvidia",
@@ -9370,7 +9574,8 @@
         "design": "design-systems/nvidia/DESIGN.md",
         "tokens": "design-systems/nvidia/tokens.css",
         "preview": "design-systems/nvidia/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:ollama",
@@ -9407,7 +9612,8 @@
         "design": "design-systems/ollama/DESIGN.md",
         "tokens": "design-systems/ollama/tokens.css",
         "preview": "design-systems/ollama/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:openai",
@@ -9444,7 +9650,8 @@
         "design": "design-systems/openai/DESIGN.md",
         "tokens": "design-systems/openai/tokens.css",
         "preview": "design-systems/openai/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:opencode-ai",
@@ -9481,7 +9688,8 @@
         "design": "design-systems/opencode-ai/DESIGN.md",
         "tokens": "design-systems/opencode-ai/tokens.css",
         "preview": "design-systems/opencode-ai/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:pacman",
@@ -9518,7 +9726,8 @@
         "design": "design-systems/pacman/DESIGN.md",
         "tokens": "design-systems/pacman/tokens.css",
         "preview": "design-systems/pacman/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:palantir-blueprint",
@@ -9555,7 +9764,8 @@
         "design": "design-systems/palantir-blueprint/DESIGN.md",
         "tokens": "design-systems/palantir-blueprint/tokens.css",
         "preview": "design-systems/palantir-blueprint/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:paper",
@@ -9592,7 +9802,8 @@
         "design": "design-systems/paper/DESIGN.md",
         "tokens": "design-systems/paper/tokens.css",
         "preview": "design-systems/paper/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:perplexity",
@@ -9629,7 +9840,8 @@
         "design": "design-systems/perplexity/DESIGN.md",
         "tokens": "design-systems/perplexity/tokens.css",
         "preview": "design-systems/perplexity/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:perspective",
@@ -9666,7 +9878,8 @@
         "design": "design-systems/perspective/DESIGN.md",
         "tokens": "design-systems/perspective/tokens.css",
         "preview": "design-systems/perspective/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:pinterest",
@@ -9703,7 +9916,8 @@
         "design": "design-systems/pinterest/DESIGN.md",
         "tokens": "design-systems/pinterest/tokens.css",
         "preview": "design-systems/pinterest/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:pinterest-gestalt",
@@ -9740,7 +9954,8 @@
         "design": "design-systems/pinterest-gestalt/DESIGN.md",
         "tokens": "design-systems/pinterest-gestalt/tokens.css",
         "preview": "design-systems/pinterest-gestalt/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:playstation",
@@ -9777,7 +9992,8 @@
         "design": "design-systems/playstation/DESIGN.md",
         "tokens": "design-systems/playstation/tokens.css",
         "preview": "design-systems/playstation/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:posthog",
@@ -9814,7 +10030,8 @@
         "design": "design-systems/posthog/DESIGN.md",
         "tokens": "design-systems/posthog/tokens.css",
         "preview": "design-systems/posthog/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:premium",
@@ -9851,7 +10068,8 @@
         "design": "design-systems/premium/DESIGN.md",
         "tokens": "design-systems/premium/tokens.css",
         "preview": "design-systems/premium/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:professional",
@@ -9888,7 +10106,8 @@
         "design": "design-systems/professional/DESIGN.md",
         "tokens": "design-systems/professional/tokens.css",
         "preview": "design-systems/professional/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:publication",
@@ -9925,7 +10144,8 @@
         "design": "design-systems/publication/DESIGN.md",
         "tokens": "design-systems/publication/tokens.css",
         "preview": "design-systems/publication/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:raycast",
@@ -9962,7 +10182,8 @@
         "design": "design-systems/raycast/DESIGN.md",
         "tokens": "design-systems/raycast/tokens.css",
         "preview": "design-systems/raycast/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:refined",
@@ -9999,7 +10220,8 @@
         "design": "design-systems/refined/DESIGN.md",
         "tokens": "design-systems/refined/tokens.css",
         "preview": "design-systems/refined/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:renault",
@@ -10036,7 +10258,8 @@
         "design": "design-systems/renault/DESIGN.md",
         "tokens": "design-systems/renault/tokens.css",
         "preview": "design-systems/renault/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:replicate",
@@ -10073,7 +10296,8 @@
         "design": "design-systems/replicate/DESIGN.md",
         "tokens": "design-systems/replicate/tokens.css",
         "preview": "design-systems/replicate/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:resend",
@@ -10110,7 +10334,8 @@
         "design": "design-systems/resend/DESIGN.md",
         "tokens": "design-systems/resend/tokens.css",
         "preview": "design-systems/resend/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:retro",
@@ -10147,7 +10372,8 @@
         "design": "design-systems/retro/DESIGN.md",
         "tokens": "design-systems/retro/tokens.css",
         "preview": "design-systems/retro/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:revolut",
@@ -10184,7 +10410,8 @@
         "design": "design-systems/revolut/DESIGN.md",
         "tokens": "design-systems/revolut/tokens.css",
         "preview": "design-systems/revolut/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:runwayml",
@@ -10221,7 +10448,8 @@
         "design": "design-systems/runwayml/DESIGN.md",
         "tokens": "design-systems/runwayml/tokens.css",
         "preview": "design-systems/runwayml/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:salesforce-lightning",
@@ -10258,7 +10486,8 @@
         "design": "design-systems/salesforce-lightning/DESIGN.md",
         "tokens": "design-systems/salesforce-lightning/tokens.css",
         "preview": "design-systems/salesforce-lightning/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:sanity",
@@ -10295,7 +10524,8 @@
         "design": "design-systems/sanity/DESIGN.md",
         "tokens": "design-systems/sanity/tokens.css",
         "preview": "design-systems/sanity/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:sap-fiori",
@@ -10332,7 +10562,8 @@
         "design": "design-systems/sap-fiori/DESIGN.md",
         "tokens": "design-systems/sap-fiori/tokens.css",
         "preview": "design-systems/sap-fiori/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:sentry",
@@ -10369,7 +10600,8 @@
         "design": "design-systems/sentry/DESIGN.md",
         "tokens": "design-systems/sentry/tokens.css",
         "preview": "design-systems/sentry/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:servicenow-horizon",
@@ -10406,7 +10638,8 @@
         "design": "design-systems/servicenow-horizon/DESIGN.md",
         "tokens": "design-systems/servicenow-horizon/tokens.css",
         "preview": "design-systems/servicenow-horizon/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:shadcn",
@@ -10443,7 +10676,8 @@
         "design": "design-systems/shadcn/DESIGN.md",
         "tokens": "design-systems/shadcn/tokens.css",
         "preview": "design-systems/shadcn/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:shopify",
@@ -10480,7 +10714,8 @@
         "design": "design-systems/shopify/DESIGN.md",
         "tokens": "design-systems/shopify/tokens.css",
         "preview": "design-systems/shopify/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:simple",
@@ -10517,7 +10752,8 @@
         "design": "design-systems/simple/DESIGN.md",
         "tokens": "design-systems/simple/tokens.css",
         "preview": "design-systems/simple/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:skeumorphism",
@@ -10554,7 +10790,8 @@
         "design": "design-systems/skeumorphism/DESIGN.md",
         "tokens": "design-systems/skeumorphism/tokens.css",
         "preview": "design-systems/skeumorphism/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:slack",
@@ -10591,7 +10828,8 @@
         "design": "design-systems/slack/DESIGN.md",
         "tokens": "design-systems/slack/tokens.css",
         "preview": "design-systems/slack/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:sleek",
@@ -10628,7 +10866,8 @@
         "design": "design-systems/sleek/DESIGN.md",
         "tokens": "design-systems/sleek/tokens.css",
         "preview": "design-systems/sleek/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:spacex",
@@ -10665,7 +10904,8 @@
         "design": "design-systems/spacex/DESIGN.md",
         "tokens": "design-systems/spacex/tokens.css",
         "preview": "design-systems/spacex/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:spacious",
@@ -10702,7 +10942,8 @@
         "design": "design-systems/spacious/DESIGN.md",
         "tokens": "design-systems/spacious/tokens.css",
         "preview": "design-systems/spacious/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:spotify",
@@ -10739,7 +10980,8 @@
         "design": "design-systems/spotify/DESIGN.md",
         "tokens": "design-systems/spotify/tokens.css",
         "preview": "design-systems/spotify/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:starbucks",
@@ -10776,7 +11018,8 @@
         "design": "design-systems/starbucks/DESIGN.md",
         "tokens": "design-systems/starbucks/tokens.css",
         "preview": "design-systems/starbucks/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:storytelling",
@@ -10813,7 +11056,8 @@
         "design": "design-systems/storytelling/DESIGN.md",
         "tokens": "design-systems/storytelling/tokens.css",
         "preview": "design-systems/storytelling/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:stripe",
@@ -10850,7 +11094,8 @@
         "design": "design-systems/stripe/DESIGN.md",
         "tokens": "design-systems/stripe/tokens.css",
         "preview": "design-systems/stripe/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:supabase",
@@ -10887,7 +11132,8 @@
         "design": "design-systems/supabase/DESIGN.md",
         "tokens": "design-systems/supabase/tokens.css",
         "preview": "design-systems/supabase/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:superhuman",
@@ -10924,7 +11170,8 @@
         "design": "design-systems/superhuman/DESIGN.md",
         "tokens": "design-systems/superhuman/tokens.css",
         "preview": "design-systems/superhuman/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:tesla",
@@ -10961,7 +11208,8 @@
         "design": "design-systems/tesla/DESIGN.md",
         "tokens": "design-systems/tesla/tokens.css",
         "preview": "design-systems/tesla/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:tetris",
@@ -10998,7 +11246,8 @@
         "design": "design-systems/tetris/DESIGN.md",
         "tokens": "design-systems/tetris/tokens.css",
         "preview": "design-systems/tetris/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:theverge",
@@ -11035,7 +11284,8 @@
         "design": "design-systems/theverge/DESIGN.md",
         "tokens": "design-systems/theverge/tokens.css",
         "preview": "design-systems/theverge/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:together-ai",
@@ -11072,7 +11322,8 @@
         "design": "design-systems/together-ai/DESIGN.md",
         "tokens": "design-systems/together-ai/tokens.css",
         "preview": "design-systems/together-ai/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:totality-festival",
@@ -11109,7 +11360,8 @@
         "design": "design-systems/totality-festival/DESIGN.md",
         "tokens": "design-systems/totality-festival/tokens.css",
         "preview": "design-systems/totality-festival/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:trading-terminal",
@@ -11146,7 +11398,8 @@
         "design": "design-systems/trading-terminal/DESIGN.md",
         "tokens": "design-systems/trading-terminal/tokens.css",
         "preview": "design-systems/trading-terminal/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:twilio-paste",
@@ -11183,7 +11436,8 @@
         "design": "design-systems/twilio-paste/DESIGN.md",
         "tokens": "design-systems/twilio-paste/tokens.css",
         "preview": "design-systems/twilio-paste/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:uber",
@@ -11220,7 +11474,8 @@
         "design": "design-systems/uber/DESIGN.md",
         "tokens": "design-systems/uber/tokens.css",
         "preview": "design-systems/uber/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:urdu",
@@ -11257,7 +11512,8 @@
         "design": "design-systems/urdu/DESIGN.md",
         "tokens": "design-systems/urdu/tokens.css",
         "preview": "design-systems/urdu/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:us-web-design-system",
@@ -11294,7 +11550,8 @@
         "design": "design-systems/us-web-design-system/DESIGN.md",
         "tokens": "design-systems/us-web-design-system/tokens.css",
         "preview": "design-systems/us-web-design-system/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:vercel",
@@ -11331,7 +11588,8 @@
         "design": "design-systems/vercel/DESIGN.md",
         "tokens": "design-systems/vercel/tokens.css",
         "preview": "design-systems/vercel/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:vibrant",
@@ -11368,7 +11626,8 @@
         "design": "design-systems/vibrant/DESIGN.md",
         "tokens": "design-systems/vibrant/tokens.css",
         "preview": "design-systems/vibrant/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:vintage",
@@ -11405,7 +11664,8 @@
         "design": "design-systems/vintage/DESIGN.md",
         "tokens": "design-systems/vintage/tokens.css",
         "preview": "design-systems/vintage/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:vodafone",
@@ -11442,7 +11702,8 @@
         "design": "design-systems/vodafone/DESIGN.md",
         "tokens": "design-systems/vodafone/tokens.css",
         "preview": "design-systems/vodafone/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:voltagent",
@@ -11479,7 +11740,8 @@
         "design": "design-systems/voltagent/DESIGN.md",
         "tokens": "design-systems/voltagent/tokens.css",
         "preview": "design-systems/voltagent/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:warm-editorial",
@@ -11516,7 +11778,8 @@
         "design": "design-systems/warm-editorial/DESIGN.md",
         "tokens": "design-systems/warm-editorial/tokens.css",
         "preview": "design-systems/warm-editorial/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:warp",
@@ -11553,7 +11816,8 @@
         "design": "design-systems/warp/DESIGN.md",
         "tokens": "design-systems/warp/tokens.css",
         "preview": "design-systems/warp/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:webex",
@@ -11590,7 +11854,8 @@
         "design": "design-systems/webex/DESIGN.md",
         "tokens": "design-systems/webex/tokens.css",
         "preview": "design-systems/webex/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:webflow",
@@ -11627,7 +11892,8 @@
         "design": "design-systems/webflow/DESIGN.md",
         "tokens": "design-systems/webflow/tokens.css",
         "preview": "design-systems/webflow/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:wechat",
@@ -11664,7 +11930,8 @@
         "design": "design-systems/wechat/DESIGN.md",
         "tokens": "design-systems/wechat/tokens.css",
         "preview": "design-systems/wechat/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:wired",
@@ -11701,7 +11968,8 @@
         "design": "design-systems/wired/DESIGN.md",
         "tokens": "design-systems/wired/tokens.css",
         "preview": "design-systems/wired/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:wise",
@@ -11738,7 +12006,8 @@
         "design": "design-systems/wise/DESIGN.md",
         "tokens": "design-systems/wise/tokens.css",
         "preview": "design-systems/wise/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:workday-canvas",
@@ -11775,7 +12044,8 @@
         "design": "design-systems/workday-canvas/DESIGN.md",
         "tokens": "design-systems/workday-canvas/tokens.css",
         "preview": "design-systems/workday-canvas/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:x-ai",
@@ -11812,7 +12082,8 @@
         "design": "design-systems/x-ai/DESIGN.md",
         "tokens": "design-systems/x-ai/tokens.css",
         "preview": "design-systems/x-ai/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:xiaohongshu",
@@ -11849,7 +12120,8 @@
         "design": "design-systems/xiaohongshu/DESIGN.md",
         "tokens": "design-systems/xiaohongshu/tokens.css",
         "preview": "design-systems/xiaohongshu/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:zapier",
@@ -11886,7 +12158,8 @@
         "design": "design-systems/zapier/DESIGN.md",
         "tokens": "design-systems/zapier/tokens.css",
         "preview": "design-systems/zapier/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-system:zendesk-garden",
@@ -11923,7 +12196,8 @@
         "design": "design-systems/zendesk-garden/DESIGN.md",
         "tokens": "design-systems/zendesk-garden/tokens.css",
         "preview": "design-systems/zendesk-garden/components.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:animated-svg-logo-draw",
@@ -11963,7 +12237,8 @@
       "files": {
         "skill": "design-templates/animated-svg-logo-draw/SKILL.md",
         "preview": "design-templates/animated-svg-logo-draw/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:audio-jingle",
@@ -11996,7 +12271,8 @@
       "files": {
         "skill": "design-templates/audio-jingle/SKILL.md",
         "preview": "design-templates/audio-jingle/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:blog-post",
@@ -12029,7 +12305,8 @@
       "files": {
         "skill": "design-templates/blog-post/SKILL.md",
         "preview": "design-templates/blog-post/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:campaign-visual-projects",
@@ -12064,7 +12341,8 @@
       "files": {
         "skill": "design-templates/campaign-visual-projects/SKILL.md",
         "preview": "design-templates/campaign-visual-projects/example.html"
-      }
+      },
+      "previewScope": "collection"
     },
     {
       "id": "design-template:clinical-case-report",
@@ -12097,7 +12375,8 @@
       "files": {
         "skill": "design-templates/clinical-case-report/SKILL.md",
         "preview": "design-templates/clinical-case-report/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:commercial-product-launches",
@@ -12132,7 +12411,8 @@
       "files": {
         "skill": "design-templates/commercial-product-launches/SKILL.md",
         "preview": "design-templates/commercial-product-launches/example.html"
-      }
+      },
+      "previewScope": "collection"
     },
     {
       "id": "design-template:component-state-patterns",
@@ -12167,7 +12447,8 @@
       "files": {
         "skill": "design-templates/component-state-patterns/SKILL.md",
         "preview": "design-templates/component-state-patterns/example.html"
-      }
+      },
+      "previewScope": "collection"
     },
     {
       "id": "design-template:contact-widget",
@@ -12200,7 +12481,8 @@
       "files": {
         "skill": "design-templates/contact-widget/SKILL.md",
         "preview": "design-templates/contact-widget/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:critique",
@@ -12233,7 +12515,8 @@
       "files": {
         "skill": "design-templates/critique/SKILL.md",
         "preview": "design-templates/critique/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:dashboard",
@@ -12266,7 +12549,8 @@
       "files": {
         "skill": "design-templates/dashboard/SKILL.md",
         "preview": "design-templates/dashboard/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:data-visualization-projects",
@@ -12301,7 +12585,8 @@
       "files": {
         "skill": "design-templates/data-visualization-projects/SKILL.md",
         "preview": "design-templates/data-visualization-projects/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:dating-web",
@@ -12334,7 +12619,8 @@
       "files": {
         "skill": "design-templates/dating-web/SKILL.md",
         "preview": "design-templates/dating-web/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:dcf-valuation",
@@ -12367,7 +12653,8 @@
       "files": {
         "skill": "design-templates/dcf-valuation/SKILL.md",
         "preview": "design-templates/dcf-valuation/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:digital-eguide",
@@ -12400,7 +12687,8 @@
       "files": {
         "skill": "design-templates/digital-eguide/SKILL.md",
         "preview": "design-templates/digital-eguide/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:docs-page",
@@ -12433,7 +12721,8 @@
       "files": {
         "skill": "design-templates/docs-page/SKILL.md",
         "preview": "design-templates/docs-page/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:editorial-magazine-projects",
@@ -12468,7 +12757,8 @@
       "files": {
         "skill": "design-templates/editorial-magazine-projects/SKILL.md",
         "preview": "design-templates/editorial-magazine-projects/example.html"
-      }
+      },
+      "previewScope": "collection"
     },
     {
       "id": "design-template:email-marketing",
@@ -12501,7 +12791,8 @@
       "files": {
         "skill": "design-templates/email-marketing/SKILL.md",
         "preview": "design-templates/email-marketing/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:eng-runbook",
@@ -12534,7 +12825,8 @@
       "files": {
         "skill": "design-templates/eng-runbook/SKILL.md",
         "preview": "design-templates/eng-runbook/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:finance-report",
@@ -12567,7 +12859,8 @@
       "files": {
         "skill": "design-templates/finance-report/SKILL.md",
         "preview": "design-templates/finance-report/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:flowai-live-dashboard-template",
@@ -12600,7 +12893,8 @@
       "files": {
         "skill": "design-templates/flowai-live-dashboard-template/SKILL.md",
         "preview": "design-templates/flowai-live-dashboard-template/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:gamified-app",
@@ -12633,7 +12927,8 @@
       "files": {
         "skill": "design-templates/gamified-app/SKILL.md",
         "preview": "design-templates/gamified-app/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:github-dashboard",
@@ -12666,7 +12961,8 @@
       "files": {
         "skill": "design-templates/github-dashboard/SKILL.md",
         "preview": "design-templates/github-dashboard/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:guizang-ppt",
@@ -12699,7 +12995,8 @@
       "files": {
         "skill": "design-templates/guizang-ppt/SKILL.md",
         "preview": "design-templates/guizang-ppt/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:hr-onboarding",
@@ -12732,7 +13029,8 @@
       "files": {
         "skill": "design-templates/hr-onboarding/SKILL.md",
         "preview": "design-templates/hr-onboarding/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt",
@@ -12765,7 +13063,8 @@
       "files": {
         "skill": "design-templates/html-ppt/SKILL.md",
         "preview": "design-templates/html-ppt/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-course-module",
@@ -12798,7 +13097,8 @@
       "files": {
         "skill": "design-templates/html-ppt-course-module/SKILL.md",
         "preview": "design-templates/html-ppt-course-module/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-dir-key-nav-minimal",
@@ -12831,7 +13131,8 @@
       "files": {
         "skill": "design-templates/html-ppt-dir-key-nav-minimal/SKILL.md",
         "preview": "design-templates/html-ppt-dir-key-nav-minimal/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-graphify-dark-graph",
@@ -12864,7 +13165,8 @@
       "files": {
         "skill": "design-templates/html-ppt-graphify-dark-graph/SKILL.md",
         "preview": "design-templates/html-ppt-graphify-dark-graph/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-hermes-cyber-terminal",
@@ -12897,7 +13199,8 @@
       "files": {
         "skill": "design-templates/html-ppt-hermes-cyber-terminal/SKILL.md",
         "preview": "design-templates/html-ppt-hermes-cyber-terminal/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-knowledge-arch-blueprint",
@@ -12930,7 +13233,8 @@
       "files": {
         "skill": "design-templates/html-ppt-knowledge-arch-blueprint/SKILL.md",
         "preview": "design-templates/html-ppt-knowledge-arch-blueprint/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-obsidian-claude-gradient",
@@ -12963,7 +13267,8 @@
       "files": {
         "skill": "design-templates/html-ppt-obsidian-claude-gradient/SKILL.md",
         "preview": "design-templates/html-ppt-obsidian-claude-gradient/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-pitch-deck",
@@ -12996,7 +13301,8 @@
       "files": {
         "skill": "design-templates/html-ppt-pitch-deck/SKILL.md",
         "preview": "design-templates/html-ppt-pitch-deck/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-presenter-mode-reveal",
@@ -13029,7 +13335,8 @@
       "files": {
         "skill": "design-templates/html-ppt-presenter-mode-reveal/SKILL.md",
         "preview": "design-templates/html-ppt-presenter-mode-reveal/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-product-launch",
@@ -13062,7 +13369,8 @@
       "files": {
         "skill": "design-templates/html-ppt-product-launch/SKILL.md",
         "preview": "design-templates/html-ppt-product-launch/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-taste-brutalist",
@@ -13095,7 +13403,8 @@
       "files": {
         "skill": "design-templates/html-ppt-taste-brutalist/SKILL.md",
         "preview": "design-templates/html-ppt-taste-brutalist/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-taste-editorial",
@@ -13128,7 +13437,8 @@
       "files": {
         "skill": "design-templates/html-ppt-taste-editorial/SKILL.md",
         "preview": "design-templates/html-ppt-taste-editorial/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-tech-sharing",
@@ -13161,7 +13471,8 @@
       "files": {
         "skill": "design-templates/html-ppt-tech-sharing/SKILL.md",
         "preview": "design-templates/html-ppt-tech-sharing/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-testing-safety-alert",
@@ -13194,7 +13505,8 @@
       "files": {
         "skill": "design-templates/html-ppt-testing-safety-alert/SKILL.md",
         "preview": "design-templates/html-ppt-testing-safety-alert/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-weekly-report",
@@ -13227,7 +13539,8 @@
       "files": {
         "skill": "design-templates/html-ppt-weekly-report/SKILL.md",
         "preview": "design-templates/html-ppt-weekly-report/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-xhs-pastel-card",
@@ -13260,7 +13573,8 @@
       "files": {
         "skill": "design-templates/html-ppt-xhs-pastel-card/SKILL.md",
         "preview": "design-templates/html-ppt-xhs-pastel-card/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-xhs-post",
@@ -13293,7 +13607,8 @@
       "files": {
         "skill": "design-templates/html-ppt-xhs-post/SKILL.md",
         "preview": "design-templates/html-ppt-xhs-post/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-xhs-white-editorial",
@@ -13326,7 +13641,8 @@
       "files": {
         "skill": "design-templates/html-ppt-xhs-white-editorial/SKILL.md",
         "preview": "design-templates/html-ppt-xhs-white-editorial/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-8-bit-orbit",
@@ -13359,7 +13675,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-8-bit-orbit/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-8-bit-orbit/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-biennale-yellow",
@@ -13392,7 +13709,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-biennale-yellow/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-biennale-yellow/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-block-frame",
@@ -13425,7 +13743,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-block-frame/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-block-frame/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-blue-professional",
@@ -13458,7 +13777,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-blue-professional/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-blue-professional/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-bold-poster",
@@ -13491,7 +13811,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-bold-poster/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-bold-poster/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-broadside",
@@ -13524,7 +13845,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-broadside/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-broadside/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-capsule",
@@ -13557,7 +13879,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-capsule/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-capsule/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-cartesian",
@@ -13590,7 +13913,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-cartesian/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-cartesian/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-cobalt-grid",
@@ -13623,7 +13947,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-cobalt-grid/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-cobalt-grid/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-coral",
@@ -13656,7 +13981,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-coral/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-coral/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-creative-mode",
@@ -13689,7 +14015,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-creative-mode/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-creative-mode/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-daisy-days",
@@ -13722,7 +14049,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-daisy-days/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-daisy-days/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-editorial-tri-tone",
@@ -13755,7 +14083,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-editorial-tri-tone/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-editorial-tri-tone/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-grove",
@@ -13788,7 +14117,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-grove/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-grove/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-long-table",
@@ -13821,7 +14151,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-long-table/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-long-table/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-mat",
@@ -13854,7 +14185,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-mat/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-mat/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-monochrome",
@@ -13887,7 +14219,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-monochrome/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-monochrome/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-neo-grid-bold",
@@ -13920,7 +14253,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-neo-grid-bold/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-neo-grid-bold/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-peoples-platform",
@@ -13953,7 +14287,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-peoples-platform/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-peoples-platform/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-pin-and-paper",
@@ -13986,7 +14321,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-pin-and-paper/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-pin-and-paper/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-pink-script",
@@ -14019,7 +14355,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-pink-script/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-pink-script/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-playful",
@@ -14052,7 +14389,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-playful/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-playful/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-raw-grid",
@@ -14085,7 +14423,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-raw-grid/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-raw-grid/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-retro-windows",
@@ -14118,7 +14457,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-retro-windows/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-retro-windows/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-retro-zine",
@@ -14151,7 +14491,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-retro-zine/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-retro-zine/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-sakura-chroma",
@@ -14184,7 +14525,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-sakura-chroma/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-sakura-chroma/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-scatterbrain",
@@ -14217,7 +14559,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-scatterbrain/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-scatterbrain/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-signal",
@@ -14250,7 +14593,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-signal/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-signal/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-soft-editorial",
@@ -14283,7 +14627,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-soft-editorial/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-soft-editorial/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-stencil-tablet",
@@ -14316,7 +14661,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-stencil-tablet/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-stencil-tablet/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-studio",
@@ -14349,7 +14695,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-studio/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-studio/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:html-ppt-zhangzara-vellum",
@@ -14382,7 +14729,8 @@
       "files": {
         "skill": "design-templates/html-ppt-zhangzara-vellum/SKILL.md",
         "preview": "design-templates/html-ppt-zhangzara-vellum/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:hyperframes",
@@ -14415,7 +14763,8 @@
       "files": {
         "skill": "design-templates/hyperframes/SKILL.md",
         "preview": "design-templates/hyperframes/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:ib-pitch-book",
@@ -14448,7 +14797,8 @@
       "files": {
         "skill": "design-templates/ib-pitch-book/SKILL.md",
         "preview": "design-templates/ib-pitch-book/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:image-poster",
@@ -14481,7 +14831,8 @@
       "files": {
         "skill": "design-templates/image-poster/SKILL.md",
         "preview": "design-templates/image-poster/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:invoice",
@@ -14514,7 +14865,8 @@
       "files": {
         "skill": "design-templates/invoice/SKILL.md",
         "preview": "design-templates/invoice/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:kami-deck",
@@ -14549,7 +14901,8 @@
       "files": {
         "skill": "design-templates/kami-deck/SKILL.md",
         "preview": "design-templates/kami-deck/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:kami-landing",
@@ -14584,7 +14937,8 @@
       "files": {
         "skill": "design-templates/kami-landing/SKILL.md",
         "preview": "design-templates/kami-landing/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:kanban-board",
@@ -14617,7 +14971,8 @@
       "files": {
         "skill": "design-templates/kanban-board/SKILL.md",
         "preview": "design-templates/kanban-board/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:last30days",
@@ -14650,7 +15005,8 @@
       "files": {
         "skill": "design-templates/last30days/SKILL.md",
         "preview": "design-templates/last30days/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:live-artifact",
@@ -14683,7 +15039,8 @@
       "files": {
         "skill": "design-templates/live-artifact/SKILL.md",
         "preview": "design-templates/live-artifact/examples/baby-health-live.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:live-dashboard",
@@ -14716,7 +15073,8 @@
       "files": {
         "skill": "design-templates/live-dashboard/SKILL.md",
         "preview": "design-templates/live-dashboard/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:magazine-poster",
@@ -14749,7 +15107,8 @@
       "files": {
         "skill": "design-templates/magazine-poster/SKILL.md",
         "preview": "design-templates/magazine-poster/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:meeting-notes",
@@ -14782,7 +15141,8 @@
       "files": {
         "skill": "design-templates/meeting-notes/SKILL.md",
         "preview": "design-templates/meeting-notes/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:mobile-app",
@@ -14815,7 +15175,8 @@
       "files": {
         "skill": "design-templates/mobile-app/SKILL.md",
         "preview": "design-templates/mobile-app/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:mobile-app-flow-projects",
@@ -14850,7 +15211,8 @@
       "files": {
         "skill": "design-templates/mobile-app-flow-projects/SKILL.md",
         "preview": "design-templates/mobile-app-flow-projects/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:mobile-onboarding",
@@ -14883,7 +15245,8 @@
       "files": {
         "skill": "design-templates/mobile-onboarding/SKILL.md",
         "preview": "design-templates/mobile-onboarding/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:motion-frames",
@@ -14916,7 +15279,8 @@
       "files": {
         "skill": "design-templates/motion-frames/SKILL.md",
         "preview": "design-templates/motion-frames/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:motion-interaction-projects",
@@ -14951,7 +15315,8 @@
       "files": {
         "skill": "design-templates/motion-interaction-projects/SKILL.md",
         "preview": "design-templates/motion-interaction-projects/example.html"
-      }
+      },
+      "previewScope": "collection"
     },
     {
       "id": "design-template:open-design-landing",
@@ -14986,7 +15351,8 @@
       "files": {
         "skill": "design-templates/open-design-landing/SKILL.md",
         "preview": "design-templates/open-design-landing/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:open-design-landing-deck",
@@ -15021,7 +15387,8 @@
       "files": {
         "skill": "design-templates/open-design-landing-deck/SKILL.md",
         "preview": "design-templates/open-design-landing-deck/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:orbit-general",
@@ -15054,7 +15421,8 @@
       "files": {
         "skill": "design-templates/orbit-general/SKILL.md",
         "preview": "design-templates/orbit-general/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:orbit-github",
@@ -15087,7 +15455,8 @@
       "files": {
         "skill": "design-templates/orbit-github/SKILL.md",
         "preview": "design-templates/orbit-github/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:orbit-gmail",
@@ -15120,7 +15489,8 @@
       "files": {
         "skill": "design-templates/orbit-gmail/SKILL.md",
         "preview": "design-templates/orbit-gmail/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:orbit-linear",
@@ -15153,7 +15523,8 @@
       "files": {
         "skill": "design-templates/orbit-linear/SKILL.md",
         "preview": "design-templates/orbit-linear/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:orbit-notion",
@@ -15186,7 +15557,8 @@
       "files": {
         "skill": "design-templates/orbit-notion/SKILL.md",
         "preview": "design-templates/orbit-notion/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:personal-blog-projects",
@@ -15221,7 +15593,8 @@
       "files": {
         "skill": "design-templates/personal-blog-projects/SKILL.md",
         "preview": "design-templates/personal-blog-projects/example.html"
-      }
+      },
+      "previewScope": "collection"
     },
     {
       "id": "design-template:pm-spec",
@@ -15254,7 +15627,8 @@
       "files": {
         "skill": "design-templates/pm-spec/SKILL.md",
         "preview": "design-templates/pm-spec/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:poster-projects",
@@ -15289,7 +15663,8 @@
       "files": {
         "skill": "design-templates/poster-projects/SKILL.md",
         "preview": "design-templates/poster-projects/example.html"
-      }
+      },
+      "previewScope": "collection"
     },
     {
       "id": "design-template:pricing-page",
@@ -15322,7 +15697,8 @@
       "files": {
         "skill": "design-templates/pricing-page/SKILL.md",
         "preview": "design-templates/pricing-page/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:product-ui-projects",
@@ -15357,7 +15733,8 @@
       "files": {
         "skill": "design-templates/product-ui-projects/SKILL.md",
         "preview": "design-templates/product-ui-projects/example.html"
-      }
+      },
+      "previewScope": "collection"
     },
     {
       "id": "design-template:replit-deck",
@@ -15390,7 +15767,8 @@
       "files": {
         "skill": "design-templates/replit-deck/SKILL.md",
         "preview": "design-templates/replit-deck/examples/example-atlas.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-academic-cv-lite",
@@ -15427,7 +15805,8 @@
       "files": {
         "skill": "design-templates/resume-academic-cv-lite/SKILL.md",
         "preview": "design-templates/resume-academic-cv-lite/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-architect-sheet",
@@ -15466,7 +15845,8 @@
       "files": {
         "skill": "design-templates/resume-architect-sheet/SKILL.md",
         "preview": "design-templates/resume-architect-sheet/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-ats-clean",
@@ -15503,7 +15883,8 @@
       "files": {
         "skill": "design-templates/resume-ats-clean/SKILL.md",
         "preview": "design-templates/resume-ats-clean/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-awesome-cv",
@@ -15540,7 +15921,8 @@
       "files": {
         "skill": "design-templates/resume-awesome-cv/SKILL.md",
         "preview": "design-templates/resume-awesome-cv/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-awwwards-scroll-story",
@@ -15579,7 +15961,8 @@
       "files": {
         "skill": "design-templates/resume-awwwards-scroll-story/SKILL.md",
         "preview": "design-templates/resume-awwwards-scroll-story/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-brutalist-grid",
@@ -15618,7 +16001,8 @@
       "files": {
         "skill": "design-templates/resume-brutalist-grid/SKILL.md",
         "preview": "design-templates/resume-brutalist-grid/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-canva-editorial",
@@ -15655,7 +16039,8 @@
       "files": {
         "skill": "design-templates/resume-canva-editorial/SKILL.md",
         "preview": "design-templates/resume-canva-editorial/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-cn-bilingual-ats",
@@ -15692,7 +16077,8 @@
       "files": {
         "skill": "design-templates/resume-cn-bilingual-ats/SKILL.md",
         "preview": "design-templates/resume-cn-bilingual-ats/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-cn-campus-intern",
@@ -15729,7 +16115,8 @@
       "files": {
         "skill": "design-templates/resume-cn-campus-intern/SKILL.md",
         "preview": "design-templates/resume-cn-campus-intern/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-cn-editorial-bilingual",
@@ -15768,7 +16155,8 @@
       "files": {
         "skill": "design-templates/resume-cn-editorial-bilingual/SKILL.md",
         "preview": "design-templates/resume-cn-editorial-bilingual/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-cn-markdown-minimal",
@@ -15805,7 +16193,8 @@
       "files": {
         "skill": "design-templates/resume-cn-markdown-minimal/SKILL.md",
         "preview": "design-templates/resume-cn-markdown-minimal/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-cn-photo-sidebar",
@@ -15842,7 +16231,8 @@
       "files": {
         "skill": "design-templates/resume-cn-photo-sidebar/SKILL.md",
         "preview": "design-templates/resume-cn-photo-sidebar/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-cn-social-recruit",
@@ -15879,7 +16269,8 @@
       "files": {
         "skill": "design-templates/resume-cn-social-recruit/SKILL.md",
         "preview": "design-templates/resume-cn-social-recruit/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-creative-studio",
@@ -15916,7 +16307,8 @@
       "files": {
         "skill": "design-templates/resume-creative-studio/SKILL.md",
         "preview": "design-templates/resume-creative-studio/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-developer-mono",
@@ -15953,7 +16345,8 @@
       "files": {
         "skill": "design-templates/resume-developer-mono/SKILL.md",
         "preview": "design-templates/resume-developer-mono/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-editorial-magazine-spread",
@@ -15992,7 +16385,8 @@
       "files": {
         "skill": "design-templates/resume-editorial-magazine-spread/SKILL.md",
         "preview": "design-templates/resume-editorial-magazine-spread/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-enhancv-impact",
@@ -16029,7 +16423,8 @@
       "files": {
         "skill": "design-templates/resume-enhancv-impact/SKILL.md",
         "preview": "design-templates/resume-enhancv-impact/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-executive-slate",
@@ -16066,7 +16461,8 @@
       "files": {
         "skill": "design-templates/resume-executive-slate/SKILL.md",
         "preview": "design-templates/resume-executive-slate/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-fashion-lookbook",
@@ -16105,7 +16501,8 @@
       "files": {
         "skill": "design-templates/resume-fashion-lookbook/SKILL.md",
         "preview": "design-templates/resume-fashion-lookbook/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-flowcv-structured",
@@ -16142,7 +16539,8 @@
       "files": {
         "skill": "design-templates/resume-flowcv-structured/SKILL.md",
         "preview": "design-templates/resume-flowcv-structured/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-founder-onepager",
@@ -16181,7 +16579,8 @@
       "files": {
         "skill": "design-templates/resume-founder-onepager/SKILL.md",
         "preview": "design-templates/resume-founder-onepager/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-infographic-map",
@@ -16220,7 +16619,8 @@
       "files": {
         "skill": "design-templates/resume-infographic-map/SKILL.md",
         "preview": "design-templates/resume-infographic-map/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-json-flat",
@@ -16257,7 +16657,8 @@
       "files": {
         "skill": "design-templates/resume-json-flat/SKILL.md",
         "preview": "design-templates/resume-json-flat/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-kickresume-typographic",
@@ -16294,7 +16695,8 @@
       "files": {
         "skill": "design-templates/resume-kickresume-typographic/SKILL.md",
         "preview": "design-templates/resume-kickresume-typographic/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-markdown-compact",
@@ -16331,7 +16733,8 @@
       "files": {
         "skill": "design-templates/resume-markdown-compact/SKILL.md",
         "preview": "design-templates/resume-markdown-compact/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-motion-reel-cv",
@@ -16370,7 +16773,8 @@
       "files": {
         "skill": "design-templates/resume-motion-reel-cv/SKILL.md",
         "preview": "design-templates/resume-motion-reel-cv/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-neo-brutalist-lime",
@@ -16409,7 +16813,8 @@
       "files": {
         "skill": "design-templates/resume-neo-brutalist-lime/SKILL.md",
         "preview": "design-templates/resume-neo-brutalist-lime/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-novoresume-one-page",
@@ -16446,7 +16851,8 @@
       "files": {
         "skill": "design-templates/resume-novoresume-one-page/SKILL.md",
         "preview": "design-templates/resume-novoresume-one-page/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-portfolio-casebook",
@@ -16485,7 +16891,8 @@
       "files": {
         "skill": "design-templates/resume-portfolio-casebook/SKILL.md",
         "preview": "design-templates/resume-portfolio-casebook/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-product-designer-case-study",
@@ -16524,7 +16931,8 @@
       "files": {
         "skill": "design-templates/resume-product-designer-case-study/SKILL.md",
         "preview": "design-templates/resume-product-designer-case-study/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-reactive-classic",
@@ -16561,7 +16969,8 @@
       "files": {
         "skill": "design-templates/resume-reactive-classic/SKILL.md",
         "preview": "design-templates/resume-reactive-classic/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-readcv-web-minimal",
@@ -16600,7 +17009,8 @@
       "files": {
         "skill": "design-templates/resume-readcv-web-minimal/SKILL.md",
         "preview": "design-templates/resume-readcv-web-minimal/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-trifold-brochure",
@@ -16639,7 +17049,8 @@
       "files": {
         "skill": "design-templates/resume-trifold-brochure/SKILL.md",
         "preview": "design-templates/resume-trifold-brochure/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-two-column-deedy",
@@ -16676,7 +17087,8 @@
       "files": {
         "skill": "design-templates/resume-two-column-deedy/SKILL.md",
         "preview": "design-templates/resume-two-column-deedy/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-typographic-poster",
@@ -16715,7 +17127,8 @@
       "files": {
         "skill": "design-templates/resume-typographic-poster/SKILL.md",
         "preview": "design-templates/resume-typographic-poster/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:resume-zine-collage",
@@ -16754,7 +17167,8 @@
       "files": {
         "skill": "design-templates/resume-zine-collage/SKILL.md",
         "preview": "design-templates/resume-zine-collage/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:saas-landing",
@@ -16787,7 +17201,8 @@
       "files": {
         "skill": "design-templates/saas-landing/SKILL.md",
         "preview": "design-templates/saas-landing/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:scroll-progress-nav",
@@ -16827,7 +17242,8 @@
       "files": {
         "skill": "design-templates/scroll-progress-nav/SKILL.md",
         "preview": "design-templates/scroll-progress-nav/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:simple-deck",
@@ -16860,7 +17276,8 @@
       "files": {
         "skill": "design-templates/simple-deck/SKILL.md",
         "preview": "design-templates/simple-deck/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:social-carousel",
@@ -16893,7 +17310,8 @@
       "files": {
         "skill": "design-templates/social-carousel/SKILL.md",
         "preview": "design-templates/social-carousel/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:social-media-dashboard",
@@ -16926,7 +17344,8 @@
       "files": {
         "skill": "design-templates/social-media-dashboard/SKILL.md",
         "preview": "design-templates/social-media-dashboard/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:social-media-matrix-tracker-template",
@@ -16959,7 +17378,8 @@
       "files": {
         "skill": "design-templates/social-media-matrix-tracker-template/SKILL.md",
         "preview": "design-templates/social-media-matrix-tracker-template/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:sprite-animation",
@@ -16992,7 +17412,8 @@
       "files": {
         "skill": "design-templates/sprite-animation/SKILL.md",
         "preview": "design-templates/sprite-animation/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:team-okrs",
@@ -17025,7 +17446,8 @@
       "files": {
         "skill": "design-templates/team-okrs/SKILL.md",
         "preview": "design-templates/team-okrs/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:trading-analysis-dashboard-template",
@@ -17058,7 +17480,8 @@
       "files": {
         "skill": "design-templates/trading-analysis-dashboard-template/SKILL.md",
         "preview": "design-templates/trading-analysis-dashboard-template/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:tweaks",
@@ -17091,7 +17514,8 @@
       "files": {
         "skill": "design-templates/tweaks/SKILL.md",
         "preview": "design-templates/tweaks/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:video-shortform",
@@ -17124,7 +17548,8 @@
       "files": {
         "skill": "design-templates/video-shortform/SKILL.md",
         "preview": "design-templates/video-shortform/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:waitlist-page",
@@ -17157,7 +17582,8 @@
       "files": {
         "skill": "design-templates/waitlist-page/SKILL.md",
         "preview": "design-templates/waitlist-page/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:web-prototype",
@@ -17190,7 +17616,8 @@
       "files": {
         "skill": "design-templates/web-prototype/SKILL.md",
         "preview": "design-templates/web-prototype/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:web-prototype-taste-brutalist",
@@ -17223,7 +17650,8 @@
       "files": {
         "skill": "design-templates/web-prototype-taste-brutalist/SKILL.md",
         "preview": "design-templates/web-prototype-taste-brutalist/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:web-prototype-taste-editorial",
@@ -17256,7 +17684,8 @@
       "files": {
         "skill": "design-templates/web-prototype-taste-editorial/SKILL.md",
         "preview": "design-templates/web-prototype-taste-editorial/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:web-prototype-taste-soft",
@@ -17289,7 +17718,8 @@
       "files": {
         "skill": "design-templates/web-prototype-taste-soft/SKILL.md",
         "preview": "design-templates/web-prototype-taste-soft/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:weekly-update",
@@ -17322,7 +17752,8 @@
       "files": {
         "skill": "design-templates/weekly-update/SKILL.md",
         "preview": "design-templates/weekly-update/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:wireframe-sketch",
@@ -17355,7 +17786,8 @@
       "files": {
         "skill": "design-templates/wireframe-sketch/SKILL.md",
         "preview": "design-templates/wireframe-sketch/example.html"
-      }
+      },
+      "previewScope": "asset"
     },
     {
       "id": "design-template:x-research",
@@ -17388,7 +17820,8 @@
       "files": {
         "skill": "design-templates/x-research/SKILL.md",
         "preview": "design-templates/x-research/example.html"
-      }
+      },
+      "previewScope": "asset"
     }
   ]
 }
