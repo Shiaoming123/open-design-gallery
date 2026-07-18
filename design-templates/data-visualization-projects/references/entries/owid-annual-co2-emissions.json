@@ -1,0 +1,69 @@
+{
+  "id": "owid-annual-co2-emissions",
+  "status": "accepted",
+  "project": {
+    "name": "Annual CO₂ emissions — Our World in Data",
+    "url": "https://ourworldindata.org/grapher/annual-co2-emissions-per-country"
+  },
+  "why": "A single first-party indicator presents the same country-by-year data as a comparison line chart, choropleth map, ranked bars, and table. It is a concise reference for selecting a view based on the user's question while keeping the underlying data and controls consistent.",
+  "dataShape": "Country and region annual-emissions time series, with selectable entities and a selected-year ranking.",
+  "hierarchy": [
+    {
+      "level": "time",
+      "evidence": "The chart covers annual observations from 1750 through 2024 and lets the reader select a year or time range."
+    },
+    {
+      "level": "geography",
+      "evidence": "Countries and regions can be searched, added, removed, compared, and ranked."
+    }
+  ],
+  "encodings": [
+    {
+      "view": "line comparison",
+      "mapping": "Year is the horizontal axis, annual emissions in tonnes are the vertical axis, and color distinguishes selected entities."
+    },
+    {
+      "view": "map",
+      "mapping": "Geography identifies the entity and sequential color communicates emissions magnitude for the selected year."
+    },
+    {
+      "view": "bar and table",
+      "mapping": "Entities are ranked for the selected year with numeric values available in the table."
+    }
+  ],
+  "interactions": [
+    {
+      "pattern": "View switching",
+      "evidence": "The official chart offers chart, map, table, and bar presentations for the same indicator."
+    },
+    {
+      "pattern": "Entity comparison",
+      "evidence": "Readers can search for and add or remove countries and regions from a comparison set."
+    },
+    {
+      "pattern": "Data access",
+      "evidence": "The chart provides downloadable data and metadata alongside the interactive views."
+    }
+  ],
+  "accessibility": [
+    {
+      "topic": "Non-visual data access",
+      "evidence": "The official table view and downloadable CSV and metadata provide data alternatives to the graphical views."
+    },
+    {
+      "topic": "Reusable implementation guidance",
+      "evidence": "When adapting this pattern, label view tabs and controls semantically and retain the table alternative rather than relying on color alone."
+    }
+  ],
+  "capture": {
+    "date": "2026-07-15",
+    "sourceLinks": [
+      "https://ourworldindata.org/grapher/annual-co2-emissions-per-country",
+      "https://ourworldindata.org/grapher/annual-co2-emissions-per-country.metadata.json",
+      "https://ourworldindata.org/co2-emissions-metrics"
+    ],
+    "attribution": "Our World in Data; data attribution on the chart is Global Carbon Budget (2025), with major processing by Our World in Data.",
+    "reusePolicy": "inspiration-only — distill the observed multi-view, comparison, and data-access patterns without copying chart artwork. OWID-produced material is CC BY with attribution requirements; underlying third-party data remains subject to its provider terms.",
+    "captureDepth": "single-chart-multiview"
+  }
+}

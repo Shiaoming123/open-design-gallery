@@ -1579,6 +1579,58 @@
       "previewScope": "shared-collection"
     },
     {
+      "id": "data-visualization-projects:owid-annual-co2-emissions",
+      "kind": "case-study",
+      "title": "Annual CO₂ emissions — Our World in Data",
+      "summary": "A single first-party indicator presents the same country-by-year data as a comparison line chart, choropleth map, ranked bars, and table. It is a concise reference for selecting a view based on the user's question while keeping the underlying data and control…",
+      "sourcePath": "design-templates/data-visualization-projects/references/entries/owid-annual-co2-emissions.json",
+      "previewPath": "design-templates/data-visualization-projects/example.html",
+      "tags": [
+        "data-visualization-projects",
+        "single-chart-multiview"
+      ],
+      "useCases": [
+        "data visualization projects"
+      ],
+      "userWords": [
+        "A single first-party indicator presents the same country-by-year data as a comparison line chart, choropleth map, ranked bars, and table. It is a concise reference for selecting a view based on the user's question while keeping the underlying data and control…"
+      ],
+      "visualTraits": [
+        "Annual CO₂ emissions — Our World in Data",
+        "https://ourworldindata.org/grapher/annual-co2-emissions-per-country",
+        "View switching",
+        "The official chart offers chart, map, table, and bar presentations for the same indicator.",
+        "Entity comparison",
+        "Readers can search for and add or remove countries and regions from a comparison set.",
+        "Data access",
+        "The chart provides downloadable data and metadata alongside the interactive views."
+      ],
+      "roles": [
+        "case-reference",
+        "data-visualization-projects-reference"
+      ],
+      "sourcePolicy": "inspiration-only — distill the observed multi-view, comparison, and data-access patterns without copying chart artwork. OWID-produced material is CC BY with attribution requirements; underlying third-party data remains subject to its provider terms.",
+      "libraryId": "data-visualization-projects",
+      "status": "accepted",
+      "captureDepth": "single-chart-multiview",
+      "sourceUrls": [
+        "https://ourworldindata.org/grapher/annual-co2-emissions-per-country",
+        "https://ourworldindata.org/grapher/annual-co2-emissions-per-country.metadata.json",
+        "https://ourworldindata.org/co2-emissions-metrics"
+      ],
+      "sourceUrlHashes": [
+        "1891570c53695962",
+        "cf17b7acd692480a",
+        "cafcfd776dce51a6"
+      ],
+      "files": {
+        "catalog": "design-templates/data-visualization-projects/references/catalog.json",
+        "source": "design-templates/data-visualization-projects/references/entries/owid-annual-co2-emissions.json",
+        "preview": "design-templates/data-visualization-projects/example.html"
+      },
+      "previewScope": "shared-collection"
+    },
+    {
       "id": "editorial-magazine-projects:brooklyn-rail-anthropophagy-issue-editorial-design",
       "kind": "case-study",
       "title": "Brooklyn Rail: Only Anthropophagy Unites Us?",
@@ -12586,7 +12638,7 @@
         "skill": "design-templates/data-visualization-projects/SKILL.md",
         "preview": "design-templates/data-visualization-projects/example.html"
       },
-      "previewScope": "asset"
+      "previewScope": "collection"
     },
     {
       "id": "design-template:dating-web",

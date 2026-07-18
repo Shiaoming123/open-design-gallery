@@ -6,5 +6,7 @@
     "dataShapes": ["time-series", "distribution", "ranking", "network", "geospatial", "part-to-whole"],
     "views": ["entries", "hierarchy", "encodings", "interactions", "accessibility"]
   },
-  "entryFiles": []
+  "entryFiles": [
+    "entries/owid-annual-co2-emissions.json"
+  ]
 }

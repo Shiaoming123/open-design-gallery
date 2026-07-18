@@ -2,10 +2,10 @@
   "schemaVersion": "od-agent-context/v2",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "totals": {
-    "assets": 433,
+    "assets": 434,
     "libraries": 12,
-    "caseStudyEntries": 102,
-    "sourceUrlHashes": 326,
+    "caseStudyEntries": 103,
+    "sourceUrlHashes": 329,
     "thinEntries": 2
   },
   "libraries": [
@@ -79,10 +79,14 @@
       "kind": "case-study",
       "sourcePath": "design-templates/data-visualization-projects/references/catalog.json",
       "previewPath": "design-templates/data-visualization-projects/example.html",
-      "totalAssets": 0,
-      "totalEntries": 0,
-      "statusCounts": {},
-      "captureDepthCounts": {},
+      "totalAssets": 1,
+      "totalEntries": 1,
+      "statusCounts": {
+        "accepted": 1
+      },
+      "captureDepthCounts": {
+        "single-chart-multiview": 1
+      },
       "thinEntries": []
     },
     {
@@ -939,6 +943,29 @@
         "94249eec55c3e7f1"
       ],
       "sourceUrlCount": 6
+    },
+    {
+      "assetId": "data-visualization-projects:owid-annual-co2-emissions",
+      "libraryId": "data-visualization-projects",
+      "title": "Annual CO₂ emissions — Our World in Data",
+      "status": "accepted",
+      "captureDepth": "single-chart-multiview",
+      "sourcePath": "design-templates/data-visualization-projects/references/entries/owid-annual-co2-emissions.json",
+      "previewPath": "design-templates/data-visualization-projects/example.html",
+      "roles": [
+        "case-reference",
+        "data-visualization-projects-reference"
+      ],
+      "tags": [
+        "data-visualization-projects",
+        "single-chart-multiview"
+      ],
+      "sourceUrlHashes": [
+        "1891570c53695962",
+        "cf17b7acd692480a",
+        "cafcfd776dce51a6"
+      ],
+      "sourceUrlCount": 3
     },
     {
       "assetId": "editorial-magazine-projects:brooklyn-rail-anthropophagy-issue-editorial-design",
