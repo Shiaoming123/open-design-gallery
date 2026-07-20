@@ -1,0 +1,90 @@
+{
+  "id": "apple-maps-custom-route-builder",
+  "status": "accepted",
+  "project": {
+    "name": "Apple Maps custom route builder",
+    "url": "https://support.apple.com/en-ca/guide/iphone/iph3d7ebd491/ios",
+    "platform": "iPhone"
+  },
+  "why": "A first-party documented route-builder flow that moves from freeform point placement to explicit reversible edits, a measurable review, and a location-aware choice to navigate or save. It is a compact reference for keeping an exploratory mobile task recoverable without asking users to commit too early.",
+  "taskGoal": "Create, review, and optionally save a walking or hiking route before starting directions.",
+  "screens": [
+    {
+      "id": "start-location",
+      "purpose": "Choose an accessible place on the map and enter route creation through the place's secondary actions.",
+      "evidence": "Apple documents opening a place, choosing More, then creating a custom route."
+    },
+    {
+      "id": "route-builder",
+      "purpose": "Place route points and revise the path with local undo, reverse, out-and-back, close-loop, and point-removal controls.",
+      "evidence": "The official guide names point placement plus reversible route and point editing operations."
+    },
+    {
+      "id": "route-review",
+      "purpose": "Review distance, elevation profile, and estimated time before selecting a next action.",
+      "evidence": "Apple describes these route-summary values after the route is complete."
+    },
+    {
+      "id": "location-aware-handoff",
+      "purpose": "Offer Directions near the route's start, Go when farther away, or Save Route to preserve the work.",
+      "evidence": "The documented completion choices depend on the user's proximity to the start and include optional saving."
+    },
+    {
+      "id": "save-route",
+      "purpose": "Name the route, optionally add notes, and complete the saved-route action.",
+      "evidence": "Apple's save flow requests a name and permits notes before completion."
+    }
+  ],
+  "transitions": [
+    {
+      "from": "start-location",
+      "to": "route-builder",
+      "contract": "Do not enter drawing mode until the user has selected a place and deliberately chosen route creation."
+    },
+    {
+      "from": "route-builder",
+      "to": "route-review",
+      "contract": "Keep route edits reversible while placing points; show route metrics only after a coherent path exists."
+    },
+    {
+      "from": "route-review",
+      "to": "location-aware-handoff",
+      "contract": "Choose the primary navigation action from the user's proximity to the route start instead of forcing the same next step everywhere."
+    },
+    {
+      "from": "location-aware-handoff",
+      "to": "save-route",
+      "contract": "Saving is optional and late in the flow, so exploratory construction is not blocked by naming or note entry."
+    }
+  ],
+  "platformConstraints": [
+    "Custom routes and their capabilities are not available in every country or region.",
+    "Downloading a route requires the Download Routes setting to be enabled; hiking-route search requires an internet connection.",
+    "The navigation handoff changes with physical proximity to the route's starting point."
+  ],
+  "exceptionStates": [
+    {
+      "scenario": "Offline preparation is unavailable",
+      "recovery": "Expose the download prerequisite before a user depends on an offline route, rather than discovering it only during navigation."
+    },
+    {
+      "scenario": "Feature is unavailable in the current region",
+      "recovery": "State the availability limit plainly and avoid presenting unsupported route-building controls as actionable."
+    },
+    {
+      "scenario": "User wants to abandon or correct part of a route",
+      "recovery": "Keep undo, point removal, reverse, and loop conversions inside the builder so correction does not reset the whole task."
+    }
+  ],
+  "capture": {
+    "date": "2026-07-20",
+    "sourceLinks": [
+      "https://support.apple.com/en-ca/guide/iphone/iph3d7ebd491/ios",
+      "https://support.apple.com/en-euro/guide/iphone/iph837d13d03/26/ios/26",
+      "https://support.apple.com/en-nz/guide/iphone/ipha84a94043/ios"
+    ],
+    "attribution": "Apple Inc.; Apple Maps documentation in the iPhone User Guide.",
+    "reusePolicy": "inspiration-only — record the documented task structure and constraints; do not reuse Apple Maps screens, cartography, icons, imagery, names, or marks. The local preview is an original abstract diagram.",
+    "captureDepth": "multi-source-flow-with-exceptions"
+  }
+}

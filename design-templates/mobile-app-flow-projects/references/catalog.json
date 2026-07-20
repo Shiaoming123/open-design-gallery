@@ -6,5 +6,7 @@
     "flowTypes": ["onboarding", "search", "create", "checkout", "review", "recovery"],
     "views": ["entries", "screens", "transitions", "platformConstraints", "exceptionStates"]
   },
-  "entryFiles": []
+  "entryFiles": [
+    "entries/apple-maps-custom-route-builder.json"
+  ]
 }

@@ -1911,6 +1911,53 @@
       "previewScope": "shared-collection"
     },
     {
+      "id": "mobile-app-flow-projects:apple-maps-custom-route-builder",
+      "kind": "case-study",
+      "title": "Apple Maps custom route builder",
+      "summary": "A first-party documented route-builder flow that moves from freeform point placement to explicit reversible edits, a measurable review, and a location-aware choice to navigate or save. It is a compact reference for keeping an exploratory mobile task recoverab…",
+      "sourcePath": "design-templates/mobile-app-flow-projects/references/entries/apple-maps-custom-route-builder.json",
+      "previewPath": "design-templates/mobile-app-flow-projects/example.html",
+      "tags": [
+        "mobile-app-flow-projects",
+        "multi-source-flow-with-exceptions"
+      ],
+      "useCases": [
+        "mobile app flow projects"
+      ],
+      "userWords": [
+        "A first-party documented route-builder flow that moves from freeform point placement to explicit reversible edits, a measurable review, and a location-aware choice to navigate or save. It is a compact reference for keeping an exploratory mobile task recoverab…"
+      ],
+      "visualTraits": [
+        "Apple Maps custom route builder",
+        "https://support.apple.com/en-ca/guide/iphone/iph3d7ebd491/ios",
+        "iPhone"
+      ],
+      "roles": [
+        "case-reference",
+        "mobile-app-flow-projects-reference"
+      ],
+      "sourcePolicy": "inspiration-only — record the documented task structure and constraints; do not reuse Apple Maps screens, cartography, icons, imagery, names, or marks. The local preview is an original abstract diagram.",
+      "libraryId": "mobile-app-flow-projects",
+      "status": "accepted",
+      "captureDepth": "multi-source-flow-with-exceptions",
+      "sourceUrls": [
+        "https://support.apple.com/en-ca/guide/iphone/iph3d7ebd491/ios",
+        "https://support.apple.com/en-euro/guide/iphone/iph837d13d03/26/ios/26",
+        "https://support.apple.com/en-nz/guide/iphone/ipha84a94043/ios"
+      ],
+      "sourceUrlHashes": [
+        "ba9e23b97062140a",
+        "df6f882acd0ead83",
+        "a81540e77762ba5f"
+      ],
+      "files": {
+        "catalog": "design-templates/mobile-app-flow-projects/references/catalog.json",
+        "source": "design-templates/mobile-app-flow-projects/references/entries/apple-maps-custom-route-builder.json",
+        "preview": "design-templates/mobile-app-flow-projects/example.html"
+      },
+      "previewScope": "shared-collection"
+    },
+    {
       "id": "motion-interaction-projects:active-theory-creative-digital-experiences",
       "kind": "case-study",
       "title": "Active Theory · Creative Digital Experiences",
@@ -15264,7 +15311,7 @@
         "skill": "design-templates/mobile-app-flow-projects/SKILL.md",
         "preview": "design-templates/mobile-app-flow-projects/example.html"
       },
-      "previewScope": "asset"
+      "previewScope": "collection"
     },
     {
       "id": "design-template:mobile-onboarding",

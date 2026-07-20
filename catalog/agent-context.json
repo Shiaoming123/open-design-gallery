@@ -2,10 +2,10 @@
   "schemaVersion": "od-agent-context/v2",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "totals": {
-    "assets": 434,
+    "assets": 435,
     "libraries": 12,
-    "caseStudyEntries": 103,
-    "sourceUrlHashes": 329,
+    "caseStudyEntries": 104,
+    "sourceUrlHashes": 332,
     "thinEntries": 2
   },
   "libraries": [
@@ -109,10 +109,14 @@
       "kind": "case-study",
       "sourcePath": "design-templates/mobile-app-flow-projects/references/catalog.json",
       "previewPath": "design-templates/mobile-app-flow-projects/example.html",
-      "totalAssets": 0,
-      "totalEntries": 0,
-      "statusCounts": {},
-      "captureDepthCounts": {},
+      "totalAssets": 1,
+      "totalEntries": 1,
+      "statusCounts": {
+        "accepted": 1
+      },
+      "captureDepthCounts": {
+        "multi-source-flow-with-exceptions": 1
+      },
       "thinEntries": []
     },
     {
@@ -1064,6 +1068,29 @@
         "13e666e3c7c902ee"
       ],
       "sourceUrlCount": 1
+    },
+    {
+      "assetId": "mobile-app-flow-projects:apple-maps-custom-route-builder",
+      "libraryId": "mobile-app-flow-projects",
+      "title": "Apple Maps custom route builder",
+      "status": "accepted",
+      "captureDepth": "multi-source-flow-with-exceptions",
+      "sourcePath": "design-templates/mobile-app-flow-projects/references/entries/apple-maps-custom-route-builder.json",
+      "previewPath": "design-templates/mobile-app-flow-projects/example.html",
+      "roles": [
+        "case-reference",
+        "mobile-app-flow-projects-reference"
+      ],
+      "tags": [
+        "mobile-app-flow-projects",
+        "multi-source-flow-with-exceptions"
+      ],
+      "sourceUrlHashes": [
+        "ba9e23b97062140a",
+        "df6f882acd0ead83",
+        "a81540e77762ba5f"
+      ],
+      "sourceUrlCount": 3
     },
     {
       "assetId": "motion-interaction-projects:active-theory-creative-digital-experiences",
