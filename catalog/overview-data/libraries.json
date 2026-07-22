@@ -1,7 +1,7 @@
 {
   "schemaVersion": "od-library-registry/v1",
   "generatedAt": "1970-01-01T00:00:00.000Z",
-  "totalAssets": 435,
+  "totalAssets": 436,
   "libraries": [
     {
       "id": "design-systems",
@@ -58,13 +58,14 @@
       "kind": "case-study",
       "sourcePath": "design-templates/component-state-patterns/references/catalog.json",
       "previewPath": "design-templates/component-state-patterns/example.html",
-      "totalAssets": 1,
-      "totalEntries": 1,
+      "totalAssets": 2,
+      "totalEntries": 2,
       "statusCounts": {
-        "accepted": 1
+        "accepted": 2
       },
       "captureDepthCounts": {
-        "component-pattern-suite": 1
+        "component-pattern-suite": 1,
+        "cross-component-state-guidance": 1
       },
       "thinEntries": []
     },

@@ -2,10 +2,10 @@
   "schemaVersion": "od-agent-context/v2",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "totals": {
-    "assets": 435,
+    "assets": 436,
     "libraries": 12,
-    "caseStudyEntries": 104,
-    "sourceUrlHashes": 332,
+    "caseStudyEntries": 105,
+    "sourceUrlHashes": 335,
     "thinEntries": 2
   },
   "libraries": [
@@ -64,13 +64,14 @@
       "kind": "case-study",
       "sourcePath": "design-templates/component-state-patterns/references/catalog.json",
       "previewPath": "design-templates/component-state-patterns/example.html",
-      "totalAssets": 1,
-      "totalEntries": 1,
+      "totalAssets": 2,
+      "totalEntries": 2,
       "statusCounts": {
-        "accepted": 1
+        "accepted": 2
       },
       "captureDepthCounts": {
-        "component-pattern-suite": 1
+        "component-pattern-suite": 1,
+        "cross-component-state-guidance": 1
       },
       "thinEntries": []
     },
@@ -947,6 +948,29 @@
         "94249eec55c3e7f1"
       ],
       "sourceUrlCount": 6
+    },
+    {
+      "assetId": "component-state-patterns:fluent-component-state-recovery-patterns",
+      "libraryId": "component-state-patterns",
+      "title": "Fluent 2 Design System",
+      "status": "accepted",
+      "captureDepth": "cross-component-state-guidance",
+      "sourcePath": "design-templates/component-state-patterns/references/entries/fluent-component-state-recovery-patterns.json",
+      "previewPath": "design-templates/component-state-patterns/example.html",
+      "roles": [
+        "case-reference",
+        "component-state-patterns-reference"
+      ],
+      "tags": [
+        "component-state-patterns",
+        "cross-component-state-guidance"
+      ],
+      "sourceUrlHashes": [
+        "ec49465a27a57b9a",
+        "1973ffa8fde38091",
+        "4c7083a1a181dee9"
+      ],
+      "sourceUrlCount": 3
     },
     {
       "assetId": "data-visualization-projects:owid-annual-co2-emissions",

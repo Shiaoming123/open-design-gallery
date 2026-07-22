@@ -1,12 +1,13 @@
 {
   "schemaVersion": "od-component-state-patterns/v1",
-  "captured": "2026-07-13",
+  "captured": "2026-07-22",
   "description": "Source-linked component state patterns with accessibility and recovery evidence. External artwork is not stored.",
   "indexes": {
     "stateTypes": ["loading", "empty", "error", "table", "command-palette", "ai-interaction", "accessibility"],
     "views": ["entries", "states", "transitions", "recovery", "accessibility"]
   },
   "entryFiles": [
-    "entries/carbon-component-state-recovery-patterns.json"
+    "entries/carbon-component-state-recovery-patterns.json",
+    "entries/fluent-component-state-recovery-patterns.json"
   ]
 }

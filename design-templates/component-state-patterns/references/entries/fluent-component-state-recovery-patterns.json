@@ -1,0 +1,88 @@
+{
+  "id": "fluent-component-state-recovery-patterns",
+  "status": "accepted",
+  "project": {
+    "name": "Fluent 2 Design System",
+    "url": "https://fluent2.microsoft.design/"
+  },
+  "why": "A first-party component set that connects form validation, recoverable error messaging, and skeleton loading to explicit follow-up actions and assistive-technology behavior. It is useful for treating transient and blocking states as part of the same task contract rather than as isolated visual variants.",
+  "states": [
+    {
+      "type": "validation",
+      "title": "Field validation with a visible correction route",
+      "evidence": "Fluent Field changes the field presentation for validation and provides a validation message that describes the state and guides the person forward.",
+      "source": "https://fluent2.microsoft.design/components/web/react/core/field/usage"
+    },
+    {
+      "type": "error",
+      "title": "Error message bars include recovery actions",
+      "evidence": "Fluent specifies that an error message bar represents a failure that must be addressed before continuing and includes a button or link to resolve it.",
+      "source": "https://fluent2.microsoft.design/components/web/react/core/messagebar/usage"
+    },
+    {
+      "type": "loading",
+      "title": "Skeletons preserve structure while content is pending",
+      "evidence": "Fluent uses skeletons for dynamic content and recommends reflecting only the stable high-level information people can expect after loading.",
+      "source": "https://fluent2.microsoft.design/components/web/react/core/skeleton/usage"
+    }
+  ],
+  "transitions": [
+    {
+      "from": "input or submission",
+      "to": "validation feedback",
+      "contract": "Keep the label and field perceivable, make the invalid state visible, and describe the correction needed beside the control."
+    },
+    {
+      "from": "blocking failure",
+      "to": "error message with action",
+      "contract": "Place the message near the affected scope and expose a concrete button or link instead of leaving a dead end."
+    },
+    {
+      "from": "pending dynamic content",
+      "to": "loaded content",
+      "contract": "Represent the stable shape while loading, then preserve keyboard context when the real content becomes available."
+    }
+  ],
+  "recovery": [
+    {
+      "scenario": "A field value is invalid",
+      "pattern": "Use a brief validation message that names the condition and tells the person how to proceed."
+    },
+    {
+      "scenario": "A task-blocking error occurs",
+      "pattern": "Use an error message bar with a resolution action; do not make the recovery path implicit."
+    },
+    {
+      "scenario": "Several loading regions finish at different times",
+      "pattern": "Coordinate announcements with aria-busy so screen-reader users do not receive partial or noisy completion updates."
+    }
+  ],
+  "accessibility": [
+    {
+      "topic": "Field requirements and validation",
+      "evidence": "Fluent keeps labels enabled for assistive technology and exposes required fields to screen readers; validation messages provide forward guidance.",
+      "source": "https://fluent2.microsoft.design/components/web/react/core/field/usage"
+    },
+    {
+      "topic": "Error announcement urgency",
+      "evidence": "Fluent uses assertive live announcements for error and warning message bars, while informational and success messages are polite.",
+      "source": "https://fluent2.microsoft.design/components/web/react/core/messagebar/usage"
+    },
+    {
+      "topic": "Loading completion",
+      "evidence": "Fluent advises an accessible name for focusable loading content and suggests live regions or aria-busy for important skeleton updates without disrupting focus.",
+      "source": "https://fluent2.microsoft.design/components/web/react/core/skeleton/usage"
+    }
+  ],
+  "capture": {
+    "date": "2026-07-22",
+    "sourceLinks": [
+      "https://fluent2.microsoft.design/components/web/react/core/field/usage",
+      "https://fluent2.microsoft.design/components/web/react/core/messagebar/usage",
+      "https://fluent2.microsoft.design/components/web/react/core/skeleton/usage"
+    ],
+    "attribution": "Microsoft Fluent 2 Design System.",
+    "reusePolicy": "inspiration-only — record the documented state, recovery, and accessibility contracts without copying Fluent components, code, icons, illustrations, or brand assets.",
+    "captureDepth": "cross-component-state-guidance"
+  }
+}

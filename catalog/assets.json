@@ -1579,6 +1579,52 @@
       "previewScope": "shared-collection"
     },
     {
+      "id": "component-state-patterns:fluent-component-state-recovery-patterns",
+      "kind": "case-study",
+      "title": "Fluent 2 Design System",
+      "summary": "A first-party component set that connects form validation, recoverable error messaging, and skeleton loading to explicit follow-up actions and assistive-technology behavior. It is useful for treating transient and blocking states as part of the same task cont…",
+      "sourcePath": "design-templates/component-state-patterns/references/entries/fluent-component-state-recovery-patterns.json",
+      "previewPath": "design-templates/component-state-patterns/example.html",
+      "tags": [
+        "component-state-patterns",
+        "cross-component-state-guidance"
+      ],
+      "useCases": [
+        "component state patterns"
+      ],
+      "userWords": [
+        "A first-party component set that connects form validation, recoverable error messaging, and skeleton loading to explicit follow-up actions and assistive-technology behavior. It is useful for treating transient and blocking states as part of the same task cont…"
+      ],
+      "visualTraits": [
+        "Fluent 2 Design System",
+        "https://fluent2.microsoft.design/"
+      ],
+      "roles": [
+        "case-reference",
+        "component-state-patterns-reference"
+      ],
+      "sourcePolicy": "inspiration-only — record the documented state, recovery, and accessibility contracts without copying Fluent components, code, icons, illustrations, or brand assets.",
+      "libraryId": "component-state-patterns",
+      "status": "accepted",
+      "captureDepth": "cross-component-state-guidance",
+      "sourceUrls": [
+        "https://fluent2.microsoft.design/components/web/react/core/field/usage",
+        "https://fluent2.microsoft.design/components/web/react/core/messagebar/usage",
+        "https://fluent2.microsoft.design/components/web/react/core/skeleton/usage"
+      ],
+      "sourceUrlHashes": [
+        "ec49465a27a57b9a",
+        "1973ffa8fde38091",
+        "4c7083a1a181dee9"
+      ],
+      "files": {
+        "catalog": "design-templates/component-state-patterns/references/catalog.json",
+        "source": "design-templates/component-state-patterns/references/entries/fluent-component-state-recovery-patterns.json",
+        "preview": "design-templates/component-state-patterns/example.html"
+      },
+      "previewScope": "shared-collection"
+    },
+    {
       "id": "data-visualization-projects:owid-annual-co2-emissions",
       "kind": "case-study",
       "title": "Annual CO₂ emissions — Our World in Data",
