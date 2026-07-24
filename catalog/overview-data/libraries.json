@@ -1,7 +1,7 @@
 {
   "schemaVersion": "od-library-registry/v1",
   "generatedAt": "1970-01-01T00:00:00.000Z",
-  "totalAssets": 436,
+  "totalAssets": 437,
   "libraries": [
     {
       "id": "design-systems",
@@ -74,12 +74,13 @@
       "kind": "case-study",
       "sourcePath": "design-templates/data-visualization-projects/references/catalog.json",
       "previewPath": "design-templates/data-visualization-projects/example.html",
-      "totalAssets": 1,
-      "totalEntries": 1,
+      "totalAssets": 2,
+      "totalEntries": 2,
       "statusCounts": {
-        "accepted": 1
+        "accepted": 2
       },
       "captureDepthCounts": {
+        "multi-topic-temporal-scenario": 1,
         "single-chart-multiview": 1
       },
       "thinEntries": []

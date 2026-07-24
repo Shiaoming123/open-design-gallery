@@ -1,0 +1,64 @@
+{
+  "id": "nasa-climate-time-machine",
+  "status": "accepted",
+  "project": {
+    "name": "Climate Time Machine — NASA Global Climate Change",
+    "url": "https://climate.nasa.gov/interactives/climate-time-machine/"
+  },
+  "why": "A first-party climate explainer keeps one spatial stage legible while readers switch scientific topics, scrub a bounded time range, and compare regional sea-level scenarios. It is a useful reference for pairing a temporal control with explicit context rather than treating animation as decoration.",
+  "dataShape": "Climate observations and modeled scenarios organized by topic, time range, geographic region, and sea-level threshold.",
+  "hierarchy": [
+    {
+      "level": "topic",
+      "evidence": "The official interactive separates sea ice, carbon dioxide, global temperature, ice sheets, and sea level into distinct climate stories."
+    },
+    {
+      "level": "time and scenario",
+      "evidence": "Readers scrub topic-specific annual ranges; the sea-level story also selects regional projections across one- to six-meter thresholds."
+    }
+  ],
+  "encodings": [
+    {
+      "view": "temporal anomaly map",
+      "mapping": "A geographic field is paired with sequential color and a visible time control so the reader can connect change to a selected period."
+    },
+    {
+      "view": "regional scenario comparison",
+      "mapping": "A selected location and threshold expose the consequence of a scenario without changing the surrounding explanatory frame."
+    }
+  ],
+  "interactions": [
+    {
+      "pattern": "Topic switching",
+      "evidence": "The official entry point lets readers choose a climate indicator before entering its dedicated time-based visualization."
+    },
+    {
+      "pattern": "Bounded timeline scrubbing",
+      "evidence": "Each topic presents a defined observation range and a draggable temporal control rather than an unbounded animation."
+    },
+    {
+      "pattern": "Scenario selection",
+      "evidence": "The sea-level experience changes regional context through explicit one- to six-meter options."
+    }
+  ],
+  "accessibility": [
+    {
+      "topic": "Stateful controls",
+      "evidence": "When adapting this pattern, expose the active topic, year, location, and scenario as text-labelled controls so a temporal or color change is not the sole carrier of meaning."
+    },
+    {
+      "topic": "Equivalent explanation",
+      "evidence": "Retain a concise textual interpretation for the selected state and do not make comprehension depend on animated map imagery."
+    }
+  ],
+  "capture": {
+    "date": "2026-07-24",
+    "sourceLinks": [
+      "https://climate.nasa.gov/interactives/climate-time-machine/",
+      "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+    ],
+    "attribution": "NASA Global Climate Change; visualization credits and underlying scientific sources are identified within the NASA Climate Time Machine experience, including NASA Scientific Visualization Studio for the feature.",
+    "reusePolicy": "inspiration-only — distill topic switching, bounded timeline, and scenario-selection patterns in an original preview. Do not copy NASA imagery, maps, data labels, logos, or identifiers; NASA media guidance requires acknowledgement and individual third-party materials may have separate restrictions.",
+    "captureDepth": "multi-topic-temporal-scenario"
+  }
+}

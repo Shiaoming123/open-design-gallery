@@ -1625,6 +1625,56 @@
       "previewScope": "shared-collection"
     },
     {
+      "id": "data-visualization-projects:nasa-climate-time-machine",
+      "kind": "case-study",
+      "title": "Climate Time Machine — NASA Global Climate Change",
+      "summary": "A first-party climate explainer keeps one spatial stage legible while readers switch scientific topics, scrub a bounded time range, and compare regional sea-level scenarios. It is a useful reference for pairing a temporal control with explicit context rather…",
+      "sourcePath": "design-templates/data-visualization-projects/references/entries/nasa-climate-time-machine.json",
+      "previewPath": "design-templates/data-visualization-projects/example.html",
+      "tags": [
+        "data-visualization-projects",
+        "multi-topic-temporal-scenario"
+      ],
+      "useCases": [
+        "data visualization projects"
+      ],
+      "userWords": [
+        "A first-party climate explainer keeps one spatial stage legible while readers switch scientific topics, scrub a bounded time range, and compare regional sea-level scenarios. It is a useful reference for pairing a temporal control with explicit context rather…"
+      ],
+      "visualTraits": [
+        "Climate Time Machine — NASA Global Climate Change",
+        "https://climate.nasa.gov/interactives/climate-time-machine/",
+        "Topic switching",
+        "The official entry point lets readers choose a climate indicator before entering its dedicated time-based visualization.",
+        "Bounded timeline scrubbing",
+        "Each topic presents a defined observation range and a draggable temporal control rather than an unbounded animation.",
+        "Scenario selection",
+        "The sea-level experience changes regional context through explicit one- to six-meter options."
+      ],
+      "roles": [
+        "case-reference",
+        "data-visualization-projects-reference"
+      ],
+      "sourcePolicy": "inspiration-only — distill topic switching, bounded timeline, and scenario-selection patterns in an original preview. Do not copy NASA imagery, maps, data labels, logos, or identifiers; NASA media guidance requires acknowledgement and individual third-party materials may have separate restrictions.",
+      "libraryId": "data-visualization-projects",
+      "status": "accepted",
+      "captureDepth": "multi-topic-temporal-scenario",
+      "sourceUrls": [
+        "https://climate.nasa.gov/interactives/climate-time-machine",
+        "https://www.nasa.gov/nasa-brand-center/images-and-media"
+      ],
+      "sourceUrlHashes": [
+        "d64dbaf5e94d2a93",
+        "5e4912a37d3b6f20"
+      ],
+      "files": {
+        "catalog": "design-templates/data-visualization-projects/references/catalog.json",
+        "source": "design-templates/data-visualization-projects/references/entries/nasa-climate-time-machine.json",
+        "preview": "design-templates/data-visualization-projects/example.html"
+      },
+      "previewScope": "shared-collection"
+    },
+    {
       "id": "data-visualization-projects:owid-annual-co2-emissions",
       "kind": "case-study",
       "title": "Annual CO₂ emissions — Our World in Data",

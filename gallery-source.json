@@ -1,7 +1,7 @@
 {
   "schemaVersion": "od-gallery-source/v1",
   "sourceRepository": "open-design-library-private",
-  "sourceSha": "6dd131dcf0c444c5c9bd20155361d7013fcd22e7",
+  "sourceSha": "76cebe16723d88379ff224a4e4b0ecb0d936b311",
   "publishedPaths": [
     "catalog/assets.json",
     "catalog/agent-context.json",

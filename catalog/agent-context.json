@@ -2,10 +2,10 @@
   "schemaVersion": "od-agent-context/v2",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "totals": {
-    "assets": 436,
+    "assets": 437,
     "libraries": 12,
-    "caseStudyEntries": 105,
-    "sourceUrlHashes": 335,
+    "caseStudyEntries": 106,
+    "sourceUrlHashes": 337,
     "thinEntries": 2
   },
   "libraries": [
@@ -80,12 +80,13 @@
       "kind": "case-study",
       "sourcePath": "design-templates/data-visualization-projects/references/catalog.json",
       "previewPath": "design-templates/data-visualization-projects/example.html",
-      "totalAssets": 1,
-      "totalEntries": 1,
+      "totalAssets": 2,
+      "totalEntries": 2,
       "statusCounts": {
-        "accepted": 1
+        "accepted": 2
       },
       "captureDepthCounts": {
+        "multi-topic-temporal-scenario": 1,
         "single-chart-multiview": 1
       },
       "thinEntries": []
@@ -971,6 +972,28 @@
         "4c7083a1a181dee9"
       ],
       "sourceUrlCount": 3
+    },
+    {
+      "assetId": "data-visualization-projects:nasa-climate-time-machine",
+      "libraryId": "data-visualization-projects",
+      "title": "Climate Time Machine — NASA Global Climate Change",
+      "status": "accepted",
+      "captureDepth": "multi-topic-temporal-scenario",
+      "sourcePath": "design-templates/data-visualization-projects/references/entries/nasa-climate-time-machine.json",
+      "previewPath": "design-templates/data-visualization-projects/example.html",
+      "roles": [
+        "case-reference",
+        "data-visualization-projects-reference"
+      ],
+      "tags": [
+        "data-visualization-projects",
+        "multi-topic-temporal-scenario"
+      ],
+      "sourceUrlHashes": [
+        "d64dbaf5e94d2a93",
+        "5e4912a37d3b6f20"
+      ],
+      "sourceUrlCount": 2
     },
     {
       "assetId": "data-visualization-projects:owid-annual-co2-emissions",

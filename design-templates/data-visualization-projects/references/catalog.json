@@ -7,6 +7,7 @@
     "views": ["entries", "hierarchy", "encodings", "interactions", "accessibility"]
   },
   "entryFiles": [
-    "entries/owid-annual-co2-emissions.json"
+    "entries/owid-annual-co2-emissions.json",
+    "entries/nasa-climate-time-machine.json"
   ]
 }
