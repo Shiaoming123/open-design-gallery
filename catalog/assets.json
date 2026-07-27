@@ -2007,6 +2007,53 @@
       "previewScope": "shared-collection"
     },
     {
+      "id": "mobile-app-flow-projects:android-socialite-chat-media-recovery",
+      "kind": "case-study",
+      "title": "SociaLite chat media and reply recovery",
+      "summary": "An official Android sample turns a chat thread into a compact media workflow: capture from the conversation, edit a captured video, return to the thread, and recover an asynchronous reply through a notification when the app is closed. It is a useful reference…",
+      "sourcePath": "design-templates/mobile-app-flow-projects/references/entries/android-socialite-chat-media-recovery.json",
+      "previewPath": "design-templates/mobile-app-flow-projects/example.html",
+      "tags": [
+        "mobile-app-flow-projects",
+        "multi-screen-chat-media-flow-with-notification-recovery"
+      ],
+      "useCases": [
+        "mobile app flow projects"
+      ],
+      "userWords": [
+        "An official Android sample turns a chat thread into a compact media workflow: capture from the conversation, edit a captured video, return to the thread, and recover an asynchronous reply through a notification when the app is closed. It is a useful reference…"
+      ],
+      "visualTraits": [
+        "SociaLite chat media and reply recovery",
+        "https://github.com/android/socialite",
+        "Android"
+      ],
+      "roles": [
+        "case-reference",
+        "mobile-app-flow-projects-reference"
+      ],
+      "sourcePolicy": "inspiration-only — record the documented mobile flow and recovery behavior in an original abstract preview. Do not copy SociaLite screenshots, animal avatars, media, names, marks, or bundled third-party assets. The source code is Apache-2.0, but third-party components retain their own notices.",
+      "libraryId": "mobile-app-flow-projects",
+      "status": "accepted",
+      "captureDepth": "multi-screen-chat-media-flow-with-notification-recovery",
+      "sourceUrls": [
+        "https://github.com/android/socialite",
+        "https://raw.githubusercontent.com/android/socialite/main/README.md",
+        "https://www.apache.org/licenses/LICENSE-2.0"
+      ],
+      "sourceUrlHashes": [
+        "c449e1d3f0c6496c",
+        "670a56d5ca89a357",
+        "f2036f817d221f2a"
+      ],
+      "files": {
+        "catalog": "design-templates/mobile-app-flow-projects/references/catalog.json",
+        "source": "design-templates/mobile-app-flow-projects/references/entries/android-socialite-chat-media-recovery.json",
+        "preview": "design-templates/mobile-app-flow-projects/example.html"
+      },
+      "previewScope": "shared-collection"
+    },
+    {
       "id": "mobile-app-flow-projects:apple-maps-custom-route-builder",
       "kind": "case-study",
       "title": "Apple Maps custom route builder",

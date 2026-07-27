@@ -2,10 +2,10 @@
   "schemaVersion": "od-agent-context/v2",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "totals": {
-    "assets": 437,
+    "assets": 438,
     "libraries": 12,
-    "caseStudyEntries": 106,
-    "sourceUrlHashes": 337,
+    "caseStudyEntries": 107,
+    "sourceUrlHashes": 340,
     "thinEntries": 2
   },
   "libraries": [
@@ -111,12 +111,13 @@
       "kind": "case-study",
       "sourcePath": "design-templates/mobile-app-flow-projects/references/catalog.json",
       "previewPath": "design-templates/mobile-app-flow-projects/example.html",
-      "totalAssets": 1,
-      "totalEntries": 1,
+      "totalAssets": 2,
+      "totalEntries": 2,
       "statusCounts": {
-        "accepted": 1
+        "accepted": 2
       },
       "captureDepthCounts": {
+        "multi-screen-chat-media-flow-with-notification-recovery": 1,
         "multi-source-flow-with-exceptions": 1
       },
       "thinEntries": []
@@ -1115,6 +1116,29 @@
         "13e666e3c7c902ee"
       ],
       "sourceUrlCount": 1
+    },
+    {
+      "assetId": "mobile-app-flow-projects:android-socialite-chat-media-recovery",
+      "libraryId": "mobile-app-flow-projects",
+      "title": "SociaLite chat media and reply recovery",
+      "status": "accepted",
+      "captureDepth": "multi-screen-chat-media-flow-with-notification-recovery",
+      "sourcePath": "design-templates/mobile-app-flow-projects/references/entries/android-socialite-chat-media-recovery.json",
+      "previewPath": "design-templates/mobile-app-flow-projects/example.html",
+      "roles": [
+        "case-reference",
+        "mobile-app-flow-projects-reference"
+      ],
+      "tags": [
+        "mobile-app-flow-projects",
+        "multi-screen-chat-media-flow-with-notification-recovery"
+      ],
+      "sourceUrlHashes": [
+        "c449e1d3f0c6496c",
+        "670a56d5ca89a357",
+        "f2036f817d221f2a"
+      ],
+      "sourceUrlCount": 3
     },
     {
       "assetId": "mobile-app-flow-projects:apple-maps-custom-route-builder",

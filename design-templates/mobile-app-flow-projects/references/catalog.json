@@ -1,12 +1,13 @@
 {
   "schemaVersion": "od-mobile-app-flow-projects/v1",
-  "captured": "2026-07-12",
+  "captured": "2026-07-27",
   "description": "Source-linked mobile task flows represented as structured sequences and original preview diagrams.",
   "indexes": {
     "flowTypes": ["onboarding", "search", "create", "checkout", "review", "recovery"],
     "views": ["entries", "screens", "transitions", "platformConstraints", "exceptionStates"]
   },
   "entryFiles": [
-    "entries/apple-maps-custom-route-builder.json"
+    "entries/apple-maps-custom-route-builder.json",
+    "entries/android-socialite-chat-media-recovery.json"
   ]
 }

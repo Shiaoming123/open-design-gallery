@@ -1,0 +1,100 @@
+{
+  "id": "android-socialite-chat-media-recovery",
+  "status": "accepted",
+  "project": {
+    "name": "SociaLite chat media and reply recovery",
+    "url": "https://github.com/android/socialite",
+    "platform": "Android"
+  },
+  "why": "An official Android sample turns a chat thread into a compact media workflow: capture from the conversation, edit a captured video, return to the thread, and recover an asynchronous reply through a notification when the app is closed. It is a useful reference for preserving conversational context while moving through transient media tools.",
+  "taskGoal": "Send text or captured media in a chat, make a lightweight video edit when needed, and receive a reply even after leaving the app.",
+  "screens": [
+    {
+      "id": "chat-list",
+      "purpose": "Choose an existing conversation from the list of chat threads.",
+      "evidence": "The official README identifies a Chat List Screen containing the app's chat threads."
+    },
+    {
+      "id": "chat-thread",
+      "purpose": "Compose text or media messages while retaining the active conversation context.",
+      "evidence": "The README describes the Chat Screen as an individual message thread that sends text and media."
+    },
+    {
+      "id": "in-app-camera",
+      "purpose": "Capture a photo or video without abandoning the message task.",
+      "evidence": "The README states that the camera icon in the Chat Screen opens an in-app camera for photos and videos."
+    },
+    {
+      "id": "video-edit",
+      "purpose": "Make a minor edit after recording a video, before returning to the conversation flow.",
+      "evidence": "The README names a Video Edit Screen for minor edits after a video is captured in the in-app camera."
+    },
+    {
+      "id": "reply-notification",
+      "purpose": "Restore awareness of an asynchronous reply after the user has closed the app.",
+      "evidence": "The README says an avatar replies after five seconds and, with notification permission, the reply is notified when the app is closed."
+    },
+    {
+      "id": "settings",
+      "purpose": "Reach a bounded recovery control for resetting chat history.",
+      "evidence": "The README identifies a Settings Screen for tasks including resetting chat history."
+    }
+  ],
+  "transitions": [
+    {
+      "from": "chat-list",
+      "to": "chat-thread",
+      "contract": "Select a thread before composing so each media action has an explicit conversational destination."
+    },
+    {
+      "from": "chat-thread",
+      "to": "in-app-camera",
+      "contract": "Launch capture from the active thread instead of making the user reconstruct the recipient after creating media."
+    },
+    {
+      "from": "in-app-camera",
+      "to": "video-edit",
+      "contract": "Offer video editing only after a video capture, keeping the capture path lighter for other media."
+    },
+    {
+      "from": "video-edit",
+      "to": "chat-thread",
+      "contract": "Return edited media to the original thread so sending remains a continuation of the same task."
+    },
+    {
+      "from": "chat-thread",
+      "to": "reply-notification",
+      "contract": "Use notification permission to preserve reply awareness when the conversation is no longer foregrounded."
+    }
+  ],
+  "platformConstraints": [
+    "The closed-app reply notification depends on notification permission being granted.",
+    "The media path distinguishes in-app capture from selecting existing media through the Android photo picker.",
+    "The sample's AI chat configuration requires separately configured Firebase and Gemini Developer API services; it is not assumed to be available in the basic chat flow."
+  ],
+  "exceptionStates": [
+    {
+      "scenario": "The user closes the app before the asynchronous reply arrives.",
+      "recovery": "Notify the reply when notification permission is available, rather than requiring the user to keep the thread open."
+    },
+    {
+      "scenario": "The user wants to correct or abandon their conversation history.",
+      "recovery": "Expose the history-reset action in Settings as a deliberate, bounded recovery path rather than mixing it into normal message composition."
+    },
+    {
+      "scenario": "Media capture creates a video that needs adjustment before sending.",
+      "recovery": "Route captured videos through the dedicated edit screen and return to the originating chat thread afterward."
+    }
+  ],
+  "capture": {
+    "date": "2026-07-27",
+    "sourceLinks": [
+      "https://github.com/android/socialite",
+      "https://raw.githubusercontent.com/android/socialite/main/README.md",
+      "https://www.apache.org/licenses/LICENSE-2.0"
+    ],
+    "attribution": "The Android Open Source Project; SociaLite sample maintained in the official android/socialite repository.",
+    "reusePolicy": "inspiration-only — record the documented mobile flow and recovery behavior in an original abstract preview. Do not copy SociaLite screenshots, animal avatars, media, names, marks, or bundled third-party assets. The source code is Apache-2.0, but third-party components retain their own notices.",
+    "captureDepth": "multi-screen-chat-media-flow-with-notification-recovery"
+  }
+}
