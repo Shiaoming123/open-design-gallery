@@ -1,19 +1,20 @@
 {
   "schemaVersion": "od-campaign-visual-projects/v1",
-  "captured": "2026-07-12",
+  "captured": "2026-07-28",
   "description": "A source-linked case library for campaign visual systems, launch imagery, promotional kits, and static plus motion-led brand activations. Entries capture art direction, cross-channel scale behavior, motion cutdowns, and reusable graphic principles without copying external campaign assets.",
   "indexes": {
-    "views": ["entries", "artDirection", "channelFormats", "assets", "motion", "interactions"],
-    "artDirectionTypes": ["condensed-type-pressure", "hero-athlete-portrait", "signal-color-contrast", "graphic-pattern-thread", "thought-tagline-pairing", "close-crop-character-illustration", "inside-mind-metaphor", "primary-color-signal", "liquid-physics-spectacle", "macro-product-closeup", "asset-library-first-production", "distorted-globe-motif", "rgb-cycle-campaign-color", "motion-first-identity", "screen-native-spectacle"],
-    "channelTypes": ["façade-motion", "social-assets", "wristband-signage", "promo-poster", "spatial-installation", "transit-ooh", "hero-film", "regional-content-kit", "public-screen-gallery", "interactive-digital-universe", "festival-merchandise"],
-    "assetTypes": ["modified-house-type", "dual-accent-palette", "hero-photography", "campaign-pattern", "bespoke-headline-copy", "close-crop-illustration", "primary-color-palette", "shape-block-framing", "high-speed-liquid-footage", "logo-swappable-packshots", "ice-condensation-finish", "distorted-globe-graphic", "festival-logo-wordmark", "bespoke-screen-artwork", "sonic-identity-library", "limited-edition-jersey"],
-    "motionTypes": ["large-scale-loop", "high-energy-cutdown", "anthem-film", "slow-motion-impact", "thirst-arc-editing", "public-screen-sequence", "demoverse-wandering-letters", "sonic-motion-test"],
+    "views": ["entries", "artDirection", "channelFormats", "channels", "assets", "motion", "motionCutdowns", "interactions"],
+    "artDirectionTypes": ["condensed-type-pressure", "hero-athlete-portrait", "signal-color-contrast", "graphic-pattern-thread", "thought-tagline-pairing", "close-crop-character-illustration", "inside-mind-metaphor", "primary-color-signal", "liquid-physics-spectacle", "macro-product-closeup", "asset-library-first-production", "distorted-globe-motif", "rgb-cycle-campaign-color", "motion-first-identity", "screen-native-spectacle", "typographic-playground", "community-photography", "textural-key-visual", "modular-template-system"],
+    "channelTypes": ["façade-motion", "social-assets", "wristband-signage", "promo-poster", "spatial-installation", "transit-ooh", "hero-film", "regional-content-kit", "public-screen-gallery", "interactive-digital-universe", "festival-merchandise", "print", "social", "onsite-branding", "stage-screen"],
+    "assetTypes": ["modified-house-type", "dual-accent-palette", "hero-photography", "campaign-pattern", "bespoke-headline-copy", "close-crop-illustration", "primary-color-palette", "shape-block-framing", "high-speed-liquid-footage", "logo-swappable-packshots", "ice-condensation-finish", "distorted-globe-graphic", "festival-logo-wordmark", "bespoke-screen-artwork", "sonic-identity-library", "limited-edition-jersey", "community-photography", "typographic-stickers", "layered-textures"],
+    "motionTypes": ["large-scale-loop", "high-energy-cutdown", "anthem-film", "slow-motion-impact", "thirst-arc-editing", "public-screen-sequence", "demoverse-wandering-letters", "sonic-motion-test", "animated-sticker", "screen-takeover"],
     "interactionTypes": ["none", "3d-world-explore"]
   },
   "entryFiles": [
     "entries/nike-art-of-victory-centre-pompidou-campaign.json",
     "entries/notion-think-it-make-it-brand-campaign.json",
     "entries/pepsi-crave-liquid-asset-campaign.json",
-    "entries/demo-2025-global-motion-design-festival-campaign.json"
+    "entries/demo-2025-global-motion-design-festival-campaign.json",
+    "entries/love-saves-the-day-2025-campaign.json"
   ]
 }

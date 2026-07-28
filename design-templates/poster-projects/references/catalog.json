@@ -1,11 +1,11 @@
 {
   "schemaVersion": "od-poster-projects/v1",
-  "captured": "2026-07-10",
+  "captured": "2026-07-26",
   "description": "A source-linked case library for notable posters, key visuals, and typographic print artifacts. Entries capture composition, asset logic, annotation systems, and reusable visual principles without copying external artwork.",
   "indexes": {
     "views": ["entries", "compositions", "assets", "motion", "interactions"],
-    "compositionTypes": ["single-image-field", "white-ground-layout", "forensic-caption", "type-lockup", "slogan-field", "flag-fragment-layering", "march-poster-grid", "circular-seat-grid", "layered-color-tapestry", "compressed-wpa-grid", "checkerboard-accent-band"],
-    "assetTypes": ["experimental-photography", "annotation-type", "display-title", "process-film", "hand-drawn-lettering", "flag-fragment-graphics", "manifesto-copy", "concentric-color-shapes", "custom-condensed-typeface", "checkerboard-pattern"],
+    "compositionTypes": ["single-image-field", "white-ground-layout", "forensic-caption", "type-lockup", "slogan-field", "flag-fragment-layering", "march-poster-grid", "circular-seat-grid", "layered-color-tapestry", "compressed-wpa-grid", "checkerboard-accent-band", "transparent-block-logo", "modular-color-field", "foldout-program", "sound-derived-grid"],
+    "assetTypes": ["experimental-photography", "annotation-type", "display-title", "process-film", "hand-drawn-lettering", "flag-fragment-graphics", "manifesto-copy", "concentric-color-shapes", "custom-condensed-typeface", "checkerboard-pattern", "transparent-3d-blocks", "limited-color-palette", "sound-generated-identity", "newspaper-style-program"],
     "motionTypes": ["process-film", "digital-poster-loop"],
     "interactionTypes": ["digital-poster-loop"]
   },
@@ -13,6 +13,8 @@
     "entries/its-all-our-blood-hiroshima-nagasaki-commemorative-poster.json",
     "entries/european-design-festival-protest-identity-posters.json",
     "entries/shakespeare-in-the-park-2025-reopening-posters.json",
-    "entries/storefront-gala-2025-wpa-event-posters.json"
+    "entries/storefront-gala-2025-wpa-event-posters.json",
+    "entries/giff-2025-technological-aesthetics-poster.json",
+    "entries/sonisk-functional-poster.json"
   ]
 }

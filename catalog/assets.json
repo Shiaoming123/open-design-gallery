@@ -77,6 +77,74 @@
       "previewScope": "shared-collection"
     },
     {
+      "id": "campaign-visual-projects:love-saves-the-day-2025-campaign",
+      "kind": "case-study",
+      "title": "Love Saves The Day 2025",
+      "summary": "A strong campaign reference because one festival image world is treated as a deployable toolkit: the lineup poster sets the visual tone, while photography, stickers, textures, templates, and motion carry the same energy into feeds, screens, and physical space.",
+      "sourcePath": "design-templates/campaign-visual-projects/references/entries/love-saves-the-day-2025-campaign.json",
+      "previewPath": "design-templates/campaign-visual-projects/example.html",
+      "tags": [
+        "campaign-visual-projects",
+        "festival-campaign-visual-system",
+        "festival campaign identity and visual toolkit",
+        "Cross-channel campaign spanning lineup reveal, social, print, stage screens, signage, and onsite branding",
+        "case-study"
+      ],
+      "useCases": [
+        "campaign visual projects",
+        "festival-campaign-visual-system",
+        "festival campaign identity and visual toolkit"
+      ],
+      "userWords": [
+        "A strong campaign reference because one festival image world is treated as a deployable toolkit: the lineup poster sets the visual tone, while photography, stickers, textures, templates, and motion carry the same energy into feeds, screens, and physical space."
+      ],
+      "visualTraits": [
+        "festival-campaign-visual-system",
+        "Love Saves The Day 2025",
+        "Hey! What? for Team Love",
+        "https://www.heywhat.co.uk/lovesavesthedayfestival",
+        "festival campaign identity and visual toolkit",
+        "Cross-channel campaign spanning lineup reveal, social, print, stage screens, signage, and onsite branding",
+        "2025 campaign",
+        "community-photography",
+        "authenticity and atmosphere",
+        "The source identifies crowd, city, and festival photography as a central direction; no source photography is copied into this library.",
+        "Commission or capture original images with a consistent crop and contrast treatment.",
+        "typographic-stickers",
+        "expressive campaign layer",
+        "The source's sticker language is proprietary and is not reproduced in the local preview.",
+        "Create original type-led marks with a limited set of transformations and an explicit still fallback.",
+        "layered-textures",
+        "continuity across formats",
+        "The case study describes layered textures and modular templates as internal campaign assets; no source files are included.",
+        "Build textures from original CSS, SVG, or licensed material so the system remains portable and rights-safe."
+      ],
+      "roles": [
+        "case-reference",
+        "campaign-visual-projects-reference"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "libraryId": "campaign-visual-projects",
+      "status": "accepted",
+      "captureDepth": "case-study",
+      "sourceUrls": [
+        "https://www.heywhat.co.uk/lovesavesthedayfestival",
+        "https://www.lovesavestheday.org/gallery/2025",
+        "https://www.teamlove.org/love-saves-the-day"
+      ],
+      "sourceUrlHashes": [
+        "3bc99ecedba7d89a",
+        "c73100f1b1c86631",
+        "1bce4ab62b257f41"
+      ],
+      "files": {
+        "catalog": "design-templates/campaign-visual-projects/references/catalog.json",
+        "source": "design-templates/campaign-visual-projects/references/entries/love-saves-the-day-2025-campaign.json",
+        "preview": "design-templates/campaign-visual-projects/example.html"
+      },
+      "previewScope": "shared-collection"
+    },
+    {
       "id": "campaign-visual-projects:nike-art-of-victory-centre-pompidou-campaign",
       "kind": "case-study",
       "title": "Nike au Centre Pompidou",
@@ -1864,6 +1932,79 @@
       "files": {
         "catalog": "design-templates/editorial-magazine-projects/references/catalog.json",
         "source": "design-templates/editorial-magazine-projects/references/entries/circular-22-typographic-circle-publication-redesign.json",
+        "preview": "design-templates/editorial-magazine-projects/example.html"
+      },
+      "previewScope": "shared-collection"
+    },
+    {
+      "id": "editorial-magazine-projects:nothing-personal-editorial-platform",
+      "kind": "case-study",
+      "title": "Nothing Personal",
+      "summary": "A useful contemporary editorial reference because it treats the browser as part of the publication's visual language: the identity can feel like a magazine, a web page, and a conversation with internet culture at the same time.",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/nothing-personal-editorial-platform.json",
+      "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "tags": [
+        "editorial-magazine-projects",
+        "counterculture-editorial-platform",
+        "digital editorial platform and magazine identity",
+        "Responsive editorial site with feature stories, product reviews, advice, and podcast content",
+        "case-study"
+      ],
+      "useCases": [
+        "editorial magazine projects",
+        "counterculture-editorial-platform",
+        "digital editorial platform and magazine identity"
+      ],
+      "userWords": [
+        "A useful contemporary editorial reference because it treats the browser as part of the publication's visual language: the identity can feel like a magazine, a web page, and a conversation with internet culture at the same time."
+      ],
+      "visualTraits": [
+        "counterculture-editorial-platform",
+        "Nothing Personal",
+        "Natasha Jen and team at Pentagram for Mozilla Foundation",
+        "https://www.mozillafoundation.org/en/nothing-personal/",
+        "digital editorial platform and magazine identity",
+        "Responsive editorial site with feature stories, product reviews, advice, and podcast content",
+        "2025 launch; Pentagram work published 2026",
+        "browser-window-frame",
+        "Web vernacular as editorial framing",
+        "https://www.itsnicethat.com/articles/mozilla-foundation-pentagram-graphic-design-project-131125",
+        "The credited case study describes a visual language borrowing from pop-ups, chat windows, and browser bars, treating interruption as part of the publication's human mark.",
+        "Turn familiar interface containers into editorial punctuation for stories about technology, culture, or the networked world.",
+        "overlay-mark",
+        "A mark that behaves, not just identifies",
+        "The NP. mark is described as deliberately simple and able to overlay imagery as both a window and a veil.",
+        "Design an editorial mark with placement behavior and an expressive relationship to imagery, rather than limiting it to the masthead.",
+        "cover-as-entry-point",
+        "Contrast creates the cover energy",
+        "The platform uses direct headlines, people-centered editorial subjects, and a strong contrast between content modes to establish a magazine-like front door.",
+        "Let the first screen establish editorial attitude through scale, contrast, and a single story signal before the archive becomes visible.",
+        "modular-color-blocks",
+        "section framing",
+        "The source case describes solid blocks and borders as compositional punctuation; this library recreates the principle with original CSS only.",
+        "Build a small set of shapes and borders that can frame stories, reviews, and calls to action without copying the source identity."
+      ],
+      "roles": [
+        "case-reference",
+        "editorial-magazine-projects-reference"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "libraryId": "editorial-magazine-projects",
+      "status": "accepted",
+      "captureDepth": "case-study",
+      "sourceUrls": [
+        "https://www.mozillafoundation.org/en/nothing-personal",
+        "https://www.itsnicethat.com/articles/mozilla-foundation-pentagram-graphic-design-project-131125",
+        "https://www.pentagram.com/work/mozilla-foundation"
+      ],
+      "sourceUrlHashes": [
+        "fdb227eaadcc29c4",
+        "bea1731788ee7a34",
+        "b38b5e026accd233"
+      ],
+      "files": {
+        "catalog": "design-templates/editorial-magazine-projects/references/catalog.json",
+        "source": "design-templates/editorial-magazine-projects/references/entries/nothing-personal-editorial-platform.json",
         "preview": "design-templates/editorial-magazine-projects/example.html"
       },
       "previewScope": "shared-collection"
@@ -5412,6 +5553,75 @@
       "previewScope": "shared-collection"
     },
     {
+      "id": "poster-projects:giff-2025-technological-aesthetics-poster",
+      "kind": "case-study",
+      "title": "GIFF 2025 Poster",
+      "summary": "A clear reference for making a complex festival feel interconnected: colorful transparent blocks form the two event logos, turning system logic and data-like assembly into the poster's primary image.",
+      "sourcePath": "design-templates/poster-projects/references/entries/giff-2025-technological-aesthetics-poster.json",
+      "previewPath": "design-templates/poster-projects/example.html",
+      "tags": [
+        "poster-projects",
+        "festival-poster-system",
+        "festival poster and visual identity",
+        "Poster system for GIFF and Geneva Digital Market",
+        "artifact-study"
+      ],
+      "useCases": [
+        "poster projects",
+        "festival-poster-system",
+        "festival poster and visual identity"
+      ],
+      "userWords": [
+        "A clear reference for making a complex festival feel interconnected: colorful transparent blocks form the two event logos, turning system logic and data-like assembly into the poster's primary image."
+      ],
+      "visualTraits": [
+        "festival-poster-system",
+        "GIFF 2025 Poster",
+        "Andréa Philippon for the Geneva International Film Festival",
+        "https://www.giff.ch/en/affiche-2025/",
+        "festival poster and visual identity",
+        "Poster system for GIFF and Geneva Digital Market",
+        "transparent-block-logo",
+        "Logos as a constructed object",
+        "Transparent, colorful blocks interlock to form GIFF and GDM, so the mark reads as a built environment rather than a flat lockup.",
+        "Translate a multi-part event or product family into one modular object whose pieces can recombine across formats.",
+        "modular-color-field",
+        "Accessible data-wall energy",
+        "The visual language pairs vivid color with transparent overlaps and dynamic blocks, balancing technological aesthetics with an accessible festival tone.",
+        "Use a saturated palette with translucent layers when a technical theme needs warmth and collective energy rather than cold interface literalism.",
+        "transparent-3d-blocks",
+        "primary image grammar",
+        "The source describes the blocks as colorful, transparent, dynamic, and interlocking; no external assets are copied into this library.",
+        "Rebuild the grammar with original CSS, SVG, or 3D primitives rather than reusing the source artwork.",
+        "display-type",
+        "event identification",
+        "The formed logos carry the identity while the modular blocks supply the visual texture.",
+        "Let identity emerge from the construction system when a poster must hold multiple related names."
+      ],
+      "roles": [
+        "case-reference",
+        "poster-projects-reference"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "libraryId": "poster-projects",
+      "status": "accepted",
+      "captureDepth": "artifact-study",
+      "sourceUrls": [
+        "https://www.giff.ch/en/affiche-2025",
+        "https://andreaphilippon.com/"
+      ],
+      "sourceUrlHashes": [
+        "e5b07a44a6d53d3c",
+        "fd809cf518e0a0dc"
+      ],
+      "files": {
+        "catalog": "design-templates/poster-projects/references/catalog.json",
+        "source": "design-templates/poster-projects/references/entries/giff-2025-technological-aesthetics-poster.json",
+        "preview": "design-templates/poster-projects/example.html"
+      },
+      "previewScope": "shared-collection"
+    },
+    {
       "id": "poster-projects:its-all-our-blood-hiroshima-nagasaki-commemorative-poster",
       "kind": "case-study",
       "title": "It's All Our Blood",
@@ -5547,6 +5757,73 @@
       "files": {
         "catalog": "design-templates/poster-projects/references/catalog.json",
         "source": "design-templates/poster-projects/references/entries/shakespeare-in-the-park-2025-reopening-posters.json",
+        "preview": "design-templates/poster-projects/example.html"
+      },
+      "previewScope": "shared-collection"
+    },
+    {
+      "id": "poster-projects:sonisk-functional-poster",
+      "kind": "case-study",
+      "title": "Functional Poster for Sonisk Music Film Festival",
+      "summary": "A valuable poster reference because the artifact is both a wall-facing key visual and a useful program. Its black-and-yellow system, sound-derived grid, and foldout behavior make information architecture part of the concept.",
+      "sourcePath": "design-templates/poster-projects/references/entries/sonisk-functional-poster.json",
+      "previewPath": "design-templates/poster-projects/example.html",
+      "tags": [
+        "poster-projects",
+        "functional-festival-poster",
+        "fold-out festival poster and program",
+        "Poster that unfolds into a newspaper-style festival guide",
+        "case-summary"
+      ],
+      "useCases": [
+        "poster projects",
+        "functional-festival-poster",
+        "fold-out festival poster and program"
+      ],
+      "userWords": [
+        "A valuable poster reference because the artifact is both a wall-facing key visual and a useful program. Its black-and-yellow system, sound-derived grid, and foldout behavior make information architecture part of the concept."
+      ],
+      "visualTraits": [
+        "functional-festival-poster",
+        "Functional Poster for Sonisk Music Film Festival",
+        "Agency Skogen; art direction Magnus Holder Bjørk",
+        "https://awards.europeandesign.org/winner/262643",
+        "fold-out festival poster and program",
+        "Poster that unfolds into a newspaper-style festival guide",
+        "foldout-program",
+        "Poster-to-program transformation",
+        "The poster functions as a striking object when closed, then unfolds into a newspaper-style guide for the festival program.",
+        "Give a printed key visual a second useful state when the audience needs both recognition at a distance and dense event information.",
+        "sound-derived-grid",
+        "Identity derived from the subject",
+        "The European Design Awards case describes a grid derived from the festival logo, with the logo itself generated from sound.",
+        "Derive graphic geometry from the event's medium or behavior so the visual system explains what the event is about without illustration.",
+        "limited-color-palette",
+        "recognition and contrast",
+        "Black and yellow provide a compact, high-contrast system that supports both poster impact and program legibility.",
+        "Keep the palette intentionally narrow when a poster needs to survive both display distance and information-heavy interior panels.",
+        "newspaper-style-program",
+        "functional information layer",
+        "The foldout format turns a promotional surface into a tactile schedule and guide.",
+        "Treat editorial density as a planned second state, not an afterthought added below the hero image."
+      ],
+      "roles": [
+        "case-reference",
+        "poster-projects-reference"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "libraryId": "poster-projects",
+      "status": "lead",
+      "captureDepth": "case-summary",
+      "sourceUrls": [
+        "https://awards.europeandesign.org/winner/262643"
+      ],
+      "sourceUrlHashes": [
+        "e8e39aa0ea868615"
+      ],
+      "files": {
+        "catalog": "design-templates/poster-projects/references/catalog.json",
+        "source": "design-templates/poster-projects/references/entries/sonisk-functional-poster.json",
         "preview": "design-templates/poster-projects/example.html"
       },
       "previewScope": "shared-collection"

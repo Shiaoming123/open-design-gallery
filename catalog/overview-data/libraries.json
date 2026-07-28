@@ -1,7 +1,7 @@
 {
   "schemaVersion": "od-library-registry/v1",
   "generatedAt": "1970-01-01T00:00:00.000Z",
-  "totalAssets": 438,
+  "totalAssets": 442,
   "libraries": [
     {
       "id": "design-systems",
@@ -28,13 +28,14 @@
       "kind": "case-study",
       "sourcePath": "design-templates/campaign-visual-projects/references/catalog.json",
       "previewPath": "design-templates/campaign-visual-projects/example.html",
-      "totalAssets": 4,
-      "totalEntries": 4,
+      "totalAssets": 5,
+      "totalEntries": 5,
       "statusCounts": {
-        "accepted": 4
+        "accepted": 5
       },
       "captureDepthCounts": {
-        "artifact-study": 4
+        "artifact-study": 4,
+        "case-study": 1
       },
       "thinEntries": []
     },
@@ -90,13 +91,14 @@
       "kind": "case-study",
       "sourcePath": "design-templates/editorial-magazine-projects/references/catalog.json",
       "previewPath": "design-templates/editorial-magazine-projects/example.html",
-      "totalAssets": 4,
-      "totalEntries": 4,
+      "totalAssets": 5,
+      "totalEntries": 5,
       "statusCounts": {
-        "accepted": 4
+        "accepted": 5
       },
       "captureDepthCounts": {
-        "artifact-study": 4
+        "artifact-study": 4,
+        "case-study": 1
       },
       "thinEntries": []
     },
@@ -157,15 +159,19 @@
       "kind": "case-study",
       "sourcePath": "design-templates/poster-projects/references/catalog.json",
       "previewPath": "design-templates/poster-projects/example.html",
-      "totalAssets": 4,
-      "totalEntries": 4,
+      "totalAssets": 6,
+      "totalEntries": 6,
       "statusCounts": {
-        "accepted": 4
+        "accepted": 5,
+        "lead": 1
       },
       "captureDepthCounts": {
-        "artifact-study": 4
+        "artifact-study": 5,
+        "case-summary": 1
       },
-      "thinEntries": []
+      "thinEntries": [
+        "poster-projects:sonisk-functional-poster"
+      ]
     },
     {
       "id": "product-ui-projects",

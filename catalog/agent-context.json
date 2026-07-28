@@ -2,11 +2,11 @@
   "schemaVersion": "od-agent-context/v2",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "totals": {
-    "assets": 438,
+    "assets": 442,
     "libraries": 12,
-    "caseStudyEntries": 107,
-    "sourceUrlHashes": 340,
-    "thinEntries": 2
+    "caseStudyEntries": 111,
+    "sourceUrlHashes": 349,
+    "thinEntries": 3
   },
   "libraries": [
     {
@@ -34,13 +34,14 @@
       "kind": "case-study",
       "sourcePath": "design-templates/campaign-visual-projects/references/catalog.json",
       "previewPath": "design-templates/campaign-visual-projects/example.html",
-      "totalAssets": 4,
-      "totalEntries": 4,
+      "totalAssets": 5,
+      "totalEntries": 5,
       "statusCounts": {
-        "accepted": 4
+        "accepted": 5
       },
       "captureDepthCounts": {
-        "artifact-study": 4
+        "artifact-study": 4,
+        "case-study": 1
       },
       "thinEntries": []
     },
@@ -96,13 +97,14 @@
       "kind": "case-study",
       "sourcePath": "design-templates/editorial-magazine-projects/references/catalog.json",
       "previewPath": "design-templates/editorial-magazine-projects/example.html",
-      "totalAssets": 4,
-      "totalEntries": 4,
+      "totalAssets": 5,
+      "totalEntries": 5,
       "statusCounts": {
-        "accepted": 4
+        "accepted": 5
       },
       "captureDepthCounts": {
-        "artifact-study": 4
+        "artifact-study": 4,
+        "case-study": 1
       },
       "thinEntries": []
     },
@@ -163,15 +165,19 @@
       "kind": "case-study",
       "sourcePath": "design-templates/poster-projects/references/catalog.json",
       "previewPath": "design-templates/poster-projects/example.html",
-      "totalAssets": 4,
-      "totalEntries": 4,
+      "totalAssets": 6,
+      "totalEntries": 6,
       "statusCounts": {
-        "accepted": 4
+        "accepted": 5,
+        "lead": 1
       },
       "captureDepthCounts": {
-        "artifact-study": 4
+        "artifact-study": 5,
+        "case-summary": 1
       },
-      "thinEntries": []
+      "thinEntries": [
+        "poster-projects:sonisk-functional-poster"
+      ]
     },
     {
       "id": "product-ui-projects",
@@ -214,6 +220,32 @@
         "65f131fe1b6d2548",
         "9820c7c391f2303f",
         "765d5c3b9c550e63"
+      ],
+      "sourceUrlCount": 3
+    },
+    {
+      "assetId": "campaign-visual-projects:love-saves-the-day-2025-campaign",
+      "libraryId": "campaign-visual-projects",
+      "title": "Love Saves The Day 2025",
+      "status": "accepted",
+      "captureDepth": "case-study",
+      "sourcePath": "design-templates/campaign-visual-projects/references/entries/love-saves-the-day-2025-campaign.json",
+      "previewPath": "design-templates/campaign-visual-projects/example.html",
+      "roles": [
+        "case-reference",
+        "campaign-visual-projects-reference"
+      ],
+      "tags": [
+        "campaign-visual-projects",
+        "festival-campaign-visual-system",
+        "festival campaign identity and visual toolkit",
+        "Cross-channel campaign spanning lineup reveal, social, print, stage screens, signage, and onsite branding",
+        "case-study"
+      ],
+      "sourceUrlHashes": [
+        "3bc99ecedba7d89a",
+        "c73100f1b1c86631",
+        "1bce4ab62b257f41"
       ],
       "sourceUrlCount": 3
     },
@@ -1068,6 +1100,32 @@
         "0ecb55ba4df2b0c7"
       ],
       "sourceUrlCount": 2
+    },
+    {
+      "assetId": "editorial-magazine-projects:nothing-personal-editorial-platform",
+      "libraryId": "editorial-magazine-projects",
+      "title": "Nothing Personal",
+      "status": "accepted",
+      "captureDepth": "case-study",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/nothing-personal-editorial-platform.json",
+      "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "roles": [
+        "case-reference",
+        "editorial-magazine-projects-reference"
+      ],
+      "tags": [
+        "editorial-magazine-projects",
+        "counterculture-editorial-platform",
+        "digital editorial platform and magazine identity",
+        "Responsive editorial site with feature stories, product reviews, advice, and podcast content",
+        "case-study"
+      ],
+      "sourceUrlHashes": [
+        "fdb227eaadcc29c4",
+        "bea1731788ee7a34",
+        "b38b5e026accd233"
+      ],
+      "sourceUrlCount": 3
     },
     {
       "assetId": "editorial-magazine-projects:samba-brazilian-queer-culture-magazine",
@@ -2827,6 +2885,31 @@
       "sourceUrlCount": 1
     },
     {
+      "assetId": "poster-projects:giff-2025-technological-aesthetics-poster",
+      "libraryId": "poster-projects",
+      "title": "GIFF 2025 Poster",
+      "status": "accepted",
+      "captureDepth": "artifact-study",
+      "sourcePath": "design-templates/poster-projects/references/entries/giff-2025-technological-aesthetics-poster.json",
+      "previewPath": "design-templates/poster-projects/example.html",
+      "roles": [
+        "case-reference",
+        "poster-projects-reference"
+      ],
+      "tags": [
+        "poster-projects",
+        "festival-poster-system",
+        "festival poster and visual identity",
+        "Poster system for GIFF and Geneva Digital Market",
+        "artifact-study"
+      ],
+      "sourceUrlHashes": [
+        "e5b07a44a6d53d3c",
+        "fd809cf518e0a0dc"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
       "assetId": "poster-projects:its-all-our-blood-hiroshima-nagasaki-commemorative-poster",
       "libraryId": "poster-projects",
       "title": "It's All Our Blood",
@@ -2873,6 +2956,30 @@
       ],
       "sourceUrlHashes": [
         "03b35a263b395cb8"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "poster-projects:sonisk-functional-poster",
+      "libraryId": "poster-projects",
+      "title": "Functional Poster for Sonisk Music Film Festival",
+      "status": "lead",
+      "captureDepth": "case-summary",
+      "sourcePath": "design-templates/poster-projects/references/entries/sonisk-functional-poster.json",
+      "previewPath": "design-templates/poster-projects/example.html",
+      "roles": [
+        "case-reference",
+        "poster-projects-reference"
+      ],
+      "tags": [
+        "poster-projects",
+        "functional-festival-poster",
+        "fold-out festival poster and program",
+        "Poster that unfolds into a newspaper-style festival guide",
+        "case-summary"
+      ],
+      "sourceUrlHashes": [
+        "e8e39aa0ea868615"
       ],
       "sourceUrlCount": 1
     },
