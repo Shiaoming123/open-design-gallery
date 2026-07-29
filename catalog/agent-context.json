@@ -2,10 +2,10 @@
   "schemaVersion": "od-agent-context/v2",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "totals": {
-    "assets": 442,
+    "assets": 443,
     "libraries": 12,
-    "caseStudyEntries": 111,
-    "sourceUrlHashes": 349,
+    "caseStudyEntries": 112,
+    "sourceUrlHashes": 351,
     "thinEntries": 3
   },
   "libraries": [
@@ -97,14 +97,14 @@
       "kind": "case-study",
       "sourcePath": "design-templates/editorial-magazine-projects/references/catalog.json",
       "previewPath": "design-templates/editorial-magazine-projects/example.html",
-      "totalAssets": 5,
-      "totalEntries": 5,
+      "totalAssets": 6,
+      "totalEntries": 6,
       "statusCounts": {
-        "accepted": 5
+        "accepted": 6
       },
       "captureDepthCounts": {
         "artifact-study": 4,
-        "case-study": 1
+        "case-study": 2
       },
       "thinEntries": []
     },
@@ -1174,6 +1174,31 @@
         "13e666e3c7c902ee"
       ],
       "sourceUrlCount": 1
+    },
+    {
+      "assetId": "editorial-magazine-projects:wepresent-no-5-community-magazine",
+      "libraryId": "editorial-magazine-projects",
+      "title": "WePresent No. 5",
+      "status": "accepted",
+      "captureDepth": "case-study",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/wepresent-no-5-community-magazine.json",
+      "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "roles": [
+        "case-reference",
+        "editorial-magazine-projects-reference"
+      ],
+      "tags": [
+        "editorial-magazine-projects",
+        "community-edition-magazine",
+        "print editorial magazine",
+        "A community-focused issue of WeTransfer's arts and editorial platform, released in three localized design variants for New York, Amman, and Berlin",
+        "case-study"
+      ],
+      "sourceUrlHashes": [
+        "208bf884a5485123",
+        "4a3ffe925a91a44a"
+      ],
+      "sourceUrlCount": 2
     },
     {
       "assetId": "mobile-app-flow-projects:android-socialite-chat-media-recovery",

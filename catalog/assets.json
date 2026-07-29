@@ -2148,6 +2148,75 @@
       "previewScope": "shared-collection"
     },
     {
+      "id": "editorial-magazine-projects:wepresent-no-5-community-magazine",
+      "kind": "case-study",
+      "title": "WePresent No. 5",
+      "summary": "A strong editorial-system reference because a shared community brief yields three local editions rather than one universal visual answer: the New York edition turns a neighborhood walk into a map-led entry point, while its typographic range makes the issue fe…",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/wepresent-no-5-community-magazine.json",
+      "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "tags": [
+        "editorial-magazine-projects",
+        "community-edition-magazine",
+        "print editorial magazine",
+        "A community-focused issue of WeTransfer's arts and editorial platform, released in three localized design variants for New York, Amman, and Berlin",
+        "case-study"
+      ],
+      "useCases": [
+        "editorial magazine projects",
+        "community-edition-magazine",
+        "print editorial magazine"
+      ],
+      "userWords": [
+        "A strong editorial-system reference because a shared community brief yields three local editions rather than one universal visual answer: the New York edition turns a neighborhood walk into a map-led entry point, while its typographic range makes the issue fe…"
+      ],
+      "visualTraits": [
+        "community-edition-magazine",
+        "WePresent No. 5",
+        "Paula Scher and team at Pentagram for WeTransfer / WePresent",
+        "https://www.pentagram.com/work/wepresent-no-5",
+        "print editorial magazine",
+        "A community-focused issue of WeTransfer's arts and editorial platform, released in three localized design variants for New York, Amman, and Berlin",
+        "neighborhood-route-map",
+        "Map-as-feature composition",
+        "The NoMad walking map makes a route, its landmarks, and the magazine's cover character operate as one feature concept rather than as separate decorative elements.",
+        "Let a map provide both navigational logic and visual hierarchy when an editorial story is rooted in a specific place; redraw every mark and route from original research.",
+        "cover-as-character",
+        "A single character creates an approachable cover anchor",
+        "The case study presents Mimi as the cover star and repeats the character in the community-focused editorial material, joining cover and interior through a simple narrative device.",
+        "Choose an original recurring subject when a publication needs a warm, memorable bridge from cover to feature without copying a source character or image.",
+        "localized-edition-system",
+        "Regional interpretation within a shared issue",
+        "The three city editions use different design teams under the same neighborhood and community brief. Their artwork, lettering, map, and imagery remain external source material and are not included here.",
+        "Specify shared editorial constraints before commissioning localized editions, then preserve space for each team to make genuinely local choices.",
+        "type-play-system",
+        "Display variation without abandoning editorial order",
+        "The source documents several named type treatments and hand lettering; the local shared preview uses only its existing original CSS and system-font approach.",
+        "Prototype typographic contrast with original copy, licensed fonts, and neutral geometry instead of recreating a source publication's artwork or lettering."
+      ],
+      "roles": [
+        "case-reference",
+        "editorial-magazine-projects-reference"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "libraryId": "editorial-magazine-projects",
+      "status": "accepted",
+      "captureDepth": "case-study",
+      "sourceUrls": [
+        "https://www.pentagram.com/work/wepresent-no-5",
+        "https://wepresent.wetransfer.com/"
+      ],
+      "sourceUrlHashes": [
+        "208bf884a5485123",
+        "4a3ffe925a91a44a"
+      ],
+      "files": {
+        "catalog": "design-templates/editorial-magazine-projects/references/catalog.json",
+        "source": "design-templates/editorial-magazine-projects/references/entries/wepresent-no-5-community-magazine.json",
+        "preview": "design-templates/editorial-magazine-projects/example.html"
+      },
+      "previewScope": "shared-collection"
+    },
+    {
       "id": "mobile-app-flow-projects:android-socialite-chat-media-recovery",
       "kind": "case-study",
       "title": "SociaLite chat media and reply recovery",

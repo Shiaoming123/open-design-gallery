@@ -1,0 +1,82 @@
+{
+  "id": "wepresent-no-5-community-magazine",
+  "category": "community-edition-magazine",
+  "project": {
+    "title": "WePresent No. 5",
+    "maker": "Paula Scher and team at Pentagram for WeTransfer / WePresent",
+    "url": "https://www.pentagram.com/work/wepresent-no-5",
+    "medium": "print editorial magazine",
+    "format": "A community-focused issue of WeTransfer's arts and editorial platform, released in three localized design variants for New York, Amman, and Berlin"
+  },
+  "why": "A strong editorial-system reference because a shared community brief yields three local editions rather than one universal visual answer: the New York edition turns a neighborhood walk into a map-led entry point, while its typographic range makes the issue feel specific without losing the parent publication's identity.",
+  "readingRhythm": [
+    {
+      "type": "neighborhood-route-map",
+      "title": "A local walk becomes the issue's narrative doorway",
+      "study": "Pentagram's case study describes Paula Scher's map of Mimi's morning walk through NoMad as the New York edition's response to the issue's neighborhood and community theme.",
+      "reuse": "Use an original route, field note, or local index as an editorial entry device when a theme needs to feel grounded in a particular place."
+    },
+    {
+      "type": "localized-edition-system",
+      "title": "One editorial brief, three distinct local versions",
+      "study": "WePresent No. 5 was created by separate designers in New York, Amman, and Berlin, making regional interpretation part of the publication structure rather than an afterthought.",
+      "reuse": "Define the shared editorial question and a small set of fixed production constraints, then allow local makers to answer it with distinct content and visual decisions."
+    }
+  ],
+  "compositions": [
+    {
+      "type": "neighborhood-route-map",
+      "title": "Map-as-feature composition",
+      "url": "https://www.pentagram.com/work/wepresent-no-5",
+      "study": "The NoMad walking map makes a route, its landmarks, and the magazine's cover character operate as one feature concept rather than as separate decorative elements.",
+      "reuse": "Let a map provide both navigational logic and visual hierarchy when an editorial story is rooted in a specific place; redraw every mark and route from original research."
+    },
+    {
+      "type": "cover-as-character",
+      "title": "A single character creates an approachable cover anchor",
+      "url": "https://www.pentagram.com/work/wepresent-no-5",
+      "study": "The case study presents Mimi as the cover star and repeats the character in the community-focused editorial material, joining cover and interior through a simple narrative device.",
+      "reuse": "Choose an original recurring subject when a publication needs a warm, memorable bridge from cover to feature without copying a source character or image."
+    }
+  ],
+  "typeImageSystems": [
+    {
+      "type": "type-play-system",
+      "role": "A playful voice across cover and feature material",
+      "notes": "Pentagram identifies enlarged Helvetica, Megazoid, Calcula, and hand-lettering as part of the edition's typographic play.",
+      "reuse": "Mix a stable utilitarian text face with one or two expressive display roles only after establishing clear hierarchy; license or substitute all typefaces appropriately."
+    }
+  ],
+  "assets": [
+    {
+      "type": "localized-edition-system",
+      "role": "Regional interpretation within a shared issue",
+      "notes": "The three city editions use different design teams under the same neighborhood and community brief. Their artwork, lettering, map, and imagery remain external source material and are not included here.",
+      "reuse": "Specify shared editorial constraints before commissioning localized editions, then preserve space for each team to make genuinely local choices."
+    },
+    {
+      "type": "type-play-system",
+      "role": "Display variation without abandoning editorial order",
+      "notes": "The source documents several named type treatments and hand lettering; the local shared preview uses only its existing original CSS and system-font approach.",
+      "reuse": "Prototype typographic contrast with original copy, licensed fonts, and neutral geometry instead of recreating a source publication's artwork or lettering."
+    }
+  ],
+  "motion": [],
+  "interactions": [],
+  "implementation": {
+    "format": "Localized print editorial issue using map-led narrative structure, a cover character, and layered typographic roles",
+    "complexity": "high",
+    "notes": "Pentagram's first-party case study explicitly documents the print-publication context, the three-city edition model, the NoMad map, the cover role, and the typographic ingredients. No source artwork, DALL-E imagery, map, dog image, lettering, or publication files are copied into this library."
+  },
+  "capture": {
+    "date": "2026-07-29",
+    "sourceLinks": [
+      "https://www.pentagram.com/work/wepresent-no-5",
+      "https://wepresent.wetransfer.com/"
+    ],
+    "attribution": "Paula Scher and Pentagram project team for WeTransfer / WePresent; New York edition by Pentagram, with Amman and Berlin editions by Turbo and Hort",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "case-study"
+  },
+  "status": "accepted"
+}
