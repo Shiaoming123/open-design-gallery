@@ -2,10 +2,10 @@
   "schemaVersion": "od-agent-context/v2",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "totals": {
-    "assets": 443,
+    "assets": 444,
     "libraries": 12,
-    "caseStudyEntries": 112,
-    "sourceUrlHashes": 351,
+    "caseStudyEntries": 113,
+    "sourceUrlHashes": 352,
     "thinEntries": 3
   },
   "libraries": [
@@ -129,14 +129,14 @@
       "kind": "case-study",
       "sourcePath": "design-templates/motion-interaction-projects/references/catalog.json",
       "previewPath": "design-templates/motion-interaction-projects/example.html",
-      "totalAssets": 6,
-      "totalEntries": 6,
+      "totalAssets": 7,
+      "totalEntries": 7,
       "statusCounts": {
-        "accepted": 4,
+        "accepted": 5,
         "backfill-needed": 2
       },
       "captureDepthCounts": {
-        "single-page-lead": 6
+        "single-page-lead": 7
       },
       "thinEntries": [
         "motion-interaction-projects:active-theory-creative-digital-experiences",
@@ -1393,6 +1393,31 @@
       ],
       "sourceUrlHashes": [
         "7f51a4410234652c"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "motion-interaction-projects:virgin-galactic-spaceflight-experience",
+      "libraryId": "motion-interaction-projects",
+      "title": "Virgin Galactic - Dogstudio",
+      "status": "accepted",
+      "captureDepth": "single-page-lead",
+      "sourcePath": "design-templates/motion-interaction-projects/references/entries/virgin-galactic-spaceflight-experience.json",
+      "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "roles": [
+        "case-reference",
+        "motion-interaction-projects-reference",
+        "motion-patterns"
+      ],
+      "tags": [
+        "motion-interaction-projects",
+        "webgl-spaceflight-story",
+        "website",
+        "scroll-and-swipe WebGL journey through a 3D spacecraft story",
+        "single-page-lead"
+      ],
+      "sourceUrlHashes": [
+        "09340ff4cbebfbe0"
       ],
       "sourceUrlCount": 1
     },

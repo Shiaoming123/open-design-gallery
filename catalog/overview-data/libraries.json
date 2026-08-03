@@ -1,7 +1,7 @@
 {
   "schemaVersion": "od-library-registry/v1",
   "generatedAt": "1970-01-01T00:00:00.000Z",
-  "totalAssets": 443,
+  "totalAssets": 444,
   "libraries": [
     {
       "id": "design-systems",
@@ -123,14 +123,14 @@
       "kind": "case-study",
       "sourcePath": "design-templates/motion-interaction-projects/references/catalog.json",
       "previewPath": "design-templates/motion-interaction-projects/example.html",
-      "totalAssets": 6,
-      "totalEntries": 6,
+      "totalAssets": 7,
+      "totalEntries": 7,
       "statusCounts": {
-        "accepted": 4,
+        "accepted": 5,
         "backfill-needed": 2
       },
       "captureDepthCounts": {
-        "single-page-lead": 6
+        "single-page-lead": 7
       },
       "thinEntries": [
         "motion-interaction-projects:active-theory-creative-digital-experiences",

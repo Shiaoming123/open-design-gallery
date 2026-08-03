@@ -1,0 +1,87 @@
+{
+  "id": "virgin-galactic-spaceflight-experience",
+  "category": "webgl-spaceflight-story",
+  "project": {
+    "title": "Virgin Galactic - Dogstudio",
+    "maker": "Dogstudio for Virgin Galactic",
+    "url": "https://dogstudio.co/cases/virgin-galactic/",
+    "medium": "website",
+    "format": "scroll-and-swipe WebGL journey through a 3D spacecraft story"
+  },
+  "why": "A strong motion reference for making a technical product story feel spatial without turning the interface into a passive film: Dogstudio combines linked WebGL subscenes, a 3D spacecraft sequence, and scroll-or-swipe transitions with conventional CMS content surfaces.",
+  "compositions": [
+    {
+      "type": "stage-shell",
+      "title": "Linked WebGL subscenes",
+      "url": "https://dogstudio.co/cases/virgin-galactic/",
+      "study": "Dogstudio describes a multi-scene WebGL system that moves visitors through the flight narrative rather than presenting one isolated hero animation.",
+      "reuse": "Split a long 3D story into purposeful scenes with explicit content beats instead of treating the canvas as decoration."
+    },
+    {
+      "type": "scroll-chapter",
+      "title": "Spaceflight steps paired with CMS content",
+      "url": "https://dogstudio.co/cases/virgin-galactic/",
+      "study": "The case pairs the 3D experience with ordinary editorial and card content, so the story has readable anchors beyond the immersive moments.",
+      "reuse": "Keep explanatory copy and conventional navigation available alongside spatial scenes."
+    }
+  ],
+  "assets": [
+    {
+      "type": "3d-scene",
+      "role": "spacecraft and flight environment",
+      "notes": "The case documents a 3D spacecraft sequence inside multiple WebGL subscenes.",
+      "reuse": "Reserve real-time 3D for a specific narrative object, then let standard content carry the supporting detail."
+    },
+    {
+      "type": "showcase-media",
+      "role": "editorial and CMS-managed flight content",
+      "notes": "The case describes CMS-backed content surfaces around the interactive flight sequence.",
+      "reuse": "Use managed content to keep an immersive campaign maintainable after its launch sequence is built."
+    }
+  ],
+  "motion": [
+    {
+      "type": "scroll-chapter",
+      "title": "Scroll-or-swipe scene transitions",
+      "notes": "The case documents event-driven scroll and swipe animation, including a two-way pinning and clipping transition between scenes.",
+      "fallback": "Reduced-motion support was not verified in the source. Reuse only with a readable linear path and direct scene links that do not depend on gesture animation."
+    },
+    {
+      "type": "autoplay-media-loop",
+      "title": "Performance-bounded environment motion",
+      "notes": "Dogstudio avoided real-time reflections that would degrade lower-power devices, substituting precomputed 360-degree environment maps at much lower cost.",
+      "fallback": "Offer a static or low-cost scene treatment for constrained devices; this is performance evidence, not verified reduced-motion support."
+    }
+  ],
+  "interactions": [
+    {
+      "type": "horizontal-scroll",
+      "title": "Two-way gesture-driven flight progression",
+      "url": "https://dogstudio.co/cases/virgin-galactic/",
+      "study": "Scroll and swipe gestures both advance and reverse the 3D flight sequence, with pinned and clipped transitions connecting subscenes.",
+      "reuse": "When gestures drive a narrative, make reverse travel as coherent as forward travel and preserve non-gesture controls."
+    },
+    {
+      "type": "pointer-stage",
+      "title": "Event-driven WebGL scene system",
+      "url": "https://dogstudio.co/cases/virgin-galactic/",
+      "study": "Dogstudio credits a complex front-end and WebGL event system rather than one self-running visual sequence.",
+      "reuse": "Model interactive scenes as explicit state transitions so content, loading, and escape paths remain controllable."
+    }
+  ],
+  "implementation": {
+    "format": "Dogstudio WebGL case-study experience with multi-scene 3D, scroll/swipe event transitions, and CMS content",
+    "complexity": "high",
+    "notes": "First-party case-study inspection confirmed Dogstudio's Virgin Galactic collaboration, named motion-design credits, multiple WebGL subscenes, a 3D spacecraft sequence, two-way pinning and clipping transitions, and a lower-power reflection strategy. Accessibility and reduced-motion behavior were not verified."
+  },
+  "capture": {
+    "date": "2026-08-03",
+    "sourceLinks": [
+      "https://dogstudio.co/cases/virgin-galactic/"
+    ],
+    "attribution": "Dogstudio for Virgin Galactic; credits include Dogstudio motion design",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "single-page-lead"
+  },
+  "status": "accepted"
+}

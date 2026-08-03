@@ -2731,6 +2731,76 @@
       "previewScope": "shared-collection"
     },
     {
+      "id": "motion-interaction-projects:virgin-galactic-spaceflight-experience",
+      "kind": "case-study",
+      "title": "Virgin Galactic - Dogstudio",
+      "summary": "A strong motion reference for making a technical product story feel spatial without turning the interface into a passive film: Dogstudio combines linked WebGL subscenes, a 3D spacecraft sequence, and scroll-or-swipe transitions with conventional CMS content s…",
+      "sourcePath": "design-templates/motion-interaction-projects/references/entries/virgin-galactic-spaceflight-experience.json",
+      "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "tags": [
+        "motion-interaction-projects",
+        "webgl-spaceflight-story",
+        "website",
+        "scroll-and-swipe WebGL journey through a 3D spacecraft story",
+        "single-page-lead"
+      ],
+      "useCases": [
+        "motion interaction projects",
+        "webgl-spaceflight-story",
+        "website"
+      ],
+      "userWords": [
+        "A strong motion reference for making a technical product story feel spatial without turning the interface into a passive film: Dogstudio combines linked WebGL subscenes, a 3D spacecraft sequence, and scroll-or-swipe transitions with conventional CMS content s…"
+      ],
+      "visualTraits": [
+        "webgl-spaceflight-story",
+        "Virgin Galactic - Dogstudio",
+        "Dogstudio for Virgin Galactic",
+        "https://dogstudio.co/cases/virgin-galactic/",
+        "website",
+        "scroll-and-swipe WebGL journey through a 3D spacecraft story",
+        "stage-shell",
+        "Linked WebGL subscenes",
+        "Dogstudio describes a multi-scene WebGL system that moves visitors through the flight narrative rather than presenting one isolated hero animation.",
+        "Split a long 3D story into purposeful scenes with explicit content beats instead of treating the canvas as decoration.",
+        "scroll-chapter",
+        "Spaceflight steps paired with CMS content",
+        "The case pairs the 3D experience with ordinary editorial and card content, so the story has readable anchors beyond the immersive moments.",
+        "Keep explanatory copy and conventional navigation available alongside spatial scenes.",
+        "3d-scene",
+        "spacecraft and flight environment",
+        "The case documents a 3D spacecraft sequence inside multiple WebGL subscenes.",
+        "Reserve real-time 3D for a specific narrative object, then let standard content carry the supporting detail.",
+        "showcase-media",
+        "editorial and CMS-managed flight content",
+        "The case describes CMS-backed content surfaces around the interactive flight sequence.",
+        "Use managed content to keep an immersive campaign maintainable after its launch sequence is built.",
+        "Scroll-or-swipe scene transitions",
+        "The case documents event-driven scroll and swipe animation, including a two-way pinning and clipping transition between scenes."
+      ],
+      "roles": [
+        "case-reference",
+        "motion-interaction-projects-reference",
+        "motion-patterns"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "libraryId": "motion-interaction-projects",
+      "status": "accepted",
+      "captureDepth": "single-page-lead",
+      "sourceUrls": [
+        "https://dogstudio.co/cases/virgin-galactic"
+      ],
+      "sourceUrlHashes": [
+        "09340ff4cbebfbe0"
+      ],
+      "files": {
+        "catalog": "design-templates/motion-interaction-projects/references/catalog.json",
+        "source": "design-templates/motion-interaction-projects/references/entries/virgin-galactic-spaceflight-experience.json",
+        "preview": "design-templates/motion-interaction-projects/example.html"
+      },
+      "previewScope": "shared-collection"
+    },
+    {
       "id": "personal-blog-projects:ahmad-shadeed",
       "kind": "case-study",
       "title": "Ahmad Shadeed",
