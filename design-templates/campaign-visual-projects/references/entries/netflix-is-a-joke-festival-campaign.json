@@ -1,0 +1,96 @@
+{
+  "id": "netflix-is-a-joke-festival-campaign",
+  "category": "comedy-festival-campaign-visual-system",
+  "project": {
+    "title": "Netflix Is a Joke: The Festival",
+    "maker": "PORTO ROCHA for Netflix",
+    "url": "https://www.portorocha.com/netflixisajoke/",
+    "medium": "festival campaign identity and event visual system",
+    "format": "Copy-led identity spanning promotional campaign, trailer, out-of-home takeovers, and main-stage graphics",
+    "period": "2024 festival"
+  },
+  "why": "A strong campaign reference because one copy-led visual grammar carries an unusually large comedy programme from promotion into a live event. PORTO ROCHA combines wood-type-inspired typography, dimensional containers, and a deliberately self-aware voice so the system can accommodate many performers while remaining recognizable in trailer, out-of-home, and stage-scale applications.",
+  "artDirection": [
+    {
+      "type": "copy-led-comedy-voice",
+      "title": "The campaign voice is a visual ingredient",
+      "url": "https://www.portorocha.com/netflixisajoke/",
+      "study": "PORTO ROCHA describes a dry, self-aware persona that can promote talent while poking fun at itself, turning over-articulated asides and comedy-culture references into a consistent campaign voice.",
+      "reuse": "Define a constrained verbal persona alongside the visual system when a campaign needs many changing messages to still read as one world."
+    },
+    {
+      "type": "wood-type-inspired-typography",
+      "title": "Bold type carries the high-volume programme",
+      "url": "https://www.portorocha.com/netflixisajoke/",
+      "study": "The case study identifies bold, wood-type-inspired typography across copy and logo as the identity's core, helping the campaign cut through a media-saturated Los Angeles landscape.",
+      "reuse": "Give the recognition-bearing type treatment enough weight and contrast to survive talent swaps, dense schedules, and distant outdoor viewing."
+    },
+    {
+      "type": "dimensional-container-system",
+      "title": "One graphic device can flex from announcement to event",
+      "url": "https://www.portorocha.com/netflixisajoke/",
+      "study": "Dimensional graphic containers support the typography and provide a repeatable visual device rather than a separate illustrated hero for each performer.",
+      "reuse": "Use a small family of original containers or frames to make variable copy and talent content feel authored by one campaign system."
+    }
+  ],
+  "channelFormats": [
+    {
+      "type": "promotional-campaign",
+      "title": "Promotion and live experience share one identity",
+      "notes": "The studio explicitly designed for continuity from the promotional campaign through the festival experience, despite a lineup spanning 130 comedians and more than 280 events.",
+      "cropSystem": "Keep the type, copy voice, and dimensional-container grammar stable while programme information changes by performer, venue, and date.",
+      "reuse": "Treat operational campaign content as a variable layer, not a reason to invent a separate graphic style for each announcement."
+    },
+    {
+      "type": "out-of-home",
+      "title": "Comedy voice scales to city-size placements",
+      "notes": "The official case names larger-than-life out-of-home takeovers as part of the campaign rollout.",
+      "cropSystem": "Favor short, high-contrast copy and an unmistakable typographic silhouette for distant or brief reads.",
+      "reuse": "Test a campaign's core line and lockup at outdoor-reading distance before adding secondary detail."
+    },
+    {
+      "type": "live-stage-graphics",
+      "title": "The same graphic language reaches the main stage",
+      "notes": "Colorful main-stage graphics extend the campaign from media placements into the live festival environment.",
+      "cropSystem": "Retain the shared type and dimensional grammar while simplifying detail for large, time-based stage views.",
+      "reuse": "Plan a scale-specific stage composition that remains visibly connected to the static campaign without forcing a poster layout onto a screen."
+    }
+  ],
+  "assets": [
+    {
+      "type": "display-typography",
+      "role": "Campaign recognition and programme flexibility",
+      "notes": "The source identifies wood-type-inspired typography and Midnight Sans by Colophon; no type files or source artwork are included in this library.",
+      "reuse": "License an appropriate typeface or use an original typographic treatment rather than reproducing the source's lettering."
+    },
+    {
+      "type": "dimensional-graphic-containers",
+      "role": "Repeatable visual structure",
+      "notes": "The case describes dimensional containers as an identity component that supports copy and logo; the proprietary forms are not reproduced locally.",
+      "reuse": "Create original geometric frames with an explicit depth and lighting rule when a campaign needs an adaptable supporting layer."
+    }
+  ],
+  "motion": [
+    {
+      "type": "logo-announcement-trailer",
+      "title": "Dimensionality becomes an announcement motion principle",
+      "notes": "Netflix and Panic Studio used the identity's dimensional element in a trailer that brings the logo to life.",
+      "fallback": "Keep the wordmark and campaign copy fully legible in a still frame; offer a static key visual or low-motion crossfade where animation is unavailable or unwanted."
+    }
+  ],
+  "implementation": {
+    "format": "Festival campaign reference connecting a copy-led visual identity to programme promotion, motion announcement, outdoor media, and stage graphics",
+    "complexity": "high",
+    "notes": "PORTO ROCHA's first-party case study documents the event scale, campaign-to-event continuity, typography, dimensional containers, trailer collaboration, out-of-home, stage graphics, and named creative credits. The source supports reusable principles only; original local previews must not embed or reproduce Netflix, PORTO ROCHA, Panic Studio, performer, photography, or font assets."
+  },
+  "capture": {
+    "date": "2026-08-05",
+    "sourceLinks": [
+      "https://www.portorocha.com/netflixisajoke/"
+    ],
+    "attribution": "PORTO ROCHA for Netflix; creative direction Felipe Rocha; animation by Panic Studio; motion design by Young G. Woo, Chae Park, and Caio Pereira. Source artwork, photography, typefaces, and campaign media remain with their respective rights holders.",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "case-study"
+  },
+  "status": "accepted"
+}

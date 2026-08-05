@@ -145,6 +145,71 @@
       "previewScope": "shared-collection"
     },
     {
+      "id": "campaign-visual-projects:netflix-is-a-joke-festival-campaign",
+      "kind": "case-study",
+      "title": "Netflix Is a Joke: The Festival",
+      "summary": "A strong campaign reference because one copy-led visual grammar carries an unusually large comedy programme from promotion into a live event. PORTO ROCHA combines wood-type-inspired typography, dimensional containers, and a deliberately self-aware voice so th…",
+      "sourcePath": "design-templates/campaign-visual-projects/references/entries/netflix-is-a-joke-festival-campaign.json",
+      "previewPath": "design-templates/campaign-visual-projects/example.html",
+      "tags": [
+        "campaign-visual-projects",
+        "comedy-festival-campaign-visual-system",
+        "festival campaign identity and event visual system",
+        "Copy-led identity spanning promotional campaign, trailer, out-of-home takeovers, and main-stage graphics",
+        "case-study"
+      ],
+      "useCases": [
+        "campaign visual projects",
+        "comedy-festival-campaign-visual-system",
+        "festival campaign identity and event visual system"
+      ],
+      "userWords": [
+        "A strong campaign reference because one copy-led visual grammar carries an unusually large comedy programme from promotion into a live event. PORTO ROCHA combines wood-type-inspired typography, dimensional containers, and a deliberately self-aware voice so th…"
+      ],
+      "visualTraits": [
+        "comedy-festival-campaign-visual-system",
+        "Netflix Is a Joke: The Festival",
+        "PORTO ROCHA for Netflix",
+        "https://www.portorocha.com/netflixisajoke/",
+        "festival campaign identity and event visual system",
+        "Copy-led identity spanning promotional campaign, trailer, out-of-home takeovers, and main-stage graphics",
+        "2024 festival",
+        "display-typography",
+        "Campaign recognition and programme flexibility",
+        "The source identifies wood-type-inspired typography and Midnight Sans by Colophon; no type files or source artwork are included in this library.",
+        "License an appropriate typeface or use an original typographic treatment rather than reproducing the source's lettering.",
+        "dimensional-graphic-containers",
+        "Repeatable visual structure",
+        "The case describes dimensional containers as an identity component that supports copy and logo; the proprietary forms are not reproduced locally.",
+        "Create original geometric frames with an explicit depth and lighting rule when a campaign needs an adaptable supporting layer.",
+        "logo-announcement-trailer",
+        "Dimensionality becomes an announcement motion principle",
+        "Netflix and Panic Studio used the identity's dimensional element in a trailer that brings the logo to life.",
+        "Keep the wordmark and campaign copy fully legible in a still frame; offer a static key visual or low-motion crossfade where animation is unavailable or unwanted."
+      ],
+      "roles": [
+        "case-reference",
+        "campaign-visual-projects-reference",
+        "motion-patterns"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "libraryId": "campaign-visual-projects",
+      "status": "accepted",
+      "captureDepth": "case-study",
+      "sourceUrls": [
+        "https://www.portorocha.com/netflixisajoke"
+      ],
+      "sourceUrlHashes": [
+        "3b2043bc5c3c3a43"
+      ],
+      "files": {
+        "catalog": "design-templates/campaign-visual-projects/references/catalog.json",
+        "source": "design-templates/campaign-visual-projects/references/entries/netflix-is-a-joke-festival-campaign.json",
+        "preview": "design-templates/campaign-visual-projects/example.html"
+      },
+      "previewScope": "shared-collection"
+    },
+    {
       "id": "campaign-visual-projects:nike-art-of-victory-centre-pompidou-campaign",
       "kind": "case-study",
       "title": "Nike au Centre Pompidou",

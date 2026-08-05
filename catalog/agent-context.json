@@ -2,10 +2,10 @@
   "schemaVersion": "od-agent-context/v2",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "totals": {
-    "assets": 444,
+    "assets": 445,
     "libraries": 12,
-    "caseStudyEntries": 113,
-    "sourceUrlHashes": 352,
+    "caseStudyEntries": 114,
+    "sourceUrlHashes": 353,
     "thinEntries": 3
   },
   "libraries": [
@@ -34,14 +34,14 @@
       "kind": "case-study",
       "sourcePath": "design-templates/campaign-visual-projects/references/catalog.json",
       "previewPath": "design-templates/campaign-visual-projects/example.html",
-      "totalAssets": 5,
-      "totalEntries": 5,
+      "totalAssets": 6,
+      "totalEntries": 6,
       "statusCounts": {
-        "accepted": 5
+        "accepted": 6
       },
       "captureDepthCounts": {
         "artifact-study": 4,
-        "case-study": 1
+        "case-study": 2
       },
       "thinEntries": []
     },
@@ -248,6 +248,31 @@
         "1bce4ab62b257f41"
       ],
       "sourceUrlCount": 3
+    },
+    {
+      "assetId": "campaign-visual-projects:netflix-is-a-joke-festival-campaign",
+      "libraryId": "campaign-visual-projects",
+      "title": "Netflix Is a Joke: The Festival",
+      "status": "accepted",
+      "captureDepth": "case-study",
+      "sourcePath": "design-templates/campaign-visual-projects/references/entries/netflix-is-a-joke-festival-campaign.json",
+      "previewPath": "design-templates/campaign-visual-projects/example.html",
+      "roles": [
+        "case-reference",
+        "campaign-visual-projects-reference",
+        "motion-patterns"
+      ],
+      "tags": [
+        "campaign-visual-projects",
+        "comedy-festival-campaign-visual-system",
+        "festival campaign identity and event visual system",
+        "Copy-led identity spanning promotional campaign, trailer, out-of-home takeovers, and main-stage graphics",
+        "case-study"
+      ],
+      "sourceUrlHashes": [
+        "3b2043bc5c3c3a43"
+      ],
+      "sourceUrlCount": 1
     },
     {
       "assetId": "campaign-visual-projects:nike-art-of-victory-centre-pompidou-campaign",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "od-library-registry/v1",
   "generatedAt": "1970-01-01T00:00:00.000Z",
-  "totalAssets": 444,
+  "totalAssets": 445,
   "libraries": [
     {
       "id": "design-systems",
@@ -28,14 +28,14 @@
       "kind": "case-study",
       "sourcePath": "design-templates/campaign-visual-projects/references/catalog.json",
       "previewPath": "design-templates/campaign-visual-projects/example.html",
-      "totalAssets": 5,
-      "totalEntries": 5,
+      "totalAssets": 6,
+      "totalEntries": 6,
       "statusCounts": {
-        "accepted": 5
+        "accepted": 6
       },
       "captureDepthCounts": {
         "artifact-study": 4,
-        "case-study": 1
+        "case-study": 2
       },
       "thinEntries": []
     },
