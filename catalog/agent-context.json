@@ -2,10 +2,10 @@
   "schemaVersion": "od-agent-context/v2",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "totals": {
-    "assets": 445,
+    "assets": 446,
     "libraries": 12,
-    "caseStudyEntries": 114,
-    "sourceUrlHashes": 353,
+    "caseStudyEntries": 115,
+    "sourceUrlHashes": 355,
     "thinEntries": 3
   },
   "libraries": [
@@ -165,14 +165,15 @@
       "kind": "case-study",
       "sourcePath": "design-templates/poster-projects/references/catalog.json",
       "previewPath": "design-templates/poster-projects/example.html",
-      "totalAssets": 6,
-      "totalEntries": 6,
+      "totalAssets": 7,
+      "totalEntries": 7,
       "statusCounts": {
-        "accepted": 5,
+        "accepted": 6,
         "lead": 1
       },
       "captureDepthCounts": {
         "artifact-study": 5,
+        "case-study": 1,
         "case-summary": 1
       },
       "thinEntries": [
@@ -3080,6 +3081,32 @@
       "sourceUrlHashes": [
         "33daea98065591b6",
         "50a5d6b79de3c0b7"
+      ],
+      "sourceUrlCount": 2
+    },
+    {
+      "assetId": "poster-projects:williamstown-theatre-festival-2025",
+      "libraryId": "poster-projects",
+      "title": "Williamstown Theatre Festival 2025",
+      "status": "accepted",
+      "captureDepth": "case-study",
+      "sourcePath": "design-templates/poster-projects/references/entries/williamstown-theatre-festival-2025.json",
+      "previewPath": "design-templates/poster-projects/example.html",
+      "roles": [
+        "case-reference",
+        "poster-projects-reference",
+        "motion-patterns"
+      ],
+      "tags": [
+        "poster-projects",
+        "festival-poster-system",
+        "festival visual identity and performance key-visual system",
+        "2025 theatre-festival poster and key-visual system",
+        "case-study"
+      ],
+      "sourceUrlHashes": [
+        "d2cc134256298fb5",
+        "08e41a9fd0a3ecc8"
       ],
       "sourceUrlCount": 2
     },

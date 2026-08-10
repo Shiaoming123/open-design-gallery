@@ -1,7 +1,7 @@
 {
   "schemaVersion": "od-library-registry/v1",
   "generatedAt": "1970-01-01T00:00:00.000Z",
-  "totalAssets": 445,
+  "totalAssets": 446,
   "libraries": [
     {
       "id": "design-systems",
@@ -159,14 +159,15 @@
       "kind": "case-study",
       "sourcePath": "design-templates/poster-projects/references/catalog.json",
       "previewPath": "design-templates/poster-projects/example.html",
-      "totalAssets": 6,
-      "totalEntries": 6,
+      "totalAssets": 7,
+      "totalEntries": 7,
       "statusCounts": {
-        "accepted": 5,
+        "accepted": 6,
         "lead": 1
       },
       "captureDepthCounts": {
         "artifact-study": 5,
+        "case-study": 1,
         "case-summary": 1
       },
       "thinEntries": [

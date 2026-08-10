@@ -1,0 +1,71 @@
+{
+  "id": "williamstown-theatre-festival-2025",
+  "category": "festival-poster-system",
+  "project": {
+    "title": "Williamstown Theatre Festival 2025",
+    "maker": "Pentagram (Andrea Trabucco-Campos and team) for Williamstown Theatre Festival",
+    "url": "https://www.pentagram.com/work/williamstown-theatre-festival-2025",
+    "medium": "festival visual identity and performance key-visual system",
+    "format": "2025 theatre-festival poster and key-visual system"
+  },
+  "why": "A clear reference for keeping a festival identity recognizable while changing its yearly art direction: one blur behavior gives distinct performance images a shared sense of motion across print, environmental, and digital formats.",
+  "compositions": [
+    {
+      "type": "blurred-performance-field",
+      "title": "Motion frozen into each performance image",
+      "url": "https://www.pentagram.com/work/williamstown-theatre-festival-2025",
+      "study": "Pentagram applies a blur motion behavior to photography and typography, then uses a distinct key image to convey each performance.",
+      "reuse": "Define one transformation rule that can make varied subjects feel like a coherent event season without forcing them into one repeated picture." 
+    },
+    {
+      "type": "cross-channel-stage-system",
+      "title": "A key visual that scales through the festival ecosystem",
+      "url": "https://www.pentagram.com/work/williamstown-theatre-festival-2025",
+      "study": "The system extends from performance key visuals to signage, wayfinding, programme design, badges, digital billboards, social media, and merchandise.",
+      "reuse": "Treat the poster composition as a portable rule set, then test its hierarchy at close-reading, streetscape, and scrolling scales." 
+    }
+  ],
+  "assets": [
+    {
+      "type": "performance-photography",
+      "role": "performance-specific image field",
+      "notes": "The source documents key images for individual performances; no source photography is copied into this library.",
+      "reuse": "Use original or licensed imagery with an equivalent movement treatment rather than reusing campaign photography."
+    },
+    {
+      "type": "condensed-serif-type-system",
+      "role": "stable typographic foundation",
+      "notes": "The case study identifies Review Condensed and Times New Roman as the bold-and-evergreen type pairing.",
+      "reuse": "Pair a high-impact condensed face with a quieter text face when changing art direction still needs a stable information voice."
+    },
+    {
+      "type": "dynamic-stage-graphic",
+      "role": "identity continuity",
+      "notes": "The 2025 expression retains the Williamstown monogram and dynamic-stages graphic system established for the prior edition.",
+      "reuse": "Keep a small core of durable marks or graphics fixed while letting the annual image treatment evolve."
+    }
+  ],
+  "motion": [
+    {
+      "type": "blur-motion-behavior",
+      "title": "Blur as a system-level movement rule",
+      "url": "https://www.pentagram.com/work/williamstown-theatre-festival-2025",
+      "study": "Photography and typography share blur as a visual behavior; Pentagram describes animated key images made with Runway and AfterEffects.",
+      "reuse": "Use a restrained, accessible motion treatment that also reads as a strong static frame; provide a still alternative when motion is unavailable."
+    }
+  ],
+  "interactions": [],
+  "implementation": {
+    "format": "Festival poster/key-visual system with a shared blur behavior and stable identity foundation",
+    "complexity": "medium",
+    "notes": "The official Pentagram case study documents the project context, design behavior, system applications, typography, and credits. This entry records reusable principles only; all source artwork, photography, typefaces, and motion assets remain external."
+  },
+  "capture": {
+    "date": "2026-08-10",
+    "sourceLinks": ["https://www.pentagram.com/work/williamstown-theatre-festival-2025", "https://www.wtfestival.org/"],
+    "attribution": "Pentagram partner Andrea Trabucco-Campos and team for Williamstown Theatre Festival",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "case-study"
+  },
+  "status": "accepted"
+}

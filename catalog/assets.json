@@ -6104,6 +6104,78 @@
       "previewScope": "shared-collection"
     },
     {
+      "id": "poster-projects:williamstown-theatre-festival-2025",
+      "kind": "case-study",
+      "title": "Williamstown Theatre Festival 2025",
+      "summary": "A clear reference for keeping a festival identity recognizable while changing its yearly art direction: one blur behavior gives distinct performance images a shared sense of motion across print, environmental, and digital formats.",
+      "sourcePath": "design-templates/poster-projects/references/entries/williamstown-theatre-festival-2025.json",
+      "previewPath": "design-templates/poster-projects/example.html",
+      "tags": [
+        "poster-projects",
+        "festival-poster-system",
+        "festival visual identity and performance key-visual system",
+        "2025 theatre-festival poster and key-visual system",
+        "case-study"
+      ],
+      "useCases": [
+        "poster projects",
+        "festival-poster-system",
+        "festival visual identity and performance key-visual system"
+      ],
+      "userWords": [
+        "A clear reference for keeping a festival identity recognizable while changing its yearly art direction: one blur behavior gives distinct performance images a shared sense of motion across print, environmental, and digital formats."
+      ],
+      "visualTraits": [
+        "festival-poster-system",
+        "Williamstown Theatre Festival 2025",
+        "Pentagram (Andrea Trabucco-Campos and team) for Williamstown Theatre Festival",
+        "https://www.pentagram.com/work/williamstown-theatre-festival-2025",
+        "festival visual identity and performance key-visual system",
+        "2025 theatre-festival poster and key-visual system",
+        "blurred-performance-field",
+        "Motion frozen into each performance image",
+        "Pentagram applies a blur motion behavior to photography and typography, then uses a distinct key image to convey each performance.",
+        "Define one transformation rule that can make varied subjects feel like a coherent event season without forcing them into one repeated picture.",
+        "cross-channel-stage-system",
+        "A key visual that scales through the festival ecosystem",
+        "The system extends from performance key visuals to signage, wayfinding, programme design, badges, digital billboards, social media, and merchandise.",
+        "Treat the poster composition as a portable rule set, then test its hierarchy at close-reading, streetscape, and scrolling scales.",
+        "performance-photography",
+        "performance-specific image field",
+        "The source documents key images for individual performances; no source photography is copied into this library.",
+        "Use original or licensed imagery with an equivalent movement treatment rather than reusing campaign photography.",
+        "condensed-serif-type-system",
+        "stable typographic foundation",
+        "The case study identifies Review Condensed and Times New Roman as the bold-and-evergreen type pairing.",
+        "Pair a high-impact condensed face with a quieter text face when changing art direction still needs a stable information voice.",
+        "dynamic-stage-graphic",
+        "identity continuity"
+      ],
+      "roles": [
+        "case-reference",
+        "poster-projects-reference",
+        "motion-patterns"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "libraryId": "poster-projects",
+      "status": "accepted",
+      "captureDepth": "case-study",
+      "sourceUrls": [
+        "https://www.pentagram.com/work/williamstown-theatre-festival-2025",
+        "https://www.wtfestival.org/"
+      ],
+      "sourceUrlHashes": [
+        "d2cc134256298fb5",
+        "08e41a9fd0a3ecc8"
+      ],
+      "files": {
+        "catalog": "design-templates/poster-projects/references/catalog.json",
+        "source": "design-templates/poster-projects/references/entries/williamstown-theatre-festival-2025.json",
+        "preview": "design-templates/poster-projects/example.html"
+      },
+      "previewScope": "shared-collection"
+    },
+    {
       "id": "product-ui-projects:linear-product-development-system",
       "kind": "case-study",
       "title": "Linear",
