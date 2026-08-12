@@ -4,10 +4,10 @@
   "description": "A source-linked case library for immersive frontend motion and interaction references. Entries capture stage composition, motion systems, interaction rules, media strategy, and fallback notes without copying external assets.",
   "indexes": {
     "views": ["entries", "compositions", "assets", "motion", "interactions"],
-    "compositionTypes": ["stage-shell", "loader-sequence", "scroll-chapter", "reel-wall", "card-stack", "timeline-ribbon"],
+    "compositionTypes": ["stage-shell", "loader-sequence", "scroll-chapter", "reel-wall", "card-stack", "timeline-ribbon", "zoomable-biography-timeline"],
     "assetTypes": ["video-loop", "3d-scene", "custom-font", "showcase-media", "ui-overlay"],
-    "motionTypes": ["loader-handoff", "scroll-chapter", "autoplay-media-loop", "cursor-inversion", "menu-transition"],
-    "interactionTypes": ["pointer-stage", "cursor-follow", "menu-overlay", "card-flip", "hover-reveal", "horizontal-scroll", "scratch-reveal", "stepper-control", "sound-toggle", "map-explore"]
+    "motionTypes": ["loader-handoff", "scroll-chapter", "autoplay-media-loop", "cursor-inversion", "menu-transition", "narrative-zoom"],
+    "interactionTypes": ["pointer-stage", "cursor-follow", "menu-overlay", "card-flip", "hover-reveal", "horizontal-scroll", "scratch-reveal", "stepper-control", "sound-toggle", "map-explore", "timeline-zoom"]
   },
   "entryFiles": [
     "entries/active-theory-creative-digital-experiences.json",
@@ -16,6 +16,7 @@
     "entries/kode-immersive-tech-enabled-creativity-homepage.json",
     "entries/unseen-studio-year-in-review-2025.json",
     "entries/david-whyte-companion-portal-experience.json",
-    "entries/virgin-galactic-spaceflight-experience.json"
+    "entries/virgin-galactic-spaceflight-experience.json",
+    "entries/muhammad-ali-center-immersive-timeline.json"
   ]
 }

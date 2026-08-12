@@ -1,0 +1,76 @@
+{
+  "id": "muhammad-ali-center-immersive-timeline",
+  "category": "immersive-cultural-institution-timeline",
+  "project": {
+    "title": "Muhammad Ali Center",
+    "maker": "Dogstudio for the Muhammad Ali Center",
+    "url": "https://dogstudio.co/cases/muhammad-ali-center/",
+    "medium": "cultural-institution website",
+    "format": "CMS-editable immersive biography timeline"
+  },
+  "why": "A strong reference for making a deep institutional archive feel explorable rather than overwhelming: a layered timeline starts with broad ideals, then reveals more detailed related content through deliberate zoom levels.",
+  "compositions": [
+    {
+      "type": "zoomable-biography-timeline",
+      "title": "Timeline as a distinct immersive destination",
+      "url": "https://dogstudio.co/cases/muhammad-ali-center/",
+      "study": "Dogstudio describes the Muhammad Ali timeline as an immersive experience within the wider site, dedicated to browsing key moments from his life.",
+      "reuse": "Treat a dense chronology as a named destination with its own orientation and pacing, rather than appending every event to a conventional content page."
+    },
+    {
+      "type": "stage-shell",
+      "title": "Broad-to-specific content hierarchy",
+      "url": "https://dogstudio.co/cases/muhammad-ali-center/",
+      "study": "The case frames the wider platform around cultural offerings, education, social-justice initiatives, and community programmes before introducing the dedicated timeline.",
+      "reuse": "Establish a clear primary information architecture before offering an immersive branch, so an expressive interaction does not become the only route into institutional content."
+    }
+  ],
+  "assets": [
+    {
+      "type": "custom-font",
+      "role": "editorial hierarchy",
+      "notes": "Dogstudio identifies Founders Grotesk X-Condensed, Antonia Variable, and Guillon as the project type combination; no type files or source artwork are included here.",
+      "reuse": "Use an independently licensed or original type system with clear display, narrative, and utility roles instead of reproducing the source typography."
+    },
+    {
+      "type": "ui-overlay",
+      "role": "timeline orientation and level control",
+      "notes": "The source describes multiple timeline zoom levels that lead from high-level ideas toward related content.",
+      "reuse": "Keep the active zoom level, available depth, and return path visible whenever an interface lets people enter a layered narrative."
+    }
+  ],
+  "motion": [
+    {
+      "type": "narrative-zoom",
+      "title": "Progressive detail through zoom levels",
+      "url": "https://dogstudio.co/cases/muhammad-ali-center/",
+      "study": "The first-party case describes an immersive timeline with several levels of zoom for moving from broad ideas to detailed related content.",
+      "fallback": "Reduced-motion behavior was not established by the source. Provide direct section navigation and a readable chronological list before adding animated zoom transitions."
+    }
+  ],
+  "interactions": [
+    {
+      "type": "timeline-zoom",
+      "title": "Layered timeline exploration",
+      "url": "https://dogstudio.co/cases/muhammad-ali-center/",
+      "study": "The timeline supports exploring a life story at more than one granularity instead of requiring one long linear pass.",
+      "reuse": "Offer a visible overview, bounded steps into detail, and an explicit return control when turning chronology into an exploratory interface."
+    }
+  ],
+  "implementation": {
+    "format": "Institutional website with an immersive, CMS-editable timeline module",
+    "complexity": "high",
+    "notes": "Dogstudio's case study attributes design and build to Dogstudio and states that the timeline, like almost the entire site, is CMS-editable. This entry records only reusable interaction and editorial principles; all client imagery, typefaces, branding, and source code remain external."
+  },
+  "capture": {
+    "date": "2026-08-12",
+    "sourceLinks": [
+      "https://dogstudio.co/cases/muhammad-ali-center/",
+      "https://alicenter.org/"
+    ],
+    "attribution": "Dogstudio for the Muhammad Ali Center",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "first-party-case-study"
+  },
+  "status": "accepted"
+}

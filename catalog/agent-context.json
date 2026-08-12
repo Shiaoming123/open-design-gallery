@@ -2,10 +2,10 @@
   "schemaVersion": "od-agent-context/v2",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "totals": {
-    "assets": 446,
+    "assets": 447,
     "libraries": 12,
-    "caseStudyEntries": 115,
-    "sourceUrlHashes": 355,
+    "caseStudyEntries": 116,
+    "sourceUrlHashes": 357,
     "thinEntries": 3
   },
   "libraries": [
@@ -129,13 +129,14 @@
       "kind": "case-study",
       "sourcePath": "design-templates/motion-interaction-projects/references/catalog.json",
       "previewPath": "design-templates/motion-interaction-projects/example.html",
-      "totalAssets": 7,
-      "totalEntries": 7,
+      "totalAssets": 8,
+      "totalEntries": 8,
       "statusCounts": {
-        "accepted": 5,
+        "accepted": 6,
         "backfill-needed": 2
       },
       "captureDepthCounts": {
+        "first-party-case-study": 1,
         "single-page-lead": 7
       },
       "thinEntries": [
@@ -1371,6 +1372,32 @@
         "ab573de1fa91b38f"
       ],
       "sourceUrlCount": 1
+    },
+    {
+      "assetId": "motion-interaction-projects:muhammad-ali-center-immersive-timeline",
+      "libraryId": "motion-interaction-projects",
+      "title": "Muhammad Ali Center",
+      "status": "accepted",
+      "captureDepth": "first-party-case-study",
+      "sourcePath": "design-templates/motion-interaction-projects/references/entries/muhammad-ali-center-immersive-timeline.json",
+      "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "roles": [
+        "case-reference",
+        "motion-interaction-projects-reference",
+        "motion-patterns"
+      ],
+      "tags": [
+        "motion-interaction-projects",
+        "immersive-cultural-institution-timeline",
+        "cultural-institution website",
+        "CMS-editable immersive biography timeline",
+        "first-party-case-study"
+      ],
+      "sourceUrlHashes": [
+        "c3c10686ca8486e9",
+        "8c4af5198ec48141"
+      ],
+      "sourceUrlCount": 2
     },
     {
       "assetId": "motion-interaction-projects:resn-creative-digital-agency-homepage",

@@ -174,6 +174,20 @@ h1 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
 }
+.timeline-preview {
+  padding: 20px;
+  overflow: hidden;
+}
+.timeline-preview h2 { margin: 0 0 8px; font-size: 25px; letter-spacing: -0.04em; }
+.timeline-preview > p { margin: 0 0 18px; color: var(--muted); line-height: 1.6; }
+.timeline-rail { display: grid; grid-template-columns: repeat(4, minmax(130px, 1fr)); gap: 10px; min-width: 580px; }
+.timeline-stop { position: relative; min-height: 128px; padding: 18px 14px 14px; border: 1px solid var(--line); border-radius: 16px; background: linear-gradient(145deg, rgba(114, 216, 255, 0.14), rgba(255,255,255,0.03)); }
+.timeline-stop::before { content: ""; position: absolute; top: -6px; left: 18px; width: 11px; height: 11px; border-radius: 50%; background: var(--acid); box-shadow: 0 0 0 5px rgba(216, 255, 99, 0.12); }
+.timeline-stop:nth-child(2) { transform: translateY(18px); background: linear-gradient(145deg, rgba(216, 255, 99, 0.12), rgba(255,255,255,0.03)); }
+.timeline-stop:nth-child(3) { background: linear-gradient(145deg, rgba(255, 138, 138, 0.16), rgba(255,255,255,0.03)); }
+.timeline-stop small { color: var(--cyan); font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.timeline-stop strong { display: block; margin: 10px 0 6px; font-size: 16px; }
+.timeline-stop span { color: var(--muted); font-size: 12px; line-height: 1.45; }
 .card {
   padding: 20px;
   min-height: 220px;
@@ -297,6 +311,17 @@ h1 {
         <div class="mini"><strong>Study</strong><span>Cursor mode shifts, reel rhythm, and CTA motion consistency.</span></div>
       </div>
     </article>
+  </section>
+
+  <section class="panel timeline-preview" aria-label="Original layered timeline preview">
+    <h2>Layered timeline, clear return path</h2>
+    <p>An original, non-source preview of the broad-to-specific navigation principle: each stop exposes more detail without making the overview disappear.</p>
+    <div class="timeline-rail">
+      <div class="timeline-stop"><small>Overview</small><strong>Values</strong><span>Enter a topic from a stable map.</span></div>
+      <div class="timeline-stop"><small>Chapter</small><strong>Moments</strong><span>Focus one bounded part of the story.</span></div>
+      <div class="timeline-stop"><small>Detail</small><strong>Context</strong><span>Reveal related material at a deeper level.</span></div>
+      <div class="timeline-stop"><small>Return</small><strong>Reorient</strong><span>Make the zoom-out route explicit.</span></div>
+    </div>
   </section>
 </main>
 </body>

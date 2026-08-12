@@ -2656,6 +2656,78 @@
       "previewScope": "shared-collection"
     },
     {
+      "id": "motion-interaction-projects:muhammad-ali-center-immersive-timeline",
+      "kind": "case-study",
+      "title": "Muhammad Ali Center",
+      "summary": "A strong reference for making a deep institutional archive feel explorable rather than overwhelming: a layered timeline starts with broad ideals, then reveals more detailed related content through deliberate zoom levels.",
+      "sourcePath": "design-templates/motion-interaction-projects/references/entries/muhammad-ali-center-immersive-timeline.json",
+      "previewPath": "design-templates/motion-interaction-projects/example.html",
+      "tags": [
+        "motion-interaction-projects",
+        "immersive-cultural-institution-timeline",
+        "cultural-institution website",
+        "CMS-editable immersive biography timeline",
+        "first-party-case-study"
+      ],
+      "useCases": [
+        "motion interaction projects",
+        "immersive-cultural-institution-timeline",
+        "cultural-institution website"
+      ],
+      "userWords": [
+        "A strong reference for making a deep institutional archive feel explorable rather than overwhelming: a layered timeline starts with broad ideals, then reveals more detailed related content through deliberate zoom levels."
+      ],
+      "visualTraits": [
+        "immersive-cultural-institution-timeline",
+        "Muhammad Ali Center",
+        "Dogstudio for the Muhammad Ali Center",
+        "https://dogstudio.co/cases/muhammad-ali-center/",
+        "cultural-institution website",
+        "CMS-editable immersive biography timeline",
+        "zoomable-biography-timeline",
+        "Timeline as a distinct immersive destination",
+        "Dogstudio describes the Muhammad Ali timeline as an immersive experience within the wider site, dedicated to browsing key moments from his life.",
+        "Treat a dense chronology as a named destination with its own orientation and pacing, rather than appending every event to a conventional content page.",
+        "stage-shell",
+        "Broad-to-specific content hierarchy",
+        "The case frames the wider platform around cultural offerings, education, social-justice initiatives, and community programmes before introducing the dedicated timeline.",
+        "Establish a clear primary information architecture before offering an immersive branch, so an expressive interaction does not become the only route into institutional content.",
+        "custom-font",
+        "editorial hierarchy",
+        "Dogstudio identifies Founders Grotesk X-Condensed, Antonia Variable, and Guillon as the project type combination; no type files or source artwork are included here.",
+        "Use an independently licensed or original type system with clear display, narrative, and utility roles instead of reproducing the source typography.",
+        "ui-overlay",
+        "timeline orientation and level control",
+        "The source describes multiple timeline zoom levels that lead from high-level ideas toward related content.",
+        "Keep the active zoom level, available depth, and return path visible whenever an interface lets people enter a layered narrative.",
+        "narrative-zoom",
+        "Progressive detail through zoom levels"
+      ],
+      "roles": [
+        "case-reference",
+        "motion-interaction-projects-reference",
+        "motion-patterns"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "libraryId": "motion-interaction-projects",
+      "status": "accepted",
+      "captureDepth": "first-party-case-study",
+      "sourceUrls": [
+        "https://dogstudio.co/cases/muhammad-ali-center",
+        "https://alicenter.org/"
+      ],
+      "sourceUrlHashes": [
+        "c3c10686ca8486e9",
+        "8c4af5198ec48141"
+      ],
+      "files": {
+        "catalog": "design-templates/motion-interaction-projects/references/catalog.json",
+        "source": "design-templates/motion-interaction-projects/references/entries/muhammad-ali-center-immersive-timeline.json",
+        "preview": "design-templates/motion-interaction-projects/example.html"
+      },
+      "previewScope": "shared-collection"
+    },
+    {
       "id": "motion-interaction-projects:resn-creative-digital-agency-homepage",
       "kind": "case-study",
       "title": "Resn - Creative Digital Agency",
