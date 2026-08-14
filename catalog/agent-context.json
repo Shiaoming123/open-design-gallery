@@ -2,10 +2,10 @@
   "schemaVersion": "od-agent-context/v2",
   "generatedAt": "1970-01-01T00:00:00.000Z",
   "totals": {
-    "assets": 447,
+    "assets": 448,
     "libraries": 12,
-    "caseStudyEntries": 116,
-    "sourceUrlHashes": 357,
+    "caseStudyEntries": 117,
+    "sourceUrlHashes": 358,
     "thinEntries": 3
   },
   "libraries": [
@@ -97,13 +97,13 @@
       "kind": "case-study",
       "sourcePath": "design-templates/editorial-magazine-projects/references/catalog.json",
       "previewPath": "design-templates/editorial-magazine-projects/example.html",
-      "totalAssets": 6,
-      "totalEntries": 6,
+      "totalAssets": 7,
+      "totalEntries": 7,
       "statusCounts": {
-        "accepted": 6
+        "accepted": 7
       },
       "captureDepthCounts": {
-        "artifact-study": 4,
+        "artifact-study": 5,
         "case-study": 2
       },
       "thinEntries": []
@@ -1175,6 +1175,30 @@
       ],
       "sourceUrlHashes": [
         "8d9732f2d611d73f"
+      ],
+      "sourceUrlCount": 1
+    },
+    {
+      "assetId": "editorial-magazine-projects:sight-and-sound-film-magazine-redesign",
+      "libraryId": "editorial-magazine-projects",
+      "title": "Sight and Sound",
+      "status": "accepted",
+      "captureDepth": "artifact-study",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/sight-and-sound-film-magazine-redesign.json",
+      "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "roles": [
+        "case-reference",
+        "editorial-magazine-projects-reference"
+      ],
+      "tags": [
+        "editorial-magazine-projects",
+        "film-magazine-redesign",
+        "editorial-magazine",
+        "A print-and-digital redesign for the British Film Institute's film magazine, using clapperboard-derived grids, typographic contrast, and section color to pace dense cinema coverage",
+        "artifact-study"
+      ],
+      "sourceUrlHashes": [
+        "7accbdb60455ce96"
       ],
       "sourceUrlCount": 1
     },

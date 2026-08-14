@@ -4,8 +4,8 @@
   "description": "A source-linked case library for magazine redesigns, editorial spreads, publication systems, and visual essays. Entries capture cover logic, reading rhythm, type and image systems, and reusable editorial principles without copying external publication assets.",
   "indexes": {
     "views": ["entries", "readingRhythm", "compositions", "typeImageSystems", "assets", "motion", "interactions"],
-    "compositionTypes": ["corner-lockup-cover", "contents-taxonomy", "feature-opener-spread", "section-color-coding", "wraparound-spine-cover", "dual-cover-identity", "directory-index-bridge", "full-bleed-photo-rhythm", "portable-half-size-format", "overprinted-collage-spread", "mid-book-frontmatter-reversal", "speaker-monogram-divider", "manifesto-reference-cover", "newsprint-monochrome-rhythm", "concrete-poetry-headline-system", "rule-breaking-image-placement", "editorial-hero-grid", "browser-window-frame", "overlay-mark", "cover-as-entry-point", "neighborhood-route-map", "cover-as-character"],
-    "assetTypes": ["configurable-logo", "type-family-system", "section-paper-coding", "editorial-illustration-direction", "condensed-cover-wordmark", "hero-color-field", "paired-cover-photography", "directory-index-typography", "fluoro-overprint-layer", "abstract-speaker-monograms", "foil-production-finish", "newsprint-monochrome-system", "concrete-poetry-title-settings", "manifesto-reference-letterforms", "illustration", "photography", "display-type", "modular-color-blocks", "editorial-mark", "localized-edition-system", "type-play-system"],
+    "compositionTypes": ["corner-lockup-cover", "contents-taxonomy", "feature-opener-spread", "section-color-coding", "wraparound-spine-cover", "dual-cover-identity", "directory-index-bridge", "full-bleed-photo-rhythm", "portable-half-size-format", "overprinted-collage-spread", "mid-book-frontmatter-reversal", "speaker-monogram-divider", "manifesto-reference-cover", "newsprint-monochrome-rhythm", "concrete-poetry-headline-system", "rule-breaking-image-placement", "editorial-hero-grid", "browser-window-frame", "overlay-mark", "cover-as-entry-point", "neighborhood-route-map", "cover-as-character", "clapperboard-grid", "variable-cover-masthead", "vertical-feature-headline"],
+    "assetTypes": ["configurable-logo", "type-family-system", "section-paper-coding", "editorial-illustration-direction", "condensed-cover-wordmark", "hero-color-field", "paired-cover-photography", "directory-index-typography", "fluoro-overprint-layer", "abstract-speaker-monograms", "foil-production-finish", "newsprint-monochrome-system", "concrete-poetry-title-settings", "manifesto-reference-letterforms", "illustration", "photography", "display-type", "modular-color-blocks", "editorial-mark", "localized-edition-system", "type-play-system", "heritage-wordmark", "film-black-palette", "paired-editorial-typefaces"],
     "motionTypes": ["digital-issue-transition"],
     "interactionTypes": ["reading-mode-navigation"]
   },
@@ -15,6 +15,7 @@
     "entries/circular-22-typographic-circle-publication-redesign.json",
     "entries/brooklyn-rail-anthropophagy-issue-editorial-design.json",
     "entries/nothing-personal-editorial-platform.json",
-    "entries/wepresent-no-5-community-magazine.json"
+    "entries/wepresent-no-5-community-magazine.json",
+    "entries/sight-and-sound-film-magazine-redesign.json"
   ]
 }

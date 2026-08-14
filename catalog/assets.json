@@ -2144,6 +2144,75 @@
       "previewScope": "shared-collection"
     },
     {
+      "id": "editorial-magazine-projects:sight-and-sound-film-magazine-redesign",
+      "kind": "case-study",
+      "title": "Sight and Sound",
+      "summary": "A strong editorial-system reference because one structural metaphor—the clapperboard—governs page rhythm, cover behavior, typography, and digital extension without making every section look the same.",
+      "sourcePath": "design-templates/editorial-magazine-projects/references/entries/sight-and-sound-film-magazine-redesign.json",
+      "previewPath": "design-templates/editorial-magazine-projects/example.html",
+      "tags": [
+        "editorial-magazine-projects",
+        "film-magazine-redesign",
+        "editorial-magazine",
+        "A print-and-digital redesign for the British Film Institute's film magazine, using clapperboard-derived grids, typographic contrast, and section color to pace dense cinema coverage",
+        "artifact-study"
+      ],
+      "useCases": [
+        "editorial magazine projects",
+        "film-magazine-redesign",
+        "editorial-magazine"
+      ],
+      "userWords": [
+        "A strong editorial-system reference because one structural metaphor—the clapperboard—governs page rhythm, cover behavior, typography, and digital extension without making every section look the same."
+      ],
+      "visualTraits": [
+        "film-magazine-redesign",
+        "Sight and Sound",
+        "Pentagram / Marina Willer and team for the British Film Institute",
+        "https://www.pentagram.com/work/sight-and-sound/story",
+        "editorial-magazine",
+        "A print-and-digital redesign for the British Film Institute's film magazine, using clapperboard-derived grids, typographic contrast, and section color to pace dense cinema coverage",
+        "clapperboard-grid",
+        "Visible grids turn a film-production cue into editorial pacing",
+        "Pentagram grounds the magazine's design language in film clapperboards, using bold type and visible grids to create contrast in pace across editorial pages.",
+        "Choose one domain-specific structural metaphor when a publication needs an ownable grid logic; let it regulate hierarchy and tempo rather than become decorative wallpaper.",
+        "variable-cover-masthead",
+        "A stable masthead flexes with the issue's content color",
+        "Section backgrounds signpost the magazine's content, while the cover masthead changes color according to the issue's subject matter.",
+        "Keep the wordmark geometry stable and vary a constrained color field when recurring issues need freshness without losing shelf recognition.",
+        "vertical-feature-headline",
+        "Feature typography can rotate and crop to change reading speed",
+        "Opening spreads juxtapose imagery and type through full-bleed, cropped, and circular image treatments; some headlines run vertically for added impact.",
+        "Reserve rotation, overscale, and image cropping for feature openers so they signal a deliberate change of pace without weakening ordinary article readability.",
+        "heritage-wordmark",
+        "A reworked historical mark connects a contemporary system to the magazine's legacy",
+        "The redesigned logo revisits a 1970s direction with Aldo Novarese's Eurostile and spells out 'and' rather than using an ampersand.",
+        "When renewing a long-running publication, identify one historical typographic cue worth carrying forward and redraw it for current use instead of recreating the archive wholesale.",
+        "paired-editorial-typefaces",
+        "Condensed display type and a readable serif create cinematic tension"
+      ],
+      "roles": [
+        "case-reference",
+        "editorial-magazine-projects-reference"
+      ],
+      "sourcePolicy": "inspiration-only",
+      "libraryId": "editorial-magazine-projects",
+      "status": "accepted",
+      "captureDepth": "artifact-study",
+      "sourceUrls": [
+        "https://www.pentagram.com/work/sight-and-sound/story"
+      ],
+      "sourceUrlHashes": [
+        "7accbdb60455ce96"
+      ],
+      "files": {
+        "catalog": "design-templates/editorial-magazine-projects/references/catalog.json",
+        "source": "design-templates/editorial-magazine-projects/references/entries/sight-and-sound-film-magazine-redesign.json",
+        "preview": "design-templates/editorial-magazine-projects/example.html"
+      },
+      "previewScope": "shared-collection"
+    },
+    {
       "id": "editorial-magazine-projects:the-baffler-editorial-redesign",
       "kind": "case-study",
       "title": "The Baffler",

@@ -1,0 +1,80 @@
+{
+  "id": "sight-and-sound-film-magazine-redesign",
+  "category": "film-magazine-redesign",
+  "project": {
+    "title": "Sight and Sound",
+    "maker": "Pentagram / Marina Willer and team for the British Film Institute",
+    "url": "https://www.pentagram.com/work/sight-and-sound/story",
+    "medium": "editorial-magazine",
+    "format": "A print-and-digital redesign for the British Film Institute's film magazine, using clapperboard-derived grids, typographic contrast, and section color to pace dense cinema coverage"
+  },
+  "why": "A strong editorial-system reference because one structural metaphor—the clapperboard—governs page rhythm, cover behavior, typography, and digital extension without making every section look the same.",
+  "compositions": [
+    {
+      "type": "clapperboard-grid",
+      "title": "Visible grids turn a film-production cue into editorial pacing",
+      "url": "https://www.pentagram.com/work/sight-and-sound/story",
+      "study": "Pentagram grounds the magazine's design language in film clapperboards, using bold type and visible grids to create contrast in pace across editorial pages.",
+      "reuse": "Choose one domain-specific structural metaphor when a publication needs an ownable grid logic; let it regulate hierarchy and tempo rather than become decorative wallpaper."
+    },
+    {
+      "type": "variable-cover-masthead",
+      "title": "A stable masthead flexes with the issue's content color",
+      "url": "https://www.pentagram.com/work/sight-and-sound/story",
+      "study": "Section backgrounds signpost the magazine's content, while the cover masthead changes color according to the issue's subject matter.",
+      "reuse": "Keep the wordmark geometry stable and vary a constrained color field when recurring issues need freshness without losing shelf recognition."
+    },
+    {
+      "type": "vertical-feature-headline",
+      "title": "Feature typography can rotate and crop to change reading speed",
+      "url": "https://www.pentagram.com/work/sight-and-sound/story",
+      "study": "Opening spreads juxtapose imagery and type through full-bleed, cropped, and circular image treatments; some headlines run vertically for added impact.",
+      "reuse": "Reserve rotation, overscale, and image cropping for feature openers so they signal a deliberate change of pace without weakening ordinary article readability."
+    }
+  ],
+  "assets": [
+    {
+      "type": "heritage-wordmark",
+      "role": "A reworked historical mark connects a contemporary system to the magazine's legacy",
+      "notes": "The redesigned logo revisits a 1970s direction with Aldo Novarese's Eurostile and spells out 'and' rather than using an ampersand.",
+      "reuse": "When renewing a long-running publication, identify one historical typographic cue worth carrying forward and redraw it for current use instead of recreating the archive wholesale."
+    },
+    {
+      "type": "paired-editorial-typefaces",
+      "role": "Condensed display type and a readable serif create cinematic tension",
+      "notes": "The system pairs condensed and semi-condensed 205TF Plaak for headlines with Matthew Carter's Big Caslon for body copy.",
+      "reuse": "Pair a highly directional display face with a calmer reading face when a magazine needs dramatic section openers without sacrificing sustained reading."
+    },
+    {
+      "type": "film-black-palette",
+      "role": "Black anchors the identity while a secondary palette classifies content",
+      "notes": "Black is used across brand communications alongside a complementary palette; colored backgrounds distinguish sections and masthead states.",
+      "reuse": "Use one semantically resonant neutral as the identity base, then give a small supporting palette a specific navigational job."
+    }
+  ],
+  "motion": [],
+  "interactions": [
+    {
+      "type": "reading-mode-navigation",
+      "title": "Print identity extends into timely digital criticism",
+      "url": "https://www.pentagram.com/work/sight-and-sound/story",
+      "study": "Pentagram documents social and digital channels supporting the print publication with real-time reviews and commentary.",
+      "reuse": "Treat digital channels as a complementary reading mode with their own cadence; do not assume that a print spread becomes a web page unchanged."
+    }
+  ],
+  "implementation": {
+    "format": "Print-and-digital editorial redesign for a film publication, built from a clapperboard-inspired grid, bold headline treatment, a heritage-aware wordmark, and section coding.",
+    "complexity": "high",
+    "notes": "The official Pentagram case study provides enough detail about the visual metaphor, typography, image treatment, section palette, cover variation, and digital extension for an accepted artifact-study. This entry records those principles only; it does not include magazine artwork, fonts, or source assets."
+  },
+  "capture": {
+    "date": "2026-08-14",
+    "sourceLinks": [
+      "https://www.pentagram.com/work/sight-and-sound/story"
+    ],
+    "attribution": "Pentagram, led by Marina Willer, for the British Film Institute; project team Cleber de Campos, Rita Desport, Stuart Gough, Megan Wear, Jeremy Downes, and Kate Blewett.",
+    "reusePolicy": "inspiration-only",
+    "captureDepth": "artifact-study"
+  },
+  "status": "accepted"
+}
